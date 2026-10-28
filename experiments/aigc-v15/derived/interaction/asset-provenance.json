@@ -1,0 +1,76 @@
+{
+  "sourceRepository": "https://github.com/ToddZhaoXY/Bing-MM-design-library",
+  "purpose": "Transparent selection paint only; original artwork is not included.",
+  "assets": [
+    {
+      "file": "selected-paint-3x2.png",
+      "sha256": "f198367fcb55abf85236fba3cfaab6e9fd2effd5cb6851abd8cf1eddcfe57f8f",
+      "pixelSize": [
+        446,
+        301
+      ],
+      "renderSize": [
+        223,
+        150.5
+      ],
+      "sources": [
+        {
+          "path": "experiments/aigc-v15/derived/batch-01/check.svg",
+          "sha256": "efd1ad91e4b3fca2c6d58b15603bb28edebd340ab9bb9c5fec5f51cb08e94f42",
+          "role": "Original 28px check vector, unchanged paths and colors"
+        },
+        {
+          "path": "experiments/aigc-v15/derived/batch-01/selection-mask.png",
+          "sha256": "433f2650c997893bf262a333a711f42e40da2ede4f4c5f101b1a0c28bd599b8d",
+          "role": "Original black paint and intended 30% opacity"
+        }
+      ],
+      "transform": "Only combine full-size uniform black selection mask with the original centered check vector, then rasterize at 2\u00d7. No thumbnail or component pixels are included.",
+      "sourceOpacity": 0.3,
+      "alphaQuantization": "30% black uses the same 77/255 quantization as selection-mask.png; previous 1px mask encoded 76/255.",
+      "checkRenderSize": [
+        28,
+        28
+      ],
+      "checkOffset": [
+        97.5,
+        61.25
+      ]
+    },
+    {
+      "file": "selected-paint-1x1.png",
+      "sha256": "6a24c2c8cb72ce2601d3056f2cd472cbdb8521de508cc4a1686828496ea7f0ae",
+      "pixelSize": [
+        300,
+        301
+      ],
+      "renderSize": [
+        150,
+        150.5
+      ],
+      "sources": [
+        {
+          "path": "experiments/aigc-v15/derived/batch-01/check.svg",
+          "sha256": "efd1ad91e4b3fca2c6d58b15603bb28edebd340ab9bb9c5fec5f51cb08e94f42",
+          "role": "Original 28px check vector, unchanged paths and colors"
+        },
+        {
+          "path": "experiments/aigc-v15/derived/batch-01/selection-mask.png",
+          "sha256": "433f2650c997893bf262a333a711f42e40da2ede4f4c5f101b1a0c28bd599b8d",
+          "role": "Original black paint and intended 30% opacity"
+        }
+      ],
+      "transform": "Only combine full-size uniform black selection mask with the original centered check vector, then rasterize at 2\u00d7. No thumbnail or component pixels are included.",
+      "sourceOpacity": 0.3,
+      "alphaQuantization": "30% black uses the same 77/255 quantization as selection-mask.png; previous 1px mask encoded 76/255.",
+      "checkRenderSize": [
+        28,
+        28
+      ],
+      "checkOffset": [
+        61,
+        61.25
+      ]
+    }
+  ]
+}
