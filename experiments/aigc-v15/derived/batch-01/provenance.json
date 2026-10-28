@@ -1,0 +1,297 @@
+{
+  "source": "source/projects/aigc/site/src/components/AigcMolecules.tsx",
+  "sourceSha256": "befb9568930395ac2be2d893beec129826bfffc229054b29eb571e77087f93ff",
+  "runtimeValidation": "not performed; local preparation only",
+  "assets": [
+    {
+      "file": "main-3x2.webp",
+      "sha256": "796ec684b1a168929c019d0efe60fef9024bb21b84740e0d51f3fbd7b5554d8a",
+      "sourceHash": "78c3724e4f1be49e35f2f5b02bc334feb500041e",
+      "sourceSha256": "da152fe1b2b05ef1caed21e5494bd9b8199c5bcca81005208f4bd202b34bba86",
+      "renderSize": [
+        909,
+        608
+      ],
+      "cropBox": [
+        2.870065789473756,
+        0.0,
+        2045.1299342105262,
+        1366.0
+      ],
+      "role": "foreground artwork"
+    },
+    {
+      "file": "main-1x1.webp",
+      "sha256": "e9525194ea550abf2778ba42054d449ff5c82d588a1736768a18988546db23c4",
+      "sourceHash": "3ff315905c14ee837c58ba797ffa6e2ba05337b0",
+      "sourceSha256": "d31d21492c063e4c7e01ffcb9ebef5e16d9bc200c597a49e77c4217f793a97db",
+      "renderSize": [
+        608,
+        608
+      ],
+      "cropBox": [
+        0.0,
+        0.0,
+        800.0,
+        800.0
+      ],
+      "role": "foreground artwork"
+    },
+    {
+      "file": "main-2x3.webp",
+      "sha256": "62689c6e7c79d1594433db11ecce0d790234d6b566d56d8861b15fa5bb4d677b",
+      "sourceHash": "a8b4a6117c783b42345ec0c4301e59f97f2230cd",
+      "sourceSha256": "113f017cd786c0697356500be58e0c8ef4cc9272be877be6b4368340df138c39",
+      "renderSize": [
+        404,
+        608
+      ],
+      "cropBox": [
+        0.7105263157894512,
+        0.0,
+        431.2894736842105,
+        648.0
+      ],
+      "role": "foreground artwork"
+    },
+    {
+      "file": "thumb-3x2-0.webp",
+      "sha256": "755179d17a193db7553d99412c85fdffe125ebdf73f995802a1ec45e0192d78a",
+      "sourceHash": "78c3724e4f1be49e35f2f5b02bc334feb500041e",
+      "sourceSha256": "da152fe1b2b05ef1caed21e5494bd9b8199c5bcca81005208f4bd202b34bba86",
+      "renderSize": [
+        223,
+        150.5
+      ],
+      "cropBox": [
+        11.980066445182729,
+        0.0,
+        2036.0199335548173,
+        1366.0
+      ],
+      "role": "thumbnail artwork"
+    },
+    {
+      "file": "thumb-3x2-1.webp",
+      "sha256": "3a5a2cac9e1b8ac156495079a19c60df8b3916706dd5bfcf1212855238b91e7b",
+      "sourceHash": "bdaf4e94891b34d77a6aeb5f08d63a78410af701",
+      "sourceSha256": "4deeb57fea664bd921b0e1fa4df325245d559b35bf89386183cf84aa5de8c042",
+      "renderSize": [
+        223,
+        150.5
+      ],
+      "cropBox": [
+        9.355481727574784,
+        0.0,
+        1526.644518272425,
+        1024.0
+      ],
+      "role": "thumbnail artwork"
+    },
+    {
+      "file": "thumb-3x2-2.webp",
+      "sha256": "37fe53cdfdd7e46fcf0757d80a95ba3e16114f5269972899df5828402bad225c",
+      "sourceHash": "18d4c9b4598e5f3901f5ed68e1d32f76259427b0",
+      "sourceSha256": "a94c787641050d3acf1de12cf59627e765241a0ea2adf2b40fa6eaf80046862c",
+      "renderSize": [
+        223,
+        150.5
+      ],
+      "cropBox": [
+        9.355481727574784,
+        0.0,
+        1526.644518272425,
+        1024.0
+      ],
+      "role": "thumbnail artwork"
+    },
+    {
+      "file": "thumb-3x2-3.webp",
+      "sha256": "b157a8c14ba4748178ab1f70b4fe265967a69dded42c96c1e36b790c4cf7eb41",
+      "sourceHash": "d2f3353cf4c0032723219b92034d4403bcc73d49",
+      "sourceSha256": "075d3ab58ea28d6d04c47d744cb47c916fbdd60e1fa6623ed91b65443a2e90d2",
+      "renderSize": [
+        223,
+        150.5
+      ],
+      "cropBox": [
+        9.355481727574784,
+        0.0,
+        1526.644518272425,
+        1024.0
+      ],
+      "role": "thumbnail artwork"
+    },
+    {
+      "file": "thumb-1x1-0.webp",
+      "sha256": "bd58275a2c096991bc2669bb3d56f4d4ba3972b3d263e0e3501cac758bd23c18",
+      "sourceHash": "3ff315905c14ee837c58ba797ffa6e2ba05337b0",
+      "sourceSha256": "d31d21492c063e4c7e01ffcb9ebef5e16d9bc200c597a49e77c4217f793a97db",
+      "renderSize": [
+        150,
+        150.5
+      ],
+      "cropBox": [
+        1.328903654485032,
+        0.0,
+        798.671096345515,
+        800.0
+      ],
+      "role": "thumbnail artwork"
+    },
+    {
+      "file": "thumb-1x1-1.webp",
+      "sha256": "b14a7e2f1fa81bbb97278f5b4ac4b5bde4c180b03ff769d18198b47ea154caa5",
+      "sourceHash": "6c5a60f55eb5b7acd57eee2d424220e7f78a07b4",
+      "sourceSha256": "373bbf226a9cc1ad245fd5b17bc5d49c5fe04ef405381ee2e1536b4b2f81e17a",
+      "renderSize": [
+        150,
+        150.5
+      ],
+      "cropBox": [
+        1.328903654485032,
+        0.0,
+        798.671096345515,
+        800.0
+      ],
+      "role": "thumbnail artwork"
+    },
+    {
+      "file": "thumb-1x1-2.webp",
+      "sha256": "47ae4b09a8b789e0f795fd2758f0eafd0ba259bda4df2e5e0d5caa2d90733998",
+      "sourceHash": "081f9bcc235ae3a6e9acb77087ce8c966882e4eb",
+      "sourceSha256": "f22c5319c1ebb4d4b2fb94b229a1656e7f0929b8b9ce6dd3cc87a2a3e5edfc68",
+      "renderSize": [
+        150,
+        150.5
+      ],
+      "cropBox": [
+        1.328903654485032,
+        0.0,
+        798.671096345515,
+        800.0
+      ],
+      "role": "thumbnail artwork"
+    },
+    {
+      "file": "thumb-1x1-3.webp",
+      "sha256": "dadfe76fbcae1b06dc46c717ed2cd1a0505714c588c4f51e319de8b722b4ac0a",
+      "sourceHash": "c209fdaea75c9296b44d8ac78be6550b33bb8b99",
+      "sourceSha256": "27143072034dc128f2ab4aa2a770a3b939593cfc5b318a5e4e574049b70c47b9",
+      "renderSize": [
+        150,
+        150.5
+      ],
+      "cropBox": [
+        1.328903654485032,
+        0.0,
+        798.671096345515,
+        800.0
+      ],
+      "role": "thumbnail artwork"
+    },
+    {
+      "file": "backdrop-1x1.png",
+      "sha256": "a8454b52382fc2336c5dfffde11e63044c347e0cf01411ed49cfb021ab7da920",
+      "sourceHash": "3ff315905c14ee837c58ba797ffa6e2ba05337b0",
+      "sourceSha256": "d31d21492c063e4c7e01ffcb9ebef5e16d9bc200c597a49e77c4217f793a97db",
+      "blurPx": 90,
+      "sourceBox": [
+        1091,
+        745
+      ],
+      "sourceOffset": [
+        -55,
+        -68.5
+      ],
+      "renderSize": [
+        982,
+        608
+      ],
+      "role": "blurred background paint only; clipping follows source"
+    },
+    {
+      "file": "backdrop-2x3.png",
+      "sha256": "6c263bf04dea12634d3d1a005e733f823292f5544ac7acafa1a0fc5546ded842",
+      "sourceHash": "a8b4a6117c783b42345ec0c4301e59f97f2230cd",
+      "sourceSha256": "113f017cd786c0697356500be58e0c8ef4cc9272be877be6b4368340df138c39",
+      "blurPx": 60,
+      "sourceBox": [
+        1091,
+        745
+      ],
+      "sourceOffset": [
+        -55,
+        -68.5
+      ],
+      "renderSize": [
+        982,
+        608
+      ],
+      "role": "blurred background paint only; clipping follows source"
+    },
+    {
+      "file": "selection-mask.png",
+      "sha256": "433f2650c997893bf262a333a711f42e40da2ede4f4c5f101b1a0c28bd599b8d",
+      "role": "transparent paint only",
+      "alpha": 0.3
+    },
+    {
+      "file": "badge-dim.png",
+      "sha256": "457718e46f2fb84ea4f0c41850923d408fa0524674be601bf837214f035cb766",
+      "role": "transparent paint only",
+      "alpha": 0.2
+    },
+    {
+      "file": "stage-wash.png",
+      "sha256": "2e1348c87011b52c3037fe96c6039d3b4a76451637befeed704d229e518310b7",
+      "role": "transparent paint only",
+      "alpha": 0.03
+    },
+    {
+      "file": "footer-gradient.png",
+      "sha256": "12e435125e164e5cbcbef142a4e292a488f1b8fb344e5723c11c75877a7b379d",
+      "role": "source footer gradient only",
+      "stops": [
+        "rgba(0,0,0,0) 0%",
+        "rgba(0,0,0,.7) 49.3013%"
+      ]
+    },
+    {
+      "file": "check.svg",
+      "sha256": "efd1ad91e4b3fca2c6d58b15603bb28edebd340ab9bb9c5fec5f51cb08e94f42",
+      "role": "original SourceIcon paths",
+      "renderSize": [
+        28,
+        28
+      ]
+    },
+    {
+      "file": "edit.svg",
+      "sha256": "e48d22ea8ee3b60e24012b1a901b3ab46b3a57897376822661156a68f287a743",
+      "role": "original SourceIcon paths",
+      "renderSize": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "like.svg",
+      "sha256": "1fd473e870c9f37862e93e6e966fa7795093cc9ca6ad68160c47c167f1c865ca",
+      "role": "original SourceIcon paths and original 28px control paint",
+      "renderSize": [
+        28,
+        28
+      ]
+    },
+    {
+      "file": "dislike.svg",
+      "sha256": "41772bf2415e5f29be2e216ef2014845f4501e7a7e82d9ce8868b8c695ba0a9e",
+      "role": "original SourceIcon paths and original 28px control paint",
+      "renderSize": [
+        28,
+        28
+      ]
+    }
+  ]
+}
