@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Design Systems · MM Image / AIGC / Video</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.mjs"></script>
+  </head>
+  <body>
+    <header class="system-bar">
+      <div class="system-tabs" role="tablist" aria-label="Design system">
+        <button id="tab-mm-image" class="system-tab" type="button" role="tab" aria-controls="panel-mm-image" aria-selected="true" tabindex="0" data-system="mm-image">MM Image</button>
+        <button id="tab-aigc" class="system-tab" type="button" role="tab" aria-controls="panel-aigc" aria-selected="false" tabindex="-1" data-system="aigc">AIGC</button>
+        <button id="tab-video" class="system-tab" type="button" role="tab" aria-controls="panel-video" aria-selected="false" tabindex="-1" data-system="video">Video</button>
+      </div>
+    </header>
+    <main class="systems" aria-label="Component library">
+      <section id="panel-mm-image" class="system-panel" role="tabpanel" aria-labelledby="tab-mm-image"></section>
+      <section id="panel-aigc" class="system-panel" role="tabpanel" aria-labelledby="tab-aigc" hidden inert></section>
+      <section id="panel-video" class="system-panel" role="tabpanel" aria-labelledby="tab-video" hidden inert></section>
+    </main>
+    <noscript>
+      <div class="no-script">Please enable JavaScript to use these React component libraries.</div>
+    </noscript>
+  </body>
+</html>

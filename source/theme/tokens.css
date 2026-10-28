@@ -1,0 +1,30 @@
+:root {
+  --hub-paper: #fcfcfd;
+  --hub-surface: #ffffff;
+  --hub-nav: #f5f6f8;
+  --hub-canvas: #f0f2f5;
+  --hub-ink: #202631;
+  --hub-muted: #596372;
+  --hub-line: #e0e4ea;
+  --hub-line-strong: #c8ced8;
+  --hub-accent: #2859a6;
+  --hub-accent-soft: #e8eef8;
+  --hub-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --hub-mono: ui-monospace, SFMono-Regular, Consolas, monospace;
+  --hub-text-meta: .75rem;
+  --hub-text-control: .875rem;
+  --hub-text-body: 1rem;
+  --hub-text-section: 1.25rem;
+  --hub-text-title: 2rem;
+  --hub-space-xs: 4px;
+  --hub-space-sm: 8px;
+  --hub-space-md: 12px;
+  --hub-space-lg: 16px;
+  --hub-space-xl: 24px;
+  --hub-space-2xl: 32px;
+  --hub-space-3xl: 48px;
+  --hub-radius-sm: 6px;
+  --hub-radius-md: 10px;
+  --hub-radius-lg: 14px;
+  --hub-nav-width: 236px;
+}

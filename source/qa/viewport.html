@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portal viewport QA</title>
+<style>html,body{margin:0;height:100%;overflow:auto;background:#e5e7eb}iframe{display:block;width:390px;height:100vh;border:0;background:#fff}</style>
+<iframe title="390px portal viewport" src="http://127.0.0.1:5196/"></iframe>
+<script>
+  const width = Number(new URLSearchParams(location.search).get('width')) || 390;
+  const frame = document.querySelector('iframe');
+  frame.style.width = Math.max(320, Math.min(3840, width)) + 'px';
+  frame.title = width + 'px portal viewport';
+  if (new URLSearchParams(location.search).has('fit')) {
+    const scale = Math.min(1, window.innerWidth / width);
+    frame.style.height = '1080px';
+    frame.style.transformOrigin = 'top left';
+    frame.style.transform = 'scale(' + scale + ')';
+  }
+</script>
+</html>

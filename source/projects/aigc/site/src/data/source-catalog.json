@@ -1,0 +1,1109 @@
+{
+  "fileKey": "8voz5X3e3lPITEt9q5bbUe",
+  "runId": "2026-09-23T04-32-44-310Z-cad283cd",
+  "extractedAt": "2026-09-23T04:35:21.660Z",
+  "pageCount": 13,
+  "nodeCount": 13937,
+  "imageCount": 75,
+  "warnings": [
+    {
+      "stage": "property variantProperties",
+      "nodeId": "461:30110",
+      "message": "in get_variantProperties: Component set for node has existing errors"
+    },
+    {
+      "stage": "property componentProperties",
+      "nodeId": "461:30110",
+      "message": "in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "stage": "property variantProperties",
+      "nodeId": "581:37291",
+      "message": "in get_variantProperties: Component set for node has existing errors"
+    },
+    {
+      "stage": "property componentProperties",
+      "nodeId": "581:37291",
+      "message": "in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "stage": "property variantProperties",
+      "nodeId": "614:40018",
+      "message": "in get_variantProperties: Component set for node has existing errors"
+    },
+    {
+      "stage": "property componentProperties",
+      "nodeId": "614:40018",
+      "message": "in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "stage": "property variantProperties",
+      "nodeId": "614:40938",
+      "message": "in get_variantProperties: Component set for node has existing errors"
+    },
+    {
+      "stage": "property componentProperties",
+      "nodeId": "614:40938",
+      "message": "in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83685",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83689",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83678",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83681",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property variantGroupProperties",
+      "nodeId": "437:83587",
+      "message": "in get_variantGroupProperties: Component set has existing errors"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83587",
+      "message": "in get_componentPropertyDefinitions: Component set has existing errors"
+    },
+    {
+      "stage": "property variantProperties",
+      "nodeId": "437:83588",
+      "message": "in get_variantProperties: Component set for node has existing errors"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83588",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property variantProperties",
+      "nodeId": "437:83604",
+      "message": "in get_variantProperties: Component set for node has existing errors"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83604",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property variantProperties",
+      "nodeId": "437:83620",
+      "message": "in get_variantProperties: Component set for node has existing errors"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83620",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property variantProperties",
+      "nodeId": "437:83630",
+      "message": "in get_variantProperties: Component set for node has existing errors"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83630",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83641",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83649",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83652",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83655",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83658",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83661",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83665",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "437:83669",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "461:31859",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "461:31878",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "461:31860",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "461:31951",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "461:31861",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "461:31963",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "464:32759",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "464:32758",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "470:34233",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "470:34232",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "470:34251",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "470:34252",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "470:34377",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "470:34376",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "470:34591",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "470:34590",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "470:34589",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "470:34588",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "470:34587",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "508:30660",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "508:30659",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "508:30658",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "508:31111",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "508:31110",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "508:31109",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "508:31107",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "508:31108",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "508:31715",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "508:31675",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "508:31693",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "508:31708",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "508:31685",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "508:31701",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "542:32053",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "551:34584",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "542:32052",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    },
+    {
+      "stage": "property componentPropertyDefinitions",
+      "nodeId": "542:32051",
+      "message": "in get_componentPropertyDefinitions: Can only get component property definitions of a component set or non-variant component"
+    }
+  ],
+  "families": [
+    {
+      "id": "437:83684",
+      "name": "Template card",
+      "type": "COMPONENT_SET",
+      "width": 251,
+      "height": 186,
+      "axes": {
+        "Property 1": {
+          "values": [
+            "Original",
+            "Template"
+          ]
+        }
+      },
+      "configurations": [
+        {
+          "id": "437:83685",
+          "name": "Property 1=Template",
+          "width": 88,
+          "height": 116,
+          "properties": {
+            "Property 1": "Template"
+          }
+        },
+        {
+          "id": "437:83689",
+          "name": "Property 1=Original",
+          "width": 88,
+          "height": 116,
+          "properties": {
+            "Property 1": "Original"
+          }
+        }
+      ]
+    },
+    {
+      "id": "437:83677",
+      "name": "CheckmarkCircle",
+      "type": "COMPONENT_SET",
+      "width": 76,
+      "height": 132,
+      "axes": {
+        "Property 1": {
+          "values": [
+            "Default",
+            "Variant2"
+          ]
+        }
+      },
+      "configurations": [
+        {
+          "id": "437:83678",
+          "name": "Property 1=Default",
+          "width": 28,
+          "height": 28,
+          "properties": {
+            "Property 1": "Default"
+          }
+        },
+        {
+          "id": "437:83681",
+          "name": "Property 1=Variant2",
+          "width": 24,
+          "height": 24,
+          "properties": {
+            "Property 1": "Variant2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "437:83587",
+      "name": "Action row",
+      "type": "COMPONENT_SET",
+      "width": 1174,
+      "height": 316,
+      "axes": {},
+      "configurations": [
+        {
+          "id": "437:83588",
+          "name": "Property 1=Image, Property 2=Default ",
+          "width": 1134,
+          "height": 36,
+          "properties": {}
+        },
+        {
+          "id": "437:83604",
+          "name": "Property 1=Image, Property 2=Loading ",
+          "width": 1134,
+          "height": 36,
+          "properties": {}
+        },
+        {
+          "id": "437:83620",
+          "name": "Property 1=Video",
+          "width": 1134,
+          "height": 36,
+          "properties": {}
+        },
+        {
+          "id": "437:83630",
+          "name": "Property 1=Video, Property 2=Loading",
+          "width": 1134,
+          "height": 36,
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "id": "437:83640",
+      "name": "HistoryRail",
+      "type": "COMPONENT_SET",
+      "width": 259,
+      "height": 248,
+      "axes": {
+        "Property 1": {
+          "values": [
+            "Multi",
+            "Single",
+            "Loading",
+            "Video"
+          ]
+        },
+        "Property 2": {
+          "values": [
+            "Default",
+            "Selected"
+          ]
+        }
+      },
+      "configurations": [
+        {
+          "id": "437:83641",
+          "name": "Property 1=Multi, Property 2=Selected",
+          "width": 53.999996185302734,
+          "height": 53.999996185302734,
+          "properties": {
+            "Property 1": "Multi",
+            "Property 2": "Selected"
+          }
+        },
+        {
+          "id": "437:83649",
+          "name": "Property 1=Single, Property 2=Default",
+          "width": 54,
+          "height": 54,
+          "properties": {
+            "Property 1": "Single",
+            "Property 2": "Default"
+          }
+        },
+        {
+          "id": "437:83652",
+          "name": "Property 1=Loading, Property 2=Default",
+          "width": 54,
+          "height": 54,
+          "properties": {
+            "Property 1": "Loading",
+            "Property 2": "Default"
+          }
+        },
+        {
+          "id": "437:83655",
+          "name": "Property 1=Loading, Property 2=Selected",
+          "width": 54,
+          "height": 54,
+          "properties": {
+            "Property 1": "Loading",
+            "Property 2": "Selected"
+          }
+        },
+        {
+          "id": "437:83658",
+          "name": "Property 1=Single, Property 2=Selected",
+          "width": 54,
+          "height": 54,
+          "properties": {
+            "Property 1": "Single",
+            "Property 2": "Selected"
+          }
+        },
+        {
+          "id": "437:83661",
+          "name": "Property 1=Video, Property 2=Selected",
+          "width": 54,
+          "height": 54,
+          "properties": {
+            "Property 1": "Video",
+            "Property 2": "Selected"
+          }
+        },
+        {
+          "id": "437:83665",
+          "name": "Property 1=Video, Property 2=Default",
+          "width": 54,
+          "height": 54,
+          "properties": {
+            "Property 1": "Video",
+            "Property 2": "Default"
+          }
+        },
+        {
+          "id": "437:83669",
+          "name": "Property 1=Multi, Property 2=Default",
+          "width": 53.999996185302734,
+          "height": 53.999996185302734,
+          "properties": {
+            "Property 1": "Multi",
+            "Property 2": "Default"
+          }
+        }
+      ]
+    },
+    {
+      "id": "461:31862",
+      "name": "MainImage",
+      "type": "COMPONENT_SET",
+      "width": 2586,
+      "height": 2620,
+      "axes": {
+        "Property 1": {
+          "values": [
+            "2:3",
+            "1:1",
+            "3:2"
+          ]
+        },
+        "Status": {
+          "values": [
+            "Default",
+            "hover"
+          ]
+        }
+      },
+      "configurations": [
+        {
+          "id": "461:31859",
+          "name": "Property 1=3:2, Status=Default",
+          "width": 909,
+          "height": 608,
+          "properties": {
+            "Property 1": "3:2",
+            "Status": "Default"
+          }
+        },
+        {
+          "id": "461:31878",
+          "name": "Property 1=3:2, Status=hover",
+          "width": 909,
+          "height": 608,
+          "properties": {
+            "Property 1": "3:2",
+            "Status": "hover"
+          }
+        },
+        {
+          "id": "461:31860",
+          "name": "Property 1=1:1, Status=Default",
+          "width": 982,
+          "height": 608,
+          "properties": {
+            "Property 1": "1:1",
+            "Status": "Default"
+          }
+        },
+        {
+          "id": "461:31951",
+          "name": "Property 1=1:1, Status=hover",
+          "width": 982,
+          "height": 608,
+          "properties": {
+            "Property 1": "1:1",
+            "Status": "hover"
+          }
+        },
+        {
+          "id": "461:31861",
+          "name": "Property 1=2:3, Status=Default",
+          "width": 982,
+          "height": 608,
+          "properties": {
+            "Property 1": "2:3",
+            "Status": "Default"
+          }
+        },
+        {
+          "id": "461:31963",
+          "name": "Property 1=2:3, Status=hover",
+          "width": 982,
+          "height": 608,
+          "properties": {
+            "Property 1": "2:3",
+            "Status": "hover"
+          }
+        }
+      ]
+    },
+    {
+      "id": "464:32760",
+      "name": "Footer",
+      "type": "COMPONENT_SET",
+      "width": 949,
+      "height": 383,
+      "axes": {
+        "Property 1": {
+          "values": [
+            "2 lines",
+            "4 lines"
+          ]
+        }
+      },
+      "configurations": [
+        {
+          "id": "464:32759",
+          "name": "Property 1=2 lines",
+          "width": 909,
+          "height": 108,
+          "properties": {
+            "Property 1": "2 lines"
+          }
+        },
+        {
+          "id": "464:32758",
+          "name": "Property 1=4 lines",
+          "width": 909,
+          "height": 152,
+          "properties": {
+            "Property 1": "4 lines"
+          }
+        }
+      ]
+    },
+    {
+      "id": "470:34234",
+      "name": "Display image",
+      "type": "COMPONENT_SET",
+      "width": 537,
+      "height": 389,
+      "axes": {
+        "Property 1": {
+          "values": [
+            "selected",
+            "unselected"
+          ]
+        },
+        "Property 2": {
+          "values": [
+            "1:1",
+            "3:2"
+          ]
+        }
+      },
+      "configurations": [
+        {
+          "id": "470:34233",
+          "name": "Property 1=selected, Property 2=3:2",
+          "width": 223,
+          "height": 150.5,
+          "properties": {
+            "Property 1": "selected",
+            "Property 2": "3:2"
+          }
+        },
+        {
+          "id": "470:34232",
+          "name": "Property 1=unselected, Property 2=3:2",
+          "width": 223,
+          "height": 150.5,
+          "properties": {
+            "Property 1": "unselected",
+            "Property 2": "3:2"
+          }
+        },
+        {
+          "id": "470:34251",
+          "name": "Property 1=selected, Property 2=1:1",
+          "width": 150,
+          "height": 150.5,
+          "properties": {
+            "Property 1": "selected",
+            "Property 2": "1:1"
+          }
+        },
+        {
+          "id": "470:34252",
+          "name": "Property 1=unselected, Property 2=1:1",
+          "width": 150,
+          "height": 150.5,
+          "properties": {
+            "Property 1": "unselected",
+            "Property 2": "1:1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "470:34378",
+      "name": "Strip",
+      "type": "COMPONENT_SET",
+      "width": 504,
+      "height": 648,
+      "axes": {
+        "Property 1": {
+          "values": [
+            "1:1",
+            "3:2"
+          ]
+        }
+      },
+      "configurations": [
+        {
+          "id": "470:34377",
+          "name": "Property 1=1:1",
+          "width": 150,
+          "height": 608,
+          "properties": {
+            "Property 1": "1:1"
+          }
+        },
+        {
+          "id": "470:34376",
+          "name": "Property 1=3:2",
+          "width": 223,
+          "height": 608,
+          "properties": {
+            "Property 1": "3:2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "470:34592",
+      "name": "Main content",
+      "type": "COMPONENT_SET",
+      "width": 1174,
+      "height": 3556,
+      "axes": {
+        "Property 1": {
+          "values": [
+            "loading status",
+            "Single Image",
+            "Image3:2",
+            "Image1:1",
+            "Image2:3"
+          ]
+        }
+      },
+      "configurations": [
+        {
+          "id": "470:34591",
+          "name": "Property 1=loading status",
+          "width": 1134,
+          "height": 608,
+          "properties": {
+            "Property 1": "loading status"
+          }
+        },
+        {
+          "id": "470:34590",
+          "name": "Property 1=Single Image",
+          "width": 1134,
+          "height": 608,
+          "properties": {
+            "Property 1": "Single Image"
+          }
+        },
+        {
+          "id": "470:34589",
+          "name": "Property 1=Image3:2",
+          "width": 1134,
+          "height": 608,
+          "properties": {
+            "Property 1": "Image3:2"
+          }
+        },
+        {
+          "id": "470:34588",
+          "name": "Property 1=Image1:1",
+          "width": 1134,
+          "height": 608,
+          "properties": {
+            "Property 1": "Image1:1"
+          }
+        },
+        {
+          "id": "470:34587",
+          "name": "Property 1=Image2:3",
+          "width": 1134,
+          "height": 608,
+          "properties": {
+            "Property 1": "Image2:3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "508:30661",
+      "name": "Preview · History",
+      "type": "COMPONENT_SET",
+      "width": 396,
+      "height": 648,
+      "axes": {
+        "Property 1": {
+          "values": [
+            "unsigned in",
+            "half",
+            "full"
+          ]
+        }
+      },
+      "configurations": [
+        {
+          "id": "508:30660",
+          "name": "Property 1=unsigned in",
+          "width": 54,
+          "height": 608,
+          "properties": {
+            "Property 1": "unsigned in"
+          }
+        },
+        {
+          "id": "508:30659",
+          "name": "Property 1=half",
+          "width": 54,
+          "height": 608,
+          "properties": {
+            "Property 1": "half"
+          }
+        },
+        {
+          "id": "508:30658",
+          "name": "Property 1=full",
+          "width": 54,
+          "height": 608,
+          "properties": {
+            "Property 1": "full"
+          }
+        }
+      ]
+    },
+    {
+      "id": "508:31112",
+      "name": "Signing flyout",
+      "type": "COMPONENT_SET",
+      "width": 1025,
+      "height": 1130,
+      "axes": {
+        "Property 1": {
+          "values": [
+            "keep creating",
+            "unlcok models",
+            "unlock uploads",
+            "top right",
+            "reach limit"
+          ]
+        }
+      },
+      "configurations": [
+        {
+          "id": "508:31111",
+          "name": "Property 1=keep creating",
+          "width": 400,
+          "height": 356.703369140625,
+          "properties": {
+            "Property 1": "keep creating"
+          }
+        },
+        {
+          "id": "508:31110",
+          "name": "Property 1=unlcok models",
+          "width": 400,
+          "height": 352.703369140625,
+          "properties": {
+            "Property 1": "unlcok models"
+          }
+        },
+        {
+          "id": "508:31109",
+          "name": "Property 1=unlock uploads",
+          "width": 400,
+          "height": 411,
+          "properties": {
+            "Property 1": "unlock uploads"
+          }
+        },
+        {
+          "id": "508:31107",
+          "name": "Property 1=top right",
+          "width": 435,
+          "height": 154,
+          "properties": {
+            "Property 1": "top right"
+          }
+        },
+        {
+          "id": "508:31108",
+          "name": "Property 1=reach limit",
+          "width": 400,
+          "height": 357.00006103515625,
+          "properties": {
+            "Property 1": "reach limit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "508:31674",
+      "name": "ErrorStatus",
+      "type": "COMPONENT_SET",
+      "width": 2545,
+      "height": 2336,
+      "axes": {
+        "Property 1": {
+          "values": [
+            "Access suspended",
+            "need to re-imagene",
+            "Run into an issue",
+            "in progress",
+            "Need descriptive prompt",
+            "not_signed_in"
+          ]
+        }
+      },
+      "configurations": [
+        {
+          "id": "508:31715",
+          "name": "Property 1=not_signed_in",
+          "width": 1134,
+          "height": 608,
+          "properties": {
+            "Property 1": "not_signed_in"
+          }
+        },
+        {
+          "id": "508:31675",
+          "name": "Property 1=Access suspended",
+          "width": 1134,
+          "height": 608,
+          "properties": {
+            "Property 1": "Access suspended"
+          }
+        },
+        {
+          "id": "508:31693",
+          "name": "Property 1=Run into an issue",
+          "width": 1134,
+          "height": 608,
+          "properties": {
+            "Property 1": "Run into an issue"
+          }
+        },
+        {
+          "id": "508:31708",
+          "name": "Property 1=Need descriptive prompt",
+          "width": 1134,
+          "height": 608,
+          "properties": {
+            "Property 1": "Need descriptive prompt"
+          }
+        },
+        {
+          "id": "508:31685",
+          "name": "Property 1=need to re-imagene",
+          "width": 1134,
+          "height": 608,
+          "properties": {
+            "Property 1": "need to re-imagene"
+          }
+        },
+        {
+          "id": "508:31701",
+          "name": "Property 1=in progress",
+          "width": 1134,
+          "height": 608,
+          "properties": {
+            "Property 1": "in progress"
+          }
+        }
+      ]
+    },
+    {
+      "id": "542:32054",
+      "name": "Composer",
+      "type": "COMPONENT_SET",
+      "width": 1470,
+      "height": 1312,
+      "axes": {
+        "Property 1": {
+          "values": [
+            "empty",
+            "image uploaded",
+            "typing",
+            "Model menu"
+          ]
+        }
+      },
+      "configurations": [
+        {
+          "id": "542:32053",
+          "name": "Property 1=empty",
+          "width": 648,
+          "height": 379,
+          "properties": {
+            "Property 1": "empty"
+          }
+        },
+        {
+          "id": "551:34584",
+          "name": "Property 1=Model menu",
+          "width": 648,
+          "height": 379,
+          "properties": {
+            "Property 1": "Model menu"
+          }
+        },
+        {
+          "id": "542:32052",
+          "name": "Property 1=image uploaded",
+          "width": 580,
+          "height": 162.90122985839844,
+          "properties": {
+            "Property 1": "image uploaded"
+          }
+        },
+        {
+          "id": "542:32051",
+          "name": "Property 1=typing",
+          "width": 580,
+          "height": 166.48147583007812,
+          "properties": {
+            "Property 1": "typing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "542:32853",
+      "name": "Restyle",
+      "type": "COMPONENT",
+      "width": 184,
+      "height": 316,
+      "axes": {},
+      "configurations": []
+    },
+    {
+      "id": "598:38176",
+      "name": "Template card",
+      "type": "COMPONENT",
+      "width": 200,
+      "height": 200,
+      "axes": {},
+      "configurations": []
+    },
+    {
+      "id": "598:39314",
+      "name": "SERP_Carousel",
+      "type": "COMPONENT",
+      "width": 1208,
+      "height": 283,
+      "axes": {},
+      "configurations": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "design-systems-portal",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "build": "node scripts/build.mjs",
+    "build:reuse": "node scripts/build.mjs --reuse-builds",
+    "build:compat": "node scripts/build-compat.mjs",
+    "test:compat": "node --test tests/compat.test.mjs",
+    "package:compat": "node scripts/package-compat.mjs",
+    "dev": "node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test tests/portal.test.mjs tests/boot.test.mjs tests/home.test.mjs",
+    "test:systems": "npm --prefix projects/aigc/site test && npm --prefix projects/video/site test",
+    "package": "node scripts/package.mjs",
+    "verify:sources": "node scripts/capture-originals.mjs --verify",
+    "verify:baseline": "node scripts/verify-baseline.mjs"
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "components": [
+    {
+      "slug": "short-card",
+      "name": "Short Card",
+      "tier": "Molecule",
+      "bin": "MM-built",
+      "verified": true,
+      "nodeId": "1818:74274",
+      "overview": "Portrait video card with Below and Overlay metadata, preview states, and source-native aspect ratios.",
+      "props": [
+        {
+          "name": "state",
+          "kind": "select",
+          "values": [
+            "Default",
+            "Preview",
+            "Post-preview",
+            "VRP-Default",
+            "VRP-preview"
+          ],
+          "default": "Default"
+        },
+        {
+          "name": "metadataPosition",
+          "kind": "select",
+          "values": [
+            "Below",
+            "Overlay"
+          ],
+          "default": "Below"
+        },
+        {
+          "name": "ratio",
+          "kind": "select",
+          "values": [
+            "3:4",
+            "2:3",
+            "9:16"
+          ],
+          "default": "3:4"
+        },
+        {
+          "name": "title",
+          "kind": "text",
+          "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+        },
+        {
+          "name": "duration",
+          "kind": "text",
+          "default": "99:99"
+        },
+        {
+          "name": "source",
+          "kind": "text",
+          "default": "YouTube"
+        },
+        {
+          "name": "channel",
+          "kind": "text",
+          "default": "Channel"
+        }
+      ],
+      "tag": "ShortCard",
+      "sourceIDs": [
+        "1186:8448",
+        "940:569"
+      ],
+      "notes": [
+        "VRP states exist only as Below / 3:4; the renderer normalizes these combinations to the source.",
+        "9:16 exists on the scoped Components page although the Short Card documentation illustrates 3:4 and 2:3.",
+        "Preview displays the source-designed state. Supply real playback through onActivate; no remote video is fabricated."
+      ]
+    },
+    {
+      "slug": "video-metadata",
+      "name": "Video Metadata",
+      "tier": "Molecule",
+      "bin": "ACF-direct",
+      "verified": true,
+      "nodeId": "I1224:4783;1186:6056",
+      "overview": "Title, source/channel and views/date compose the video metadata. Inline uses an 18/28 link title; Below uses a 14/22 two-line title.",
+      "props": [
+        {
+          "name": "placement",
+          "kind": "select",
+          "values": [
+            "Below",
+            "Inline",
+            "Overlay"
+          ],
+          "default": "Below"
+        },
+        {
+          "name": "title",
+          "kind": "text",
+          "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+        },
+        {
+          "name": "source",
+          "kind": "select",
+          "values": [
+            "YouTube",
+            "Vimeo",
+            "Dailymotion",
+            "Instagram",
+            "Micrsoft Start",
+            "Twitch",
+            "Bilibili",
+            "TikTok",
+            "Pinterest",
+            "Facebook",
+            "Web",
+            "iQiyi",
+            "Tencent video",
+            "Youku",
+            "X"
+          ],
+          "default": "YouTube"
+        },
+        {
+          "name": "channel",
+          "kind": "text",
+          "default": "Channel"
+        },
+        {
+          "name": "views",
+          "kind": "text",
+          "default": "10K views"
+        },
+        {
+          "name": "date",
+          "kind": "text",
+          "default": "Nov 08, 2025"
+        },
+        {
+          "name": "showDescription",
+          "kind": "boolean",
+          "default": false
+        }
+      ],
+      "tag": "VideoMetadata",
+      "sourceIDs": [
+        "940:751"
+      ],
+      "notes": [
+        "The source instance text overrides differ from Code Connect's inherited recipe placeholders; actual node values and screenshots govern this implementation."
+      ]
+    },
+    {
+      "slug": "video-magazine-card",
+      "name": "Video Magazine Card",
+      "tier": "Molecule",
+      "bin": "MM-built",
+      "verified": true,
+      "nodeId": "1447:19913",
+      "overview": "Magazine card family entry point. Explore each family workbench for its full source variants.",
+      "props": [
+        {
+          "name": "family",
+          "kind": "select",
+          "values": [
+            "Hero",
+            "More videos",
+            "Shorts",
+            "Playlist"
+          ],
+          "default": "Hero"
+        },
+        {
+          "name": "size",
+          "kind": "select",
+          "values": [
+            "Normal",
+            "Wide",
+            "Super wide"
+          ],
+          "default": "Normal"
+        },
+        {
+          "name": "state",
+          "kind": "select",
+          "values": [
+            "Default",
+            "Preview",
+            "Post-preview"
+          ],
+          "default": "Default"
+        }
+      ],
+      "tag": "VideoMagazineCard",
+      "sourceIDs": [
+        "1014:24800"
+      ],
+      "notes": [
+        "Hero, More videos (list/grid), Shorts list and Playlist are independently reusable child workbenches.",
+        "Family controls select the source-default form; all detailed family options are exposed in child workbenches."
+      ]
+    },
+    {
+      "slug": "video-card",
+      "name": "Video Card",
+      "tier": "Molecule",
+      "bin": "MM-built",
+      "verified": true,
+      "nodeId": "1186:6415",
+      "overview": "Landscape video card reused by the scoped cells and organisms; extracted only from the allowed Components page.",
+      "props": [
+        {
+          "name": "state",
+          "kind": "select",
+          "values": [
+            "Default",
+            "Preview",
+            "Post-preview"
+          ],
+          "default": "Default"
+        },
+        {
+          "name": "metadataPosition",
+          "kind": "select",
+          "values": [
+            "Below",
+            "Inline",
+            "Overlay"
+          ],
+          "default": "Below"
+        },
+        {
+          "name": "placement",
+          "kind": "select",
+          "values": [
+            "SERP",
+            "VRP"
+          ],
+          "default": "SERP"
+        },
+        {
+          "name": "title",
+          "kind": "text",
+          "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+        },
+        {
+          "name": "duration",
+          "kind": "text",
+          "default": "99:99"
+        },
+        {
+          "name": "source",
+          "kind": "text",
+          "default": "YouTube"
+        },
+        {
+          "name": "channel",
+          "kind": "text",
+          "default": "Channel"
+        },
+        {
+          "name": "showDescription",
+          "kind": "boolean",
+          "default": false
+        }
+      ],
+      "tag": "VideoCard",
+      "partOf": "video-metadata",
+      "sourceIDs": [
+        "1186:6417",
+        "139:7061"
+      ],
+      "notes": [
+        "The excluded Video Card documentation page was not read.",
+        "VRP source forms are Below Default/Preview. Other combinations are compositional fallbacks, not additional claimed source variants."
+      ]
+    },
+    {
+      "slug": "video-source-icon",
+      "name": "Video Source Icon",
+      "tier": "Molecule",
+      "bin": "MM-built",
+      "verified": true,
+      "nodeId": "1186:6228",
+      "overview": "The 15 platform marks in the shared Source Icons family, kept at their original dimensions.",
+      "props": [
+        {
+          "name": "source",
+          "kind": "select",
+          "values": [
+            "YouTube",
+            "Vimeo",
+            "Dailymotion",
+            "Instagram",
+            "Micrsoft Start",
+            "Twitch",
+            "Bilibili",
+            "TikTok",
+            "Pinterest",
+            "Facebook",
+            "Web",
+            "iQiyi",
+            "Tencent video",
+            "Youku",
+            "X"
+          ],
+          "default": "YouTube"
+        }
+      ],
+      "tag": "SourceIcon",
+      "partOf": "video-metadata",
+      "sourceIDs": [
+        "1186:6228"
+      ],
+      "notes": [
+        "The misspelling Micrsoft Start is retained as the source variant name; the public API also accepts Microsoft Start."
+      ]
+    },
+    {
+      "slug": "video-hero-card",
+      "name": "Video Hero Card",
+      "tier": "Molecule",
+      "bin": "MM-built",
+      "verified": true,
+      "nodeId": "1447:19385",
+      "overview": "Magazine hero with 424 / 536 / 648 px source widths and 424 px height.",
+      "props": [
+        {
+          "name": "size",
+          "kind": "select",
+          "values": [
+            "Normal",
+            "Wide",
+            "Super wide"
+          ],
+          "default": "Normal"
+        },
+        {
+          "name": "state",
+          "kind": "select",
+          "values": [
+            "Default",
+            "Preview",
+            "Post-preview"
+          ],
+          "default": "Default"
+        }
+      ],
+      "tag": "VideoHeroCard",
+      "partOf": "video-magazine-card",
+      "sourceIDs": [
+        "1447:19390"
+      ]
+    },
+    {
+      "slug": "video-more-card",
+      "name": "Video More Card",
+      "tier": "Molecule",
+      "bin": "MM-built",
+      "verified": true,
+      "nodeId": "1479:43206",
+      "overview": "Three horizontal list items or two/three grid items, in Split and Contained card styles.",
+      "props": [
+        {
+          "name": "layout",
+          "kind": "select",
+          "values": [
+            "List",
+            "Grid"
+          ],
+          "default": "List"
+        },
+        {
+          "name": "cardStyle",
+          "kind": "select",
+          "values": [
+            "Split",
+            "Contained"
+          ],
+          "default": "Split"
+        },
+        {
+          "name": "size",
+          "kind": "select",
+          "values": [
+            "Normal",
+            "Narrow"
+          ],
+          "default": "Normal"
+        },
+        {
+          "name": "state",
+          "kind": "select",
+          "values": [
+            "Default",
+            "Preview",
+            "Post-preview"
+          ],
+          "default": "Default"
+        }
+      ],
+      "tag": "VideoMoreCard",
+      "partOf": "video-magazine-card",
+      "sourceIDs": [
+        "1457:31790",
+        "1479:42149"
+      ],
+      "notes": [
+        "List has one 536 × 424 source configuration; cardStyle and size apply only to Grid."
+      ]
+    },
+    {
+      "slug": "shorts-list-card",
+      "name": "Shorts List Card",
+      "tier": "Molecule",
+      "bin": "MM-built",
+      "verified": true,
+      "nodeId": "1479:49384",
+      "overview": "Magazine Shorts family: Wide, Normal, Grid and Small source layouts.",
+      "props": [
+        {
+          "name": "variant",
+          "kind": "select",
+          "values": [
+            "Wide",
+            "Normal",
+            "Grid",
+            "Small"
+          ],
+          "default": "Wide"
+        },
+        {
+          "name": "state",
+          "kind": "select",
+          "values": [
+            "Default",
+            "Preview",
+            "Post-preview"
+          ],
+          "default": "Default"
+        }
+      ],
+      "tag": "ShortsListCard",
+      "partOf": "video-magazine-card",
+      "sourceIDs": [
+        "1479:47838"
+      ]
+    },
+    {
+      "slug": "playlist-card",
+      "name": "Playlist Card",
+      "tier": "Molecule",
+      "bin": "MM-built",
+      "verified": true,
+      "nodeId": "1481:55471",
+      "overview": "Immersive, list and grid playlist cards. One selector preserves each of the ten source tuples.",
+      "props": [
+        {
+          "name": "configuration",
+          "kind": "select",
+          "values": [
+            "Immersive / Small",
+            "Immersive / Normal",
+            "List view / Wide / Default",
+            "List view / Wide / Hover",
+            "List view / Small / Default",
+            "List view / Small / Hover",
+            "Grid view / Default",
+            "Grid view / Hover",
+            "List view / Tall / Default",
+            "List view / Tall / Hover"
+          ],
+          "default": "Immersive / Normal"
+        }
+      ],
+      "tag": "PlaylistCard",
+      "partOf": "video-magazine-card",
+      "sourceIDs": [
+        "1481:55473"
+      ],
+      "notes": [
+        "Figma reports Component set has existing errors for Playlist property definitions. Exact visible variant names are preserved instead of inventing independent axes."
+      ]
+    },
+    {
+      "slug": "video-supplemental-card",
+      "name": "Supplemental Video Card",
+      "tier": "Molecule",
+      "bin": "Hybrid",
+      "verified": true,
+      "nodeId": "1479:52774",
+      "overview": "All 13 source examples in Other video cards: trending, topic, related searches, immersive single videos, and See more navigation cards.",
+      "tag": "VideoSupplementalCard",
+      "partOf": "video-magazine-card",
+      "sourceIDs": ["1479:52801", "1479:52804", "1479:52807", "1479:52816", "1479:52819", "1479:52822", "1479:52837", "1479:52851", "1479:52863", "1479:52872", "1479:52875", "1479:52884", "1479:52887"],
+      "props": [{
+        "name": "configuration", "kind": "select", "default": "Trending / Wide",
+        "values": ["Trending / Wide", "Trending / Normal", "Trending / Shorts", "Topic / Wide", "Topic / Normal", "Topic / Shorts", "Related / One column", "Related / Two columns", "Related / Tall", "Single / Normal", "Single / Small", "See more / Normal", "See more / Small"]
+      }],
+      "notes": ["These are scoped page examples rather than a single Figma component set. Configuration names identify the observed examples without inventing variants.", "The source usage tips still contain placeholder text. onActivate is the host navigation integration point."]
+    }
+  ]
+}

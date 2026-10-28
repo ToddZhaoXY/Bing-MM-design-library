@@ -1,0 +1,68 @@
+{
+  "fileKey": "fRSRroY4YFgJSeqLLE0Y38",
+  "sourceUrl": "https://www.figma.com/design/fRSRroY4YFgJSeqLLE0Y38/MM-ACF",
+  "date": "2026-10-16",
+  "pages": [
+    {
+      "id": "139:7061",
+      "name": "Components"
+    },
+    {
+      "id": "940:54",
+      "name": "✦  MM VIDEO DESIGN SYSTEM"
+    },
+    {
+      "id": "940:332",
+      "name": "     ↳ Video-specific rules"
+    },
+    {
+      "id": "940:569",
+      "name": "     ↳ Short Card "
+    },
+    {
+      "id": "940:751",
+      "name": "     ↳ Video Metadata"
+    },
+    {
+      "id": "1014:24800",
+      "name": "     ↳ Video Magazine Card"
+    },
+    {
+      "id": "940:1156",
+      "name": "     ↳ Content · Video Group "
+    },
+    {
+      "id": "940:1404",
+      "name": "     ↳ Content · Shorts Group "
+    },
+    {
+      "id": "1014:24801",
+      "name": "     ↳ Content · Video Magazine Zone"
+    },
+    {
+      "id": "940:2243",
+      "name": "     ↳ SERP · Video Answer Mainline"
+    },
+    {
+      "id": "2128:29243",
+      "name": "     ↳ SERP · Video Answer Go-wide （in progress）"
+    },
+    {
+      "id": "2127:24212",
+      "name": "     ↳ SERP · Short Video Answer Mainline"
+    },
+    {
+      "id": "2128:29378",
+      "name": "     ↳ SERP · Short Video Answer Go-wide"
+    },
+    {
+      "id": "940:2319",
+      "name": "     ↳ SERP · Video Magazine Page"
+    },
+    {
+      "id": "940:2564",
+      "name": "     ↳ VRP · Whole Page "
+    }
+  ],
+  "excludedNote": "Divider pages are labels. Video Card page 940:470 and all unlisted pages are excluded; reusable video dependencies found inside the scoped Components page may be implemented."
+}

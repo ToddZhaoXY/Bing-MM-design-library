@@ -1,0 +1,66 @@
+{
+  "title": "Video foundations",
+  "sourceNodeId": "940:332",
+  "summary": "The Video half of MM ACF. Same layer ladder, same spec-card template, same bin model as the Image half — appended below it, sharing one file so reuse is literal rather than described.",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Video-specific rules",
+      "nodeId": "940:333",
+      "body": "The behaviours that separate video from image and that ACF cannot express generically. Everything here is MM-owned policy, not a token."
+    },
+    {
+      "id": "rule-0",
+      "title": "Aspect ratios",
+      "body": "16:9 standard · 9:16 shorts · 4:3 legacy. Fixed per variant — never free-form, unlike Image waterfall tiles.",
+      "nodeId": "940:354"
+    },
+    {
+      "id": "rule-1",
+      "title": "Duration format",
+      "body": "mm:ss under an hour · h:mm:ss over · LIVE for live streams · Shorts label instead of a duration for 9:16.",
+      "nodeId": "940:359"
+    },
+    {
+      "id": "rule-2",
+      "title": "Duration placement",
+      "body": "bottom-right on 16:9 · bottom-left on 9:16. Deliberate deviation from the Image half’s top-left badge rule.",
+      "nodeId": "940:364"
+    },
+    {
+      "id": "rule-3",
+      "title": "Autoplay",
+      "body": "Muted by default. Hover-preview on desktop only; tap-to-play on touch. Never autoplay with sound.",
+      "nodeId": "940:369"
+    },
+    {
+      "id": "rule-4",
+      "title": "Safe areas",
+      "body": "Overlay text sits in the bottom 40% scrim. Keep the top-left clear for content-type badges.",
+      "nodeId": "940:374"
+    },
+    {
+      "id": "rule-5",
+      "title": "Adult gating",
+      "body": "Blur + interstitial per the Adult video guideline. Applies before any thumbnail renders.",
+      "nodeId": "940:379"
+    },
+    {
+      "id": "rule-6",
+      "title": "Item counts",
+      "body": "3–6 items for an inline answer. More warrants a dedicated section or the VRP.",
+      "nodeId": "940:384"
+    },
+    {
+      "id": "usage",
+      "title": "Usage",
+      "nodeId": "940:391",
+      "body": "Referenced by every Video molecule and cell. When a rule here conflicts with generic ACF guidance, this page wins for MM surfaces."
+    },
+    {
+      "id": "source-discrepancies",
+      "title": "Source discrepancies",
+      "body": "The written rules above and current component instances are separate source evidence. Short Card documentation supplies 3:4 and 2:3 ratios (Components also includes 9:16); the captured default places its badge at top-left. Vertical Video Group text says Below, while its actual supplied cards use Inline metadata. The website keeps observed component states and records these differences."
+    }
+  ]
+}

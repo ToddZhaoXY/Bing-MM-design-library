@@ -1,0 +1,119 @@
+{
+  "sourceFile": "8voz5X3e3lPITEt9q5bbUe",
+  "sourceRun": "2026-09-23T04-32-44-310Z-cad283cd",
+  "sourcePage": "Components",
+  "components": [
+    {
+      "slug": "prompt-template-card",
+      "name": "Prompt template card",
+      "tag": "PromptTemplateCard",
+      "tier": "Molecule",
+      "partOf": "creation-composer",
+      "nodeId": "437:83684",
+      "bin": "TBD",
+      "verified": false,
+      "overview": "An 88 × 116 prompt template tile with an image and a caption. The two source configurations are Template, captioned Sketch, and Original.",
+      "props": [{ "name": "property1", "kind": "select", "values": ["Original", "Template"], "default": "Template" }],
+      "originalAxes": { "Property 1": { "reactProp": "property1", "values": ["Original", "Template"], "default": "Template" } },
+      "configurations": [
+        { "nodeId": "437:83685", "value": "Template", "width": 88, "height": 116, "imageSize": 88, "label": "Sketch", "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe" },
+        { "nodeId": "437:83689", "value": "Original", "width": 88, "height": 116, "imageSize": 88, "label": "Original", "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe" }
+      ],
+      "notes": [
+        "Overview is a source-derived summary, not quoted documentation prose. The helper tier/parent are library organization choices.",
+        "Both source PNGs show the same blue folded artwork. The opaque foreground child image overrides the older image fill on Template's parent.",
+        "Original includes the source blue check vector. Template uses 16px image corners; Original uses 24px outer image corners.",
+        "Optional imageHash/src and onSelect props enable host composition; they are not additional Figma variant axes."
+      ]
+    },
+    {
+      "slug": "checkmark-circle",
+      "name": "Checkmark circle",
+      "tag": "CheckmarkCircle",
+      "tier": "Molecule",
+      "partOf": "image-display-list",
+      "nodeId": "437:83677",
+      "bin": "TBD",
+      "verified": false,
+      "overview": "The selected-image check indicator. Default is 28 × 28; Variant2 is 24 × 24. Both preserve the source circle, check vector and shadow.",
+      "props": [{ "name": "property1", "kind": "select", "values": ["Default", "Variant2"], "default": "Default" }],
+      "originalAxes": { "Property 1": { "reactProp": "property1", "values": ["Default", "Variant2"], "default": "Default" } },
+      "configurations": [
+        { "nodeId": "437:83678", "value": "Default", "width": 28, "height": 28, "vectorNodes": ["437:83679", "437:83680"] },
+        { "nodeId": "437:83681", "value": "Variant2", "width": 24, "height": 24, "vectorNodes": ["437:83682", "437:83683"] }
+      ],
+      "notes": ["The source name Variant2 is retained without guessing a semantic name.", "The icon is a noninteractive selected-state indicator. Selection belongs to the image control that contains it.", "Overview is a source-derived summary, not quoted documentation prose; bin remains unassigned."]
+    },
+    {
+      "slug": "main-image-footer",
+      "name": "Main image footer",
+      "tag": "MainImageFooter",
+      "tier": "Molecule",
+      "partOf": "main-image-area",
+      "nodeId": "464:32760",
+      "bin": "TBD",
+      "verified": false,
+      "overview": "The prompt overlay for a generated image: mode and aspect-ratio badges, source prompt text, an edit action, and like/dislike feedback. Two- and four-line variants define the source heights.",
+      "props": [{ "name": "property1", "kind": "select", "values": ["2 lines", "4 lines"], "default": "2 lines" }, { "name": "prompt", "kind": "text", "default": "" }],
+      "originalAxes": { "Property 1": { "reactProp": "property1", "values": ["2 lines", "4 lines"], "default": "2 lines" } },
+      "configurations": [
+        { "nodeId": "464:32759", "value": "2 lines", "width": 909, "height": 108, "promptNode": "464:32604" },
+        { "nodeId": "464:32758", "value": "4 lines", "width": 909, "height": 152, "promptNode": "464:32729" }
+      ],
+      "notes": [
+        "The exact repeated/truncated four-line Figma sample is retained in FOOTER_PROMPTS.",
+        "The source background is transparent-to-black, suitable for overlaying an image.",
+        "Optional prompt/mode/aspectRatio/width and edit/feedback callbacks are host integration props; only property1 is a Figma variant axis.",
+        "Overview is a source-derived summary, not quoted documentation prose; bin remains unassigned."
+      ]
+    },
+    {
+      "slug": "display-image",
+      "name": "Display image",
+      "tag": "DisplayImage",
+      "tier": "Molecule",
+      "partOf": "image-display-list",
+      "nodeId": "470:34234",
+      "bin": "TBD",
+      "verified": false,
+      "overview": "One image in the generated-image display list. Selected images add the source 30% dark overlay and CheckmarkCircle. The two aspect configurations have different source widths.",
+      "props": [
+        { "name": "property1", "kind": "select", "values": ["selected", "unselected"], "default": "selected" },
+        { "name": "property2", "kind": "select", "values": ["1:1", "3:2"], "default": "3:2" }
+      ],
+      "originalAxes": {
+        "Property 1": { "reactProp": "property1", "values": ["selected", "unselected"], "default": "selected" },
+        "Property 2": { "reactProp": "property2", "values": ["1:1", "3:2"], "default": "3:2" }
+      },
+      "configurations": [
+        { "nodeId": "470:34233", "property1": "selected", "property2": "3:2", "width": 223, "height": 150.5, "imageHash": "78c3724e4f1be49e35f2f5b02bc334feb500041e" },
+        { "nodeId": "470:34232", "property1": "unselected", "property2": "3:2", "width": 223, "height": 150.5, "imageHash": "bdaf4e94891b34d77a6aeb5f08d63a78410af701" },
+        { "nodeId": "470:34251", "property1": "selected", "property2": "1:1", "width": 150, "height": 150.5, "imageHash": "3ff315905c14ee837c58ba797ffa6e2ba05337b0" },
+        { "nodeId": "470:34252", "property1": "unselected", "property2": "1:1", "width": 150, "height": 150.5, "imageHash": "6c5a60f55eb5b7acd57eee2d424220e7f78a07b4" }
+      ],
+      "notes": ["The nominal 1:1 source configuration is actually 150 × 150.5 pixels; the half-pixel source height is preserved.", "Standalone configuration previews retain each variant's actual source image. A host can pass imageHash/src when keeping one image across selection changes.", "Overview is a source-derived summary, not quoted documentation prose; bin remains unassigned."]
+    },
+    {
+      "slug": "serp-template-card",
+      "name": "SERP template card",
+      "tag": "SerpTemplateCard",
+      "tier": "Molecule",
+      "partOf": "serp-carousel",
+      "nodeId": "598:38176",
+      "bin": "TBD",
+      "verified": false,
+      "overview": "A 200 × 200 SERP template tile with a 200 × 170 result image, a 48-pixel reference-image inset and the Product Spotlight title.",
+      "props": [],
+      "originalAxes": {},
+      "configurations": [
+        { "nodeId": "598:38176", "width": 200, "height": 200, "imageWidth": 200, "imageHeight": 170, "referenceSize": 48, "referencePosition": { "x": 12, "y": 110 }, "title": "Product Spotlight", "imageHash": "819503ea34a4eb8c90ff9f3d881e28c600231765", "referenceImageHash": "e6ca6b7fd2e5249609839e3e7d27fb69d178a6f8" }
+      ],
+      "notes": [
+        "This is a single component with no canonical variant properties.",
+        "Source image cropping is preserved for the main product image; the visible topmost reference fill is the teapot, not the older portrait fill beneath it.",
+        "Optional title/imageHash/referenceImageHash/src/referenceSrc/onSelect props allow reuse with real carousel content; they are not invented Figma variants.",
+        "Overview is a source-derived summary, not quoted documentation prose; bin remains unassigned."
+      ]
+    }
+  ]
+}

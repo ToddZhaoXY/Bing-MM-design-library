@@ -1,0 +1,337 @@
+{
+  "components": [
+    {
+      "slug": "serp-video-answer-mainline",
+      "name": "SERP · Video Answer Mainline",
+      "tag": "SerpVideoAnswerMainline",
+      "nodeId": "940:2243",
+      "tier": "Organism",
+      "bin": "MM-built",
+      "verified": true,
+      "sourceStatus": "complete",
+      "overview": "Six observed scene configurations: four desktop examples and two mobile examples, with reusable video cards, source query suggestions and folding.",
+      "props": [
+        {
+          "name": "configuration",
+          "kind": "select",
+          "values": [
+            "Desktop Generics",
+            "Desktop Hero folded",
+            "Desktop Hero expanded",
+            "Desktop Hero + Shorts",
+            "Mobile Generics",
+            "Mobile Hero"
+          ],
+          "default": "Desktop Generics"
+        },
+        {
+          "name": "pageShell",
+          "kind": "boolean",
+          "default": true
+        },
+        {
+          "name": "query",
+          "kind": "text",
+          "default": "search"
+        },
+        {
+          "name": "title",
+          "kind": "text",
+          "default": "Clickable text title"
+        },
+        {
+          "name": "selectedIndex",
+          "kind": "select",
+          "values": [
+            "-1",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "default": "-1",
+          "numeric": true
+        }
+      ],
+      "notes": [
+        "Six observed scene configurations: four desktop examples and two mobile examples, with reusable video cards, source query suggestions and folding.",
+        "Source desktop is 1520 px; mobile is 322 px. Generic rows are 690 × 130.667 desktop and 290 × 92 mobile. The desktop folded card viewport is 424 px.",
+        "Configuration selects the supplied scenes; pageShell, selectedIndex, and query are runtime controls, not additional Figma axes.",
+        "Preview state represents the source-designed thumbnail presentation. Host callbacks are required for actual playback, search and navigation."
+      ]
+    },
+    {
+      "slug": "serp-short-video-answer-mainline",
+      "name": "SERP · Short Video Answer Mainline",
+      "tag": "SerpShortVideoAnswerMainline",
+      "nodeId": "2127:24212",
+      "tier": "Organism",
+      "bin": "MM-built",
+      "verified": true,
+      "sourceStatus": "complete",
+      "overview": "Desktop and mobile short-video mainline scenes using the source portrait cards and horizontal scroller.",
+      "props": [
+        {
+          "name": "viewport",
+          "kind": "select",
+          "values": [
+            "Desktop",
+            "Mobile"
+          ],
+          "default": "Desktop"
+        },
+        {
+          "name": "pageShell",
+          "kind": "boolean",
+          "default": true
+        },
+        {
+          "name": "query",
+          "kind": "text",
+          "default": "search"
+        },
+        {
+          "name": "title",
+          "kind": "text",
+          "default": "Clickable text title"
+        },
+        {
+          "name": "selectedIndex",
+          "kind": "select",
+          "values": [
+            "-1",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "default": "-1",
+          "numeric": true
+        }
+      ],
+      "notes": [
+        "Desktop and mobile short-video mainline scenes using the source portrait cards and horizontal scroller.",
+        "The desktop answer is 690 px wide within a 1520 px page; mobile uses a 306 px scroller inside the 322 px source page.",
+        "The source explicitly clips the desktop page at 1200 px. Its lower placeholder results remain scaffold content from Figma."
+      ]
+    },
+    {
+      "slug": "serp-short-video-answer-go-wide",
+      "name": "SERP · Short Video Answer Go-wide",
+      "tag": "SerpShortVideoAnswerGoWide",
+      "nodeId": "2128:29378",
+      "tier": "Organism",
+      "bin": "MM-built",
+      "verified": true,
+      "sourceStatus": "complete",
+      "overview": "Short-video go-wide answer with a 1200 px desktop scroller and the supplied 322 px mobile scene.",
+      "props": [
+        {
+          "name": "viewport",
+          "kind": "select",
+          "values": [
+            "Desktop",
+            "Mobile"
+          ],
+          "default": "Desktop"
+        },
+        {
+          "name": "pageShell",
+          "kind": "boolean",
+          "default": true
+        },
+        {
+          "name": "query",
+          "kind": "text",
+          "default": "search"
+        },
+        {
+          "name": "title",
+          "kind": "text",
+          "default": "Clickable text title"
+        },
+        {
+          "name": "selectedIndex",
+          "kind": "select",
+          "values": [
+            "-1",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "default": "-1",
+          "numeric": true
+        }
+      ],
+      "notes": [
+        "Short-video go-wide answer with a 1200 px desktop scroller and the supplied 322 px mobile scene.",
+        "Desktop shows seven source 158.667 × 312 cards; the mobile scroller uses 160 × 312 cards.",
+        "This supplied short-video design is distinct from the empty long-video Go-wide page."
+      ]
+    },
+    {
+      "slug": "serp-video-magazine-page",
+      "name": "SERP · Video Magazine Page",
+      "tag": "SerpVideoMagazinePage",
+      "nodeId": "940:2319",
+      "tier": "Organism",
+      "bin": "MM-built",
+      "verified": true,
+      "sourceStatus": "complete",
+      "overview": "The source Tom Hanks video-magazine SERP composes the 6-3-3 magazine zone, topic suggestions, video results and People also ask.",
+      "props": [
+        {
+          "name": "pageShell",
+          "kind": "boolean",
+          "default": true
+        },
+        {
+          "name": "query",
+          "kind": "text",
+          "default": "Tom hanks"
+        },
+        {
+          "name": "activeTab",
+          "kind": "select",
+          "values": [
+            "Overview",
+            "Movie",
+            "Awards",
+            "TV shows",
+            "Books"
+          ],
+          "default": "Overview"
+        },
+        {
+          "name": "openQuestion",
+          "kind": "select",
+          "values": [
+            "-1",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "default": "0",
+          "numeric": true
+        },
+        {
+          "name": "magazineState",
+          "kind": "select",
+          "values": [
+            "Default",
+            "Preview",
+            "Post-preview"
+          ],
+          "default": "Default",
+          "under": "Runtime"
+        },
+        {
+          "name": "magazineSelectedIndex",
+          "kind": "select",
+          "values": [
+            "-1",
+            "0",
+            "1",
+            "2"
+          ],
+          "default": "-1",
+          "numeric": true,
+          "under": "Runtime"
+        },
+        {
+          "name": "overviewExpanded",
+          "kind": "boolean",
+          "default": false,
+          "under": "Runtime"
+        },
+        {
+          "name": "showSources",
+          "kind": "boolean",
+          "default": false,
+          "under": "Runtime"
+        },
+        {
+          "name": "selectedIndex",
+          "kind": "select",
+          "values": [
+            "-1",
+            "0",
+            "1",
+            "2"
+          ],
+          "default": "-1",
+          "numeric": true,
+          "under": "Runtime"
+        }
+      ],
+      "notes": [
+        "The source Tom Hanks video-magazine SERP composes the 6-3-3 magazine zone, topic suggestions, video results and People also ask.",
+        "Source page measures 1520 × 2643 px. Category selections preserve tab state; only the supplied Overview content is available.",
+        "Accordion selection and query edits are local state and round-trip through JSX, SDL and saved page state. Search and navigation remain host callbacks."
+      ]
+    },
+    {
+      "slug": "serp-video-answer-go-wide",
+      "name": "SERP · Video Answer Go-wide",
+      "tag": "SerpVideoAnswerGoWide",
+      "nodeId": "2128:29243",
+      "tier": "Organism",
+      "bin": "MM-built",
+      "verified": true,
+      "sourceStatus": "in-progress",
+      "overview": "The selected source page is labelled in progress and has no child nodes.",
+      "props": [],
+      "notes": [
+        "The selected source page is labelled in progress and has no child nodes.",
+        "This route preserves source status; no finished video-answer layout or SDL composition is invented."
+      ]
+    },
+    {
+      "slug": "vrp-whole-page",
+      "name": "VRP · Whole Page",
+      "tag": "VrpWholePage",
+      "nodeId": "940:2564",
+      "tier": "Organism",
+      "bin": "MM-built",
+      "verified": true,
+      "sourceStatus": "reference-only",
+      "overview": "The selected page contains only a reference to the separate Video Vertical Figma file.",
+      "props": [],
+      "notes": [
+        "The selected page contains only a reference to the separate Video Vertical Figma file.",
+        "The linked node dd9IQ0YMNSEtTDs0QhbDFJ / 1990:22578 is a Cover page with a WIP frame; the selected scope supplies no VRP UI.",
+        "The source reference is retained. No placeholder composition is presented as a converted VRP."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1139 @@
+[
+  {
+    "slug": "short-card",
+    "name": "Short Card",
+    "tier": "Molecule",
+    "bin": "MM-built",
+    "verified": true,
+    "nodeId": "1818:74274",
+    "overview": "Portrait video card with Below and Overlay metadata, preview states, and source-native aspect ratios.",
+    "props": [
+      {
+        "name": "state",
+        "kind": "select",
+        "values": [
+          "Default",
+          "Preview",
+          "Post-preview",
+          "VRP-Default",
+          "VRP-preview"
+        ],
+        "default": "Default"
+      },
+      {
+        "name": "metadataPosition",
+        "kind": "select",
+        "values": [
+          "Below",
+          "Overlay"
+        ],
+        "default": "Below"
+      },
+      {
+        "name": "ratio",
+        "kind": "select",
+        "values": [
+          "3:4",
+          "2:3",
+          "9:16"
+        ],
+        "default": "3:4"
+      },
+      {
+        "name": "title",
+        "kind": "text",
+        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+      },
+      {
+        "name": "duration",
+        "kind": "text",
+        "default": "99:99"
+      },
+      {
+        "name": "source",
+        "kind": "text",
+        "default": "YouTube"
+      },
+      {
+        "name": "channel",
+        "kind": "text",
+        "default": "Channel"
+      }
+    ],
+    "tag": "ShortCard",
+    "sourceIDs": [
+      "1186:8448",
+      "940:569"
+    ],
+    "notes": [
+      "VRP states exist only as Below / 3:4; the renderer normalizes these combinations to the source.",
+      "9:16 exists on the scoped Components page although the Short Card documentation illustrates 3:4 and 2:3.",
+      "Preview displays the source-designed state. Supply real playback through onActivate; no remote video is fabricated."
+    ]
+  },
+  {
+    "slug": "video-metadata",
+    "name": "Video Metadata",
+    "tier": "Molecule",
+    "bin": "ACF-direct",
+    "verified": true,
+    "nodeId": "I1224:4783;1186:6056",
+    "overview": "Title, source/channel and views/date compose the video metadata. Inline uses an 18/28 link title; Below uses a 14/22 two-line title.",
+    "props": [
+      {
+        "name": "placement",
+        "kind": "select",
+        "values": [
+          "Below",
+          "Inline",
+          "Overlay"
+        ],
+        "default": "Below"
+      },
+      {
+        "name": "title",
+        "kind": "text",
+        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+      },
+      {
+        "name": "source",
+        "kind": "select",
+        "values": [
+          "YouTube",
+          "Vimeo",
+          "Dailymotion",
+          "Instagram",
+          "Micrsoft Start",
+          "Twitch",
+          "Bilibili",
+          "TikTok",
+          "Pinterest",
+          "Facebook",
+          "Web",
+          "iQiyi",
+          "Tencent video",
+          "Youku",
+          "X"
+        ],
+        "default": "YouTube"
+      },
+      {
+        "name": "channel",
+        "kind": "text",
+        "default": "Channel"
+      },
+      {
+        "name": "views",
+        "kind": "text",
+        "default": "10K views"
+      },
+      {
+        "name": "date",
+        "kind": "text",
+        "default": "Nov 08, 2025"
+      },
+      {
+        "name": "showDescription",
+        "kind": "boolean",
+        "default": false
+      }
+    ],
+    "tag": "VideoMetadata",
+    "sourceIDs": [
+      "940:751"
+    ],
+    "notes": [
+      "The source instance text overrides differ from Code Connect's inherited recipe placeholders; actual node values and screenshots govern this implementation."
+    ]
+  },
+  {
+    "slug": "video-magazine-card",
+    "name": "Video Magazine Card",
+    "tier": "Molecule",
+    "bin": "MM-built",
+    "verified": true,
+    "nodeId": "1447:19913",
+    "overview": "Magazine card family entry point. Explore each family workbench for its full source variants.",
+    "props": [
+      {
+        "name": "family",
+        "kind": "select",
+        "values": [
+          "Hero",
+          "More videos",
+          "Shorts",
+          "Playlist"
+        ],
+        "default": "Hero"
+      },
+      {
+        "name": "size",
+        "kind": "select",
+        "values": [
+          "Normal",
+          "Wide",
+          "Super wide"
+        ],
+        "default": "Normal"
+      },
+      {
+        "name": "state",
+        "kind": "select",
+        "values": [
+          "Default",
+          "Preview",
+          "Post-preview"
+        ],
+        "default": "Default"
+      }
+    ],
+    "tag": "VideoMagazineCard",
+    "sourceIDs": [
+      "1014:24800"
+    ],
+    "notes": [
+      "Hero, More videos (list/grid), Shorts list and Playlist are independently reusable child workbenches.",
+      "Family controls select the source-default form; all detailed family options are exposed in child workbenches."
+    ]
+  },
+  {
+    "slug": "video-card",
+    "name": "Video Card",
+    "tier": "Molecule",
+    "bin": "MM-built",
+    "verified": true,
+    "nodeId": "1186:6415",
+    "overview": "Landscape video card reused by the scoped cells and organisms; extracted only from the allowed Components page.",
+    "props": [
+      {
+        "name": "state",
+        "kind": "select",
+        "values": [
+          "Default",
+          "Preview",
+          "Post-preview"
+        ],
+        "default": "Default"
+      },
+      {
+        "name": "metadataPosition",
+        "kind": "select",
+        "values": [
+          "Below",
+          "Inline",
+          "Overlay"
+        ],
+        "default": "Below"
+      },
+      {
+        "name": "placement",
+        "kind": "select",
+        "values": [
+          "SERP",
+          "VRP"
+        ],
+        "default": "SERP"
+      },
+      {
+        "name": "title",
+        "kind": "text",
+        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+      },
+      {
+        "name": "duration",
+        "kind": "text",
+        "default": "99:99"
+      },
+      {
+        "name": "source",
+        "kind": "text",
+        "default": "YouTube"
+      },
+      {
+        "name": "channel",
+        "kind": "text",
+        "default": "Channel"
+      },
+      {
+        "name": "showDescription",
+        "kind": "boolean",
+        "default": false
+      }
+    ],
+    "tag": "VideoCard",
+    "partOf": "video-metadata",
+    "sourceIDs": [
+      "1186:6417",
+      "139:7061"
+    ],
+    "notes": [
+      "The excluded Video Card documentation page was not read.",
+      "VRP source forms are Below Default/Preview. Other combinations are compositional fallbacks, not additional claimed source variants."
+    ]
+  },
+  {
+    "slug": "video-source-icon",
+    "name": "Video Source Icon",
+    "tier": "Molecule",
+    "bin": "MM-built",
+    "verified": true,
+    "nodeId": "1186:6228",
+    "overview": "The 15 platform marks in the shared Source Icons family, kept at their original dimensions.",
+    "props": [
+      {
+        "name": "source",
+        "kind": "select",
+        "values": [
+          "YouTube",
+          "Vimeo",
+          "Dailymotion",
+          "Instagram",
+          "Micrsoft Start",
+          "Twitch",
+          "Bilibili",
+          "TikTok",
+          "Pinterest",
+          "Facebook",
+          "Web",
+          "iQiyi",
+          "Tencent video",
+          "Youku",
+          "X"
+        ],
+        "default": "YouTube"
+      }
+    ],
+    "tag": "SourceIcon",
+    "partOf": "video-metadata",
+    "sourceIDs": [
+      "1186:6228"
+    ],
+    "notes": [
+      "The misspelling Micrsoft Start is retained as the source variant name; the public API also accepts Microsoft Start."
+    ]
+  },
+  {
+    "slug": "video-hero-card",
+    "name": "Video Hero Card",
+    "tier": "Molecule",
+    "bin": "MM-built",
+    "verified": true,
+    "nodeId": "1447:19385",
+    "overview": "Magazine hero with 424 / 536 / 648 px source widths and 424 px height.",
+    "props": [
+      {
+        "name": "size",
+        "kind": "select",
+        "values": [
+          "Normal",
+          "Wide",
+          "Super wide"
+        ],
+        "default": "Normal"
+      },
+      {
+        "name": "state",
+        "kind": "select",
+        "values": [
+          "Default",
+          "Preview",
+          "Post-preview"
+        ],
+        "default": "Default"
+      }
+    ],
+    "tag": "VideoHeroCard",
+    "partOf": "video-magazine-card",
+    "sourceIDs": [
+      "1447:19390"
+    ]
+  },
+  {
+    "slug": "video-more-card",
+    "name": "Video More Card",
+    "tier": "Molecule",
+    "bin": "MM-built",
+    "verified": true,
+    "nodeId": "1479:43206",
+    "overview": "Three horizontal list items or two/three grid items, in Split and Contained card styles.",
+    "props": [
+      {
+        "name": "layout",
+        "kind": "select",
+        "values": [
+          "List",
+          "Grid"
+        ],
+        "default": "List"
+      },
+      {
+        "name": "cardStyle",
+        "kind": "select",
+        "values": [
+          "Split",
+          "Contained"
+        ],
+        "default": "Split"
+      },
+      {
+        "name": "size",
+        "kind": "select",
+        "values": [
+          "Normal",
+          "Narrow"
+        ],
+        "default": "Normal"
+      },
+      {
+        "name": "state",
+        "kind": "select",
+        "values": [
+          "Default",
+          "Preview",
+          "Post-preview"
+        ],
+        "default": "Default"
+      }
+    ],
+    "tag": "VideoMoreCard",
+    "partOf": "video-magazine-card",
+    "sourceIDs": [
+      "1457:31790",
+      "1479:42149"
+    ],
+    "notes": [
+      "List has one 536 × 424 source configuration; cardStyle and size apply only to Grid."
+    ]
+  },
+  {
+    "slug": "shorts-list-card",
+    "name": "Shorts List Card",
+    "tier": "Molecule",
+    "bin": "MM-built",
+    "verified": true,
+    "nodeId": "1479:49384",
+    "overview": "Magazine Shorts family: Wide, Normal, Grid and Small source layouts.",
+    "props": [
+      {
+        "name": "variant",
+        "kind": "select",
+        "values": [
+          "Wide",
+          "Normal",
+          "Grid",
+          "Small"
+        ],
+        "default": "Wide"
+      },
+      {
+        "name": "state",
+        "kind": "select",
+        "values": [
+          "Default",
+          "Preview",
+          "Post-preview"
+        ],
+        "default": "Default"
+      }
+    ],
+    "tag": "ShortsListCard",
+    "partOf": "video-magazine-card",
+    "sourceIDs": [
+      "1479:47838"
+    ]
+  },
+  {
+    "slug": "playlist-card",
+    "name": "Playlist Card",
+    "tier": "Molecule",
+    "bin": "MM-built",
+    "verified": true,
+    "nodeId": "1481:55471",
+    "overview": "Immersive, list and grid playlist cards. One selector preserves each of the ten source tuples.",
+    "props": [
+      {
+        "name": "configuration",
+        "kind": "select",
+        "values": [
+          "Immersive / Small",
+          "Immersive / Normal",
+          "List view / Wide / Default",
+          "List view / Wide / Hover",
+          "List view / Small / Default",
+          "List view / Small / Hover",
+          "Grid view / Default",
+          "Grid view / Hover",
+          "List view / Tall / Default",
+          "List view / Tall / Hover"
+        ],
+        "default": "Immersive / Normal"
+      }
+    ],
+    "tag": "PlaylistCard",
+    "partOf": "video-magazine-card",
+    "sourceIDs": [
+      "1481:55473"
+    ],
+    "notes": [
+      "Figma reports Component set has existing errors for Playlist property definitions. Exact visible variant names are preserved instead of inventing independent axes."
+    ]
+  },
+  {
+    "slug": "video-supplemental-card",
+    "name": "Supplemental Video Card",
+    "tier": "Molecule",
+    "bin": "Hybrid",
+    "verified": true,
+    "nodeId": "1479:52774",
+    "overview": "All 13 source examples in Other video cards: trending, topic, related searches, immersive single videos, and See more navigation cards.",
+    "tag": "VideoSupplementalCard",
+    "partOf": "video-magazine-card",
+    "sourceIDs": [
+      "1479:52801",
+      "1479:52804",
+      "1479:52807",
+      "1479:52816",
+      "1479:52819",
+      "1479:52822",
+      "1479:52837",
+      "1479:52851",
+      "1479:52863",
+      "1479:52872",
+      "1479:52875",
+      "1479:52884",
+      "1479:52887"
+    ],
+    "props": [
+      {
+        "name": "configuration",
+        "kind": "select",
+        "default": "Trending / Wide",
+        "values": [
+          "Trending / Wide",
+          "Trending / Normal",
+          "Trending / Shorts",
+          "Topic / Wide",
+          "Topic / Normal",
+          "Topic / Shorts",
+          "Related / One column",
+          "Related / Two columns",
+          "Related / Tall",
+          "Single / Normal",
+          "Single / Small",
+          "See more / Normal",
+          "See more / Small"
+        ]
+      }
+    ],
+    "notes": [
+      "These are scoped page examples rather than a single Figma component set. Configuration names identify the observed examples without inventing variants.",
+      "The source usage tips still contain placeholder text. onActivate is the host navigation integration point."
+    ]
+  },
+  {
+    "slug": "video-group",
+    "tag": "VideoGroup",
+    "name": "Content · Video Group",
+    "tier": "Cell",
+    "nodeId": "940:1156",
+    "bin": "MM-built",
+    "verified": true,
+    "sourceStatus": "complete",
+    "overview": "Video results composed from reusable Video Cards: one featured inline result plus an ACF List View, or a shared ACF Horizontal Scroller with source fade and navigation controls.",
+    "props": [
+      {
+        "name": "configuration",
+        "kind": "select",
+        "values": [
+          "Vertical / SERP",
+          "Horizontal / SERP / Below",
+          "Horizontal / SERP / Overlay",
+          "Horizontal / VRP"
+        ],
+        "default": "Vertical / SERP"
+      },
+      {
+        "name": "state",
+        "kind": "select",
+        "values": [
+          "Default",
+          "Preview",
+          "Post-preview"
+        ],
+        "default": "Default",
+        "under": "Runtime"
+      },
+      {
+        "name": "selectedIndex",
+        "kind": "select",
+        "values": [
+          "-1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "default": "-1",
+        "numeric": true,
+        "under": "Runtime"
+      },
+      {
+        "name": "scrollPosition",
+        "kind": "select",
+        "values": [
+          "Start",
+          "Middle",
+          "End"
+        ],
+        "default": "Start",
+        "under": "Runtime"
+      },
+      {
+        "name": "itemCount",
+        "kind": "select",
+        "values": [
+          "0",
+          "3",
+          "6",
+          "9"
+        ],
+        "default": "0",
+        "numeric": true,
+        "under": "Runtime"
+      },
+      {
+        "name": "title",
+        "kind": "text",
+        "default": "",
+        "under": "Runtime"
+      }
+    ],
+    "sourceIDs": [
+      "1241:19870",
+      "1241:23529",
+      "1258:10557",
+      "1258:12465",
+      "1258:10572"
+    ],
+    "notes": [
+      "Configuration is a documented selector over the four visible source compositions, not an invented Figma component axis.",
+      "The overview says metadata Below, but the vertical sample actually uses Inline. The implementation follows the visible sample: 648 × 200 hero, 24 px gap, then three 648 × 130.667 rows with 16 px gaps.",
+      "Horizontal source Below uses 185.9 × 200 cards, 24 px gaps, and a 1104 px copy-me container (variant sample 1056 px). Overlay uses 284.4 px cards with 200 px media clipped by its 160 px scroller. VRP uses five 192 px cards in 1056 px.",
+      "Runtime itemCount 0 restores the source count. An empty title preserves source placeholder copy. selectedIndex -1 leaves the default untouched; non-default state previews the first result until another is selected.",
+      "Horizontal Scroller is one reusable ACF-compatible shell shared by video and shorts. Native scroll, arrow navigation, Home/End and keyboard arrows work. The original reference repo has no standalone connected HorizontalScroller implementation; the shell follows its RSOnTop native-scrolling pattern.",
+      "Preview is an interactive design state. Video playback and result navigation are optional onActivate integration callbacks; no remote video backend is fabricated."
+    ]
+  },
+  {
+    "slug": "shorts-group",
+    "tag": "ShortsGroup",
+    "name": "Content · Shorts Group",
+    "tier": "Cell",
+    "nodeId": "940:1404",
+    "bin": "MM-built",
+    "verified": true,
+    "sourceStatus": "complete",
+    "overview": "Nine Short Cards on the shared ACF Horizontal Scroller. The five visible source compositions retain their exact ratio, metadata placement, card width, media height and 16 px spacing.",
+    "props": [
+      {
+        "name": "configuration",
+        "kind": "select",
+        "values": [
+          "SERP / 3:4 / Below",
+          "SERP / 2:3 / Below",
+          "SERP / 3:4 / Overlay",
+          "SERP / 2:3 / Overlay",
+          "VRP / 3:4 / Below"
+        ],
+        "default": "SERP / 3:4 / Below"
+      },
+      {
+        "name": "state",
+        "kind": "select",
+        "values": [
+          "Default",
+          "Preview",
+          "Post-preview"
+        ],
+        "default": "Default",
+        "under": "Runtime"
+      },
+      {
+        "name": "selectedIndex",
+        "kind": "select",
+        "values": [
+          "-1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "default": "-1",
+        "numeric": true,
+        "under": "Runtime"
+      },
+      {
+        "name": "scrollPosition",
+        "kind": "select",
+        "values": [
+          "Start",
+          "Middle",
+          "End"
+        ],
+        "default": "Start",
+        "under": "Runtime"
+      },
+      {
+        "name": "itemCount",
+        "kind": "select",
+        "values": [
+          "0",
+          "3",
+          "6",
+          "9"
+        ],
+        "default": "0",
+        "numeric": true,
+        "under": "Runtime"
+      },
+      {
+        "name": "title",
+        "kind": "text",
+        "default": "",
+        "under": "Runtime"
+      }
+    ],
+    "sourceIDs": [
+      "1258:13851",
+      "1818:79597",
+      "1818:80291",
+      "1818:80895",
+      "1818:81256",
+      "1818:81770"
+    ],
+    "notes": [
+      "The page overview calls this 9:16, while every visible group uses 3:4 or 2:3. Only the five visible group configurations are offered here; 9:16 remains a Short Card molecule option.",
+      "Below uses 238 px media and a 312 px shell. Overlay uses 200 px media and shell. Card width follows the selected ratio. VRP uses 162 × 216 media and 312 px total height.",
+      "The VRP sample is labelled 待优化 (to be optimized) in Figma. Its actual 3:4 / Below structure is retained; Post-preview maps back to VRP-Default because no VRP post-preview source exists.",
+      "The copy-me shell is 1104 px wide; variant samples are 1056 px wide. Count, width, items and selection remain public React overrides."
+    ]
+  },
+  {
+    "slug": "video-magazine-zone",
+    "tag": "VideoMagazineZone",
+    "name": "Content · Video Magazine Zone",
+    "tier": "Cell",
+    "nodeId": "1014:24801",
+    "bin": "MM-built",
+    "verified": true,
+    "sourceStatus": "complete",
+    "overview": "Two 1200 × 424 magazine compositions on the ACF 12-column grid. SERP combines a hero, overview and stacked overlay/IMDb cards; VRP combines a hero, three-video list and four-playlist list.",
+    "props": [
+      {
+        "name": "placement",
+        "kind": "select",
+        "values": [
+          "SERP",
+          "VRP"
+        ],
+        "default": "SERP"
+      },
+      {
+        "name": "state",
+        "kind": "select",
+        "values": [
+          "Default",
+          "Preview",
+          "Post-preview"
+        ],
+        "default": "Default",
+        "under": "Runtime"
+      },
+      {
+        "name": "selectedIndex",
+        "kind": "select",
+        "values": [
+          "-1",
+          "0",
+          "1",
+          "2"
+        ],
+        "default": "-1",
+        "numeric": true,
+        "under": "Runtime"
+      },
+      {
+        "name": "expanded",
+        "kind": "boolean",
+        "default": false,
+        "under": "Runtime"
+      },
+      {
+        "name": "showSources",
+        "kind": "boolean",
+        "default": false,
+        "under": "Runtime"
+      },
+      {
+        "name": "title",
+        "kind": "text",
+        "default": "",
+        "under": "Runtime"
+      }
+    ],
+    "sourceIDs": [
+      "2136:45835",
+      "2136:50673"
+    ],
+    "notes": [
+      "SERP source spans are 6-3-3 (588, 282, 282 px); VRP spans are 5-4-3 (486, 384, 282 px). All column gaps are 24 px, total height 424 px.",
+      "The same Hero, Video Card, More videos and Playlist molecules are composed here. The hero keeps its source 200:112 media aspect at the cell width.",
+      "Figma has existing component-property errors on the tall Playlist instance. Its visible List view / Tall / Default structure is reused without inventing property definitions.",
+      "The source's Overview Code Connect points at an unrelated missing weather-card-wrapper. No compatible component exists in the provided repo, so its visible header and facts are implemented locally with original Figma images and icons.",
+      "Overview expansion and source disclosure are local runtime interactions. The source shows a 4 Sources badge but only two logos; the disclosure names only the visible IMDb and Wikipedia sources. No target URLs or missing citations are fabricated."
+    ]
+  },
+  {
+    "slug": "serp-video-answer-mainline",
+    "name": "SERP · Video Answer Mainline",
+    "tag": "SerpVideoAnswerMainline",
+    "nodeId": "940:2243",
+    "tier": "Organism",
+    "bin": "MM-built",
+    "verified": true,
+    "sourceStatus": "complete",
+    "overview": "Six observed scene configurations: four desktop examples and two mobile examples, with reusable video cards, source query suggestions and folding.",
+    "props": [
+      {
+        "name": "configuration",
+        "kind": "select",
+        "values": [
+          "Desktop Generics",
+          "Desktop Hero folded",
+          "Desktop Hero expanded",
+          "Desktop Hero + Shorts",
+          "Mobile Generics",
+          "Mobile Hero"
+        ],
+        "default": "Desktop Generics"
+      },
+      {
+        "name": "pageShell",
+        "kind": "boolean",
+        "default": true
+      },
+      {
+        "name": "query",
+        "kind": "text",
+        "default": "search"
+      },
+      {
+        "name": "title",
+        "kind": "text",
+        "default": "Clickable text title"
+      },
+      {
+        "name": "selectedIndex",
+        "kind": "select",
+        "values": [
+          "-1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "default": "-1",
+        "numeric": true
+      }
+    ],
+    "notes": [
+      "Six observed scene configurations: four desktop examples and two mobile examples, with reusable video cards, source query suggestions and folding.",
+      "Source desktop is 1520 px; mobile is 322 px. Generic rows are 690 × 130.667 desktop and 290 × 92 mobile. The desktop folded card viewport is 424 px.",
+      "Configuration selects the supplied scenes; pageShell, selectedIndex, and query are runtime controls, not additional Figma axes.",
+      "Preview state represents the source-designed thumbnail presentation. Host callbacks are required for actual playback, search and navigation."
+    ]
+  },
+  {
+    "slug": "serp-video-answer-go-wide",
+    "name": "SERP · Video Answer Go-wide",
+    "tag": "SerpVideoAnswerGoWide",
+    "nodeId": "2128:29243",
+    "tier": "Organism",
+    "bin": "MM-built",
+    "verified": true,
+    "sourceStatus": "in-progress",
+    "overview": "The selected source page is labelled in progress and has no child nodes.",
+    "props": [],
+    "notes": [
+      "The selected source page is labelled in progress and has no child nodes.",
+      "This route preserves source status; no finished video-answer layout or SDL composition is invented."
+    ]
+  },
+  {
+    "slug": "serp-short-video-answer-mainline",
+    "name": "SERP · Short Video Answer Mainline",
+    "tag": "SerpShortVideoAnswerMainline",
+    "nodeId": "2127:24212",
+    "tier": "Organism",
+    "bin": "MM-built",
+    "verified": true,
+    "sourceStatus": "complete",
+    "overview": "Desktop and mobile short-video mainline scenes using the source portrait cards and horizontal scroller.",
+    "props": [
+      {
+        "name": "viewport",
+        "kind": "select",
+        "values": [
+          "Desktop",
+          "Mobile"
+        ],
+        "default": "Desktop"
+      },
+      {
+        "name": "pageShell",
+        "kind": "boolean",
+        "default": true
+      },
+      {
+        "name": "query",
+        "kind": "text",
+        "default": "search"
+      },
+      {
+        "name": "title",
+        "kind": "text",
+        "default": "Clickable text title"
+      },
+      {
+        "name": "selectedIndex",
+        "kind": "select",
+        "values": [
+          "-1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "default": "-1",
+        "numeric": true
+      }
+    ],
+    "notes": [
+      "Desktop and mobile short-video mainline scenes using the source portrait cards and horizontal scroller.",
+      "The desktop answer is 690 px wide within a 1520 px page; mobile uses a 306 px scroller inside the 322 px source page.",
+      "The source explicitly clips the desktop page at 1200 px. Its lower placeholder results remain scaffold content from Figma."
+    ]
+  },
+  {
+    "slug": "serp-short-video-answer-go-wide",
+    "name": "SERP · Short Video Answer Go-wide",
+    "tag": "SerpShortVideoAnswerGoWide",
+    "nodeId": "2128:29378",
+    "tier": "Organism",
+    "bin": "MM-built",
+    "verified": true,
+    "sourceStatus": "complete",
+    "overview": "Short-video go-wide answer with a 1200 px desktop scroller and the supplied 322 px mobile scene.",
+    "props": [
+      {
+        "name": "viewport",
+        "kind": "select",
+        "values": [
+          "Desktop",
+          "Mobile"
+        ],
+        "default": "Desktop"
+      },
+      {
+        "name": "pageShell",
+        "kind": "boolean",
+        "default": true
+      },
+      {
+        "name": "query",
+        "kind": "text",
+        "default": "search"
+      },
+      {
+        "name": "title",
+        "kind": "text",
+        "default": "Clickable text title"
+      },
+      {
+        "name": "selectedIndex",
+        "kind": "select",
+        "values": [
+          "-1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "default": "-1",
+        "numeric": true
+      }
+    ],
+    "notes": [
+      "Short-video go-wide answer with a 1200 px desktop scroller and the supplied 322 px mobile scene.",
+      "Desktop shows seven source 158.667 × 312 cards; the mobile scroller uses 160 × 312 cards.",
+      "This supplied short-video design is distinct from the empty long-video Go-wide page."
+    ]
+  },
+  {
+    "slug": "serp-video-magazine-page",
+    "name": "SERP · Video Magazine Page",
+    "tag": "SerpVideoMagazinePage",
+    "nodeId": "940:2319",
+    "tier": "Organism",
+    "bin": "MM-built",
+    "verified": true,
+    "sourceStatus": "complete",
+    "overview": "The source Tom Hanks video-magazine SERP composes the 6-3-3 magazine zone, topic suggestions, video results and People also ask.",
+    "props": [
+      {
+        "name": "pageShell",
+        "kind": "boolean",
+        "default": true
+      },
+      {
+        "name": "query",
+        "kind": "text",
+        "default": "Tom hanks"
+      },
+      {
+        "name": "activeTab",
+        "kind": "select",
+        "values": [
+          "Overview",
+          "Movie",
+          "Awards",
+          "TV shows",
+          "Books"
+        ],
+        "default": "Overview"
+      },
+      {
+        "name": "openQuestion",
+        "kind": "select",
+        "values": [
+          "-1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "default": "0",
+        "numeric": true
+      },
+      {
+        "name": "magazineState",
+        "kind": "select",
+        "values": [
+          "Default",
+          "Preview",
+          "Post-preview"
+        ],
+        "default": "Default",
+        "under": "Runtime"
+      },
+      {
+        "name": "magazineSelectedIndex",
+        "kind": "select",
+        "values": [
+          "-1",
+          "0",
+          "1",
+          "2"
+        ],
+        "default": "-1",
+        "numeric": true,
+        "under": "Runtime"
+      },
+      {
+        "name": "overviewExpanded",
+        "kind": "boolean",
+        "default": false,
+        "under": "Runtime"
+      },
+      {
+        "name": "showSources",
+        "kind": "boolean",
+        "default": false,
+        "under": "Runtime"
+      },
+      {
+        "name": "selectedIndex",
+        "kind": "select",
+        "values": [
+          "-1",
+          "0",
+          "1",
+          "2"
+        ],
+        "default": "-1",
+        "numeric": true,
+        "under": "Runtime"
+      }
+    ],
+    "notes": [
+      "The source Tom Hanks video-magazine SERP composes the 6-3-3 magazine zone, topic suggestions, video results and People also ask.",
+      "Source page measures 1520 × 2643 px. Category selections preserve tab state; only the supplied Overview content is available.",
+      "Accordion selection and query edits are local state and round-trip through JSX, SDL and saved page state. Search and navigation remain host callbacks."
+    ]
+  },
+  {
+    "slug": "vrp-whole-page",
+    "name": "VRP · Whole Page",
+    "tag": "VrpWholePage",
+    "nodeId": "940:2564",
+    "tier": "Organism",
+    "bin": "MM-built",
+    "verified": true,
+    "sourceStatus": "reference-only",
+    "overview": "The selected page contains only a reference to the separate Video Vertical Figma file.",
+    "props": [],
+    "notes": [
+      "The selected page contains only a reference to the separate Video Vertical Figma file.",
+      "The linked node dd9IQ0YMNSEtTDs0QhbDFJ / 1990:22578 is a Cover page with a WIP frame; the selected scope supplies no VRP UI.",
+      "The source reference is retained. No placeholder composition is presented as a converted VRP."
+    ]
+  }
+]

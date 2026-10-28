@@ -1,0 +1,85 @@
+{
+  "components": [
+    {
+      "slug": "video-group",
+      "tag": "VideoGroup",
+      "name": "Content · Video Group",
+      "tier": "Cell",
+      "nodeId": "940:1156",
+      "bin": "MM-built",
+      "verified": true,
+      "sourceStatus": "complete",
+      "overview": "Video results composed from reusable Video Cards: one featured inline result plus an ACF List View, or a shared ACF Horizontal Scroller with source fade and navigation controls.",
+      "props": [
+        {"name":"configuration","kind":"select","values":["Vertical / SERP","Horizontal / SERP / Below","Horizontal / SERP / Overlay","Horizontal / VRP"],"default":"Vertical / SERP"},
+        {"name":"state","kind":"select","values":["Default","Preview","Post-preview"],"default":"Default","under":"Runtime"},
+        {"name":"selectedIndex","kind":"select","values":["-1","0","1","2","3","4","5","6","7","8"],"default":"-1","numeric":true,"under":"Runtime"},
+        {"name":"scrollPosition","kind":"select","values":["Start","Middle","End"],"default":"Start","under":"Runtime"},
+        {"name":"itemCount","kind":"select","values":["0","3","6","9"],"default":"0","numeric":true,"under":"Runtime"},
+        {"name":"title","kind":"text","default":"","under":"Runtime"}
+      ],
+      "sourceIDs":["1241:19870","1241:23529","1258:10557","1258:12465","1258:10572"],
+      "notes":[
+        "Configuration is a documented selector over the four visible source compositions, not an invented Figma component axis.",
+        "The overview says metadata Below, but the vertical sample actually uses Inline. The implementation follows the visible sample: 648 × 200 hero, 24 px gap, then three 648 × 130.667 rows with 16 px gaps.",
+        "Horizontal source Below uses 185.9 × 200 cards, 24 px gaps, and a 1104 px copy-me container (variant sample 1056 px). Overlay uses 284.4 px cards with 200 px media clipped by its 160 px scroller. VRP uses five 192 px cards in 1056 px.",
+        "Runtime itemCount 0 restores the source count. An empty title preserves source placeholder copy. selectedIndex -1 leaves the default untouched; non-default state previews the first result until another is selected.",
+        "Horizontal Scroller is one reusable ACF-compatible shell shared by video and shorts. Native scroll, arrow navigation, Home/End and keyboard arrows work. The original reference repo has no standalone connected HorizontalScroller implementation; the shell follows its RSOnTop native-scrolling pattern.",
+        "Preview is an interactive design state. Video playback and result navigation are optional onActivate integration callbacks; no remote video backend is fabricated."
+      ]
+    },
+    {
+      "slug":"shorts-group",
+      "tag":"ShortsGroup",
+      "name":"Content · Shorts Group",
+      "tier":"Cell",
+      "nodeId":"940:1404",
+      "bin":"MM-built",
+      "verified":true,
+      "sourceStatus":"complete",
+      "overview":"Nine Short Cards on the shared ACF Horizontal Scroller. The five visible source compositions retain their exact ratio, metadata placement, card width, media height and 16 px spacing.",
+      "props":[
+        {"name":"configuration","kind":"select","values":["SERP / 3:4 / Below","SERP / 2:3 / Below","SERP / 3:4 / Overlay","SERP / 2:3 / Overlay","VRP / 3:4 / Below"],"default":"SERP / 3:4 / Below"},
+        {"name":"state","kind":"select","values":["Default","Preview","Post-preview"],"default":"Default","under":"Runtime"},
+        {"name":"selectedIndex","kind":"select","values":["-1","0","1","2","3","4","5","6","7","8"],"default":"-1","numeric":true,"under":"Runtime"},
+        {"name":"scrollPosition","kind":"select","values":["Start","Middle","End"],"default":"Start","under":"Runtime"},
+        {"name":"itemCount","kind":"select","values":["0","3","6","9"],"default":"0","numeric":true,"under":"Runtime"},
+        {"name":"title","kind":"text","default":"","under":"Runtime"}
+      ],
+      "sourceIDs":["1258:13851","1818:79597","1818:80291","1818:80895","1818:81256","1818:81770"],
+      "notes":[
+        "The page overview calls this 9:16, while every visible group uses 3:4 or 2:3. Only the five visible group configurations are offered here; 9:16 remains a Short Card molecule option.",
+        "Below uses 238 px media and a 312 px shell. Overlay uses 200 px media and shell. Card width follows the selected ratio. VRP uses 162 × 216 media and 312 px total height.",
+        "The VRP sample is labelled 待优化 (to be optimized) in Figma. Its actual 3:4 / Below structure is retained; Post-preview maps back to VRP-Default because no VRP post-preview source exists.",
+        "The copy-me shell is 1104 px wide; variant samples are 1056 px wide. Count, width, items and selection remain public React overrides."
+      ]
+    },
+    {
+      "slug":"video-magazine-zone",
+      "tag":"VideoMagazineZone",
+      "name":"Content · Video Magazine Zone",
+      "tier":"Cell",
+      "nodeId":"1014:24801",
+      "bin":"MM-built",
+      "verified":true,
+      "sourceStatus":"complete",
+      "overview":"Two 1200 × 424 magazine compositions on the ACF 12-column grid. SERP combines a hero, overview and stacked overlay/IMDb cards; VRP combines a hero, three-video list and four-playlist list.",
+      "props":[
+        {"name":"placement","kind":"select","values":["SERP","VRP"],"default":"SERP"},
+        {"name":"state","kind":"select","values":["Default","Preview","Post-preview"],"default":"Default","under":"Runtime"},
+        {"name":"selectedIndex","kind":"select","values":["-1","0","1","2"],"default":"-1","numeric":true,"under":"Runtime"},
+        {"name":"expanded","kind":"boolean","default":false,"under":"Runtime"},
+        {"name":"showSources","kind":"boolean","default":false,"under":"Runtime"},
+        {"name":"title","kind":"text","default":"","under":"Runtime"}
+      ],
+      "sourceIDs":["2136:45835","2136:50673"],
+      "notes":[
+        "SERP source spans are 6-3-3 (588, 282, 282 px); VRP spans are 5-4-3 (486, 384, 282 px). All column gaps are 24 px, total height 424 px.",
+        "The same Hero, Video Card, More videos and Playlist molecules are composed here. The hero keeps its source 200:112 media aspect at the cell width.",
+        "Figma has existing component-property errors on the tall Playlist instance. Its visible List view / Tall / Default structure is reused without inventing property definitions.",
+        "The source's Overview Code Connect points at an unrelated missing weather-card-wrapper. No compatible component exists in the provided repo, so its visible header and facts are implemented locally with original Figma images and icons.",
+        "Overview expansion and source disclosure are local runtime interactions. The source shows a 4 Sources badge but only two logos; the disclosure names only the visible IMDb and Wikipedia sources. No target URLs or missing citations are fabricated."
+      ]
+    }
+  ]
+}

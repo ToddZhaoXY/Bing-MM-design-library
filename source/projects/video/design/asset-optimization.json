@@ -1,0 +1,16 @@
+{
+  "source": "design/source-assets/88585.png",
+  "output": "site/public/figma/molecules/88585.webp",
+  "beforeBytes": 24635075,
+  "afterBytes": 941520,
+  "sourceDimensions": [
+    3839,
+    2558
+  ],
+  "outputDimensions": [
+    2048,
+    1365
+  ],
+  "quality": 92,
+  "originalPreserved": true
+}

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+*.log
+.build-*/
+Design-Systems-Portal-Compat-delivery/
+Design-Systems-Portal-delivery/

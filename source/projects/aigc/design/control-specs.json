@@ -1,0 +1,85 @@
+{
+  "sourceFile": "8voz5X3e3lPITEt9q5bbUe",
+  "sourceRun": "2026-09-23T04-32-44-310Z-cad283cd",
+  "components": [
+    {
+      "slug": "action-bar", "name": "Action bar", "tag": "ActionBar", "tier": "Cell", "nodeId": "437:83587", "pageId": "395:18355", "bin": "MM-built", "verified": true,
+      "binEvidence": "Scoped spec card 436:69478 contains Status / Bin = MM-built.",
+      "overview": "The Bing Creator image action row. The source includes seven image actions.",
+      "props": [{ "name": "configuration", "kind": "select", "values": ["Image Default", "Image Loading", "Video", "Video Loading"], "default": "Image Default" }],
+      "originalAxes": {},
+      "configurations": [
+        { "nodeId": "437:83588", "name": "Property 1=Image, Property 2=Default ", "value": "Image Default", "width": 1134, "height": 36 },
+        { "nodeId": "437:83604", "name": "Property 1=Image, Property 2=Loading ", "value": "Image Loading", "width": 1134, "height": 36 },
+        { "nodeId": "437:83620", "name": "Property 1=Video", "value": "Video", "width": 1134, "height": 36 },
+        { "nodeId": "437:83630", "name": "Property 1=Video, Property 2=Loading", "value": "Video Loading", "width": 1134, "height": 36 }
+      ],
+      "notes": ["The scoped Action bar documentation shows Image Default; the included Components page supplies all four named configurations.", "Figma componentPropertyDefinitions and variantGroupProperties are absent for this set. configuration is derived from the observed child names, not claimed as a canonical variant axis.", "Image actions are Share, Download, Add to collection, Set as wallpaper, Edit image, Recreate and Explore templates. Video supplies Share and Download.", "Action callbacks are host integration points; the preview does not share, download or generate remotely."]
+    },
+    {
+      "slug": "creation-composer", "name": "Creation composer", "tag": "CreationComposer", "tier": "Cell", "nodeId": "542:32054", "pageId": "436:69594", "bin": "MM-built", "verified": true,
+      "binEvidence": "Scoped spec cards 436:69595 and 551:33264 contain Status / Bin = MM-built.",
+      "overview": "Desktop input surfaces for editing an image and creating a new image. Four supplied configurations cover prompt ideas, populated prompts and model controls.",
+      "props": [
+        { "name": "state", "kind": "select", "values": ["empty", "image uploaded", "typing", "Model menu"], "default": "empty" },
+        { "name": "prompt", "kind": "text", "default": "" },
+        { "name": "mode", "kind": "select", "values": ["Vivid storytelling", "Stylized illustration"], "default": "Vivid storytelling" }
+      ],
+      "originalAxes": { "Property 1": { "values": ["empty", "image uploaded", "typing", "Model menu"], "default": "empty", "reactProp": "state" } },
+      "configurations": [
+        { "nodeId": "542:32053", "value": "empty", "width": 648, "height": 379 },
+        { "nodeId": "551:34584", "value": "Model menu", "width": 648, "height": 379 },
+        { "nodeId": "542:32052", "value": "image uploaded", "width": 580, "height": 162.90122985839844 },
+        { "nodeId": "542:32051", "value": "typing", "width": 580, "height": 166.48147583007812 }
+      ],
+      "notes": ["Property 1 maps to React state, preserving its exact canonical values.", "prompt is a runtime content override of the source input text. Pass undefined for the source typing example; the empty registry string can be normalized to undefined by the renderer.", "mode is a runtime selection from the two observed Model menu labels, not an additional Figma component axis.", "The older faded detached Japandi example remains in the source export; the four canonical component variants take precedence.", "Generate exposes a callback and does not call an image-generation service."]
+    },
+    {
+      "slug": "style-menu", "name": "Style menu", "tag": "StyleMenu", "tier": "Cell", "nodeId": "542:32853", "pageId": "436:70039", "bin": "MM-built", "verified": true,
+      "binEvidence": "Scoped spec card 436:70040 contains Status / Bin = MM-built.",
+      "overview": "The Choose a style menu. The supplied list contains Anime, 3D Cartoon, Plushy, Watercolor, Sketch and Sticker, followed by View more.",
+      "props": [
+        { "name": "selectedStyle", "kind": "select", "values": ["Anime", "3D Cartoon", "Plushy", "Watercolor", "Sketch", "Sticker"], "default": "Sketch" },
+        { "name": "showMore", "kind": "boolean", "default": false }
+      ],
+      "originalAxes": {},
+      "configurations": [{ "nodeId": "542:32853", "width": 184, "height": 316 }],
+      "notes": ["The source is a single component with no published variant axes.", "selectedStyle is demo selection over the six source list labels. Its default reproduces the highlighted Sketch row in the supplied source.", "View more node 542:32789 is present but hidden in the source. showMore defaults to false and exposes that actual slot.", "Thumbnails use the six original Figma image hashes."]
+    },
+    {
+      "slug": "sign-in-prompts", "name": "Sign-in prompts", "tag": "SignInPrompts", "tier": "Cell", "nodeId": "508:31112", "pageId": "436:69152", "bin": "MM-built", "verified": true,
+      "binEvidence": "Scoped spec card 436:69153 contains Status / Bin = MM-built.",
+      "overview": "Four sign-in modal presentations and a supporting flyout. They cover guest limits, guest capacity, advanced models, uploads and parallel creation.",
+      "props": [{ "name": "state", "kind": "select", "values": ["keep creating", "unlcok models", "unlock uploads", "top right", "reach limit"], "default": "reach limit" }],
+      "originalAxes": { "Property 1": { "values": ["keep creating", "unlcok models", "unlock uploads", "top right", "reach limit"], "default": "reach limit", "reactProp": "state" } },
+      "configurations": [
+        { "nodeId": "508:31111", "value": "keep creating", "width": 400, "height": 356.703369140625 },
+        { "nodeId": "508:31110", "value": "unlcok models", "width": 400, "height": 352.703369140625 },
+        { "nodeId": "508:31109", "value": "unlock uploads", "width": 400, "height": 411 },
+        { "nodeId": "508:31107", "value": "top right", "width": 435, "height": 154 },
+        { "nodeId": "508:31108", "value": "reach limit", "width": 400, "height": 357.00006103515625 }
+      ],
+      "notes": ["The source misspelling unlcok models is retained in the variant value.", "Sign-in and close events are local demo/host callbacks; no real account authentication occurs.", "The guest-lock artwork is an illustration-only crop from the source PNG export; other artwork uses original image fills."]
+    },
+    {
+      "slug": "error-states", "name": "Error states", "tag": "ErrorStates", "tier": "Cell", "nodeId": "508:31674", "pageId": "461:31252", "bin": "MM-built", "verified": true,
+      "binEvidence": "Scoped spec card 461:31253 contains Status / Bin = MM-built.",
+      "overview": "Generated-image content and the supplied loading, access-limit and error presentations. The collection includes three image results and seven generation states.",
+      "props": [{ "name": "state", "kind": "select", "values": ["Access suspended", "need to re-imagene", "Run into an issue", "in progress", "Need descriptive prompt", "not_signed_in"], "default": "not_signed_in" }],
+      "originalAxes": { "Property 1": { "values": ["Access suspended", "need to re-imagene", "Run into an issue", "in progress", "Need descriptive prompt", "not_signed_in"], "default": "not_signed_in", "reactProp": "state" } },
+      "configurations": [
+        { "nodeId": "508:31715", "value": "not_signed_in", "width": 1134, "height": 608 },
+        { "nodeId": "508:31675", "value": "Access suspended", "width": 1134, "height": 608 },
+        { "nodeId": "508:31693", "value": "Run into an issue", "width": 1134, "height": 608 },
+        { "nodeId": "508:31708", "value": "Need descriptive prompt", "width": 1134, "height": 608 },
+        { "nodeId": "508:31685", "value": "need to re-imagene", "width": 1134, "height": 608 },
+        { "nodeId": "508:31701", "value": "in progress", "width": 1134, "height": 608 }
+      ],
+      "notes": ["Documentation mentions ten configurations, but the actual canonical ErrorStatus set contains six variants. The registry enumerates the six existing variants and preserves the documentation separately.", "Several documentation captions are mismatched with their embedded instances; component-axis values and actual visible component text take precedence.", "Base source geometry is 1134 × 608. The optional width prop proportionally scales this base for composition; it is not a Figma variant axis."]
+    }
+  ],
+  "illustrationCrops": [
+    { "file": "site/public/figma/controls/guest-lock-modal.png", "sourceFile": "site/public/figma/export/2026-09-23T04-32-44-310Z-cad283cd/sign-in-prompts/node-436-69153.png", "sourceNode": "I508:31113;508:30906", "crop": { "x": 657, "y": 459, "width": 125, "height": 117 } },
+    { "file": "site/public/figma/controls/guest-lock-error.png", "sourceFile": "site/public/figma/export/2026-09-23T04-32-44-310Z-cad283cd/error-states/node-461-31253.png", "sourceNode": "I508:31520;508:31717", "crop": { "x": 643, "y": 524, "width": 153, "height": 138 } }
+  ]
+}

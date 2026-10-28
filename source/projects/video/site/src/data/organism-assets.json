@@ -1,0 +1,107 @@
+{
+  "logo": {
+    "url": "figma/organisms/logo.svg",
+    "width": "18.0084",
+    "height": "18.3068",
+    "viewBox": "0 0 18.0084 18.3068"
+  },
+  "search": {
+    "url": "figma/organisms/search.svg",
+    "width": "20",
+    "height": "20",
+    "viewBox": "0 0 20 20"
+  },
+  "searchSmall": {
+    "url": "figma/organisms/searchSmall.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  "microphone": {
+    "url": "figma/organisms/microphone.svg",
+    "width": "20",
+    "height": "20",
+    "viewBox": "0 0 20 20"
+  },
+  "visualSearch": {
+    "url": "figma/organisms/visualSearch.svg",
+    "width": "20",
+    "height": "20",
+    "viewBox": "0 0 20 20"
+  },
+  "rewards": {
+    "url": "figma/organisms/rewards.svg",
+    "width": "20",
+    "height": "20",
+    "viewBox": "0 0 20 20"
+  },
+  "menu": {
+    "url": "figma/organisms/menu.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  "avatar": {
+    "url": "figma/organisms/avatar.png"
+  },
+  "copilot": {
+    "url": "figma/organisms/copilot.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  "more": {
+    "url": "figma/organisms/more.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  "favicon": {
+    "url": "figma/organisms/favicon.svg",
+    "width": "21.4707",
+    "height": "24",
+    "viewBox": "0 0 21.4707 24"
+  },
+  "sourceIcon": {
+    "url": "figma/organisms/sourceIcon.svg",
+    "width": "23.4707",
+    "height": "24",
+    "viewBox": "0 0 23.4707 24"
+  },
+  "youtube": {
+    "url": "figma/organisms/youtube.svg",
+    "width": "14",
+    "height": "14",
+    "viewBox": "0 0 14 14"
+  },
+  "chevron": {
+    "url": "figma/organisms/chevron.svg",
+    "width": "20",
+    "height": "20",
+    "viewBox": "0 0 20 20"
+  },
+  "arrow": {
+    "url": "figma/organisms/arrow.svg",
+    "width": "12",
+    "height": "12",
+    "viewBox": "0 0 12 12"
+  },
+  "thumb": {
+    "url": "figma/organisms/thumb.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  "down": {
+    "url": "figma/organisms/down.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  },
+  "up": {
+    "url": "figma/organisms/up.svg",
+    "width": "16",
+    "height": "16",
+    "viewBox": "0 0 16 16"
+  }
+}

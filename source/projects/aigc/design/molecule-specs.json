@@ -1,0 +1,700 @@
+{
+  "sourceFileKey": "8voz5X3e3lPITEt9q5bbUe",
+  "sourceRun": "2026-09-23T04-32-44-310Z-cad283cd",
+  "sourceFormat": "Figma Plugin API",
+  "components": [
+    {
+      "slug": "main-image-area",
+      "name": "Main image area",
+      "tag": "MainImageArea",
+      "tier": "Molecule",
+      "bin": "MM-built",
+      "binEvidence": "Status / Bin instance in the corresponding source specification card",
+      "nodeId": "461:31862",
+      "verified": true,
+      "overview": "The main generated image results in different sizes.",
+      "props": [
+        {
+          "name": "property1",
+          "kind": "select",
+          "values": [
+            "3:2",
+            "1:1",
+            "2:3"
+          ],
+          "default": "3:2"
+        },
+        {
+          "name": "status",
+          "kind": "select",
+          "values": [
+            "Default",
+            "hover"
+          ],
+          "default": "Default"
+        },
+        {
+          "name": "prompt",
+          "kind": "text",
+          "default": "A cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+        },
+        {
+          "name": "mode",
+          "kind": "text",
+          "default": "Vivid storytelling"
+        }
+      ],
+      "notes": [
+        "Property 1 is exposed as property1; Status is exposed as status. All six canonical aspect/status combinations are implemented.",
+        "Square and portrait variants retain the 982 x 608 outer stage, centered 608 x 608 or 404 x 608 image and native blurred image backdrop.",
+        "Hover details are also reachable with keyboard focus; feedback and prompt-edit controls use semantic buttons. Product callbacks are optional.",
+        "Hidden source action clusters remain hidden. Documentation configuration counts are stale relative to the canonical component set."
+      ],
+      "sourceIDs": {
+        "componentSet": "461:31862",
+        "page": "395:18350",
+        "overviewText": "436:63028",
+        "documentedInstances": [
+          "464:34061",
+          "464:34073",
+          "464:34074",
+          "464:34020"
+        ]
+      },
+      "figmaName": "MainImage",
+      "componentPropertyDefinitions": {
+        "Property 1": {
+          "type": "VARIANT",
+          "defaultValue": "3:2",
+          "variantOptions": [
+            "2:3",
+            "1:1",
+            "3:2"
+          ]
+        },
+        "Status": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "hover"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "nodeId": "461:31859",
+          "name": "Property 1=3:2, Status=Default",
+          "properties": {
+            "Property 1": "3:2",
+            "Status": "Default"
+          },
+          "width": 909,
+          "height": 608,
+          "cornerRadius": 0,
+          "strokeWeight": 1,
+          "strokes": []
+        },
+        {
+          "nodeId": "461:31878",
+          "name": "Property 1=3:2, Status=hover",
+          "properties": {
+            "Property 1": "3:2",
+            "Status": "hover"
+          },
+          "width": 909,
+          "height": 608,
+          "cornerRadius": 0,
+          "strokeWeight": 1,
+          "strokes": []
+        },
+        {
+          "nodeId": "461:31860",
+          "name": "Property 1=1:1, Status=Default",
+          "properties": {
+            "Property 1": "1:1",
+            "Status": "Default"
+          },
+          "width": 982,
+          "height": 608,
+          "cornerRadius": 0,
+          "strokeWeight": 1.0000001192092896,
+          "strokes": []
+        },
+        {
+          "nodeId": "461:31951",
+          "name": "Property 1=1:1, Status=hover",
+          "properties": {
+            "Property 1": "1:1",
+            "Status": "hover"
+          },
+          "width": 982,
+          "height": 608,
+          "cornerRadius": 0,
+          "strokeWeight": 1.0000001192092896,
+          "strokes": []
+        },
+        {
+          "nodeId": "461:31861",
+          "name": "Property 1=2:3, Status=Default",
+          "properties": {
+            "Property 1": "2:3",
+            "Status": "Default"
+          },
+          "width": 982,
+          "height": 608,
+          "cornerRadius": 0,
+          "strokeWeight": 1.0000001192092896,
+          "strokes": []
+        },
+        {
+          "nodeId": "461:31963",
+          "name": "Property 1=2:3, Status=hover",
+          "properties": {
+            "Property 1": "2:3",
+            "Status": "hover"
+          },
+          "width": 982,
+          "height": 608,
+          "cornerRadius": 0,
+          "strokeWeight": 1.0000001192092896,
+          "strokes": []
+        }
+      ],
+      "propertyMapping": {
+        "property1": "Property 1",
+        "status": "Status"
+      }
+    },
+    {
+      "slug": "image-display-list",
+      "name": "Image display list",
+      "tag": "ImageDisplayList",
+      "tier": "Molecule",
+      "bin": "MM-built",
+      "binEvidence": "Status / Bin instance in the corresponding source specification card",
+      "nodeId": "470:34378",
+      "verified": true,
+      "overview": "A vertical strip of generated image thumbnails. The supplied strip is presented as an independent molecule alongside the main-image documentation.",
+      "props": [
+        {
+          "name": "property1",
+          "kind": "select",
+          "values": [
+            "3:2",
+            "1:1"
+          ],
+          "default": "3:2"
+        },
+        {
+          "name": "selectedIndex",
+          "kind": "select",
+          "values": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "default": "0",
+          "numeric": true
+        }
+      ],
+      "notes": [
+        "Property 1 is exposed as property1. The canonical Strip set contains two variants even though one documentation table says one configuration.",
+        "The four thumbnails are native images with a 2px gap and 150.5px image-row height at the original 608px strip height.",
+        "selectedIndex is a runtime selection control, not a Strip Figma variant. It starts at the selected first thumbnail seen in both source examples.",
+        "Opaque image-fill stacks are represented by their final visible image paint, matching exported previews. Arrow keys and Home/End select and focus thumbnails."
+      ],
+      "sourceIDs": {
+        "componentSet": "470:34378",
+        "page": "461:31677",
+        "overviewText": "461:31687",
+        "documentedInstances": [
+          "470:34379",
+          "470:34407"
+        ]
+      },
+      "figmaName": "Strip",
+      "componentPropertyDefinitions": {
+        "Property 1": {
+          "type": "VARIANT",
+          "defaultValue": "3:2",
+          "variantOptions": [
+            "1:1",
+            "3:2"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "nodeId": "470:34377",
+          "name": "Property 1=1:1",
+          "properties": {
+            "Property 1": "1:1"
+          },
+          "width": 150,
+          "height": 608,
+          "cornerRadius": 0,
+          "strokeWeight": 1.0000001192092896,
+          "strokes": []
+        },
+        {
+          "nodeId": "470:34376",
+          "name": "Property 1=3:2",
+          "properties": {
+            "Property 1": "3:2"
+          },
+          "width": 223,
+          "height": 608,
+          "cornerRadius": 0,
+          "strokeWeight": 1,
+          "strokes": []
+        }
+      ],
+      "propertyMapping": {
+        "property1": "Property 1",
+        "selectedIndex": "Runtime selection; not a Figma variant"
+      }
+    },
+    {
+      "slug": "history-panel-images",
+      "name": "History panel images",
+      "tag": "HistoryPanelImages",
+      "tier": "Molecule",
+      "bin": "MM-built",
+      "binEvidence": "Status / Bin instance in the corresponding source specification card",
+      "nodeId": "437:83640",
+      "verified": true,
+      "overview": "The atomic history-thumbnail unit in the Creator sidebar. Each HistoryRail tile represents one past creation — multi-image results show a 2×2 grid of thumbnails (22×22 each inside 46×46), while single-image results show one full thumbnail. The selected state carries a blue border. Paired with a \"New creation\" button above and a \"See all\" link below.",
+      "props": [
+        {
+          "name": "property1",
+          "kind": "select",
+          "values": [
+            "Multi",
+            "Single",
+            "Loading",
+            "Video"
+          ],
+          "default": "Multi"
+        },
+        {
+          "name": "property2",
+          "kind": "select",
+          "values": [
+            "Default",
+            "Selected"
+          ],
+          "default": "Default"
+        }
+      ],
+      "notes": [
+        "This molecule is one HistoryRail tile; the full history panel composes multiple tiles.",
+        "Property 1 is exposed as property1 and Property 2 as property2. All eight canonical combinations are supported.",
+        "The actual selected stroke is #515151 at 1.2527998686px, not the stale specification table text claiming 2px blue.",
+        "The default multi-image tile is 54px, has a 46px inner grid, 2px row gap and 2.142857px column gap; fractional source geometry is retained.",
+        "Loading uses the source #f8f4f1 placeholder; Video uses the exact exported play-icon vector."
+      ],
+      "sourceIDs": {
+        "componentSet": "437:83640",
+        "page": "461:30766",
+        "overviewText": "461:30867",
+        "documentedInstances": [
+          "461:30871",
+          "461:30883",
+          "461:31123",
+          "461:31129",
+          "461:31117"
+        ]
+      },
+      "figmaName": "HistoryRail",
+      "componentPropertyDefinitions": {
+        "Property 1": {
+          "type": "VARIANT",
+          "defaultValue": "Multi",
+          "variantOptions": [
+            "Multi",
+            "Single",
+            "Loading",
+            "Video"
+          ]
+        },
+        "Property 2": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Selected"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "nodeId": "437:83641",
+          "name": "Property 1=Multi, Property 2=Selected",
+          "properties": {
+            "Property 1": "Multi",
+            "Property 2": "Selected"
+          },
+          "width": 53.999996185302734,
+          "height": 53.999996185302734,
+          "cornerRadius": 8,
+          "strokeWeight": 1.2527998685836792,
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3176470696926117,
+                "g": 0.3176470696926117,
+                "b": 0.3176470696926117
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:7c79892e3e049ebc9476c3cb80ff1143bb844776/136999:75"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "437:83649",
+          "name": "Property 1=Single, Property 2=Default",
+          "properties": {
+            "Property 1": "Single",
+            "Property 2": "Default"
+          },
+          "width": 54,
+          "height": 54,
+          "cornerRadius": 8,
+          "strokeWeight": 1,
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.10000000149011612,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:61875e8e41e56b349cab539a1d328f5335181288/128713:669"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "437:83652",
+          "name": "Property 1=Loading, Property 2=Default",
+          "properties": {
+            "Property 1": "Loading",
+            "Property 2": "Default"
+          },
+          "width": 54,
+          "height": 54,
+          "cornerRadius": 8,
+          "strokeWeight": 1,
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.10000000149011612,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:61875e8e41e56b349cab539a1d328f5335181288/128713:669"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "437:83655",
+          "name": "Property 1=Loading, Property 2=Selected",
+          "properties": {
+            "Property 1": "Loading",
+            "Property 2": "Selected"
+          },
+          "width": 54,
+          "height": 54,
+          "cornerRadius": 8,
+          "strokeWeight": 1.2527998685836792,
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3176470696926117,
+                "g": 0.3176470696926117,
+                "b": 0.3176470696926117
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:7c79892e3e049ebc9476c3cb80ff1143bb844776/136999:75"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "437:83658",
+          "name": "Property 1=Single, Property 2=Selected",
+          "properties": {
+            "Property 1": "Single",
+            "Property 2": "Selected"
+          },
+          "width": 54,
+          "height": 54,
+          "cornerRadius": 8,
+          "strokeWeight": 1.2527998685836792,
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3176470696926117,
+                "g": 0.3176470696926117,
+                "b": 0.3176470696926117
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:7c79892e3e049ebc9476c3cb80ff1143bb844776/136999:75"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "437:83661",
+          "name": "Property 1=Video, Property 2=Selected",
+          "properties": {
+            "Property 1": "Video",
+            "Property 2": "Selected"
+          },
+          "width": 54,
+          "height": 54,
+          "cornerRadius": 8,
+          "strokeWeight": 1.2527998685836792,
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3176470696926117,
+                "g": 0.3176470696926117,
+                "b": 0.3176470696926117
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:7c79892e3e049ebc9476c3cb80ff1143bb844776/136999:75"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "437:83665",
+          "name": "Property 1=Video, Property 2=Default",
+          "properties": {
+            "Property 1": "Video",
+            "Property 2": "Default"
+          },
+          "width": 54,
+          "height": 54,
+          "cornerRadius": 8,
+          "strokeWeight": 1,
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.10000000149011612,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:61875e8e41e56b349cab539a1d328f5335181288/128713:669"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "nodeId": "437:83669",
+          "name": "Property 1=Multi, Property 2=Default",
+          "properties": {
+            "Property 1": "Multi",
+            "Property 2": "Default"
+          },
+          "width": 53.999996185302734,
+          "height": 53.999996185302734,
+          "cornerRadius": 8,
+          "strokeWeight": 1,
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.10000000149011612,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:61875e8e41e56b349cab539a1d328f5335181288/128713:669"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "propertyMapping": {
+        "property1": "Property 1",
+        "property2": "Property 2"
+      }
+    }
+  ],
+  "sourceGeometry": {
+    "main": {
+      "landscape": {
+        "nodeId": "461:31859",
+        "outer": [
+          909,
+          608
+        ],
+        "foreground": [
+          909,
+          608
+        ],
+        "hash": "78c3724e4f1be49e35f2f5b02bc334feb500041e"
+      },
+      "square": {
+        "nodeId": "461:31860",
+        "outer": [
+          982,
+          608
+        ],
+        "foreground": [
+          608,
+          608
+        ],
+        "blur": 90,
+        "hash": "3ff315905c14ee837c58ba797ffa6e2ba05337b0"
+      },
+      "portrait": {
+        "nodeId": "461:31861",
+        "outer": [
+          982,
+          608
+        ],
+        "foreground": [
+          404,
+          608
+        ],
+        "blur": 60,
+        "hash": "a8b4a6117c783b42345ec0c4301e59f97f2230cd"
+      },
+      "footer": {
+        "nodeId": "I464:34020;464:32937",
+        "height": 108,
+        "padding": [
+          16,
+          20
+        ],
+        "gap": 8,
+        "promptFont": {
+          "family": "Roboto",
+          "size": 14,
+          "lineHeight": 22
+        },
+        "badgeFont": {
+          "family": "Roboto",
+          "size": 13,
+          "lineHeight": 20
+        },
+        "feedbackButton": [
+          28,
+          28
+        ]
+      }
+    },
+    "strip": {
+      "gap": 2,
+      "thumbnailHeight": 150.5,
+      "selectedOverlay": "rgba(0,0,0,0.3)",
+      "checkmarkIconBox": 28,
+      "landscapeHashes": [
+        "78c3724e4f1be49e35f2f5b02bc334feb500041e",
+        "bdaf4e94891b34d77a6aeb5f08d63a78410af701",
+        "18d4c9b4598e5f3901f5ed68e1d32f76259427b0",
+        "d2f3353cf4c0032723219b92034d4403bcc73d49"
+      ],
+      "squareHashes": [
+        "3ff315905c14ee837c58ba797ffa6e2ba05337b0",
+        "6c5a60f55eb5b7acd57eee2d424220e7f78a07b4",
+        "081f9bcc235ae3a6e9acb77087ce8c966882e4eb",
+        "c209fdaea75c9296b44d8ac78be6550b33bb8b99"
+      ]
+    },
+    "history": {
+      "outer": [
+        54,
+        54
+      ],
+      "padding": 4,
+      "inner": [
+        46,
+        46
+      ],
+      "outerRadius": 8,
+      "innerRadius": 4,
+      "columnGap": 2.142857313156128,
+      "rowGap": 2,
+      "thumbnail": [
+        21.928571701049805,
+        21.999998092651367
+      ],
+      "defaultBorder": {
+        "color": "rgba(0,0,0,0.1)",
+        "width": 1
+      },
+      "selectedBorder": {
+        "nodeId": "437:83641",
+        "color": "#515151",
+        "width": 1.2527998685836792
+      },
+      "singleImageHash": "df050a5665918fc3b41adb5faea69a791431dcc4",
+      "loadingColor": "#f8f4f1"
+    }
+  }
+}

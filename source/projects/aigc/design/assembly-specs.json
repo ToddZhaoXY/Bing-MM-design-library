@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "slug": "main-content-area", "name": "Main content area", "tag": "MainContentArea", "tier": "Cell", "nodeId": "470:34592", "bin": "MM-built", "verified": true,
+      "overview": "Generated-image content and the supplied loading, access-limit and error presentations. The collection includes three image results and seven generation states.",
+      "props": [
+        { "name": "property1", "kind": "select", "values": ["Image3:2", "Image1:1", "Image2:3", "Single Image", "loading status"], "default": "Image3:2" },
+        { "name": "selectedIndex", "kind": "select", "values": ["0", "1", "2", "3"], "default": "0", "numeric": true },
+        { "name": "mainStatus", "kind": "select", "values": ["Default", "hover"], "default": "Default" }
+      ],
+      "sourceIDs": ["470:34592", "436:68148", "436:68457"],
+      "notes": ["Canonical set: 1134 × 608 px. Property 1 contains five actual component variants; selectedIndex and mainStatus expose nested image interactions.", "The older documentation card says 10 supplied configurations. Its error presentations are available under Error states; the current Main content set has five variants.", "The source portrait main artwork differs from its first thumbnail. The default preserves the supplied main artwork."]
+    },
+    {
+      "slug": "history-panel", "name": "History panel", "tag": "HistoryPanel", "tier": "Cell", "nodeId": "508:30661", "bin": "MM-built", "verified": true,
+      "overview": "The vertical creation-history rail in three supplied configurations. Each rail preserves its thumbnails and the available New creation and See all actions.",
+      "props": [
+        { "name": "property1", "kind": "select", "values": ["full", "half", "unsigned in"], "default": "full" },
+        { "name": "selectedIndex", "kind": "select", "values": ["0", "1", "2", "3", "4", "5", "6"], "default": "0", "numeric": true }
+      ],
+      "sourceIDs": ["508:30661", "436:67974"],
+      "notes": ["54 × 608 px. Full shows seven history entries, half five, unsigned in one. Original source spelling is preserved.", "selectedIndex is a runtime selection control; New creation and See all are callback integration points."]
+    },
+    {
+      "slug": "serp-carousel", "name": "SERP Carousel", "tag": "SerpCarousel", "tier": "Cell", "nodeId": "598:39314", "bin": "MM-built", "verified": true,
+      "overview": "A carousel of different style templates for image generation.",
+      "props": [
+        { "name": "category", "kind": "select", "values": ["All", "Line drawing", "Styles & aesthetics", "Photo transform", "Stickers", "Editing tools"], "default": "All" },
+        { "name": "heading", "kind": "text", "default": "Get started with templates" }
+      ],
+      "sourceIDs": ["598:39314", "598:39653"],
+      "notes": ["1208 × 283 px. Six 200 px source template cards with 16 px gaps; the last card is clipped by the source viewport.", "The source contains six category labels but supplies only the line-drawing template set. Other tabs explicitly identify the missing examples rather than invent artwork.", "Source label Mandela line drawing is preserved. The documentation frame's internal name Style menu is stale; its visible title is SERP Carousel."]
+    },
+    {
+      "slug": "serp-aigc-answer", "name": "SERP · AIGC Answer", "tag": "SerpAigcAnswer", "tier": "Organism", "nodeId": "581:37248", "bin": "MM-built", "verified": true,
+      "overview": "The supplied landscape SERP composition with the Bing Creator answer. It combines image content, the title head, image actions and creation history within the search-results layout.",
+      "props": [
+        { "name": "state", "kind": "select", "values": ["Result", "Error"], "default": "Result" },
+        { "name": "pageShell", "kind": "boolean", "default": true },
+        { "name": "imageVariant", "kind": "select", "values": ["Image3:2", "Image1:1", "Image2:3", "Single Image", "loading status"], "default": "Image3:2" },
+        { "name": "selectedIndex", "kind": "select", "values": ["0", "1", "2", "3"], "default": "0", "numeric": true },
+        { "name": "historyIndex", "kind": "select", "values": ["0", "1", "2", "3", "4", "5", "6"], "default": "0", "numeric": true },
+        { "name": "query", "kind": "text", "default": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows" }
+      ],
+      "sourceIDs": ["581:37248", "614:39975", "614:40895"],
+      "notes": ["1600 × 1000 px page. Bing Creator title at x220/y152; main content at x220/y194; 54 px history rail at x1374/y194; action row at y806.", "Result and Error select two supplied scene presentations, not a claimed Figma component-set axis. The third spec card repeats the error presentation.", "The AIGC content is reusable React. Page chrome is a local preview; authentication, generation, sharing and download require host callbacks. Mosaic intentionally excludes platform chrome."]
+    }
+  ]
+}

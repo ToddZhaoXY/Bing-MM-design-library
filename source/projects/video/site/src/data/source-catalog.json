@@ -1,0 +1,647 @@
+{
+  "fileKey": "fRSRroY4YFgJSeqLLE0Y38",
+  "extractedAt": "2026-10-16",
+  "pages": [
+    {
+      "id": "139:7061",
+      "name": "Components",
+      "slug": "video-card",
+      "status": "source-read",
+      "notes": []
+    },
+    {
+      "id": "940:54",
+      "name": "✦  MM VIDEO DESIGN SYSTEM",
+      "status": "source-read",
+      "notes": []
+    },
+    {
+      "id": "940:332",
+      "name": "Video-specific rules",
+      "status": "source-read",
+      "notes": []
+    },
+    {
+      "id": "940:569",
+      "name": "Short Card",
+      "slug": "short-card",
+      "status": "source-read",
+      "notes": []
+    },
+    {
+      "id": "940:751",
+      "name": "Video Metadata",
+      "slug": "video-metadata",
+      "status": "source-read",
+      "notes": []
+    },
+    {
+      "id": "1014:24800",
+      "name": "Video Magazine Card",
+      "slug": "video-magazine-card",
+      "status": "source-read",
+      "notes": [
+        "Compact index; detailed source contexts are stored separately."
+      ]
+    },
+    {
+      "id": "940:1156",
+      "name": "Content · Video Group",
+      "slug": "video-group",
+      "status": "complete",
+      "notes": []
+    },
+    {
+      "id": "940:1404",
+      "name": "Content · Shorts Group",
+      "slug": "shorts-group",
+      "status": "complete",
+      "notes": []
+    },
+    {
+      "id": "1014:24801",
+      "name": "Content · Video Magazine Zone",
+      "slug": "video-magazine-zone",
+      "status": "complete",
+      "notes": []
+    },
+    {
+      "id": "940:2243",
+      "name": "SERP · Video Answer Mainline",
+      "slug": "serp-video-answer-mainline",
+      "status": "complete",
+      "notes": []
+    },
+    {
+      "id": "2128:29243",
+      "name": "SERP · Video Answer Go-wide （in progress）",
+      "slug": "serp-video-answer-go-wide",
+      "status": "in-progress",
+      "notes": []
+    },
+    {
+      "id": "2127:24212",
+      "name": "SERP · Short Video Answer Mainline",
+      "slug": "serp-short-video-answer-mainline",
+      "status": "complete",
+      "notes": []
+    },
+    {
+      "id": "2128:29378",
+      "name": "SERP · Short Video Answer Go-wide",
+      "slug": "serp-short-video-answer-go-wide",
+      "status": "complete",
+      "notes": []
+    },
+    {
+      "id": "940:2319",
+      "name": "SERP · Video Magazine Page",
+      "slug": "serp-video-magazine-page",
+      "status": "complete",
+      "notes": []
+    },
+    {
+      "id": "940:2564",
+      "name": "VRP · Whole Page",
+      "slug": "vrp-whole-page",
+      "status": "reference-only",
+      "notes": []
+    }
+  ],
+  "families": [
+    {
+      "id": "1818:74274",
+      "name": "Short Card",
+      "slug": "short-card",
+      "type": "workbench",
+      "axes": {
+        "state": {
+          "values": [
+            "Default",
+            "Preview",
+            "Post-preview",
+            "VRP-Default",
+            "VRP-preview"
+          ]
+        },
+        "metadataPosition": {
+          "values": [
+            "Below",
+            "Overlay"
+          ]
+        },
+        "ratio": {
+          "values": [
+            "3:4",
+            "2:3",
+            "9:16"
+          ]
+        }
+      }
+    },
+    {
+      "id": "I1224:4783;1186:6056",
+      "name": "Video Metadata",
+      "slug": "video-metadata",
+      "type": "workbench",
+      "axes": {
+        "placement": {
+          "values": [
+            "Below",
+            "Inline",
+            "Overlay"
+          ]
+        },
+        "source": {
+          "values": [
+            "YouTube",
+            "Vimeo",
+            "Dailymotion",
+            "Instagram",
+            "Micrsoft Start",
+            "Twitch",
+            "Bilibili",
+            "TikTok",
+            "Pinterest",
+            "Facebook",
+            "Web",
+            "iQiyi",
+            "Tencent video",
+            "Youku",
+            "X"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1447:19913",
+      "name": "Video Magazine Card",
+      "slug": "video-magazine-card",
+      "type": "workbench",
+      "axes": {
+        "family": {
+          "values": [
+            "Hero",
+            "More videos",
+            "Shorts",
+            "Playlist"
+          ]
+        },
+        "size": {
+          "values": [
+            "Normal",
+            "Wide",
+            "Super wide"
+          ]
+        },
+        "state": {
+          "values": [
+            "Default",
+            "Preview",
+            "Post-preview"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1186:6415",
+      "name": "Video Card",
+      "slug": "video-card",
+      "type": "workbench",
+      "axes": {
+        "state": {
+          "values": [
+            "Default",
+            "Preview",
+            "Post-preview"
+          ]
+        },
+        "metadataPosition": {
+          "values": [
+            "Below",
+            "Inline",
+            "Overlay"
+          ]
+        },
+        "placement": {
+          "values": [
+            "SERP",
+            "VRP"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1186:6228",
+      "name": "Video Source Icon",
+      "slug": "video-source-icon",
+      "type": "workbench",
+      "axes": {
+        "source": {
+          "values": [
+            "YouTube",
+            "Vimeo",
+            "Dailymotion",
+            "Instagram",
+            "Micrsoft Start",
+            "Twitch",
+            "Bilibili",
+            "TikTok",
+            "Pinterest",
+            "Facebook",
+            "Web",
+            "iQiyi",
+            "Tencent video",
+            "Youku",
+            "X"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1447:19385",
+      "name": "Video Hero Card",
+      "slug": "video-hero-card",
+      "type": "workbench",
+      "axes": {
+        "size": {
+          "values": [
+            "Normal",
+            "Wide",
+            "Super wide"
+          ]
+        },
+        "state": {
+          "values": [
+            "Default",
+            "Preview",
+            "Post-preview"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1479:43206",
+      "name": "Video More Card",
+      "slug": "video-more-card",
+      "type": "workbench",
+      "axes": {
+        "layout": {
+          "values": [
+            "List",
+            "Grid"
+          ]
+        },
+        "cardStyle": {
+          "values": [
+            "Split",
+            "Contained"
+          ]
+        },
+        "size": {
+          "values": [
+            "Normal",
+            "Narrow"
+          ]
+        },
+        "state": {
+          "values": [
+            "Default",
+            "Preview",
+            "Post-preview"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1479:49384",
+      "name": "Shorts List Card",
+      "slug": "shorts-list-card",
+      "type": "workbench",
+      "axes": {
+        "variant": {
+          "values": [
+            "Wide",
+            "Normal",
+            "Grid",
+            "Small"
+          ]
+        },
+        "state": {
+          "values": [
+            "Default",
+            "Preview",
+            "Post-preview"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1481:55471",
+      "name": "Playlist Card",
+      "slug": "playlist-card",
+      "type": "workbench",
+      "axes": {
+        "configuration": {
+          "values": [
+            "Immersive / Small",
+            "Immersive / Normal",
+            "List view / Wide / Default",
+            "List view / Wide / Hover",
+            "List view / Small / Default",
+            "List view / Small / Hover",
+            "Grid view / Default",
+            "Grid view / Hover",
+            "List view / Tall / Default",
+            "List view / Tall / Hover"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1479:52774",
+      "name": "Supplemental Video Card",
+      "slug": "video-supplemental-card",
+      "type": "workbench",
+      "axes": {
+        "configuration": {
+          "values": [
+            "Trending / Wide",
+            "Trending / Normal",
+            "Trending / Shorts",
+            "Topic / Wide",
+            "Topic / Normal",
+            "Topic / Shorts",
+            "Related / One column",
+            "Related / Two columns",
+            "Related / Tall",
+            "Single / Normal",
+            "Single / Small",
+            "See more / Normal",
+            "See more / Small"
+          ]
+        }
+      }
+    },
+    {
+      "id": "940:1156",
+      "name": "Content · Video Group",
+      "slug": "video-group",
+      "type": "workbench",
+      "axes": {
+        "configuration": {
+          "values": [
+            "Vertical / SERP",
+            "Horizontal / SERP / Below",
+            "Horizontal / SERP / Overlay",
+            "Horizontal / VRP"
+          ]
+        }
+      }
+    },
+    {
+      "id": "940:1404",
+      "name": "Content · Shorts Group",
+      "slug": "shorts-group",
+      "type": "workbench",
+      "axes": {
+        "configuration": {
+          "values": [
+            "SERP / 3:4 / Below",
+            "SERP / 2:3 / Below",
+            "SERP / 3:4 / Overlay",
+            "SERP / 2:3 / Overlay",
+            "VRP / 3:4 / Below"
+          ]
+        }
+      }
+    },
+    {
+      "id": "1014:24801",
+      "name": "Content · Video Magazine Zone",
+      "slug": "video-magazine-zone",
+      "type": "workbench",
+      "axes": {
+        "placement": {
+          "values": [
+            "SERP",
+            "VRP"
+          ]
+        }
+      }
+    },
+    {
+      "id": "940:2243",
+      "name": "SERP · Video Answer Mainline",
+      "slug": "serp-video-answer-mainline",
+      "type": "workbench",
+      "axes": {
+        "configuration": {
+          "values": [
+            "Desktop Generics",
+            "Desktop Hero folded",
+            "Desktop Hero expanded",
+            "Desktop Hero + Shorts",
+            "Mobile Generics",
+            "Mobile Hero"
+          ]
+        },
+        "selectedIndex": {
+          "values": [
+            "-1",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2128:29243",
+      "name": "SERP · Video Answer Go-wide",
+      "slug": "serp-video-answer-go-wide",
+      "type": "workbench",
+      "axes": {}
+    },
+    {
+      "id": "2127:24212",
+      "name": "SERP · Short Video Answer Mainline",
+      "slug": "serp-short-video-answer-mainline",
+      "type": "workbench",
+      "axes": {
+        "viewport": {
+          "values": [
+            "Desktop",
+            "Mobile"
+          ]
+        },
+        "selectedIndex": {
+          "values": [
+            "-1",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ]
+        }
+      }
+    },
+    {
+      "id": "2128:29378",
+      "name": "SERP · Short Video Answer Go-wide",
+      "slug": "serp-short-video-answer-go-wide",
+      "type": "workbench",
+      "axes": {
+        "viewport": {
+          "values": [
+            "Desktop",
+            "Mobile"
+          ]
+        },
+        "selectedIndex": {
+          "values": [
+            "-1",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ]
+        }
+      }
+    },
+    {
+      "id": "940:2319",
+      "name": "SERP · Video Magazine Page",
+      "slug": "serp-video-magazine-page",
+      "type": "workbench",
+      "axes": {
+        "activeTab": {
+          "values": [
+            "Overview",
+            "Movie",
+            "Awards",
+            "TV shows",
+            "Books"
+          ]
+        },
+        "openQuestion": {
+          "values": [
+            "-1",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      }
+    },
+    {
+      "id": "940:2564",
+      "name": "VRP · Whole Page",
+      "slug": "vrp-whole-page",
+      "type": "workbench",
+      "axes": {}
+    }
+  ],
+  "warnings": [
+    {
+      "nodeId": "1481:57457",
+      "stage": "componentProperties",
+      "message": "Error: in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "nodeId": "1481:57532",
+      "stage": "componentProperties",
+      "message": "Error: in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "nodeId": "1548:9943",
+      "stage": "componentProperties",
+      "message": "Error: in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "nodeId": "1548:10023",
+      "stage": "componentProperties",
+      "message": "Error: in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "nodeId": "1548:9520",
+      "stage": "componentProperties",
+      "message": "Error: in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "nodeId": "1548:10195",
+      "stage": "componentProperties",
+      "message": "Error: in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "nodeId": "1548:10077",
+      "stage": "componentProperties",
+      "message": "Error: in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "nodeId": "1481:57929",
+      "stage": "componentProperties",
+      "message": "Error: in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "nodeId": "1548:10416",
+      "stage": "componentProperties",
+      "message": "Error: in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "nodeId": "1548:10330",
+      "stage": "componentProperties",
+      "message": "Error: in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "nodeId": "1548:10335",
+      "stage": "componentProperties",
+      "message": "Error: in get_componentProperties: Component set for node has existing errors"
+    },
+    {
+      "nodeId": "940:332",
+      "stage": "source discrepancy",
+      "message": "Written video rules and supplied component instances differ in some aspect ratios, duration placement and metadata placement; see Foundations."
+    },
+    {
+      "nodeId": "2128:29243",
+      "stage": "source gap",
+      "message": "The long-video Go-wide source page is empty."
+    },
+    {
+      "nodeId": "940:2564",
+      "stage": "source reference",
+      "message": "VRP contains only a link to another file’s WIP cover; no VRP layout in the requested scope."
+    }
+  ]
+}

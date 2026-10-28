@@ -1,0 +1,242 @@
+{
+  "carousel": [
+    {
+      "id": "I557:34899;131224:133234;131563:453809;557:34902",
+      "label": "Minimal line drawing",
+      "image": "9a6c27a86b43d1a33668039866ba9e05ff4f7fe2",
+      "original": "47ee9c4aaee7d53ab1deb70b4a31c0ab4552b6b6",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "id": "I557:34899;131224:133234;131563:453809;557:34903",
+      "label": "Realistic line drawing",
+      "image": "b95c076fbba3332bc067803010c90163f26dec39",
+      "original": "08f85e3e5b24d0fd362936af2390a54fbcaa7393",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "id": "I557:34899;131224:133234;131563:453809;557:34904",
+      "label": "Cartoon line drawing",
+      "image": "347913e494e139ed9ad8b30484786e2f15263a94",
+      "original": "9b46c350a69123f6229b07e85fa6cba0d4dc7a50",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "id": "I557:34899;131224:133234;131563:453809;557:34905",
+      "label": "Doodle line drawing",
+      "image": "fdab7f9b2f5e139f6bb940923fc6354815aa3cfe",
+      "original": "6d4d32844bd6c77be921c34dd31b5a8aea10df32",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "id": "I557:34899;131224:133234;131563:453809;557:34906",
+      "label": "Stencil line drawing",
+      "image": "f338e20568ee84244f1a02882a8ad87e307e80f0",
+      "original": "a81a3b51734598d5adac31b777947901b8a6f0a4",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "id": "I557:34899;131224:133234;131563:453809;557:34907",
+      "label": "Mandela line drawing",
+      "image": "dbdf1f4821c1b911d72017117a0f99cf3215af06",
+      "original": "cc070f6ba04b259e883a3905ae5098db60a3ad43",
+      "width": 128,
+      "height": 200
+    }
+  ],
+  "history": {
+    "full": [
+      {
+        "id": "508:30569",
+        "kind": "Multi",
+        "images": [
+          "78c3724e4f1be49e35f2f5b02bc334feb500041e",
+          "bdaf4e94891b34d77a6aeb5f08d63a78410af701",
+          "18d4c9b4598e5f3901f5ed68e1d32f76259427b0",
+          "d2f3353cf4c0032723219b92034d4403bcc73d49"
+        ]
+      },
+      {
+        "id": "508:30570",
+        "kind": "Multi",
+        "images": [
+          "c209fdaea75c9296b44d8ac78be6550b33bb8b99",
+          "081f9bcc235ae3a6e9acb77087ce8c966882e4eb",
+          "3ff315905c14ee837c58ba797ffa6e2ba05337b0",
+          "6c5a60f55eb5b7acd57eee2d424220e7f78a07b4"
+        ]
+      },
+      {
+        "id": "508:30571",
+        "kind": "Single",
+        "images": [
+          "df050a5665918fc3b41adb5faea69a791431dcc4"
+        ]
+      },
+      {
+        "id": "508:30572",
+        "kind": "Single",
+        "images": [
+          "a8574012db097c6ff794b2dbc22b34abdee1cfed"
+        ]
+      },
+      {
+        "id": "508:30573",
+        "kind": "Single",
+        "images": [
+          "45f02afd9d518afa86cad7f5e0eceaef3c4508b5"
+        ]
+      },
+      {
+        "id": "508:30574",
+        "kind": "Single",
+        "images": [
+          "12a6898dd325893bee68a6dad64ac9ca4b280915"
+        ]
+      },
+      {
+        "id": "508:30575",
+        "kind": "Single",
+        "images": [
+          "ed25320b6035293fc304f8c16d13a987a352fb99"
+        ]
+      }
+    ],
+    "half": [
+      {
+        "id": "508:30612",
+        "kind": "Multi",
+        "images": [
+          "78c3724e4f1be49e35f2f5b02bc334feb500041e",
+          "bdaf4e94891b34d77a6aeb5f08d63a78410af701",
+          "18d4c9b4598e5f3901f5ed68e1d32f76259427b0",
+          "d2f3353cf4c0032723219b92034d4403bcc73d49"
+        ]
+      },
+      {
+        "id": "508:30613",
+        "kind": "Multi",
+        "images": [
+          "c209fdaea75c9296b44d8ac78be6550b33bb8b99",
+          "081f9bcc235ae3a6e9acb77087ce8c966882e4eb",
+          "3ff315905c14ee837c58ba797ffa6e2ba05337b0",
+          "6c5a60f55eb5b7acd57eee2d424220e7f78a07b4"
+        ]
+      },
+      {
+        "id": "508:30614",
+        "kind": "Single",
+        "images": [
+          "df050a5665918fc3b41adb5faea69a791431dcc4"
+        ]
+      },
+      {
+        "id": "508:30615",
+        "kind": "Single",
+        "images": [
+          "12a6898dd325893bee68a6dad64ac9ca4b280915"
+        ]
+      },
+      {
+        "id": "508:30616",
+        "kind": "Single",
+        "images": [
+          "ed25320b6035293fc304f8c16d13a987a352fb99"
+        ]
+      }
+    ],
+    "unsigned in": [
+      {
+        "id": "508:30649",
+        "kind": "Multi",
+        "images": [
+          "78c3724e4f1be49e35f2f5b02bc334feb500041e",
+          "bdaf4e94891b34d77a6aeb5f08d63a78410af701",
+          "18d4c9b4598e5f3901f5ed68e1d32f76259427b0",
+          "d2f3353cf4c0032723219b92034d4403bcc73d49"
+        ]
+      }
+    ]
+  },
+  "content": {
+    "3:2": {
+      "id": "470:34589",
+      "mainWidth": 909,
+      "stripWidth": 223,
+      "main": "78c3724e4f1be49e35f2f5b02bc334feb500041e",
+      "images": [
+        "78c3724e4f1be49e35f2f5b02bc334feb500041e",
+        "bdaf4e94891b34d77a6aeb5f08d63a78410af701",
+        "18d4c9b4598e5f3901f5ed68e1d32f76259427b0",
+        "d2f3353cf4c0032723219b92034d4403bcc73d49"
+      ]
+    },
+    "1:1": {
+      "id": "470:34588",
+      "mainWidth": 982,
+      "stripWidth": 150,
+      "main": "3ff315905c14ee837c58ba797ffa6e2ba05337b0",
+      "images": [
+        "3ff315905c14ee837c58ba797ffa6e2ba05337b0",
+        "6c5a60f55eb5b7acd57eee2d424220e7f78a07b4",
+        "081f9bcc235ae3a6e9acb77087ce8c966882e4eb",
+        "c209fdaea75c9296b44d8ac78be6550b33bb8b99"
+      ]
+    },
+    "2:3": {
+      "id": "470:34587",
+      "mainWidth": 982,
+      "stripWidth": 150,
+      "main": "a8b4a6117c783b42345ec0c4301e59f97f2230cd",
+      "images": [
+        "14a745b33273d591eff30e3336f1b7f1e677a23d",
+        "987c2e2bd733ab4a428f433683eb25b538717362",
+        "7b52a2e05bae29290994453c677116cfc317b918",
+        "b1a132fe92d5be3d5b8b1c238acf3f4e06b49ff3"
+      ]
+    }
+  },
+  "loading": {
+    "id": "470:34591",
+    "title": "We are generating the image for you...",
+    "body": "Analyze your prompt “an astronaut sits in a poppy field, working on a laptop” Create video characters, scene, camera language, etc... Almost there! Artwork always take time",
+    "illustration": {
+      "width": 160.00001525878906,
+      "height": 115.478271484375,
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "CROP",
+      "scalingFactor": 0.5,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageTransform": [
+        [
+          0.837359607219696,
+          0,
+          0.08620306104421616
+        ],
+        [
+          0,
+          0.6051011085510254,
+          0.1191406324505806
+        ]
+      ],
+      "imageHash": "4685c085ad64c38aa1671a525a09290dd648925b"
+    }
+  },
+  "singleImage": "6a382789fbd9857bd3f3c04c8e62857802f3284a"
+}

@@ -1,0 +1,1453 @@
+[
+  {
+    "slug": "main-image-area",
+    "name": "Main image area",
+    "tag": "MainImageArea",
+    "tier": "Molecule",
+    "bin": "MM-built",
+    "binEvidence": "Status / Bin instance in the corresponding source specification card",
+    "nodeId": "461:31862",
+    "verified": true,
+    "overview": "The main generated image results in different sizes.",
+    "props": [
+      {
+        "name": "property1",
+        "kind": "select",
+        "values": [
+          "3:2",
+          "1:1",
+          "2:3"
+        ],
+        "default": "3:2"
+      },
+      {
+        "name": "status",
+        "kind": "select",
+        "values": [
+          "Default",
+          "hover"
+        ],
+        "default": "Default"
+      },
+      {
+        "name": "prompt",
+        "kind": "text",
+        "default": "A cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+      },
+      {
+        "name": "mode",
+        "kind": "text",
+        "default": "Vivid storytelling"
+      }
+    ],
+    "notes": [
+      "Property 1 is exposed as property1; Status is exposed as status. All six canonical aspect/status combinations are implemented.",
+      "Square and portrait variants retain the 982 x 608 outer stage, centered 608 x 608 or 404 x 608 image and native blurred image backdrop.",
+      "Hover details are also reachable with keyboard focus; feedback and prompt-edit controls use semantic buttons. Product callbacks are optional.",
+      "Hidden source action clusters remain hidden. Documentation configuration counts are stale relative to the canonical component set."
+    ],
+    "sourceIDs": {
+      "componentSet": "461:31862",
+      "page": "395:18350",
+      "overviewText": "436:63028",
+      "documentedInstances": [
+        "464:34061",
+        "464:34073",
+        "464:34074",
+        "464:34020"
+      ]
+    },
+    "figmaName": "MainImage",
+    "componentPropertyDefinitions": {
+      "Property 1": {
+        "type": "VARIANT",
+        "defaultValue": "3:2",
+        "variantOptions": [
+          "2:3",
+          "1:1",
+          "3:2"
+        ]
+      },
+      "Status": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "hover"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "nodeId": "461:31859",
+        "name": "Property 1=3:2, Status=Default",
+        "properties": {
+          "Property 1": "3:2",
+          "Status": "Default"
+        },
+        "width": 909,
+        "height": 608,
+        "cornerRadius": 0,
+        "strokeWeight": 1,
+        "strokes": []
+      },
+      {
+        "nodeId": "461:31878",
+        "name": "Property 1=3:2, Status=hover",
+        "properties": {
+          "Property 1": "3:2",
+          "Status": "hover"
+        },
+        "width": 909,
+        "height": 608,
+        "cornerRadius": 0,
+        "strokeWeight": 1,
+        "strokes": []
+      },
+      {
+        "nodeId": "461:31860",
+        "name": "Property 1=1:1, Status=Default",
+        "properties": {
+          "Property 1": "1:1",
+          "Status": "Default"
+        },
+        "width": 982,
+        "height": 608,
+        "cornerRadius": 0,
+        "strokeWeight": 1.0000001192092896,
+        "strokes": []
+      },
+      {
+        "nodeId": "461:31951",
+        "name": "Property 1=1:1, Status=hover",
+        "properties": {
+          "Property 1": "1:1",
+          "Status": "hover"
+        },
+        "width": 982,
+        "height": 608,
+        "cornerRadius": 0,
+        "strokeWeight": 1.0000001192092896,
+        "strokes": []
+      },
+      {
+        "nodeId": "461:31861",
+        "name": "Property 1=2:3, Status=Default",
+        "properties": {
+          "Property 1": "2:3",
+          "Status": "Default"
+        },
+        "width": 982,
+        "height": 608,
+        "cornerRadius": 0,
+        "strokeWeight": 1.0000001192092896,
+        "strokes": []
+      },
+      {
+        "nodeId": "461:31963",
+        "name": "Property 1=2:3, Status=hover",
+        "properties": {
+          "Property 1": "2:3",
+          "Status": "hover"
+        },
+        "width": 982,
+        "height": 608,
+        "cornerRadius": 0,
+        "strokeWeight": 1.0000001192092896,
+        "strokes": []
+      }
+    ],
+    "propertyMapping": {
+      "property1": "Property 1",
+      "status": "Status"
+    }
+  },
+  {
+    "slug": "image-display-list",
+    "name": "Image display list",
+    "tag": "ImageDisplayList",
+    "tier": "Molecule",
+    "bin": "MM-built",
+    "binEvidence": "Status / Bin instance in the corresponding source specification card",
+    "nodeId": "470:34378",
+    "verified": true,
+    "overview": "A vertical strip of generated image thumbnails. The supplied strip is presented as an independent molecule alongside the main-image documentation.",
+    "props": [
+      {
+        "name": "property1",
+        "kind": "select",
+        "values": [
+          "3:2",
+          "1:1"
+        ],
+        "default": "3:2"
+      },
+      {
+        "name": "selectedIndex",
+        "kind": "select",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "default": "0",
+        "numeric": true
+      }
+    ],
+    "notes": [
+      "Property 1 is exposed as property1. The canonical Strip set contains two variants even though one documentation table says one configuration.",
+      "The four thumbnails are native images with a 2px gap and 150.5px image-row height at the original 608px strip height.",
+      "selectedIndex is a runtime selection control, not a Strip Figma variant. It starts at the selected first thumbnail seen in both source examples.",
+      "Opaque image-fill stacks are represented by their final visible image paint, matching exported previews. Arrow keys and Home/End select and focus thumbnails."
+    ],
+    "sourceIDs": {
+      "componentSet": "470:34378",
+      "page": "461:31677",
+      "overviewText": "461:31687",
+      "documentedInstances": [
+        "470:34379",
+        "470:34407"
+      ]
+    },
+    "figmaName": "Strip",
+    "componentPropertyDefinitions": {
+      "Property 1": {
+        "type": "VARIANT",
+        "defaultValue": "3:2",
+        "variantOptions": [
+          "1:1",
+          "3:2"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "nodeId": "470:34377",
+        "name": "Property 1=1:1",
+        "properties": {
+          "Property 1": "1:1"
+        },
+        "width": 150,
+        "height": 608,
+        "cornerRadius": 0,
+        "strokeWeight": 1.0000001192092896,
+        "strokes": []
+      },
+      {
+        "nodeId": "470:34376",
+        "name": "Property 1=3:2",
+        "properties": {
+          "Property 1": "3:2"
+        },
+        "width": 223,
+        "height": 608,
+        "cornerRadius": 0,
+        "strokeWeight": 1,
+        "strokes": []
+      }
+    ],
+    "propertyMapping": {
+      "property1": "Property 1",
+      "selectedIndex": "Runtime selection; not a Figma variant"
+    }
+  },
+  {
+    "slug": "history-panel-images",
+    "name": "History panel images",
+    "tag": "HistoryPanelImages",
+    "tier": "Molecule",
+    "bin": "MM-built",
+    "binEvidence": "Status / Bin instance in the corresponding source specification card",
+    "nodeId": "437:83640",
+    "verified": true,
+    "overview": "The atomic history-thumbnail unit in the Creator sidebar. Each HistoryRail tile represents one past creation — multi-image results show a 2×2 grid of thumbnails (22×22 each inside 46×46), while single-image results show one full thumbnail. The selected state carries a blue border. Paired with a \"New creation\" button above and a \"See all\" link below.",
+    "props": [
+      {
+        "name": "property1",
+        "kind": "select",
+        "values": [
+          "Multi",
+          "Single",
+          "Loading",
+          "Video"
+        ],
+        "default": "Multi"
+      },
+      {
+        "name": "property2",
+        "kind": "select",
+        "values": [
+          "Default",
+          "Selected"
+        ],
+        "default": "Default"
+      }
+    ],
+    "notes": [
+      "This molecule is one HistoryRail tile; the full history panel composes multiple tiles.",
+      "Property 1 is exposed as property1 and Property 2 as property2. All eight canonical combinations are supported.",
+      "The actual selected stroke is #515151 at 1.2527998686px, not the stale specification table text claiming 2px blue.",
+      "The default multi-image tile is 54px, has a 46px inner grid, 2px row gap and 2.142857px column gap; fractional source geometry is retained.",
+      "Loading uses the source #f8f4f1 placeholder; Video uses the exact exported play-icon vector."
+    ],
+    "sourceIDs": {
+      "componentSet": "437:83640",
+      "page": "461:30766",
+      "overviewText": "461:30867",
+      "documentedInstances": [
+        "461:30871",
+        "461:30883",
+        "461:31123",
+        "461:31129",
+        "461:31117"
+      ]
+    },
+    "figmaName": "HistoryRail",
+    "componentPropertyDefinitions": {
+      "Property 1": {
+        "type": "VARIANT",
+        "defaultValue": "Multi",
+        "variantOptions": [
+          "Multi",
+          "Single",
+          "Loading",
+          "Video"
+        ]
+      },
+      "Property 2": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Selected"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "nodeId": "437:83641",
+        "name": "Property 1=Multi, Property 2=Selected",
+        "properties": {
+          "Property 1": "Multi",
+          "Property 2": "Selected"
+        },
+        "width": 53.999996185302734,
+        "height": 53.999996185302734,
+        "cornerRadius": 8,
+        "strokeWeight": 1.2527998685836792,
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.3176470696926117,
+              "g": 0.3176470696926117,
+              "b": 0.3176470696926117
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:7c79892e3e049ebc9476c3cb80ff1143bb844776/136999:75"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "nodeId": "437:83649",
+        "name": "Property 1=Single, Property 2=Default",
+        "properties": {
+          "Property 1": "Single",
+          "Property 2": "Default"
+        },
+        "width": 54,
+        "height": 54,
+        "cornerRadius": 8,
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.10000000149011612,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:61875e8e41e56b349cab539a1d328f5335181288/128713:669"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "nodeId": "437:83652",
+        "name": "Property 1=Loading, Property 2=Default",
+        "properties": {
+          "Property 1": "Loading",
+          "Property 2": "Default"
+        },
+        "width": 54,
+        "height": 54,
+        "cornerRadius": 8,
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.10000000149011612,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:61875e8e41e56b349cab539a1d328f5335181288/128713:669"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "nodeId": "437:83655",
+        "name": "Property 1=Loading, Property 2=Selected",
+        "properties": {
+          "Property 1": "Loading",
+          "Property 2": "Selected"
+        },
+        "width": 54,
+        "height": 54,
+        "cornerRadius": 8,
+        "strokeWeight": 1.2527998685836792,
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.3176470696926117,
+              "g": 0.3176470696926117,
+              "b": 0.3176470696926117
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:7c79892e3e049ebc9476c3cb80ff1143bb844776/136999:75"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "nodeId": "437:83658",
+        "name": "Property 1=Single, Property 2=Selected",
+        "properties": {
+          "Property 1": "Single",
+          "Property 2": "Selected"
+        },
+        "width": 54,
+        "height": 54,
+        "cornerRadius": 8,
+        "strokeWeight": 1.2527998685836792,
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.3176470696926117,
+              "g": 0.3176470696926117,
+              "b": 0.3176470696926117
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:7c79892e3e049ebc9476c3cb80ff1143bb844776/136999:75"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "nodeId": "437:83661",
+        "name": "Property 1=Video, Property 2=Selected",
+        "properties": {
+          "Property 1": "Video",
+          "Property 2": "Selected"
+        },
+        "width": 54,
+        "height": 54,
+        "cornerRadius": 8,
+        "strokeWeight": 1.2527998685836792,
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.3176470696926117,
+              "g": 0.3176470696926117,
+              "b": 0.3176470696926117
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:7c79892e3e049ebc9476c3cb80ff1143bb844776/136999:75"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "nodeId": "437:83665",
+        "name": "Property 1=Video, Property 2=Default",
+        "properties": {
+          "Property 1": "Video",
+          "Property 2": "Default"
+        },
+        "width": 54,
+        "height": 54,
+        "cornerRadius": 8,
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.10000000149011612,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:61875e8e41e56b349cab539a1d328f5335181288/128713:669"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "nodeId": "437:83669",
+        "name": "Property 1=Multi, Property 2=Default",
+        "properties": {
+          "Property 1": "Multi",
+          "Property 2": "Default"
+        },
+        "width": 53.999996185302734,
+        "height": 53.999996185302734,
+        "cornerRadius": 8,
+        "strokeWeight": 1,
+        "strokes": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0.10000000149011612,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:61875e8e41e56b349cab539a1d328f5335181288/128713:669"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "propertyMapping": {
+      "property1": "Property 1",
+      "property2": "Property 2"
+    }
+  },
+  {
+    "slug": "main-content-area",
+    "name": "Main content area",
+    "tag": "MainContentArea",
+    "tier": "Cell",
+    "nodeId": "470:34592",
+    "bin": "MM-built",
+    "verified": true,
+    "overview": "Generated-image content and the supplied loading, access-limit and error presentations. The collection includes three image results and seven generation states.",
+    "props": [
+      {
+        "name": "property1",
+        "kind": "select",
+        "values": [
+          "Image3:2",
+          "Image1:1",
+          "Image2:3",
+          "Single Image",
+          "loading status"
+        ],
+        "default": "Image3:2"
+      },
+      {
+        "name": "selectedIndex",
+        "kind": "select",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "default": "0",
+        "numeric": true
+      },
+      {
+        "name": "mainStatus",
+        "kind": "select",
+        "values": [
+          "Default",
+          "hover"
+        ],
+        "default": "Default"
+      }
+    ],
+    "sourceIDs": [
+      "470:34592",
+      "436:68148",
+      "436:68457"
+    ],
+    "notes": [
+      "Canonical set: 1134 × 608 px. Property 1 contains five actual component variants; selectedIndex and mainStatus expose nested image interactions.",
+      "The older documentation card says 10 supplied configurations. Its error presentations are available under Error states; the current Main content set has five variants.",
+      "The source portrait main artwork differs from its first thumbnail. The default preserves the supplied main artwork."
+    ]
+  },
+  {
+    "slug": "history-panel",
+    "name": "History panel",
+    "tag": "HistoryPanel",
+    "tier": "Cell",
+    "nodeId": "508:30661",
+    "bin": "MM-built",
+    "verified": true,
+    "overview": "The vertical creation-history rail in three supplied configurations. Each rail preserves its thumbnails and the available New creation and See all actions.",
+    "props": [
+      {
+        "name": "property1",
+        "kind": "select",
+        "values": [
+          "full",
+          "half",
+          "unsigned in"
+        ],
+        "default": "full"
+      },
+      {
+        "name": "selectedIndex",
+        "kind": "select",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "default": "0",
+        "numeric": true
+      }
+    ],
+    "sourceIDs": [
+      "508:30661",
+      "436:67974"
+    ],
+    "notes": [
+      "54 × 608 px. Full shows seven history entries, half five, unsigned in one. Original source spelling is preserved.",
+      "selectedIndex is a runtime selection control; New creation and See all are callback integration points."
+    ]
+  },
+  {
+    "slug": "sign-in-prompts",
+    "name": "Sign-in prompts",
+    "tag": "SignInPrompts",
+    "tier": "Cell",
+    "nodeId": "508:31112",
+    "pageId": "436:69152",
+    "bin": "MM-built",
+    "verified": true,
+    "binEvidence": "Scoped spec card 436:69153 contains Status / Bin = MM-built.",
+    "overview": "Four sign-in modal presentations and a supporting flyout. They cover guest limits, guest capacity, advanced models, uploads and parallel creation.",
+    "props": [
+      {
+        "name": "state",
+        "kind": "select",
+        "values": [
+          "keep creating",
+          "unlcok models",
+          "unlock uploads",
+          "top right",
+          "reach limit"
+        ],
+        "default": "reach limit"
+      }
+    ],
+    "originalAxes": {
+      "Property 1": {
+        "values": [
+          "keep creating",
+          "unlcok models",
+          "unlock uploads",
+          "top right",
+          "reach limit"
+        ],
+        "default": "reach limit",
+        "reactProp": "state"
+      }
+    },
+    "configurations": [
+      {
+        "nodeId": "508:31111",
+        "value": "keep creating",
+        "width": 400,
+        "height": 356.703369140625
+      },
+      {
+        "nodeId": "508:31110",
+        "value": "unlcok models",
+        "width": 400,
+        "height": 352.703369140625
+      },
+      {
+        "nodeId": "508:31109",
+        "value": "unlock uploads",
+        "width": 400,
+        "height": 411
+      },
+      {
+        "nodeId": "508:31107",
+        "value": "top right",
+        "width": 435,
+        "height": 154
+      },
+      {
+        "nodeId": "508:31108",
+        "value": "reach limit",
+        "width": 400,
+        "height": 357.00006103515625
+      }
+    ],
+    "notes": [
+      "The source misspelling unlcok models is retained in the variant value.",
+      "Sign-in and close events are local demo/host callbacks; no real account authentication occurs.",
+      "The guest-lock artwork is an illustration-only crop from the source PNG export; other artwork uses original image fills."
+    ]
+  },
+  {
+    "slug": "error-states",
+    "name": "Error states",
+    "tag": "ErrorStates",
+    "tier": "Cell",
+    "nodeId": "508:31674",
+    "pageId": "461:31252",
+    "bin": "MM-built",
+    "verified": true,
+    "binEvidence": "Scoped spec card 461:31253 contains Status / Bin = MM-built.",
+    "overview": "Generated-image content and the supplied loading, access-limit and error presentations. The collection includes three image results and seven generation states.",
+    "props": [
+      {
+        "name": "state",
+        "kind": "select",
+        "values": [
+          "Access suspended",
+          "need to re-imagene",
+          "Run into an issue",
+          "in progress",
+          "Need descriptive prompt",
+          "not_signed_in"
+        ],
+        "default": "not_signed_in"
+      }
+    ],
+    "originalAxes": {
+      "Property 1": {
+        "values": [
+          "Access suspended",
+          "need to re-imagene",
+          "Run into an issue",
+          "in progress",
+          "Need descriptive prompt",
+          "not_signed_in"
+        ],
+        "default": "not_signed_in",
+        "reactProp": "state"
+      }
+    },
+    "configurations": [
+      {
+        "nodeId": "508:31715",
+        "value": "not_signed_in",
+        "width": 1134,
+        "height": 608
+      },
+      {
+        "nodeId": "508:31675",
+        "value": "Access suspended",
+        "width": 1134,
+        "height": 608
+      },
+      {
+        "nodeId": "508:31693",
+        "value": "Run into an issue",
+        "width": 1134,
+        "height": 608
+      },
+      {
+        "nodeId": "508:31708",
+        "value": "Need descriptive prompt",
+        "width": 1134,
+        "height": 608
+      },
+      {
+        "nodeId": "508:31685",
+        "value": "need to re-imagene",
+        "width": 1134,
+        "height": 608
+      },
+      {
+        "nodeId": "508:31701",
+        "value": "in progress",
+        "width": 1134,
+        "height": 608
+      }
+    ],
+    "notes": [
+      "Documentation mentions ten configurations, but the actual canonical ErrorStatus set contains six variants. The registry enumerates the six existing variants and preserves the documentation separately.",
+      "Several documentation captions are mismatched with their embedded instances; component-axis values and actual visible component text take precedence.",
+      "Base source geometry is 1134 × 608. The optional width prop proportionally scales this base for composition; it is not a Figma variant axis."
+    ]
+  },
+  {
+    "slug": "action-bar",
+    "name": "Action bar",
+    "tag": "ActionBar",
+    "tier": "Cell",
+    "nodeId": "437:83587",
+    "pageId": "395:18355",
+    "bin": "MM-built",
+    "verified": true,
+    "binEvidence": "Scoped spec card 436:69478 contains Status / Bin = MM-built.",
+    "overview": "The Bing Creator image action row. The source includes seven image actions.",
+    "props": [
+      {
+        "name": "configuration",
+        "kind": "select",
+        "values": [
+          "Image Default",
+          "Image Loading",
+          "Video",
+          "Video Loading"
+        ],
+        "default": "Image Default"
+      }
+    ],
+    "originalAxes": {},
+    "configurations": [
+      {
+        "nodeId": "437:83588",
+        "name": "Property 1=Image, Property 2=Default ",
+        "value": "Image Default",
+        "width": 1134,
+        "height": 36
+      },
+      {
+        "nodeId": "437:83604",
+        "name": "Property 1=Image, Property 2=Loading ",
+        "value": "Image Loading",
+        "width": 1134,
+        "height": 36
+      },
+      {
+        "nodeId": "437:83620",
+        "name": "Property 1=Video",
+        "value": "Video",
+        "width": 1134,
+        "height": 36
+      },
+      {
+        "nodeId": "437:83630",
+        "name": "Property 1=Video, Property 2=Loading",
+        "value": "Video Loading",
+        "width": 1134,
+        "height": 36
+      }
+    ],
+    "notes": [
+      "The scoped Action bar documentation shows Image Default; the included Components page supplies all four named configurations.",
+      "Figma componentPropertyDefinitions and variantGroupProperties are absent for this set. configuration is derived from the observed child names, not claimed as a canonical variant axis.",
+      "Image actions are Share, Download, Add to collection, Set as wallpaper, Edit image, Recreate and Explore templates. Video supplies Share and Download.",
+      "Action callbacks are host integration points; the preview does not share, download or generate remotely."
+    ]
+  },
+  {
+    "slug": "creation-composer",
+    "name": "Creation composer",
+    "tag": "CreationComposer",
+    "tier": "Cell",
+    "nodeId": "542:32054",
+    "pageId": "436:69594",
+    "bin": "MM-built",
+    "verified": true,
+    "binEvidence": "Scoped spec cards 436:69595 and 551:33264 contain Status / Bin = MM-built.",
+    "overview": "Desktop input surfaces for editing an image and creating a new image. Four supplied configurations cover prompt ideas, populated prompts and model controls.",
+    "props": [
+      {
+        "name": "state",
+        "kind": "select",
+        "values": [
+          "empty",
+          "image uploaded",
+          "typing",
+          "Model menu"
+        ],
+        "default": "empty"
+      },
+      {
+        "name": "prompt",
+        "kind": "text",
+        "default": ""
+      },
+      {
+        "name": "mode",
+        "kind": "select",
+        "values": [
+          "Vivid storytelling",
+          "Stylized illustration"
+        ],
+        "default": "Vivid storytelling"
+      }
+    ],
+    "originalAxes": {
+      "Property 1": {
+        "values": [
+          "empty",
+          "image uploaded",
+          "typing",
+          "Model menu"
+        ],
+        "default": "empty",
+        "reactProp": "state"
+      }
+    },
+    "configurations": [
+      {
+        "nodeId": "542:32053",
+        "value": "empty",
+        "width": 648,
+        "height": 379
+      },
+      {
+        "nodeId": "551:34584",
+        "value": "Model menu",
+        "width": 648,
+        "height": 379
+      },
+      {
+        "nodeId": "542:32052",
+        "value": "image uploaded",
+        "width": 580,
+        "height": 162.90122985839844
+      },
+      {
+        "nodeId": "542:32051",
+        "value": "typing",
+        "width": 580,
+        "height": 166.48147583007812
+      }
+    ],
+    "notes": [
+      "Property 1 maps to React state, preserving its exact canonical values.",
+      "prompt is a runtime content override of the source input text. Pass undefined for the source typing example; the empty registry string can be normalized to undefined by the renderer.",
+      "mode is a runtime selection from the two observed Model menu labels, not an additional Figma component axis.",
+      "The older faded detached Japandi example remains in the source export; the four canonical component variants take precedence.",
+      "Generate exposes a callback and does not call an image-generation service."
+    ]
+  },
+  {
+    "slug": "style-menu",
+    "name": "Style menu",
+    "tag": "StyleMenu",
+    "tier": "Cell",
+    "nodeId": "542:32853",
+    "pageId": "436:70039",
+    "bin": "MM-built",
+    "verified": true,
+    "binEvidence": "Scoped spec card 436:70040 contains Status / Bin = MM-built.",
+    "overview": "The Choose a style menu. The supplied list contains Anime, 3D Cartoon, Plushy, Watercolor, Sketch and Sticker, followed by View more.",
+    "props": [
+      {
+        "name": "selectedStyle",
+        "kind": "select",
+        "values": [
+          "Anime",
+          "3D Cartoon",
+          "Plushy",
+          "Watercolor",
+          "Sketch",
+          "Sticker"
+        ],
+        "default": "Sketch"
+      },
+      {
+        "name": "showMore",
+        "kind": "boolean",
+        "default": false
+      }
+    ],
+    "originalAxes": {},
+    "configurations": [
+      {
+        "nodeId": "542:32853",
+        "width": 184,
+        "height": 316
+      }
+    ],
+    "notes": [
+      "The source is a single component with no published variant axes.",
+      "selectedStyle is demo selection over the six source list labels. Its default reproduces the highlighted Sketch row in the supplied source.",
+      "View more node 542:32789 is present but hidden in the source. showMore defaults to false and exposes that actual slot.",
+      "Thumbnails use the six original Figma image hashes."
+    ]
+  },
+  {
+    "slug": "serp-carousel",
+    "name": "SERP Carousel",
+    "tag": "SerpCarousel",
+    "tier": "Cell",
+    "nodeId": "598:39314",
+    "bin": "MM-built",
+    "verified": true,
+    "overview": "A carousel of different style templates for image generation.",
+    "props": [
+      {
+        "name": "category",
+        "kind": "select",
+        "values": [
+          "All",
+          "Line drawing",
+          "Styles & aesthetics",
+          "Photo transform",
+          "Stickers",
+          "Editing tools"
+        ],
+        "default": "All"
+      },
+      {
+        "name": "heading",
+        "kind": "text",
+        "default": "Get started with templates"
+      }
+    ],
+    "sourceIDs": [
+      "598:39314",
+      "598:39653"
+    ],
+    "notes": [
+      "1208 × 283 px. Six 200 px source template cards with 16 px gaps; the last card is clipped by the source viewport.",
+      "The source contains six category labels but supplies only the line-drawing template set. Other tabs explicitly identify the missing examples rather than invent artwork.",
+      "Source label Mandela line drawing is preserved. The documentation frame's internal name Style menu is stale; its visible title is SERP Carousel."
+    ]
+  },
+  {
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer",
+    "tag": "SerpAigcAnswer",
+    "tier": "Organism",
+    "nodeId": "581:37248",
+    "bin": "MM-built",
+    "verified": true,
+    "overview": "The supplied landscape SERP composition with the Bing Creator answer. It combines image content, the title head, image actions and creation history within the search-results layout.",
+    "props": [
+      {
+        "name": "state",
+        "kind": "select",
+        "values": [
+          "Result",
+          "Error"
+        ],
+        "default": "Result"
+      },
+      {
+        "name": "pageShell",
+        "kind": "boolean",
+        "default": true
+      },
+      {
+        "name": "imageVariant",
+        "kind": "select",
+        "values": [
+          "Image3:2",
+          "Image1:1",
+          "Image2:3",
+          "Single Image",
+          "loading status"
+        ],
+        "default": "Image3:2"
+      },
+      {
+        "name": "selectedIndex",
+        "kind": "select",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "default": "0",
+        "numeric": true
+      },
+      {
+        "name": "historyIndex",
+        "kind": "select",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "default": "0",
+        "numeric": true
+      },
+      {
+        "name": "query",
+        "kind": "text",
+        "default": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+      }
+    ],
+    "sourceIDs": [
+      "581:37248",
+      "614:39975",
+      "614:40895"
+    ],
+    "notes": [
+      "1600 × 1000 px page. Bing Creator title at x220/y152; main content at x220/y194; 54 px history rail at x1374/y194; action row at y806.",
+      "Result and Error select two supplied scene presentations, not a claimed Figma component-set axis. The third spec card repeats the error presentation.",
+      "The AIGC content is reusable React. Page chrome is a local preview; authentication, generation, sharing and download require host callbacks. Mosaic intentionally excludes platform chrome."
+    ]
+  },
+  {
+    "slug": "prompt-template-card",
+    "name": "Prompt template card",
+    "tag": "PromptTemplateCard",
+    "tier": "Molecule",
+    "partOf": "creation-composer",
+    "nodeId": "437:83684",
+    "bin": "TBD",
+    "verified": false,
+    "overview": "An 88 × 116 prompt template tile with an image and a caption. The two source configurations are Template, captioned Sketch, and Original.",
+    "props": [
+      {
+        "name": "property1",
+        "kind": "select",
+        "values": [
+          "Original",
+          "Template"
+        ],
+        "default": "Template"
+      }
+    ],
+    "originalAxes": {
+      "Property 1": {
+        "reactProp": "property1",
+        "values": [
+          "Original",
+          "Template"
+        ],
+        "default": "Template"
+      }
+    },
+    "configurations": [
+      {
+        "nodeId": "437:83685",
+        "value": "Template",
+        "width": 88,
+        "height": 116,
+        "imageSize": 88,
+        "label": "Sketch",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+      },
+      {
+        "nodeId": "437:83689",
+        "value": "Original",
+        "width": 88,
+        "height": 116,
+        "imageSize": 88,
+        "label": "Original",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+      }
+    ],
+    "notes": [
+      "Overview is a source-derived summary, not quoted documentation prose. The helper tier/parent are library organization choices.",
+      "Both source PNGs show the same blue folded artwork. The opaque foreground child image overrides the older image fill on Template's parent.",
+      "Original includes the source blue check vector. Template uses 16px image corners; Original uses 24px outer image corners.",
+      "Optional imageHash/src and onSelect props enable host composition; they are not additional Figma variant axes."
+    ]
+  },
+  {
+    "slug": "checkmark-circle",
+    "name": "Checkmark circle",
+    "tag": "CheckmarkCircle",
+    "tier": "Molecule",
+    "partOf": "image-display-list",
+    "nodeId": "437:83677",
+    "bin": "TBD",
+    "verified": false,
+    "overview": "The selected-image check indicator. Default is 28 × 28; Variant2 is 24 × 24. Both preserve the source circle, check vector and shadow.",
+    "props": [
+      {
+        "name": "property1",
+        "kind": "select",
+        "values": [
+          "Default",
+          "Variant2"
+        ],
+        "default": "Default"
+      }
+    ],
+    "originalAxes": {
+      "Property 1": {
+        "reactProp": "property1",
+        "values": [
+          "Default",
+          "Variant2"
+        ],
+        "default": "Default"
+      }
+    },
+    "configurations": [
+      {
+        "nodeId": "437:83678",
+        "value": "Default",
+        "width": 28,
+        "height": 28,
+        "vectorNodes": [
+          "437:83679",
+          "437:83680"
+        ]
+      },
+      {
+        "nodeId": "437:83681",
+        "value": "Variant2",
+        "width": 24,
+        "height": 24,
+        "vectorNodes": [
+          "437:83682",
+          "437:83683"
+        ]
+      }
+    ],
+    "notes": [
+      "The source name Variant2 is retained without guessing a semantic name.",
+      "The icon is a noninteractive selected-state indicator. Selection belongs to the image control that contains it.",
+      "Overview is a source-derived summary, not quoted documentation prose; bin remains unassigned."
+    ]
+  },
+  {
+    "slug": "main-image-footer",
+    "name": "Main image footer",
+    "tag": "MainImageFooter",
+    "tier": "Molecule",
+    "partOf": "main-image-area",
+    "nodeId": "464:32760",
+    "bin": "TBD",
+    "verified": false,
+    "overview": "The prompt overlay for a generated image: mode and aspect-ratio badges, source prompt text, an edit action, and like/dislike feedback. Two- and four-line variants define the source heights.",
+    "props": [
+      {
+        "name": "property1",
+        "kind": "select",
+        "values": [
+          "2 lines",
+          "4 lines"
+        ],
+        "default": "2 lines"
+      },
+      {
+        "name": "prompt",
+        "kind": "text",
+        "default": ""
+      }
+    ],
+    "originalAxes": {
+      "Property 1": {
+        "reactProp": "property1",
+        "values": [
+          "2 lines",
+          "4 lines"
+        ],
+        "default": "2 lines"
+      }
+    },
+    "configurations": [
+      {
+        "nodeId": "464:32759",
+        "value": "2 lines",
+        "width": 909,
+        "height": 108,
+        "promptNode": "464:32604"
+      },
+      {
+        "nodeId": "464:32758",
+        "value": "4 lines",
+        "width": 909,
+        "height": 152,
+        "promptNode": "464:32729"
+      }
+    ],
+    "notes": [
+      "The exact repeated/truncated four-line Figma sample is retained in FOOTER_PROMPTS.",
+      "The source background is transparent-to-black, suitable for overlaying an image.",
+      "Optional prompt/mode/aspectRatio/width and edit/feedback callbacks are host integration props; only property1 is a Figma variant axis.",
+      "Overview is a source-derived summary, not quoted documentation prose; bin remains unassigned."
+    ]
+  },
+  {
+    "slug": "display-image",
+    "name": "Display image",
+    "tag": "DisplayImage",
+    "tier": "Molecule",
+    "partOf": "image-display-list",
+    "nodeId": "470:34234",
+    "bin": "TBD",
+    "verified": false,
+    "overview": "One image in the generated-image display list. Selected images add the source 30% dark overlay and CheckmarkCircle. The two aspect configurations have different source widths.",
+    "props": [
+      {
+        "name": "property1",
+        "kind": "select",
+        "values": [
+          "selected",
+          "unselected"
+        ],
+        "default": "selected"
+      },
+      {
+        "name": "property2",
+        "kind": "select",
+        "values": [
+          "1:1",
+          "3:2"
+        ],
+        "default": "3:2"
+      }
+    ],
+    "originalAxes": {
+      "Property 1": {
+        "reactProp": "property1",
+        "values": [
+          "selected",
+          "unselected"
+        ],
+        "default": "selected"
+      },
+      "Property 2": {
+        "reactProp": "property2",
+        "values": [
+          "1:1",
+          "3:2"
+        ],
+        "default": "3:2"
+      }
+    },
+    "configurations": [
+      {
+        "nodeId": "470:34233",
+        "property1": "selected",
+        "property2": "3:2",
+        "width": 223,
+        "height": 150.5,
+        "imageHash": "78c3724e4f1be49e35f2f5b02bc334feb500041e"
+      },
+      {
+        "nodeId": "470:34232",
+        "property1": "unselected",
+        "property2": "3:2",
+        "width": 223,
+        "height": 150.5,
+        "imageHash": "bdaf4e94891b34d77a6aeb5f08d63a78410af701"
+      },
+      {
+        "nodeId": "470:34251",
+        "property1": "selected",
+        "property2": "1:1",
+        "width": 150,
+        "height": 150.5,
+        "imageHash": "3ff315905c14ee837c58ba797ffa6e2ba05337b0"
+      },
+      {
+        "nodeId": "470:34252",
+        "property1": "unselected",
+        "property2": "1:1",
+        "width": 150,
+        "height": 150.5,
+        "imageHash": "6c5a60f55eb5b7acd57eee2d424220e7f78a07b4"
+      }
+    ],
+    "notes": [
+      "The nominal 1:1 source configuration is actually 150 × 150.5 pixels; the half-pixel source height is preserved.",
+      "Standalone configuration previews retain each variant's actual source image. A host can pass imageHash/src when keeping one image across selection changes.",
+      "Overview is a source-derived summary, not quoted documentation prose; bin remains unassigned."
+    ]
+  },
+  {
+    "slug": "serp-template-card",
+    "name": "SERP template card",
+    "tag": "SerpTemplateCard",
+    "tier": "Molecule",
+    "partOf": "serp-carousel",
+    "nodeId": "598:38176",
+    "bin": "TBD",
+    "verified": false,
+    "overview": "A 200 × 200 SERP template tile with a 200 × 170 result image, a 48-pixel reference-image inset and the Product Spotlight title.",
+    "props": [],
+    "originalAxes": {},
+    "configurations": [
+      {
+        "nodeId": "598:38176",
+        "width": 200,
+        "height": 200,
+        "imageWidth": 200,
+        "imageHeight": 170,
+        "referenceSize": 48,
+        "referencePosition": {
+          "x": 12,
+          "y": 110
+        },
+        "title": "Product Spotlight",
+        "imageHash": "819503ea34a4eb8c90ff9f3d881e28c600231765",
+        "referenceImageHash": "e6ca6b7fd2e5249609839e3e7d27fb69d178a6f8"
+      }
+    ],
+    "notes": [
+      "This is a single component with no canonical variant properties.",
+      "Source image cropping is preserved for the main product image; the visible topmost reference fill is the teapot, not the older portrait fill beneath it.",
+      "Optional title/imageHash/referenceImageHash/src/referenceSrc/onSelect props allow reuse with real carousel content; they are not invented Figma variants.",
+      "Overview is a source-derived summary, not quoted documentation prose; bin remains unassigned."
+    ]
+  }
+]
