@@ -46,5 +46,28 @@
     "rasterScale": 4,
     "sha256": "6f6bd72787c06534f69c06f7b49f70d9c69537cb847ff7277b0cf0703a25dc87",
     "scope": "Only a transparent decorative shadow; source image, title and layout are not rasterized."
+  },
+  "referenceDecoration": {
+    "canvas": [
+      56,
+      54
+    ],
+    "contentOffset": [
+      4,
+      2
+    ],
+    "contentSize": [
+      48,
+      48
+    ],
+    "radius": 12,
+    "insetStroke": {
+      "width": 2,
+      "color": "#fff"
+    },
+    "shadow": "0 1px 3px rgba(0,0,0,.15)",
+    "scale": 4,
+    "sha256": "58927d5db0505e10cc2115524255748da19fa2429a84d916d6a794e146c3dc75",
+    "scope": "Transparent border/shadow paint only; no photograph, text or component layout."
   }
 }
