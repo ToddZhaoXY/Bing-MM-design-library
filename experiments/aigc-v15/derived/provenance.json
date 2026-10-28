@@ -27,5 +27,24 @@
     "objectFit": "cover",
     "objectPosition": "50% 50%",
     "derivedSha256": "78d109d68c3c795336027482b3b67a9d6365831a30671ade1d14426dca687374"
+  },
+  "referenceShadow": {
+    "css": "0 1px 3px rgba(0,0,0,.15)",
+    "sourceBox": [
+      48,
+      48
+    ],
+    "radius": 12,
+    "canvas": [
+      54,
+      54
+    ],
+    "contentOffset": [
+      3,
+      2
+    ],
+    "rasterScale": 4,
+    "sha256": "6f6bd72787c06534f69c06f7b49f70d9c69537cb847ff7277b0cf0703a25dc87",
+    "scope": "Only a transparent decorative shadow; source image, title and layout are not rasterized."
   }
 }
