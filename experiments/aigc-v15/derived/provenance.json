@@ -1,0 +1,31 @@
+{
+  "source": "source/projects/aigc/site/public/figma/optimized-images/819503ea34a4eb8c90ff9f3d881e28c600231765.webp",
+  "sourceSha256": "90d45c47d6c0cd2a73aeaee2becbc5fc22b51579dd986c46670326ec674c93a3",
+  "originalObjectFit": "cover",
+  "originalObjectPosition": "50% 73.3333%",
+  "renderSize": [
+    200,
+    170
+  ],
+  "cropBox": [
+    0,
+    176,
+    880,
+    924
+  ],
+  "derivedSha256": "92bcc098ca102cb44ae5e62952d71d02b562a42fef4bb5a7305f8b2f27a0eff7",
+  "method": "Lossless crop of original artwork only; no text, controls, layout or whole-card screenshot is rasterized.",
+  "reference": {
+    "source": "source/projects/aigc/site/public/figma/optimized-images/e6ca6b7fd2e5249609839e3e7d27fb69d178a6f8.webp",
+    "sourceSha256": "051efb3c71dbe44e3031a34517fc0df8a6e4730703133b2cc28621a946b04069",
+    "cropBox": [
+      0,
+      220,
+      880,
+      1100
+    ],
+    "objectFit": "cover",
+    "objectPosition": "50% 50%",
+    "derivedSha256": "78d109d68c3c795336027482b3b67a9d6365831a30671ade1d14426dca687374"
+  }
+}
