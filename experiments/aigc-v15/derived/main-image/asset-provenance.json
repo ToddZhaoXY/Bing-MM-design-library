@@ -1,0 +1,135 @@
+{
+  "sourceRepository": "https://github.com/ToddZhaoXY/Bing-MM-design-library",
+  "purpose": "Proxy-compatible PNG derivatives of MainImageArea decorative paints; no main image, prompt text, badge text, layout or whole component is rasterized.",
+  "assets": [
+    {
+      "file": "edit.png",
+      "sha256": "31db4aacc02eb8352b9833b7a23e7799321a24183e780bccbe3e669df5738c12",
+      "source": "experiments/aigc-v15/derived/batch-01/edit.svg",
+      "sourceSha256": "e48d22ea8ee3b60e24012b1a901b3ab46b3a57897376822661156a68f287a743",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "pixelSize": [
+        32,
+        32
+      ],
+      "renderSize": [
+        16,
+        16
+      ],
+      "role": "Original edit SourceIcon paint only",
+      "transform": "Unchanged source SVG rendered at 144 DPI (2\u00d7), preserving paths, colors, opacity and transparent pixels.",
+      "verification": {
+        "exactPixelMatchToOriginalSvgRaster": true,
+        "dimensionsCorrect": true
+      }
+    },
+    {
+      "file": "like.png",
+      "sha256": "3680165f6e8adf4a000ea717c5b9ac762fd5e82f4263f9bcd1f21610f793b693",
+      "source": "experiments/aigc-v15/derived/batch-01/like.svg",
+      "sourceSha256": "1fd473e870c9f37862e93e6e966fa7795093cc9ca6ad68160c47c167f1c865ca",
+      "sourceSize": [
+        28,
+        28
+      ],
+      "pixelSize": [
+        56,
+        56
+      ],
+      "renderSize": [
+        28,
+        28
+      ],
+      "role": "Original feedback control background and SourceIcon paint",
+      "transform": "Unchanged source SVG rendered at 144 DPI (2\u00d7), preserving paths, colors, opacity and transparent pixels.",
+      "verification": {
+        "exactPixelMatchToOriginalSvgRaster": true,
+        "dimensionsCorrect": true
+      }
+    },
+    {
+      "file": "dislike.png",
+      "sha256": "2a06249d443ab23d1ec5aaff2a28242762bfa69641691b090043332a56e7e1d3",
+      "source": "experiments/aigc-v15/derived/batch-01/dislike.svg",
+      "sourceSha256": "41772bf2415e5f29be2e216ef2014845f4501e7a7e82d9ce8868b8c695ba0a9e",
+      "sourceSize": [
+        28,
+        28
+      ],
+      "pixelSize": [
+        56,
+        56
+      ],
+      "renderSize": [
+        28,
+        28
+      ],
+      "role": "Original feedback control background and SourceIcon paint",
+      "transform": "Unchanged source SVG rendered at 144 DPI (2\u00d7), preserving paths, colors, opacity and transparent pixels.",
+      "verification": {
+        "exactPixelMatchToOriginalSvgRaster": true,
+        "dimensionsCorrect": true
+      }
+    },
+    {
+      "file": "stage-wash.png",
+      "sha256": "1c44164b02004bd9df2e9e7965a2782d2f3ad186215a033f8acceca4dca3a9c0",
+      "source": "experiments/aigc-v15/derived/batch-01/stage-wash.png",
+      "sourceSha256": "2e1348c87011b52c3037fe96c6039d3b4a76451637befeed704d229e518310b7",
+      "sourceSize": [
+        1,
+        1
+      ],
+      "pixelSize": [
+        982,
+        608
+      ],
+      "transform": "Repeat the original single RGBA pixel without changing color or alpha; no resampling or opacity recalculation.",
+      "verification": {
+        "everyExpandedPixelEqualsSource": true,
+        "dimensionsCorrect": true
+      }
+    },
+    {
+      "file": "footer-gradient.png",
+      "sha256": "b67b39b6453f2a9880420a8d3f3a657abac1e18a33f636dd7027dac07c8b10d0",
+      "source": "experiments/aigc-v15/derived/batch-01/footer-gradient.png",
+      "sourceSha256": "12e435125e164e5cbcbef142a4e292a488f1b8fb344e5723c11c75877a7b379d",
+      "sourceSize": [
+        1,
+        216
+      ],
+      "pixelSize": [
+        982,
+        216
+      ],
+      "transform": "Repeat each original gradient pixel horizontally 982 times; keep all 216 original rows unchanged. Stretch to the actual footer bounds at render time, preserving normalized stop positions.",
+      "verification": {
+        "everyExpandedPixelEqualsSource": true,
+        "dimensionsCorrect": true
+      }
+    },
+    {
+      "file": "badge-dim.png",
+      "sha256": "1dd2353fde6c9252800ad38c09a16285ed279b8c348c5160626b813e99247776",
+      "source": "experiments/aigc-v15/derived/batch-01/badge-dim.png",
+      "sourceSha256": "457718e46f2fb84ea4f0c41850923d408fa0524674be601bf837214f035cb766",
+      "sourceSize": [
+        1,
+        1
+      ],
+      "pixelSize": [
+        512,
+        48
+      ],
+      "transform": "Repeat the original single RGBA pixel without changing color or alpha; no resampling or opacity recalculation.",
+      "verification": {
+        "everyExpandedPixelEqualsSource": true,
+        "dimensionsCorrect": true
+      }
+    }
+  ]
+}
