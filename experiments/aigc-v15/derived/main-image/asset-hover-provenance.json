@@ -1,0 +1,423 @@
+{
+  "purpose": "Separate hover background image derivatives that remove the need for an asynchronous gradient overlay. No text, badge, icon, button, UI screenshot or component pixels are added.",
+  "stageHeightCssPx": 608,
+  "footerHeightCssPx": 108.8046875,
+  "footerStartCssY": 499.1953125,
+  "unchangedStageWashRgba": [
+    0,
+    0,
+    0,
+    8
+  ],
+  "layerOrder": "Use either separate hover backdrop over unchanged stage-wash plus hover foreground, or one composed stage PNG. Do not combine the two alternatives or add a second gradient. Default/hover composed stage PNGs already include stage-wash, backdrop and centered foreground; all UI remains separate.",
+  "assets": [
+    {
+      "file": "main-3x2-hover.webp",
+      "sha256": "2d9f4acb470f9adba3690b6e6a5859c792d06c35a3ef7477ade664e899ad2151",
+      "source": "experiments/aigc-v15/derived/batch-01/main-3x2.webp",
+      "sourceSha256": "796ec684b1a168929c019d0efe60fef9024bb21b84740e0d51f3fbd7b5554d8a",
+      "sourcePixelSize": [
+        1818,
+        1216
+      ],
+      "outputPixelSize": [
+        1818,
+        1216
+      ],
+      "pixelScale": 2,
+      "renderSize": [
+        909,
+        608
+      ],
+      "encoding": "lossless WebP",
+      "sourceRole": "foreground artwork",
+      "gradient": {
+        "sourceCss": "linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.7) 49.3013%)",
+        "startCssY": 499.1953125,
+        "heightCssPx": 108.8046875,
+        "finalOpacity": 0.7,
+        "opaqueStopFraction": 0.493013,
+        "sampling": "pixel-center evaluation, then nearest 8-bit RGBA rounding"
+      },
+      "alphaComposition": "G over B; preserve straight RGBA. At render time (G over B) over S equals G over (B over S), where S is the original stage-wash. The stage-wash is not baked into this asset.",
+      "checks": {
+        "dimensionsUnchanged": true,
+        "exactDecodedTopRegionMatch": true,
+        "topUnchangedRows": 998,
+        "exactLosslessRgbaRoundTrip": true,
+        "bottomOverlayOpacity": 0.7,
+        "bottomAlphaFormulaVerified": true,
+        "maxStageWashAssociativityError": 0,
+        "onlySourceBackgroundAndBlackGradientInputs": true
+      }
+    },
+    {
+      "file": "stage-1x1.webp",
+      "sha256": "36f1e93888390c6db071ae5d1c7e4a63acd99e7496026895f2994f2143d0eae3",
+      "outputPixelSize": [
+        1964,
+        1216
+      ],
+      "renderSize": [
+        982,
+        608
+      ],
+      "pixelScale": 2,
+      "encoding": "lossless WebP; RGBA pixel-equal to source PNG",
+      "layers": [
+        {
+          "source": "experiments/aigc-v15/derived/batch-01/stage-wash.png",
+          "sourceSha256": "2e1348c87011b52c3037fe96c6039d3b4a76451637befeed704d229e518310b7",
+          "sourcePixelSize": [
+            1,
+            1
+          ],
+          "order": 1,
+          "renderSize": [
+            982,
+            608
+          ],
+          "offsetCss": [
+            0,
+            0
+          ],
+          "sampling": "Uniform original RGBA8 paint"
+        },
+        {
+          "source": "experiments/aigc-v15/derived/batch-01/backdrop-1x1.png",
+          "sourceSha256": "a8454b52382fc2336c5dfffde11e63044c347e0cf01411ed49cfb021ab7da920",
+          "sourcePixelSize": [
+            982,
+            608
+          ],
+          "order": 2,
+          "renderSize": [
+            982,
+            608
+          ],
+          "offsetCss": [
+            0,
+            0
+          ],
+          "sampling": "Original 1\u00d7 blur paint resized to 2\u00d7 with lanczos3"
+        },
+        {
+          "source": "experiments/aigc-v15/derived/batch-01/main-1x1.webp",
+          "sourceSha256": "e9525194ea550abf2778ba42054d449ff5c82d588a1736768a18988546db23c4",
+          "sourcePixelSize": [
+            1216,
+            1216
+          ],
+          "order": 3,
+          "renderSize": [
+            608,
+            608
+          ],
+          "offsetCss": [
+            187,
+            0
+          ],
+          "sampling": "Original 2\u00d7 foreground copied pixel-for-pixel"
+        }
+      ],
+      "hoverGradient": null,
+      "layerOrder": "Original stage-wash, then original blur backdrop, then original centered opaque foreground. Hover adds only the original CSS black footer gradient last.",
+      "compositing": "Straight-alpha source-over on RGBA; outer margins retain transparency rather than being flattened against white.",
+      "checks": {
+        "renderDimensionsCorrect": true,
+        "exactLosslessRgbaRoundTrip": true,
+        "foregroundBeforeGradientCopiedExactly": true,
+        "defaultAndHoverTopPixelsEqual": true,
+        "topUnchangedRows": 998,
+        "onlySourceBackgroundAndArtworkInputs": true
+      },
+      "losslessVerification": {
+        "file": "stage-1x1.webp",
+        "source": "stage-1x1.png",
+        "sha256": "36f1e93888390c6db071ae5d1c7e4a63acd99e7496026895f2994f2143d0eae3",
+        "decodedPixelsEqual": true,
+        "bytes": 1395604
+      }
+    },
+    {
+      "file": "stage-1x1-hover.webp",
+      "sha256": "dbc79568c589b0a80f6dc6184957b6b7fa0096bbaad86cafac63d5ac2e0b32cc",
+      "outputPixelSize": [
+        1964,
+        1216
+      ],
+      "renderSize": [
+        982,
+        608
+      ],
+      "pixelScale": 2,
+      "encoding": "lossless WebP; RGBA pixel-equal to source PNG",
+      "layers": [
+        {
+          "source": "experiments/aigc-v15/derived/batch-01/stage-wash.png",
+          "sourceSha256": "2e1348c87011b52c3037fe96c6039d3b4a76451637befeed704d229e518310b7",
+          "sourcePixelSize": [
+            1,
+            1
+          ],
+          "order": 1,
+          "renderSize": [
+            982,
+            608
+          ],
+          "offsetCss": [
+            0,
+            0
+          ],
+          "sampling": "Uniform original RGBA8 paint"
+        },
+        {
+          "source": "experiments/aigc-v15/derived/batch-01/backdrop-1x1.png",
+          "sourceSha256": "a8454b52382fc2336c5dfffde11e63044c347e0cf01411ed49cfb021ab7da920",
+          "sourcePixelSize": [
+            982,
+            608
+          ],
+          "order": 2,
+          "renderSize": [
+            982,
+            608
+          ],
+          "offsetCss": [
+            0,
+            0
+          ],
+          "sampling": "Original 1\u00d7 blur paint resized to 2\u00d7 with lanczos3"
+        },
+        {
+          "source": "experiments/aigc-v15/derived/batch-01/main-1x1.webp",
+          "sourceSha256": "e9525194ea550abf2778ba42054d449ff5c82d588a1736768a18988546db23c4",
+          "sourcePixelSize": [
+            1216,
+            1216
+          ],
+          "order": 3,
+          "renderSize": [
+            608,
+            608
+          ],
+          "offsetCss": [
+            187,
+            0
+          ],
+          "sampling": "Original 2\u00d7 foreground copied pixel-for-pixel"
+        }
+      ],
+      "hoverGradient": {
+        "order": 4,
+        "color": "black",
+        "startCssY": 499.1953125,
+        "heightCssPx": 108.8046875,
+        "finalOpacity": 0.7,
+        "opaqueStopFraction": 0.493013,
+        "sampling": "pixel center, nearest 8-bit RGBA rounding"
+      },
+      "layerOrder": "Original stage-wash, then original blur backdrop, then original centered opaque foreground. Hover adds only the original CSS black footer gradient last.",
+      "compositing": "Straight-alpha source-over on RGBA; outer margins retain transparency rather than being flattened against white.",
+      "checks": {
+        "renderDimensionsCorrect": true,
+        "exactLosslessRgbaRoundTrip": true,
+        "foregroundBeforeGradientCopiedExactly": true,
+        "defaultAndHoverTopPixelsEqual": true,
+        "topUnchangedRows": 998,
+        "onlySourceBackgroundAndArtworkInputs": true
+      },
+      "losslessVerification": {
+        "file": "stage-1x1-hover.webp",
+        "source": "stage-1x1-hover.png",
+        "sha256": "dbc79568c589b0a80f6dc6184957b6b7fa0096bbaad86cafac63d5ac2e0b32cc",
+        "decodedPixelsEqual": true,
+        "bytes": 1306176
+      }
+    },
+    {
+      "file": "stage-2x3.webp",
+      "sha256": "d29d5f8c0213db72d0e70c7f4ef8f636416724873448cf30c80824376bf9d160",
+      "outputPixelSize": [
+        1964,
+        1216
+      ],
+      "renderSize": [
+        982,
+        608
+      ],
+      "pixelScale": 2,
+      "encoding": "lossless WebP; RGBA pixel-equal to source PNG",
+      "layers": [
+        {
+          "source": "experiments/aigc-v15/derived/batch-01/stage-wash.png",
+          "sourceSha256": "2e1348c87011b52c3037fe96c6039d3b4a76451637befeed704d229e518310b7",
+          "sourcePixelSize": [
+            1,
+            1
+          ],
+          "order": 1,
+          "renderSize": [
+            982,
+            608
+          ],
+          "offsetCss": [
+            0,
+            0
+          ],
+          "sampling": "Uniform original RGBA8 paint"
+        },
+        {
+          "source": "experiments/aigc-v15/derived/batch-01/backdrop-2x3.png",
+          "sourceSha256": "6c263bf04dea12634d3d1a005e733f823292f5544ac7acafa1a0fc5546ded842",
+          "sourcePixelSize": [
+            982,
+            608
+          ],
+          "order": 2,
+          "renderSize": [
+            982,
+            608
+          ],
+          "offsetCss": [
+            0,
+            0
+          ],
+          "sampling": "Original 1\u00d7 blur paint resized to 2\u00d7 with lanczos3"
+        },
+        {
+          "source": "experiments/aigc-v15/derived/batch-01/main-2x3.webp",
+          "sourceSha256": "62689c6e7c79d1594433db11ecce0d790234d6b566d56d8861b15fa5bb4d677b",
+          "sourcePixelSize": [
+            808,
+            1216
+          ],
+          "order": 3,
+          "renderSize": [
+            404,
+            608
+          ],
+          "offsetCss": [
+            289,
+            0
+          ],
+          "sampling": "Original 2\u00d7 foreground copied pixel-for-pixel"
+        }
+      ],
+      "hoverGradient": null,
+      "layerOrder": "Original stage-wash, then original blur backdrop, then original centered opaque foreground. Hover adds only the original CSS black footer gradient last.",
+      "compositing": "Straight-alpha source-over on RGBA; outer margins retain transparency rather than being flattened against white.",
+      "checks": {
+        "renderDimensionsCorrect": true,
+        "exactLosslessRgbaRoundTrip": true,
+        "foregroundBeforeGradientCopiedExactly": true,
+        "defaultAndHoverTopPixelsEqual": true,
+        "topUnchangedRows": 998,
+        "onlySourceBackgroundAndArtworkInputs": true
+      },
+      "losslessVerification": {
+        "file": "stage-2x3.webp",
+        "source": "stage-2x3.png",
+        "sha256": "d29d5f8c0213db72d0e70c7f4ef8f636416724873448cf30c80824376bf9d160",
+        "decodedPixelsEqual": true,
+        "bytes": 1277780
+      }
+    },
+    {
+      "file": "stage-2x3-hover.webp",
+      "sha256": "db76bdbb0220656d97803764ccfb008fb4771ce02f771e79bd0096503dfaa619",
+      "outputPixelSize": [
+        1964,
+        1216
+      ],
+      "renderSize": [
+        982,
+        608
+      ],
+      "pixelScale": 2,
+      "encoding": "lossless WebP; RGBA pixel-equal to source PNG",
+      "layers": [
+        {
+          "source": "experiments/aigc-v15/derived/batch-01/stage-wash.png",
+          "sourceSha256": "2e1348c87011b52c3037fe96c6039d3b4a76451637befeed704d229e518310b7",
+          "sourcePixelSize": [
+            1,
+            1
+          ],
+          "order": 1,
+          "renderSize": [
+            982,
+            608
+          ],
+          "offsetCss": [
+            0,
+            0
+          ],
+          "sampling": "Uniform original RGBA8 paint"
+        },
+        {
+          "source": "experiments/aigc-v15/derived/batch-01/backdrop-2x3.png",
+          "sourceSha256": "6c263bf04dea12634d3d1a005e733f823292f5544ac7acafa1a0fc5546ded842",
+          "sourcePixelSize": [
+            982,
+            608
+          ],
+          "order": 2,
+          "renderSize": [
+            982,
+            608
+          ],
+          "offsetCss": [
+            0,
+            0
+          ],
+          "sampling": "Original 1\u00d7 blur paint resized to 2\u00d7 with lanczos3"
+        },
+        {
+          "source": "experiments/aigc-v15/derived/batch-01/main-2x3.webp",
+          "sourceSha256": "62689c6e7c79d1594433db11ecce0d790234d6b566d56d8861b15fa5bb4d677b",
+          "sourcePixelSize": [
+            808,
+            1216
+          ],
+          "order": 3,
+          "renderSize": [
+            404,
+            608
+          ],
+          "offsetCss": [
+            289,
+            0
+          ],
+          "sampling": "Original 2\u00d7 foreground copied pixel-for-pixel"
+        }
+      ],
+      "hoverGradient": {
+        "order": 4,
+        "color": "black",
+        "startCssY": 499.1953125,
+        "heightCssPx": 108.8046875,
+        "finalOpacity": 0.7,
+        "opaqueStopFraction": 0.493013,
+        "sampling": "pixel center, nearest 8-bit RGBA rounding"
+      },
+      "layerOrder": "Original stage-wash, then original blur backdrop, then original centered opaque foreground. Hover adds only the original CSS black footer gradient last.",
+      "compositing": "Straight-alpha source-over on RGBA; outer margins retain transparency rather than being flattened against white.",
+      "checks": {
+        "renderDimensionsCorrect": true,
+        "exactLosslessRgbaRoundTrip": true,
+        "foregroundBeforeGradientCopiedExactly": true,
+        "defaultAndHoverTopPixelsEqual": true,
+        "topUnchangedRows": 998,
+        "onlySourceBackgroundAndArtworkInputs": true
+      },
+      "losslessVerification": {
+        "file": "stage-2x3-hover.webp",
+        "source": "stage-2x3-hover.png",
+        "sha256": "db76bdbb0220656d97803764ccfb008fb4771ce02f771e79bd0096503dfaa619",
+        "decodedPixelsEqual": true,
+        "bytes": 1220308
+      }
+    }
+  ]
+}
