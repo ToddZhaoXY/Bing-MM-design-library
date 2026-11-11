@@ -1,0 +1,114 @@
+{
+  "mode": "local isolated fixture, no browser/origin access",
+  "results": [
+    {
+      "library": "mm-image",
+      "parent": "Image Tile",
+      "child": "Meta data",
+      "hierarchy": {
+        "group": {
+          "size": 11,
+          "weight": "650",
+          "color": "rgb(89, 99, 114)"
+        },
+        "parent": {
+          "size": 14,
+          "weight": "600",
+          "color": "rgb(32, 38, 49)"
+        },
+        "child": {
+          "size": 13,
+          "weight": "600",
+          "color": "rgb(40, 89, 166)"
+        },
+        "inactiveChild": {
+          "size": 13,
+          "weight": "400",
+          "color": "rgb(89, 99, 114)"
+        }
+      },
+      "controls": 7,
+      "componentLinks": 18,
+      "mobile": {
+        "width": 390,
+        "document": 390,
+        "nav": 390
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "library": "aigc",
+      "parent": "Creation composer",
+      "child": "Prompt template card",
+      "hierarchy": {
+        "group": {
+          "size": 11,
+          "weight": "650",
+          "color": "rgb(89, 99, 114)"
+        },
+        "parent": {
+          "size": 14,
+          "weight": "600",
+          "color": "rgb(32, 38, 49)"
+        },
+        "child": {
+          "size": 13,
+          "weight": "600",
+          "color": "rgb(40, 89, 166)"
+        }
+      },
+      "controls": 9,
+      "componentLinks": 17,
+      "mobile": {
+        "width": 390,
+        "document": 390,
+        "nav": 390
+      },
+      "errors": [],
+      "network": []
+    },
+    {
+      "library": "video",
+      "parent": "Video Metadata",
+      "child": "Video Card",
+      "hierarchy": {
+        "group": {
+          "size": 11,
+          "weight": "650",
+          "color": "rgb(89, 99, 114)"
+        },
+        "parent": {
+          "size": 14,
+          "weight": "600",
+          "color": "rgb(32, 38, 49)"
+        },
+        "child": {
+          "size": 13,
+          "weight": "600",
+          "color": "rgb(40, 89, 166)"
+        },
+        "inactiveChild": {
+          "size": 13,
+          "weight": "400",
+          "color": "rgb(89, 99, 114)"
+        }
+      },
+      "controls": 7,
+      "componentLinks": 19,
+      "mobile": {
+        "width": 390,
+        "document": 390,
+        "nav": 390
+      },
+      "errors": [],
+      "network": []
+    }
+  ],
+  "touchTarget": {
+    "x": 328,
+    "y": 210.515625,
+    "width": 44,
+    "height": 44
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "requested": {
+    "width": 390,
+    "height": 844
+  },
+  "actual": {
+    "document": 646,
+    "preview": {
+      "bottom": 1193.8280029296875,
+      "height": 420.8358154296875,
+      "left": 57,
+      "right": 589,
+      "top": 772.9921875,
+      "width": 532,
+      "x": 57,
+      "y": 772.9921875
+    },
+    "viewport": 661
+  }
+}

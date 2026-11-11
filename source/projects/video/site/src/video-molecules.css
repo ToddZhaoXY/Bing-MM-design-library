@@ -6,8 +6,10 @@
 .vm-card{display:flex;flex-direction:column;gap:8px;background:transparent;min-width:0}
 .vm-video-inline{flex-direction:row;gap:12px}
 .vm-video-inline .vm-metadata{flex:1;min-width:0}
-.vm-video-overlay{position:absolute;left:0;bottom:0;width:100%;padding:40px 20px 20px;background:linear-gradient(transparent,#000 60%);color:#fff;pointer-events:none;display:flex;flex-direction:column;gap:2px}
-.vm-video-overlay .vm-source{color:white;font-size:11px;line-height:16px}
+/* Position only the caption overlay; the vm-video-overlay card stays in layout. */
+.vm-video-overlay-content{position:absolute;left:0;bottom:0;width:100%;padding:40px 20px 20px;background:linear-gradient(transparent,#000 60%);color:#fff;pointer-events:none;display:flex;flex-direction:column;gap:2px}
+.vm-video-overlay-content .vm-overlay-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex-shrink:0}
+.vm-video-overlay-content .vm-source{color:white;font-size:11px;line-height:16px}
 .vm-video-media,.vm-short-media{overflow:hidden;flex-shrink:0;position:relative}
 .vm-short-overlay{position:absolute;left:0;bottom:0;width:100%;display:flex;flex-direction:column;gap:4px;padding:12px 8px 8px;background:linear-gradient(transparent,#000 42%);pointer-events:none;color:#fff}
 .vm-short-overlay .vm-source{font-size:11px;line-height:16px;color:white;overflow:hidden;white-space:nowrap}
@@ -38,16 +40,18 @@
 .vm-metadata-bottom{display:flex;flex-direction:column;gap:2px;min-width:0}
 .vm-source,.vm-facts{display:flex;align-items:center;gap:4px;font:400 13px/20px Roboto,Arial,sans-serif;color:rgba(0,0,0,.6);min-width:0;max-width:100%}
 .vm-source{white-space:nowrap;overflow:hidden}
+.vm-source-name{min-width:0;overflow:hidden;text-overflow:ellipsis}
 .vm-facts{flex-wrap:nowrap;overflow:hidden;white-space:nowrap}
 .vm-source-icon{position:relative;display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;flex-shrink:0;overflow:hidden}
 .vm-source-icon .vm-raster-brand{width:14px;height:14px;object-fit:contain}
 .vm-ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .vm-short-card[data-ratio="9:16"] .vm-metadata .vm-source{flex-wrap:wrap;overflow:visible;row-gap:4px}
+.vm-short-card[data-ratio="9:16"] .vm-metadata .vm-source-name{max-width:calc(100% - 32px)}
 .vm-short-card[data-ratio="9:16"] .vm-metadata .vm-source .vm-ellipsis{flex-basis:100%}
 .vm-metadata-inline .vm-title{font:400 18px/28px Roboto,Arial,sans-serif;color:#3d00a6;min-height:56px}
 .vm-metadata-inline .vm-metadata-bottom{margin-top:auto}
-.vm-description{font:400 14px/22px Roboto,Arial,sans-serif;color:rgba(0,0,0,.6);overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3}
-.vm-metadata-inline .vm-description{-webkit-line-clamp:2}
+.vm-description{font:400 14px/22px Roboto,Arial,sans-serif;color:rgba(0,0,0,.6);overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;max-height:66px;flex-shrink:0}
+.vm-metadata-inline .vm-description{-webkit-line-clamp:2;max-height:44px}
 .vm-metadata-overlay{background:linear-gradient(transparent,#000);color:white;padding:12px 20px 20px}
 .vm-metadata-overlay .vm-source,.vm-metadata-overlay .vm-facts{color:white}
 .vm-instagram-icon:before{content:'';position:absolute;inset:1.333px;border-radius:3px;background:radial-gradient(circle at 27.5% 112.5%,#ffe19a 4.8988%,#f7ba66 15.21%,#f3a74b 20.365%,#ef9331 25.52%,#f1693d 35.191%,#f23e48 44.861%,#ed3870 58.107%,#e73297 71.353%)}
@@ -63,12 +67,15 @@
 .vm-magazine-header button{display:flex;align-items:center;justify-content:center;width:28px;height:28px;background:transparent;border:0;padding:6px;border-radius:4px}
 .vm-magazine-header button:hover{background:rgba(0,0,0,.06)}
 .vm-hero-copy{padding:12px 20px 20px;display:flex;flex:1;flex-direction:column;gap:8px;min-height:0}
-.vm-hero-copy .vm-title{-webkit-line-clamp:2}
-.vm-hero-copy .vm-description{flex:1;min-height:0}
-.vm-hero-footer{display:flex;align-items:center;gap:4px;font-size:13px;line-height:20px;color:rgba(0,0,0,.6);min-width:0;overflow:hidden;white-space:nowrap;flex-shrink:0}
+.vm-hero-copy .vm-title{-webkit-line-clamp:1;max-height:22px}
+/* The slot fills remaining space; its text keeps an integral line height. */
+.vm-hero-description{flex:1;min-height:0}
+.vm-hero-copy .vm-description{flex:none}
+.vm-hero-footer{margin-top:auto;display:flex;align-items:center;gap:4px;font-size:13px;line-height:20px;color:rgba(0,0,0,.6);min-width:0;overflow:hidden;white-space:nowrap;flex-shrink:0}
 .vm-hero-footer .vm-source,.vm-hero-footer .vm-facts{flex-shrink:0}
-.vm-hero-wide .vm-hero-copy{gap:4px}
-.vm-hero-wide .vm-description{-webkit-line-clamp:2}
+.vm-hero-wide .vm-hero-copy{gap:0}
+.vm-hero-wide .vm-title-link{margin-bottom:4px}
+.vm-hero-wide .vm-description{-webkit-line-clamp:2;max-height:44px}
 .vm-hero-super-wide .vm-hero-copy{gap:4px}
 .vm-more-list{background:#ecf5fe}
 .vm-more-items{display:flex;min-height:0;min-width:0;flex:1;gap:16px}
@@ -93,7 +100,7 @@
 .vm-playlist{position:relative}
 .vm-badge-light{background:white;color:#000;gap:2px}
 .vm-playlist-overlay{position:absolute;left:0;right:0;bottom:0;padding:20px;color:white;background:linear-gradient(transparent,#000 45%);display:flex;flex-direction:column;pointer-events:none;font-size:13px;line-height:20px}
-.vm-playlist-overlay strong{font-size:14px;line-height:22px;margin-bottom:4px}
+.vm-playlist-overlay strong{font-size:14px;line-height:22px;margin-bottom:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex-shrink:0}
 .vm-playlist-overlay span{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
 .vm-playlist-items{display:flex;flex-direction:column;gap:8px;flex:1;min-height:0}
 .vm-playlist-item{display:flex;align-items:stretch;gap:8px;background:transparent;border:0;padding:0;text-align:left;min-height:0;min-width:0;flex:1;border-radius:8px}
@@ -102,16 +109,16 @@
 .vm-playlist-thumb:after{content:'';position:absolute;inset:0;background:rgba(0,0,0,.1);pointer-events:none}
 .vm-playlist-thumb>span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
 .vm-playlist-copy{display:flex;flex-direction:column;justify-content:space-between;min-width:0;padding:4px 0}
-.vm-playlist-copy strong{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:14px;line-height:22px}
-.vm-playlist-copy>span{font-size:13px;line-height:20px;color:rgba(0,0,0,.75)}
+.vm-playlist-copy strong{flex-shrink:0;max-height:44px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:14px;line-height:22px}
+.vm-playlist-copy>span{flex-shrink:0;font-size:13px;line-height:20px;color:rgba(0,0,0,.75)}
 .vm-playlist-small .vm-playlist-thumb{width:58px}
-.vm-playlist-small .vm-playlist-copy strong{-webkit-line-clamp:1}
+.vm-playlist:not(.vm-playlist-tall) .vm-playlist-copy strong{-webkit-line-clamp:1;max-height:22px}
 .vm-playlist-tall .vm-playlist-thumb{width:81px}
 .vm-playlist-grid .vm-playlist-items{flex-direction:row;gap:12px}
 .vm-playlist-grid .vm-playlist-item{flex-direction:column;gap:0}
 .vm-playlist-grid .vm-playlist-thumb{width:100%;height:82px}
 .vm-playlist-grid .vm-playlist-copy{padding:2px 0 0}
-.vm-playlist-grid .vm-playlist-copy strong{font-size:13px;-webkit-line-clamp:1}
+.vm-playlist-grid .vm-playlist-copy strong{font-size:13px;line-height:20px;max-height:20px;-webkit-line-clamp:1}
 .vm-supplemental{background:#f8f4f1}
 .vm-trending-items{display:flex;gap:16px;flex:1;min-width:0;min-height:0}
 .vm-trending-items article{flex:1;min-width:0}

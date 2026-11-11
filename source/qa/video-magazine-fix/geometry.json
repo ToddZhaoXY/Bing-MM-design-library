@@ -1,0 +1,163 @@
+[
+  {
+    "case": "SERP page / default",
+    "card": {
+      "height": 199.99987814346696,
+      "width": 281.99990129620824,
+      "x": 918.0000987037917,
+      "y": 0
+    },
+    "cardInsideZone": true,
+    "cardPosition": "static",
+    "cardReceivesPointerInput": true,
+    "found": true,
+    "gap": 24.00005036736698,
+    "imdb": {
+      "height": 200.0000406188443,
+      "width": 281.99990129620824,
+      "x": 918.0000987037917,
+      "y": 223.9999285108339
+    },
+    "scale": 0.3756578826904297,
+    "sideHeight": 423.9999691296783,
+    "videoAboveIMDb": true
+  },
+  {
+    "case": "SERP page / activated",
+    "card": {
+      "height": 200.0000406188443,
+      "width": 281.99990129620824,
+      "x": 918.0000987037917,
+      "y": 0
+    },
+    "cardInsideZone": true,
+    "cardPosition": "static",
+    "cardReceivesPointerInput": true,
+    "found": true,
+    "gap": 23.9999691296783,
+    "imdb": {
+      "height": 200.0000406188443,
+      "width": 281.99990129620824,
+      "x": 918.0000987037917,
+      "y": 224.0000097485226
+    },
+    "scale": 0.3756578826904297,
+    "sideHeight": 424.00005036736695,
+    "videoAboveIMDb": true
+  },
+  {
+    "case": "SERP page / post-preview",
+    "card": {
+      "height": 200.0000406188443,
+      "width": 281.99990129620824,
+      "x": 918.0000987037917,
+      "y": 0
+    },
+    "cardInsideZone": true,
+    "cardPosition": "static",
+    "cardReceivesPointerInput": true,
+    "found": true,
+    "gap": 23.9999691296783,
+    "imdb": {
+      "height": 200.0000406188443,
+      "width": 281.99990129620824,
+      "x": 918.0000987037917,
+      "y": 224.0000097485226
+    },
+    "scale": 0.3756578826904297,
+    "sideHeight": 424.00005036736695,
+    "videoAboveIMDb": true
+  },
+  {
+    "case": "Magazine cell / default",
+    "card": {
+      "height": 200.0000427566769,
+      "width": 281.99999486919876,
+      "x": 918.0000051308012,
+      "y": 0
+    },
+    "cardInsideZone": true,
+    "cardPosition": "static",
+    "cardReceivesPointerInput": true,
+    "found": true,
+    "gap": 23.99996408439142,
+    "imdb": {
+      "height": 199.99991448664625,
+      "width": 281.99999486919876,
+      "x": 918.0000051308012,
+      "y": 224.0000068410683
+    },
+    "scale": 0.4758333333333334,
+    "sideHeight": 423.99992132771456,
+    "videoAboveIMDb": true
+  },
+  {
+    "case": "Playground / Magazine",
+    "card": {
+      "height": 199.99993806847337,
+      "width": 282.00012819826014,
+      "x": 917.9998718017398,
+      "y": 0
+    },
+    "cardInsideZone": true,
+    "cardPosition": "static",
+    "cardReceivesPointerInput": true,
+    "found": true,
+    "gap": 24.00007679509304,
+    "imdb": {
+      "height": 199.99993806847337,
+      "width": 282.00012819826014,
+      "x": 917.9998718017398,
+      "y": 224.0000148635664
+    },
+    "scale": 0.4927632141113281,
+    "sideHeight": 423.9999529320398,
+    "videoAboveIMDb": true
+  },
+  {
+    "case": "Playground / Magazine / 390px",
+    "card": {
+      "height": 200.0002673585907,
+      "width": 281.99994920186776,
+      "x": 918.0000173783084,
+      "y": 0
+    },
+    "cardInsideZone": true,
+    "cardPosition": "static",
+    "cardReceivesPointerInput": true,
+    "found": true,
+    "gap": 24.000245969903443,
+    "imdb": {
+      "height": 199.9991979242279,
+      "width": 281.99994920186776,
+      "x": 918.0000173783084,
+      "y": 224.00051332849415
+    },
+    "scale": 0.22828948974609375,
+    "sideHeight": 423.999711252722,
+    "videoAboveIMDb": true
+  },
+  {
+    "case": "Exported HTML / native 1520px",
+    "card": {
+      "height": 200,
+      "width": 282,
+      "x": 918,
+      "y": 0
+    },
+    "cardInsideZone": true,
+    "cardPosition": "static",
+    "cardReceivesPointerInput": true,
+    "found": true,
+    "gap": 24,
+    "imdb": {
+      "height": 200,
+      "width": 282,
+      "x": 918,
+      "y": 224
+    },
+    "scale": 1,
+    "sideHeight": 424,
+    "videoAboveIMDb": true
+  }
+]

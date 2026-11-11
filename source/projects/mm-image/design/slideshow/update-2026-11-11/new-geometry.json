@@ -1,0 +1,2759 @@
+{
+  "2608:1516": [
+    {
+      "id": "2608:1516",
+      "name": "Slide Card",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 424
+      },
+      "fills": [],
+      "effects": [],
+      "opacity": 1,
+      "cornerRadius": 24
+    },
+    {
+      "id": "I2608:1516;2606:1445",
+      "name": "Frame 2147234156",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 424
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1446",
+      "name": "Frame 2147234155",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1560,
+        "height": 424
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1447",
+      "name": "Image",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 424
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1448",
+      "name": "metadata",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 79,
+        "height": 20
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0,
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 4,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.25
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ]
+    },
+    {
+      "id": "I2608:1516;2606:1448;723:36080",
+      "name": "Thumbnail",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 4
+    },
+    {
+      "id": "I2608:1516;2606:1448;723:36080;131224:172906",
+      "name": "Image",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1448;723:36080;131224:172906;131224:154861",
+      "name": "Image",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "images": [
+        {
+          "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1448;723:36081",
+      "name": "Label",
+      "type": "TEXT",
+      "rect": {
+        "x": 36,
+        "y": 16,
+        "width": 59,
+        "height": 20
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "text": "imdb.com",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "wdth": 100
+        }
+      },
+      "fontSize": 13,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "I2608:1516;2606:1449",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 312,
+        "y": 0,
+        "width": 312,
+        "height": 424
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1450",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 624,
+        "y": 0,
+        "width": 312,
+        "height": 424
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1451",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 936,
+        "y": 0,
+        "width": 312,
+        "height": 424
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1452",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 1248,
+        "y": 0,
+        "width": 312,
+        "height": 424
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1453",
+      "name": "overlay",
+      "type": "FRAME",
+      "rect": {
+        "x": 1248,
+        "y": 0,
+        "width": 312,
+        "height": 424
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "opacity": 0.6000000238418579
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1454",
+      "name": "link container",
+      "type": "FRAME",
+      "rect": {
+        "x": 1248,
+        "y": 204,
+        "width": 312,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1455",
+      "name": "See more",
+      "type": "TEXT",
+      "rect": {
+        "x": 1370,
+        "y": 205.5,
+        "width": 48,
+        "height": 13
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "text": "See more",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "wdth": 100
+        }
+      },
+      "fontSize": 11,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "I2608:1516;2606:1456",
+      "name": "Open",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 1422,
+        "y": 204,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1456;116087:61",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 1424,
+        "y": 206,
+        "width": 12,
+        "height": 12
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        },
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1458",
+      "name": "Footer",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 334,
+        "width": 312,
+        "height": 90
+      },
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "opacity": 1,
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "position": 0,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:eb132968b7750d5327176822e3ade42b3928599b/101614:442"
+                }
+              }
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.10000000149011612
+              },
+              "position": 0.17416369915008545,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.6000000238418579
+              },
+              "position": 0.5645150542259216,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              -5.159029670478987e-13,
+              1,
+              2.782077682377676e-13
+            ],
+            [
+              -10.562500953674316,
+              -9.167780467070341e-14,
+              6.362581729888916
+            ]
+          ]
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0,
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 5,
+          "boundVariables": {},
+          "blurType": "PROGRESSIVE",
+          "startRadius": 0,
+          "startOffset": {
+            "x": 0.5,
+            "y": 0
+          },
+          "endOffset": {
+            "x": 0.5,
+            "y": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "I2608:1516;2606:1459",
+      "name": "Frame 2147234157",
+      "type": "FRAME",
+      "rect": {
+        "x": 24,
+        "y": 358,
+        "width": 264,
+        "height": 28
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1460",
+      "name": "Personable Tom at age 60s",
+      "type": "TEXT",
+      "rect": {
+        "x": 24,
+        "y": 364,
+        "width": 192,
+        "height": 22
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "text": "Personable Tom at age 60s",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "wdth": 100
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "I2608:1516;2606:1461",
+      "name": "pagination",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 224,
+        "y": 358,
+        "width": 64,
+        "height": 28
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1461;62893:104417",
+      "name": "Button",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 224,
+        "y": 358,
+        "width": 28,
+        "height": 28
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.1725490242242813,
+            "g": 0.20392157137393951,
+            "b": 0.3490196168422699
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 0.30000001192092896,
+      "cornerRadius": 4
+    },
+    {
+      "id": "I2608:1516;2606:1461;62893:104417;127901:96749",
+      "name": "nestedContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 228,
+        "y": 364,
+        "width": 20,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1461;62893:104417;127901:101300",
+      "name": "iconStartContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 230,
+        "y": 364,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1461;62893:104417;21527:15224",
+      "name": "iconStart",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 230,
+        "y": 364,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1461;62893:104417;21527:15224;115630:166841",
+      "name": "ChevronLeft",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 230,
+        "y": 364,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1461;62893:104417;21527:15224;115630:166841;115444:27734",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 235,
+        "y": 367,
+        "width": 5.500002861022949,
+        "height": 10.000006675720215
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.8509804010391235,
+            "g": 0.8745098114013672,
+            "b": 0.9843137264251709
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1461;62893:104419",
+      "name": "Button",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 260,
+        "y": 358,
+        "width": 28,
+        "height": 28
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.1725490242242813,
+            "g": 0.20392157137393951,
+            "b": 0.3490196168422699
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 4
+    },
+    {
+      "id": "I2608:1516;2606:1461;62893:104419;127901:96681",
+      "name": "nestedContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 264,
+        "y": 364,
+        "width": 20,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1461;62893:104419;127901:101232",
+      "name": "iconStartContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 266,
+        "y": 364,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1461;62893:104419;21527:15208",
+      "name": "iconStart",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 266,
+        "y": 364,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1461;62893:104419;21527:15208;115630:166841",
+      "name": "ChevronRight",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 266,
+        "y": 364,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1461;62893:104419;21527:15208;115630:166841;115444:27724",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 271.5,
+        "y": 367,
+        "width": 5.500002861022949,
+        "height": 10.000006675720215
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.8509804010391235,
+            "g": 0.8745098114013672,
+            "b": 0.9843137264251709
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1462",
+      "name": "Pagination Container",
+      "type": "FRAME",
+      "rect": {
+        "x": 24,
+        "y": 394,
+        "width": 264,
+        "height": 6
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1516;2606:1463",
+      "name": "Rectangle 34645892",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 24,
+        "y": 394,
+        "width": 46.400001525878906,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    },
+    {
+      "id": "I2608:1516;2606:1464",
+      "name": "Rectangle 34645893",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 78.4000244140625,
+        "y": 394,
+        "width": 46.400001525878906,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 0.30000001192092896
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    },
+    {
+      "id": "I2608:1516;2606:1465",
+      "name": "Rectangle 34645890",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 132.79998779296875,
+        "y": 394,
+        "width": 46.40000534057617,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 0.30000001192092896
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    },
+    {
+      "id": "I2608:1516;2606:1466",
+      "name": "Rectangle 34645895",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 187.20001220703125,
+        "y": 394,
+        "width": 46.400001525878906,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 0.30000001192092896
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    },
+    {
+      "id": "I2608:1516;2606:1467",
+      "name": "Rectangle 34645896",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 241.5999755859375,
+        "y": 394,
+        "width": 46.400001525878906,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 0.30000001192092896
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    }
+  ],
+  "2608:1684": [
+    {
+      "id": "2608:1684",
+      "name": "Slide Card",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 536,
+        "height": 424
+      },
+      "fills": [],
+      "effects": [],
+      "opacity": 1,
+      "cornerRadius": 24
+    },
+    {
+      "id": "I2608:1684;2606:1493",
+      "name": "Frame 2147234156",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 536,
+        "height": 424
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1494",
+      "name": "Frame 2147234155",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 2680,
+        "height": 424
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1495",
+      "name": "Image",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 536,
+        "height": 424
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1496",
+      "name": "metadata",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 79,
+        "height": 20
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0,
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 4,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.25
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ]
+    },
+    {
+      "id": "I2608:1684;2606:1496;723:36080",
+      "name": "Thumbnail",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 4
+    },
+    {
+      "id": "I2608:1684;2606:1496;723:36080;131224:172906",
+      "name": "Image",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1496;723:36080;131224:172906;131224:154861",
+      "name": "Image",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "images": [
+        {
+          "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1496;723:36081",
+      "name": "Label",
+      "type": "TEXT",
+      "rect": {
+        "x": 36,
+        "y": 16,
+        "width": 59,
+        "height": 20
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "text": "imdb.com",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "wdth": 100
+        }
+      },
+      "fontSize": 13,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "I2608:1684;2606:1497",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 536,
+        "y": 0,
+        "width": 536,
+        "height": 424
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1498",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 1072,
+        "y": 0,
+        "width": 536,
+        "height": 424
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1499",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 1608,
+        "y": 0,
+        "width": 536,
+        "height": 424
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1500",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 2144,
+        "y": 0,
+        "width": 536,
+        "height": 424
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1501",
+      "name": "overlay",
+      "type": "FRAME",
+      "rect": {
+        "x": 2144,
+        "y": 0,
+        "width": 536,
+        "height": 424
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "opacity": 0.6000000238418579
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1502",
+      "name": "link container",
+      "type": "FRAME",
+      "rect": {
+        "x": 2144,
+        "y": 204,
+        "width": 536,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1503",
+      "name": "See more",
+      "type": "TEXT",
+      "rect": {
+        "x": 2378,
+        "y": 205.5,
+        "width": 48,
+        "height": 13
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "text": "See more",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "wdth": 100
+        }
+      },
+      "fontSize": 11,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "I2608:1684;2606:1504",
+      "name": "Open",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 2430,
+        "y": 204,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1504;116087:61",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 2432,
+        "y": 206,
+        "width": 12,
+        "height": 12
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        },
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1506",
+      "name": "Footer",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 334,
+        "width": 536,
+        "height": 90
+      },
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "opacity": 1,
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "position": 0,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:eb132968b7750d5327176822e3ade42b3928599b/101614:442"
+                }
+              }
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.10000000149011612
+              },
+              "position": 0.17416369915008545,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.6000000238418579
+              },
+              "position": 0.5645150542259216,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              -5.159029670478987e-13,
+              1,
+              2.782077682377676e-13
+            ],
+            [
+              -10.562500953674316,
+              -9.167780467070341e-14,
+              6.362581729888916
+            ]
+          ]
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0,
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 5,
+          "boundVariables": {},
+          "blurType": "PROGRESSIVE",
+          "startRadius": 0,
+          "startOffset": {
+            "x": 0.5,
+            "y": 0
+          },
+          "endOffset": {
+            "x": 0.5,
+            "y": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "I2608:1684;2606:1507",
+      "name": "Frame 2147234157",
+      "type": "FRAME",
+      "rect": {
+        "x": 24,
+        "y": 358,
+        "width": 488,
+        "height": 28
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1508",
+      "name": "Personable Tom at age 60s",
+      "type": "TEXT",
+      "rect": {
+        "x": 24,
+        "y": 364,
+        "width": 416,
+        "height": 22
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "text": "Personable Tom at age 60s",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "wdth": 100
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "I2608:1684;2606:1509",
+      "name": "pagination",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 448,
+        "y": 358,
+        "width": 64,
+        "height": 28
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1509;62893:104417",
+      "name": "Button",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 448,
+        "y": 358,
+        "width": 28,
+        "height": 28
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.1725490242242813,
+            "g": 0.20392157137393951,
+            "b": 0.3490196168422699
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 0.30000001192092896,
+      "cornerRadius": 4
+    },
+    {
+      "id": "I2608:1684;2606:1509;62893:104417;127901:96749",
+      "name": "nestedContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 452,
+        "y": 364,
+        "width": 20,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1509;62893:104417;127901:101300",
+      "name": "iconStartContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 454,
+        "y": 364,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1509;62893:104417;21527:15224",
+      "name": "iconStart",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 454,
+        "y": 364,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1509;62893:104417;21527:15224;115630:166841",
+      "name": "ChevronLeft",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 454,
+        "y": 364,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1509;62893:104417;21527:15224;115630:166841;115444:27734",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 459,
+        "y": 367,
+        "width": 5.500002861022949,
+        "height": 10.000006675720215
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.8509804010391235,
+            "g": 0.8745098114013672,
+            "b": 0.9843137264251709
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1509;62893:104419",
+      "name": "Button",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 484,
+        "y": 358,
+        "width": 28,
+        "height": 28
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.1725490242242813,
+            "g": 0.20392157137393951,
+            "b": 0.3490196168422699
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 4
+    },
+    {
+      "id": "I2608:1684;2606:1509;62893:104419;127901:96681",
+      "name": "nestedContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 488,
+        "y": 364,
+        "width": 20,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1509;62893:104419;127901:101232",
+      "name": "iconStartContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 490,
+        "y": 364,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1509;62893:104419;21527:15208",
+      "name": "iconStart",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 490,
+        "y": 364,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1509;62893:104419;21527:15208;115630:166841",
+      "name": "ChevronRight",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 490,
+        "y": 364,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1509;62893:104419;21527:15208;115630:166841;115444:27724",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 495.5,
+        "y": 367,
+        "width": 5.500002861022949,
+        "height": 10.000006675720215
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.8509804010391235,
+            "g": 0.8745098114013672,
+            "b": 0.9843137264251709
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1510",
+      "name": "Pagination Container",
+      "type": "FRAME",
+      "rect": {
+        "x": 24,
+        "y": 394,
+        "width": 488,
+        "height": 6
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1684;2606:1511",
+      "name": "Rectangle 34645892",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 24,
+        "y": 394,
+        "width": 91.19999694824219,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    },
+    {
+      "id": "I2608:1684;2606:1512",
+      "name": "Rectangle 34645893",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 123.20001220703125,
+        "y": 394,
+        "width": 91.19999694824219,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 0.30000001192092896
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    },
+    {
+      "id": "I2608:1684;2606:1513",
+      "name": "Rectangle 34645890",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 222.4000244140625,
+        "y": 394,
+        "width": 91.19998931884766,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 0.30000001192092896
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    },
+    {
+      "id": "I2608:1684;2606:1514",
+      "name": "Rectangle 34645895",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 321.5999755859375,
+        "y": 394,
+        "width": 91.19999694824219,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 0.30000001192092896
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    },
+    {
+      "id": "I2608:1684;2606:1515",
+      "name": "Rectangle 34645896",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 420.79998779296875,
+        "y": 394,
+        "width": 91.19999694824219,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 0.30000001192092896
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    }
+  ],
+  "2608:1815": [
+    {
+      "id": "2608:1815",
+      "name": "Slide Card",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "fills": [],
+      "effects": [],
+      "opacity": 1,
+      "cornerRadius": 24
+    },
+    {
+      "id": "I2608:1815;2606:1519",
+      "name": "Frame 2147234156",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1520",
+      "name": "Frame 2147234155",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1560,
+        "height": 204
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1521",
+      "name": "Image",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1522",
+      "name": "metadata",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 79,
+        "height": 20
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0,
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 4,
+          "boundVariables": {},
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.25
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ]
+    },
+    {
+      "id": "I2608:1815;2606:1522;723:36080",
+      "name": "Thumbnail",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 4
+    },
+    {
+      "id": "I2608:1815;2606:1522;723:36080;131224:172906",
+      "name": "Image",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1522;723:36080;131224:172906;131224:154861",
+      "name": "Image",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 16,
+        "height": 16
+      },
+      "images": [
+        {
+          "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1522;723:36081",
+      "name": "Label",
+      "type": "TEXT",
+      "rect": {
+        "x": 36,
+        "y": 16,
+        "width": 59,
+        "height": 20
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.10000000149011612,
+            "g": 0.10000000149011612,
+            "b": 0.10000000149011612
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "text": "imdb.com",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "wdth": 100
+        }
+      },
+      "fontSize": 13,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "I2608:1815;2606:1523",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 312,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1524",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 624,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1525",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 936,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1526",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 1248,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ],
+      "fills": [
+        {
+          "type": "IMAGE",
+          "opacity": 1,
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1527",
+      "name": "overlay",
+      "type": "FRAME",
+      "rect": {
+        "x": 1248,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "opacity": 0.6000000238418579
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1528",
+      "name": "link container",
+      "type": "FRAME",
+      "rect": {
+        "x": 1248,
+        "y": 94,
+        "width": 312,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1529",
+      "name": "See more",
+      "type": "TEXT",
+      "rect": {
+        "x": 1370,
+        "y": 95.5,
+        "width": 48,
+        "height": 13
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "text": "See more",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "wdth": 100
+        }
+      },
+      "fontSize": 11,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "I2608:1815;2606:1530",
+      "name": "Open",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 1422,
+        "y": 94,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1530;116087:61",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 1424,
+        "y": 96,
+        "width": 12,
+        "height": 12
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        },
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1532",
+      "name": "Footer",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 114,
+        "width": 312,
+        "height": 90
+      },
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "opacity": 1,
+          "gradientStops": [
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "position": 0,
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:eb132968b7750d5327176822e3ade42b3928599b/101614:442"
+                }
+              }
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.10000000149011612
+              },
+              "position": 0.17416369915008545,
+              "boundVariables": {}
+            },
+            {
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.6000000238418579
+              },
+              "position": 0.5645150542259216,
+              "boundVariables": {}
+            }
+          ],
+          "gradientTransform": [
+            [
+              -5.159029670478987e-13,
+              1,
+              2.782077682377676e-13
+            ],
+            [
+              -10.562500953674316,
+              -9.167780467070341e-14,
+              6.362581729888916
+            ]
+          ]
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0,
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "visible": true,
+          "radius": 5,
+          "boundVariables": {},
+          "blurType": "PROGRESSIVE",
+          "startRadius": 0,
+          "startOffset": {
+            "x": 0.5,
+            "y": 0
+          },
+          "endOffset": {
+            "x": 0.5,
+            "y": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "I2608:1815;2606:1533",
+      "name": "Frame 2147234157",
+      "type": "FRAME",
+      "rect": {
+        "x": 24,
+        "y": 138,
+        "width": 264,
+        "height": 28
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1534",
+      "name": "Personable Tom at age 60s",
+      "type": "TEXT",
+      "rect": {
+        "x": 24,
+        "y": 144,
+        "width": 192,
+        "height": 22
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "text": "Personable Tom at age 60s",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "wdth": 100
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "I2608:1815;2606:1535",
+      "name": "pagination",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 224,
+        "y": 138,
+        "width": 64,
+        "height": 28
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1535;62893:104417",
+      "name": "Button",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 224,
+        "y": 138,
+        "width": 28,
+        "height": 28
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.1725490242242813,
+            "g": 0.20392157137393951,
+            "b": 0.3490196168422699
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 0.30000001192092896,
+      "cornerRadius": 4
+    },
+    {
+      "id": "I2608:1815;2606:1535;62893:104417;127901:96749",
+      "name": "nestedContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 228,
+        "y": 144,
+        "width": 20,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1535;62893:104417;127901:101300",
+      "name": "iconStartContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 230,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1535;62893:104417;21527:15224",
+      "name": "iconStart",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 230,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1535;62893:104417;21527:15224;115630:166841",
+      "name": "ChevronLeft",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 230,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1535;62893:104417;21527:15224;115630:166841;115444:27734",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 235,
+        "y": 147,
+        "width": 5.500002861022949,
+        "height": 10.000006675720215
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.8509804010391235,
+            "g": 0.8745098114013672,
+            "b": 0.9843137264251709
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1535;62893:104419",
+      "name": "Button",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 260,
+        "y": 138,
+        "width": 28,
+        "height": 28
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.1725490242242813,
+            "g": 0.20392157137393951,
+            "b": 0.3490196168422699
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 4
+    },
+    {
+      "id": "I2608:1815;2606:1535;62893:104419;127901:96681",
+      "name": "nestedContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 264,
+        "y": 144,
+        "width": 20,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1535;62893:104419;127901:101232",
+      "name": "iconStartContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 266,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1535;62893:104419;21527:15208",
+      "name": "iconStart",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 266,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1535;62893:104419;21527:15208;115630:166841",
+      "name": "ChevronRight",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 266,
+        "y": 144,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1535;62893:104419;21527:15208;115630:166841;115444:27724",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 271.5,
+        "y": 147,
+        "width": 5.500002861022949,
+        "height": 10.000006675720215
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.8509804010391235,
+            "g": 0.8745098114013672,
+            "b": 0.9843137264251709
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1536",
+      "name": "Pagination Container",
+      "type": "FRAME",
+      "rect": {
+        "x": 24,
+        "y": 174,
+        "width": 264,
+        "height": 6
+      },
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "I2608:1815;2606:1537",
+      "name": "Rectangle 34645892",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 24,
+        "y": 174,
+        "width": 46.400001525878906,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 1
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    },
+    {
+      "id": "I2608:1815;2606:1538",
+      "name": "Rectangle 34645893",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 78.4000244140625,
+        "y": 174,
+        "width": 46.400001525878906,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 0.30000001192092896
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    },
+    {
+      "id": "I2608:1815;2606:1539",
+      "name": "Rectangle 34645890",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 132.79998779296875,
+        "y": 174,
+        "width": 46.40000534057617,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 0.30000001192092896
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    },
+    {
+      "id": "I2608:1815;2606:1540",
+      "name": "Rectangle 34645895",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 187.20001220703125,
+        "y": 174,
+        "width": 46.400001525878906,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 0.30000001192092896
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    },
+    {
+      "id": "I2608:1815;2606:1541",
+      "name": "Rectangle 34645896",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 241.5999755859375,
+        "y": 174,
+        "width": 46.400001525878906,
+        "height": 6
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "opacity": 0.30000001192092896
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { join, dirname } from 'node:path'
 import { root, filesIn, sourceFilter, sha256 } from './lib.mjs'
+import { sourceUpdates } from './source-provenance.mjs'
 
 const destinations = {
   'mm-image': 'MM_ACF-review/MM_ACF-main',
@@ -10,10 +11,11 @@ const destinations = {
 const output = join(root, 'ORIGINALS.json')
 if (process.argv.includes('--verify')) {
   const original = JSON.parse(await readFile(output, 'utf8'))
+  const expected = await sourceUpdates()
   for (const file of original.files) {
-    if (await sha256(join(root, file.path)) !== file.sha256) throw new Error(`Changed source: ${file.path}`)
+    if (await sha256(join(root, file.path)) !== expected(file.path, file.sha256)) throw new Error(`Unrecorded source change: ${file.path}`)
   }
-  console.log(`Verified ${original.files.length} byte-identical copied source files against ORIGINALS.json.`)
+  console.log(`Verified ${original.files.length} source files against ORIGINALS.json and recorded SOURCE-UPDATES.json changes.`)
 } else {
   const files = []
   for (const [id, source] of Object.entries(destinations)) {

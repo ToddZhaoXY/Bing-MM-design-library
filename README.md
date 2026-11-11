@@ -2,7 +2,35 @@
 
 The integrated MM Image, AIGC and Video component libraries, with the shared MM Design Libraries homepage.
 
+The 2026-11-11 **SlideShow** update follows the latest MM-ACF source: 15 configurations,
+including **Bottom bars + arrows** at all three sizes, and no outer card shadows.
+Workbench controls, Playground state, JSX and HTML exports include the new mode.
+See the [source and verification notes](source/projects/mm-image/design/slideshow/update-2026-11-11/VERIFICATION.md).
+
+The 2026-11-10 UI refresh applies a Spectrum-inspired neutral canvas, rounded
+documentation surfaces and unified controls across all three libraries. Existing
+component renderers and source content remain unchanged. See the [design and QA notes](source/qa/spectrum-refresh/DESIGN.md).
+
+The 2026-10-29 Image update adds one **Image cards** component with **13 size variants and 49
+desktop layouts** from the supplied MM ACF FY25 frame. The component
+includes source links, selectable layouts, Fit/100% previews, Playground
+assembly, public JSX and an explicitly partial Mosaic SDL adapter. See
+[source and verification](source/projects/mm-image/design/fy25-cards/VERIFICATION.md).
+
+All three libraries now share hierarchical sidebar navigation: collapsible
+categories and component branches, smaller indented child links, exact current-page
+highlighting, automatic active-path expansion, and keyboard/touch support.
+
 **Website: https://toddzhaoxy.github.io/Bing-MM-design-library/**
+
+## One-click deployment package
+
+Download the [2026-11-11 deployment ZIP](https://github.com/ToddZhaoXY/Bing-MM-design-library/releases/download/v2026.11.11/MM-Design-Libraries-one-click-2026-11-11.zip)
+and its [SHA-256 checksum](https://github.com/ToddZhaoXY/Bing-MM-design-library/releases/download/v2026.11.11/MM-Design-Libraries-one-click-2026-11-11.zip.sha256).
+The archive contains `index.html`, all three library entries and every required
+asset directly at its root. Extract or upload the complete package together;
+no dependency installation or build step is required on the hosting platform.
+See the [release notes](https://github.com/ToddZhaoXY/Bing-MM-design-library/releases/tag/v2026.11.11).
 
 ## Browse
 

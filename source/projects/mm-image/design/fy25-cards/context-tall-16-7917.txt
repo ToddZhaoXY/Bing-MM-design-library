@@ -1,0 +1,107 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/1d9324b8-7b06-4bb9-b3fe-0e6a7dd125d8";
+import { Card } from "./card";
+import { Overview, WeatherCardWrapper } from "./weather-card-wrapper";
+import ChevronLeftRegular from "@fluentui/react-icons"
+import ChevronRightRegular from "@fluentui/react-icons"
+
+const imgHeroImagePlaceholder = `${assetPathPrefix}/acc04.png`;
+
+export default function AnswerCard() {
+  return (
+    <div className="content-stretch flex flex-col items-start relative size-full" data-node-id="16:7917" data-name="Answer card">
+      <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px relative w-full" data-node-id="I16:7917;24115:64447" data-name="Card container">
+        <CodeConnectSnippet data-node-id="I16:7917;24115:64448" data-name="Card Background" data-snippet-language="React">
+          <Card background="acrylic" size="md">
+            <WeatherCardWrapper category="sunny" overview={<Overview location="Seattle, WA" timeLabel="Now" subHeading="Sunny" />} forecast={} />
+          </Card>
+        </CodeConnectSnippet>
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px overflow-clip pb-[var(--mai\/smtc\/padding\/card\/default,20px)] relative rounded-[var(--acf\/radius\/l,16px)] w-full" data-node-id="I16:7917;24115:64449" data-name="Style=D, Size=3by4">
+          <div className="content-stretch flex flex-col gap-[43px] h-[42px] items-start relative shrink-0 w-full" data-node-id="I16:7917;24115:64449;2731:48426" data-name="Top section">
+            <div className="h-[112px] relative shrink-0 w-full" data-node-id="I16:7917;24115:64449;2731:48427" data-name="Hero image placeholder">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgHeroImagePlaceholder} />
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--acf\/spacing\/m,16px)] items-start min-h-px pb-[20px] px-[20px] relative w-[312px]" data-node-id="I16:7917;24115:64449;2731:48430" data-name="Item list">
+            <div className="content-stretch flex flex-col gap-[var(--acf\/spacing\/m,16px)] items-start relative shrink-0 w-full" data-node-id="I16:7917;24115:64449;2731:48433">
+              <div className="bg-[var(--smtc\/background\/webpage\/primary,white)] content-stretch flex flex-col gap-[var(--acf\/spacing\/xs,8px)] items-start p-[var(--acf\/spacing\/l,20px)] relative rounded-[var(--acf\/radius\/m,8px)] shrink-0 w-[272px]" data-node-id="I16:7917;24115:64449;2732:26451">
+                <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] leading-[var(--text\/global\/body2\/lineheight,26px)] overflow-hidden relative shrink-0 text-[16px] text-[color:var(--smtc\/foreground\/content\/neutral\/primary,black)] text-ellipsis w-full" data-node-id="I16:7917;24115:64449;2732:26453" style={{ fontVariationSettings: '"wdth" 100' }}>
+                  Also search for latest trend in
+                  <br aria-hidden />
+                  interior design
+                </p>
+              </div>
+              <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="I16:7917;24115:64449;2732:26455">
+                <div className="bg-[var(--smtc\/background\/webpage\/primary,white)] content-stretch flex gap-[8px] h-[52px] items-center overflow-clip pl-[var(--acf\/spacing\/2xs,4px)] pr-[var(--acf\/spacing\/xs,8px)] py-[var(--acf\/spacing\/2xs,4px)] relative rounded-[var(--radius\/sm,8px)] shrink-0 w-full" data-node-id="I16:7917;24115:64449;2731:48434" data-name="RS (Default)">
+                  <div className="relative rounded-[var(--acf\/radius\/s,4px)] shrink-0 size-[44px]" data-node-id="I16:7917;24115:64449;2731:48434;2126:173697" data-name="image">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--acf\/radius\/s,4px)] size-full" src={imgHeroImagePlaceholder} />
+                  </div>
+                  <p className="[word-break:break-word] flex-[1_0_0] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/body3\/lineheight,22px)] min-w-px overflow-hidden relative text-[14px] text-[color:var(--smtc\/foreground\/content\/neutral\/primary,black)] text-ellipsis" data-node-id="I16:7917;24115:64449;2731:48434;2126:173698" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Japandi Style
+                  </p>
+                </div>
+                <div className="bg-[var(--smtc\/background\/webpage\/primary,white)] content-stretch flex gap-[8px] h-[52px] items-center overflow-clip pl-[var(--acf\/spacing\/2xs,4px)] pr-[var(--acf\/spacing\/xs,8px)] py-[var(--acf\/spacing\/2xs,4px)] relative rounded-[var(--radius\/sm,8px)] shrink-0 w-full" data-node-id="I16:7917;24115:64449;2731:48435" data-name="RS (Default)">
+                  <div className="relative rounded-[var(--acf\/radius\/s,4px)] shrink-0 size-[44px]" data-node-id="I16:7917;24115:64449;2731:48435;2126:173697" data-name="image">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--acf\/radius\/s,4px)] size-full" src={imgHeroImagePlaceholder} />
+                  </div>
+                  <p className="[word-break:break-word] flex-[1_0_0] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/body3\/lineheight,22px)] min-w-px overflow-hidden relative text-[14px] text-[color:var(--smtc\/foreground\/content\/neutral\/primary,black)] text-ellipsis" data-node-id="I16:7917;24115:64449;2731:48435;2126:173698" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Statement Lighting
+                  </p>
+                </div>
+                <div className="bg-[var(--smtc\/background\/webpage\/primary,white)] content-stretch flex gap-[8px] h-[52px] items-center overflow-clip pl-[var(--acf\/spacing\/2xs,4px)] pr-[var(--acf\/spacing\/xs,8px)] py-[var(--acf\/spacing\/2xs,4px)] relative rounded-[var(--radius\/sm,8px)] shrink-0 w-full" data-node-id="I16:7917;24115:64449;2731:48436" data-name="RS (Default)">
+                  <div className="relative rounded-[var(--acf\/radius\/s,4px)] shrink-0 size-[44px]" data-node-id="I16:7917;24115:64449;2731:48436;2126:173697" data-name="image">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--acf\/radius\/s,4px)] size-full" src={imgHeroImagePlaceholder} />
+                  </div>
+                  <p className="[word-break:break-word] flex-[1_0_0] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/body3\/lineheight,22px)] min-w-px overflow-hidden relative text-[14px] text-[color:var(--smtc\/foreground\/content\/neutral\/primary,black)] text-ellipsis" data-node-id="I16:7917;24115:64449;2731:48436;2126:173698" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Curved Furniture
+                  </p>
+                </div>
+                <div className="bg-[var(--smtc\/background\/webpage\/primary,white)] content-stretch flex gap-[8px] h-[52px] items-center overflow-clip pl-[var(--acf\/spacing\/2xs,4px)] pr-[var(--acf\/spacing\/xs,8px)] py-[var(--acf\/spacing\/2xs,4px)] relative rounded-[var(--radius\/sm,8px)] shrink-0 w-full" data-node-id="I16:7917;24115:64449;2731:48437" data-name="RS (Default)">
+                  <div className="relative rounded-[var(--acf\/radius\/s,4px)] shrink-0 size-[44px]" data-node-id="I16:7917;24115:64449;2731:48437;2126:173697" data-name="image">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--acf\/radius\/s,4px)] size-full" src={imgHeroImagePlaceholder} />
+                  </div>
+                  <p className="[word-break:break-word] flex-[1_0_0] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/body3\/lineheight,22px)] min-w-px overflow-hidden relative text-[14px] text-[color:var(--smtc\/foreground\/content\/neutral\/primary,black)] text-ellipsis" data-node-id="I16:7917;24115:64449;2731:48437;2126:173698" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    Biophilic design
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[var(--acf\/spacing\/xs,8px)] h-[12px] items-start justify-center relative shrink-0 w-full" data-node-id="I16:7917;24115:64449;2755:47218" data-name="Pagination">
+            <div className="bg-[var(--acf-color\/fill\/accent\/alt\/primary,#d9dffb)] content-stretch flex items-center justify-center opacity-30 p-[var(--acf\/spacing\/2xs,4px)] relative rounded-[var(--acf\/radius\/s,4px)] shrink-0" data-node-id="I16:7917;24115:64449;2755:47218;62893:104417" data-name="Button / Icon">
+              <CodeConnectSnippet data-node-id="I16:7917;24115:64449;2755:47218;62893:104417;33172:64663" data-name="Icon" options={[<ChevronLeftRegular variantDirection="Left" direction="Left" variantSize="12" size="12" variantTheme="Regular" theme="Regular" />, <ChevronRightRegular variantDirection="Left" direction="Left" variantSize="12" size="12" variantTheme="Regular" theme="Regular" />]} />
+            </div>
+            <div className="[word-break:break-word] flex flex-col font-[family-name:var(--text\/style\/default\/regular\/fontfamily,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] h-[24px] justify-center leading-[0] relative shrink-0 text-[color:var(--acf-color\/fore\/neutral\/secondary,rgba(0,0,0,0.8))] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center w-[17px]" data-node-id="I16:7917;24115:64449;2755:47218;62893:104418" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">1/5</p>
+            </div>
+            <div className="bg-[var(--acf-color\/fill\/accent\/alt\/primary,#d9dffb)] content-stretch flex items-center justify-center p-[var(--acf\/spacing\/2xs,4px)] relative rounded-[var(--acf\/radius\/s,4px)] shrink-0" data-node-id="I16:7917;24115:64449;2755:47218;62893:104419" data-name="Button / Icon">
+              <CodeConnectSnippet data-node-id="I16:7917;24115:64449;2755:47218;62893:104419;33172:64423" data-name="Icon" options={[<ChevronLeftRegular variantDirection="Right" direction="Right" variantSize="12" size="12" variantTheme="Regular" theme="Regular" />, <ChevronRightRegular variantDirection="Right" direction="Right" variantSize="12" size="12" variantTheme="Regular" theme="Regular" />]} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: --bing-smtc-text-global/body/2-strong: Font(family: "text/style/default/regular/font-family", style: Bold, size: text/global/body2/fontSize, weight: text/style/default/header/weight, lineHeight: text/global/body2/lineHeight, letterSpacing: 0), --bing-smtc-text-global/body/3: Font(family: "text/style/default/regular/font-family", style: Regular, size: text/global/body3/fontSize, weight: text/style/default/regular/weight, lineHeight: text/global/body3/lineHeight, letterSpacing: 0), --acf-font-/attribution: Font(family: "text/style/default/regular/fontFamily", style: Regular, size: text/global/caption2/fontSize, weight: text/style/default/regular/weight, lineHeight: text/global/caption2/lineHeight, letterSpacing: 0).
+
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Chevron
+**Node ID:** 12:1426
+
+Keyword: fluent-icon; Metaphor: arrow, dropdown, direction, expand, contract; Used in dropdown & expanding contracting scenarios. Contains directional variants.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

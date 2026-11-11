@@ -1,0 +1,3069 @@
+[
+  {
+    "id": "case-0",
+    "slug": "slideshow",
+    "name": "SlideShow / default",
+    "values": {
+      "size": "3:4",
+      "pagination": "Bottom bars",
+      "state": "Default"
+    }
+  },
+  {
+    "id": "case-1",
+    "slug": "slideshow",
+    "name": "SlideShow / size=5:4",
+    "values": {
+      "size": "5:4",
+      "pagination": "Bottom bars",
+      "state": "Default"
+    }
+  },
+  {
+    "id": "case-2",
+    "slug": "slideshow",
+    "name": "SlideShow / size=3:2",
+    "values": {
+      "size": "3:2",
+      "pagination": "Bottom bars",
+      "state": "Default"
+    }
+  },
+  {
+    "id": "case-3",
+    "slug": "slideshow",
+    "name": "SlideShow / pagination=Bottom arrows/state=Default",
+    "values": {
+      "size": "3:4",
+      "pagination": "Bottom arrows",
+      "state": "Default"
+    }
+  },
+  {
+    "id": "case-4",
+    "slug": "slideshow",
+    "name": "SlideShow / pagination=Top bars/state=Default",
+    "values": {
+      "size": "3:4",
+      "pagination": "Top bars",
+      "state": "Default"
+    }
+  },
+  {
+    "id": "case-5",
+    "slug": "slideshow",
+    "name": "SlideShow / pagination=Bottom bars/state=Hover",
+    "values": {
+      "size": "3:4",
+      "pagination": "Bottom bars",
+      "state": "Hover"
+    }
+  },
+  {
+    "id": "case-6",
+    "slug": "image-tile",
+    "name": "Image Tile / default",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-7",
+    "slug": "image-tile",
+    "name": "Image Tile / default / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-8",
+    "slug": "image-tile",
+    "name": "Image Tile / layout=Dense",
+    "values": {
+      "layout": "Dense",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-9",
+    "slug": "image-tile",
+    "name": "Image Tile / layout=Dense / long text",
+    "values": {
+      "layout": "Dense",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-10",
+    "slug": "image-tile",
+    "name": "Image Tile / orientation=Portrait",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Portrait",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-11",
+    "slug": "image-tile",
+    "name": "Image Tile / orientation=Portrait / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Portrait",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-12",
+    "slug": "image-tile",
+    "name": "Image Tile / multiImage=3",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "3",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-13",
+    "slug": "image-tile",
+    "name": "Image Tile / multiImage=3 / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "3",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-14",
+    "slug": "image-tile",
+    "name": "Image Tile / multiImage=4",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "4",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-15",
+    "slug": "image-tile",
+    "name": "Image Tile / multiImage=4 / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "4",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-16",
+    "slug": "image-tile",
+    "name": "Image Tile / borderRadius=24",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "24",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-17",
+    "slug": "image-tile",
+    "name": "Image Tile / borderRadius=24 / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "24",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-18",
+    "slug": "image-tile",
+    "name": "Image Tile / borderRadius=8",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "8",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-19",
+    "slug": "image-tile",
+    "name": "Image Tile / borderRadius=8 / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "8",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-20",
+    "slug": "image-tile",
+    "name": "Image Tile / showMetadata=false",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": false,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-21",
+    "slug": "image-tile",
+    "name": "Image Tile / showMetadata=false / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": false,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-22",
+    "slug": "image-tile",
+    "name": "Image Tile / metaSource=true",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": true,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-23",
+    "slug": "image-tile",
+    "name": "Image Tile / metaSource=true / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": true,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-24",
+    "slug": "image-tile",
+    "name": "Image Tile / metaLines=2 lines title",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "2 lines title",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-25",
+    "slug": "image-tile",
+    "name": "Image Tile / metaLines=2 lines title / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "2 lines title",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-26",
+    "slug": "image-tile",
+    "name": "Image Tile / metaLines=2 lines title + source",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "2 lines title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-27",
+    "slug": "image-tile",
+    "name": "Image Tile / metaLines=2 lines title + source / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "2 lines title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-28",
+    "slug": "image-tile",
+    "name": "Image Tile / imageBadge=false",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": false,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-29",
+    "slug": "image-tile",
+    "name": "Image Tile / imageBadge=false / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": false,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-30",
+    "slug": "image-tile",
+    "name": "Image Tile / showOverlay=true",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": true,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-31",
+    "slug": "image-tile",
+    "name": "Image Tile / showOverlay=true / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": true,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-32",
+    "slug": "image-tile",
+    "name": "Image Tile / collectionButton=true",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": true,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-33",
+    "slug": "image-tile",
+    "name": "Image Tile / collectionButton=true / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": true,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-34",
+    "slug": "image-tile",
+    "name": "Image Tile / moreImageIcon=true",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": true,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-35",
+    "slug": "image-tile",
+    "name": "Image Tile / moreImageIcon=true / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": true,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-36",
+    "slug": "image-tile",
+    "name": "Image Tile / showHover=true",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": true,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-37",
+    "slug": "image-tile",
+    "name": "Image Tile / showHover=true / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": true,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-38",
+    "slug": "image-tile",
+    "name": "Image Tile / hoverActions=false",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": false,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-39",
+    "slug": "image-tile",
+    "name": "Image Tile / hoverActions=false / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": false,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-40",
+    "slug": "image-tile",
+    "name": "Image Tile / dimensionLabel=false",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": false,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-41",
+    "slug": "image-tile",
+    "name": "Image Tile / dimensionLabel=false / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": false,
+      "flyoutType": "Web",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-42",
+    "slug": "image-tile",
+    "name": "Image Tile / flyoutType=AIGC",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "AIGC",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-43",
+    "slug": "image-tile",
+    "name": "Image Tile / flyoutType=AIGC / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "AIGC",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-44",
+    "slug": "image-tile",
+    "name": "Image Tile / flyoutType=Homepage",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Homepage",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-45",
+    "slug": "image-tile",
+    "name": "Image Tile / flyoutType=Homepage / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Homepage",
+      "flyoutSurface": "IRP"
+    }
+  },
+  {
+    "id": "case-46",
+    "slug": "image-tile",
+    "name": "Image Tile / flyoutSurface=SERP",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "SERP"
+    }
+  },
+  {
+    "id": "case-47",
+    "slug": "image-tile",
+    "name": "Image Tile / flyoutSurface=SERP / long text",
+    "values": {
+      "layout": "Waterfall",
+      "orientation": "Landscape",
+      "multiImage": "1",
+      "borderRadius": "16",
+      "showMetadata": true,
+      "metaSource": false,
+      "metaLines": "1 line title + source",
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "imageBadge": true,
+      "showOverlay": false,
+      "collectionButton": false,
+      "moreImageIcon": false,
+      "showHover": false,
+      "hoverActions": true,
+      "dimensionLabel": true,
+      "flyoutType": "Web",
+      "flyoutSurface": "SERP"
+    }
+  },
+  {
+    "id": "case-48",
+    "slug": "badge",
+    "name": "Badge / default",
+    "values": {
+      "property1": "Time"
+    }
+  },
+  {
+    "id": "case-49",
+    "slug": "badge",
+    "name": "Badge / property1=Recipe",
+    "values": {
+      "property1": "Recipe"
+    }
+  },
+  {
+    "id": "case-50",
+    "slug": "badge",
+    "name": "Badge / property1=GIF",
+    "values": {
+      "property1": "GIF"
+    }
+  },
+  {
+    "id": "case-51",
+    "slug": "badge",
+    "name": "Badge / property1=Play",
+    "values": {
+      "property1": "Play"
+    }
+  },
+  {
+    "id": "case-52",
+    "slug": "badge",
+    "name": "Badge / property1=Multi image",
+    "values": {
+      "property1": "Multi image"
+    }
+  },
+  {
+    "id": "case-53",
+    "slug": "badge",
+    "name": "Badge / property1=Size",
+    "values": {
+      "property1": "Size"
+    }
+  },
+  {
+    "id": "case-54",
+    "slug": "badge",
+    "name": "Badge / property1=truncated",
+    "values": {
+      "property1": "truncated"
+    }
+  },
+  {
+    "id": "case-55",
+    "slug": "meta-data",
+    "name": "Meta data / default",
+    "values": {
+      "lines": "1 line title + source",
+      "showSource": true,
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com"
+    }
+  },
+  {
+    "id": "case-56",
+    "slug": "meta-data",
+    "name": "Meta data / default / long text",
+    "values": {
+      "lines": "1 line title + source",
+      "showSource": true,
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-57",
+    "slug": "meta-data",
+    "name": "Meta data / lines=2 lines title",
+    "values": {
+      "lines": "2 lines title",
+      "showSource": true,
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com"
+    }
+  },
+  {
+    "id": "case-58",
+    "slug": "meta-data",
+    "name": "Meta data / lines=2 lines title / long text",
+    "values": {
+      "lines": "2 lines title",
+      "showSource": true,
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-59",
+    "slug": "meta-data",
+    "name": "Meta data / lines=2 lines title + source",
+    "values": {
+      "lines": "2 lines title + source",
+      "showSource": true,
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com"
+    }
+  },
+  {
+    "id": "case-60",
+    "slug": "meta-data",
+    "name": "Meta data / lines=2 lines title + source / long text",
+    "values": {
+      "lines": "2 lines title + source",
+      "showSource": true,
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-61",
+    "slug": "meta-data",
+    "name": "Meta data / showSource=false",
+    "values": {
+      "lines": "1 line title + source",
+      "showSource": false,
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "source": "Pixels.com"
+    }
+  },
+  {
+    "id": "case-62",
+    "slug": "meta-data",
+    "name": "Meta data / showSource=false / long text",
+    "values": {
+      "lines": "1 line title + source",
+      "showSource": false,
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "source": "Long source Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-63",
+    "slug": "source",
+    "name": "source / default",
+    "values": {
+      "state": "Default",
+      "name": "Pixels.com"
+    }
+  },
+  {
+    "id": "case-64",
+    "slug": "source",
+    "name": "source / state=Hover",
+    "values": {
+      "state": "Hover",
+      "name": "Pixels.com"
+    }
+  },
+  {
+    "id": "case-65",
+    "slug": "image-action-cluster",
+    "name": "Image action cluster / default",
+    "values": {
+      "type": "Web",
+      "surface": "SERP"
+    }
+  },
+  {
+    "id": "case-66",
+    "slug": "image-action-cluster",
+    "name": "Image action cluster / type=AIGC",
+    "values": {
+      "type": "AIGC",
+      "surface": "SERP"
+    }
+  },
+  {
+    "id": "case-67",
+    "slug": "image-action-cluster",
+    "name": "Image action cluster / type=Homepage",
+    "values": {
+      "type": "Homepage",
+      "surface": "SERP"
+    }
+  },
+  {
+    "id": "case-68",
+    "slug": "image-action-cluster",
+    "name": "Image action cluster / surface=IRP",
+    "values": {
+      "type": "Web",
+      "surface": "IRP"
+    }
+  },
+  {
+    "id": "case-69",
+    "slug": "image-overflow-flyout",
+    "name": "Image overflow flyout / default",
+    "values": {
+      "type": "Web",
+      "surface": "IRP"
+    }
+  },
+  {
+    "id": "case-70",
+    "slug": "image-overflow-flyout",
+    "name": "Image overflow flyout / type=AIGC",
+    "values": {
+      "type": "AIGC",
+      "surface": "IRP"
+    }
+  },
+  {
+    "id": "case-71",
+    "slug": "image-overflow-flyout",
+    "name": "Image overflow flyout / type=Homepage",
+    "values": {
+      "type": "Homepage",
+      "surface": "IRP"
+    }
+  },
+  {
+    "id": "case-72",
+    "slug": "image-overflow-flyout",
+    "name": "Image overflow flyout / surface=SERP",
+    "values": {
+      "type": "Web",
+      "surface": "SERP"
+    }
+  },
+  {
+    "id": "case-73",
+    "slug": "rs-inline",
+    "name": "RS Inline / default",
+    "values": {
+      "label": "People also"
+    }
+  },
+  {
+    "id": "case-74",
+    "slug": "rs-inline",
+    "name": "RS Inline / label=Top suggestion",
+    "values": {
+      "label": "Top suggestion"
+    }
+  },
+  {
+    "id": "case-75",
+    "slug": "image-cluster",
+    "name": "Image Cluster / default",
+    "values": {
+      "heading": "Minimalist Living Room Colors"
+    }
+  },
+  {
+    "id": "case-76",
+    "slug": "image-cluster",
+    "name": "Image Cluster / default / long text",
+    "values": {
+      "heading": "Long heading Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-77",
+    "slug": "rs-on-top",
+    "name": "RS on Top / default",
+    "values": {
+      "label": "Requery Title",
+      "showGradient": true,
+      "showScrollButton": true
+    }
+  },
+  {
+    "id": "case-78",
+    "slug": "rs-on-top",
+    "name": "RS on Top / default / long text",
+    "values": {
+      "label": "Long label Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "showGradient": true,
+      "showScrollButton": true
+    }
+  },
+  {
+    "id": "case-79",
+    "slug": "rs-on-top",
+    "name": "RS on Top / showGradient=false",
+    "values": {
+      "label": "Requery Title",
+      "showGradient": false,
+      "showScrollButton": true
+    }
+  },
+  {
+    "id": "case-80",
+    "slug": "rs-on-top",
+    "name": "RS on Top / showGradient=false / long text",
+    "values": {
+      "label": "Long label Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "showGradient": false,
+      "showScrollButton": true
+    }
+  },
+  {
+    "id": "case-81",
+    "slug": "rs-on-top",
+    "name": "RS on Top / showScrollButton=false",
+    "values": {
+      "label": "Requery Title",
+      "showGradient": true,
+      "showScrollButton": false
+    }
+  },
+  {
+    "id": "case-82",
+    "slug": "rs-on-top",
+    "name": "RS on Top / showScrollButton=false / long text",
+    "values": {
+      "label": "Long label Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "showGradient": true,
+      "showScrollButton": false
+    }
+  },
+  {
+    "id": "case-83",
+    "slug": "rs-card",
+    "name": "RS Card / default",
+    "values": {
+      "length": "Two-line",
+      "state": "Default"
+    }
+  },
+  {
+    "id": "case-84",
+    "slug": "rs-card",
+    "name": "RS Card / length=List",
+    "values": {
+      "length": "List",
+      "state": "Default"
+    }
+  },
+  {
+    "id": "case-85",
+    "slug": "rs-card",
+    "name": "RS Card / length=Short",
+    "values": {
+      "length": "Short",
+      "state": "Default"
+    }
+  },
+  {
+    "id": "case-86",
+    "slug": "rs-card",
+    "name": "RS Card / state=Hover",
+    "values": {
+      "length": "Two-line",
+      "state": "Hover"
+    }
+  },
+  {
+    "id": "case-87",
+    "slug": "rs-card",
+    "name": "RS Card / state=Press",
+    "values": {
+      "length": "Two-line",
+      "state": "Press"
+    }
+  },
+  {
+    "id": "case-88",
+    "slug": "rs-pill",
+    "name": "RS Pill / default",
+    "values": {
+      "state": "rest",
+      "thumbnail": true,
+      "label": "Requery Title"
+    }
+  },
+  {
+    "id": "case-89",
+    "slug": "rs-pill",
+    "name": "RS Pill / default / long text",
+    "values": {
+      "state": "rest",
+      "thumbnail": true,
+      "label": "Long label Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-90",
+    "slug": "rs-pill",
+    "name": "RS Pill / state=hover",
+    "values": {
+      "state": "hover",
+      "thumbnail": true,
+      "label": "Requery Title"
+    }
+  },
+  {
+    "id": "case-91",
+    "slug": "rs-pill",
+    "name": "RS Pill / state=hover / long text",
+    "values": {
+      "state": "hover",
+      "thumbnail": true,
+      "label": "Long label Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-92",
+    "slug": "rs-pill",
+    "name": "RS Pill / state=pressed",
+    "values": {
+      "state": "pressed",
+      "thumbnail": true,
+      "label": "Requery Title"
+    }
+  },
+  {
+    "id": "case-93",
+    "slug": "rs-pill",
+    "name": "RS Pill / state=pressed / long text",
+    "values": {
+      "state": "pressed",
+      "thumbnail": true,
+      "label": "Long label Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-94",
+    "slug": "rs-pill",
+    "name": "RS Pill / state=focus",
+    "values": {
+      "state": "focus",
+      "thumbnail": true,
+      "label": "Requery Title"
+    }
+  },
+  {
+    "id": "case-95",
+    "slug": "rs-pill",
+    "name": "RS Pill / state=focus / long text",
+    "values": {
+      "state": "focus",
+      "thumbnail": true,
+      "label": "Long label Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-96",
+    "slug": "rs-pill",
+    "name": "RS Pill / thumbnail=false",
+    "values": {
+      "state": "rest",
+      "thumbnail": false,
+      "label": "Requery Title"
+    }
+  },
+  {
+    "id": "case-97",
+    "slug": "rs-pill",
+    "name": "RS Pill / thumbnail=false / long text",
+    "values": {
+      "state": "rest",
+      "thumbnail": false,
+      "label": "Long label Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-98",
+    "slug": "image-cards",
+    "name": "Image cards / default",
+    "values": {
+      "size": "2x2",
+      "variant": "Single image"
+    }
+  },
+  {
+    "id": "case-99",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x2/variant=Single image",
+    "values": {
+      "size": "3x2",
+      "variant": "Single image"
+    }
+  },
+  {
+    "id": "case-100",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x2/variant=Two images",
+    "values": {
+      "size": "3x2",
+      "variant": "Two images"
+    }
+  },
+  {
+    "id": "case-101",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x2/variant=Image carousel",
+    "values": {
+      "size": "3x2",
+      "variant": "Image carousel"
+    }
+  },
+  {
+    "id": "case-102",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x2/variant=Instagram carousel",
+    "values": {
+      "size": "3x2",
+      "variant": "Instagram carousel"
+    }
+  },
+  {
+    "id": "case-103",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x2/variant=Related search grid",
+    "values": {
+      "size": "3x2",
+      "variant": "Related search grid"
+    }
+  },
+  {
+    "id": "case-104",
+    "slug": "image-cards",
+    "name": "Image cards / size=4x2/variant=Single image",
+    "values": {
+      "size": "4x2",
+      "variant": "Single image"
+    }
+  },
+  {
+    "id": "case-105",
+    "slug": "image-cards",
+    "name": "Image cards / size=4x2/variant=Two images",
+    "values": {
+      "size": "4x2",
+      "variant": "Two images"
+    }
+  },
+  {
+    "id": "case-106",
+    "slug": "image-cards",
+    "name": "Image cards / size=4x2/variant=Image carousel",
+    "values": {
+      "size": "4x2",
+      "variant": "Image carousel"
+    }
+  },
+  {
+    "id": "case-107",
+    "slug": "image-cards",
+    "name": "Image cards / size=5x2/variant=Wide and square images",
+    "values": {
+      "size": "5x2",
+      "variant": "Wide and square images"
+    }
+  },
+  {
+    "id": "case-108",
+    "slug": "image-cards",
+    "name": "Image cards / size=5x2/variant=Image carousel",
+    "values": {
+      "size": "5x2",
+      "variant": "Image carousel"
+    }
+  },
+  {
+    "id": "case-109",
+    "slug": "image-cards",
+    "name": "Image cards / size=5x2",
+    "values": {
+      "size": "5x2",
+      "variant": "Single image"
+    }
+  },
+  {
+    "id": "case-110",
+    "slug": "image-cards",
+    "name": "Image cards / size=2x4/variant=Related search list",
+    "values": {
+      "size": "2x4",
+      "variant": "Related search list"
+    }
+  },
+  {
+    "id": "case-111",
+    "slug": "image-cards",
+    "name": "Image cards / size=2x4",
+    "values": {
+      "size": "2x4",
+      "variant": "Single image"
+    }
+  },
+  {
+    "id": "case-112",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x4/variant=Five images · 3 + 2 columns",
+    "values": {
+      "size": "3x4",
+      "variant": "Five images · 3 + 2 columns"
+    }
+  },
+  {
+    "id": "case-113",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x4/variant=Four images · equal columns",
+    "values": {
+      "size": "3x4",
+      "variant": "Four images · equal columns"
+    }
+  },
+  {
+    "id": "case-114",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x4/variant=Portrait hero + three images",
+    "values": {
+      "size": "3x4",
+      "variant": "Portrait hero + three images"
+    }
+  },
+  {
+    "id": "case-115",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x4/variant=Related searches · interior trends",
+    "values": {
+      "size": "3x4",
+      "variant": "Related searches · interior trends"
+    }
+  },
+  {
+    "id": "case-116",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x4/variant=Four images · staggered rows",
+    "values": {
+      "size": "3x4",
+      "variant": "Four images · staggered rows"
+    }
+  },
+  {
+    "id": "case-117",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x4/variant=Landscape hero + two images",
+    "values": {
+      "size": "3x4",
+      "variant": "Landscape hero + two images"
+    }
+  },
+  {
+    "id": "case-118",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x4/variant=Two images + landscape hero",
+    "values": {
+      "size": "3x4",
+      "variant": "Two images + landscape hero"
+    }
+  },
+  {
+    "id": "case-119",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x4/variant=Two landscape images",
+    "values": {
+      "size": "3x4",
+      "variant": "Two landscape images"
+    }
+  },
+  {
+    "id": "case-120",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x4/variant=Four images · alternate source",
+    "values": {
+      "size": "3x4",
+      "variant": "Four images · alternate source"
+    }
+  },
+  {
+    "id": "case-121",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x4/variant=Single portrait image",
+    "values": {
+      "size": "3x4",
+      "variant": "Single portrait image"
+    }
+  },
+  {
+    "id": "case-122",
+    "slug": "image-cards",
+    "name": "Image cards / size=3x4",
+    "values": {
+      "size": "3x4",
+      "variant": "Single image"
+    }
+  },
+  {
+    "id": "case-123",
+    "slug": "image-cards",
+    "name": "Image cards / size=4x4/variant=Portrait hero + three images",
+    "values": {
+      "size": "4x4",
+      "variant": "Portrait hero + three images"
+    }
+  },
+  {
+    "id": "case-124",
+    "slug": "image-cards",
+    "name": "Image cards / size=4x4/variant=Five images · 3 + 2 rows",
+    "values": {
+      "size": "4x4",
+      "variant": "Five images · 3 + 2 rows"
+    }
+  },
+  {
+    "id": "case-125",
+    "slug": "image-cards",
+    "name": "Image cards / size=4x4/variant=Landscape hero + two images",
+    "values": {
+      "size": "4x4",
+      "variant": "Landscape hero + two images"
+    }
+  },
+  {
+    "id": "case-126",
+    "slug": "image-cards",
+    "name": "Image cards / size=4x4/variant=Portrait hero + two images",
+    "values": {
+      "size": "4x4",
+      "variant": "Portrait hero + two images"
+    }
+  },
+  {
+    "id": "case-127",
+    "slug": "image-cards",
+    "name": "Image cards / size=4x4/variant=Landscape hero · alternate source",
+    "values": {
+      "size": "4x4",
+      "variant": "Landscape hero · alternate source"
+    }
+  },
+  {
+    "id": "case-128",
+    "slug": "image-cards",
+    "name": "Image cards / size=4x4/variant=Four square images",
+    "values": {
+      "size": "4x4",
+      "variant": "Four square images"
+    }
+  },
+  {
+    "id": "case-129",
+    "slug": "image-cards",
+    "name": "Image cards / size=4x4",
+    "values": {
+      "size": "4x4",
+      "variant": "Single image"
+    }
+  },
+  {
+    "id": "case-130",
+    "slug": "image-cards",
+    "name": "Image cards / size=5x4/variant=Hero 3:4 + two squares",
+    "values": {
+      "size": "5x4",
+      "variant": "Hero 3:4 + two squares"
+    }
+  },
+  {
+    "id": "case-131",
+    "slug": "image-cards",
+    "name": "Image cards / size=5x4/variant=Half-width hero + two images",
+    "values": {
+      "size": "5x4",
+      "variant": "Half-width hero + two images"
+    }
+  },
+  {
+    "id": "case-132",
+    "slug": "image-cards",
+    "name": "Image cards / size=5x4/variant=Hero + four images",
+    "values": {
+      "size": "5x4",
+      "variant": "Hero + four images"
+    }
+  },
+  {
+    "id": "case-133",
+    "slug": "image-cards",
+    "name": "Image cards / size=5x4/variant=Panorama + three images",
+    "values": {
+      "size": "5x4",
+      "variant": "Panorama + three images"
+    }
+  },
+  {
+    "id": "case-134",
+    "slug": "image-cards",
+    "name": "Image cards / size=5x4/variant=Two-row carousel",
+    "values": {
+      "size": "5x4",
+      "variant": "Two-row carousel"
+    }
+  },
+  {
+    "id": "case-135",
+    "slug": "image-cards",
+    "name": "Image cards / size=5x4/variant=Two + three images",
+    "values": {
+      "size": "5x4",
+      "variant": "Two + three images"
+    }
+  },
+  {
+    "id": "case-136",
+    "slug": "image-cards",
+    "name": "Image cards / size=5x4/variant=Two-thirds hero + two images",
+    "values": {
+      "size": "5x4",
+      "variant": "Two-thirds hero + two images"
+    }
+  },
+  {
+    "id": "case-137",
+    "slug": "image-cards",
+    "name": "Image cards / size=5x4/variant=Panorama + three images · alternate",
+    "values": {
+      "size": "5x4",
+      "variant": "Panorama + three images · alternate"
+    }
+  },
+  {
+    "id": "case-138",
+    "slug": "image-cards",
+    "name": "Image cards / size=5x4/variant=Four-image grid",
+    "values": {
+      "size": "5x4",
+      "variant": "Four-image grid"
+    }
+  },
+  {
+    "id": "case-139",
+    "slug": "image-cards",
+    "name": "Image cards / size=5x4",
+    "values": {
+      "size": "5x4",
+      "variant": "Single image"
+    }
+  },
+  {
+    "id": "case-140",
+    "slug": "image-cards",
+    "name": "Image cards / size=6x4/variant=Square hero + two images",
+    "values": {
+      "size": "6x4",
+      "variant": "Square hero + two images"
+    }
+  },
+  {
+    "id": "case-141",
+    "slug": "image-cards",
+    "name": "Image cards / size=6x4/variant=Panorama + three images",
+    "values": {
+      "size": "6x4",
+      "variant": "Panorama + three images"
+    }
+  },
+  {
+    "id": "case-142",
+    "slug": "image-cards",
+    "name": "Image cards / size=6x4/variant=Three + four images",
+    "values": {
+      "size": "6x4",
+      "variant": "Three + four images"
+    }
+  },
+  {
+    "id": "case-143",
+    "slug": "image-cards",
+    "name": "Image cards / size=6x4/variant=Square hero + two images · all images",
+    "values": {
+      "size": "6x4",
+      "variant": "Square hero + two images · all images"
+    }
+  },
+  {
+    "id": "case-144",
+    "slug": "image-cards",
+    "name": "Image cards / size=6x4/variant=Four-image grid",
+    "values": {
+      "size": "6x4",
+      "variant": "Four-image grid"
+    }
+  },
+  {
+    "id": "case-145",
+    "slug": "image-cards",
+    "name": "Image cards / size=6x4",
+    "values": {
+      "size": "6x4",
+      "variant": "Single image"
+    }
+  },
+  {
+    "id": "case-146",
+    "slug": "image-cards",
+    "name": "Image cards / size=8x4/variant=Two-row gallery with title",
+    "values": {
+      "size": "8x4",
+      "variant": "Two-row gallery with title"
+    }
+  },
+  {
+    "id": "case-147",
+    "slug": "image-cards",
+    "name": "Image cards / size=8x4/variant=Eight-image mosaic",
+    "values": {
+      "size": "8x4",
+      "variant": "Eight-image mosaic"
+    }
+  },
+  {
+    "id": "case-148",
+    "slug": "image-cards",
+    "name": "Image cards / size=8x4",
+    "values": {
+      "size": "8x4",
+      "variant": "Single image"
+    }
+  },
+  {
+    "id": "case-149",
+    "slug": "image-cards",
+    "name": "Image cards / size=9x4/variant=Eight-image mosaic",
+    "values": {
+      "size": "9x4",
+      "variant": "Eight-image mosaic"
+    }
+  },
+  {
+    "id": "case-150",
+    "slug": "image-cards",
+    "name": "Image cards / size=9x4",
+    "values": {
+      "size": "9x4",
+      "variant": "Single image"
+    }
+  },
+  {
+    "id": "case-151",
+    "slug": "image-cards",
+    "name": "Image cards / size=11x4/variant=Nine-image mosaic",
+    "values": {
+      "size": "11x4",
+      "variant": "Nine-image mosaic"
+    }
+  },
+  {
+    "id": "case-152",
+    "slug": "image-cards",
+    "name": "Image cards / size=11x4",
+    "values": {
+      "size": "11x4",
+      "variant": "Single image"
+    }
+  },
+  {
+    "id": "case-153",
+    "slug": "image-cards",
+    "name": "Image cards / size=11x2/variant=Five-image strip",
+    "values": {
+      "size": "11x2",
+      "variant": "Five-image strip"
+    }
+  },
+  {
+    "id": "case-154",
+    "slug": "image-cards",
+    "name": "Image cards / size=11x2/variant=Five-image rail",
+    "values": {
+      "size": "11x2",
+      "variant": "Five-image rail"
+    }
+  },
+  {
+    "id": "case-155",
+    "slug": "image-cards",
+    "name": "Image cards / size=11x2/variant=Image rail with title and source",
+    "values": {
+      "size": "11x2",
+      "variant": "Image rail with title and source"
+    }
+  },
+  {
+    "id": "case-156",
+    "slug": "image-cards",
+    "name": "Image cards / size=11x2",
+    "values": {
+      "size": "11x2",
+      "variant": "Single image"
+    }
+  },
+  {
+    "id": "case-157",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Two images",
+    "values": {
+      "size": "2x2",
+      "variant": "Two images"
+    }
+  },
+  {
+    "id": "case-158",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Image carousel",
+    "values": {
+      "size": "2x2",
+      "variant": "Image carousel"
+    }
+  },
+  {
+    "id": "case-159",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Instagram carousel",
+    "values": {
+      "size": "2x2",
+      "variant": "Instagram carousel"
+    }
+  },
+  {
+    "id": "case-160",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Related search grid",
+    "values": {
+      "size": "2x2",
+      "variant": "Related search grid"
+    }
+  },
+  {
+    "id": "case-161",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Wide and square images",
+    "values": {
+      "size": "2x2",
+      "variant": "Wide and square images"
+    }
+  },
+  {
+    "id": "case-162",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Related search list",
+    "values": {
+      "size": "2x2",
+      "variant": "Related search list"
+    }
+  },
+  {
+    "id": "case-163",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Five images · 3 + 2 columns",
+    "values": {
+      "size": "2x2",
+      "variant": "Five images · 3 + 2 columns"
+    }
+  },
+  {
+    "id": "case-164",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Four images · equal columns",
+    "values": {
+      "size": "2x2",
+      "variant": "Four images · equal columns"
+    }
+  },
+  {
+    "id": "case-165",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Portrait hero + three images",
+    "values": {
+      "size": "2x2",
+      "variant": "Portrait hero + three images"
+    }
+  },
+  {
+    "id": "case-166",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Related searches · interior trends",
+    "values": {
+      "size": "2x2",
+      "variant": "Related searches · interior trends"
+    }
+  },
+  {
+    "id": "case-167",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Four images · staggered rows",
+    "values": {
+      "size": "2x2",
+      "variant": "Four images · staggered rows"
+    }
+  },
+  {
+    "id": "case-168",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Landscape hero + two images",
+    "values": {
+      "size": "2x2",
+      "variant": "Landscape hero + two images"
+    }
+  },
+  {
+    "id": "case-169",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Two images + landscape hero",
+    "values": {
+      "size": "2x2",
+      "variant": "Two images + landscape hero"
+    }
+  },
+  {
+    "id": "case-170",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Two landscape images",
+    "values": {
+      "size": "2x2",
+      "variant": "Two landscape images"
+    }
+  },
+  {
+    "id": "case-171",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Four images · alternate source",
+    "values": {
+      "size": "2x2",
+      "variant": "Four images · alternate source"
+    }
+  },
+  {
+    "id": "case-172",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Single portrait image",
+    "values": {
+      "size": "2x2",
+      "variant": "Single portrait image"
+    }
+  },
+  {
+    "id": "case-173",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Five images · 3 + 2 rows",
+    "values": {
+      "size": "2x2",
+      "variant": "Five images · 3 + 2 rows"
+    }
+  },
+  {
+    "id": "case-174",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Portrait hero + two images",
+    "values": {
+      "size": "2x2",
+      "variant": "Portrait hero + two images"
+    }
+  },
+  {
+    "id": "case-175",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Landscape hero · alternate source",
+    "values": {
+      "size": "2x2",
+      "variant": "Landscape hero · alternate source"
+    }
+  },
+  {
+    "id": "case-176",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Four square images",
+    "values": {
+      "size": "2x2",
+      "variant": "Four square images"
+    }
+  },
+  {
+    "id": "case-177",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Hero 3:4 + two squares",
+    "values": {
+      "size": "2x2",
+      "variant": "Hero 3:4 + two squares"
+    }
+  },
+  {
+    "id": "case-178",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Half-width hero + two images",
+    "values": {
+      "size": "2x2",
+      "variant": "Half-width hero + two images"
+    }
+  },
+  {
+    "id": "case-179",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Hero + four images",
+    "values": {
+      "size": "2x2",
+      "variant": "Hero + four images"
+    }
+  },
+  {
+    "id": "case-180",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Panorama + three images",
+    "values": {
+      "size": "2x2",
+      "variant": "Panorama + three images"
+    }
+  },
+  {
+    "id": "case-181",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Two-row carousel",
+    "values": {
+      "size": "2x2",
+      "variant": "Two-row carousel"
+    }
+  },
+  {
+    "id": "case-182",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Two + three images",
+    "values": {
+      "size": "2x2",
+      "variant": "Two + three images"
+    }
+  },
+  {
+    "id": "case-183",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Two-thirds hero + two images",
+    "values": {
+      "size": "2x2",
+      "variant": "Two-thirds hero + two images"
+    }
+  },
+  {
+    "id": "case-184",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Panorama + three images · alternate",
+    "values": {
+      "size": "2x2",
+      "variant": "Panorama + three images · alternate"
+    }
+  },
+  {
+    "id": "case-185",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Four-image grid",
+    "values": {
+      "size": "2x2",
+      "variant": "Four-image grid"
+    }
+  },
+  {
+    "id": "case-186",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Square hero + two images",
+    "values": {
+      "size": "2x2",
+      "variant": "Square hero + two images"
+    }
+  },
+  {
+    "id": "case-187",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Three + four images",
+    "values": {
+      "size": "2x2",
+      "variant": "Three + four images"
+    }
+  },
+  {
+    "id": "case-188",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Square hero + two images · all images",
+    "values": {
+      "size": "2x2",
+      "variant": "Square hero + two images · all images"
+    }
+  },
+  {
+    "id": "case-189",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Two-row gallery with title",
+    "values": {
+      "size": "2x2",
+      "variant": "Two-row gallery with title"
+    }
+  },
+  {
+    "id": "case-190",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Eight-image mosaic",
+    "values": {
+      "size": "2x2",
+      "variant": "Eight-image mosaic"
+    }
+  },
+  {
+    "id": "case-191",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Nine-image mosaic",
+    "values": {
+      "size": "2x2",
+      "variant": "Nine-image mosaic"
+    }
+  },
+  {
+    "id": "case-192",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Five-image strip",
+    "values": {
+      "size": "2x2",
+      "variant": "Five-image strip"
+    }
+  },
+  {
+    "id": "case-193",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Five-image rail",
+    "values": {
+      "size": "2x2",
+      "variant": "Five-image rail"
+    }
+  },
+  {
+    "id": "case-194",
+    "slug": "image-cards",
+    "name": "Image cards / variant=Image rail with title and source",
+    "values": {
+      "size": "2x2",
+      "variant": "Image rail with title and source"
+    }
+  },
+  {
+    "id": "case-195",
+    "slug": "content",
+    "name": "Content / default",
+    "values": {
+      "layout": "Waterfall",
+      "gap": "16"
+    }
+  },
+  {
+    "id": "case-196",
+    "slug": "content",
+    "name": "Content / layout=Dense",
+    "values": {
+      "layout": "Dense",
+      "gap": "16"
+    }
+  },
+  {
+    "id": "case-197",
+    "slug": "content",
+    "name": "Content / gap=0",
+    "values": {
+      "layout": "Waterfall",
+      "gap": "0"
+    }
+  },
+  {
+    "id": "case-198",
+    "slug": "content",
+    "name": "Content / gap=8",
+    "values": {
+      "layout": "Waterfall",
+      "gap": "8"
+    }
+  },
+  {
+    "id": "case-199",
+    "slug": "content",
+    "name": "Content / gap=24",
+    "values": {
+      "layout": "Waterfall",
+      "gap": "24"
+    }
+  },
+  {
+    "id": "case-200",
+    "slug": "content",
+    "name": "Content / gap=32",
+    "values": {
+      "layout": "Waterfall",
+      "gap": "32"
+    }
+  },
+  {
+    "id": "case-201",
+    "slug": "filter",
+    "name": "Filter / default",
+    "values": {
+      "part": "Interactive"
+    }
+  },
+  {
+    "id": "case-202",
+    "slug": "filter",
+    "name": "Filter / part=Selected pill",
+    "values": {
+      "part": "Selected pill"
+    }
+  },
+  {
+    "id": "case-203",
+    "slug": "filter",
+    "name": "Filter / part=Color menu",
+    "values": {
+      "part": "Color menu"
+    }
+  },
+  {
+    "id": "case-204",
+    "slug": "filter",
+    "name": "Filter / part=Type menu",
+    "values": {
+      "part": "Type menu"
+    }
+  },
+  {
+    "id": "case-205",
+    "slug": "filter",
+    "name": "Filter / part=License menu",
+    "values": {
+      "part": "License menu"
+    }
+  },
+  {
+    "id": "case-206",
+    "slug": "header",
+    "name": "Header / default",
+    "values": {
+      "title": "Image of Living Room",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "Sponsor"
+    }
+  },
+  {
+    "id": "case-207",
+    "slug": "header",
+    "name": "Header / default / long text",
+    "values": {
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "Sponsor"
+    }
+  },
+  {
+    "id": "case-208",
+    "slug": "header",
+    "name": "Header / style=Text title",
+    "values": {
+      "title": "Image of Living Room",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Text title",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "Sponsor"
+    }
+  },
+  {
+    "id": "case-209",
+    "slug": "header",
+    "name": "Header / style=Text title / long text",
+    "values": {
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Text title",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "Sponsor"
+    }
+  },
+  {
+    "id": "case-210",
+    "slug": "header",
+    "name": "Header / style=Copilot Branding",
+    "values": {
+      "title": "Image of Living Room",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Copilot Branding",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "Sponsor"
+    }
+  },
+  {
+    "id": "case-211",
+    "slug": "header",
+    "name": "Header / style=Copilot Branding / long text",
+    "values": {
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Copilot Branding",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "Sponsor"
+    }
+  },
+  {
+    "id": "case-212",
+    "slug": "header",
+    "name": "Header / showSubTitle=false",
+    "values": {
+      "title": "Image of Living Room",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": false,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "Sponsor"
+    }
+  },
+  {
+    "id": "case-213",
+    "slug": "header",
+    "name": "Header / showSubTitle=false / long text",
+    "values": {
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": false,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "Sponsor"
+    }
+  },
+  {
+    "id": "case-214",
+    "slug": "header",
+    "name": "Header / showChevron=false",
+    "values": {
+      "title": "Image of Living Room",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": true,
+      "showChevron": false,
+      "endProps": false,
+      "endPropsType": "Sponsor"
+    }
+  },
+  {
+    "id": "case-215",
+    "slug": "header",
+    "name": "Header / showChevron=false / long text",
+    "values": {
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": true,
+      "showChevron": false,
+      "endProps": false,
+      "endPropsType": "Sponsor"
+    }
+  },
+  {
+    "id": "case-216",
+    "slug": "header",
+    "name": "Header / endProps=true",
+    "values": {
+      "title": "Image of Living Room",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": true,
+      "endPropsType": "Sponsor"
+    }
+  },
+  {
+    "id": "case-217",
+    "slug": "header",
+    "name": "Header / endProps=true / long text",
+    "values": {
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": true,
+      "endPropsType": "Sponsor"
+    }
+  },
+  {
+    "id": "case-218",
+    "slug": "header",
+    "name": "Header / endPropsType=AI buttons",
+    "values": {
+      "title": "Image of Living Room",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "AI buttons"
+    }
+  },
+  {
+    "id": "case-219",
+    "slug": "header",
+    "name": "Header / endPropsType=AI buttons / long text",
+    "values": {
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "AI buttons"
+    }
+  },
+  {
+    "id": "case-220",
+    "slug": "header",
+    "name": "Header / endPropsType=See more",
+    "values": {
+      "title": "Image of Living Room",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "See more"
+    }
+  },
+  {
+    "id": "case-221",
+    "slug": "header",
+    "name": "Header / endPropsType=See more / long text",
+    "values": {
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "See more"
+    }
+  },
+  {
+    "id": "case-222",
+    "slug": "header",
+    "name": "Header / endPropsType=Tabs",
+    "values": {
+      "title": "Image of Living Room",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "Tabs"
+    }
+  },
+  {
+    "id": "case-223",
+    "slug": "header",
+    "name": "Header / endPropsType=Tabs / long text",
+    "values": {
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "Tabs"
+    }
+  },
+  {
+    "id": "case-224",
+    "slug": "header",
+    "name": "Header / endPropsType=WP Tabs",
+    "values": {
+      "title": "Image of Living Room",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "WP Tabs"
+    }
+  },
+  {
+    "id": "case-225",
+    "slug": "header",
+    "name": "Header / endPropsType=WP Tabs / long text",
+    "values": {
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "subtitle": "Sub title lorem ipsum dolor sit amet",
+      "style": "Clickable title",
+      "showSubTitle": true,
+      "showChevron": true,
+      "endProps": false,
+      "endPropsType": "WP Tabs"
+    }
+  },
+  {
+    "id": "case-226",
+    "slug": "footer",
+    "name": "Footer / default",
+    "values": {
+      "clickAction": "Redirect",
+      "block": false,
+      "footnote": true,
+      "footnoteText": "footnote",
+      "footnoteLink": true,
+      "linkText": "Link",
+      "feedback": true,
+      "feedbackState": "Default",
+      "showGradient": false
+    }
+  },
+  {
+    "id": "case-227",
+    "slug": "footer",
+    "name": "Footer / clickAction=Expansion: See more",
+    "values": {
+      "clickAction": "Expansion: See more",
+      "block": false,
+      "footnote": true,
+      "footnoteText": "footnote",
+      "footnoteLink": true,
+      "linkText": "Link",
+      "feedback": true,
+      "feedbackState": "Default",
+      "showGradient": false
+    }
+  },
+  {
+    "id": "case-228",
+    "slug": "footer",
+    "name": "Footer / clickAction=Expansion: See less",
+    "values": {
+      "clickAction": "Expansion: See less",
+      "block": false,
+      "footnote": true,
+      "footnoteText": "footnote",
+      "footnoteLink": true,
+      "linkText": "Link",
+      "feedback": true,
+      "feedbackState": "Default",
+      "showGradient": false
+    }
+  },
+  {
+    "id": "case-229",
+    "slug": "footer",
+    "name": "Footer / clickAction=No action",
+    "values": {
+      "clickAction": "No action",
+      "block": false,
+      "footnote": true,
+      "footnoteText": "footnote",
+      "footnoteLink": true,
+      "linkText": "Link",
+      "feedback": true,
+      "feedbackState": "Default",
+      "showGradient": false
+    }
+  },
+  {
+    "id": "case-230",
+    "slug": "footer",
+    "name": "Footer / block=true",
+    "values": {
+      "clickAction": "Redirect",
+      "block": true,
+      "footnote": true,
+      "footnoteText": "footnote",
+      "footnoteLink": true,
+      "linkText": "Link",
+      "feedback": true,
+      "feedbackState": "Default",
+      "showGradient": false
+    }
+  },
+  {
+    "id": "case-231",
+    "slug": "footer",
+    "name": "Footer / footnote=false",
+    "values": {
+      "clickAction": "Redirect",
+      "block": false,
+      "footnote": false,
+      "footnoteText": "footnote",
+      "footnoteLink": true,
+      "linkText": "Link",
+      "feedback": true,
+      "feedbackState": "Default",
+      "showGradient": false
+    }
+  },
+  {
+    "id": "case-232",
+    "slug": "footer",
+    "name": "Footer / footnoteLink=false",
+    "values": {
+      "clickAction": "Redirect",
+      "block": false,
+      "footnote": true,
+      "footnoteText": "footnote",
+      "footnoteLink": false,
+      "linkText": "Link",
+      "feedback": true,
+      "feedbackState": "Default",
+      "showGradient": false
+    }
+  },
+  {
+    "id": "case-233",
+    "slug": "footer",
+    "name": "Footer / feedback=false",
+    "values": {
+      "clickAction": "Redirect",
+      "block": false,
+      "footnote": true,
+      "footnoteText": "footnote",
+      "footnoteLink": true,
+      "linkText": "Link",
+      "feedback": false,
+      "feedbackState": "Default",
+      "showGradient": false
+    }
+  },
+  {
+    "id": "case-234",
+    "slug": "footer",
+    "name": "Footer / feedbackState=Active - Liked",
+    "values": {
+      "clickAction": "Redirect",
+      "block": false,
+      "footnote": true,
+      "footnoteText": "footnote",
+      "footnoteLink": true,
+      "linkText": "Link",
+      "feedback": true,
+      "feedbackState": "Active - Liked",
+      "showGradient": false
+    }
+  },
+  {
+    "id": "case-235",
+    "slug": "footer",
+    "name": "Footer / feedbackState=Active - Disliked",
+    "values": {
+      "clickAction": "Redirect",
+      "block": false,
+      "footnote": true,
+      "footnoteText": "footnote",
+      "footnoteLink": true,
+      "linkText": "Link",
+      "feedback": true,
+      "feedbackState": "Active - Disliked",
+      "showGradient": false
+    }
+  },
+  {
+    "id": "case-236",
+    "slug": "footer",
+    "name": "Footer / showGradient=true",
+    "values": {
+      "clickAction": "Redirect",
+      "block": false,
+      "footnote": true,
+      "footnoteText": "footnote",
+      "footnoteLink": true,
+      "linkText": "Link",
+      "feedback": true,
+      "feedbackState": "Default",
+      "showGradient": true
+    }
+  },
+  {
+    "id": "case-237",
+    "slug": "serp-image-answer",
+    "name": "SERP · Image Answer / default",
+    "values": {
+      "title": "Image of Living Room",
+      "pageShell": true
+    }
+  },
+  {
+    "id": "case-238",
+    "slug": "serp-image-answer",
+    "name": "SERP · Image Answer / default / long text",
+    "values": {
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "pageShell": true
+    }
+  },
+  {
+    "id": "case-239",
+    "slug": "serp-image-answer",
+    "name": "SERP · Image Answer / pageShell=false",
+    "values": {
+      "title": "Image of Living Room",
+      "pageShell": false
+    }
+  },
+  {
+    "id": "case-240",
+    "slug": "serp-image-answer",
+    "name": "SERP · Image Answer / pageShell=false / long text",
+    "values": {
+      "title": "Long title Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "pageShell": false
+    }
+  },
+  {
+    "id": "case-241",
+    "slug": "irp-whole-page",
+    "name": "IRP · Whole Page / default",
+    "values": {
+      "pageShell": true,
+      "filterRow": true
+    }
+  },
+  {
+    "id": "case-242",
+    "slug": "irp-whole-page",
+    "name": "IRP · Whole Page / pageShell=false",
+    "values": {
+      "pageShell": false,
+      "filterRow": true
+    }
+  },
+  {
+    "id": "case-243",
+    "slug": "irp-whole-page",
+    "name": "IRP · Whole Page / filterRow=false",
+    "values": {
+      "pageShell": true,
+      "filterRow": false
+    }
+  }
+]

@@ -24,6 +24,61 @@
 const CHROME_SELECTORS = ['.pg__block-chrome']
 const STRIP_CLASS_PREFIX = 'pg__'
 
+/** Embed the FY25 source images and font so new cards survive a standalone download. */
+export async function exportPortableHtml(frame: HTMLElement, opts: HtmlExportOpts): Promise<string> {
+  if (!frame.querySelector('[data-image-card], [data-slideshow]')) return exportHtml(frame, opts)
+  const clone = frame.cloneNode(true) as HTMLElement
+  const originals = [frame, ...Array.from(frame.querySelectorAll<HTMLElement>('*'))]
+  const copies = [clone, ...Array.from(clone.querySelectorAll<HTMLElement>('*'))]
+  originals.forEach((element, index) => {
+    if (element.scrollLeft || element.scrollTop) {
+      copies[index].dataset.exportScrollX = String(element.scrollLeft)
+      copies[index].dataset.exportScrollY = String(element.scrollTop)
+    }
+  })
+  const cache = new Map<string, Promise<string>>()
+  const embed = (url: string) => {
+    if (!cache.has(url)) cache.set(url, fetch(url).then(async response => {
+      if (!response.ok) throw new Error(`Could not embed asset (${response.status}): ${url}`)
+      const blob = await response.blob()
+      return new Promise<string>((resolve, reject) => {
+        const reader = new FileReader()
+        reader.onload = () => resolve(String(reader.result))
+        reader.onerror = () => reject(new Error('Could not read export asset'))
+        reader.readAsDataURL(blob)
+      })
+    }))
+    return cache.get(url)!
+  }
+  await Promise.all(Array.from(clone.querySelectorAll<HTMLImageElement>('img')).map(async img => {
+    img.src = await embed(img.src)
+    img.removeAttribute('srcset')
+  }))
+  await Promise.all(Array.from(clone.querySelectorAll<HTMLElement>('[style]')).map(async el => {
+    const background = el.style.backgroundImage
+    if (!background.includes('url(')) return
+    let replacement = background
+    for (const match of background.matchAll(/url\(["']?([^"')]+)["']?\)/g)) {
+      const data = await embed(new URL(match[1], document.baseURI).href)
+      replacement = replacement.replace(match[0], `url("${data}")`)
+    }
+    el.style.backgroundImage = replacement
+  }))
+  const fonts = await Promise.all([
+    embed(new URL('./figma/fy25/fonts/roboto-400.woff2', document.baseURI).href),
+    embed(new URL('./figma/fy25/fonts/roboto-700.woff2', document.baseURI).href),
+  ])
+  let css = fonts.map((font, i) => `@font-face{font-family:'MM FY25 Roboto';src:url('${font}');font-weight:${i ? 700 : 400};}`).join('')
+  if (frame.querySelector('[data-slideshow]')) {
+    const alice = await embed(new URL('./figma/slideshow/fonts/alice-400.woff2', document.baseURI).href)
+    css += `@font-face{font-family:'MM SlideShow Alice';src:url('${alice}');font-weight:400;}`
+  }
+  // The download is a visual snapshot; live React events stay in the component library.
+  const restoreScroll = `<script>window.addEventListener('load',function(){document.querySelectorAll('[data-export-scroll-x]').forEach(function(el){el.scrollLeft=Number(el.dataset.exportScrollX);el.scrollTop=Number(el.dataset.exportScrollY);});});</script>`
+  return exportHtml(clone, opts).replace('</style>', `${css}\n[data-image-card]{font-family:'MM FY25 Roboto',sans-serif!important;}\n</style>`)
+    .replace('</body>', `${restoreScroll}\n</body>`)
+}
+
 export interface HtmlExportOpts {
   /** Surface name, for the document title. */
   surface: string

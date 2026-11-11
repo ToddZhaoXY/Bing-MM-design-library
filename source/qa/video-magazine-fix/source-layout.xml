@@ -1,0 +1,63 @@
+<instance id="2136:45835" name="Section body / magazine" x="0" y="57" width="1200" height="424">
+  <instance id="I2136:45835;128687:165152" name="Zone C" x="918" y="0" width="282" height="424">
+    <slot id="I2136:45835;128687:165152;131563:453809" name="body" x="0" y="0" width="282" height="424">
+      <instance id="I2136:45835;128687:165152;131563:453809;2136:52601" name="Video card" x="0" y="0" width="282" height="200" />
+      <instance id="I2136:45835;128687:165152;131563:453809;2136:52602" name="Cards / answer card" x="0" y="224" width="282" height="200">
+        <instance id="I2136:45835;128687:165152;131563:453809;2136:52602;128113:52854" name="card header" x="20" y="20" width="242" height="22" />
+        <instance id="I2136:45835;128687:165152;131563:453809;2136:52602;128113:52855" name="Basic" x="20" y="50" width="242" height="130">
+          <slot id="I2136:45835;128687:165152;131563:453809;2136:52602;128113:52855;131563:453809" name="body" x="0" y="0" width="242" height="130">
+            <text id="I2136:45835;128687:165152;131563:453809;2136:52602;128113:52855;131563:453809;2136:52597" name="Tom Hanks Through the Years Take a journey through the prolific career of Oscar-winning actor Tom Hanks through his standout roles in Philadelphia, Forrest Gump, and more films." x="0" y="0" width="242" height="102" />
+            <instance id="I2136:45835;128687:165152;131563:453809;2136:52602;128113:52855;131563:453809;2136:52598" name="metadata" x="0" y="110" width="51" height="20" />
+          </slot>
+        </instance>
+      </instance>
+    </slot>
+  </instance>
+  <instance id="I2136:45835;128687:165148" name="Zone B" x="612" y="0" width="282" height="424">
+    <slot id="I2136:45835;128687:165148;131563:453809" name="body" x="0" y="0" width="282" height="424">
+      <instance id="I2136:45835;128687:165148;131563:453809;2136:52336" name="Cards / answer card" x="0" y="0" width="282" height="424">
+        <instance id="I2136:45835;128687:165148;131563:453809;2136:52336;128113:52854" name="card header" x="20" y="20" width="242" height="28" />
+        <instance id="I2136:45835;128687:165148;131563:453809;2136:52336;128113:52855" name="Basic" x="20" y="56" width="242" height="348">
+          <slot id="I2136:45835;128687:165148;131563:453809;2136:52336;128113:52855;131563:453809" name="body" x="0" y="0" width="242" height="348">
+            <frame id="I2136:45835;128687:165148;131563:453809;2136:52336;128113:52855;131563:453809;2136:52324" name="Frame 2147232423" x="0" y="0" width="242" height="156">
+              <text id="I2136:45835;128687:165148;131563:453809;2136:52336;128113:52855;131563:453809;2136:52325" name="Thomas Jeffrey Hanks is an American actor and filmmaker celebrated for his versatility in comedic and dramatic roles and regarded as an American cultural icon. A two-time consecutive Best Actor Oscar winner for Philadelphia (1993) and Forrest Gump (1994), his career spans acclaimed films such as Splash Sleepless in Seattle, Saving Private Ryan, Cast Away" x="0" y="0" width="242" height="132" />
+              <instance id="I2136:45835;128687:165148;131563:453809;2136:52336;128113:52855;131563:453809;2136:52326" name="Truncation" x="0" y="136" width="83" height="20" />
+            </frame>
+            <frame id="I2136:45835;128687:165148;131563:453809;2136:52336;128113:52855;131563:453809;2136:52327" name="Frame 2147232423" x="0" y="164" width="242" height="22">
+              <text id="I2136:45835;128687:165148;131563:453809;2136:52336;128113:52855;131563:453809;2136:52328" name="Age:" x="0" y="0" width="29" height="22" />
+              <text id="I2136:45835;128687:165148;131563:453809;2136:52336;128113:52855;131563:453809;2136:52329" name="69 years (Jul 9, 1956)" x="33" y="0" width="209" height="22" />
+            </frame>
+            <frame id="I2136:45835;128687:165148;131563:453809;2136:52336;128113:52855;131563:453809;2136:52330" name="Frame 2147232424" x="0" y="194" width="242" height="122">
+              <text id="I2136:45835;128687:165148;131563:453809;2136:52336;128113:52855;131563:453809;2136:52331" name="Spouses:" x="0" y="0" width="59" height="22" />
+              <text id="I2136:45835;128687:165148;131563:453809;2136:52336;128113:52855;131563:453809;2136:52332" name="Rita Wilson (1988–), Samantha Lewes (1978–1987)" x="63" y="0" width="179" height="66" />
+            </frame>
+            <instance id="I2136:45835;128687:165148;131563:453809;2136:52336;128113:52855;131563:453809;2136:52333" name="Citation" x="0" y="324" width="125.94140625" height="24" />
+          </slot>
+        </instance>
+      </instance>
+    </slot>
+  </instance>
+  <instance id="I2136:45835;128687:165141" name="Zone A" x="0" y="0" width="588" height="424">
+    <slot id="I2136:45835;128687:165141;131563:453809" name="body" x="0" y="0" width="588" height="424">
+      <instance id="I2136:45835;128687:165141;131563:453809;2136:50285" name="Hero card" x="0" y="0" width="588" height="424">
+        <instance id="I2136:45835;128687:165141;131563:453809;2136:50285;1447:18969" name="Basic" x="0" y="0" width="588" height="424">
+          <slot id="I2136:45835;128687:165141;131563:453809;2136:50285;1447:18969;131563:453809" name="body" x="0" y="0" width="588" height="424">
+            <instance id="I2136:45835;128687:165141;131563:453809;2136:50285;1447:18969;131563:453809;2136:50376" name="Video tile" x="0" y="0" width="588" height="329.2799987792969" />
+            <frame id="I2136:45835;128687:165141;131563:453809;2136:50285;1447:18969;131563:453809;2136:50377" name="Bottom overlay container" x="0" y="329.2799987792969" width="588" height="94.72000122070312">
+              <frame id="I2136:45835;128687:165141;131563:453809;2136:50285;1447:18969;131563:453809;2136:50378" name="Content" x="20" y="12" width="548" height="42.720001220703125">
+                <text id="I2136:45835;128687:165141;131563:453809;2136:50285;1447:18969;131563:453809;2136:50379" name="Article Title" x="0" y="0" width="548" height="22" />
+                <text id="I2136:45835;128687:165141;131563:453809;2136:50285;1447:18969;131563:453809;2136:50380" name="One Epic Place With Beautiful Scenery ! i lost the audio with copyright music :( trackname: almost in f tranquillity by kevin macleod Places : Fairmont Springs Hotel Gondola Sulphur Mountain Lake Louise Fairmont Chateau Lake Louise Big Beehive Trail / Lake Agnes Tea House Some nice shots from Banff . . my bad i had forest fires in Aug 2017 did ..." x="0" y="26" width="548" height="44" hidden="true" />
+              </frame>
+              <frame id="I2136:45835;128687:165141;131563:453809;2136:50285;1447:18969;131563:453809;2136:50381" name="source" x="20" y="54.720001220703125" width="548" height="20">
+                <instance id="I2136:45835;128687:165141;131563:453809;2136:50285;1447:18969;131563:453809;2136:50382" name="metadata" x="0" y="0" width="79" height="20" />
+                <instance id="I2136:45835;128687:165141;131563:453809;2136:50285;1447:18969;131563:453809;2136:50383" name="metadata" x="83" y="0" width="56" height="20" />
+                <instance id="I2136:45835;128687:165141;131563:453809;2136:50285;1447:18969;131563:453809;2136:50384" name="metadata" x="143" y="0" width="74" height="20" />
+                <instance id="I2136:45835;128687:165141;131563:453809;2136:50285;1447:18969;131563:453809;2136:50385" name="metadata" x="221" y="0" width="78" height="20" />
+              </frame>
+            </frame>
+          </slot>
+        </instance>
+      </instance>
+    </slot>
+  </instance>
+</instance>

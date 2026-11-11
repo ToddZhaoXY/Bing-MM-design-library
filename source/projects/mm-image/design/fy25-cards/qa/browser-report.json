@@ -1,0 +1,2730 @@
+{
+  "cases": [
+    {
+      "size": "2x2",
+      "label": "Single image",
+      "id": "16:7776",
+      "variant": "single-image",
+      "width": 200,
+      "height": 200,
+      "box": {
+        "x": 674,
+        "y": 546.984375,
+        "width": 200,
+        "height": 200
+      },
+      "images": 2,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 200,
+          "height": 200,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "2x2-16-7776.png"
+    },
+    {
+      "size": "3x2",
+      "label": "Single image",
+      "id": "704:18885",
+      "variant": "single-image",
+      "width": 312,
+      "height": 200,
+      "box": {
+        "x": 618,
+        "y": 546.984375,
+        "width": 312,
+        "height": 200
+      },
+      "images": 2,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 312,
+          "height": 200,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x2-704-18885.png"
+    },
+    {
+      "size": "3x2",
+      "label": "Two images",
+      "id": "705:7425",
+      "variant": "two-images",
+      "width": 312,
+      "height": 200,
+      "box": {
+        "x": 618,
+        "y": 546.984375,
+        "width": 312,
+        "height": 200
+      },
+      "images": 3,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 178.53125,
+          "height": 230,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 178.53125,
+          "height": 230,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x2-705-7425.png"
+    },
+    {
+      "size": "3x2",
+      "label": "Image carousel",
+      "id": "750:61777",
+      "variant": "image-carousel",
+      "width": 312,
+      "height": 200,
+      "box": {
+        "x": 618,
+        "y": 546.984375,
+        "width": 312,
+        "height": 200
+      },
+      "images": 8,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-small-header-chevron.svg",
+          "width": 5.5,
+          "height": 10,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 147.1875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 147.1875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 147.1875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 147.1875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-seeall-chevron.svg",
+          "width": 5.5,
+          "height": 10,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-gradient.png",
+          "width": 20,
+          "height": 128,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-scroll-chevron.svg",
+          "width": 5.5,
+          "height": 10,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x2-750-61777.png"
+    },
+    {
+      "size": "3x2",
+      "label": "Instagram carousel",
+      "id": "750:62130",
+      "variant": "social-carousel",
+      "width": 312,
+      "height": 200,
+      "box": {
+        "x": 618,
+        "y": 546.984375,
+        "width": 312,
+        "height": 200
+      },
+      "images": 8,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-small-instagram.png",
+          "width": 16,
+          "height": 16,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 144.890625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 144.890625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 144.890625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 144.890625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-seeall-chevron.svg",
+          "width": 5.5,
+          "height": 10,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-social-gradient.png",
+          "width": 20,
+          "height": 126,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-blue-chevron.svg",
+          "width": 5.5,
+          "height": 10,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x2-750-62130.png"
+    },
+    {
+      "size": "3x2",
+      "label": "Related search grid",
+      "id": "1266:15872",
+      "variant": "related-grid",
+      "width": 312,
+      "height": 200,
+      "box": {
+        "x": 618,
+        "y": 546.984375,
+        "width": 312,
+        "height": 200
+      },
+      "images": 7,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-small-header-chevron.svg",
+          "width": 5.5,
+          "height": 10,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 36,
+          "height": 36,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 36,
+          "height": 36,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 36,
+          "height": 36,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 36,
+          "height": 36,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 36,
+          "height": 36,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 36,
+          "height": 36,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x2-1266-15872.png"
+    },
+    {
+      "size": "4x2",
+      "label": "Single image",
+      "id": "16:7859",
+      "variant": "single-image",
+      "width": 424,
+      "height": 200,
+      "box": {
+        "x": 586,
+        "y": 546.984375,
+        "width": 376,
+        "height": 177.3585205078125
+      },
+      "images": 2,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 376,
+          "height": 177.3585205078125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-image-multiple.svg",
+          "width": 10.627685546875,
+          "height": 10.62762451171875,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "4x2-16-7859.png"
+    },
+    {
+      "size": "4x2",
+      "label": "Two images",
+      "id": "16:7852",
+      "variant": "two-images",
+      "width": 424,
+      "height": 200,
+      "box": {
+        "x": 562,
+        "y": 546.984375,
+        "width": 424,
+        "height": 200
+      },
+      "images": 3,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 200,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 200,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "4x2-16-7852.png"
+    },
+    {
+      "size": "4x2",
+      "label": "Image carousel",
+      "id": "1779:1126",
+      "variant": "image-carousel",
+      "width": 424,
+      "height": 200,
+      "box": {
+        "x": 562,
+        "y": 546.984375,
+        "width": 424,
+        "height": 200
+      },
+      "images": 8,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-small-header-chevron.svg",
+          "width": 5.5,
+          "height": 10,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 147.1875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 147.1875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 147.1875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 147.1875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-seeall-chevron.svg",
+          "width": 5.5,
+          "height": 10,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-gradient.png",
+          "width": 20,
+          "height": 128,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-scroll-chevron.svg",
+          "width": 5.5,
+          "height": 10,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "4x2-1779-1126.png"
+    },
+    {
+      "size": "5x2",
+      "label": "Wide and square images",
+      "id": "16:7872",
+      "variant": "split-images",
+      "width": 536,
+      "height": 200,
+      "box": {
+        "x": 530,
+        "y": 546.984375,
+        "width": 488,
+        "height": 182.08953857421875
+      },
+      "images": 3,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 304.089599609375,
+          "height": 182.08953857421875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 182.08953857421875,
+          "height": 182.08953857421875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-image-multiple.svg",
+          "width": 10.91119384765625,
+          "height": 10.91119384765625,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "5x2-16-7872.png"
+    },
+    {
+      "size": "5x2",
+      "label": "Image carousel",
+      "id": "1268:1976",
+      "variant": "image-carousel",
+      "width": 536,
+      "height": 200,
+      "box": {
+        "x": 506,
+        "y": 546.984375,
+        "width": 536,
+        "height": 200
+      },
+      "images": 8,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-small-header-chevron.svg",
+          "width": 5.5,
+          "height": 10,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 147.1875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 147.1875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 147.1875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 158.953125,
+          "height": 147.1875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-seeall-chevron.svg",
+          "width": 5.5,
+          "height": 10,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-gradient.png",
+          "width": 20,
+          "height": 128,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-small-scroll-chevron.svg",
+          "width": 5.5,
+          "height": 10,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "5x2-1268-1976.png"
+    },
+    {
+      "size": "2x4",
+      "label": "Related search list",
+      "id": "1283:22499",
+      "variant": "related-list",
+      "width": 200,
+      "height": 424,
+      "box": {
+        "x": 698,
+        "y": 546.984375,
+        "width": 152,
+        "height": 322.239990234375
+      },
+      "images": 7,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-small-header-chevron.svg",
+          "width": 4.179931640625,
+          "height": 7.5999755859375,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 36.47998046875,
+          "height": 36.47998046875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 36.47998046875,
+          "height": 36.47998046875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 36.47998046875,
+          "height": 36.48004150390625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 36.47998046875,
+          "height": 36.47998046875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 36.47998046875,
+          "height": 36.48004150390625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 36.47998046875,
+          "height": 36.47998046875,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "2x4-1283-22499.png"
+    },
+    {
+      "size": "3x4",
+      "label": "Five images · 3 + 2 columns",
+      "id": "1748:1270",
+      "variant": "masonry-five",
+      "width": 312,
+      "height": 424,
+      "box": {
+        "x": 642,
+        "y": 621.984375,
+        "width": 264,
+        "height": 358.76922607421875
+      },
+      "images": 6,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 131.15386962890625,
+          "height": 118.4615478515625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 131.15386962890625,
+          "height": 118.46148681640625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 131.15386962890625,
+          "height": 118.4615478515625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 131.15380859375,
+          "height": 178.5384521484375,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 131.15380859375,
+          "height": 178.5384521484375,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-image-multiple.svg",
+          "width": 10.140625,
+          "height": 10.140625,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x4-1748-1270.png"
+    },
+    {
+      "size": "3x4",
+      "label": "Four images · equal columns",
+      "id": "1270:13254",
+      "variant": "four-equal",
+      "width": 312,
+      "height": 424,
+      "box": {
+        "x": 618,
+        "y": 621.984375,
+        "width": 312,
+        "height": 424
+      },
+      "images": 5,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 155,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 155,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 155,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 155,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x4-1270-13254.png"
+    },
+    {
+      "size": "3x4",
+      "label": "Portrait hero + three images",
+      "id": "16:7896",
+      "variant": "hero-three",
+      "width": 312,
+      "height": 424,
+      "box": {
+        "x": 618,
+        "y": 621.984375,
+        "width": 312,
+        "height": 424
+      },
+      "images": 5,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 200,
+          "height": 424,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 110,
+          "height": 140,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 110,
+          "height": 140,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 110,
+          "height": 140,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x4-16-7896.png"
+    },
+    {
+      "size": "3x4",
+      "label": "Related searches · interior trends",
+      "id": "16:7917",
+      "variant": "related-trends",
+      "width": 312,
+      "height": 424,
+      "box": {
+        "x": 618,
+        "y": 621.984375,
+        "width": 312,
+        "height": 424
+      },
+      "images": 7,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 312,
+          "height": 112,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 44,
+          "height": 44,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 44,
+          "height": 44,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 44,
+          "height": 44,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 44,
+          "height": 44,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-chevron-left.svg",
+          "width": 4.5,
+          "height": 8,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-chevron-right.svg",
+          "width": 4.5,
+          "height": 8,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x4-16-7917.png"
+    },
+    {
+      "size": "3x4",
+      "label": "Four images · staggered rows",
+      "id": "1270:13639",
+      "variant": "staggered-four",
+      "width": 312,
+      "height": 424,
+      "box": {
+        "x": 618,
+        "y": 621.984375,
+        "width": 312,
+        "height": 424
+      },
+      "images": 5,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 173,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 137,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 131,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 179,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x4-1270-13639.png"
+    },
+    {
+      "size": "3x4",
+      "label": "Landscape hero + two images",
+      "id": "1270:13704",
+      "variant": "hero-top",
+      "width": 312,
+      "height": 424,
+      "box": {
+        "x": 618,
+        "y": 621.984375,
+        "width": 312,
+        "height": 424
+      },
+      "images": 3,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 312,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 155,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 155,
+          "height": 211,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x4-1270-13704.png"
+    },
+    {
+      "size": "3x4",
+      "label": "Two images + landscape hero",
+      "id": "1270:13753",
+      "variant": "hero-bottom",
+      "width": 312,
+      "height": 424,
+      "box": {
+        "x": 618,
+        "y": 621.984375,
+        "width": 312,
+        "height": 424
+      },
+      "images": 4,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 155,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 155,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 312,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x4-1270-13753.png"
+    },
+    {
+      "size": "3x4",
+      "label": "Two landscape images",
+      "id": "1270:13802",
+      "variant": "two-stacked",
+      "width": 312,
+      "height": 424,
+      "box": {
+        "x": 618,
+        "y": 621.984375,
+        "width": 312,
+        "height": 424
+      },
+      "images": 3,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 312,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 312,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x4-1270-13802.png"
+    },
+    {
+      "size": "3x4",
+      "label": "Four images · alternate source",
+      "id": "1270:13885",
+      "variant": "four-equal-alternate",
+      "width": 312,
+      "height": 424,
+      "box": {
+        "x": 618,
+        "y": 621.984375,
+        "width": 312,
+        "height": 424
+      },
+      "images": 5,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 155,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 155,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 155,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 155,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x4-1270-13885.png"
+    },
+    {
+      "size": "3x4",
+      "label": "Single portrait image",
+      "id": "1270:14063",
+      "variant": "single-portrait",
+      "width": 312,
+      "height": 424,
+      "box": {
+        "x": 618,
+        "y": 621.984375,
+        "width": 312,
+        "height": 424
+      },
+      "images": 2,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 312,
+          "height": 424,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "3x4-1270-14063.png"
+    },
+    {
+      "size": "4x4",
+      "label": "Portrait hero + three images",
+      "id": "1270:14187",
+      "variant": "hero-three",
+      "width": 424,
+      "height": 424,
+      "box": {
+        "x": 586,
+        "y": 574.984375,
+        "width": 376,
+        "height": 376
+      },
+      "images": 5,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 250.07550048828125,
+          "height": 376,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 124.15093994140625,
+          "height": 124.15093994140625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 124.15093994140625,
+          "height": 124.15093994140625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 124.15093994140625,
+          "height": 124.15093994140625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-image-multiple.svg",
+          "width": 10.627685546875,
+          "height": 10.62762451171875,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "4x4-1270-14187.png"
+    },
+    {
+      "size": "4x4",
+      "label": "Five images · 3 + 2 rows",
+      "id": "1270:14315",
+      "variant": "five-rows",
+      "width": 424,
+      "height": 424,
+      "box": {
+        "x": 562,
+        "y": 574.984375,
+        "width": 424,
+        "height": 424
+      },
+      "images": 6,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 140,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 140,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 140,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "4x4-1270-14315.png"
+    },
+    {
+      "size": "4x4",
+      "label": "Landscape hero + two images",
+      "id": "1270:14440",
+      "variant": "hero-top",
+      "width": 424,
+      "height": 424,
+      "box": {
+        "x": 562,
+        "y": 574.984375,
+        "width": 424,
+        "height": 424
+      },
+      "images": 4,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 424,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "4x4-1270-14440.png"
+    },
+    {
+      "size": "4x4",
+      "label": "Portrait hero + two images",
+      "id": "1270:14583",
+      "variant": "hero-two",
+      "width": 424,
+      "height": 424,
+      "box": {
+        "x": 562,
+        "y": 574.984375,
+        "width": 424,
+        "height": 424
+      },
+      "images": 4,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 424,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "4x4-1270-14583.png"
+    },
+    {
+      "size": "4x4",
+      "label": "Landscape hero · alternate source",
+      "id": "1270:14667",
+      "variant": "hero-top-alternate",
+      "width": 424,
+      "height": 424,
+      "box": {
+        "x": 562,
+        "y": 574.984375,
+        "width": 424,
+        "height": 424
+      },
+      "images": 4,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 424,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "4x4-1270-14667.png"
+    },
+    {
+      "size": "4x4",
+      "label": "Four square images",
+      "id": "1270:14751",
+      "variant": "four-equal",
+      "width": 424,
+      "height": 424,
+      "box": {
+        "x": 562,
+        "y": 574.984375,
+        "width": 424,
+        "height": 424
+      },
+      "images": 5,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 211,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-tall-image-multiple.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "4x4-1270-14751.png"
+    },
+    {
+      "size": "5x4",
+      "label": "Hero 3:4 + two squares",
+      "id": "1270:15035",
+      "variant": "figma-1270-15035",
+      "width": 536,
+      "height": 424,
+      "box": {
+        "x": 530,
+        "y": 621.984375,
+        "width": 488,
+        "height": 386.02984619140625
+      },
+      "images": 4,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 294.07464599609375,
+          "height": 386.02984619140625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 192.1044921875,
+          "height": 192.1044921875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 192.1044921875,
+          "height": 192.1044921875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 10.9111328125,
+          "height": 10.9111328125,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "5x4-1270-15035.png"
+    },
+    {
+      "size": "5x4",
+      "label": "Half-width hero + two images",
+      "id": "2104:1146",
+      "variant": "figma-2104-1146",
+      "width": 536,
+      "height": 424,
+      "box": {
+        "x": 506,
+        "y": 621.984375,
+        "width": 536,
+        "height": 424
+      },
+      "images": 4,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 267,
+          "height": 424,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 267,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 267,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "5x4-2104-1146.png"
+    },
+    {
+      "size": "5x4",
+      "label": "Hero + four images",
+      "id": "2104:1116",
+      "variant": "figma-2104-1116",
+      "width": 536,
+      "height": 424,
+      "box": {
+        "x": 506,
+        "y": 621.984375,
+        "width": 536,
+        "height": 424
+      },
+      "images": 6,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 256,
+          "height": 424,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 138,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 138,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 138,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 138,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "5x4-2104-1116.png"
+    },
+    {
+      "size": "5x4",
+      "label": "Panorama + three images",
+      "id": "1270:15143",
+      "variant": "figma-1270-15143",
+      "width": 536,
+      "height": 424,
+      "box": {
+        "x": 506,
+        "y": 621.984375,
+        "width": 536,
+        "height": 424
+      },
+      "images": 5,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 536,
+          "height": 264,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 177.328125,
+          "height": 158,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 177.328125,
+          "height": 158,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 177.328125,
+          "height": 158,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "5x4-1270-15143.png"
+    },
+    {
+      "size": "5x4",
+      "label": "Two-row carousel",
+      "id": "16:7977",
+      "variant": "figma-16-7977",
+      "width": 536,
+      "height": 424,
+      "box": {
+        "x": 506,
+        "y": 621.984375,
+        "width": 536,
+        "height": 424
+      },
+      "images": 12,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-wide-chevron-title.svg",
+          "width": 5.5,
+          "height": 10,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 244.1875,
+          "height": 197.796875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 244.1875,
+          "height": 197.796875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 244.1875,
+          "height": 197.796875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 244.1875,
+          "height": 197.796875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 193.515625,
+          "height": 197.796875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 193.515625,
+          "height": 197.796875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 193.515625,
+          "height": 197.796875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 193.515625,
+          "height": 197.796875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 193.515625,
+          "height": 197.796875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-carousel-fade.png",
+          "width": 20,
+          "height": 352,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-chevron-carousel.svg",
+          "width": 5.5,
+          "height": 10,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "5x4-16-7977.png"
+    },
+    {
+      "size": "5x4",
+      "label": "Two + three images",
+      "id": "1270:16393",
+      "variant": "figma-1270-16393",
+      "width": 536,
+      "height": 424,
+      "box": {
+        "x": 506,
+        "y": 621.984375,
+        "width": 536,
+        "height": 424
+      },
+      "images": 6,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 267,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 267,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 177.328125,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 177.328125,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 177.328125,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "5x4-1270-16393.png"
+    },
+    {
+      "size": "5x4",
+      "label": "Two-thirds hero + two images",
+      "id": "1270:16460",
+      "variant": "figma-1270-16460",
+      "width": 536,
+      "height": 424,
+      "box": {
+        "x": 506,
+        "y": 621.984375,
+        "width": 536,
+        "height": 424
+      },
+      "images": 4,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 356,
+          "height": 424,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 178,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 178,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "5x4-1270-16460.png"
+    },
+    {
+      "size": "5x4",
+      "label": "Panorama + three images · alternate",
+      "id": "1270:16518",
+      "variant": "figma-1270-16518",
+      "width": 536,
+      "height": 424,
+      "box": {
+        "x": 506,
+        "y": 621.984375,
+        "width": 536,
+        "height": 424
+      },
+      "images": 5,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 536,
+          "height": 264,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 177.328125,
+          "height": 158,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 177.328125,
+          "height": 158,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 177.328125,
+          "height": 158,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "5x4-1270-16518.png"
+    },
+    {
+      "size": "5x4",
+      "label": "Four-image grid",
+      "id": "1270:16623",
+      "variant": "figma-1270-16623",
+      "width": 536,
+      "height": 424,
+      "box": {
+        "x": 506,
+        "y": 621.984375,
+        "width": 536,
+        "height": 424
+      },
+      "images": 5,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 267,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 267,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 267,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 267,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "5x4-1270-16623.png"
+    },
+    {
+      "size": "6x4",
+      "label": "Square hero + two images",
+      "id": "1270:16678",
+      "variant": "figma-1270-16678",
+      "width": 648,
+      "height": 424,
+      "box": {
+        "x": 474,
+        "y": 574.984375,
+        "width": 600,
+        "height": 392.59259033203125
+      },
+      "images": 3,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 392.59259033203125,
+          "height": 392.59259033203125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 205.5555419921875,
+          "height": 195.370361328125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 205.5555419921875,
+          "height": 195.370361328125,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "6x4-1270-16678.png"
+    },
+    {
+      "size": "6x4",
+      "label": "Panorama + three images",
+      "id": "1270:16733",
+      "variant": "figma-1270-16733",
+      "width": 648,
+      "height": 424,
+      "box": {
+        "x": 450,
+        "y": 574.984375,
+        "width": 648,
+        "height": 424
+      },
+      "images": 4,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 648,
+          "height": 288,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 214.65625,
+          "height": 134,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 214.65625,
+          "height": 134,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 214.65625,
+          "height": 134,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "6x4-1270-16733.png"
+    },
+    {
+      "size": "6x4",
+      "label": "Three + four images",
+      "id": "1270:16845",
+      "variant": "figma-1270-16845",
+      "width": 648,
+      "height": 424,
+      "box": {
+        "x": 450,
+        "y": 574.984375,
+        "width": 648,
+        "height": 424
+      },
+      "images": 8,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 214.65625,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 214.65625,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 214.65625,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 160.5,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 160.5,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 160.5,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 160.5,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "6x4-1270-16845.png"
+    },
+    {
+      "size": "6x4",
+      "label": "Square hero + two images · all images",
+      "id": "1270:16936",
+      "variant": "figma-1270-16936",
+      "width": 648,
+      "height": 424,
+      "box": {
+        "x": 450,
+        "y": 574.984375,
+        "width": 648,
+        "height": 424
+      },
+      "images": 4,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 424,
+          "height": 424,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 222,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 222,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "6x4-1270-16936.png"
+    },
+    {
+      "size": "6x4",
+      "label": "Four-image grid",
+      "id": "1270:17041",
+      "variant": "figma-1270-17041",
+      "width": 648,
+      "height": 424,
+      "box": {
+        "x": 450,
+        "y": 574.984375,
+        "width": 648,
+        "height": 424
+      },
+      "images": 5,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 323,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 323,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 323,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 323,
+          "height": 211,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "6x4-1270-17041.png"
+    },
+    {
+      "size": "8x4",
+      "label": "Two-row gallery with title",
+      "id": "1270:18499",
+      "variant": "figma-1270-18499",
+      "width": 872,
+      "height": 424,
+      "box": {
+        "x": 362,
+        "y": 546.984375,
+        "width": 824,
+        "height": 400.6605224609375
+      },
+      "images": 10,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-wide-chevron-title.svg",
+          "width": 5.197265625,
+          "height": 9.4495849609375,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 219.86422729492188,
+          "height": 186.90899658203125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 219.8642578125,
+          "height": 186.90899658203125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 219.86431884765625,
+          "height": 186.90899658203125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 219.8642578125,
+          "height": 186.90899658203125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 174.152099609375,
+          "height": 186.908935546875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 174.152099609375,
+          "height": 186.908935546875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 174.152099609375,
+          "height": 186.908935546875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 174.152099609375,
+          "height": 186.908935546875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 174.152099609375,
+          "height": 186.908935546875,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "8x4-1270-18499.png"
+    },
+    {
+      "size": "8x4",
+      "label": "Eight-image mosaic",
+      "id": "16:8044",
+      "variant": "figma-16-8044",
+      "width": 872,
+      "height": 424,
+      "box": {
+        "x": 338,
+        "y": 546.984375,
+        "width": 872,
+        "height": 424
+      },
+      "images": 9,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 258.40625,
+          "height": 242.640625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 222.3125,
+          "height": 242.640625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 258.40625,
+          "height": 242.640625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 258.40625,
+          "height": 242.640625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 274.140625,
+          "height": 242.640625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 241.125,
+          "height": 242.640625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 241.125,
+          "height": 242.640625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 241.125,
+          "height": 242.640625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 11.984375,
+          "height": 11.984375,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "8x4-16-8044.png"
+    },
+    {
+      "size": "9x4",
+      "label": "Eight-image mosaic",
+      "id": "16:8068",
+      "variant": "figma-16-8068",
+      "width": 984,
+      "height": 424,
+      "box": {
+        "x": 309,
+        "y": 546.984375,
+        "width": 930,
+        "height": 400.731689453125
+      },
+      "images": 9,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 311.358642578125,
+          "height": 229.32501220703125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 251.121826171875,
+          "height": 229.32501220703125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 251.12188720703125,
+          "height": 229.32501220703125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 251.12176513671875,
+          "height": 229.32501220703125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 283.4184875488281,
+          "height": 229.32501220703125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 214.46881103515625,
+          "height": 229.32501220703125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 283.41839599609375,
+          "height": 229.32501220703125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 283.41845703125,
+          "height": 229.32501220703125,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 11.32666015625,
+          "height": 11.32666015625,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "9x4-16-8068.png"
+    },
+    {
+      "size": "11x4",
+      "label": "Nine-image mosaic",
+      "id": "1270:19211",
+      "variant": "figma-1270-19211",
+      "width": 1208,
+      "height": 424,
+      "box": {
+        "x": 309,
+        "y": 546.984375,
+        "width": 930,
+        "height": 326.423828125
+      },
+      "images": 10,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 253.62326049804688,
+          "height": 186.8011474609375,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 210.173828125,
+          "height": 186.8011474609375,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 200.117431640625,
+          "height": 186.8011474609375,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 200.11737060546875,
+          "height": 186.8011474609375,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 200.117431640625,
+          "height": 186.8011474609375,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 273.42327880859375,
+          "height": 186.8011474609375,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 245.6358642578125,
+          "height": 186.8011474609375,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 273.42327880859375,
+          "height": 186.8011474609375,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 273.42333984375,
+          "height": 186.8011474609375,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 9.2264404296875,
+          "height": 9.22637939453125,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "11x4-1270-19211.png"
+    },
+    {
+      "size": "11x2",
+      "label": "Five-image strip",
+      "id": "16:8153",
+      "variant": "figma-16-8153",
+      "width": 1208,
+      "height": 200,
+      "box": {
+        "x": 309,
+        "y": 546.984375,
+        "width": 930,
+        "height": 153.9735107421875
+      },
+      "images": 6,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 212.83230590820312,
+          "height": 177.06951904296875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 212.832275390625,
+          "height": 177.06951904296875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 212.83233642578125,
+          "height": 177.06951904296875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 212.832275390625,
+          "height": 177.06951904296875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 212.832275390625,
+          "height": 177.06951904296875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-all-images.svg",
+          "width": 9.2264404296875,
+          "height": 9.22637939453125,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "11x2-16-8153.png"
+    },
+    {
+      "size": "11x2",
+      "label": "Five-image rail",
+      "id": "16:8283",
+      "variant": "figma-16-8283",
+      "width": 1208,
+      "height": 200,
+      "box": {
+        "x": 309,
+        "y": 546.984375,
+        "width": 930,
+        "height": 153.9735107421875
+      },
+      "images": 6,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 202.89614868164062,
+          "height": 177.06951904296875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 202.89617919921875,
+          "height": 177.06951904296875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 202.89617919921875,
+          "height": 177.06951904296875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 202.896240234375,
+          "height": 177.06951904296875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 202.8961181640625,
+          "height": 177.06951904296875,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-chevron-scroller.svg",
+          "width": 5.29296875,
+          "height": 9.62335205078125,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "11x2-16-8283.png"
+    },
+    {
+      "size": "11x2",
+      "label": "Image rail with title and source",
+      "id": "1270:28792",
+      "variant": "figma-1270-28792",
+      "width": 1208,
+      "height": 200,
+      "box": {
+        "x": 309,
+        "y": 546.984375,
+        "width": 930,
+        "height": 153.9735107421875
+      },
+      "images": 6,
+      "assets": [
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 202.89614868164062,
+          "height": 129.2535400390625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 202.89617919921875,
+          "height": 129.2535400390625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 202.89617919921875,
+          "height": 129.2535400390625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 202.896240234375,
+          "height": 129.2535400390625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-windows-bloom.png",
+          "width": 202.8961181640625,
+          "height": 129.2535400390625,
+          "loaded": true
+        },
+        {
+          "src": "mm-image-figma-fy25-wide-chevron-scroller.svg",
+          "width": 5.29296875,
+          "height": 9.62335205078125,
+          "loaded": true
+        }
+      ],
+      "nestedButtons": 0,
+      "screenshot": "11x2-1270-28792.png"
+    }
+  ],
+  "errors": [],
+  "badRequests": [],
+  "gallery": true,
+  "galleryClosed": true,
+  "exported": {
+    "images": [
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      },
+      {
+        "embedded": true,
+        "loaded": true
+      }
+    ],
+    "font": "\"MM FY25 Roboto\", sans-serif",
+    "scrollAfter": [
+      204
+    ],
+    "scrollBefore": [
+      204
+    ]
+  },
+  "mobile": {
+    "viewport": 390,
+    "documentWidth": 390,
+    "preview": {
+      "x": 16,
+      "y": 30.1875,
+      "width": 358,
+      "height": 380,
+      "top": 30.1875,
+      "right": 374,
+      "bottom": 410.1875,
+      "left": 16
+    }
+  }
+}

@@ -1,56 +1,20 @@
-import { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { LibraryNav } from './LibraryNav'
+import type { LibraryNavGroup, LibraryNavNode } from './LibraryNav'
 import { byTier, partsOf } from '../data/components'
+import type { ComponentDef } from '../data/components'
 
-const TIERS = ['Molecule', 'Cell', 'Organism'] as const
-const itemClass = ({ isActive }: { isActive: boolean }) =>
-  'nav__item' + (isActive ? ' nav__item--active' : '')
+const tiers = ['Molecule', 'Cell', 'Organism'] as const
+const componentNode = (component: ComponentDef): LibraryNavNode => ({
+  id: component.slug,
+  label: component.name,
+  to: `/c/${component.slug}`,
+  children: partsOf(component.slug).map(componentNode),
+})
+const groups: LibraryNavGroup[] = [
+  { id: 'overview', label: 'Overview', items: [{"id": "0", "label": "Introduction", "to": "/"}, {"id": "1", "label": "Video-specific rules", "to": "/foundations"}, {"id": "2", "label": "Playground", "to": "/playground"}, {"id": "3", "label": "Components · source catalog", "to": "/source-catalog"}] },
+  ...tiers.map(tier => ({ id: tier.toLowerCase(), label: `${tier}s`, items: byTier(tier).map(componentNode) })),
+]
 
 export function Nav() {
-  const [open, setOpen] = useState(true)
-
-  return (
-    <nav className={'nav' + (open ? '' : ' nav--collapsed')} aria-label="Component library">
-      <button
-        className="nav__toggle"
-        onClick={() => setOpen((value) => !value)}
-        aria-label={open ? 'Collapse navigation' : 'Expand navigation'}
-        aria-expanded={open}
-        aria-controls="library-navigation"
-        title={open ? 'Collapse navigation' : 'Expand navigation'}
-        type="button"
-      >{open ? '‹' : '›'}</button>
-      <div id="library-navigation" hidden={!open}>
-        <div className="nav__brand">
-          <h1>VIDEO ACF</h1>
-          <p>MM Video · component library</p>
-        </div>
-        <div className="nav__group">
-          <div className="nav__group-title">Overview</div>
-          <NavLink to="/" end className={itemClass}>Introduction</NavLink>
-          <NavLink to="/foundations" className={itemClass}>Video-specific rules</NavLink>
-          <NavLink to="/playground" className={itemClass}>Playground</NavLink>
-          <NavLink to="/source-catalog" className={itemClass}>Components · source catalog</NavLink>
-        </div>
-        {TIERS.map((tier) => (
-          <div className="nav__group" key={tier}>
-            <div className="nav__group-title">{tier}s</div>
-            {byTier(tier).map((component) => (
-              <div key={component.slug}>
-                <NavLink to={`/c/${component.slug}`} className={itemClass}>{component.name}</NavLink>
-                {partsOf(component.slug).map((part) => (
-                  <NavLink key={part.slug} to={`/c/${part.slug}`} className={itemClass} style={{ paddingLeft: 28 }}>
-                    ↳ {part.name}
-                  </NavLink>
-                ))}
-              </div>
-            ))}
-          </div>
-        ))}
-        <div className="nav__source">
-          <a href="https://www.figma.com/design/fRSRroY4YFgJSeqLLE0Y38/MM-ACF" target="_blank" rel="noreferrer">Open source Figma ↗</a>
-        </div>
-      </div>
-    </nav>
-  )
+  return <LibraryNav brand="VIDEO ACF" description="MM Video · component library" groups={groups} sourceUrl="https://www.figma.com/design/fRSRroY4YFgJSeqLLE0Y38/MM-ACF" />
 }

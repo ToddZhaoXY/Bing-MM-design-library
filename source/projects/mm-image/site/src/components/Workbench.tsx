@@ -1,7 +1,9 @@
 import { useMemo, useState } from 'react'
 import type { ComponentDef, PropDef } from '../data/components'
+import { normalizePropValues, selectOptions, updatePropValue } from '../data/components'
 import type { MosaicGenerator } from '../mosaic/types'
 import { mosaicCatalogSnapshot } from '../mosaic/validate'
+import { CardPreview } from './CardPreview'
 
 export type Values = Record<string, string | boolean>
 
@@ -56,13 +58,15 @@ export function Workbench({
   tag,
   render,
   mosaic,
+  initialValues,
 }: {
   def: ComponentDef
   tag: string
-  render: (values: Values, onLive: (p: LiveProps) => void) => React.ReactNode
+  render: (values: Values, onLive: (p: LiveProps) => void, live?: LiveProps) => React.ReactNode
   mosaic?: MosaicGenerator
+  initialValues?: Values
 }) {
-  const [values, setValues] = useState<Values>(() => defaults(def.props))
+  const [values, setValues] = useState<Values>(() => normalizePropValues(def.props, { ...defaults(def.props), ...initialValues }))
   const [live, setLive] = useState<LiveProps>({})
   const [copied, setCopied] = useState(false)
   const [format, setFormat] = useState<'jsx' | 'sdl'>('jsx')
@@ -74,8 +78,14 @@ export function Workbench({
   const validationErrors =
     mosaicOutput?.validation.issues.filter((issue) => issue.severity === 'error') ?? []
 
-  const set = (name: string, value: string | boolean) =>
-    setValues((v) => ({ ...v, [name]: value }))
+  const set = (name: string, value: string | boolean) => {
+    if (def.slug === 'slideshow') setLive({})
+    setValues((v) => updatePropValue(def.props, v, name, value))
+  }
+  const previewSize = def.previewSizes?.[String(values.size)] ?? def.previewSize
+  const activeSource = def.sources?.find(source => source.values
+    ? Object.entries(source.values).every(([key, value]) => values[key] === value)
+    : source.label === values.variant && (!source.size || source.size === values.size))
 
   const copy = async () => {
     await navigator.clipboard.writeText(code)
@@ -86,7 +96,8 @@ export function Workbench({
   return (
     <>
       <div className="workbench">
-        <div className="preview">{render(values, setLive)}</div>
+        {previewSize ? <CardPreview {...previewSize}>{render(values, setLive, live)}</CardPreview>
+          : <div className="preview">{render(values, setLive, live)}</div>}
 
         <div className="panel">
           <h3>Properties</h3>
@@ -102,7 +113,7 @@ export function Workbench({
                   value={String(values[p.name])}
                   onChange={(e) => set(p.name, e.target.value)}
                 >
-                  {p.values.map((v) => (
+                  {selectOptions(p, values).map((v) => (
                     <option key={v} value={v}>
                       {v}
                     </option>
@@ -147,9 +158,12 @@ export function Workbench({
               </div>
             ))}
 
-          <button className="panel__reset" onClick={() => setValues(defaults(def.props))}>
+          <button className="panel__reset" onClick={() => { setValues(defaults(def.props)); if (def.slug === 'slideshow') setLive({}) }}>
             Reset to defaults
           </button>
+          {activeSource && <p className="notes" style={{ paddingLeft: 0 }}>
+            <a className="text-link" href={`https://www.figma.com/design/${def.fileKey ?? 'fRSRroY4YFgJSeqLLE0Y38'}?node-id=${activeSource.nodeId.replace(':', '-')}`} target="_blank" rel="noreferrer">View in Figma ↗</a>
+          </p>}
         </div>
       </div>
 

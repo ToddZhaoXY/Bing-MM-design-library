@@ -1,0 +1,1633 @@
+{
+  "2568:13771": [
+    {
+      "id": "2568:13771",
+      "name": "Slide Card",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "effects": []
+    },
+    {
+      "id": "I2568:13771;2567:713",
+      "name": "Slide content",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      }
+    },
+    {
+      "id": "I2568:13771;2567:714",
+      "name": "Frame 2147234156",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      }
+    },
+    {
+      "id": "I2568:13771;2567:715",
+      "name": "Frame 2147234155",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1560,
+        "height": 204
+      }
+    },
+    {
+      "id": "I2568:13771;2567:716",
+      "name": "Image",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:13771;2567:717",
+      "name": "metadata",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 16,
+        "width": 79,
+        "height": 20
+      }
+    },
+    {
+      "id": "I2568:13771;2567:717;723:36080",
+      "name": "Thumbnail",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 18,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13771;2567:717;723:36080;131224:172906",
+      "name": "Image",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 18,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13771;2567:717;723:36080;131224:172906;131224:154861",
+      "name": "Image",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 16,
+        "y": 18,
+        "width": 16,
+        "height": 16
+      },
+      "images": [
+        {
+          "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:13771;2567:717;723:36081",
+      "name": "Label",
+      "type": "TEXT",
+      "rect": {
+        "x": 36,
+        "y": 16,
+        "width": 59,
+        "height": 20
+      },
+      "text": "imdb.com",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "wdth": 100
+        }
+      },
+      "fontSize": 13,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "I2568:13771;2567:718",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 312,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:13771;2567:719",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 624,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:13771;2567:720",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 936,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:13771;2567:721",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 1248,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:13771;2567:722",
+      "name": "overlay",
+      "type": "FRAME",
+      "rect": {
+        "x": 1248,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      }
+    },
+    {
+      "id": "I2568:13771;2567:723",
+      "name": "link container",
+      "type": "FRAME",
+      "rect": {
+        "x": 1248,
+        "y": 94,
+        "width": 312,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13771;2567:724",
+      "name": "See more",
+      "type": "TEXT",
+      "rect": {
+        "x": 1370,
+        "y": 95.5,
+        "width": 48,
+        "height": 13
+      },
+      "text": "See more",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "wdth": 100
+        }
+      },
+      "fontSize": 11,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "I2568:13771;2567:725",
+      "name": "Open",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 1422,
+        "y": 94,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13771;2567:725;116087:61",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 1424,
+        "y": 96,
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727",
+      "name": "pagination",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 0,
+        "y": 156,
+        "width": 312,
+        "height": 28
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727;62893:104421",
+      "name": "Button",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 97.5,
+        "y": 156,
+        "width": 28,
+        "height": 28
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727;62893:104421;128439:229722",
+      "name": "nestedContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 101.5,
+        "y": 162,
+        "width": 20,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727;62893:104421;128439:229723",
+      "name": "iconStartContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 103.5,
+        "y": 162,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727;62893:104421;128439:229724",
+      "name": "iconStart",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 103.5,
+        "y": 162,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727;62893:104421;128439:229724;115630:166841",
+      "name": "ChevronLeft",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 103.5,
+        "y": 162,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727;62893:104421;128439:229724;115630:166841;115444:27734",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 108.5,
+        "y": 165,
+        "width": 5.500002861022949,
+        "height": 10.000006675720215
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727;62893:104422",
+      "name": "Number container",
+      "type": "FRAME",
+      "rect": {
+        "x": 133.5,
+        "y": 156,
+        "width": 45,
+        "height": 28
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727;95744:97456",
+      "name": "number container",
+      "type": "FRAME",
+      "rect": {
+        "x": 141.5,
+        "y": 158,
+        "width": 29,
+        "height": 24
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727;95744:97457",
+      "name": "current page",
+      "type": "TEXT",
+      "rect": {
+        "x": 141.5,
+        "y": 163.5,
+        "width": 7,
+        "height": 13
+      },
+      "text": "1",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "wdth": 100
+        }
+      },
+      "fontSize": 11,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "textAlignHorizontal": "CENTER"
+    },
+    {
+      "id": "I2568:13771;2567:727;95744:97458",
+      "name": "of",
+      "type": "TEXT",
+      "rect": {
+        "x": 150.5,
+        "y": 163.5,
+        "width": 11,
+        "height": 13
+      },
+      "text": "of",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "wdth": 100
+        }
+      },
+      "fontSize": 11,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "textAlignHorizontal": "CENTER"
+    },
+    {
+      "id": "I2568:13771;2567:727;95744:97459",
+      "name": "total page",
+      "type": "TEXT",
+      "rect": {
+        "x": 163.5,
+        "y": 163.5,
+        "width": 7,
+        "height": 13
+      },
+      "text": "4",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "wdth": 100
+        }
+      },
+      "fontSize": 11,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "textAlignHorizontal": "CENTER"
+    },
+    {
+      "id": "I2568:13771;2567:727;62893:104424",
+      "name": "Button",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 186.5,
+        "y": 156,
+        "width": 28,
+        "height": 28
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727;62893:104424;128439:229632",
+      "name": "nestedContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 190.5,
+        "y": 162,
+        "width": 20,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727;62893:104424;128439:229633",
+      "name": "iconStartContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 192.5,
+        "y": 162,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727;62893:104424;128439:229634",
+      "name": "iconStart",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 192.5,
+        "y": 162,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727;62893:104424;128439:229634;115630:166841",
+      "name": "ChevronRight",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 192.5,
+        "y": 162,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13771;2567:727;62893:104424;128439:229634;115630:166841;115444:27724",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 198,
+        "y": 165,
+        "width": 5.500002861022949,
+        "height": 10.000006675720215
+      }
+    }
+  ],
+  "2568:13861": [
+    {
+      "id": "2568:13861",
+      "name": "Slide Card",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "effects": []
+    },
+    {
+      "id": "I2568:13861;2567:800",
+      "name": "Component 2",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      }
+    },
+    {
+      "id": "I2568:13861;2567:801",
+      "name": "Frame 2147234156",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      }
+    },
+    {
+      "id": "I2568:13861;2567:802",
+      "name": "Frame 2147234155",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1560,
+        "height": 204
+      }
+    },
+    {
+      "id": "I2568:13861;2567:803",
+      "name": "Image",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:13861;2567:804",
+      "name": "metadata",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 168,
+        "width": 79,
+        "height": 20
+      }
+    },
+    {
+      "id": "I2568:13861;2567:804;723:36080",
+      "name": "Thumbnail",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 170,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13861;2567:804;723:36080;131224:172906",
+      "name": "Image",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 170,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13861;2567:804;723:36080;131224:172906;131224:154861",
+      "name": "Image",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 16,
+        "y": 170,
+        "width": 16,
+        "height": 16
+      },
+      "images": [
+        {
+          "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:13861;2567:804;723:36081",
+      "name": "Label",
+      "type": "TEXT",
+      "rect": {
+        "x": 36,
+        "y": 168,
+        "width": 59,
+        "height": 20
+      },
+      "text": "imdb.com",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "wdth": 100
+        }
+      },
+      "fontSize": 13,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "I2568:13861;2567:805",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 312,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:13861;2567:806",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 624,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:13861;2567:807",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 936,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:13861;2567:808",
+      "name": "4*4",
+      "type": "FRAME",
+      "rect": {
+        "x": 1248,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:13861;2567:809",
+      "name": "overlay",
+      "type": "FRAME",
+      "rect": {
+        "x": 1248,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      }
+    },
+    {
+      "id": "I2568:13861;2567:810",
+      "name": "link container",
+      "type": "FRAME",
+      "rect": {
+        "x": 1248,
+        "y": 94,
+        "width": 312,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13861;2567:811",
+      "name": "See more",
+      "type": "TEXT",
+      "rect": {
+        "x": 1370,
+        "y": 95.5,
+        "width": 48,
+        "height": 13
+      },
+      "text": "See more",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "wdth": 100
+        }
+      },
+      "fontSize": 11,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "I2568:13861;2567:812",
+      "name": "Open",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 1422,
+        "y": 94,
+        "width": 16,
+        "height": 16
+      }
+    },
+    {
+      "id": "I2568:13861;2567:812;116087:61",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 1424,
+        "y": 96,
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "id": "I2568:13861;2567:814",
+      "name": "Footer",
+      "type": "FRAME",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 68
+      }
+    },
+    {
+      "id": "I2568:13861;2567:815",
+      "name": "Pagination Container",
+      "type": "FRAME",
+      "rect": {
+        "x": 36,
+        "y": 16,
+        "width": 240,
+        "height": 6
+      }
+    },
+    {
+      "id": "I2568:13861;2567:816",
+      "name": "Rectangle 34645892",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 36,
+        "y": 16,
+        "width": 54,
+        "height": 6
+      }
+    },
+    {
+      "id": "I2568:13861;2567:817",
+      "name": "Rectangle 34645893",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 98,
+        "y": 16,
+        "width": 54,
+        "height": 6
+      }
+    },
+    {
+      "id": "I2568:13861;2567:818",
+      "name": "Rectangle 34645890",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 160,
+        "y": 16,
+        "width": 54,
+        "height": 6
+      }
+    },
+    {
+      "id": "I2568:13861;2567:819",
+      "name": "Rectangle 34645895",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 222,
+        "y": 16,
+        "width": 54,
+        "height": 6
+      }
+    },
+    {
+      "id": "I2568:13861;2567:822",
+      "name": "Personable Tom at age 60s",
+      "type": "TEXT",
+      "rect": {
+        "x": 36,
+        "y": 30,
+        "width": 171,
+        "height": 22
+      },
+      "text": "Personable Tom at age 60s",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "wdth": 100
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "textAlignHorizontal": "LEFT"
+    },
+    {
+      "id": "I2568:13861;2567:823",
+      "name": "Button",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 248,
+        "y": 78,
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "id": "I2568:13861;2567:823;127901:96642",
+      "name": "nestedContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 258,
+        "y": 92,
+        "width": 28,
+        "height": 20
+      }
+    },
+    {
+      "id": "I2568:13861;2567:823;127901:101193",
+      "name": "iconStartContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 262,
+        "y": 92,
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "id": "I2568:13861;2567:823;33172:60527",
+      "name": "iconStart",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 262,
+        "y": 92,
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "id": "I2568:13861;2567:823;33172:60527;115630:161106",
+      "name": "ChevronRight",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 262,
+        "y": 92,
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "id": "I2568:13861;2567:823;33172:60527;115630:161106;115444:27724",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 268.875,
+        "y": 95.75,
+        "width": 6.875003814697266,
+        "height": 12.500008583068848
+      }
+    },
+    {
+      "id": "I2568:13861;2567:824",
+      "name": "Button",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 16,
+        "y": 78,
+        "width": 48,
+        "height": 48
+      }
+    },
+    {
+      "id": "I2568:13861;2567:824;127901:96657",
+      "name": "nestedContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 26,
+        "y": 92,
+        "width": 28,
+        "height": 20
+      }
+    },
+    {
+      "id": "I2568:13861;2567:824;127901:101208",
+      "name": "iconStartContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 30,
+        "y": 92,
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "id": "I2568:13861;2567:824;33172:60647",
+      "name": "iconStart",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 30,
+        "y": 92,
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "id": "I2568:13861;2567:824;33172:60647;115630:161106",
+      "name": "ChevronLeft",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 30,
+        "y": 92,
+        "width": 20,
+        "height": 20
+      }
+    },
+    {
+      "id": "I2568:13861;2567:824;33172:60647;115630:161106;115444:27734",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 36.25,
+        "y": 95.75,
+        "width": 6.875003814697266,
+        "height": 12.500008583068848
+      }
+    }
+  ],
+  "2568:13955": [
+    {
+      "id": "2568:13955",
+      "name": "Slide Card",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "effects": []
+    },
+    {
+      "id": "I2568:13955;2563:14819",
+      "name": "Rectangle 34656152",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": -1.1368683772161603e-13,
+        "y": -95,
+        "width": 312.0000000000001,
+        "height": 424
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:13955;2563:14820",
+      "name": "Rectangle 34656160",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14823",
+      "name": "Frame 2147233742",
+      "type": "FRAME",
+      "rect": {
+        "x": 12,
+        "y": 12,
+        "width": 288,
+        "height": 180
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14824",
+      "name": "Content",
+      "type": "FRAME",
+      "rect": {
+        "x": 30,
+        "y": 112,
+        "width": 252,
+        "height": 56
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14829",
+      "name": "Title",
+      "type": "TEXT",
+      "rect": {
+        "x": 32,
+        "y": 112,
+        "width": 248,
+        "height": 26
+      },
+      "text": "Colors of the Tundra",
+      "fontName": {
+        "family": "Alice",
+        "style": "Regular"
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "textAlignHorizontal": "CENTER"
+    },
+    {
+      "id": "I2568:13955;2563:14830",
+      "name": "Attribution",
+      "type": "FRAME",
+      "rect": {
+        "x": 32,
+        "y": 142,
+        "width": 248,
+        "height": 26
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14831",
+      "name": "Text",
+      "type": "TEXT",
+      "rect": {
+        "x": 32,
+        "y": 142,
+        "width": 248,
+        "height": 26
+      },
+      "text": "Explore Denali's open tundra, from summer wildflowers to brilliant autumn colors.",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "wdth": 100
+        }
+      },
+      "fontSize": 11,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "textAlignHorizontal": "CENTER"
+    },
+    {
+      "id": "I2568:13955;2563:14832",
+      "name": "Pagination indicators",
+      "type": "FRAME",
+      "rect": {
+        "x": 87,
+        "y": 184,
+        "width": 138,
+        "height": 4
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14833",
+      "name": "Bars",
+      "type": "FRAME",
+      "rect": {
+        "x": 87,
+        "y": 184,
+        "width": 138,
+        "height": 4
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14834",
+      "name": "Progress Indicator / Story 6",
+      "type": "FRAME",
+      "rect": {
+        "x": 87,
+        "y": 184,
+        "width": 32.25,
+        "height": 4
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14835",
+      "name": "progress",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 87,
+        "y": 184,
+        "width": 24.187501907348633,
+        "height": 4
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14836",
+      "name": "Progress Indicator / Story 11",
+      "type": "FRAME",
+      "rect": {
+        "x": 122.25,
+        "y": 184,
+        "width": 32.25,
+        "height": 4
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14838",
+      "name": "Progress Indicator / Story 12",
+      "type": "FRAME",
+      "rect": {
+        "x": 157.5,
+        "y": 184,
+        "width": 32.25,
+        "height": 4
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14840",
+      "name": "Progress Indicator / Story 13",
+      "type": "FRAME",
+      "rect": {
+        "x": 192.75,
+        "y": 184,
+        "width": 32.25,
+        "height": 4
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14845",
+      "name": "Badge",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 13,
+        "y": 12,
+        "width": 74,
+        "height": 20
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14845;88720:35156",
+      "name": "IconContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 17,
+        "y": 15.5,
+        "width": 12,
+        "height": 13
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14845;71493:230763",
+      "name": "Icon",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 17,
+        "y": 16,
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14845;71493:230763;115630:166841",
+      "name": "ImageMultiple",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 17,
+        "y": 16,
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14845;71493:230763;115630:166841;115444:27904",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 18.5,
+        "y": 17.5,
+        "width": 8.999954223632812,
+        "height": 9
+      }
+    },
+    {
+      "id": "I2568:13955;2563:14845;64508:210742",
+      "name": "Lorem ipsum",
+      "type": "TEXT",
+      "rect": {
+        "x": 31,
+        "y": 15.5,
+        "width": 52,
+        "height": 13
+      },
+      "text": "23 images",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "wdth": 100
+        }
+      },
+      "fontSize": 11,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "textAlignHorizontal": "CENTER"
+    }
+  ],
+  "2568:14032": [
+    {
+      "id": "2568:14032",
+      "name": "Slide Card",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      },
+      "effects": []
+    },
+    {
+      "id": "I2568:14032;2563:14847",
+      "name": "Rectangle 34656152",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 0,
+        "y": -95,
+        "width": 312,
+        "height": 424
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:14032;2563:14848",
+      "name": "Rectangle 34656160",
+      "type": "RECTANGLE",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 312,
+        "height": 204
+      }
+    },
+    {
+      "id": "I2568:14032;2563:14851",
+      "name": "Frame 2147233742",
+      "type": "FRAME",
+      "rect": {
+        "x": 12,
+        "y": 12,
+        "width": 288,
+        "height": 180
+      }
+    },
+    {
+      "id": "I2568:14032;2563:14852",
+      "name": "Content",
+      "type": "FRAME",
+      "rect": {
+        "x": 30,
+        "y": 62,
+        "width": 252,
+        "height": 56
+      }
+    },
+    {
+      "id": "I2568:14032;2563:14857",
+      "name": "Title",
+      "type": "TEXT",
+      "rect": {
+        "x": 32,
+        "y": 62,
+        "width": 248,
+        "height": 26
+      },
+      "text": "Colors of the Tundra",
+      "fontName": {
+        "family": "Alice",
+        "style": "Regular"
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "textAlignHorizontal": "CENTER"
+    },
+    {
+      "id": "I2568:14032;2563:14858",
+      "name": "Attribution",
+      "type": "FRAME",
+      "rect": {
+        "x": 32,
+        "y": 92,
+        "width": 248,
+        "height": 26
+      }
+    },
+    {
+      "id": "I2568:14032;2563:14859",
+      "name": "Text",
+      "type": "TEXT",
+      "rect": {
+        "x": 32,
+        "y": 92,
+        "width": 248,
+        "height": 26
+      },
+      "text": "Explore Denali's open tundra, from summer wildflowers to brilliant autumn colors.",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "wdth": 100
+        }
+      },
+      "fontSize": 11,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "textAlignHorizontal": "CENTER"
+    },
+    {
+      "id": "I2568:14032;2563:14860",
+      "name": "Frame 2018776796",
+      "type": "FRAME",
+      "rect": {
+        "x": 30,
+        "y": 134,
+        "width": 252,
+        "height": 54
+      }
+    },
+    {
+      "id": "I2568:14032;2563:14861",
+      "name": "16:9",
+      "type": "FRAME",
+      "rect": {
+        "x": 30,
+        "y": 134,
+        "width": 54,
+        "height": 54
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:14032;2563:14862",
+      "name": "–",
+      "type": "FRAME",
+      "rect": {
+        "x": 34.6763916015625,
+        "y": 134,
+        "width": 44.64716705302908,
+        "height": 30.37516535945724
+      }
+    },
+    {
+      "id": "I2568:14032;2563:14863",
+      "name": "16:9",
+      "type": "FRAME",
+      "rect": {
+        "x": 96,
+        "y": 134,
+        "width": 54,
+        "height": 54
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:14032;2563:14864",
+      "name": "–",
+      "type": "FRAME",
+      "rect": {
+        "x": 100.6763916015625,
+        "y": 134,
+        "width": 44.64716705302908,
+        "height": 30.37516535945724
+      }
+    },
+    {
+      "id": "I2568:14032;2563:14865",
+      "name": "16:9",
+      "type": "FRAME",
+      "rect": {
+        "x": 162,
+        "y": 134,
+        "width": 54,
+        "height": 54
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:14032;2563:14866",
+      "name": "–",
+      "type": "FRAME",
+      "rect": {
+        "x": 166.6763916015625,
+        "y": 134,
+        "width": 44.64716705302908,
+        "height": 30.37516535945724
+      }
+    },
+    {
+      "id": "I2568:14032;2563:14867",
+      "name": "16:9",
+      "type": "FRAME",
+      "rect": {
+        "x": 228,
+        "y": 134,
+        "width": 54,
+        "height": 54
+      },
+      "images": [
+        {
+          "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "id": "I2568:14032;2563:14868",
+      "name": "–",
+      "type": "FRAME",
+      "rect": {
+        "x": 232.6763916015625,
+        "y": 134,
+        "width": 44.64716705302908,
+        "height": 30.37516535945724
+      }
+    },
+    {
+      "id": "I2568:14032;2563:14870",
+      "name": "Badge",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 13,
+        "y": 12,
+        "width": 74,
+        "height": 20
+      }
+    },
+    {
+      "id": "I2568:14032;2563:14870;88720:35156",
+      "name": "IconContainer",
+      "type": "FRAME",
+      "rect": {
+        "x": 17,
+        "y": 15.5,
+        "width": 12,
+        "height": 13
+      }
+    },
+    {
+      "id": "I2568:14032;2563:14870;71493:230763",
+      "name": "Icon",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 17,
+        "y": 16,
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "id": "I2568:14032;2563:14870;71493:230763;115630:166841",
+      "name": "ImageMultiple",
+      "type": "INSTANCE",
+      "rect": {
+        "x": 17,
+        "y": 16,
+        "width": 12,
+        "height": 12
+      }
+    },
+    {
+      "id": "I2568:14032;2563:14870;71493:230763;115630:166841;115444:27904",
+      "name": "Shape",
+      "type": "VECTOR",
+      "rect": {
+        "x": 18.5,
+        "y": 17.5,
+        "width": 8.999954223632812,
+        "height": 9
+      }
+    },
+    {
+      "id": "I2568:14032;2563:14870;64508:210742",
+      "name": "Lorem ipsum",
+      "type": "TEXT",
+      "rect": {
+        "x": 31,
+        "y": 15.5,
+        "width": 52,
+        "height": 13
+      },
+      "text": "23 images",
+      "fontName": {
+        "family": "Roboto",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "wdth": 100
+        }
+      },
+      "fontSize": 11,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 13
+      },
+      "textAlignHorizontal": "CENTER"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "system": "MM Image",
+    "controls": [
+      {
+        "appearance": "none",
+        "label": "length",
+        "padding": "40px",
+        "position": "calc(100% - 12px) 50%",
+        "text": "Two-line",
+        "value": "Two-line"
+      },
+      {
+        "appearance": "none",
+        "label": "state",
+        "padding": "40px",
+        "position": "calc(100% - 12px) 50%",
+        "text": "Default",
+        "value": "Default"
+      }
+    ]
+  },
+  {
+    "system": "AIGC",
+    "controls": [
+      {
+        "appearance": "none",
+        "label": "state",
+        "padding": "40px",
+        "position": "calc(100% - 12px) 50%",
+        "text": "empty",
+        "value": "empty"
+      },
+      {
+        "appearance": "none",
+        "label": "mode",
+        "padding": "40px",
+        "position": "calc(100% - 12px) 50%",
+        "text": "Vivid storytelling",
+        "value": "Vivid storytelling"
+      }
+    ]
+  },
+  {
+    "system": "Video Playground",
+    "controls": [
+      {
+        "appearance": "none",
+        "label": "Block",
+        "padding": "40px",
+        "position": "calc(100% - 12px) 50%",
+        "text": "1. SERP · Video Answer Mainline",
+        "value": "1"
+      },
+      {
+        "appearance": "none",
+        "label": "configuration",
+        "padding": "40px",
+        "position": "calc(100% - 12px) 50%",
+        "text": "Desktop Generics",
+        "value": "Desktop Generics"
+      },
+      {
+        "appearance": "none",
+        "label": "selectedIndex",
+        "padding": "40px",
+        "position": "calc(100% - 12px) 50%",
+        "text": "-1",
+        "value": "-1"
+      }
+    ]
+  }
+]

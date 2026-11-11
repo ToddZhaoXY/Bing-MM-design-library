@@ -1,0 +1,3042 @@
+{
+  "source": {
+    "fileKey": "fRSRroY4YFgJSeqLLE0Y38",
+    "nodeId": "2568:13065",
+    "url": "https://www.figma.com/design/fRSRroY4YFgJSeqLLE0Y38/MM-ACF?node-id=2568-13065",
+    "designName": "Slide Card",
+    "libraryName": "SlideShow",
+    "classification": "Cells",
+    "capturedOn": "2026-11-09",
+    "evidence": "12 high-fidelity contexts, 12 screenshots, read-only geometry, 7 image/vector leaf contexts"
+  },
+  "boundaries": [
+    "Source explicitly describes static Default and Hover appearances and no wired hover or slide navigation.",
+    "Every slide/thumbnail fill uses the same Windows Bloom placeholder, not Alaska or portrait photography. Downloaded image SHA256 exactly matches existing fy25 asset.",
+    "Bottom arrows and Top bars strips have five frames: four normal images then a See more overlay. Bottom arrows label reads 1 of 4; Top bars has four indicators. Handling the extra panel is not defined by source.",
+    "Badge collection count 24 or 23 differs from four preview thumbnail/indicator slots.",
+    "3:4 arrows/top-bars metadata exists at negative X but is completely clipped. Preserve the visible design.",
+    "3:4 Top bars alone has a three-layer root shadow; 5:4 and 3:2 Top bars and all Bottom arrows have no root shadow.",
+    "Alice Regular was downloaded from pinned Fontsource 5.2.6 under OFL; Figma does not expose its original font binary for identity comparison.",
+    "Code Connect imports point to unavailable Windows entity-segments source paths. Exact leaf assets were extracted; mappings and source artwork were not modified.",
+    "Manual runtime controls, keyboard support and hover behavior are implementation decisions, not claims about wired Figma behavior.",
+    "Screenshots include outer shadow bounds and are evidence only, never runtime artwork."
+  ],
+  "controls": {
+    "bottom": {
+      "size": [
+        28,
+        28
+      ],
+      "radius": 4,
+      "background": "#000",
+      "stroke": "1px solid rgba(0,0,0,.1)",
+      "disabledOpacity": 0.3,
+      "iconSlot": {
+        "x": 6,
+        "y": 6,
+        "width": 16,
+        "height": 16
+      },
+      "rightShape": {
+        "path": "./figma/slideshow/chevron-right-white.svg",
+        "x": 5.5,
+        "y": 3,
+        "width": 5.5,
+        "height": 10
+      },
+      "leftShape": {
+        "path": "./figma/slideshow/chevron-left-white.svg",
+        "x": 5,
+        "y": 3,
+        "width": 5.5,
+        "height": 10
+      },
+      "counter": {
+        "width": 45,
+        "height": 28,
+        "paddingX": 8,
+        "gap": 2,
+        "font": "Roboto 400 11px/13px",
+        "background": "#000",
+        "foreground": "#fff",
+        "radius": 4
+      },
+      "controlsGap": 8,
+      "bottom": 20
+    },
+    "top": {
+      "size": [
+        48,
+        48
+      ],
+      "radius": 9999,
+      "background": "#f8f4f1",
+      "foreground": "#0159ba",
+      "disabledOpacity": 0.3,
+      "iconSlot": {
+        "x": 14,
+        "y": 14,
+        "width": 20,
+        "height": 20
+      },
+      "rightShape": {
+        "path": "./figma/slideshow/chevron-right-blue.svg",
+        "x": 6.875,
+        "y": 3.75,
+        "width": 6.875,
+        "height": 12.5
+      },
+      "leftShape": {
+        "path": "./figma/slideshow/chevron-left-blue.svg",
+        "x": 6.25,
+        "y": 3.75,
+        "width": 6.875,
+        "height": 12.5
+      },
+      "left": 16,
+      "right": 16,
+      "yByHeight": {
+        "204": 78,
+        "424": 193
+      }
+    },
+    "seeMore": {
+      "overlay": "rgba(0,0,0,.6)",
+      "centered": true,
+      "label": "See more",
+      "font": "Roboto 700 11px/13px",
+      "foreground": "#fff",
+      "gap": 4,
+      "iconSlot": [
+        16,
+        16
+      ],
+      "iconShape": {
+        "path": "./figma/slideshow/open-external-white.svg",
+        "x": 2,
+        "y": 2,
+        "width": 12,
+        "height": 12
+      }
+    }
+  },
+  "variants": [
+    {
+      "size": "3:4",
+      "pagination": "Bottom arrows",
+      "state": "Default",
+      "figmaNodeId": "2568:13161",
+      "dimensions": {
+        "width": 312,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "3x4-bottom-arrows-context.txt",
+      "screenshot": "3x4-bottom-arrows.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": -112,
+          "y": 0,
+          "width": 536,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13161;2565:1066;723:36357",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": -96,
+            "y": 16,
+            "width": 79,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13161;2565:1066;723:36357;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": -76,
+            "y": 16,
+            "width": 59,
+            "height": 20
+          },
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13161;2565:1066;329:9842",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 2266,
+            "y": 205.5,
+            "width": 48,
+            "height": 13
+          },
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13161;2565:1066;329:10027;62893:104421",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 97.5,
+            "y": 376,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "id": "I2568:13161;2565:1066;329:10027;62893:104422",
+          "name": "Number container",
+          "type": "FRAME",
+          "rect": {
+            "x": 133.5,
+            "y": 376,
+            "width": 45,
+            "height": 28
+          }
+        },
+        {
+          "id": "I2568:13161;2565:1066;329:10027;95744:97457",
+          "name": "current page",
+          "type": "TEXT",
+          "rect": {
+            "x": 141.5,
+            "y": 383.5,
+            "width": 7,
+            "height": 13
+          },
+          "text": "1",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13161;2565:1066;329:10027;95744:97458",
+          "name": "of",
+          "type": "TEXT",
+          "rect": {
+            "x": 150.5,
+            "y": 383.5,
+            "width": 11,
+            "height": 13
+          },
+          "text": "of",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13161;2565:1066;329:10027;95744:97459",
+          "name": "total page",
+          "type": "TEXT",
+          "rect": {
+            "x": 163.5,
+            "y": 383.5,
+            "width": 7,
+            "height": 13
+          },
+          "text": "4",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13161;2565:1066;329:10027;62893:104424",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 186.5,
+            "y": 376,
+            "width": 28,
+            "height": 28
+          }
+        }
+      ],
+      "sourceTrack": {
+        "imageFrameCount": 5,
+        "regularImageCount": 4,
+        "finalFrame": "See more",
+        "frameWidth": 536,
+        "frameHeight": 424,
+        "initialX": -112,
+        "initialMetadataVisible": false
+      },
+      "metadata": {
+        "label": "imdb.com",
+        "path": "./figma/slideshow/imdb-favicon.png",
+        "thumbnail": [
+          16,
+          16
+        ],
+        "radius": 4,
+        "gap": 4,
+        "fontFamily": "Roboto",
+        "fontSize": 13,
+        "lineHeight": 20,
+        "fontWeight": 400,
+        "foreground": "#fff",
+        "dropShadow": "0px 0px 2px rgba(0,0,0,.25)",
+        "visibleOnlyInFirstSourceFrame": true
+      },
+      "sourceCounter": {
+        "text": "1 of 4",
+        "displayedTotal": 4,
+        "trackFrameCount": 5,
+        "note": "The fifth See more panel exists offscreen; source has no navigation behavior."
+      }
+    },
+    {
+      "size": "3:4",
+      "pagination": "Top bars",
+      "state": "Default",
+      "figmaNodeId": "2568:13209",
+      "dimensions": {
+        "width": 312,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "3x4-top-bars-context.txt",
+      "screenshot": "3x4-top-bars.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": -112,
+          "y": 0,
+          "width": 536,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [
+        {
+          "x": 0,
+          "y": 12,
+          "blur": 13,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10196078568696976
+          }
+        },
+        {
+          "x": 0,
+          "y": 47,
+          "blur": 23.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.09019608050584793
+          }
+        },
+        {
+          "x": 0,
+          "y": 105,
+          "blur": 31.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05098039284348488
+          }
+        }
+      ],
+      "slots": [
+        {
+          "id": "I2568:13209;2565:1541",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": -96,
+            "y": 388,
+            "width": 79,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13209;2565:1541;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": -76,
+            "y": 388,
+            "width": 59,
+            "height": 20
+          },
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13209;2565:1548",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 2266,
+            "y": 205.5,
+            "width": 48,
+            "height": 13
+          },
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13209;2565:1551",
+          "name": "Footer",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 312,
+            "height": 68.00000000000004
+          }
+        },
+        {
+          "id": "I2568:13209;2565:1552",
+          "name": "Pagination Container",
+          "type": "FRAME",
+          "rect": {
+            "x": 36,
+            "y": 16,
+            "width": 240,
+            "height": 6.000000000000028
+          }
+        },
+        {
+          "id": "I2568:13209;2565:1559",
+          "name": "Personable Tom at age 60s",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 30,
+            "width": 171,
+            "height": 22
+          },
+          "text": "Personable Tom at age 60s",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13209;2565:1560",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 248,
+            "y": 193,
+            "width": 48,
+            "height": 48
+          }
+        },
+        {
+          "id": "I2568:13209;2565:1561",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 193,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "sourceTrack": {
+        "imageFrameCount": 5,
+        "regularImageCount": 4,
+        "finalFrame": "See more",
+        "frameWidth": 536,
+        "frameHeight": 424,
+        "initialX": -112,
+        "initialMetadataVisible": false
+      },
+      "metadata": {
+        "label": "imdb.com",
+        "path": "./figma/slideshow/imdb-favicon.png",
+        "thumbnail": [
+          16,
+          16
+        ],
+        "radius": 4,
+        "gap": 4,
+        "fontFamily": "Roboto",
+        "fontSize": 13,
+        "lineHeight": 20,
+        "fontWeight": 400,
+        "foreground": "#fff",
+        "dropShadow": "0px 0px 2px rgba(0,0,0,.25)",
+        "visibleOnlyInFirstSourceFrame": true
+      },
+      "sourceTopBars": {
+        "count": 4,
+        "gap": 8,
+        "height": 6,
+        "radius": 9999,
+        "selectedColor": "#fff",
+        "unselectedColor": "rgba(255,255,255,.3)",
+        "title": "Personable Tom at age 60s",
+        "font": "Roboto 700 14px/22px",
+        "footerGradient": "linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,.48) 56.452%)",
+        "footerHeight": 68
+      }
+    },
+    {
+      "size": "3:4",
+      "pagination": "Bottom bars",
+      "state": "Default",
+      "figmaNodeId": "2568:13303",
+      "dimensions": {
+        "width": 312,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "3x4-bottom-bars-default-context.txt",
+      "screenshot": "3x4-bottom-bars-default.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 312,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [
+        {
+          "x": 0,
+          "y": 12,
+          "blur": 13,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          }
+        },
+        {
+          "x": 0,
+          "y": 47,
+          "blur": 23.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.09000000357627869
+          }
+        },
+        {
+          "x": 0,
+          "y": 105,
+          "blur": 31.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          }
+        },
+        {
+          "x": 0,
+          "y": 187,
+          "blur": 37.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.009999999776482582
+          }
+        },
+        {
+          "x": 0,
+          "y": 292,
+          "blur": 41,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          }
+        }
+      ],
+      "slots": [
+        {
+          "id": "I2568:13303;2565:1207",
+          "name": "Badge",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 74,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13303;2565:1207;64508:210742",
+          "name": "Lorem ipsum",
+          "type": "TEXT",
+          "rect": {
+            "x": 34,
+            "y": 19.5,
+            "width": 52,
+            "height": 13
+          },
+          "text": "24 images",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13303;2565:1223",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 16,
+            "y": 306,
+            "width": 280,
+            "height": 34
+          },
+          "text": "The Alaska Range",
+          "fontName": {
+            "family": "Alice",
+            "style": "Regular"
+          },
+          "fontSize": 28,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 120.00000476837158
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13303;2565:1224",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 16,
+            "y": 344,
+            "width": 280,
+            "height": 44
+          },
+          "text": "Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13303;2565:1225",
+          "name": "Pagination indicators",
+          "type": "FRAME",
+          "rect": {
+            "x": 16,
+            "y": 404,
+            "width": 138,
+            "height": 4
+          }
+        },
+        {
+          "id": "I2568:13303;2565:1227",
+          "name": "Progress Indicator / Story 6",
+          "type": "FRAME",
+          "rect": {
+            "x": 16,
+            "y": 404,
+            "width": 32.25,
+            "height": 4
+          }
+        }
+      ],
+      "overlay": {
+        "backdropBlur": 2,
+        "cssGradient": "linear-gradient(180deg, rgba(0, 0, 0, 0) 48.94%, rgba(0, 0, 0, 0.502) 71.294%, rgba(0, 0, 0, 0.698) 80.694%, rgba(0, 0, 0, 0.698) 100%)"
+      },
+      "sourceBadgeCount": 24,
+      "sourceBottomBars": {
+        "count": 4,
+        "height": 4,
+        "radius": 2,
+        "gap": 3,
+        "background": "rgba(255,255,255,.3)",
+        "initialFirstBarProgress": 0,
+        "progressColor": "#e5ebfa",
+        "visible": true
+      },
+      "thumbnailRow": {
+        "visible": false,
+        "count": 4,
+        "size": 64,
+        "gap": 8,
+        "radius": 8,
+        "firstBorder": "1px solid white",
+        "imagePath": "./figma/fy25/windows-bloom.png"
+      }
+    },
+    {
+      "size": "3:4",
+      "pagination": "Bottom bars",
+      "state": "Hover",
+      "figmaNodeId": "2568:13374",
+      "dimensions": {
+        "width": 312,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "3x4-bottom-bars-hover-context.txt",
+      "screenshot": "3x4-bottom-bars-hover.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 312,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [
+        {
+          "x": 0,
+          "y": 12,
+          "blur": 13,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          }
+        },
+        {
+          "x": 0,
+          "y": 47,
+          "blur": 23.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.09000000357627869
+          }
+        },
+        {
+          "x": 0,
+          "y": 105,
+          "blur": 31.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          }
+        },
+        {
+          "x": 0,
+          "y": 187,
+          "blur": 37.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.009999999776482582
+          }
+        },
+        {
+          "x": 0,
+          "y": 292,
+          "blur": 41,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          }
+        }
+      ],
+      "slots": [
+        {
+          "id": "I2568:13374;2565:1239",
+          "name": "Badge",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 74,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13374;2565:1239;64508:210742",
+          "name": "Lorem ipsum",
+          "type": "TEXT",
+          "rect": {
+            "x": 34,
+            "y": 19.5,
+            "width": 52,
+            "height": 13
+          },
+          "text": "24 images",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13374;2565:1255",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 16,
+            "y": 246,
+            "width": 280,
+            "height": 34
+          },
+          "text": "The Alaska Range",
+          "fontName": {
+            "family": "Alice",
+            "style": "Regular"
+          },
+          "fontSize": 28,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 120.00000476837158
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13374;2565:1256",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 16,
+            "y": 284,
+            "width": 280,
+            "height": 44
+          },
+          "text": "Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13374;2565:1258",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 16,
+            "y": 344,
+            "width": 64,
+            "height": 64
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:13374;2565:1260",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 88,
+            "y": 344,
+            "width": 64,
+            "height": 64
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:13374;2565:1262",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 160,
+            "y": 344,
+            "width": 64,
+            "height": 64
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:13374;2565:1264",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 232,
+            "y": 344,
+            "width": 64,
+            "height": 64
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        }
+      ],
+      "overlay": {
+        "backdropBlur": 2,
+        "cssGradient": "linear-gradient(180deg, rgba(0, 0, 0, 0) 40.21%, rgba(0, 0, 0, 0.502) 53.609%, rgba(0, 0, 0, 0.698) 66.739%, rgba(0, 0, 0, 0.698) 100%)"
+      },
+      "sourceBadgeCount": 24,
+      "sourceBottomBars": {
+        "count": 4,
+        "height": 4,
+        "radius": 2,
+        "gap": 3,
+        "background": "rgba(255,255,255,.3)",
+        "initialFirstBarProgress": 0,
+        "progressColor": "#e5ebfa",
+        "visible": false
+      },
+      "thumbnailRow": {
+        "visible": true,
+        "count": 4,
+        "size": 64,
+        "gap": 8,
+        "radius": 8,
+        "firstBorder": "1px solid white",
+        "imagePath": "./figma/fy25/windows-bloom.png"
+      }
+    },
+    {
+      "size": "5:4",
+      "pagination": "Bottom arrows",
+      "state": "Default",
+      "figmaNodeId": "2568:13447",
+      "dimensions": {
+        "width": 536,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "5x4-bottom-arrows-context.txt",
+      "screenshot": "5x4-bottom-arrows.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 536,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13447;2565:1450;723:36357",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 79,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13447;2565:1450;723:36357;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 16,
+            "width": 59,
+            "height": 20
+          },
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13447;2565:1450;329:9842",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 2378,
+            "y": 205.5,
+            "width": 48,
+            "height": 13
+          },
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13447;2565:1450;329:10027;62893:104421",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 209.5,
+            "y": 376,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "id": "I2568:13447;2565:1450;329:10027;62893:104422",
+          "name": "Number container",
+          "type": "FRAME",
+          "rect": {
+            "x": 245.5,
+            "y": 376,
+            "width": 45,
+            "height": 28
+          }
+        },
+        {
+          "id": "I2568:13447;2565:1450;329:10027;95744:97457",
+          "name": "current page",
+          "type": "TEXT",
+          "rect": {
+            "x": 253.5,
+            "y": 383.5,
+            "width": 7,
+            "height": 13
+          },
+          "text": "1",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13447;2565:1450;329:10027;95744:97458",
+          "name": "of",
+          "type": "TEXT",
+          "rect": {
+            "x": 262.5,
+            "y": 383.5,
+            "width": 11,
+            "height": 13
+          },
+          "text": "of",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13447;2565:1450;329:10027;95744:97459",
+          "name": "total page",
+          "type": "TEXT",
+          "rect": {
+            "x": 275.5,
+            "y": 383.5,
+            "width": 7,
+            "height": 13
+          },
+          "text": "4",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13447;2565:1450;329:10027;62893:104424",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 298.5,
+            "y": 376,
+            "width": 28,
+            "height": 28
+          }
+        }
+      ],
+      "sourceTrack": {
+        "imageFrameCount": 5,
+        "regularImageCount": 4,
+        "finalFrame": "See more",
+        "frameWidth": 536,
+        "frameHeight": 424,
+        "initialX": 0,
+        "initialMetadataVisible": true
+      },
+      "metadata": {
+        "label": "imdb.com",
+        "path": "./figma/slideshow/imdb-favicon.png",
+        "thumbnail": [
+          16,
+          16
+        ],
+        "radius": 4,
+        "gap": 4,
+        "fontFamily": "Roboto",
+        "fontSize": 13,
+        "lineHeight": 20,
+        "fontWeight": 400,
+        "foreground": "#fff",
+        "dropShadow": "0px 0px 2px rgba(0,0,0,.25)",
+        "visibleOnlyInFirstSourceFrame": true
+      },
+      "sourceCounter": {
+        "text": "1 of 4",
+        "displayedTotal": 4,
+        "trackFrameCount": 5,
+        "note": "The fifth See more panel exists offscreen; source has no navigation behavior."
+      }
+    },
+    {
+      "size": "5:4",
+      "pagination": "Top bars",
+      "state": "Default",
+      "figmaNodeId": "2568:13537",
+      "dimensions": {
+        "width": 536,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "5x4-top-bars-context.txt",
+      "screenshot": "5x4-top-bars.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 536,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13537;2565:1333;723:36389",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 388,
+            "width": 79,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13537;2565:1333;723:36389;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 388,
+            "width": 59,
+            "height": 20
+          },
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13537;2565:1333;328:80055",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 2378,
+            "y": 205.5,
+            "width": 48,
+            "height": 13
+          },
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13537;2565:1333;328:76314",
+          "name": "Footer",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 536,
+            "height": 68
+          }
+        },
+        {
+          "id": "I2568:13537;2565:1333;328:76315",
+          "name": "Pagination Container",
+          "type": "FRAME",
+          "rect": {
+            "x": 36,
+            "y": 16,
+            "width": 464,
+            "height": 6
+          }
+        },
+        {
+          "id": "I2568:13537;2565:1333;328:76334",
+          "name": "Personable Tom at age 60s",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 30,
+            "width": 171,
+            "height": 22
+          },
+          "text": "Personable Tom at age 60s",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13537;2565:1333;328:76425",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 472,
+            "y": 193,
+            "width": 48,
+            "height": 48
+          }
+        },
+        {
+          "id": "I2568:13537;2565:1333;328:79972",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 193,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "sourceTrack": {
+        "imageFrameCount": 5,
+        "regularImageCount": 4,
+        "finalFrame": "See more",
+        "frameWidth": 536,
+        "frameHeight": 424,
+        "initialX": 0,
+        "initialMetadataVisible": true
+      },
+      "metadata": {
+        "label": "imdb.com",
+        "path": "./figma/slideshow/imdb-favicon.png",
+        "thumbnail": [
+          16,
+          16
+        ],
+        "radius": 4,
+        "gap": 4,
+        "fontFamily": "Roboto",
+        "fontSize": 13,
+        "lineHeight": 20,
+        "fontWeight": 400,
+        "foreground": "#fff",
+        "dropShadow": "0px 0px 2px rgba(0,0,0,.25)",
+        "visibleOnlyInFirstSourceFrame": true
+      },
+      "sourceTopBars": {
+        "count": 4,
+        "gap": 8,
+        "height": 6,
+        "radius": 9999,
+        "selectedColor": "#fff",
+        "unselectedColor": "rgba(255,255,255,.3)",
+        "title": "Personable Tom at age 60s",
+        "font": "Roboto 700 14px/22px",
+        "footerGradient": "linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,.48) 56.452%)",
+        "footerHeight": 68
+      }
+    },
+    {
+      "size": "5:4",
+      "pagination": "Bottom bars",
+      "state": "Default",
+      "figmaNodeId": "2568:13631",
+      "dimensions": {
+        "width": 536,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "5x4-bottom-bars-default-context.txt",
+      "screenshot": "5x4-bottom-bars-default.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 536,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [
+        {
+          "x": 0,
+          "y": 9,
+          "blur": 9.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          }
+        },
+        {
+          "x": 0,
+          "y": 34,
+          "blur": 17,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.09000000357627869
+          }
+        },
+        {
+          "x": 0,
+          "y": 77,
+          "blur": 23,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          }
+        },
+        {
+          "x": 0,
+          "y": 137,
+          "blur": 27.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.009999999776482582
+          }
+        },
+        {
+          "x": 0,
+          "y": 215,
+          "blur": 30,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          }
+        }
+      ],
+      "slots": [
+        {
+          "id": "I2568:13631;2563:15626",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 30,
+            "y": 306,
+            "width": 476,
+            "height": 34
+          },
+          "text": "The Alaska Range",
+          "fontName": {
+            "family": "Alice",
+            "style": "Regular"
+          },
+          "fontSize": 28,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 120.00000476837158
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13631;2563:15627",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 30,
+            "y": 344,
+            "width": 476,
+            "height": 44
+          },
+          "text": "Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13631;2565:1398",
+          "name": "Pagination indicators",
+          "type": "FRAME",
+          "rect": {
+            "x": 30,
+            "y": 404,
+            "width": 476,
+            "height": 4
+          }
+        },
+        {
+          "id": "I2568:13631;2565:1400",
+          "name": "Progress Indicator / Story 6",
+          "type": "FRAME",
+          "rect": {
+            "x": 30,
+            "y": 404,
+            "width": 116.75,
+            "height": 4
+          }
+        },
+        {
+          "id": "I2568:13631;2565:1401",
+          "name": "progress",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 30,
+            "y": 404,
+            "width": 87.5625,
+            "height": 4
+          }
+        },
+        {
+          "id": "I2568:13631;2565:1406",
+          "name": "Badge",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 13,
+            "y": 12,
+            "width": 74,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13631;2565:1406;64508:210742",
+          "name": "Lorem ipsum",
+          "type": "TEXT",
+          "rect": {
+            "x": 31,
+            "y": 15.5,
+            "width": 52,
+            "height": 13
+          },
+          "text": "23 images",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        }
+      ],
+      "overlay": {
+        "backdropBlur": 2,
+        "cssGradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.051) 0%, rgba(0, 0, 0, 0.051) 40.76%, rgba(0, 0, 0, 0.502) 58.35%, rgba(0, 0, 0, 0.698) 79.5%, rgba(0, 0, 0, 0.698) 100%)"
+      },
+      "sourceBadgeCount": 23,
+      "sourceBottomBars": {
+        "count": 4,
+        "height": 4,
+        "radius": 2,
+        "gap": 3,
+        "background": "rgba(255,255,255,.3)",
+        "initialFirstBarProgress": 0.75,
+        "progressColor": "#e5ebfa",
+        "visible": true
+      },
+      "thumbnailRow": {
+        "visible": false,
+        "count": 4,
+        "size": 110,
+        "gap": 12,
+        "radius": 8,
+        "firstBorder": "1px solid white",
+        "imagePath": "./figma/fy25/windows-bloom.png"
+      }
+    },
+    {
+      "size": "5:4",
+      "pagination": "Bottom bars",
+      "state": "Hover",
+      "figmaNodeId": "2568:13699",
+      "dimensions": {
+        "width": 536,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "5x4-bottom-bars-hover-context.txt",
+      "screenshot": "5x4-bottom-bars-hover.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 536,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [
+        {
+          "x": 0,
+          "y": 9,
+          "blur": 9.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          }
+        },
+        {
+          "x": 0,
+          "y": 34,
+          "blur": 17,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.09000000357627869
+          }
+        },
+        {
+          "x": 0,
+          "y": 77,
+          "blur": 23,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          }
+        },
+        {
+          "x": 0,
+          "y": 137,
+          "blur": 27.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.009999999776482582
+          }
+        },
+        {
+          "x": 0,
+          "y": 215,
+          "blur": 30,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          }
+        }
+      ],
+      "slots": [
+        {
+          "id": "I2568:13699;2563:15630",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 30,
+            "y": 200,
+            "width": 476,
+            "height": 34
+          },
+          "text": "The Alaska Range",
+          "fontName": {
+            "family": "Alice",
+            "style": "Regular"
+          },
+          "fontSize": 28,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 120.00000476837158
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13699;2563:15631",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 30,
+            "y": 238,
+            "width": 476,
+            "height": 44
+          },
+          "text": "Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13699;2565:1428",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 30,
+            "y": 298,
+            "width": 110,
+            "height": 110
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:13699;2565:1430",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 152,
+            "y": 298,
+            "width": 110,
+            "height": 110
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:13699;2565:1432",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 274,
+            "y": 298,
+            "width": 110,
+            "height": 110
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:13699;2565:1434",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 396,
+            "y": 298,
+            "width": 110,
+            "height": 110
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:13699;2565:1436",
+          "name": "Badge",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 13,
+            "y": 12,
+            "width": 74,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13699;2565:1436;64508:210742",
+          "name": "Lorem ipsum",
+          "type": "TEXT",
+          "rect": {
+            "x": 31,
+            "y": 15.5,
+            "width": 52,
+            "height": 13
+          },
+          "text": "23 images",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        }
+      ],
+      "overlay": {
+        "backdropBlur": 2,
+        "cssGradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.051) 0%, rgba(0, 0, 0, 0.102) 18.18%, rgba(0, 0, 0, 0.502) 33.99%, rgba(0, 0, 0, 0.698) 53.5%, rgba(0, 0, 0, 0.698) 100%)"
+      },
+      "sourceBadgeCount": 23,
+      "sourceBottomBars": {
+        "count": 4,
+        "height": 4,
+        "radius": 2,
+        "gap": 3,
+        "background": "rgba(255,255,255,.3)",
+        "initialFirstBarProgress": 0.75,
+        "progressColor": "#e5ebfa",
+        "visible": false
+      },
+      "thumbnailRow": {
+        "visible": true,
+        "count": 4,
+        "size": 110,
+        "gap": 12,
+        "radius": 8,
+        "firstBorder": "1px solid white",
+        "imagePath": "./figma/fy25/windows-bloom.png"
+      }
+    },
+    {
+      "size": "3:2",
+      "pagination": "Bottom arrows",
+      "state": "Default",
+      "figmaNodeId": "2568:13771",
+      "dimensions": {
+        "width": 312,
+        "height": 204,
+        "borderRadius": 24
+      },
+      "context": "3x2-bottom-arrows-context.txt",
+      "screenshot": "3x2-bottom-arrows.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 312,
+          "height": 204
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13771;2567:717",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 79,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13771;2567:717;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 16,
+            "width": 59,
+            "height": 20
+          },
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13771;2567:724",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 1370,
+            "y": 95.5,
+            "width": 48,
+            "height": 13
+          },
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13771;2567:727;62893:104421",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 97.5,
+            "y": 156,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "id": "I2568:13771;2567:727;62893:104422",
+          "name": "Number container",
+          "type": "FRAME",
+          "rect": {
+            "x": 133.5,
+            "y": 156,
+            "width": 45,
+            "height": 28
+          }
+        },
+        {
+          "id": "I2568:13771;2567:727;95744:97457",
+          "name": "current page",
+          "type": "TEXT",
+          "rect": {
+            "x": 141.5,
+            "y": 163.5,
+            "width": 7,
+            "height": 13
+          },
+          "text": "1",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13771;2567:727;95744:97458",
+          "name": "of",
+          "type": "TEXT",
+          "rect": {
+            "x": 150.5,
+            "y": 163.5,
+            "width": 11,
+            "height": 13
+          },
+          "text": "of",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13771;2567:727;95744:97459",
+          "name": "total page",
+          "type": "TEXT",
+          "rect": {
+            "x": 163.5,
+            "y": 163.5,
+            "width": 7,
+            "height": 13
+          },
+          "text": "4",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13771;2567:727;62893:104424",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 186.5,
+            "y": 156,
+            "width": 28,
+            "height": 28
+          }
+        }
+      ],
+      "sourceTrack": {
+        "imageFrameCount": 5,
+        "regularImageCount": 4,
+        "finalFrame": "See more",
+        "frameWidth": 312,
+        "frameHeight": 204,
+        "initialX": 0,
+        "initialMetadataVisible": true
+      },
+      "metadata": {
+        "label": "imdb.com",
+        "path": "./figma/slideshow/imdb-favicon.png",
+        "thumbnail": [
+          16,
+          16
+        ],
+        "radius": 4,
+        "gap": 4,
+        "fontFamily": "Roboto",
+        "fontSize": 13,
+        "lineHeight": 20,
+        "fontWeight": 400,
+        "foreground": "#fff",
+        "dropShadow": "0px 0px 2px rgba(0,0,0,.25)",
+        "visibleOnlyInFirstSourceFrame": true
+      },
+      "sourceCounter": {
+        "text": "1 of 4",
+        "displayedTotal": 4,
+        "trackFrameCount": 5,
+        "note": "The fifth See more panel exists offscreen; source has no navigation behavior."
+      }
+    },
+    {
+      "size": "3:2",
+      "pagination": "Top bars",
+      "state": "Default",
+      "figmaNodeId": "2568:13861",
+      "dimensions": {
+        "width": 312,
+        "height": 204,
+        "borderRadius": 24
+      },
+      "context": "3x2-top-bars-context.txt",
+      "screenshot": "3x2-top-bars.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 312,
+          "height": 204
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13861;2567:804",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 168,
+            "width": 79,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13861;2567:804;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 168,
+            "width": 59,
+            "height": 20
+          },
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13861;2567:811",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 1370,
+            "y": 95.5,
+            "width": 48,
+            "height": 13
+          },
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13861;2567:814",
+          "name": "Footer",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 312,
+            "height": 68
+          }
+        },
+        {
+          "id": "I2568:13861;2567:815",
+          "name": "Pagination Container",
+          "type": "FRAME",
+          "rect": {
+            "x": 36,
+            "y": 16,
+            "width": 240,
+            "height": 6
+          }
+        },
+        {
+          "id": "I2568:13861;2567:822",
+          "name": "Personable Tom at age 60s",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 30,
+            "width": 171,
+            "height": 22
+          },
+          "text": "Personable Tom at age 60s",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13861;2567:823",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 248,
+            "y": 78,
+            "width": 48,
+            "height": 48
+          }
+        },
+        {
+          "id": "I2568:13861;2567:824",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 78,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "sourceTrack": {
+        "imageFrameCount": 5,
+        "regularImageCount": 4,
+        "finalFrame": "See more",
+        "frameWidth": 312,
+        "frameHeight": 204,
+        "initialX": 0,
+        "initialMetadataVisible": true
+      },
+      "metadata": {
+        "label": "imdb.com",
+        "path": "./figma/slideshow/imdb-favicon.png",
+        "thumbnail": [
+          16,
+          16
+        ],
+        "radius": 4,
+        "gap": 4,
+        "fontFamily": "Roboto",
+        "fontSize": 13,
+        "lineHeight": 20,
+        "fontWeight": 400,
+        "foreground": "#fff",
+        "dropShadow": "0px 0px 2px rgba(0,0,0,.25)",
+        "visibleOnlyInFirstSourceFrame": true
+      },
+      "sourceTopBars": {
+        "count": 4,
+        "gap": 8,
+        "height": 6,
+        "radius": 9999,
+        "selectedColor": "#fff",
+        "unselectedColor": "rgba(255,255,255,.3)",
+        "title": "Personable Tom at age 60s",
+        "font": "Roboto 700 14px/22px",
+        "footerGradient": "linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,.48) 56.452%)",
+        "footerHeight": 68
+      }
+    },
+    {
+      "size": "3:2",
+      "pagination": "Bottom bars",
+      "state": "Default",
+      "figmaNodeId": "2568:13955",
+      "dimensions": {
+        "width": 312,
+        "height": 204,
+        "borderRadius": 24
+      },
+      "context": "3x2-bottom-bars-default-context.txt",
+      "screenshot": "3x2-bottom-bars-default.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": -1.1368683772161603e-13,
+          "y": -95,
+          "width": 312.0000000000001,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [
+        {
+          "x": 0,
+          "y": 9,
+          "blur": 9.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          }
+        },
+        {
+          "x": 0,
+          "y": 34,
+          "blur": 17,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.09000000357627869
+          }
+        },
+        {
+          "x": 0,
+          "y": 77,
+          "blur": 23,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          }
+        },
+        {
+          "x": 0,
+          "y": 137,
+          "blur": 27.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.009999999776482582
+          }
+        },
+        {
+          "x": 0,
+          "y": 215,
+          "blur": 30,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          }
+        }
+      ],
+      "slots": [
+        {
+          "id": "I2568:13955;2563:14824",
+          "name": "Content",
+          "type": "FRAME",
+          "rect": {
+            "x": 30,
+            "y": 112,
+            "width": 252,
+            "height": 56
+          }
+        },
+        {
+          "id": "I2568:13955;2563:14829",
+          "name": "Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 32,
+            "y": 112,
+            "width": 248,
+            "height": 26
+          },
+          "text": "Colors of the Tundra",
+          "fontName": {
+            "family": "Alice",
+            "style": "Regular"
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 26
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13955;2563:14831",
+          "name": "Text",
+          "type": "TEXT",
+          "rect": {
+            "x": 32,
+            "y": 142,
+            "width": 248,
+            "height": 26
+          },
+          "text": "Explore Denali's open tundra, from summer wildflowers to brilliant autumn colors.",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13955;2563:14832",
+          "name": "Pagination indicators",
+          "type": "FRAME",
+          "rect": {
+            "x": 87,
+            "y": 184,
+            "width": 138,
+            "height": 4
+          }
+        },
+        {
+          "id": "I2568:13955;2563:14834",
+          "name": "Progress Indicator / Story 6",
+          "type": "FRAME",
+          "rect": {
+            "x": 87,
+            "y": 184,
+            "width": 32.25,
+            "height": 4
+          }
+        },
+        {
+          "id": "I2568:13955;2563:14835",
+          "name": "progress",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 87,
+            "y": 184,
+            "width": 24.187501907348633,
+            "height": 4
+          }
+        },
+        {
+          "id": "I2568:13955;2563:14845",
+          "name": "Badge",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 13,
+            "y": 12,
+            "width": 74,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13955;2563:14845;64508:210742",
+          "name": "Lorem ipsum",
+          "type": "TEXT",
+          "rect": {
+            "x": 31,
+            "y": 15.5,
+            "width": 52,
+            "height": 13
+          },
+          "text": "23 images",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        }
+      ],
+      "overlay": {
+        "backdropBlur": 2,
+        "cssGradient": "linear-gradient(179.9999999999963deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 40.762%, rgba(0, 0, 0, 0.5) 58.355%, rgba(0, 0, 0, 0.7) 79.5%, rgba(0, 0, 0, 0.7) 100%)"
+      },
+      "sourceBadgeCount": 23,
+      "sourceBottomBars": {
+        "count": 4,
+        "height": 4,
+        "radius": 2,
+        "gap": 3,
+        "background": "rgba(255,255,255,.3)",
+        "initialFirstBarProgress": 0.75,
+        "progressColor": "#e5ebfa",
+        "visible": true
+      },
+      "thumbnailRow": {
+        "visible": false,
+        "count": 4,
+        "size": 54,
+        "gap": 12,
+        "radius": 8,
+        "firstBorder": "1px solid white",
+        "imagePath": "./figma/fy25/windows-bloom.png"
+      }
+    },
+    {
+      "size": "3:2",
+      "pagination": "Bottom bars",
+      "state": "Hover",
+      "figmaNodeId": "2568:14032",
+      "dimensions": {
+        "width": 312,
+        "height": 204,
+        "borderRadius": 24
+      },
+      "context": "3x2-bottom-bars-hover-context.txt",
+      "screenshot": "3x2-bottom-bars-hover.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": -95,
+          "width": 312,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [
+        {
+          "x": 0,
+          "y": 9,
+          "blur": 9.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          }
+        },
+        {
+          "x": 0,
+          "y": 34,
+          "blur": 17,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.09000000357627869
+          }
+        },
+        {
+          "x": 0,
+          "y": 77,
+          "blur": 23,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          }
+        },
+        {
+          "x": 0,
+          "y": 137,
+          "blur": 27.5,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.009999999776482582
+          }
+        },
+        {
+          "x": 0,
+          "y": 215,
+          "blur": 30,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          }
+        }
+      ],
+      "slots": [
+        {
+          "id": "I2568:14032;2563:14852",
+          "name": "Content",
+          "type": "FRAME",
+          "rect": {
+            "x": 30,
+            "y": 62,
+            "width": 252,
+            "height": 56
+          }
+        },
+        {
+          "id": "I2568:14032;2563:14857",
+          "name": "Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 32,
+            "y": 62,
+            "width": 248,
+            "height": 26
+          },
+          "text": "Colors of the Tundra",
+          "fontName": {
+            "family": "Alice",
+            "style": "Regular"
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 26
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:14032;2563:14859",
+          "name": "Text",
+          "type": "TEXT",
+          "rect": {
+            "x": 32,
+            "y": 92,
+            "width": 248,
+            "height": 26
+          },
+          "text": "Explore Denali's open tundra, from summer wildflowers to brilliant autumn colors.",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:14032;2563:14861",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 30,
+            "y": 134,
+            "width": 54,
+            "height": 54
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:14032;2563:14863",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 96,
+            "y": 134,
+            "width": 54,
+            "height": 54
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:14032;2563:14865",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 162,
+            "y": 134,
+            "width": 54,
+            "height": 54
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:14032;2563:14867",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 228,
+            "y": 134,
+            "width": 54,
+            "height": 54
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:14032;2563:14870",
+          "name": "Badge",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 13,
+            "y": 12,
+            "width": 74,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:14032;2563:14870;64508:210742",
+          "name": "Lorem ipsum",
+          "type": "TEXT",
+          "rect": {
+            "x": 31,
+            "y": 15.5,
+            "width": 52,
+            "height": 13
+          },
+          "text": "23 images",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        }
+      ],
+      "overlay": {
+        "backdropBlur": 2,
+        "cssGradient": "linear-gradient(179.9999999999963deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.1) 18.181%, rgba(0, 0, 0, 0.5) 33.987%, rgba(0, 0, 0, 0.7) 53.503%, rgba(0, 0, 0, 0.7) 100%)"
+      },
+      "sourceBadgeCount": 23,
+      "sourceBottomBars": {
+        "count": 4,
+        "height": 4,
+        "radius": 2,
+        "gap": 3,
+        "background": "rgba(255,255,255,.3)",
+        "initialFirstBarProgress": 0.75,
+        "progressColor": "#e5ebfa",
+        "visible": false
+      },
+      "thumbnailRow": {
+        "visible": true,
+        "count": 4,
+        "size": 54,
+        "gap": 12,
+        "radius": 8,
+        "firstBorder": "1px solid white",
+        "imagePath": "./figma/fy25/windows-bloom.png"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "path": "./figma/slideshow/chevron-left-blue.svg",
+      "bytes": 552,
+      "sha256": "33556b30dc1524218db8e1af12ae18aed5b5573b7686e19fdb97650a18719377",
+      "reuseExisting": false,
+      "rootDimensions": {
+        "width": "6.875",
+        "height": "12.5",
+        "viewBox": "0 0 6.875 12.5"
+      }
+    },
+    {
+      "path": "./figma/slideshow/chevron-left-white.svg",
+      "bytes": 540,
+      "sha256": "5699e6c54eddcc45baa04bdf3fb16fd59a97ff5202382cf806757a5f4b1aa210",
+      "reuseExisting": false,
+      "rootDimensions": {
+        "width": "5.5",
+        "height": "10",
+        "viewBox": "0 0 5.5 10"
+      }
+    },
+    {
+      "path": "./figma/slideshow/chevron-right-blue.svg",
+      "bytes": 557,
+      "sha256": "929d61b8258b57aaae3f17f95affc01a09904fe3d48d13e3b66cb0044be18231",
+      "reuseExisting": false,
+      "rootDimensions": {
+        "width": "6.875",
+        "height": "12.5",
+        "viewBox": "0 0 6.875 12.5"
+      }
+    },
+    {
+      "path": "./figma/slideshow/chevron-right-white.svg",
+      "bytes": 546,
+      "sha256": "cbd8f6587e963719653518e9d9adb51273e7e84d722c27e5d10aef962914f5cb",
+      "reuseExisting": false,
+      "rootDimensions": {
+        "width": "5.5",
+        "height": "10",
+        "viewBox": "0 0 5.5 10"
+      }
+    },
+    {
+      "path": "./figma/slideshow/fonts/LICENSE-Alice.txt",
+      "bytes": 4314,
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+      "reuseExisting": false
+    },
+    {
+      "path": "./figma/slideshow/fonts/alice-400.woff2",
+      "bytes": 25212,
+      "sha256": "73f21482958d69c7fb4481ea9f7741fe64be178081ef506805bd7bbd67cbff70",
+      "reuseExisting": false
+    },
+    {
+      "path": "./figma/slideshow/imdb-favicon.png",
+      "bytes": 646,
+      "sha256": "0d6537d0f6782be87b149b5cfb8c81aa62c616ce51d6fb1b0ed0112cf72ef483",
+      "reuseExisting": false,
+      "pixelDimensions": [
+        16,
+        16
+      ]
+    },
+    {
+      "path": "./figma/slideshow/open-external-white.svg",
+      "bytes": 1171,
+      "sha256": "7929157f55e285ce6f6ec76e471a1742acd53b6bc8ac325f6081ea008e4efbb7",
+      "reuseExisting": false,
+      "rootDimensions": {
+        "width": "12",
+        "height": "12",
+        "viewBox": "0 0 12 12"
+      }
+    },
+    {
+      "path": "./figma/fy25/windows-bloom.png",
+      "bytes": 297868,
+      "sha256": "3416a4dd979e41ce3c9e70e98bafcc71bce47e70ebddb0d34a22d0887e8249a7",
+      "reuseExisting": true,
+      "pixelDimensions": [
+        640,
+        360
+      ]
+    },
+    {
+      "path": "./figma/icon/badge-multi-image.svg",
+      "bytes": 1158,
+      "sha256": "2fabcf9c3bc84006e9c94ad0ce2cd4309f150a9aa267a6c6e7835d05160fa6c2",
+      "reuseExisting": true,
+      "rootDimensions": {
+        "width": "8.99995",
+        "height": "9",
+        "viewBox": "0 0 8.99995 9"
+      }
+    },
+    {
+      "path": "./figma/fy25/fonts/roboto-400.woff2",
+      "bytes": 21884,
+      "sha256": "425c0713a8176f92273d378599c7eac57de7fafabd4bd0ed457b70eb8f80d371",
+      "reuseExisting": true
+    },
+    {
+      "path": "./figma/fy25/fonts/roboto-700.woff2",
+      "bytes": 22240,
+      "sha256": "b9d66d1708156f765ada51939bc24ed259dafa69eb631b36e443680fe9e15879",
+      "reuseExisting": true
+    }
+  ]
+}

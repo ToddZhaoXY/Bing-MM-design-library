@@ -1,4 +1,5 @@
 import type { MosaicMappingDef } from '../data/components'
+import { components } from '../data/components'
 import type {
   MosaicGeneration,
   MosaicGenerationContext,
@@ -24,6 +25,8 @@ import {
   unwrapBasic,
 } from './builders'
 import { buildImageContainerSdl, generateImageContainerSdl } from './imageContainer'
+import { imageCardAdapters } from './imageCards'
+import { slideshowAdapter } from './slideshow'
 
 export interface MosaicAdapter extends MosaicMappingDef {
   generate: MosaicGenerator
@@ -770,6 +773,8 @@ function generateIrp(values: MosaicValues): MosaicGeneration {
 }
 
 const adapters: Record<string, MosaicAdapter> = {
+  slideshow: slideshowAdapter,
+  ...imageCardAdapters,
   'image-tile': {
     status: 'partial',
     identity: 'Basic → Col → Image/Row composition',
@@ -956,7 +961,7 @@ export function generateMosaicPage(
   )
 }
 
-export const mosaicCoverage = Object.entries(adapters).map(([slug, adapter]) => ({
+export const mosaicCoverage = Object.entries(adapters).filter(([slug]) => components.some(component => component.slug === slug)).map(([slug, adapter]) => ({
   slug,
   status: adapter.status,
 }))

@@ -1,0 +1,1135 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/05eeba10-fdbb-4a90-810a-00648b010009";
+import SerpIcon from "D:\Code\entity-segments\references\components\atoms\serp-icon.tsx"
+import SerpImage from "D:\Code\entity-segments\references\components\atoms\serp-image.tsx"
+import { Open16Regular } from "@fluentui/react-icons";
+import SerpButton from "C:\code\entity-segments\references\components\atoms\serp-button.tsx"
+
+const imgRectangle = `${assetPathPrefix}/acc04.png`;
+
+type StatusBinProps = {
+  className?: string;
+  bin?: "N/A";
+};
+
+function StatusBin({ className, bin = "N/A" }: StatusBinProps) {
+  return (
+    <div className={className || '[word-break:break-word] bg-[#f0f0f0] content-stretch flex font-["Inter:Semi_Bold"] gap-[4px] items-center leading-[normal] not-italic px-[14px] py-[6px] relative rounded-[999px] text-[#616161] text-[12px] whitespace-nowrap'} data-node-id="545:10461">
+      <p className="relative shrink-0" data-node-id="545:10462">
+        ● N/A
+      </p>
+      <p className="relative shrink-0" data-node-id="545:10463">
+        · shared SERP + IRP
+      </p>
+    </div>
+  );
+}
+
+export default function SlideCard() {
+  return (
+    <div className="bg-white content-stretch flex flex-col items-start py-[40px] relative rounded-[100px] size-full" data-node-id="2568:13065" data-name="Slide Card">
+      <div className="[word-break:break-word] content-stretch flex items-center justify-between leading-[normal] not-italic overflow-clip px-[80px] py-[24px] relative shrink-0 w-full whitespace-nowrap" data-node-id="2568:13066" data-name="Page header">
+        <div className="content-stretch flex flex-col gap-[4px] items-start overflow-clip relative shrink-0" data-node-id="2568:13067" data-name="Title group">
+          <p className="font-['Inter:Bold'] relative shrink-0 text-[#1a1a1a] text-[32px]" data-node-id="2568:13068">
+            Slide Card
+          </p>
+          <p className="font-['Inter:Medium'] relative shrink-0 text-[#8066d9] text-[13px] tracking-[1px]" data-node-id="2568:13069">
+            CELL
+          </p>
+        </div>
+        <StatusBin className="bg-[#f0f0f0] content-stretch flex font-['Inter:Semi_Bold'] gap-[4px] items-center px-[14px] py-[6px] relative rounded-[999px] shrink-0 text-[#616161] text-[12px]" />
+      </div>
+      <div className="content-stretch flex flex-col gap-[40px] items-start pb-[80px] pt-[64px] px-[80px] relative shrink-0 w-full" data-node-id="2568:13075" data-name="Content">
+        <div className="content-stretch flex flex-col gap-[40px] items-start relative shrink-0 w-full" data-node-id="2568:13076" data-name="Overview and copy me">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start not-italic overflow-clip relative shrink-0 w-full" data-node-id="2568:13077" data-name="Overview">
+            <p className="font-['Inter:Semi_Bold'] leading-[normal] relative shrink-0 text-[#8c8c8c] text-[11px] tracking-[1.5px] whitespace-nowrap" data-node-id="2568:13078">
+              OVERVIEW
+            </p>
+            <p className="font-['Inter:Regular'] leading-[1.5] min-w-full relative shrink-0 text-[#333] text-[16px] w-[min-content]" data-node-id="2568:13079">
+              A sliding image card for presenting multiple images in one component. Available in three Size values with bottom arrows, top bars or bottom bars pagination. Bottom bars includes Default and Hover appearances.
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[20px] items-center relative shrink-0 w-full" data-node-id="2568:13080" data-name="Copy me">
+            <div className="bg-[#fbfbfb] content-stretch flex flex-col gap-[32px] items-center p-[32px] relative rounded-[16px] shrink-0" data-node-id="2568:13081" data-name="Copyable example">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] leading-[normal] not-italic relative shrink-0 text-[#8c8c8c] text-[24px] tracking-[1.5px] whitespace-nowrap" data-node-id="2568:13082">
+                COPY ME
+              </p>
+              <div className="drop-shadow-[0px_292px_41px_rgba(0,0,0,0),0px_187px_37.5px_rgba(0,0,0,0.01),0px_105px_31.5px_rgba(0,0,0,0.05),0px_47px_23.5px_rgba(0,0,0,0.09),0px_12px_13px_rgba(0,0,0,0.1)] h-[424px] overflow-clip relative rounded-[var(--bing\/static\/corner\/rounded\/large,24px)] shrink-0 w-[312px]" data-node-id="2568:13083" data-name="Slide Card">
+                <div className="absolute inset-0 shadow-[0px_4px_12px_0px_rgba(0,0,0,0.12)]" data-node-id="I2568:13083;2565:1204" data-name="Rectangle">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                </div>
+                <div className="absolute backdrop-blur-[2px] h-[424px] left-0 top-0 w-[312px]" data-node-id="I2568:13083;2565:1205" style={{ backgroundImage: "linear-gradient(180deg, rgba(0, 0, 0, 0) 48.94%, rgba(0, 0, 0, 0.502) 71.294%, rgba(0, 0, 0, 0.698) 80.694%, rgba(0, 0, 0, 0.698) 100%)" }} data-name="Rectangle" />
+                <div className="absolute content-stretch flex flex-col inset-0 items-start justify-between p-[16px]" data-node-id="I2568:13083;2565:1206" data-name="Frame">
+                  <div className="bg-[var(--mai\/smtc\/background\/ctrl\/on-image\/rest,black)] content-stretch flex gap-[var(--smtc\/gap\/between\/content\/xxx-small,2px)] h-[20px] items-center pb-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/bottom,2px)] pt-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/top,2px)] px-[var(--smtc\/ctrl\/badge\/sm\/padding,4px)] relative rounded-[var(--smtc\/ctrl\/badge\/corner,8px)] shrink-0" data-node-id="I2568:13083;2565:1207" data-name="Badge">
+                    <div className="content-stretch flex h-[13px] items-center relative shrink-0" data-node-id="I2568:13083;2565:1207;88720:35156" data-name="IconContainer">
+                      <div className="relative shrink-0 size-[12px]" data-node-id="I2568:13083;2565:1207;71493:230763" data-name="Icon">
+                        <CodeConnectSnippet data-node-id="I2568:13083;2565:1207;71493:230763;115630:166841" data-name="ImageMultiple">
+                          <SerpIcon />
+                        </CodeConnectSnippet>
+                      </div>
+                    </div>
+                    <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] leading-[var(--text\/global\/caption2\/lineheight,13px)] relative shrink-0 text-[color:var(--mai\/smtc\/foreground\/ctrl\/on-image\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center whitespace-nowrap" data-node-id="I2568:13083;2565:1207;64508:210742" style={{ fontVariationSettings: '"wdth" 100' }}>
+                      24 images
+                    </p>
+                  </div>
+                  <div className="content-stretch flex flex-col gap-[var(--bing\/smtc\/padding\/ctrl-xlg\/text-top,16px)] items-start relative shrink-0 w-full" data-node-id="I2568:13083;2565:1221" data-name="Frame">
+                    <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--bing\/smtc\/padding\/ctrl-xs\/horizontal,4px)] items-center relative shrink-0 w-full" data-node-id="I2568:13083;2565:1222" data-name="Frame">
+                      <p className="font-['Alice:Regular'] leading-[1.2] not-italic overflow-hidden relative shrink-0 text-[28px] text-[color:var(--gallery-glass-on-glass,white)] text-ellipsis w-full" data-node-id="I2568:13083;2565:1223">
+                        The Alaska Range
+                      </p>
+                      <p className="font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/body3\/lineheight,22px)] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-image\/switchable\/rest,white)] text-[length:var(--text\/global\/body3\/fontsize,14px)] w-full" data-node-id="I2568:13083;2565:1224" style={{ fontVariationSettings: '"wdth" 100' }}>{`Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.`}</p>
+                    </div>
+                    <div className="content-stretch flex items-center relative shrink-0 w-[138px]" data-node-id="I2568:13083;2565:1225" data-name="Pagination indicators">
+                      <div className="content-stretch flex flex-[1_0_0] gap-[3px] items-center min-w-px relative" data-node-id="I2568:13083;2565:1226" data-name="Bars">
+                        <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px relative rounded-[2px]" data-node-id="I2568:13083;2565:1227" data-name="Progress Indicator / Story 6" />
+                        <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13083;2565:1228" data-name="Progress Indicator / Story 11" />
+                        <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13083;2565:1230" data-name="Progress Indicator / Story 12" />
+                        <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13083;2565:1232" data-name="Progress Indicator / Story 13" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Regular'] leading-[normal] not-italic relative shrink-0 text-[#8c8c8c] text-[12px] whitespace-nowrap" data-node-id="2568:13149">
+              3:4 · 312 × 424 px · Bottom bars · Default
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start overflow-clip pb-[40px] pt-[56px] relative shrink-0 w-full" data-node-id="2568:13150" data-name="Divider">
+          <div className="bg-[#e6e6e6] h-px relative shrink-0 w-full" data-node-id="2568:13151" data-name="Rule" />
+        </div>
+        <div className="content-stretch flex flex-col gap-[64px] items-start relative shrink-0 w-full" data-node-id="2568:13152" data-name="Variants">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start not-italic overflow-clip relative shrink-0 w-full" data-node-id="2568:13153" data-name="Section heading">
+            <p className="font-['Inter:Semi_Bold'] leading-[normal] relative shrink-0 text-[#8c8c8c] text-[11px] tracking-[1.5px] whitespace-nowrap" data-node-id="2568:13154">
+              VARIANTS · SIZE × PAGINATION × STATE
+            </p>
+            <p className="font-['Inter:Regular'] leading-[1.5] min-w-full relative shrink-0 text-[#666] text-[14px] w-[min-content]" data-node-id="2568:13155">
+              12 combinations at their original pixel sizes. Default and Hover are shown as static appearances; this page does not demonstrate hover or slide navigation.
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[28px] items-start relative shrink-0 w-full" data-node-id="2568:13156" data-name="Size group">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] leading-[normal] not-italic relative shrink-0 text-[#1a1a1a] text-[16px] w-full" data-node-id="2568:13157">
+              Size · 3:4 — 312 × 424 px
+            </p>
+            <div className="content-stretch flex gap-[24px] items-start relative shrink-0 w-full" data-node-id="2568:13158" data-name="Pagination variants">
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[28px] items-start min-w-px py-[24px] relative" data-node-id="2568:13159" data-name="Variant">
+                <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2568:13160" data-name="Instance stage">
+                  <div className="h-[424px] overflow-clip relative rounded-[var(--mai\/smtc\/corner\/card\/default,24px)] shrink-0 w-[312px]" data-node-id="2568:13161" data-name="Slide Card">
+                    <div className="absolute content-stretch flex flex-col h-[424px] items-center left-0 overflow-clip rounded-[var(--mai\/smtc\/corner\/card\/default,24px)] top-0 w-[312px]" data-node-id="I2568:13161;2565:1066" data-name="Component 7">
+                      <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13161;2565:1066;329:9833">
+                        <div className="absolute content-stretch flex items-center left-0 top-0 w-[2680px]" data-node-id="I2568:13161;2565:1066;329:9834">
+                          <div className="flex-[1_0_0] h-[424px] min-w-px relative" data-node-id="I2568:13161;2565:1066;329:9835" data-name="Image">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="absolute content-stretch drop-shadow-[0px_0px_2px_rgba(0,0,0,0.25)] flex gap-[var(--smtc\/gap\/inside\/ctrl\/to-secondary-icon,4px)] items-center left-[16px] top-[16px]" data-node-id="I2568:13161;2565:1066;723:36357" data-name="metadata">
+                            <div className="content-stretch flex items-center overflow-clip relative rounded-[var(--smtc\/corner\/ctrl\/sm\/rest,4px)] shrink-0 size-[16px]" data-node-id="I2568:13161;2565:1066;723:36357;723:36080" data-name="Thumbnail">
+                              <CodeConnectSnippet data-node-id="I2568:13161;2565:1066;723:36357;723:36080;131224:172906" data-name="Image">
+                                <SerpImage fuzzyMark="false" />
+                              </CodeConnectSnippet>
+                            </div>
+                            <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/caption1\/lineheight,20px)] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/content\/white,white)] text-[length:var(--text\/global\/caption1\/fontsize,13px)] whitespace-nowrap" data-node-id="I2568:13161;2565:1066;723:36357;723:36081" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              imdb.com
+                            </p>
+                          </div>
+                          <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13161;2565:1066;329:9836" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13161;2565:1066;329:9837" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13161;2565:1066;329:9838" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="content-stretch flex flex-col h-[424px] items-center justify-center overflow-clip p-[20px] relative shrink-0 w-[536px]" data-node-id="I2568:13161;2565:1066;329:9839" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                            <div className="absolute bg-[var(--smtc\/background\/smoke,rgba(0,0,0,0.6))] content-stretch flex flex-col inset-0 items-center justify-center" data-node-id="I2568:13161;2565:1066;329:9840" data-name="overlay">
+                              <div className="content-center flex flex-wrap gap-[var(--smtc\/gap\/between\/content\/xx-small,4px)] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13161;2565:1066;329:9841" data-name="link container">
+                                <div className="[word-break:break-word] flex flex-col font-[family-name:var(--text\/style\/default\/regular\/fontfamily,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-image\/switchable\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] whitespace-nowrap" data-node-id="I2568:13161;2565:1066;329:9842" style={{ fontVariationSettings: '"wdth" 100' }}>
+                                  <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">See more</p>
+                                </div>
+                                <CodeConnectSnippet data-node-id="I2568:13161;2565:1066;329:9843" data-name="Open" data-snippet-language="React">
+                                  <Open16Regular />
+                                </CodeConnectSnippet>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="absolute bottom-[20px] content-stretch flex gap-[var(--smtc\/gap\/between\/content\/x-small,8px)] items-start justify-center left-0 right-0" data-node-id="I2568:13161;2565:1066;329:10027" data-name="pagination">
+                        <CodeConnectSnippet data-node-id="I2568:13161;2565:1066;329:10027;62893:104421" data-name="Button">
+                          <SerpButton label={false} label="Click me" iconEnd={false} iconStart={true} color="primary" disabled="true" variant="solid" size="sm" state="default" pill="false" style="alwaysDark" weight="default" />
+                        </CodeConnectSnippet>
+                        <div className="bg-[var(--mai\/smtc\/background\/ctrl\/on-image\/rest,black)] content-stretch flex h-[28px] items-center justify-center px-[var(--smtc\/padding\/ctrl-sm\/horizontal-default,8px)] relative rounded-[var(--smtc\/corner\/ctrl\/sm\/rest,4px)] shrink-0" data-node-id="I2568:13161;2565:1066;329:10027;62893:104422" data-name="Number container">
+                          <div className="[word-break:break-word] content-stretch flex font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] gap-[var(--smtc\/gap\/between\/content\/xxx-small,2px)] h-[24px] items-center leading-[0] relative shrink-0 text-[color:var(--mai\/smtc\/foreground\/ctrl\/on-image\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center whitespace-nowrap" data-node-id="I2568:13161;2565:1066;329:10027;95744:97456" data-name="number container">
+                            <div className="flex flex-col justify-center relative shrink-0" data-node-id="I2568:13161;2565:1066;329:10027;95744:97457" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">1</p>
+                            </div>
+                            <div className="flex flex-col justify-center relative shrink-0" data-node-id="I2568:13161;2565:1066;329:10027;95744:97458" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">of</p>
+                            </div>
+                            <div className="flex flex-col justify-center relative shrink-0" data-node-id="I2568:13161;2565:1066;329:10027;95744:97459" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">4</p>
+                            </div>
+                          </div>
+                        </div>
+                        <CodeConnectSnippet data-node-id="I2568:13161;2565:1066;329:10027;62893:104424" data-name="Button">
+                          <SerpButton label="Click me" label={false} iconEnd={false} iconStart={true} color="primary" disabled="false" variant="solid" size="sm" state="default" pill="false" style="alwaysDark" weight="default" />
+                        </CodeConnectSnippet>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start leading-[normal] not-italic overflow-clip px-[24px] relative shrink-0 w-full whitespace-nowrap" data-node-id="2568:13204" data-name="Label">
+                  <p className="font-['Inter:Semi_Bold'] relative shrink-0 text-[#1a1a1a] text-[14px]" data-node-id="2568:13205">
+                    Bottom arrows
+                  </p>
+                  <p className="font-['Inter:Regular'] relative shrink-0 text-[#8c8c8c] text-[12px]" data-node-id="2568:13206">
+                    Default · 3:4 · 312 × 424 px
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[28px] items-start min-w-px py-[24px] relative" data-node-id="2568:13207" data-name="Variant">
+                <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2568:13208" data-name="Instance stage">
+                  <div className="drop-shadow-[0px_105px_31.5px_rgba(0,0,0,0.05),0px_47px_23.5px_rgba(0,0,0,0.09),0px_12px_13px_rgba(0,0,0,0.1)] h-[424px] overflow-clip relative rounded-[var(--mai\/smtc\/corner\/card\/default,24px)] shrink-0 w-[312px]" data-node-id="2568:13209" data-name="Slide Card">
+                    <div className="absolute content-stretch flex flex-col h-[424px] items-start left-0 overflow-clip rounded-[var(--mai\/smtc\/corner\/card\/default,24px)] top-0 w-[312px]" data-node-id="I2568:13209;2565:1537" data-name="Slide content">
+                      <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13209;2565:1538">
+                        <div className="absolute content-stretch flex items-center left-[-112px] top-0 w-[2680px]" data-node-id="I2568:13209;2565:1539">
+                          <div className="flex-[1_0_0] h-[424px] min-w-px relative" data-node-id="I2568:13209;2565:1540" data-name="Image">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="absolute content-stretch drop-shadow-[0px_0px_2px_rgba(0,0,0,0.25)] flex gap-[var(--smtc\/gap\/inside\/ctrl\/to-secondary-icon,4px)] items-center left-[16px] top-[388px]" data-node-id="I2568:13209;2565:1541" data-name="metadata">
+                            <div className="content-stretch flex items-center overflow-clip relative rounded-[var(--smtc\/corner\/ctrl\/sm\/rest,4px)] shrink-0 size-[16px]" data-node-id="I2568:13209;2565:1541;723:36080" data-name="Thumbnail">
+                              <CodeConnectSnippet data-node-id="I2568:13209;2565:1541;723:36080;131224:172906" data-name="Image">
+                                <SerpImage fuzzyMark="false" />
+                              </CodeConnectSnippet>
+                            </div>
+                            <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/caption1\/lineheight,20px)] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/content\/white,white)] text-[length:var(--text\/global\/caption1\/fontsize,13px)] whitespace-nowrap" data-node-id="I2568:13209;2565:1541;723:36081" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              imdb.com
+                            </p>
+                          </div>
+                          <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13209;2565:1542" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13209;2565:1543" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13209;2565:1544" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="content-stretch flex flex-col h-[424px] items-center justify-center overflow-clip p-[20px] relative shrink-0 w-[536px]" data-node-id="I2568:13209;2565:1545" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                            <div className="absolute bg-[var(--smtc\/background\/smoke,rgba(0,0,0,0.6))] content-stretch flex flex-col inset-0 items-center justify-center" data-node-id="I2568:13209;2565:1546" data-name="overlay">
+                              <div className="content-center flex flex-wrap gap-[var(--smtc\/gap\/between\/content\/xx-small,4px)] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13209;2565:1547" data-name="link container">
+                                <div className="[word-break:break-word] flex flex-col font-[family-name:var(--text\/style\/default\/regular\/fontfamily,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-image\/switchable\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] whitespace-nowrap" data-node-id="I2568:13209;2565:1548" style={{ fontVariationSettings: '"wdth" 100' }}>
+                                  <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">See more</p>
+                                </div>
+                                <CodeConnectSnippet data-node-id="I2568:13209;2565:1549" data-name="Open" data-snippet-language="React">
+                                  <Open16Regular />
+                                </CodeConnectSnippet>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="absolute bg-gradient-to-t content-stretch flex flex-col from-[var(--bing\/smtc\/background\/ctrl\/fade\/on-image\/stop-0,rgba(0,0,0,0))] gap-[var(--smtc\/ctrl\/badge\/padding,8px)] items-start justify-center left-0 px-[var(--smtc\/gap\/between\/content\/xx-large,36px)] py-[var(--smtc\/gap\/between\/content\/medium,16px)] right-0 to-[56.452%] to-[rgba(0,0,0,0.48)] top-0" data-node-id="I2568:13209;2565:1551" data-name="Footer">
+                        <div className="content-stretch flex gap-[var(--smtc\/gap\/between\/content\/x-small,8px)] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13209;2565:1552" data-name="Pagination Container">
+                          <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/rest,white)] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13209;2565:1553" />
+                          <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13209;2565:1554" />
+                          <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13209;2565:1555" />
+                          <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13209;2565:1556" />
+                        </div>
+                        <div className="[word-break:break-word] flex flex-col font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-subtle\/rest,white)] text-[length:var(--text\/global\/body3\/fontsize,14px)] whitespace-nowrap" data-node-id="I2568:13209;2565:1559" style={{ fontVariationSettings: '"wdth" 100' }}>
+                          <p className="leading-[var(--text\/global\/body3\/lineheight,22px)]">Personable Tom at age 60s</p>
+                        </div>
+                      </div>
+                      <CodeConnectSnippet data-node-id="I2568:13209;2565:1560" data-name="Button">
+                        <SerpButton label={false} label="Click me" iconEnd={false} iconStart={true} color="secondary" disabled="false" variant="solid" size="lg" state="default" pill="true" style="default" weight="default" />
+                      </CodeConnectSnippet>
+                      <CodeConnectSnippet data-node-id="I2568:13209;2565:1561" data-name="Button">
+                        <SerpButton label={false} label="Click me" iconEnd={false} iconStart={true} color="secondary" disabled="true" variant="solid" size="lg" state="default" pill="true" style="default" weight="default" />
+                      </CodeConnectSnippet>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start leading-[normal] not-italic overflow-clip px-[24px] relative shrink-0 w-full whitespace-nowrap" data-node-id="2568:13297" data-name="Label">
+                  <p className="font-['Inter:Semi_Bold'] relative shrink-0 text-[#1a1a1a] text-[14px]" data-node-id="2568:13298">
+                    Top bars
+                  </p>
+                  <p className="font-['Inter:Regular'] relative shrink-0 text-[#8c8c8c] text-[12px]" data-node-id="2568:13299">
+                    Default · 3:4 · 312 × 424 px
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[24px] items-start relative shrink-0 w-full" data-node-id="2568:13300" data-name="Bottom bars state pair">
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[28px] items-start min-w-px py-[24px] relative" data-node-id="2568:13301" data-name="Variant">
+                <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2568:13302" data-name="Instance stage">
+                  <div className="drop-shadow-[0px_292px_41px_rgba(0,0,0,0),0px_187px_37.5px_rgba(0,0,0,0.01),0px_105px_31.5px_rgba(0,0,0,0.05),0px_47px_23.5px_rgba(0,0,0,0.09),0px_12px_13px_rgba(0,0,0,0.1)] h-[424px] overflow-clip relative rounded-[var(--bing\/static\/corner\/rounded\/large,24px)] shrink-0 w-[312px]" data-node-id="2568:13303" data-name="Slide Card">
+                    <div className="absolute inset-0 shadow-[0px_4px_12px_0px_rgba(0,0,0,0.12)]" data-node-id="I2568:13303;2565:1204" data-name="Rectangle">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                    </div>
+                    <div className="absolute backdrop-blur-[2px] h-[424px] left-0 top-0 w-[312px]" data-node-id="I2568:13303;2565:1205" style={{ backgroundImage: "linear-gradient(180deg, rgba(0, 0, 0, 0) 48.94%, rgba(0, 0, 0, 0.502) 71.294%, rgba(0, 0, 0, 0.698) 80.694%, rgba(0, 0, 0, 0.698) 100%)" }} data-name="Rectangle" />
+                    <div className="absolute content-stretch flex flex-col inset-0 items-start justify-between p-[16px]" data-node-id="I2568:13303;2565:1206" data-name="Frame">
+                      <div className="bg-[var(--mai\/smtc\/background\/ctrl\/on-image\/rest,black)] content-stretch flex gap-[var(--smtc\/gap\/between\/content\/xxx-small,2px)] h-[20px] items-center pb-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/bottom,2px)] pt-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/top,2px)] px-[var(--smtc\/ctrl\/badge\/sm\/padding,4px)] relative rounded-[var(--smtc\/ctrl\/badge\/corner,8px)] shrink-0" data-node-id="I2568:13303;2565:1207" data-name="Badge">
+                        <div className="content-stretch flex h-[13px] items-center relative shrink-0" data-node-id="I2568:13303;2565:1207;88720:35156" data-name="IconContainer">
+                          <div className="relative shrink-0 size-[12px]" data-node-id="I2568:13303;2565:1207;71493:230763" data-name="Icon">
+                            <CodeConnectSnippet data-node-id="I2568:13303;2565:1207;71493:230763;115630:166841" data-name="ImageMultiple">
+                              <SerpIcon />
+                            </CodeConnectSnippet>
+                          </div>
+                        </div>
+                        <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] leading-[var(--text\/global\/caption2\/lineheight,13px)] relative shrink-0 text-[color:var(--mai\/smtc\/foreground\/ctrl\/on-image\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center whitespace-nowrap" data-node-id="I2568:13303;2565:1207;64508:210742" style={{ fontVariationSettings: '"wdth" 100' }}>
+                          24 images
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col gap-[var(--bing\/smtc\/padding\/ctrl-xlg\/text-top,16px)] items-start relative shrink-0 w-full" data-node-id="I2568:13303;2565:1221" data-name="Frame">
+                        <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--bing\/smtc\/padding\/ctrl-xs\/horizontal,4px)] items-center relative shrink-0 w-full" data-node-id="I2568:13303;2565:1222" data-name="Frame">
+                          <p className="font-['Alice:Regular'] leading-[1.2] not-italic overflow-hidden relative shrink-0 text-[28px] text-[color:var(--gallery-glass-on-glass,white)] text-ellipsis w-full" data-node-id="I2568:13303;2565:1223">
+                            The Alaska Range
+                          </p>
+                          <p className="font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/body3\/lineheight,22px)] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-image\/switchable\/rest,white)] text-[length:var(--text\/global\/body3\/fontsize,14px)] w-full" data-node-id="I2568:13303;2565:1224" style={{ fontVariationSettings: '"wdth" 100' }}>{`Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.`}</p>
+                        </div>
+                        <div className="content-stretch flex items-center relative shrink-0 w-[138px]" data-node-id="I2568:13303;2565:1225" data-name="Pagination indicators">
+                          <div className="content-stretch flex flex-[1_0_0] gap-[3px] items-center min-w-px relative" data-node-id="I2568:13303;2565:1226" data-name="Bars">
+                            <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px relative rounded-[2px]" data-node-id="I2568:13303;2565:1227" data-name="Progress Indicator / Story 6" />
+                            <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13303;2565:1228" data-name="Progress Indicator / Story 11" />
+                            <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13303;2565:1230" data-name="Progress Indicator / Story 12" />
+                            <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13303;2565:1232" data-name="Progress Indicator / Story 13" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start leading-[normal] not-italic overflow-clip px-[24px] relative shrink-0 w-full whitespace-nowrap" data-node-id="2568:13369" data-name="Label">
+                  <p className="font-['Inter:Semi_Bold'] relative shrink-0 text-[#1a1a1a] text-[14px]" data-node-id="2568:13370">
+                    Bottom bars
+                  </p>
+                  <p className="font-['Inter:Regular'] relative shrink-0 text-[#8c8c8c] text-[12px]" data-node-id="2568:13371">
+                    Default · 3:4 · 312 × 424 px
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[28px] items-start min-w-px py-[24px] relative" data-node-id="2568:13372" data-name="Variant">
+                <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2568:13373" data-name="Instance stage">
+                  <div className="drop-shadow-[0px_292px_41px_rgba(0,0,0,0),0px_187px_37.5px_rgba(0,0,0,0.01),0px_105px_31.5px_rgba(0,0,0,0.05),0px_47px_23.5px_rgba(0,0,0,0.09),0px_12px_13px_rgba(0,0,0,0.1)] h-[424px] overflow-clip relative rounded-[var(--bing\/static\/corner\/rounded\/large,24px)] shrink-0 w-[312px]" data-node-id="2568:13374" data-name="Slide Card">
+                    <div className="absolute inset-0 shadow-[0px_4px_12px_0px_rgba(0,0,0,0.12)]" data-node-id="I2568:13374;2565:1236" data-name="Rectangle">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                    </div>
+                    <div className="absolute backdrop-blur-[2px] h-[424px] left-0 top-0 w-[312px]" data-node-id="I2568:13374;2565:1237" style={{ backgroundImage: "linear-gradient(180deg, rgba(0, 0, 0, 0) 40.21%, rgba(0, 0, 0, 0.502) 53.609%, rgba(0, 0, 0, 0.698) 66.739%, rgba(0, 0, 0, 0.698) 100%)" }} data-name="Rectangle" />
+                    <div className="absolute content-stretch flex flex-col inset-0 items-start justify-between p-[16px]" data-node-id="I2568:13374;2565:1238" data-name="Frame">
+                      <div className="bg-[var(--mai\/smtc\/background\/ctrl\/on-image\/rest,black)] content-stretch flex gap-[var(--smtc\/gap\/between\/content\/xxx-small,2px)] h-[20px] items-center pb-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/bottom,2px)] pt-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/top,2px)] px-[var(--smtc\/ctrl\/badge\/sm\/padding,4px)] relative rounded-[var(--smtc\/ctrl\/badge\/corner,8px)] shrink-0" data-node-id="I2568:13374;2565:1239" data-name="Badge">
+                        <div className="content-stretch flex h-[13px] items-center relative shrink-0" data-node-id="I2568:13374;2565:1239;88720:35156" data-name="IconContainer">
+                          <div className="relative shrink-0 size-[12px]" data-node-id="I2568:13374;2565:1239;71493:230763" data-name="Icon">
+                            <CodeConnectSnippet data-node-id="I2568:13374;2565:1239;71493:230763;115630:166841" data-name="ImageMultiple">
+                              <SerpIcon />
+                            </CodeConnectSnippet>
+                          </div>
+                        </div>
+                        <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] leading-[var(--text\/global\/caption2\/lineheight,13px)] relative shrink-0 text-[color:var(--mai\/smtc\/foreground\/ctrl\/on-image\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center whitespace-nowrap" data-node-id="I2568:13374;2565:1239;64508:210742" style={{ fontVariationSettings: '"wdth" 100' }}>
+                          24 images
+                        </p>
+                      </div>
+                      <div className="content-stretch flex flex-col gap-[var(--bing\/smtc\/padding\/ctrl-xlg\/text-top,16px)] items-start relative shrink-0 w-full" data-node-id="I2568:13374;2565:1253" data-name="Frame">
+                        <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--bing\/smtc\/padding\/ctrl-xs\/horizontal,4px)] items-center relative shrink-0 w-full" data-node-id="I2568:13374;2565:1254" data-name="Frame">
+                          <p className="font-['Alice:Regular'] leading-[1.2] not-italic overflow-hidden relative shrink-0 text-[28px] text-[color:var(--gallery-glass-on-glass,white)] text-ellipsis w-full" data-node-id="I2568:13374;2565:1255">
+                            The Alaska Range
+                          </p>
+                          <p className="font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/body3\/lineheight,22px)] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-image\/switchable\/rest,white)] text-[length:var(--text\/global\/body3\/fontsize,14px)] w-full" data-node-id="I2568:13374;2565:1256" style={{ fontVariationSettings: '"wdth" 100' }}>{`Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.`}</p>
+                        </div>
+                        <div className="content-stretch flex gap-[var(--smtc\/ctrl\/badge\/padding,8px)] items-start relative shrink-0 w-full" data-node-id="I2568:13374;2565:1257" data-name="Frame">
+                          <div className="border border-[var(--smtc\/ctrl\/focus\/inner\/stroke,white)] border-solid content-stretch flex flex-col items-start overflow-clip relative rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] shadow-[-2px_6px_15px_0px_rgba(0,0,0,0.1)] shrink-0 size-[64px]" data-node-id="I2568:13374;2565:1258" data-name="16:9">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] size-full" src={imgRectangle} />
+                            <div className="flex h-[36.001px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13374;2565:1259">
+                              <div className="flex-none rotate-[-34.23deg] w-full">
+                                <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="content-stretch flex flex-col items-start overflow-clip relative rounded-[var(--smtc\/corner\/flyout\/rest,8px)] shrink-0 size-[64px]" data-node-id="I2568:13374;2565:1260" data-name="16:9">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--smtc\/corner\/flyout\/rest,8px)] size-full" src={imgRectangle} />
+                            <div className="flex h-[36.001px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13374;2565:1261">
+                              <div className="flex-none rotate-[-34.23deg] w-full">
+                                <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="content-stretch flex flex-col items-start overflow-clip relative rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] shadow-[-2px_6px_15px_0px_rgba(0,0,0,0.1)] shrink-0 size-[64px]" data-node-id="I2568:13374;2565:1262" data-name="16:9">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] size-full" src={imgRectangle} />
+                            <div className="flex h-[36.001px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13374;2565:1263">
+                              <div className="flex-none rotate-[-34.23deg] w-full">
+                                <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="content-stretch flex flex-col items-start overflow-clip relative rounded-[var(--smtc\/corner\/ctrl\/lg\/rest,8px)] shrink-0 size-[64px]" data-node-id="I2568:13374;2565:1264" data-name="16:9">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--smtc\/corner\/ctrl\/lg\/rest,8px)] size-full" src={imgRectangle} />
+                            <div className="flex h-[36.001px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13374;2565:1265">
+                              <div className="flex-none rotate-[-34.23deg] w-full">
+                                <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start leading-[normal] not-italic overflow-clip px-[24px] relative shrink-0 w-full whitespace-nowrap" data-node-id="2568:13439" data-name="Label">
+                  <p className="font-['Inter:Semi_Bold'] relative shrink-0 text-[#1a1a1a] text-[14px]" data-node-id="2568:13440">
+                    Bottom bars
+                  </p>
+                  <p className="font-['Inter:Regular'] relative shrink-0 text-[#8c8c8c] text-[12px]" data-node-id="2568:13441">
+                    Hover · 3:4 · 312 × 424 px
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[28px] items-start relative shrink-0 w-full" data-node-id="2568:13442" data-name="Size group">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] leading-[normal] not-italic relative shrink-0 text-[#1a1a1a] text-[16px] w-full" data-node-id="2568:13443">
+              Size · 5:4 — 536 × 424 px
+            </p>
+            <div className="content-stretch flex gap-[24px] items-start relative shrink-0 w-full" data-node-id="2568:13444" data-name="Pagination variants">
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[28px] items-start min-w-px py-[24px] relative" data-node-id="2568:13445" data-name="Variant">
+                <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2568:13446" data-name="Instance stage">
+                  <div className="h-[424px] overflow-clip relative rounded-[var(--mai\/smtc\/corner\/card\/default,24px)] shrink-0 w-[536px]" data-node-id="2568:13447" data-name="Slide Card">
+                    <div className="absolute content-stretch flex flex-col h-[424px] items-center left-0 overflow-clip rounded-[var(--mai\/smtc\/corner\/card\/default,24px)] top-0 w-[536px]" data-node-id="I2568:13447;2565:1450" data-name="Slide content">
+                      <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13447;2565:1450;329:9833">
+                        <div className="absolute content-stretch flex items-center left-0 top-0 w-[2680px]" data-node-id="I2568:13447;2565:1450;329:9834">
+                          <div className="flex-[1_0_0] h-[424px] min-w-px relative" data-node-id="I2568:13447;2565:1450;329:9835" data-name="Image">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="absolute content-stretch drop-shadow-[0px_0px_2px_rgba(0,0,0,0.25)] flex gap-[var(--smtc\/gap\/inside\/ctrl\/to-secondary-icon,4px)] items-center left-[16px] top-[16px]" data-node-id="I2568:13447;2565:1450;723:36357" data-name="metadata">
+                            <div className="content-stretch flex items-center overflow-clip relative rounded-[var(--smtc\/corner\/ctrl\/sm\/rest,4px)] shrink-0 size-[16px]" data-node-id="I2568:13447;2565:1450;723:36357;723:36080" data-name="Thumbnail">
+                              <CodeConnectSnippet data-node-id="I2568:13447;2565:1450;723:36357;723:36080;131224:172906" data-name="Image">
+                                <SerpImage fuzzyMark="false" />
+                              </CodeConnectSnippet>
+                            </div>
+                            <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/caption1\/lineheight,20px)] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/content\/white,white)] text-[length:var(--text\/global\/caption1\/fontsize,13px)] whitespace-nowrap" data-node-id="I2568:13447;2565:1450;723:36357;723:36081" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              imdb.com
+                            </p>
+                          </div>
+                          <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13447;2565:1450;329:9836" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13447;2565:1450;329:9837" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13447;2565:1450;329:9838" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="content-stretch flex flex-col h-[424px] items-center justify-center overflow-clip p-[20px] relative shrink-0 w-[536px]" data-node-id="I2568:13447;2565:1450;329:9839" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                            <div className="absolute bg-[var(--smtc\/background\/smoke,rgba(0,0,0,0.6))] content-stretch flex flex-col inset-0 items-center justify-center" data-node-id="I2568:13447;2565:1450;329:9840" data-name="overlay">
+                              <div className="content-center flex flex-wrap gap-[var(--smtc\/gap\/between\/content\/xx-small,4px)] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13447;2565:1450;329:9841" data-name="link container">
+                                <div className="[word-break:break-word] flex flex-col font-[family-name:var(--text\/style\/default\/regular\/fontfamily,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-image\/switchable\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] whitespace-nowrap" data-node-id="I2568:13447;2565:1450;329:9842" style={{ fontVariationSettings: '"wdth" 100' }}>
+                                  <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">See more</p>
+                                </div>
+                                <CodeConnectSnippet data-node-id="I2568:13447;2565:1450;329:9843" data-name="Open" data-snippet-language="React">
+                                  <Open16Regular />
+                                </CodeConnectSnippet>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="absolute bottom-[20px] content-stretch flex gap-[var(--smtc\/gap\/between\/content\/x-small,8px)] items-start justify-center left-0 right-0" data-node-id="I2568:13447;2565:1450;329:10027" data-name="pagination">
+                        <CodeConnectSnippet data-node-id="I2568:13447;2565:1450;329:10027;62893:104421" data-name="Button">
+                          <SerpButton label={false} label="Click me" iconEnd={false} iconStart={true} color="primary" disabled="true" variant="solid" size="sm" state="default" pill="false" style="alwaysDark" weight="default" />
+                        </CodeConnectSnippet>
+                        <div className="bg-[var(--mai\/smtc\/background\/ctrl\/on-image\/rest,black)] content-stretch flex h-[28px] items-center justify-center px-[var(--smtc\/padding\/ctrl-sm\/horizontal-default,8px)] relative rounded-[var(--smtc\/corner\/ctrl\/sm\/rest,4px)] shrink-0" data-node-id="I2568:13447;2565:1450;329:10027;62893:104422" data-name="Number container">
+                          <div className="[word-break:break-word] content-stretch flex font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] gap-[var(--smtc\/gap\/between\/content\/xxx-small,2px)] h-[24px] items-center leading-[0] relative shrink-0 text-[color:var(--mai\/smtc\/foreground\/ctrl\/on-image\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center whitespace-nowrap" data-node-id="I2568:13447;2565:1450;329:10027;95744:97456" data-name="number container">
+                            <div className="flex flex-col justify-center relative shrink-0" data-node-id="I2568:13447;2565:1450;329:10027;95744:97457" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">1</p>
+                            </div>
+                            <div className="flex flex-col justify-center relative shrink-0" data-node-id="I2568:13447;2565:1450;329:10027;95744:97458" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">of</p>
+                            </div>
+                            <div className="flex flex-col justify-center relative shrink-0" data-node-id="I2568:13447;2565:1450;329:10027;95744:97459" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">4</p>
+                            </div>
+                          </div>
+                        </div>
+                        <CodeConnectSnippet data-node-id="I2568:13447;2565:1450;329:10027;62893:104424" data-name="Button">
+                          <SerpButton label="Click me" label={false} iconEnd={false} iconStart={true} color="primary" disabled="false" variant="solid" size="sm" state="default" pill="false" style="alwaysDark" weight="default" />
+                        </CodeConnectSnippet>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start leading-[normal] not-italic overflow-clip px-[24px] relative shrink-0 w-full whitespace-nowrap" data-node-id="2568:13532" data-name="Label">
+                  <p className="font-['Inter:Semi_Bold'] relative shrink-0 text-[#1a1a1a] text-[14px]" data-node-id="2568:13533">
+                    Bottom arrows
+                  </p>
+                  <p className="font-['Inter:Regular'] relative shrink-0 text-[#8c8c8c] text-[12px]" data-node-id="2568:13534">
+                    Default · 5:4 · 536 × 424 px
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[28px] items-start min-w-px py-[24px] relative" data-node-id="2568:13535" data-name="Variant">
+                <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2568:13536" data-name="Instance stage">
+                  <div className="h-[424px] overflow-clip relative rounded-[var(--mai\/smtc\/corner\/card\/default,24px)] shrink-0 w-[536px]" data-node-id="2568:13537" data-name="Slide Card">
+                    <div className="absolute content-stretch flex flex-col h-[424px] items-start left-0 overflow-clip rounded-[var(--mai\/smtc\/corner\/card\/default,24px)] top-0 w-[536px]" data-node-id="I2568:13537;2565:1333" data-name="Component 2">
+                      <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13537;2565:1333;328:80046">
+                        <div className="absolute content-stretch flex items-center left-0 top-0 w-[2680px]" data-node-id="I2568:13537;2565:1333;328:80047">
+                          <div className="flex-[1_0_0] h-[424px] min-w-px relative" data-node-id="I2568:13537;2565:1333;328:80048" data-name="Image">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="absolute content-stretch drop-shadow-[0px_0px_2px_rgba(0,0,0,0.25)] flex gap-[var(--smtc\/gap\/inside\/ctrl\/to-secondary-icon,4px)] items-center left-[16px] top-[388px]" data-node-id="I2568:13537;2565:1333;723:36389" data-name="metadata">
+                            <div className="content-stretch flex items-center overflow-clip relative rounded-[var(--smtc\/corner\/ctrl\/sm\/rest,4px)] shrink-0 size-[16px]" data-node-id="I2568:13537;2565:1333;723:36389;723:36080" data-name="Thumbnail">
+                              <CodeConnectSnippet data-node-id="I2568:13537;2565:1333;723:36389;723:36080;131224:172906" data-name="Image">
+                                <SerpImage fuzzyMark="false" />
+                              </CodeConnectSnippet>
+                            </div>
+                            <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/caption1\/lineheight,20px)] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/content\/white,white)] text-[length:var(--text\/global\/caption1\/fontsize,13px)] whitespace-nowrap" data-node-id="I2568:13537;2565:1333;723:36389;723:36081" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              imdb.com
+                            </p>
+                          </div>
+                          <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13537;2565:1333;328:80049" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13537;2565:1333;328:80050" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13537;2565:1333;328:80051" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="content-stretch flex flex-col h-[424px] items-center justify-center overflow-clip p-[20px] relative shrink-0 w-[536px]" data-node-id="I2568:13537;2565:1333;328:80052" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                            <div className="absolute bg-[var(--smtc\/background\/smoke,rgba(0,0,0,0.6))] content-stretch flex flex-col inset-0 items-center justify-center" data-node-id="I2568:13537;2565:1333;328:80053" data-name="overlay">
+                              <div className="content-center flex flex-wrap gap-[var(--smtc\/gap\/between\/content\/xx-small,4px)] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13537;2565:1333;328:80054" data-name="link container">
+                                <div className="[word-break:break-word] flex flex-col font-[family-name:var(--text\/style\/default\/regular\/fontfamily,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-image\/switchable\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] whitespace-nowrap" data-node-id="I2568:13537;2565:1333;328:80055" style={{ fontVariationSettings: '"wdth" 100' }}>
+                                  <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">See more</p>
+                                </div>
+                                <CodeConnectSnippet data-node-id="I2568:13537;2565:1333;328:80056" data-name="Open" data-snippet-language="React">
+                                  <Open16Regular />
+                                </CodeConnectSnippet>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="absolute bg-gradient-to-t content-stretch flex flex-col from-[var(--bing\/smtc\/background\/ctrl\/fade\/on-image\/stop-0,rgba(0,0,0,0))] gap-[var(--smtc\/ctrl\/badge\/padding,8px)] items-start justify-center left-0 px-[var(--smtc\/gap\/between\/content\/xx-large,36px)] py-[var(--smtc\/gap\/between\/content\/medium,16px)] right-0 to-[56.452%] to-[rgba(0,0,0,0.48)] top-0" data-node-id="I2568:13537;2565:1333;328:76314" data-name="Footer">
+                        <div className="content-stretch flex gap-[var(--smtc\/gap\/between\/content\/x-small,8px)] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13537;2565:1333;328:76315" data-name="Pagination Container">
+                          <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/rest,white)] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13537;2565:1333;328:76324" />
+                          <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13537;2565:1333;328:76326" />
+                          <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13537;2565:1333;328:76316" />
+                          <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13537;2565:1333;328:76330" />
+                        </div>
+                        <div className="[word-break:break-word] flex flex-col font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-subtle\/rest,white)] text-[length:var(--text\/global\/body3\/fontsize,14px)] whitespace-nowrap" data-node-id="I2568:13537;2565:1333;328:76334" style={{ fontVariationSettings: '"wdth" 100' }}>
+                          <p className="leading-[var(--text\/global\/body3\/lineheight,22px)]">Personable Tom at age 60s</p>
+                        </div>
+                      </div>
+                      <CodeConnectSnippet data-node-id="I2568:13537;2565:1333;328:76425" data-name="Button">
+                        <SerpButton label={false} label="Click me" iconEnd={false} iconStart={true} color="secondary" disabled="false" variant="solid" size="lg" state="default" pill="true" style="default" weight="default" />
+                      </CodeConnectSnippet>
+                      <CodeConnectSnippet data-node-id="I2568:13537;2565:1333;328:79972" data-name="Button">
+                        <SerpButton label={false} label="Click me" iconEnd={false} iconStart={true} color="secondary" disabled="true" variant="solid" size="lg" state="default" pill="true" style="default" weight="default" />
+                      </CodeConnectSnippet>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start leading-[normal] not-italic overflow-clip px-[24px] relative shrink-0 w-full whitespace-nowrap" data-node-id="2568:13625" data-name="Label">
+                  <p className="font-['Inter:Semi_Bold'] relative shrink-0 text-[#1a1a1a] text-[14px]" data-node-id="2568:13626">
+                    Top bars
+                  </p>
+                  <p className="font-['Inter:Regular'] relative shrink-0 text-[#8c8c8c] text-[12px]" data-node-id="2568:13627">
+                    Default · 5:4 · 536 × 424 px
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[24px] items-start relative shrink-0 w-full" data-node-id="2568:13628" data-name="Bottom bars state pair">
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[28px] items-start min-w-px py-[24px] relative" data-node-id="2568:13629" data-name="Variant">
+                <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2568:13630" data-name="Instance stage">
+                  <div className="drop-shadow-[0px_215px_30px_rgba(0,0,0,0),0px_137px_27.5px_rgba(0,0,0,0.01),0px_77px_23px_rgba(0,0,0,0.05),0px_34px_17px_rgba(0,0,0,0.09),0px_9px_9.5px_rgba(0,0,0,0.1)] h-[424px] overflow-clip relative rounded-[var(--static\/corner\/rounded\/6-base,24px)] shrink-0 w-[536px]" data-node-id="2568:13631" data-name="Slide Card">
+                    <div className="absolute inset-0 shadow-[0px_4px_12px_0px_rgba(0,0,0,0.12)]" data-node-id="I2568:13631;2565:1391" data-name="Rectangle">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                    </div>
+                    <div className="absolute backdrop-blur-[2px] h-[424px] left-0 top-0 w-[536px]" data-node-id="I2568:13631;2565:1392" style={{ backgroundImage: "linear-gradient(180deg, rgba(0, 0, 0, 0.051) 0%, rgba(0, 0, 0, 0.051) 40.76%, rgba(0, 0, 0, 0.502) 58.35%, rgba(0, 0, 0, 0.698) 79.5%, rgba(0, 0, 0, 0.698) 100%)" }} data-name="Rectangle" />
+                    <div className="absolute content-stretch flex flex-col gap-[16px] h-[400px] items-center justify-end left-[12px] pb-[var(--padding\/content\/xxsmall,4px)] pt-[var(--mai\/padding\/card\/body\/default\/outside,18px)] px-[var(--mai\/padding\/card\/body\/default\/outside,18px)] right-[12px] top-[12px]" data-node-id="I2568:13631;2565:1393" data-name="Frame">
+                      <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--bing\/smtc\/padding\/ctrl-xs\/horizontal,4px)] items-center relative shrink-0 w-full" data-node-id="I2568:13631;2563:15625" data-name="Frame">
+                        <p className="font-['Alice:Regular'] leading-[1.2] not-italic overflow-hidden relative shrink-0 text-[28px] text-[color:var(--gallery-glass-on-glass,white)] text-ellipsis w-full" data-node-id="I2568:13631;2563:15626">
+                          The Alaska Range
+                        </p>
+                        <p className="font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/body3\/lineheight,22px)] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-image\/switchable\/rest,white)] text-[length:var(--text\/global\/body3\/fontsize,14px)] w-full" data-node-id="I2568:13631;2563:15627" style={{ fontVariationSettings: '"wdth" 100' }}>{`Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.`}</p>
+                      </div>
+                      <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="I2568:13631;2565:1398" data-name="Pagination indicators">
+                        <div className="content-stretch flex flex-[1_0_0] gap-[3px] items-center min-w-px relative" data-node-id="I2568:13631;2565:1399" data-name="Bars">
+                          <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13631;2565:1400" data-name="Progress Indicator / Story 6">
+                            <div className="absolute bg-[var(--foreground\/ctrl\/neutral\/primary\/rest,#e5ebfa)] h-[4px] left-0 right-1/4 top-0" data-node-id="I2568:13631;2565:1401" data-name="progress" />
+                          </div>
+                          <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px relative rounded-[2px]" data-node-id="I2568:13631;2565:1402" data-name="Progress Indicator / Story 11" />
+                          <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px relative rounded-[2px]" data-node-id="I2568:13631;2565:1403" data-name="Progress Indicator / Story 12" />
+                          <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px relative rounded-[2px]" data-node-id="I2568:13631;2565:1404" data-name="Progress Indicator / Story 13" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bg-[var(--mai\/smtc\/background\/ctrl\/on-image\/rest,black)] content-stretch flex gap-[var(--smtc\/gap\/between\/content\/xxx-small,2px)] h-[20px] items-center left-[13px] pb-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/bottom,2px)] pt-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/top,2px)] px-[var(--smtc\/ctrl\/badge\/sm\/padding,4px)] rounded-[var(--smtc\/ctrl\/badge\/corner,8px)] top-[12px]" data-node-id="I2568:13631;2565:1406" data-name="Badge">
+                      <div className="content-stretch flex h-[13px] items-center relative shrink-0" data-node-id="I2568:13631;2565:1406;88720:35156" data-name="IconContainer">
+                        <div className="relative shrink-0 size-[12px]" data-node-id="I2568:13631;2565:1406;71493:230763" data-name="Icon">
+                          <CodeConnectSnippet data-node-id="I2568:13631;2565:1406;71493:230763;115630:166841" data-name="ImageMultiple">
+                            <SerpIcon />
+                          </CodeConnectSnippet>
+                        </div>
+                      </div>
+                      <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] leading-[var(--text\/global\/caption2\/lineheight,13px)] relative shrink-0 text-[color:var(--mai\/smtc\/foreground\/ctrl\/on-image\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center whitespace-nowrap" data-node-id="I2568:13631;2565:1406;64508:210742" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        23 images
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start leading-[normal] not-italic overflow-clip px-[24px] relative shrink-0 w-full whitespace-nowrap" data-node-id="2568:13694" data-name="Label">
+                  <p className="font-['Inter:Semi_Bold'] relative shrink-0 text-[#1a1a1a] text-[14px]" data-node-id="2568:13695">
+                    Bottom bars
+                  </p>
+                  <p className="font-['Inter:Regular'] relative shrink-0 text-[#8c8c8c] text-[12px]" data-node-id="2568:13696">
+                    Default · 5:4 · 536 × 424 px
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[28px] items-start min-w-px py-[24px] relative" data-node-id="2568:13697" data-name="Variant">
+                <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2568:13698" data-name="Instance stage">
+                  <div className="drop-shadow-[0px_215px_30px_rgba(0,0,0,0),0px_137px_27.5px_rgba(0,0,0,0.01),0px_77px_23px_rgba(0,0,0,0.05),0px_34px_17px_rgba(0,0,0,0.09),0px_9px_9.5px_rgba(0,0,0,0.1)] h-[424px] overflow-clip relative rounded-[var(--static\/corner\/rounded\/6-base,24px)] shrink-0 w-[536px]" data-node-id="2568:13699" data-name="Slide Card">
+                    <div className="absolute inset-0 shadow-[0px_4px_12px_0px_rgba(0,0,0,0.12)]" data-node-id="I2568:13699;2565:1420" data-name="Rectangle">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                    </div>
+                    <div className="absolute backdrop-blur-[2px] h-[424px] left-0 top-0 w-[536px]" data-node-id="I2568:13699;2565:1421" style={{ backgroundImage: "linear-gradient(180deg, rgba(0, 0, 0, 0.051) 0%, rgba(0, 0, 0, 0.102) 18.18%, rgba(0, 0, 0, 0.502) 33.99%, rgba(0, 0, 0, 0.698) 53.5%, rgba(0, 0, 0, 0.698) 100%)" }} data-name="Rectangle" />
+                    <div className="absolute content-stretch flex flex-col gap-[16px] h-[400px] items-center justify-end left-[12px] pb-[var(--padding\/content\/xxsmall,4px)] pt-[var(--mai\/padding\/card\/body\/default\/outside,18px)] px-[var(--mai\/padding\/card\/body\/default\/outside,18px)] right-[12px] top-[12px]" data-node-id="I2568:13699;2565:1422" data-name="Frame">
+                      <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--bing\/smtc\/padding\/ctrl-xs\/horizontal,4px)] items-center relative shrink-0 w-full" data-node-id="I2568:13699;2563:15629" data-name="Frame">
+                        <p className="font-['Alice:Regular'] leading-[1.2] not-italic overflow-hidden relative shrink-0 text-[28px] text-[color:var(--gallery-glass-on-glass,white)] text-ellipsis w-full" data-node-id="I2568:13699;2563:15630">
+                          The Alaska Range
+                        </p>
+                        <p className="font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/body3\/lineheight,22px)] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-image\/switchable\/rest,white)] text-[length:var(--text\/global\/body3\/fontsize,14px)] w-full" data-node-id="I2568:13699;2563:15631" style={{ fontVariationSettings: '"wdth" 100' }}>{`Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.`}</p>
+                      </div>
+                      <div className="content-stretch flex gap-[var(--smtc\/gap\/between\/content\/small,12px)] items-start relative shrink-0 w-full" data-node-id="I2568:13699;2565:1427" data-name="Frame">
+                        <div className="aspect-square border border-[var(--smtc\/ctrl\/focus\/inner\/stroke,white)] border-solid content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip relative rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] shadow-[-2px_6px_15px_0px_rgba(0,0,0,0.1)]" data-node-id="I2568:13699;2565:1428" data-name="16:9">
+                          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] size-full" src={imgRectangle} />
+                          <div className="flex h-[61.877px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13699;2565:1429">
+                            <div className="flex-none rotate-[-34.23deg] w-full">
+                              <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="aspect-square content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip relative rounded-[var(--smtc\/corner\/flyout\/rest,8px)]" data-node-id="I2568:13699;2565:1430" data-name="16:9">
+                          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--smtc\/corner\/flyout\/rest,8px)] size-full" src={imgRectangle} />
+                          <div className="flex h-[61.877px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13699;2565:1431">
+                            <div className="flex-none rotate-[-34.23deg] w-full">
+                              <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="aspect-square content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip relative rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] shadow-[-2px_6px_15px_0px_rgba(0,0,0,0.1)]" data-node-id="I2568:13699;2565:1432" data-name="16:9">
+                          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] size-full" src={imgRectangle} />
+                          <div className="flex h-[61.877px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13699;2565:1433">
+                            <div className="flex-none rotate-[-34.23deg] w-full">
+                              <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="aspect-square content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip relative rounded-[var(--smtc\/corner\/ctrl\/lg\/rest,8px)]" data-node-id="I2568:13699;2565:1434" data-name="16:9">
+                          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--smtc\/corner\/ctrl\/lg\/rest,8px)] size-full" src={imgRectangle} />
+                          <div className="flex h-[61.877px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13699;2565:1435">
+                            <div className="flex-none rotate-[-34.23deg] w-full">
+                              <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bg-[var(--mai\/smtc\/background\/ctrl\/on-image\/rest,black)] content-stretch flex gap-[var(--smtc\/gap\/between\/content\/xxx-small,2px)] h-[20px] items-center left-[13px] pb-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/bottom,2px)] pt-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/top,2px)] px-[var(--smtc\/ctrl\/badge\/sm\/padding,4px)] rounded-[var(--smtc\/ctrl\/badge\/corner,8px)] top-[12px]" data-node-id="I2568:13699;2565:1436" data-name="Badge">
+                      <div className="content-stretch flex h-[13px] items-center relative shrink-0" data-node-id="I2568:13699;2565:1436;88720:35156" data-name="IconContainer">
+                        <div className="relative shrink-0 size-[12px]" data-node-id="I2568:13699;2565:1436;71493:230763" data-name="Icon">
+                          <CodeConnectSnippet data-node-id="I2568:13699;2565:1436;71493:230763;115630:166841" data-name="ImageMultiple">
+                            <SerpIcon />
+                          </CodeConnectSnippet>
+                        </div>
+                      </div>
+                      <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] leading-[var(--text\/global\/caption2\/lineheight,13px)] relative shrink-0 text-[color:var(--mai\/smtc\/foreground\/ctrl\/on-image\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center whitespace-nowrap" data-node-id="I2568:13699;2565:1436;64508:210742" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        23 images
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start leading-[normal] not-italic overflow-clip px-[24px] relative shrink-0 w-full whitespace-nowrap" data-node-id="2568:13763" data-name="Label">
+                  <p className="font-['Inter:Semi_Bold'] relative shrink-0 text-[#1a1a1a] text-[14px]" data-node-id="2568:13764">
+                    Bottom bars
+                  </p>
+                  <p className="font-['Inter:Regular'] relative shrink-0 text-[#8c8c8c] text-[12px]" data-node-id="2568:13765">
+                    Hover · 5:4 · 536 × 424 px
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[28px] items-start relative shrink-0 w-full" data-node-id="2568:13766" data-name="Size group">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] leading-[normal] not-italic relative shrink-0 text-[#1a1a1a] text-[16px] w-full" data-node-id="2568:13767">
+              Size · 3:2 — 312 × 204 px
+            </p>
+            <div className="content-stretch flex gap-[24px] items-start overflow-clip relative shrink-0 w-full" data-node-id="2568:13768" data-name="Pagination variants">
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[28px] items-start min-w-px py-[24px] relative" data-node-id="2568:13769" data-name="Variant">
+                <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2568:13770" data-name="Instance stage">
+                  <div className="h-[204px] overflow-clip relative rounded-[var(--mai\/smtc\/corner\/card\/default,24px)] shrink-0 w-[312px]" data-node-id="2568:13771" data-name="Slide Card">
+                    <div className="absolute content-stretch flex flex-col h-[204px] items-center left-0 overflow-clip rounded-[var(--mai\/smtc\/corner\/card\/default,24px)] top-0 w-[312px]" data-node-id="I2568:13771;2567:713" data-name="Slide content">
+                      <div className="h-[204px] relative shrink-0 w-[312px]" data-node-id="I2568:13771;2567:714">
+                        <div className="absolute content-stretch flex items-center left-0 top-0 w-[1560px]" data-node-id="I2568:13771;2567:715">
+                          <div className="h-[204px] relative shrink-0 w-[312px]" data-node-id="I2568:13771;2567:716" data-name="Image">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="absolute content-stretch drop-shadow-[0px_0px_2px_rgba(0,0,0,0.25)] flex gap-[var(--smtc\/gap\/inside\/ctrl\/to-secondary-icon,4px)] items-center left-[16px] top-[16px]" data-node-id="I2568:13771;2567:717" data-name="metadata">
+                            <div className="content-stretch flex items-center overflow-clip relative rounded-[var(--smtc\/corner\/ctrl\/sm\/rest,4px)] shrink-0 size-[16px]" data-node-id="I2568:13771;2567:717;723:36080" data-name="Thumbnail">
+                              <CodeConnectSnippet data-node-id="I2568:13771;2567:717;723:36080;131224:172906" data-name="Image">
+                                <SerpImage fuzzyMark="false" />
+                              </CodeConnectSnippet>
+                            </div>
+                            <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/caption1\/lineheight,20px)] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/content\/white,white)] text-[length:var(--text\/global\/caption1\/fontsize,13px)] whitespace-nowrap" data-node-id="I2568:13771;2567:717;723:36081" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              imdb.com
+                            </p>
+                          </div>
+                          <div className="h-[204px] relative shrink-0 w-[312px]" data-node-id="I2568:13771;2567:718" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="h-[204px] relative shrink-0 w-[312px]" data-node-id="I2568:13771;2567:719" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="h-[204px] relative shrink-0 w-[312px]" data-node-id="I2568:13771;2567:720" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="content-stretch flex flex-col h-[204px] items-center justify-center overflow-clip p-[20px] relative shrink-0 w-[312px]" data-node-id="I2568:13771;2567:721" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                            <div className="absolute bg-[var(--smtc\/background\/smoke,rgba(0,0,0,0.6))] content-stretch flex flex-col inset-0 items-center justify-center" data-node-id="I2568:13771;2567:722" data-name="overlay">
+                              <div className="content-center flex flex-wrap gap-[var(--smtc\/gap\/between\/content\/xx-small,4px)] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13771;2567:723" data-name="link container">
+                                <div className="[word-break:break-word] flex flex-col font-[family-name:var(--text\/style\/default\/regular\/fontfamily,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-image\/switchable\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] whitespace-nowrap" data-node-id="I2568:13771;2567:724" style={{ fontVariationSettings: '"wdth" 100' }}>
+                                  <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">See more</p>
+                                </div>
+                                <CodeConnectSnippet data-node-id="I2568:13771;2567:725" data-name="Open" data-snippet-language="React">
+                                  <Open16Regular />
+                                </CodeConnectSnippet>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="absolute bottom-[20px] content-stretch flex gap-[var(--smtc\/gap\/between\/content\/x-small,8px)] items-start justify-center left-0 right-0" data-node-id="I2568:13771;2567:727" data-name="pagination">
+                        <CodeConnectSnippet data-node-id="I2568:13771;2567:727;62893:104421" data-name="Button">
+                          <SerpButton label={false} label="Click me" iconEnd={false} iconStart={true} color="primary" disabled="true" variant="solid" size="sm" state="default" pill="false" style="alwaysDark" weight="default" />
+                        </CodeConnectSnippet>
+                        <div className="bg-[var(--mai\/smtc\/background\/ctrl\/on-image\/rest,black)] content-stretch flex h-[28px] items-center justify-center px-[var(--smtc\/padding\/ctrl-sm\/horizontal-default,8px)] relative rounded-[var(--smtc\/corner\/ctrl\/sm\/rest,4px)] shrink-0" data-node-id="I2568:13771;2567:727;62893:104422" data-name="Number container">
+                          <div className="[word-break:break-word] content-stretch flex font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] gap-[var(--smtc\/gap\/between\/content\/xxx-small,2px)] h-[24px] items-center leading-[0] relative shrink-0 text-[color:var(--mai\/smtc\/foreground\/ctrl\/on-image\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center whitespace-nowrap" data-node-id="I2568:13771;2567:727;95744:97456" data-name="number container">
+                            <div className="flex flex-col justify-center relative shrink-0" data-node-id="I2568:13771;2567:727;95744:97457" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">1</p>
+                            </div>
+                            <div className="flex flex-col justify-center relative shrink-0" data-node-id="I2568:13771;2567:727;95744:97458" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">of</p>
+                            </div>
+                            <div className="flex flex-col justify-center relative shrink-0" data-node-id="I2568:13771;2567:727;95744:97459" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">4</p>
+                            </div>
+                          </div>
+                        </div>
+                        <CodeConnectSnippet data-node-id="I2568:13771;2567:727;62893:104424" data-name="Button">
+                          <SerpButton label="Click me" label={false} iconEnd={false} iconStart={true} color="primary" disabled="false" variant="solid" size="sm" state="default" pill="false" style="alwaysDark" weight="default" />
+                        </CodeConnectSnippet>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start leading-[normal] not-italic overflow-clip px-[24px] relative shrink-0 w-full whitespace-nowrap" data-node-id="2568:13856" data-name="Label">
+                  <p className="font-['Inter:Semi_Bold'] relative shrink-0 text-[#1a1a1a] text-[14px]" data-node-id="2568:13857">
+                    Bottom arrows
+                  </p>
+                  <p className="font-['Inter:Regular'] relative shrink-0 text-[#8c8c8c] text-[12px]" data-node-id="2568:13858">
+                    Default · 3:2 · 312 × 204 px
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[28px] items-start min-w-px py-[24px] relative" data-node-id="2568:13859" data-name="Variant">
+                <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2568:13860" data-name="Instance stage">
+                  <div className="h-[204px] overflow-clip relative rounded-[var(--mai\/smtc\/corner\/card\/default,24px)] shrink-0 w-[312px]" data-node-id="2568:13861" data-name="Slide Card">
+                    <div className="absolute content-stretch flex flex-col h-[204px] items-start left-0 overflow-clip rounded-[var(--mai\/smtc\/corner\/card\/default,24px)] top-0 w-[312px]" data-node-id="I2568:13861;2567:800" data-name="Component 2">
+                      <div className="h-[204px] relative shrink-0 w-[312px]" data-node-id="I2568:13861;2567:801">
+                        <div className="absolute content-stretch flex items-center left-0 top-0 w-[1560px]" data-node-id="I2568:13861;2567:802">
+                          <div className="h-[204px] relative shrink-0 w-[312px]" data-node-id="I2568:13861;2567:803" data-name="Image">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="absolute content-stretch drop-shadow-[0px_0px_2px_rgba(0,0,0,0.25)] flex gap-[var(--smtc\/gap\/inside\/ctrl\/to-secondary-icon,4px)] items-center left-[16px] top-[168px]" data-node-id="I2568:13861;2567:804" data-name="metadata">
+                            <div className="content-stretch flex items-center overflow-clip relative rounded-[var(--smtc\/corner\/ctrl\/sm\/rest,4px)] shrink-0 size-[16px]" data-node-id="I2568:13861;2567:804;723:36080" data-name="Thumbnail">
+                              <CodeConnectSnippet data-node-id="I2568:13861;2567:804;723:36080;131224:172906" data-name="Image">
+                                <SerpImage fuzzyMark="false" />
+                              </CodeConnectSnippet>
+                            </div>
+                            <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/caption1\/lineheight,20px)] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/content\/white,white)] text-[length:var(--text\/global\/caption1\/fontsize,13px)] whitespace-nowrap" data-node-id="I2568:13861;2567:804;723:36081" style={{ fontVariationSettings: '"wdth" 100' }}>
+                              imdb.com
+                            </p>
+                          </div>
+                          <div className="h-[204px] relative shrink-0 w-[312px]" data-node-id="I2568:13861;2567:805" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="h-[204px] relative shrink-0 w-[312px]" data-node-id="I2568:13861;2567:806" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="h-[204px] relative shrink-0 w-[312px]" data-node-id="I2568:13861;2567:807" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                          </div>
+                          <div className="content-stretch flex flex-col h-[204px] items-center justify-center overflow-clip p-[20px] relative shrink-0 w-[312px]" data-node-id="I2568:13861;2567:808" data-name="4*4">
+                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                            <div className="absolute bg-[var(--smtc\/background\/smoke,rgba(0,0,0,0.6))] content-stretch flex flex-col inset-0 items-center justify-center" data-node-id="I2568:13861;2567:809" data-name="overlay">
+                              <div className="content-center flex flex-wrap gap-[var(--smtc\/gap\/between\/content\/xx-small,4px)] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13861;2567:810" data-name="link container">
+                                <div className="[word-break:break-word] flex flex-col font-[family-name:var(--text\/style\/default\/regular\/fontfamily,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-image\/switchable\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] whitespace-nowrap" data-node-id="I2568:13861;2567:811" style={{ fontVariationSettings: '"wdth" 100' }}>
+                                  <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">See more</p>
+                                </div>
+                                <CodeConnectSnippet data-node-id="I2568:13861;2567:812" data-name="Open" data-snippet-language="React">
+                                  <Open16Regular />
+                                </CodeConnectSnippet>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="absolute bg-gradient-to-t content-stretch flex flex-col from-[var(--bing\/smtc\/background\/ctrl\/fade\/on-image\/stop-0,rgba(0,0,0,0))] gap-[var(--smtc\/ctrl\/badge\/padding,8px)] items-start justify-center left-0 px-[var(--smtc\/gap\/between\/content\/xx-large,36px)] py-[var(--smtc\/gap\/between\/content\/medium,16px)] right-0 to-[56.452%] to-[rgba(0,0,0,0.48)] top-0" data-node-id="I2568:13861;2567:814" data-name="Footer">
+                        <div className="content-stretch flex gap-[var(--smtc\/gap\/between\/content\/x-small,8px)] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13861;2567:815" data-name="Pagination Container">
+                          <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/rest,white)] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13861;2567:816" />
+                          <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13861;2567:817" />
+                          <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13861;2567:818" />
+                          <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13861;2567:819" />
+                        </div>
+                        <div className="[word-break:break-word] flex flex-col font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-subtle\/rest,white)] text-[length:var(--text\/global\/body3\/fontsize,14px)] whitespace-nowrap" data-node-id="I2568:13861;2567:822" style={{ fontVariationSettings: '"wdth" 100' }}>
+                          <p className="leading-[var(--text\/global\/body3\/lineheight,22px)]">Personable Tom at age 60s</p>
+                        </div>
+                      </div>
+                      <CodeConnectSnippet data-node-id="I2568:13861;2567:823" data-name="Button">
+                        <SerpButton label={false} label="Click me" iconEnd={false} iconStart={true} color="secondary" disabled="false" variant="solid" size="lg" state="default" pill="true" style="default" weight="default" />
+                      </CodeConnectSnippet>
+                      <CodeConnectSnippet data-node-id="I2568:13861;2567:824" data-name="Button">
+                        <SerpButton label={false} label="Click me" iconEnd={false} iconStart={true} color="secondary" disabled="true" variant="solid" size="lg" state="default" pill="true" style="default" weight="default" />
+                      </CodeConnectSnippet>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start leading-[normal] not-italic overflow-clip px-[24px] relative shrink-0 w-full whitespace-nowrap" data-node-id="2568:13949" data-name="Label">
+                  <p className="font-['Inter:Semi_Bold'] relative shrink-0 text-[#1a1a1a] text-[14px]" data-node-id="2568:13950">
+                    Top bars
+                  </p>
+                  <p className="font-['Inter:Regular'] relative shrink-0 text-[#8c8c8c] text-[12px]" data-node-id="2568:13951">
+                    Default · 3:2 · 312 × 204 px
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[24px] items-start relative shrink-0 w-full" data-node-id="2568:13952" data-name="Bottom bars state pair">
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[28px] items-start min-w-px py-[24px] relative" data-node-id="2568:13953" data-name="Variant">
+                <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2568:13954" data-name="Instance stage">
+                  <div className="drop-shadow-[0px_215px_30px_rgba(0,0,0,0),0px_137px_27.5px_rgba(0,0,0,0.01),0px_77px_23px_rgba(0,0,0,0.05),0px_34px_17px_rgba(0,0,0,0.09),0px_9px_9.5px_rgba(0,0,0,0.1)] h-[204px] overflow-clip relative rounded-[var(--static\/corner\/rounded\/6-base,24px)] shrink-0 w-[312px]" data-node-id="2568:13955" data-name="Slide Card">
+                    <div className="absolute inset-[-95px_0_-125px_0] shadow-[0px_4px_12px_0px_rgba(0,0,0,0.12)]" data-node-id="I2568:13955;2563:14819">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                    </div>
+                    <div className="absolute backdrop-blur-[2px] h-[204px] left-0 top-0 w-[312px]" data-node-id="I2568:13955;2563:14820" style={{ backgroundImage: "linear-gradient(179.9999999999963deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 40.762%, rgba(0, 0, 0, 0.5) 58.355%, rgba(0, 0, 0, 0.7) 79.5%, rgba(0, 0, 0, 0.7) 100%)" }} />
+                    <div className="absolute content-stretch flex flex-col gap-[16px] h-[180px] items-center justify-end left-[12px] pb-[var(--padding\/content\/xxsmall,4px)] pt-[var(--mai\/padding\/card\/body\/default\/outside,18px)] px-[var(--mai\/padding\/card\/body\/default\/outside,18px)] right-[12px] top-[12px]" data-node-id="I2568:13955;2563:14823">
+                      <div className="content-stretch flex flex-col gap-[var(--bing\/smtc\/padding\/ctrl-xs\/horizontal,4px)] items-center px-[var(--padding\/ctrl\/textside,2px)] relative shrink-0 w-full" data-node-id="I2568:13955;2563:14824" data-name="Content">
+                        <p className="[word-break:break-word] font-['Alice:Regular'] leading-[var(--text\/global\/subtitle1\/lineheight,26px)] min-w-full not-italic overflow-hidden relative shrink-0 text-[20px] text-[color:var(--mai\/foreground\/ctrl\/onimage,white)] text-center text-ellipsis w-[min-content]" data-node-id="I2568:13955;2563:14829">
+                          Colors of the Tundra
+                        </p>
+                        <div className="content-stretch flex gap-[var(--ctrl\/badge\/gap,2px)] items-center justify-center min-h-[19px] min-w-[20px] relative rounded-[var(--ctrl\/badge\/corner,8px)] shrink-0 w-full" data-node-id="I2568:13955;2563:14830" data-name="Attribution">
+                          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] h-full justify-center leading-[0] min-w-px relative text-[color:var(--mai\/foreground\/ctrl\/onimage,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center" style={{ fontVariationSettings: '"wdth" 100' }}>
+                            <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">{`Explore Denali's open tundra, from summer wildflowers to brilliant autumn colors.`}</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="content-stretch flex items-center relative shrink-0 w-[138px]" data-node-id="I2568:13955;2563:14832" data-name="Pagination indicators">
+                        <div className="content-stretch flex flex-[1_0_0] gap-[3px] items-center min-w-px relative" data-node-id="I2568:13955;2563:14833" data-name="Bars">
+                          <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13955;2563:14834" data-name="Progress Indicator / Story 6">
+                            <div className="absolute bg-[var(--foreground\/ctrl\/neutral\/primary\/rest,#e5ebfa)] h-[4px] left-0 right-1/4 top-0" data-node-id="I2568:13955;2563:14835" data-name="progress" />
+                          </div>
+                          <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13955;2563:14836" data-name="Progress Indicator / Story 11" />
+                          <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13955;2563:14838" data-name="Progress Indicator / Story 12" />
+                          <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13955;2563:14840" data-name="Progress Indicator / Story 13" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bg-[var(--mai\/smtc\/background\/ctrl\/on-image\/rest,black)] content-stretch flex gap-[var(--smtc\/gap\/between\/content\/xxx-small,2px)] h-[20px] items-center left-[13px] pb-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/bottom,2px)] pt-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/top,2px)] px-[var(--smtc\/ctrl\/badge\/sm\/padding,4px)] rounded-[var(--smtc\/ctrl\/badge\/corner,8px)] top-[12px]" data-node-id="I2568:13955;2563:14845" data-name="Badge">
+                      <div className="content-stretch flex h-[13px] items-center relative shrink-0" data-node-id="I2568:13955;2563:14845;88720:35156" data-name="IconContainer">
+                        <div className="relative shrink-0 size-[12px]" data-node-id="I2568:13955;2563:14845;71493:230763" data-name="Icon">
+                          <CodeConnectSnippet data-node-id="I2568:13955;2563:14845;71493:230763;115630:166841" data-name="ImageMultiple">
+                            <SerpIcon />
+                          </CodeConnectSnippet>
+                        </div>
+                      </div>
+                      <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] leading-[var(--text\/global\/caption2\/lineheight,13px)] relative shrink-0 text-[color:var(--mai\/smtc\/foreground\/ctrl\/on-image\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center whitespace-nowrap" data-node-id="I2568:13955;2563:14845;64508:210742" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        23 images
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start leading-[normal] not-italic overflow-clip px-[24px] relative shrink-0 w-full whitespace-nowrap" data-node-id="2568:14027" data-name="Label">
+                  <p className="font-['Inter:Semi_Bold'] relative shrink-0 text-[#1a1a1a] text-[14px]" data-node-id="2568:14028">
+                    Bottom bars
+                  </p>
+                  <p className="font-['Inter:Regular'] relative shrink-0 text-[#8c8c8c] text-[12px]" data-node-id="2568:14029">
+                    Default · 3:2 · 312 × 204 px
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col gap-[28px] items-start min-w-px py-[24px] relative" data-node-id="2568:14030" data-name="Variant">
+                <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-node-id="2568:14031" data-name="Instance stage">
+                  <div className="drop-shadow-[0px_215px_30px_rgba(0,0,0,0),0px_137px_27.5px_rgba(0,0,0,0.01),0px_77px_23px_rgba(0,0,0,0.05),0px_34px_17px_rgba(0,0,0,0.09),0px_9px_9.5px_rgba(0,0,0,0.1)] h-[204px] overflow-clip relative rounded-[var(--static\/corner\/rounded\/6-base,24px)] shrink-0 w-[312px]" data-node-id="2568:14032" data-name="Slide Card">
+                    <div className="absolute inset-[-95px_0_-125px_0] shadow-[0px_4px_12px_0px_rgba(0,0,0,0.12)]" data-node-id="I2568:14032;2563:14847">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+                    </div>
+                    <div className="absolute backdrop-blur-[2px] h-[204px] left-0 top-0 w-[312px]" data-node-id="I2568:14032;2563:14848" style={{ backgroundImage: "linear-gradient(179.9999999999963deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.1) 18.181%, rgba(0, 0, 0, 0.5) 33.987%, rgba(0, 0, 0, 0.7) 53.503%, rgba(0, 0, 0, 0.7) 100%)" }} />
+                    <div className="absolute content-stretch flex flex-col gap-[16px] h-[180px] items-center justify-end left-[12px] pb-[var(--padding\/content\/xxsmall,4px)] pt-[var(--mai\/padding\/card\/body\/default\/outside,18px)] px-[var(--mai\/padding\/card\/body\/default\/outside,18px)] right-[12px] top-[12px]" data-node-id="I2568:14032;2563:14851">
+                      <div className="content-stretch flex flex-col gap-[var(--bing\/smtc\/padding\/ctrl-xs\/horizontal,4px)] items-center px-[var(--padding\/ctrl\/textside,2px)] relative shrink-0 w-full" data-node-id="I2568:14032;2563:14852" data-name="Content">
+                        <p className="[word-break:break-word] font-['Alice:Regular'] leading-[var(--text\/global\/subtitle1\/lineheight,26px)] min-w-full not-italic overflow-hidden relative shrink-0 text-[20px] text-[color:var(--mai\/foreground\/ctrl\/onimage,white)] text-center text-ellipsis w-[min-content]" data-node-id="I2568:14032;2563:14857">
+                          Colors of the Tundra
+                        </p>
+                        <div className="content-stretch flex gap-[var(--ctrl\/badge\/gap,2px)] items-center justify-center min-h-[19px] min-w-[20px] relative rounded-[var(--ctrl\/badge\/corner,8px)] shrink-0 w-full" data-node-id="I2568:14032;2563:14858" data-name="Attribution">
+                          <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] h-full justify-center leading-[0] min-w-px relative text-[color:var(--mai\/foreground\/ctrl\/onimage,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center" style={{ fontVariationSettings: '"wdth" 100' }}>
+                            <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">{`Explore Denali's open tundra, from summer wildflowers to brilliant autumn colors.`}</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="content-stretch flex gap-[var(--smtc\/gap\/between\/content\/small,12px)] items-start relative shrink-0 w-full" data-node-id="I2568:14032;2563:14860">
+                        <div className="aspect-[54/54] border border-[var(--smtc\/ctrl\/focus\/inner\/stroke,white)] border-solid content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip relative rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] shadow-[-59px_156px_47px_0px_rgba(0,0,0,0),-38px_100px_43px_0px_rgba(0,0,0,0.01),-21px_56px_36px_0px_rgba(0,0,0,0.05),-9px_25px_27px_0px_rgba(0,0,0,0.09),-2px_6px_15px_0px_rgba(0,0,0,0.1)]" data-node-id="I2568:14032;2563:14861" data-name="16:9">
+                          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] size-full" src={imgRectangle} />
+                          <div className="flex h-[30.375px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:14032;2563:14862">
+                            <div className="flex-none rotate-[-34.23deg] w-full">
+                              <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="aspect-[54/54] content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip relative rounded-[var(--smtc\/corner\/flyout\/rest,8px)]" data-node-id="I2568:14032;2563:14863" data-name="16:9">
+                          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--smtc\/corner\/flyout\/rest,8px)] size-full" src={imgRectangle} />
+                          <div className="flex h-[30.375px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:14032;2563:14864">
+                            <div className="flex-none rotate-[-34.23deg] w-full">
+                              <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="aspect-[54/54] content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip relative rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] shadow-[-59px_156px_47px_0px_rgba(0,0,0,0),-38px_100px_43px_0px_rgba(0,0,0,0.01),-21px_56px_36px_0px_rgba(0,0,0,0.05),-9px_25px_27px_0px_rgba(0,0,0,0.09),-2px_6px_15px_0px_rgba(0,0,0,0.1)]" data-node-id="I2568:14032;2563:14865" data-name="16:9">
+                          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] size-full" src={imgRectangle} />
+                          <div className="flex h-[30.375px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:14032;2563:14866">
+                            <div className="flex-none rotate-[-34.23deg] w-full">
+                              <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="aspect-[54/54] content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip relative rounded-[var(--smtc\/corner\/ctrl\/lg\/rest,8px)]" data-node-id="I2568:14032;2563:14867" data-name="16:9">
+                          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--smtc\/corner\/ctrl\/lg\/rest,8px)] size-full" src={imgRectangle} />
+                          <div className="flex h-[30.375px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:14032;2563:14868">
+                            <div className="flex-none rotate-[-34.23deg] w-full">
+                              <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="absolute bg-[var(--mai\/smtc\/background\/ctrl\/on-image\/rest,black)] content-stretch flex gap-[var(--smtc\/gap\/between\/content\/xxx-small,2px)] h-[20px] items-center left-[13px] pb-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/bottom,2px)] pt-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/top,2px)] px-[var(--smtc\/ctrl\/badge\/sm\/padding,4px)] rounded-[var(--smtc\/ctrl\/badge\/corner,8px)] top-[12px]" data-node-id="I2568:14032;2563:14870" data-name="Badge">
+                      <div className="content-stretch flex h-[13px] items-center relative shrink-0" data-node-id="I2568:14032;2563:14870;88720:35156" data-name="IconContainer">
+                        <div className="relative shrink-0 size-[12px]" data-node-id="I2568:14032;2563:14870;71493:230763" data-name="Icon">
+                          <CodeConnectSnippet data-node-id="I2568:14032;2563:14870;71493:230763;115630:166841" data-name="ImageMultiple">
+                            <SerpIcon />
+                          </CodeConnectSnippet>
+                        </div>
+                      </div>
+                      <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] leading-[var(--text\/global\/caption2\/lineheight,13px)] relative shrink-0 text-[color:var(--mai\/smtc\/foreground\/ctrl\/on-image\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center whitespace-nowrap" data-node-id="I2568:14032;2563:14870;64508:210742" style={{ fontVariationSettings: '"wdth" 100' }}>
+                        23 images
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[4px] items-start leading-[normal] not-italic overflow-clip px-[24px] relative shrink-0 w-full whitespace-nowrap" data-node-id="2568:14102" data-name="Label">
+                  <p className="font-['Inter:Semi_Bold'] relative shrink-0 text-[#1a1a1a] text-[14px]" data-node-id="2568:14103">
+                    Bottom bars
+                  </p>
+                  <p className="font-['Inter:Regular'] relative shrink-0 text-[#8c8c8c] text-[12px]" data-node-id="2568:14104">
+                    Hover · 3:2 · 312 × 204 px
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col items-start overflow-clip pb-[40px] pt-[56px] relative shrink-0 w-full" data-node-id="2568:14105" data-name="Divider">
+          <div className="bg-[#e6e6e6] h-px relative shrink-0 w-full" data-node-id="2568:14106" data-name="Rule" />
+        </div>
+        <div className="content-stretch flex flex-col gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="2568:14107" data-name="Properties">
+          <p className="[word-break:break-word] font-['Inter:Semi_Bold'] leading-[normal] not-italic relative shrink-0 text-[#8c8c8c] text-[11px] tracking-[1.5px] whitespace-nowrap" data-node-id="2568:14108">
+            PROPERTIES
+          </p>
+          <p className="[word-break:break-word] font-['Inter:Regular'] leading-[normal] min-w-full not-italic relative shrink-0 text-[#666] text-[14px] w-[min-content]" data-node-id="2568:14109">
+            Size, pagination and state specs for the Slide Card.
+          </p>
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="2568:14110" data-name="Properties table">
+            <div className="[word-break:break-word] content-stretch flex font-['Inter:Medium'] items-start leading-[normal] not-italic overflow-clip py-[10px] relative shrink-0 text-[#8c8c8c] text-[13px] w-full" data-node-id="2568:14111" data-name="Table header">
+              <p className="relative shrink-0 w-[200px]" data-node-id="2568:14112">
+                Property
+              </p>
+              <p className="relative shrink-0 w-[420px]" data-node-id="2568:14113">
+                Values
+              </p>
+              <p className="relative shrink-0 w-[660px]" data-node-id="2568:14114">
+                Specification
+              </p>
+            </div>
+            <div className="bg-[#ededed] h-px relative shrink-0 w-full" data-node-id="2568:14115" data-name="Rule" />
+            <div className="[word-break:break-word] content-stretch flex items-start not-italic overflow-clip py-[16px] relative shrink-0 text-[13px] w-full" data-node-id="2568:14116" data-name="Property row">
+              <p className="font-['Inter:Medium'] leading-[normal] relative shrink-0 text-[#333] w-[200px]" data-node-id="2568:14117">
+                Size
+              </p>
+              <p className="font-['Inter:Regular'] leading-[1.5] relative shrink-0 text-[#333] w-[420px]" data-node-id="2568:14118">
+                3:4 · 5:4 · 3:2
+              </p>
+              <p className="font-['Inter:Regular'] leading-[1.5] relative shrink-0 text-[#666] w-[660px]" data-node-id="2568:14119">
+                3:4 = 312 × 424 px; 5:4 = 536 × 424 px; 3:2 = 312 × 204 px.
+              </p>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex items-start not-italic overflow-clip py-[16px] relative shrink-0 text-[13px] w-full" data-node-id="2568:14120" data-name="Property row">
+              <p className="font-['Inter:Medium'] leading-[normal] relative shrink-0 text-[#333] w-[200px]" data-node-id="2568:14121">
+                Pagination
+              </p>
+              <p className="font-['Inter:Regular'] leading-[1.5] relative shrink-0 text-[#333] w-[420px]" data-node-id="2568:14122">
+                Bottom arrows · Top bars · Bottom bars
+              </p>
+              <p className="font-['Inter:Regular'] leading-[1.5] relative shrink-0 text-[#666] w-[660px]" data-node-id="2568:14123">
+                Three existing pagination treatments, available for every Size value.
+              </p>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex items-start not-italic overflow-clip py-[16px] relative shrink-0 text-[13px] w-full" data-node-id="2568:14124" data-name="Property row">
+              <p className="font-['Inter:Medium'] leading-[normal] relative shrink-0 text-[#333] w-[200px]" data-node-id="2568:14125">
+                State
+              </p>
+              <p className="font-['Inter:Regular'] leading-[1.5] relative shrink-0 text-[#333] w-[420px]" data-node-id="2568:14126">
+                Default · Hover
+              </p>
+              <p className="font-['Inter:Regular'] leading-[1.5] relative shrink-0 text-[#666] w-[660px]" data-node-id="2568:14127">
+                Default is available for all pagination styles. Hover applies only to Bottom bars.
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Regular'] leading-[1.5] min-w-full not-italic relative shrink-0 text-[#8c8c8c] text-[13px] w-[min-content]" data-node-id="2568:14128">
+            3:4, 5:4 and 3:2 are component property names, not exact mathematical aspect ratios. Use the pixel dimensions above; do not resize to fit a ratio.
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col items-start overflow-clip pb-[40px] pt-[56px] relative shrink-0 w-full" data-node-id="2568:14129" data-name="Divider">
+          <div className="bg-[#e6e6e6] h-px relative shrink-0 w-full" data-node-id="2568:14130" data-name="Rule" />
+        </div>
+        <div className="content-stretch flex flex-col gap-[16px] items-start overflow-clip relative shrink-0 w-full" data-node-id="2568:14131" data-name="Anatomy">
+          <p className="[word-break:break-word] font-['Inter:Semi_Bold'] leading-[normal] not-italic relative shrink-0 text-[#8c8c8c] text-[11px] tracking-[1.5px] whitespace-nowrap" data-node-id="2568:14132">{`ANATOMY & BINS`}</p>
+          <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="2568:14133" data-name="Anatomy table">
+            <div className="[word-break:break-word] content-stretch flex font-['Inter:Medium'] items-start leading-[normal] not-italic overflow-clip py-[10px] relative shrink-0 text-[#8c8c8c] text-[13px] w-full" data-node-id="2568:14134" data-name="Table header">
+              <p className="relative shrink-0 w-[320px]" data-node-id="2568:14135">
+                Part
+              </p>
+              <p className="relative shrink-0 w-[360px]" data-node-id="2568:14136">
+                Visible in
+              </p>
+              <p className="relative shrink-0 w-[600px]" data-node-id="2568:14137">
+                Structure
+              </p>
+            </div>
+            <div className="bg-[#ededed] h-px relative shrink-0 w-full" data-node-id="2568:14138" data-name="Rule" />
+            <div className="[word-break:break-word] content-stretch flex font-['Inter:Regular'] items-start not-italic overflow-clip py-[12px] relative shrink-0 text-[13px] w-full" data-node-id="2568:14139" data-name="Anatomy row">
+              <p className="leading-[normal] relative shrink-0 text-[#333] w-[320px]" data-node-id="2568:14140">
+                Image
+              </p>
+              <p className="leading-[normal] relative shrink-0 text-[#666] w-[360px]" data-node-id="2568:14141">
+                All variants
+              </p>
+              <p className="leading-[1.5] relative shrink-0 text-[#666] w-[600px]" data-node-id="2568:14142">
+                Main image area, retaining the existing photography and crop.
+              </p>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex font-['Inter:Regular'] items-start not-italic overflow-clip py-[12px] relative shrink-0 text-[13px] w-full" data-node-id="2568:14143" data-name="Anatomy row">
+              <p className="leading-[normal] relative shrink-0 text-[#333] w-[320px]" data-node-id="2568:14144">
+                Pagination
+              </p>
+              <p className="leading-[normal] relative shrink-0 text-[#666] w-[360px]" data-node-id="2568:14145">
+                All variants
+              </p>
+              <p className="leading-[1.5] relative shrink-0 text-[#666] w-[600px]" data-node-id="2568:14146">
+                Bottom arrows with an image count, top bars or bottom bars.
+              </p>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex font-['Inter:Regular'] items-start not-italic overflow-clip py-[12px] relative shrink-0 text-[13px] w-full" data-node-id="2568:14147" data-name="Anatomy row">
+              <p className="leading-[normal] relative shrink-0 text-[#333] w-[320px]" data-node-id="2568:14148">
+                Optional text
+              </p>
+              <p className="leading-[normal] relative shrink-0 text-[#666] w-[360px]" data-node-id="2568:14149">
+                As shown in the selected variant
+              </p>
+              <p className="leading-[1.5] relative shrink-0 text-[#666] w-[600px]" data-node-id="2568:14150">
+                Image title, supporting copy or source metadata over the image.
+              </p>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex font-['Inter:Regular'] items-start not-italic overflow-clip py-[12px] relative shrink-0 text-[13px] w-full" data-node-id="2568:14151" data-name="Anatomy row">
+              <p className="leading-[normal] relative shrink-0 text-[#333] w-[320px]" data-node-id="2568:14152">
+                Hover thumbnails
+              </p>
+              <p className="leading-[normal] relative shrink-0 text-[#666] w-[360px]" data-node-id="2568:14153">
+                Bottom bars · Hover
+              </p>
+              <p className="leading-[1.5] relative shrink-0 text-[#666] w-[600px]" data-node-id="2568:14154">
+                A row of image previews replaces the bottom pagination bars.
+              </p>
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Regular'] leading-[1.5] min-w-full not-italic relative shrink-0 text-[#8c8c8c] text-[13px] w-[min-content]" data-node-id="2568:14155">
+            Source: Slide Card · Current file. Bin ownership is not specified; the header status is N/A.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: --bing-smtc-text-global/caption/2-strong: Font(family: "text/style/default/regular/font-family", style: Bold, size: text/global/caption2/fontSize, weight: text/style/default/header/weight, lineHeight: text/global/caption2/lineHeight, letterSpacing: 0), --bing-smtc-text-global/body/3: Font(family: "text/style/default/regular/font-family", style: Regular, size: text/global/body3/fontSize, weight: text/style/default/regular/weight, lineHeight: text/global/body3/lineHeight, letterSpacing: 0), --bing-smtc-text-global/caption/1: Font(family: "text/style/default/regular/font-family", style: Regular, size: text/global/caption1/fontSize, weight: text/style/default/regular/weight, lineHeight: text/global/caption1/lineHeight, letterSpacing: 0), --bing-smtc-text-global/caption/2: Font(family: "text/style/default/regular/font-family", style: Regular, size: text/global/caption2/fontSize, weight: text/style/default/regular/weight, lineHeight: text/global/caption2/lineHeight, letterSpacing: 0), --bing-smtc-text-global/body/3-strong: Font(family: "text/style/default/regular/font-family", style: Bold, size: text/global/body3/fontSize, weight: text/style/default/header/weight, lineHeight: text/global/body3/lineHeight, letterSpacing: 0).
+
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Slide Card
+**Node ID:** 2565:1584
+
+Slide Card：Size 3:4（312×424）/ 5:4（536×424）；Pagination：Bottom arrows、Top bars、Bottom bars。Bottom bars 的 Default 仅显示文字与底部分页，Hover 在文字下方显示四张缩略图。Default/Hover 为静态变体，未连接交互。 Size=3:2 使用现成素材尺寸312×204；底部横条Default与Hover直接取自用户提供的原始卡片。
+
+## Badge
+**Node ID:** 2560:71
+
+A compact, non-interactive label for conveying status, category, or metadata. Supports 5 semantic colors (info, discovery, success, danger, warning), 2 visual weights (soft, solid), 2 sizes, optional leading icon/favicon, bold emphasis, and overlay mode for images. 132 variants.
+
+## Thumbnail
+**Node ID:** 2541:9119
+
+Image thumbnail at predefined sizes (88px, 72px, 56px, 36px, 16px) plus a Video Thumbnail variant with play indicator. Enforces consistent image rhythm across SERP cards and lists.
+
+## Open
+**Node ID:** 2541:9125
+
+Keyword: fluent-icon; Metaphor: new, window, expand, arrow, start, external, link; Used in general opening app actions.
+
+## Button
+**Node ID:** 2563:1175
+
+A foundational interactive element that triggers actions. Supports 4 visual variants (solid, soft, outline, ghost), 3 sizes (sm/md/lg), 2 colors, pill shape, and disabled state. Used by 30+ components system-wide. Matched 1:1 to SDL Button spec.
+
+## Button
+**Node ID:** 2541:9133
+
+A foundational interactive element that triggers actions. Supports 4 visual variants (solid, soft, outline, ghost), 3 sizes (sm/md/lg), 2 colors, pill shape, and disabled state. Used by 30+ components system-wide. Matched 1:1 to SDL Button spec.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
+
+Nodes “Icon” (0:15), “iconStart” (0:144), “iconStart” (0:157), “iconStart” (0:208), “iconStart” (0:224), “Icon” (0:234), “Icon” (0:262), “iconStart” (0:344), “iconStart” (0:357), “iconStart” (0:458), “iconStart” (0:466), “Icon” (0:492), “Icon” (0:518), “iconStart” (0:573), “iconStart” (0:586), “iconStart” (0:636), “iconStart” (0:651), “Icon” (0:686), “Icon” (0:718), “Badge” (0:8), “Badge” (0:232), “Badge” (0:255), “Badge” (0:485), “Badge” (0:511), “Badge” (0:679), “Badge” (0:711): No Code Connect mapping labelled “react” was found. Available labels: “Javascript”.
+
+Provide a matching label to retrieve the associated Code Connect mapping for this node.

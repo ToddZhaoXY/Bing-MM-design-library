@@ -1,0 +1,100 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/ddbdf624-ce65-4150-a59e-9ecd235b45da";
+import { Card } from "./card";
+import { Overview, WeatherCardWrapper } from "./weather-card-wrapper";
+import { Overview } from "./weather-card-wrapper";
+import { Button } from "../../system/button";
+import SerpImageCard from "C:\code\entity-segments\references\components\card-bodies\image-body.tsx"
+import icon from "/Users/simran/Desktop/FlightsToXYZ/flight-cards.js"
+
+const imgGradient = `${assetPathPrefix}/cd5b9.png`;
+
+export default function AnswerCard() {
+  return (
+    <div className="content-stretch flex flex-col items-start relative size-full" data-node-id="750:61777" data-name="Answer card">
+      <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--smtc\/gap\/between\/content\/x-small,8px)] items-start min-h-px p-[var(--mai\/smtc\/padding\/card\/default,20px)] relative w-full" data-node-id="I750:61777;23712:60423" data-name="Card container">
+        <CodeConnectSnippet data-node-id="I750:61777;23712:60424" data-name="Card Background" data-snippet-language="React">
+          <Card background="acrylic" size="md">
+            <WeatherCardWrapper category="sunny" overview={<Overview location="Seattle, WA" timeLabel="Now" subHeading="Sunny" />} forecast={} />
+          </Card>
+        </CodeConnectSnippet>
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--bing\/smtc\/padding\/card\/nested\/xs\/default,8px)] items-start min-h-px relative w-full" data-node-id="I750:61777;23712:60428" data-name="Property 1=1 row">
+          <CodeConnectSnippet data-node-id="I750:61777;23712:60428;750:56329" data-name="Card Component/Header" data-snippet-language="React">
+            <Overview location="" timeLabel="" subHeading="" />
+          </CodeConnectSnippet>
+          <div className="content-stretch flex flex-[1_0_0] items-start min-h-px relative w-full" data-node-id="I750:61777;23712:60428;750:56186" data-name="Horizontal Scroller">
+            <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start min-w-px relative" data-node-id="I750:61777;23712:60428;750:56186;96280:371403" data-name="Content">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px overflow-clip relative w-full" data-node-id="I750:61777;23712:60428;750:56186;96280:371404" data-name="Content">
+                <div className="content-stretch flex flex-[1_0_0] items-center min-h-px overflow-clip relative w-full" data-node-id="I750:61777;23712:60428;750:56186;96280:371405" data-name="Image Carousel">
+                  <div className="content-stretch flex gap-[var(--bing\/smtc\/padding\/card\/nested\/xs\/default,8px)] h-full items-center relative shrink-0 w-[669px]" data-node-id="I750:61777;23712:60428;750:56186;96280:371405;705:7557" data-name="slide container">
+                    <CodeConnectSnippet data-node-id="I750:61777;23712:60428;750:56186;96280:371405;705:7680" data-name="Image">
+                      <SerpImageCard sourceLink="Source" autoplay={true} showFavIcon={true} show2ndButton={false} showBadge={false} state="Hover" props="Image only" />
+                    </CodeConnectSnippet>
+                    <CodeConnectSnippet data-node-id="I750:61777;23712:60428;750:56186;96280:371405;705:7692" data-name="Image">
+                      <SerpImageCard sourceLink="Source" autoplay={true} showFavIcon={true} show2ndButton={false} showBadge={false} state="Hover" props="Image only" />
+                    </CodeConnectSnippet>
+                    <CodeConnectSnippet data-node-id="I750:61777;23712:60428;750:56186;96280:371405;708:6204" data-name="Image">
+                      <SerpImageCard sourceLink="Source" autoplay={true} showFavIcon={true} show2ndButton={false} showBadge={false} state="Hover" props="Image only" />
+                    </CodeConnectSnippet>
+                    <CodeConnectSnippet data-node-id="I750:61777;23712:60428;750:56186;96280:371405;708:6199" data-name="Image">
+                      <SerpImageCard sourceLink="Source" autoplay={true} showFavIcon={true} show2ndButton={false} showBadge={false} state="Hover" props="Image only" />
+                    </CodeConnectSnippet>
+                    <div className="content-stretch flex h-full items-center justify-center relative shrink-0 w-[85px]" data-node-id="I750:61777;23712:60428;750:56186;96280:371405;705:7582" data-name="See all">
+                      <div className="content-stretch flex flex-col gap-[var(--smtc\/gap\/inside\/ctrl\/to-secondary-icon,4px)] items-center pb-[var(--bing\/smtc\/padding\/ctrl\/icon-only\/text-bottom,4px)] pt-[var(--bing\/smtc\/padding\/ctrl\/icon-only\/text-top,4px)] px-[var(--bing\/smtc\/padding\/ctrl-xs\/horizontal,4px)] relative shrink-0" data-node-id="I750:61777;23712:60428;750:56186;96280:371405;705:7583" data-name="Button / See all">
+                        <CodeConnectSnippet data-node-id="I750:61777;23712:60428;750:56186;96280:371405;705:7583;22683:10417" data-name="Button / Title action" data-snippet-language="React">
+                          <Button color="accent" size="28-xxs" variant="circle" title={undefined}>
+                            {/* Code Connect Logic Instance */}
+                          </Button>
+                        </CodeConnectSnippet>
+                        <p className="[word-break:break-word] font-[family-name:var(--fontfamily,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] leading-[var(--text\/global\/caption1\/lineheight,20px)] relative shrink-0 text-[color:var(--smtc\/foreground\/ctrl\/on-transparent\/rest,#202020)] text-[length:var(--text\/global\/caption1\/fontsize,13px)] whitespace-nowrap" data-node-id="I750:61777;23712:60428;750:56186;96280:371405;705:7583;22683:10425" style={{ fontVariationSettings: '"wdth" 100' }}>
+                          See all
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute bottom-0 right-[-20px] top-0 w-[50px]" data-node-id="I750:61777;23712:60428;750:56186;100330:193675" data-name="Gradient">
+              <div className="absolute bottom-0 flex items-center justify-center left-0 top-0 w-[20px]" data-node-id="I750:61777;23712:60428;750:56186;100330:193676" style={{ containerType: "size" }}>
+                <div className="-rotate-90 flex-none h-[100cqw] w-[100cqh]">
+                  <div className="relative size-full" data-name="Gradient">
+                    <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGradient} />
+                  </div>
+                </div>
+              </div>
+              <div className="absolute bg-[var(--bing\/smtc\/background\/card\/on-primary\/alt\/rest,#f5f5f5)] bottom-0 left-[20px] top-0 w-[30px]" data-node-id="I750:61777;23712:60428;750:56186;100330:193677" data-name="Solid fill / optional button" />
+            </div>
+            <div className="-translate-y-1/2 absolute content-stretch flex items-center justify-center pb-[var(--bing\/smtc\/padding\/ctrl\/icon-only\/text-bottom,4px)] pt-[var(--bing\/smtc\/padding\/ctrl\/icon-only\/text-top,4px)] px-[var(--smtc\/padding\/ctrl-sm\/horizontal-icon-only,4px)] right-[-12px] rounded-[var(--smtc\/corner\/ctrl\/sm\/rest,4px)] top-[calc(50%-0.5px)]" data-node-id="I750:61777;23712:60428;750:56186;96280:371409" data-name="Button / Icon">
+              <CodeConnectSnippet data-node-id="I750:61777;23712:60428;750:56186;96280:371409;33172:64483" data-name="Icon">
+                <icon iconStyle="ChevronRight" size="M" />
+              </CodeConnectSnippet>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: --bing-smtc-text-global/body/3-strong: Font(family: "fontFamily", style: Bold, size: text/global/body3/fontSize, weight: text/style/default/header/weight, lineHeight: text/global/body3/lineHeight, letterSpacing: 0), --bing-smtc-text-global/caption/1-strong: Font(family: "fontFamily", style: Bold, size: text/global/caption1/fontSize, weight: text/style/default/header/weight, lineHeight: text/global/caption1/lineHeight, letterSpacing: 0), bing/smtc/background/card/on-primary/alt/gradient: .
+
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Chevron
+**Node ID:** 1:307
+
+Keyword: fluent-icon; Metaphor: arrow, dropdown, direction, expand, contract; Used in dropdown & expanding contracting scenarios. Contains directional variants.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

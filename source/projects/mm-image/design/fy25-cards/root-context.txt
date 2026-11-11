@@ -1,0 +1,922 @@
+<frame id="2216:1178" name="Frame 1" x="-2794" y="-3889" width="5588" height="8832">
+  <frame id="16:7759" name="Desktop all size" x="0" y="0" width="5600" height="8840">
+    <frame id="16:7760" name="Title" x="0" y="0" width="5600" height="500">
+      <frame id="16:7761" name="Frame 2018776940" x="90" y="150" width="816.75" height="200">
+        <frame id="16:7762" name="Frame 24" x="0" y="0" width="651" height="120">
+          <text id="16:7763" name="Image ACF Cards" x="0" y="0" width="651" height="120" />
+        </frame>
+        <frame id="16:7764" name="Frame 2" x="0" y="160" width="135" height="40">
+          <instance id="16:7765" name="Desktop" x="16" y="8" width="24" height="24" />
+          <text id="16:7766" name="DESKTOP" x="48" y="10.5" width="71" height="19" />
+        </frame>
+      </frame>
+      <instance id="16:7767" name="Icon / Brand / Microsoft Bing" x="5341.5" y="236.8540496826172" width="168.5" height="26.291902542114258" />
+    </frame>
+    <frame id="16:7768" name="Page" x="0" y="500" width="5600" height="8340">
+      <frame id="16:7769" name="Frame 2018775699" x="100" y="100" width="2172" height="7064">
+        <frame id="16:7770" name="Frame 2117130076" x="0" y="0" width="2172" height="7064">
+          <frame id="16:7771" name="Frame 2117130085" x="0" y="100" width="2172" height="36">
+            <vector id="16:7772" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:7773" name="2X2" x="100" y="0" width="84" height="36" />
+            <vector id="16:7774" name="Vector 15" x="234" y="18" width="1938" height="0" />
+          </frame>
+          <frame id="16:7775" name="Frame 2117130089" x="0" y="236" width="400" height="300">
+            <frame id="16:7776" name="2x2" x="100" y="0" width="200" height="200">
+              <instance id="16:7777" name="Card Background" x="0" y="0" width="200" height="200" />
+              <instance id="16:7778" name="Image " x="0" y="0" width="200" height="200" />
+              <instance id="700:18819" name="Top Button" x="100" y="160" width="88" height="28" />
+            </frame>
+          </frame>
+          <frame id="16:7782" name="Frame 2117130096" x="0" y="636" width="2172" height="36">
+            <vector id="16:7783" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:7784" name="3X2" x="100" y="0" width="84" height="36" />
+            <vector id="16:7785" name="Vector 15" x="234" y="18" width="1938" height="0" />
+          </frame>
+          <frame id="16:7786" name="Frame 2117130097" x="0" y="772" width="1960" height="300">
+            <frame id="704:18885" name="3x2" x="100" y="0" width="312" height="200">
+              <instance id="704:18886" name="Card Background" x="0" y="0" width="312" height="200" />
+              <instance id="704:18887" name="Image " x="0" y="0" width="312" height="200" />
+            </frame>
+            <frame id="705:7425" name="3x2" x="462" y="0" width="312" height="200">
+              <instance id="705:7426" name="Card Background" x="0" y="0" width="312" height="200" />
+              <instance id="705:7427" name="Image " x="0" y="0" width="155" height="200" />
+              <instance id="705:7428" name="Image " x="157" y="0" width="155" height="200" />
+              <instance id="705:7429" name="Top Button" x="212" y="160" width="88" height="28" />
+            </frame>
+            <instance id="750:61777" name="Answer card" x="824" y="0" width="312" height="200" />
+            <instance id="750:62130" name="Answer card" x="1186" y="0" width="312" height="200" />
+            <frame id="1266:15872" name="Answer card" x="1548" y="0" width="312" height="200">
+              <frame id="1266:15873" name="Card container" x="0" y="0" width="312" height="200">
+                <instance id="1266:15874" name="Card Background" x="0" y="0" width="312" height="200" />
+                <frame id="1266:15903" name="RS" x="20" y="20" width="272" height="160">
+                  <instance id="1283:22336" name="Card Component/Header" x="0" y="0" width="272" height="24" />
+                  <frame id="1266:15907" name="Frame 2117130406" x="0" y="32" width="272" height="126">
+                    <frame id="1266:15908" name="Cards" x="0" y="0" width="130" height="126">
+                      <frame id="1266:15909" name="Frame 34654343" x="0" y="0" width="130" height="36.66666793823242">
+                        <rounded-rectangle id="1266:15910" name="Rectangle 34645888" x="0" y="0.33333396911621094" width="36" height="36" />
+                        <text id="1266:15930" name="Whale Kids" x="44" y="0.0000019073486328125" width="86" height="36.666664123535156" />
+                      </frame>
+                      <frame id="1266:15912" name="Frame 34654341" x="0" y="44.66666793823242" width="130" height="36.666664123535156">
+                        <rounded-rectangle id="1266:15913" name="Rectangle 34645888" x="0" y="0.3333320617675781" width="36" height="36" />
+                        <text id="1266:15914" name="Whale Kids" x="44" y="0" width="86" height="36.666664123535156" />
+                      </frame>
+                      <frame id="1266:15915" name="Frame 34654343" x="0" y="89.33332824707031" width="130" height="36.666664123535156">
+                        <rounded-rectangle id="1266:15916" name="Rectangle 34645888" x="0" y="0.3333320617675781" width="36" height="36" />
+                        <text id="1266:15932" name="Whale Kids" x="44" y="0" width="86" height="36.666664123535156" />
+                      </frame>
+                    </frame>
+                    <frame id="1266:15918" name="Cards" x="142" y="0" width="130" height="126">
+                      <frame id="1266:15919" name="Frame 34654343" x="0" y="0" width="130" height="36.66666793823242">
+                        <rounded-rectangle id="1266:15920" name="Rectangle 34645888" x="0" y="0.33333396911621094" width="36" height="36" />
+                        <text id="1266:15938" name="Whale Kids" x="44" y="0.0000019073486328125" width="86" height="36.666664123535156" />
+                      </frame>
+                      <frame id="1266:15922" name="Frame 34654341" x="0" y="44.66666793823242" width="130" height="36.666664123535156">
+                        <rounded-rectangle id="1266:15923" name="Rectangle 34645888" x="0" y="0.3333320617675781" width="36" height="36" />
+                        <text id="1266:15936" name="Whale Kids" x="44" y="0" width="86" height="36.666664123535156" />
+                      </frame>
+                      <frame id="1266:15925" name="Frame 34654343" x="0" y="89.33332824707031" width="130" height="36.666664123535156">
+                        <rounded-rectangle id="1266:15926" name="Rectangle 34645888" x="0" y="0.3333320617675781" width="36" height="36" />
+                        <text id="1266:15934" name="Whale Kids" x="44" y="0" width="86" height="36.666664123535156" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:7847" name="Frame 2117130086" x="0" y="1172" width="2172" height="36">
+            <vector id="16:7848" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:7849" name="4X2" x="100" y="0" width="84" height="36" />
+            <vector id="16:7850" name="Vector 15" x="234" y="18" width="1938" height="0" />
+          </frame>
+          <frame id="16:7851" name="Frame 2117130087" x="0" y="1308" width="1572" height="300">
+            <frame id="16:7859" name="4x2 1 image" x="100" y="0" width="424" height="200">
+              <frame id="16:7863" name="Container" x="0" y="0" width="424" height="200">
+                <instance id="16:7864" name="Card Background" x="0" y="0" width="424" height="200" />
+                <instance id="16:7865" name="Image " x="0" y="0" width="424" height="200" />
+              </frame>
+              <frame id="1283:22381" name="Top Actions" x="317" y="160" width="95" height="28">
+                <instance id="1283:22382" name="Top Button" x="0" y="0" width="95" height="28" />
+                <instance id="1283:22383" name="Bottom Button" x="0" y="32" width="28" height="28" hidden="true" />
+              </frame>
+            </frame>
+            <frame id="16:7852" name="4x2 2images" x="574" y="0" width="424" height="200">
+              <frame id="16:7853" name="Left container" x="0" y="0" width="211" height="200">
+                <instance id="16:7854" name="Card Background" x="0" y="0" width="211" height="200" />
+                <instance id="16:7855" name="Image " x="0" y="0" width="211" height="200" />
+              </frame>
+              <frame id="16:7856" name="Right container" x="213" y="0" width="211" height="200">
+                <instance id="16:7857" name="Card Background" x="0" y="0" width="211" height="200" />
+                <instance id="16:7858" name="Image " x="0" y="0" width="211" height="200" />
+              </frame>
+              <frame id="1283:22373" name="Top Actions" x="317" y="160" width="95" height="28">
+                <instance id="1283:22374" name="Top Button" x="0" y="0" width="95" height="28" />
+                <instance id="1283:22375" name="Bottom Button" x="0" y="32" width="28" height="28" hidden="true" />
+              </frame>
+            </frame>
+            <frame id="1779:1126" name="Answer card" x="1048" y="0" width="424" height="200">
+              <frame id="1779:1127" name="Card container" x="0" y="0" width="424" height="200">
+                <frame id="1779:1211" name="Card Background" x="0" y="0" width="424" height="200">
+                  <frame id="1779:1213" name="Hover control/Card Background" x="0" y="0" width="424" height="200" />
+                </frame>
+                <instance id="1779:1129" name="Card Component/Header" x="20" y="20" width="384" height="24" hidden="true" />
+                <frame id="1779:1171" name="Horizontal scroll" x="20" y="20" width="384" height="160">
+                  <frame id="1779:1214" name="Card Component/Header" x="0" y="0" width="384" height="24">
+                    <text id="1779:1215" name="Article Title" x="0" y="1" width="356" height="22" />
+                    <instance id="1779:1216" name="Right props" x="360" y="0" width="24" height="24" />
+                  </frame>
+                  <instance id="1779:1173" name="Horizontal Scroller" x="0" y="32" width="384" height="128" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:7867" name="Frame 2117130098" x="0" y="1708" width="2172" height="36">
+            <vector id="16:7868" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:7869" name="5X2" x="100" y="0" width="84" height="36" />
+            <vector id="16:7870" name="Vector 15" x="234" y="18" width="1938" height="0" />
+          </frame>
+          <frame id="16:7871" name="Frame 2117130099" x="0" y="1844" width="1322" height="300">
+            <frame id="16:7872" name="5x2" x="100" y="0" width="536" height="200">
+              <frame id="16:7873" name="Left container" x="0" y="0" width="334" height="200">
+                <instance id="16:7874" name="Card Background" x="0" y="0" width="334" height="200" />
+                <instance id="16:7875" name="Image " x="0" y="0" width="334" height="200" />
+              </frame>
+              <frame id="16:7876" name="Right container" x="336" y="0" width="200" height="200">
+                <instance id="16:7877" name="Card Background" x="0" y="0" width="200" height="200" />
+                <instance id="16:7878" name="Image " x="0" y="0" width="200" height="200" />
+                <frame id="16:7879" name="Top Actions" x="93" y="160" width="95" height="28">
+                  <instance id="16:7880" name="Top Button" x="0" y="0" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+            <instance id="1268:1976" name="Answer card" x="686" y="2.842170943040401e-14" width="536" height="200" />
+          </frame>
+          <frame id="16:7883" name="Frame 2117130088" x="0" y="2244" width="2172" height="36">
+            <vector id="16:7884" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:7885" name="2X4" x="100" y="0" width="84" height="36" />
+            <vector id="16:7886" name="Vector 15" x="234" y="18" width="1938" height="0" />
+          </frame>
+          <frame id="16:7887" name="Frame 2117130070" x="0" y="2380" width="400" height="524">
+            <frame id="1283:22499" name="Answer card" x="100" y="0" width="200" height="424">
+              <frame id="1283:22500" name="Card container" x="0" y="0" width="200" height="424">
+                <instance id="1283:22501" name="Card Background" x="0" y="0" width="200" height="424" />
+                <instance id="1283:22502" name="Card Component/Header" x="20" y="20" width="160" height="24" hidden="true" />
+                <frame id="1283:22540" name="RS/thumbnail" x="20" y="20" width="160" height="384">
+                  <instance id="1283:22571" name="Card Component/Header" x="0" y="0" width="160" height="24" />
+                  <frame id="1283:22544" name="Frame 2018776482" x="0" y="32" width="160" height="352">
+                    <instance id="1283:22545" name="RS topic" x="0" y="0" width="160" height="48" />
+                    <instance id="1283:22546" name="RS topic" x="0" y="60" width="160" height="48" />
+                    <instance id="1283:22547" name="RS topic" x="0" y="120" width="160" height="48" />
+                    <instance id="1283:22548" name="RS topic" x="0" y="180" width="160" height="48" />
+                    <instance id="1283:22549" name="RS topic" x="0" y="240" width="160" height="48" />
+                    <instance id="1283:22550" name="RS topic" x="0" y="300" width="160" height="48" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:7889" name="Frame 2117130106" x="0" y="3004" width="2172" height="36">
+            <vector id="16:7890" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:7891" name="3X4" x="100" y="0" width="84" height="36" />
+            <vector id="16:7892" name="Vector 15" x="234" y="18" width="1938" height="0" />
+          </frame>
+          <frame id="16:7893" name="Frame 2117130107" x="0" y="3140" width="1598" height="424.00000000000006">
+            <frame id="1748:1270" name="Answer card" x="100" y="0" width="312" height="424">
+              <frame id="1748:1271" name="Card container" x="0" y="0" width="312" height="424">
+                <instance id="1748:1272" name="Card Background" x="0" y="0" width="312" height="424" />
+                <frame id="1748:1273" name="3x4" x="0" y="0" width="312" height="424">
+                  <frame id="1748:1274" name="Frame 2018776511" x="0" y="0" width="155" height="424">
+                    <instance id="1748:1275" name="Image " x="0" y="0" width="155" height="140" />
+                    <instance id="1748:1276" name="Image " x="0" y="142" width="155" height="140" />
+                    <instance id="1748:1277" name="Image " x="0" y="284" width="155" height="140" />
+                  </frame>
+                  <frame id="1748:1278" name="Frame 2018776512" x="157" y="0" width="155" height="424">
+                    <instance id="1748:1279" name="Image " x="0" y="0" width="155" height="211" />
+                    <instance id="1748:1280" name="Image " x="0" y="213" width="155" height="211" />
+                  </frame>
+                </frame>
+                <frame id="1748:1281" name="Top Actions" x="205" y="384" width="95" height="28">
+                  <instance id="1748:1282" name="Top Button" x="0" y="0" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1270:13254" name="Answer card" x="462" y="0" width="312" height="424">
+              <frame id="1270:13255" name="Card container" x="0" y="0" width="312" height="424">
+                <instance id="1270:13256" name="Card Background" x="0" y="0" width="312" height="424" />
+                <frame id="1270:13306" name="3x4" x="0" y="0" width="312" height="424">
+                  <frame id="1270:13307" name="Frame 2018776511" x="0" y="0" width="155" height="424">
+                    <instance id="1270:13544" name="Image " x="0" y="0" width="155" height="211" />
+                    <instance id="1270:13529" name="Image " x="0" y="213" width="155" height="211" />
+                  </frame>
+                  <frame id="1270:13311" name="Frame 2018776512" x="157" y="0" width="155" height="424">
+                    <instance id="1270:13564" name="Image " x="0" y="0" width="155" height="211" />
+                    <instance id="1270:13554" name="Image " x="0" y="213" width="155" height="211" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1270:13608" name="Top Actions" x="205" y="384" width="95" height="28">
+                <instance id="1270:13609" name="Top Button" x="0" y="0" width="95" height="28" />
+              </frame>
+            </frame>
+            <frame id="16:7896" name="Answer Card" x="824" y="0" width="312" height="424">
+              <frame id="16:7898" name="Card container" x="0" y="0" width="312" height="424">
+                <instance id="16:7899" name="Card Background" x="0" y="0" width="312" height="424" />
+                <frame id="16:7900" name="4x4" x="0" y="0" width="312" height="424">
+                  <instance id="1270:13584" name="Image " x="0" y="0" width="200" height="424" />
+                  <frame id="16:7910" name="Frame 2018776511" x="202" y="0" width="110" height="424">
+                    <instance id="1270:13592" name="Image " x="0" y="0" width="110" height="140" />
+                    <instance id="1270:13596" name="Image " x="0" y="142" width="110" height="140" />
+                    <instance id="1270:13588" name="Image " x="0" y="284" width="110" height="140" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1270:13616" name="Top Actions" x="205" y="384" width="95" height="28">
+                <instance id="1270:13617" name="Top Button" x="0" y="0" width="95" height="28" />
+              </frame>
+            </frame>
+            <instance id="16:7917" name="Answer card" x="1186" y="0" width="312" height="424" />
+          </frame>
+          <frame id="16:7918" name="Frame 2117130108" x="0" y="3664" width="2172" height="36">
+            <vector id="16:7919" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:7920" name="Row-based" x="100" y="0" width="142" height="36" />
+            <vector id="16:7921" name="Vector 15" x="292" y="18" width="1880" height="0" />
+          </frame>
+          <frame id="16:7922" name="Frame 2117130109" x="0" y="3800" width="512" height="424">
+            <frame id="1270:13639" name="3x4" x="100" y="0" width="312" height="424">
+              <frame id="1270:13641" name="Top Container" x="0" y="0" width="312" height="211">
+                <instance id="1270:13668" name="Image " x="0" y="0" width="173" height="211" />
+                <instance id="1270:13672" name="Image " x="175" y="0" width="137" height="211" />
+              </frame>
+              <frame id="1270:13644" name="Buttom Container" x="0" y="213" width="312" height="211">
+                <instance id="1270:13676" name="Image " x="0" y="0" width="131" height="211" />
+                <instance id="1270:13680" name="Image " x="133" y="0" width="179" height="211" />
+              </frame>
+              <frame id="1270:13684" name="Top Actions" x="205" y="384" width="95" height="28">
+                <instance id="1270:13685" name="Top Button" x="0" y="0" width="95" height="28" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:7924" name="Frame 2117130113" x="0" y="4324" width="2172" height="36">
+            <vector id="16:7925" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:7926" name="Static layout" x="100" y="0" width="158" height="36" />
+            <vector id="16:7927" name="Vector 15" x="308" y="18" width="1864" height="0" />
+          </frame>
+          <frame id="16:7928" name="Frame 2117130114" x="0" y="4460" width="1960" height="424">
+            <frame id="1270:13704" name="3x4" x="100" y="0" width="312" height="424">
+              <frame id="1270:14026" name="Hero Container" x="0" y="0" width="312" height="211">
+                <instance id="1270:13729" name="Image " x="0" y="0" width="312" height="211" />
+              </frame>
+              <frame id="1270:13708" name="Buttom Container" x="0" y="213" width="312" height="211">
+                <instance id="1270:13733" name="Image " x="0" y="0" width="155" height="211" />
+                <instance id="1270:13737" name="Image " x="157" y="0" width="155" height="211" />
+              </frame>
+            </frame>
+            <frame id="1270:13753" name="3x4" x="462" y="0" width="312" height="424">
+              <frame id="1270:13755" name="Top Container" x="0" y="0" width="312" height="211">
+                <instance id="1270:13778" name="Image " x="0" y="0" width="155" height="211" />
+                <instance id="1270:13782" name="Image " x="157" y="0" width="155" height="211" />
+              </frame>
+              <frame id="1270:14033" name="Hero Container" x="0" y="213" width="312" height="211">
+                <instance id="1270:13786" name="Image " x="0" y="0" width="312" height="211" />
+              </frame>
+              <frame id="1270:14821" name="Top Actions" x="205" y="384" width="95" height="28">
+                <instance id="1270:14822" name="Top Button" x="0" y="0" width="95" height="28" />
+              </frame>
+            </frame>
+            <frame id="1270:13802" name="Answer card" x="824" y="0" width="312" height="424">
+              <frame id="1270:13803" name="Card container" x="0" y="0" width="312" height="424">
+                <instance id="1270:13804" name="Card Background" x="0" y="0" width="312" height="424" />
+                <frame id="1270:13829" name="3x4" x="0" y="0" width="312" height="424">
+                  <frame id="1270:14034" name="Top Container" x="0" y="0" width="312" height="211">
+                    <instance id="1270:13852" name="Image " x="0" y="0" width="312" height="211" />
+                  </frame>
+                  <frame id="1270:14035" name="Buttom Container" x="0" y="213" width="312" height="211">
+                    <instance id="1270:13862" name="Image " x="0" y="0" width="312" height="211" />
+                  </frame>
+                  <frame id="1270:14829" name="Top Actions" x="205" y="384" width="95" height="28">
+                    <instance id="1270:14830" name="Top Button" x="0" y="0" width="95" height="28" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1270:13885" name="Answer card" x="1186" y="0" width="312" height="424">
+              <frame id="1270:13886" name="Card container" x="0" y="0" width="312" height="424">
+                <instance id="1270:13887" name="Card Background" x="0" y="0" width="312" height="424" />
+                <frame id="1270:13937" name="3x4" x="0" y="0" width="312" height="424">
+                  <frame id="1270:13938" name="Lef Conatiner" x="0" y="0" width="155" height="424">
+                    <instance id="1270:13972" name="Image " x="0" y="0" width="155" height="211" />
+                    <instance id="1270:13992" name="Image " x="0" y="213" width="155" height="211" />
+                  </frame>
+                  <frame id="1270:13942" name="Right Container" x="157" y="0" width="155" height="424">
+                    <instance id="1270:13982" name="Image " x="0" y="0" width="155" height="211" />
+                    <instance id="1270:14002" name="Image " x="0" y="213" width="155" height="211" />
+                    <frame id="1270:14843" name="Top Actions" x="48" y="384" width="95" height="28">
+                      <instance id="1270:14844" name="Top Button" x="0" y="0" width="95" height="28" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1270:14063" name="Answer card" x="1548" y="0" width="312" height="424">
+              <frame id="1270:14064" name="Card container" x="0" y="0" width="312" height="424">
+                <instance id="1270:14065" name="Card Background" x="0" y="0" width="312" height="424" />
+                <frame id="1270:14129" name="3x4" x="0" y="0" width="312" height="424">
+                  <frame id="1270:14174" name="Hero Container" x="0" y="0" width="312" height="424">
+                    <instance id="1270:14164" name="Image " x="0" y="0" width="312" height="424" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1270:14857" name="Top Actions" x="205" y="384" width="95" height="28">
+                <instance id="1270:14858" name="Top Button" x="0" y="0" width="95" height="28" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:7937" name="Frame 2117130100" x="0" y="4984" width="2172" height="36">
+            <vector id="16:7938" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:7939" name="4X4" x="100" y="0" width="84" height="36" />
+            <vector id="16:7940" name="Vector 15" x="234" y="18" width="1938" height="0" />
+          </frame>
+          <frame id="16:7941" name="Frame 2117130101" x="0" y="5120" width="624" height="424">
+            <frame id="1270:14187" name="Answer card" x="100" y="0" width="424" height="424">
+              <frame id="1270:14188" name="Card container" x="0" y="0" width="424" height="424">
+                <instance id="1270:14189" name="Card Background" x="0" y="0" width="424" height="424" />
+                <frame id="1270:14231" name="4x4" x="0" y="0" width="424" height="424">
+                  <frame id="1270:14298" name="Hero Container" x="0" y="0" width="282" height="424">
+                    <instance id="1270:14276" name="Image " x="0" y="0" width="282" height="424" />
+                  </frame>
+                  <frame id="1270:14241" name="Right Container" x="284" y="0" width="140" height="424">
+                    <instance id="1270:14288" name="Image " x="0" y="0" width="140" height="140" />
+                    <instance id="1270:14284" name="Image " x="0" y="142" width="140" height="140" />
+                    <instance id="1270:14280" name="Image " x="0" y="284" width="140" height="140" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1270:14865" name="Top Actions" x="317" y="384" width="95" height="28">
+                <instance id="1270:14866" name="Top Button" x="0" y="0" width="95" height="28" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:7943" name="Frame 2117130110" x="0" y="5644" width="2172" height="36">
+            <vector id="16:7944" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:7945" name="Row-based" x="100" y="0" width="142" height="36" />
+            <vector id="16:7946" name="Vector 15" x="292" y="18" width="1880" height="0" />
+          </frame>
+          <frame id="16:7947" name="Frame 2117130111" x="0" y="5780" width="1098" height="424">
+            <frame id="1270:14315" name="Answer card" x="100" y="0" width="424" height="424">
+              <frame id="1270:14316" name="Card container" x="0" y="0" width="424" height="424">
+                <instance id="1270:14317" name="Card Background" x="0" y="0" width="424" height="424" />
+                <frame id="1270:14362" name="4x4" x="0" y="0" width="424" height="424">
+                  <frame id="1270:14364" name="Frame 2147232148" x="0" y="0" width="424" height="424">
+                    <frame id="1270:14365" name="Top Container" x="0" y="0" width="424" height="211">
+                      <instance id="1270:14396" name="Image " x="0" y="0" width="140" height="211" />
+                      <instance id="1270:14400" name="Image " x="142" y="0" width="140" height="211" />
+                      <instance id="1270:14404" name="Image " x="284" y="0" width="140" height="211" />
+                    </frame>
+                    <frame id="1270:14369" name="Buttom Container" x="0" y="213" width="424" height="211">
+                      <instance id="1270:14412" name="Image " x="0" y="0" width="211" height="211" />
+                      <instance id="1270:14408" name="Image " x="213" y="0" width="211" height="211" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="1270:14873" name="Top Actions" x="317" y="384" width="95" height="28">
+                  <instance id="1270:14874" name="Top Button" x="0" y="0" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1270:14440" name="Answer card" x="574" y="0" width="424" height="424">
+              <frame id="1270:14441" name="Card container" x="0" y="0" width="424" height="424">
+                <instance id="1270:14442" name="Card Background" x="0" y="0" width="424" height="424" />
+                <frame id="1270:14489" name="4x4" x="0" y="0" width="424" height="424">
+                  <frame id="1270:14552" name="Hero Container" x="0" y="0" width="424" height="211">
+                    <instance id="1270:14522" name="Image " x="0" y="0" width="424" height="211" />
+                  </frame>
+                  <frame id="1270:14495" name="Buttom Conatiner" x="0" y="213" width="424" height="211">
+                    <instance id="1270:14532" name="Image " x="0" y="0" width="211" height="211" />
+                    <instance id="1270:14542" name="Image " x="213" y="0" width="211" height="211" />
+                    <frame id="1270:14881" name="Top Actions" x="318" y="171" width="95" height="28">
+                      <instance id="1270:14882" name="Top Button" x="0" y="0" width="95" height="28" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:7950" name="Frame 2117130112" x="0" y="6304" width="2172" height="36">
+            <vector id="16:7951" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:7952" name="Static layout" x="100" y="0" width="158" height="36" />
+            <vector id="16:7953" name="Vector 15" x="308" y="18" width="1864" height="0" />
+          </frame>
+          <frame id="16:7954" name="Frame 2117130115" x="0" y="6440" width="1572" height="524">
+            <frame id="1270:14583" name="Answer card" x="100" y="0" width="424" height="424">
+              <frame id="1270:14584" name="Card container" x="0" y="0" width="424" height="424">
+                <instance id="1270:14585" name="Card Background" x="0" y="0" width="424" height="424" />
+                <frame id="1270:14615" name="4x4" x="0" y="0" width="424" height="424">
+                  <frame id="1270:14656" name="Hero Container" x="0" y="0" width="211" height="424">
+                    <instance id="1270:14638" name="Image " x="0" y="0" width="211" height="424" />
+                  </frame>
+                  <frame id="1270:14622" name="Rigth Container" x="213" y="0" width="211" height="424">
+                    <instance id="1270:14642" name="Image " x="0" y="0" width="211" height="211" />
+                    <instance id="1270:14646" name="Image " x="0" y="213" width="211" height="211" />
+                    <frame id="1270:14895" name="Top Actions" x="104" y="384" width="95" height="28">
+                      <instance id="1270:14896" name="Top Button" x="0" y="0" width="95" height="28" />
+                    </frame>
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1270:14667" name="Answer card" x="574" y="0" width="424" height="424">
+              <frame id="1270:14668" name="Card container" x="0" y="0" width="424" height="424">
+                <instance id="1270:14669" name="Card Background" x="0" y="0" width="424" height="424" />
+                <frame id="1270:14707" name="4x4" x="0" y="0" width="424" height="424">
+                  <frame id="1270:14971" name="Top Conatiner" x="0" y="0" width="424" height="211">
+                    <instance id="1270:14961" name="Image " x="0" y="0" width="424" height="211" />
+                  </frame>
+                  <frame id="1270:14714" name="Buttom Container" x="0" y="213" width="424" height="211">
+                    <instance id="1270:14931" name="Image " x="0" y="0" width="211" height="211" />
+                    <instance id="1270:14941" name="Image " x="213" y="0" width="211" height="211" />
+                  </frame>
+                  <frame id="1270:14903" name="Top Actions" x="317" y="384" width="95" height="28">
+                    <instance id="1270:14904" name="Top Button" x="0" y="0" width="95" height="28" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1270:14751" name="Answer card" x="1048" y="0" width="424" height="424">
+              <frame id="1270:14752" name="Card container" x="0" y="0" width="424" height="424">
+                <instance id="1270:14753" name="Card Background" x="0" y="0" width="424" height="424" />
+                <frame id="1270:14792" name="4x4" x="0" y="0" width="424" height="424">
+                  <frame id="1270:14793" name="Left Container" x="0" y="0" width="211" height="424">
+                    <instance id="1270:14972" name="Image " x="0" y="0" width="211" height="211" />
+                    <instance id="1270:14982" name="Image " x="0" y="213" width="211" height="211" />
+                  </frame>
+                  <frame id="1270:14797" name="Right Container" x="213" y="0" width="211" height="424">
+                    <instance id="1270:15002" name="Image " x="0" y="0" width="211" height="211" />
+                    <instance id="1270:14992" name="Image " x="0" y="213" width="211" height="211" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1270:15022" name="Top Actions" x="317" y="384" width="95" height="28">
+                <instance id="1270:15023" name="Top Button" x="0" y="0" width="95" height="28" />
+              </frame>
+            </frame>
+            <text id="16:7958" name="LeftHero" x="100" y="-36" width="56" height="36" />
+            <text id="16:7959" name="TopHero" x="574" y="-36" width="55" height="36" />
+            <text id="16:7960" name="NoHero" x="1048" y="-36" width="51" height="36" />
+          </frame>
+          <text id="16:7961" name="1L, 2P" x="100" y="4424" width="36" height="36" />
+          <text id="16:7962" name="2P, 1L" x="462" y="4424" width="35" height="36" />
+          <text id="16:7963" name="2P" x="824" y="4424" width="17" height="36" />
+          <text id="16:7964" name="4P" x="1186" y="4424" width="17" height="36" />
+          <text id="16:7965" name="Single" x="1548" y="4424" width="40" height="36" />
+        </frame>
+      </frame>
+      <frame id="1270:15030" name="Frame 2147232149" x="2312" y="100" width="100" height="100" />
+      <frame id="16:7968" name="Frame 2018775700" x="2452" y="100" width="3048" height="8140">
+        <frame id="16:7969" name="Frame 2117130076" x="0" y="0" width="3048" height="8140">
+          <frame id="16:7970" name="Frame 2117130102" x="0" y="100" width="3048" height="36">
+            <vector id="16:7971" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:7972" name="5X4" x="100" y="0" width="84" height="36" />
+            <vector id="16:7973" name="Vector 15" x="234" y="18" width="2814" height="0" />
+          </frame>
+          <frame id="16:7974" name="Frame 2117130103" x="0" y="236" width="3080" height="424">
+            <frame id="1270:15035" name="Answer card" x="100" y="0" width="536" height="424">
+              <frame id="1270:15036" name="Card container" x="0" y="0" width="536" height="424">
+                <instance id="1270:15037" name="Card Background" x="0" y="0" width="536" height="424" />
+                <frame id="1270:15060" name="5x4" x="0" y="0" width="536" height="424">
+                  <frame id="1270:15061" name="Hero Container" x="0" y="0" width="323" height="424">
+                    <instance id="1270:15109" name="Image " x="0" y="0" width="323" height="424" />
+                    <text id="2116:1146" name="‌≈3/4 (responsive)" x="110" y="205" width="102" height="15" />
+                  </frame>
+                  <frame id="1270:15063" name="Hero Container" x="325" y="0" width="211" height="424">
+                    <instance id="1270:15119" name="Image " x="0" y="0" width="211" height="211" />
+                    <instance id="1270:15129" name="Image " x="0" y="213" width="211" height="211" />
+                    <text id="2116:1144" name="1/1" x="98" y="311" width="16" height="15" />
+                    <text id="2116:1142" name="1/1" x="98" y="98" width="16" height="15" />
+                  </frame>
+                  <instance id="1270:15205" name="Top Button" x="429" y="384" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="2104:1146" name="Answer card" x="686" y="0" width="536" height="424">
+              <frame id="2104:1147" name="Card container" x="0" y="0" width="536" height="424">
+                <instance id="2104:1148" name="Card Background" x="0" y="0" width="536" height="424" />
+                <frame id="2104:1149" name="5x4" x="0" y="0" width="536" height="424">
+                  <frame id="2104:1150" name="Hero Container" x="0" y="0" width="267" height="424">
+                    <instance id="2104:1151" name="Image " x="0" y="0" width="267" height="424" />
+                  </frame>
+                  <frame id="2104:1152" name="Hero Container" x="269" y="0" width="267" height="424">
+                    <instance id="2104:1153" name="Image " x="0" y="0" width="267" height="211" />
+                    <instance id="2104:1154" name="Image " x="0" y="213" width="267" height="211" />
+                  </frame>
+                  <instance id="2104:1155" name="Top Button" x="429" y="384" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="2104:1116" name="Answer card" x="1272" y="0" width="536" height="424">
+              <frame id="2104:1117" name="Card container" x="0" y="0" width="536" height="424">
+                <instance id="2104:1118" name="Card Background" x="0" y="0" width="536" height="424" />
+                <frame id="2104:1119" name="5x4" x="0" y="0" width="536" height="424">
+                  <frame id="2104:1120" name="Hero Container" x="0" y="0" width="256" height="424">
+                    <instance id="2104:1121" name="Image " x="0" y="0" width="256" height="424" />
+                  </frame>
+                  <frame id="2104:1122" name="Hero Container" x="258" y="0" width="138" height="424">
+                    <instance id="2104:1123" name="Image " x="0" y="0" width="138" height="211" />
+                    <instance id="2104:1124" name="Image " x="0" y="213" width="138" height="211" />
+                  </frame>
+                  <frame id="2104:1138" name="Hero Container" x="398" y="0" width="138" height="424">
+                    <instance id="2104:1139" name="Image " x="0" y="0" width="138" height="211" />
+                    <instance id="2104:1140" name="Image " x="0" y="213" width="138" height="211" />
+                  </frame>
+                  <instance id="2104:1125" name="Top Button" x="429" y="384" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1270:15143" name="Answer card" x="1858" y="0" width="536" height="424">
+              <frame id="1270:15144" name="Card container" x="0" y="0" width="536" height="424">
+                <instance id="1270:15145" name="Card Background" x="0" y="0" width="536" height="424" />
+                <frame id="1270:15169" name="5x4" x="0" y="0" width="536" height="424">
+                  <frame id="1270:15170" name="Frame 2117130304" x="0" y="0" width="536" height="264">
+                    <instance id="1270:15189" name="Image " x="0" y="0" width="536" height="264" />
+                  </frame>
+                  <frame id="1270:15172" name="Frame 2117130306" x="0" y="266" width="536" height="158">
+                    <instance id="1270:15193" name="Image " x="0" y="0" width="177.3333282470703" height="158" />
+                    <instance id="1270:15197" name="Image " x="179.3333282470703" y="0" width="177.33334350585938" height="158" />
+                    <instance id="1270:15201" name="Image " x="358.66668701171875" y="0" width="177.33334350585938" height="158" />
+                  </frame>
+                  <instance id="1270:15212" name="Top Button" x="429" y="384" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="16:7977" name="Answer Card" x="2444" y="0" width="536" height="424">
+              <frame id="16:7979" name="Card container" x="0" y="0" width="536" height="424">
+                <instance id="16:7980" name="Card Background" x="0" y="0" width="536" height="424" />
+                <instance id="1270:16151" name="Horizontal scroll" x="20" y="20" width="496" height="384" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:7999" name="Frame 2117130112" x="0" y="760" width="3048" height="36">
+            <vector id="16:8000" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:8001" name="Row-based" x="100" y="0" width="142" height="36" />
+            <vector id="16:8002" name="Vector 15" x="292" y="18" width="2756" height="0" />
+          </frame>
+          <frame id="16:8003" name="Frame 2117130113" x="0" y="896" width="736" height="424">
+            <frame id="1270:16393" name="Answer card" x="100" y="0" width="536" height="424">
+              <frame id="1270:16394" name="Card container" x="0" y="0" width="536" height="424">
+                <instance id="1270:16395" name="Card Background" x="0" y="0" width="536" height="424" />
+                <frame id="1270:16415" name="5x4" x="0" y="0" width="536" height="424">
+                  <frame id="1270:16416" name="Top Container" x="0" y="0" width="536" height="211">
+                    <instance id="1270:16432" name="Image " x="0" y="0" width="267" height="211" />
+                    <instance id="1270:16436" name="Image " x="269" y="0" width="267" height="211" />
+                  </frame>
+                  <frame id="1270:16421" name="Buttom Container" x="0" y="213" width="536" height="211">
+                    <instance id="1270:16440" name="Image " x="0" y="0" width="177.3333282470703" height="211" />
+                    <instance id="1270:16444" name="Image " x="179.3333282470703" y="0" width="177.33334350585938" height="211" />
+                    <instance id="1270:16448" name="Image " x="358.66668701171875" y="0" width="177.33334350585938" height="211" />
+                  </frame>
+                  <instance id="1270:16452" name="Top Button" x="429" y="384" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:8005" name="Frame 2117130116" x="0" y="1420" width="3048" height="36">
+            <vector id="16:8006" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:8007" name="Static layout" x="100" y="0" width="158" height="36" />
+            <vector id="16:8008" name="Vector 15" x="308" y="18" width="2740" height="0" />
+          </frame>
+          <frame id="16:8009" name="Frame 2117130117" x="0" y="1556" width="1908" height="524">
+            <frame id="1270:16460" name="Answer card" x="100" y="0" width="536" height="424">
+              <frame id="1270:16461" name="Card container" x="0" y="0" width="536" height="424">
+                <instance id="1270:16462" name="Card Background" x="0" y="0" width="536" height="424" />
+                <frame id="1270:16478" name="5x4" x="0" y="0" width="536" height="424">
+                  <frame id="1270:16501" name="Hero Container" x="0" y="0" width="356" height="424">
+                    <instance id="1270:16491" name="Image " x="0" y="0" width="356" height="424" />
+                  </frame>
+                  <frame id="1270:16481" name="Right Container" x="358" y="0" width="178" height="424">
+                    <instance id="1270:16502" name="Image " x="0" y="0" width="178" height="211" />
+                    <instance id="1270:16506" name="Image " x="0" y="213" width="178" height="211" />
+                  </frame>
+                  <instance id="1270:16510" name="Top Button" x="429" y="384" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+            <text id="16:8011" name="LeftHero" x="100" y="-36" width="56" height="36" />
+            <text id="16:8012" name="TopHero" x="686" y="-36" width="55" height="36" />
+            <text id="16:8013" name="NoHero" x="1272" y="-36" width="51" height="36" />
+            <frame id="1270:16518" name="Answer card" x="686" y="0" width="536" height="424">
+              <frame id="1270:16519" name="Card container" x="0" y="0" width="536" height="424">
+                <instance id="1270:16520" name="Card Background" x="0" y="0" width="536" height="424" />
+                <frame id="1270:16544" name="5x4" x="0" y="0" width="536" height="424">
+                  <frame id="1270:16545" name="Hero Container" x="0" y="0" width="536" height="264">
+                    <instance id="1270:16574" name="Image " x="0" y="0" width="536" height="264" />
+                  </frame>
+                  <frame id="1270:16547" name="Buttom Container" x="0" y="266" width="536" height="158">
+                    <instance id="1270:16594" name="Image " x="0" y="0" width="177.3333282470703" height="158" />
+                    <instance id="1270:16584" name="Image " x="179.3333282470703" y="0" width="177.33334350585938" height="158" />
+                    <instance id="1270:16604" name="Image " x="358.66668701171875" y="0" width="177.33334350585938" height="158" />
+                  </frame>
+                  <instance id="1270:16614" name="Top Button" x="429" y="384" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1270:16623" name="Answer card" x="1272" y="0" width="536" height="424">
+              <frame id="1270:16624" name="Card container" x="0" y="0" width="536" height="424">
+                <instance id="1270:16625" name="Card Background" x="0" y="0" width="536" height="424" />
+                <frame id="1270:16642" name="5x4" x="0" y="0" width="536" height="424">
+                  <frame id="1270:16643" name="Top Container" x="0" y="0" width="536" height="211">
+                    <instance id="1270:16656" name="Image " x="0" y="0" width="267" height="211" />
+                    <instance id="1270:16660" name="Image " x="269" y="0" width="267" height="211" />
+                  </frame>
+                  <frame id="1270:16646" name="Buttom Container" x="0" y="213" width="536" height="211">
+                    <instance id="1270:16668" name="Image " x="0" y="0" width="267" height="211" />
+                    <instance id="1270:16664" name="Image " x="269" y="0" width="267" height="211" />
+                  </frame>
+                  <instance id="1270:16672" name="Top Button" x="429" y="384" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:8016" name="Frame 2117130092" x="0" y="2180" width="3048" height="36">
+            <vector id="16:8017" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:8018" name="6X4" x="100" y="0" width="84" height="36" />
+            <vector id="16:8019" name="Vector 15" x="234" y="18" width="2814" height="0" />
+          </frame>
+          <frame id="16:8020" name="Frame 2117130093" x="0" y="2316" width="1546" height="424">
+            <frame id="1270:16678" name="Answer card" x="100" y="0" width="648" height="424">
+              <frame id="1270:16679" name="Card container" x="0" y="0" width="648" height="424">
+                <instance id="1270:16680" name="Card Background" x="0" y="0" width="648" height="424" />
+                <frame id="1270:16687" name="6x4" x="0" y="0" width="648" height="424">
+                  <frame id="1270:16732" name="Hero Container" x="0" y="0" width="424" height="424">
+                    <instance id="1270:16702" name="Image " x="0" y="0" width="424" height="424" />
+                  </frame>
+                  <frame id="1270:16689" name="Right Container" x="426" y="0" width="222" height="424">
+                    <instance id="1270:16722" name="Image " x="0" y="0" width="222" height="211" />
+                    <instance id="1270:16712" name="Image " x="0" y="213" width="222" height="211" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1270:16733" name="Answer card" x="798" y="0" width="648" height="424">
+              <frame id="1270:16734" name="Card container" x="0" y="0" width="648" height="424">
+                <instance id="1270:16735" name="Card Background" x="0" y="0" width="648" height="424" />
+                <frame id="1270:16745" name="6x4" x="0" y="0" width="648" height="424">
+                  <frame id="1270:16746" name="Hero Container" x="0" y="0" width="648" height="288">
+                    <instance id="1270:16763" name="Image " x="0" y="0" width="648" height="288" />
+                  </frame>
+                  <frame id="1270:16749" name="Buttom Contianer" x="0" y="290" width="648" height="134">
+                    <instance id="1270:16813" name="Image " x="0" y="0" width="214.6666717529297" height="134" />
+                    <instance id="1270:16823" name="Image " x="216.6666717529297" y="0" width="214.66665649414062" height="134" />
+                    <instance id="1270:16803" name="Image " x="433.33331298828125" y="0" width="214.66665649414062" height="134" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:8023" name="Frame 2117130114" x="0" y="2840" width="3048" height="36">
+            <vector id="16:8024" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:8025" name="Row-based" x="100" y="0" width="142" height="36" />
+            <vector id="16:8026" name="Vector 15" x="292" y="18" width="2756" height="0" />
+          </frame>
+          <frame id="16:8027" name="Frame 2117130115" x="0" y="2976" width="848" height="424">
+            <frame id="1270:16845" name="Answer card" x="100" y="0" width="648" height="424">
+              <frame id="1270:16846" name="Card container" x="0" y="0" width="648" height="424">
+                <instance id="1270:16847" name="Card Background" x="0" y="0" width="648" height="424" />
+                <frame id="1270:16878" name="6x4" x="0" y="0" width="648" height="424">
+                  <frame id="1270:16879" name="Frame 2117130304" x="0" y="0" width="648" height="211">
+                    <instance id="1270:16901" name="Image " x="0" y="0" width="214.6666717529297" height="211" />
+                    <instance id="1270:16909" name="Image " x="216.6666717529297" y="0" width="214.66665649414062" height="211" />
+                    <instance id="1270:16905" name="Image " x="433.33331298828125" y="0" width="214.66665649414062" height="211" />
+                  </frame>
+                  <frame id="1270:16883" name="Frame 2117130306" x="0" y="213" width="648" height="211">
+                    <instance id="1270:16921" name="Image " x="0" y="0" width="160.5" height="211" />
+                    <instance id="1270:16917" name="Image " x="162.5" y="0" width="160.5" height="211" />
+                    <instance id="1270:16925" name="Image " x="325" y="0" width="160.5" height="211" />
+                    <instance id="1270:16913" name="Image " x="487.5" y="0" width="160.5" height="211" />
+                  </frame>
+                  <instance id="1270:16930" name="Top Button" x="541" y="384" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:8029" name="Frame 2117130118" x="0" y="3500" width="3048" height="36">
+            <vector id="16:8030" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:8031" name="Static layout" x="100" y="0" width="158" height="36" />
+            <vector id="16:8032" name="Vector 15" x="308" y="18" width="2740" height="0" />
+          </frame>
+          <frame id="16:8033" name="Frame 2117130119" x="0" y="3636" width="1546" height="524">
+            <frame id="1270:16936" name="Answer card" x="100" y="0" width="648" height="424">
+              <frame id="1270:16937" name="Card container" x="0" y="0" width="648" height="424">
+                <instance id="1270:16938" name="Card Background" x="0" y="0" width="648" height="424" />
+                <frame id="1270:16945" name="6x4" x="0" y="0" width="648" height="424">
+                  <frame id="1270:16972" name="Hero Container" x="0" y="0" width="424" height="424">
+                    <instance id="1270:16954" name="Image " x="0" y="0" width="424" height="424" />
+                  </frame>
+                  <frame id="1270:16947" name="Right Container" x="426" y="0" width="222" height="424">
+                    <instance id="1270:16962" name="Image " x="0" y="0" width="222" height="211" />
+                    <instance id="1270:16958" name="Image " x="0" y="213" width="222" height="211" />
+                  </frame>
+                  <instance id="1270:17096" name="Top Button" x="541" y="384" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+            <text id="16:8035" name="LeftHero" x="100" y="-36" width="56" height="36" />
+            <text id="16:8036" name="NoHero" x="798" y="-36" width="51" height="36" />
+            <frame id="1270:17041" name="Answer card" x="798" y="0" width="648" height="424">
+              <frame id="1270:17042" name="Card container" x="0" y="0" width="648" height="424">
+                <instance id="1270:17043" name="Card Background" x="0" y="0" width="648" height="424" />
+                <frame id="1270:17060" name="6x4" x="0" y="0" width="648" height="424">
+                  <frame id="1270:17061" name="Top Container" x="0" y="0" width="648" height="211">
+                    <instance id="1270:17082" name="Image " x="0" y="0" width="323" height="211" />
+                    <instance id="1270:17086" name="Image " x="325" y="0" width="323" height="211" />
+                  </frame>
+                  <frame id="1270:17064" name="Buttom Container" x="0" y="213" width="648" height="211">
+                    <instance id="1270:17078" name="Image " x="0" y="0" width="323" height="211" />
+                    <instance id="1270:17074" name="Image " x="325" y="0" width="323" height="211" />
+                  </frame>
+                  <instance id="1270:17090" name="Top Button" x="541" y="384" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:8038" name="Frame 2117130104" x="0" y="4260" width="3048" height="36">
+            <vector id="16:8039" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:8040" name="8x4" x="100" y="0" width="78" height="36" />
+            <vector id="16:8041" name="Vector 15" x="228" y="18" width="2820" height="0" />
+          </frame>
+          <frame id="16:8042" name="Frame 2117130105" x="0" y="4396" width="1994" height="524">
+            <frame id="1270:18499" name="Answer Card" x="100" y="0" width="872" height="424">
+              <frame id="1270:18501" name="Card container" x="0" y="0" width="872" height="424">
+                <instance id="1270:18502" name="Card Background" x="0" y="0" width="872" height="424" />
+                <instance id="1270:18503" name="Horizontal scroll" x="20" y="20" width="832" height="384" />
+              </frame>
+            </frame>
+            <frame id="16:8044" name="Answer Card" x="1022" y="0" width="872" height="424">
+              <frame id="16:8046" name="Card container" x="0" y="0" width="872" height="424">
+                <instance id="16:8047" name="Card Background" x="-56.0009765625" y="0" width="984.0000610351562" height="424" />
+                <frame id="16:8048" name="8x4" x="0" y="0" width="872" height="424">
+                  <frame id="16:8049" name="Frame 2117130304" x="0" y="0" width="872" height="211">
+                    <instance id="1270:19014" name="Image " x="0" y="0" width="224.3333282470703" height="211" />
+                    <instance id="1270:19009" name="Image " x="226.3333282470703" y="0" width="193" height="211" />
+                    <instance id="1270:19019" name="Image " x="421.33331298828125" y="0" width="224.33334350585938" height="211" />
+                    <instance id="1270:19004" name="Image " x="647.6666259765625" y="0" width="224.33334350585938" height="211" />
+                  </frame>
+                  <frame id="16:8054" name="Frame 2117130306" x="0" y="213" width="872" height="211">
+                    <instance id="1270:19024" name="Image " x="0" y="0" width="238" height="211" />
+                    <instance id="1270:19039" name="Image " x="240" y="0" width="209.3333282470703" height="211" />
+                    <instance id="1270:19034" name="Image " x="451.33331298828125" y="0" width="209.33334350585938" height="211" />
+                    <instance id="1270:19029" name="Image " x="662.6666259765625" y="0" width="209.33334350585938" height="211" />
+                  </frame>
+                  <instance id="1270:19044" name="Top Button" x="765" y="384" width="95" height="28" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:8063" name="Frame 2117130108" x="0" y="5020" width="3048" height="36">
+            <vector id="16:8064" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:8065" name="9x4" x="100" y="0" width="78" height="36" />
+            <vector id="16:8066" name="Vector 15" x="228" y="18" width="2820" height="0" />
+          </frame>
+          <frame id="16:8067" name="Frame 2117130109" x="0" y="5156" width="1184" height="524">
+            <frame id="16:8068" name="Answer Card" x="100" y="0" width="984" height="424">
+              <frame id="16:8070" name="Card container" x="0" y="0" width="984" height="424">
+                <instance id="16:8071" name="Card Background" x="-63.193359375" y="0" width="1110.3853759765625" height="424" />
+                <frame id="16:8072" name="9x4" x="0" y="0" width="984" height="424">
+                  <frame id="16:8073" name="Frame 2117130304" x="0" y="0" width="984" height="211">
+                    <instance id="1270:19103" name="Image " x="0" y="0" width="286" height="211" />
+                    <instance id="1270:19108" name="Image " x="288" y="0" width="230.6666717529297" height="211" />
+                    <instance id="1270:19098" name="Image " x="520.6666870117188" y="0" width="230.66665649414062" height="211" />
+                    <instance id="1270:19113" name="Image " x="753.3333740234375" y="0" width="230.66665649414062" height="211" />
+                  </frame>
+                  <frame id="16:8078" name="Frame 2117130306" x="0" y="213" width="984" height="211">
+                    <instance id="1270:19118" name="Image " x="0" y="0" width="260.3333435058594" height="211" />
+                    <instance id="1270:19133" name="Image " x="262.3333435058594" y="0" width="197" height="211" />
+                    <instance id="1270:19123" name="Image " x="461.3333435058594" y="0" width="260.33331298828125" height="211" />
+                    <instance id="1270:19128" name="Image " x="723.6666259765625" y="0" width="260.33331298828125" height="211" />
+                  </frame>
+                  <frame id="16:8083" name="Top Actions" x="877" y="384" width="95" height="28">
+                    <instance id="16:8084" name="Top Button" x="0" y="0" width="95" height="28" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:8087" name="Frame 2117130110" x="0" y="5780" width="3048" height="36">
+            <vector id="16:8088" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:8089" name="11x4" x="100" y="0" width="91" height="36" />
+            <vector id="16:8090" name="Vector 15" x="241" y="18" width="2807" height="0" />
+          </frame>
+          <frame id="16:8091" name="Frame 2117130111" x="0" y="5916" width="1408" height="524">
+            <frame id="1270:19211" name="Answer Card" x="100" y="0" width="1208" height="424">
+              <frame id="1270:19213" name="Card container" x="0" y="0" width="1208" height="424">
+                <instance id="1270:19214" name="Card Background" x="48.80647277832031" y="0" width="1110.3853759765625" height="424" />
+                <frame id="1270:19215" name="11x4" x="0" y="0" width="1208" height="424">
+                  <frame id="1270:19216" name="Frame 2117130304" x="0" y="0" width="1208" height="211">
+                    <instance id="1270:19217" name="Image " x="0" y="0" width="286" height="211" />
+                    <instance id="1270:19261" name="Image " x="288" y="0" width="237" height="211" />
+                    <instance id="1270:19218" name="Image " x="527" y="0" width="225.6666717529297" height="211" />
+                    <instance id="1270:19219" name="Image " x="754.6666870117188" y="0" width="225.66665649414062" height="211" />
+                    <instance id="1270:19220" name="Image " x="982.3333740234375" y="0" width="225.66665649414062" height="211" />
+                  </frame>
+                  <frame id="1270:19221" name="Frame 2117130306" x="0" y="213" width="1208" height="211">
+                    <instance id="1270:19222" name="Image " x="0" y="0" width="308.3333435058594" height="211" />
+                    <instance id="1270:19223" name="Image " x="310.3333435058594" y="0" width="277" height="211" />
+                    <instance id="1270:19224" name="Image " x="589.3333740234375" y="0" width="308.33331298828125" height="211" />
+                    <instance id="1270:19225" name="Image " x="899.6666870117188" y="0" width="308.33331298828125" height="211" />
+                  </frame>
+                  <frame id="1270:19226" name="Top Actions" x="1101" y="384" width="95" height="28">
+                    <instance id="1270:19227" name="Top Button" x="0" y="0" width="95" height="28" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:8148" name="Frame 2117130120" x="0" y="6540" width="3048" height="36">
+            <vector id="16:8149" name="Vector 12" x="0" y="18" width="50" height="0" />
+            <text id="16:8150" name="11x2" x="100" y="0" width="91" height="36" />
+            <vector id="16:8151" name="Vector 15" x="241" y="18" width="2807" height="0" />
+          </frame>
+          <frame id="16:8152" name="Frame 2117130121" x="0" y="6676" width="1408" height="300">
+            <frame id="16:8153" name="11x2" x="100" y="5.684341886080802e-14" width="1208" height="200">
+              <frame id="16:8154" name="Container" x="0" y="0" width="1208" height="200">
+                <instance id="1270:19276" name="Image " x="0" y="0" width="240" height="200" />
+                <instance id="1270:19281" name="Image " x="242" y="0" width="240" height="200" />
+                <instance id="1270:19271" name="Image " x="484" y="0" width="240" height="200" />
+                <instance id="1270:19286" name="Image " x="726" y="0" width="240" height="200" />
+                <instance id="1270:19266" name="Image " x="968" y="0" width="240" height="200" />
+              </frame>
+              <frame id="16:8206" name="Top Actions" x="1101" y="160" width="95" height="28">
+                <instance id="16:8207" name="Top Button" x="0" y="0" width="95" height="28" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="16:8282" name="Frame 2117130122" x="0" y="7076" width="1408" height="300">
+            <frame id="16:8283" name="11x2" x="100" y="2.842170943040401e-14" width="1208" height="200">
+              <instance id="1270:19326" name="Image " x="0" y="0" width="228.8000030517578" height="200" />
+              <instance id="1270:19335" name="Image " x="244.8000030517578" y="0" width="228.8000030517578" height="200" />
+              <instance id="1270:19340" name="Image " x="489.6000061035156" y="0" width="228.8000030517578" height="200" />
+              <instance id="1270:19345" name="Image " x="734.4000244140625" y="0" width="228.80001831054688" height="200" />
+              <instance id="1270:19357" name="Image " x="979.2000732421875" y="0" width="228.80001831054688" height="200" />
+              <instance id="16:8310" name="Scroller Button" x="1190" y="76" width="36" height="48" />
+            </frame>
+          </frame>
+          <frame id="1270:28762" name="Frame 2117130123" x="0" y="7476" width="1408" height="300">
+            <frame id="1270:28792" name="11x2" x="100" y="2.842170943040401e-14" width="1208" height="200">
+              <frame id="1270:28793" name="2 by 2" x="0" y="0" width="228.8000030517578" height="200">
+                <instance id="1270:28794" name="Image " x="0" y="0" width="228.8000030517578" height="146" />
+                <frame id="1270:28795" name="Content" x="0" y="154" width="228.8000030517578" height="46">
+                  <instance id="1270:28796" name="Title" x="4" y="0" width="220.8000030517578" height="22" />
+                  <frame id="1270:28797" name="Subtitle" x="4" y="26" width="192" height="20">
+                    <rounded-rectangle id="1270:28798" name="Rectangle 3" x="0" y="2" width="16" height="16" />
+                    <text id="1270:28799" name="Subtitle" x="20" y="0" width="172" height="20" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1270:28800" name="2 by 3" x="244.8000030517578" y="0" width="228.8000030517578" height="200">
+                <instance id="1270:28801" name="Image " x="0" y="0" width="228.8000030517578" height="146" />
+                <frame id="1270:28802" name="Content" x="0" y="154" width="228.8000030517578" height="46">
+                  <instance id="1270:28803" name="Title" x="4" y="0" width="220.8000030517578" height="22" />
+                  <frame id="1270:28804" name="Subtitle" x="4" y="26" width="192" height="20">
+                    <rounded-rectangle id="1270:28805" name="Rectangle 3" x="0" y="2" width="16" height="16" />
+                    <text id="1270:28806" name="Subtitle" x="20" y="0" width="172" height="20" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1270:28807" name="2 by 4" x="489.6000061035156" y="0" width="228.8000030517578" height="200">
+                <instance id="1270:28808" name="Image " x="0" y="0" width="228.8000030517578" height="146" />
+                <frame id="1270:28809" name="Content" x="0" y="154" width="228.8000030517578" height="46">
+                  <instance id="1270:28810" name="Title" x="4" y="0" width="220.8000030517578" height="22" />
+                  <frame id="1270:28811" name="Subtitle" x="4" y="26" width="192" height="20">
+                    <rounded-rectangle id="1270:28812" name="Rectangle 3" x="0" y="2" width="16" height="16" />
+                    <text id="1270:28813" name="Subtitle" x="20" y="0" width="172" height="20" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1270:28814" name="2 by 5" x="734.4000244140625" y="0" width="228.80001831054688" height="200">
+                <instance id="1270:28815" name="Image " x="0" y="0" width="228.80001831054688" height="146" />
+                <frame id="1270:28816" name="Content" x="0" y="154" width="228.80001831054688" height="46">
+                  <instance id="1270:28817" name="Title" x="4" y="0" width="220.80001831054688" height="22" />
+                  <frame id="1270:28818" name="Subtitle" x="4" y="26" width="192" height="20">
+                    <rounded-rectangle id="1270:28819" name="Rectangle 3" x="0" y="2" width="16" height="16" />
+                    <text id="1270:28820" name="Subtitle" x="20" y="0" width="172" height="20" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="1270:28821" name="2 by 6" x="979.2000732421875" y="0" width="228.80001831054688" height="200">
+                <instance id="1270:28822" name="Image " x="0" y="0" width="228.80001831054688" height="146" />
+                <frame id="1270:28823" name="Content" x="0" y="154" width="228.80001831054688" height="46">
+                  <instance id="1270:28824" name="Title" x="4" y="0" width="220.80001831054688" height="22" />
+                  <frame id="1270:28825" name="Subtitle" x="4" y="26" width="192" height="20">
+                    <rounded-rectangle id="1270:28826" name="Rectangle 3" x="0" y="2" width="16" height="16" />
+                    <text id="1270:28827" name="Subtitle" x="20" y="0" width="172" height="20" />
+                  </frame>
+                </frame>
+              </frame>
+              <instance id="1270:28828" name="Scroller Button" x="1190" y="76" width="36" height="48" />
+            </frame>
+          </frame>
+          <frame id="16:8311" name="Frame 2117130091" x="0" y="7876" width="457" height="164" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+</frame>
+IMPORTANT: The design was too large to fit into context with get_design_context. Instead you have received a sparse metadata response, you MUST call get_design_context on the IDs of the sublayers to get the full code. Split up the calls to ensure the sublayers do not also exceed the context limit.

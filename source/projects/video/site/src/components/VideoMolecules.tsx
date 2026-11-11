@@ -19,7 +19,7 @@ export function SourceIcon({ source = 'YouTube' }: { source?: string }) {
 }
 
 export function VideoSource({ source = 'YouTube', channel = 'Channel', icon = true }: { source?: string; channel?: string; icon?: boolean }) {
-  return <span className="vm-source">{icon && <SourceIcon source={source} />}<span>{source}</span>{channel && <><span aria-hidden="true">·</span><span className="vm-ellipsis">{channel}</span></>}</span>
+  return <span className="vm-source">{icon && <SourceIcon source={source} />}<span className="vm-source-name">{source}</span>{channel && <><span aria-hidden="true">·</span><span className="vm-ellipsis">{channel}</span></>}</span>
 }
 
 export function VideoFacts({ views = '10K views', date = 'Nov 08, 2025' }: { views?: string; date?: string }) {
@@ -96,9 +96,14 @@ export function VideoCard({ state = 'Default', metadataPosition = 'Below', place
   const vrpPreview = placement === 'VRP' && preview.current === 'Preview'
   const activate = () => { preview.activate(); onActivate?.() }
   const overlay = metadataPosition === 'Overlay'
-  return <article className={`vm-card vm-video-card vm-video-${metadataPosition.toLowerCase()} ${className}`} data-state={preview.current} style={{ width: geometry.width, height: height ?? geometry.height }}>
+  // Optional Below descriptions need their own rows beyond the source's default metadata slot.
+  const cardHeight = height ?? (metadataPosition === 'Below' && showDescription ? 'auto' : geometry.height)
+  // Fixed-height scroller cards reserve all 88px of their two-line metadata.
+  const metadataGap = metadataPosition === 'Below' && height !== undefined && !showDescription
+    ? Math.max(0, Math.min(8, height - geometry.thumbnailHeight - 88)) : undefined
+  return <article className={`vm-card vm-video-card vm-video-${metadataPosition.toLowerCase()} ${className}`} data-state={preview.current} style={{ width: geometry.width, height: cardHeight, gap: metadataGap }}>
     <div className="vm-video-media" style={{ width: thumbnailWidth ?? geometry.thumbnailWidth, borderRadius: vrpPreview ? 16 : 24 }}><VideoThumbnail state={preview.current as VideoState} src={thumbnailUrl} title={title} duration={duration} height={geometry.thumbnailHeight} onActivate={activate} onPreview={preview.enter} onLeave={preview.leave} progress={vrpPreview}>
-      {overlay && <div className="vm-video-overlay"><span className="vm-overlay-title">{title === VIDEO_TITLE ? 'Title Lorem ipsum dolor sit amet consectetur.' : title}</span><VideoSource source={source === 'YouTube' ? 'Source' : source} channel={channel === 'Channel' ? 'https://www.lorem.com' : channel} /></div>}
+      {overlay && <div className="vm-video-overlay-content"><span className="vm-overlay-title">{title === VIDEO_TITLE ? 'Title Lorem ipsum dolor sit amet consectetur.' : title}</span><VideoSource source={source === 'YouTube' ? 'Source' : source} channel={channel === 'Channel' ? 'https://www.lorem.com' : channel} /></div>}
     </VideoThumbnail>{vrpPreview && <PreviewStrip src={thumbnailUrl} height={geometry.width * 50.728 / 386} />}</div>
     {!overlay && (vrpPreview ? <MoreLikeThis onActivate={onActivate} /> : <VideoMetadata placement={metadataPosition} width={metadataPosition === 'Inline' ? Math.max(0, geometry.width - (thumbnailWidth ?? geometry.thumbnailWidth) - 12) : geometry.width} title={title} source={source} channel={channel} views={views} date={date} description={description} showDescription={showDescription} height={metadataPosition === 'Inline' ? geometry.thumbnailHeight : undefined} onActivate={activate} />)}
   </article>
@@ -117,7 +122,7 @@ export function VideoHeroCard({ size = 'Normal', state = 'Default', width, heigh
     <VideoThumbnail state={preview.current as VideoState} src={thumbnailUrl} title={title} duration={duration} height={g.thumbnailHeight} radius={0} onActivate={activate} onPreview={preview.enter} onLeave={preview.leave} />
     <div className="vm-hero-copy"><button className="vm-title-link" onClick={activate}><span className="vm-title">{title ?? (size === 'Super wide' ? 'Lorem ipsum dolor sit amet consectetur. Luctus leo turpis porttitor' : MAGAZINE_TITLE)}</span></button>
       {size === 'Normal' && <VideoFacts views={views} date={date} />}
-      {showText && <p className="vm-description">{description ?? (size === 'Wide' ? WIDE_DESCRIPTION : MAGAZINE_DESCRIPTION)}</p>}
+      {showText && <div className="vm-hero-description"><p className="vm-description">{description ?? (size === 'Wide' ? WIDE_DESCRIPTION : MAGAZINE_DESCRIPTION)}</p></div>}
       <div className="vm-hero-footer"><VideoSource source={source} channel={channel} />{size !== 'Normal' && <><span>·</span><VideoFacts views={views} date={date} /></>}</div>
     </div>
   </article>

@@ -1,0 +1,101 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/89bcee52-d3af-4a05-9dbf-6146a22fe6b9";
+import SerpIcon from "D:\Code\entity-segments\references\components\atoms\serp-icon.tsx"
+
+const imgRectangle = `${assetPathPrefix}/acc04.png`;
+
+export default function SlideCard() {
+  return (
+    <div className="overflow-clip relative rounded-[var(--static\/corner\/rounded\/6-base,24px)] size-full" data-node-id="2568:13699" data-name="Slide Card">
+      <div className="absolute inset-0 shadow-[0px_4px_12px_0px_rgba(0,0,0,0.12)]" data-node-id="I2568:13699;2565:1420" data-name="Rectangle">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle} />
+      </div>
+      <div className="absolute backdrop-blur-[2px] h-[424px] left-0 top-0 w-[536px]" data-node-id="I2568:13699;2565:1421" style={{ backgroundImage: "linear-gradient(179.42127906204462deg, rgba(0, 0, 0, 0.051) 30.199%, rgba(0, 0, 0, 0.102) 40.516%, rgba(0, 0, 0, 0.502) 53.71%, rgba(0, 0, 0, 0.698) 72.005%, rgba(0, 0, 0, 0.698) 99.37%)" }} data-name="Rectangle" />
+      <div className="absolute content-stretch flex flex-col gap-[16px] h-[400px] items-center justify-end left-[12px] pb-[var(--padding\/content\/xxsmall,4px)] pt-[var(--mai\/padding\/card\/body\/default\/outside,18px)] px-[var(--mai\/padding\/card\/body\/default\/outside,18px)] right-[12px] top-[12px]" data-node-id="I2568:13699;2565:1422" data-name="Frame">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--bing\/smtc\/padding\/ctrl-xs\/horizontal,4px)] items-center relative shrink-0 w-full" data-node-id="I2568:13699;2563:15629" data-name="Frame">
+          <p className="font-['Alice:Regular'] leading-[1.2] not-italic overflow-hidden relative shrink-0 text-[28px] text-[color:var(--gallery-glass-on-glass,white)] text-ellipsis w-full" data-node-id="I2568:13699;2563:15630">
+            The Alaska Range
+          </p>
+          <p className="font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/body3\/lineheight,22px)] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-image\/switchable\/rest,white)] text-[length:var(--text\/global\/body3\/fontsize,14px)] w-full" data-node-id="I2568:13699;2563:15631" style={{ fontVariationSettings: '"wdth" 100' }}>{`Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.`}</p>
+        </div>
+        <div className="content-stretch flex gap-[var(--smtc\/gap\/between\/content\/small,12px)] items-start relative shrink-0 w-full" data-node-id="I2568:13699;2565:1427" data-name="Frame">
+          <div className="aspect-square border border-[var(--smtc\/ctrl\/focus\/inner\/stroke,white)] border-solid content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip relative rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] shadow-[-2px_6px_15px_0px_rgba(0,0,0,0.1)]" data-node-id="I2568:13699;2565:1428" data-name="16:9">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] size-full" src={imgRectangle} />
+            <div className="flex h-[61.877px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13699;2565:1429">
+              <div className="flex-none rotate-[-34.23deg] w-full">
+                <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+              </div>
+            </div>
+          </div>
+          <div className="aspect-square content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip relative rounded-[var(--smtc\/corner\/flyout\/rest,8px)]" data-node-id="I2568:13699;2565:1430" data-name="16:9">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--smtc\/corner\/flyout\/rest,8px)] size-full" src={imgRectangle} />
+            <div className="flex h-[61.877px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13699;2565:1431">
+              <div className="flex-none rotate-[-34.23deg] w-full">
+                <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+              </div>
+            </div>
+          </div>
+          <div className="aspect-square content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip relative rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] shadow-[-2px_6px_15px_0px_rgba(0,0,0,0.1)]" data-node-id="I2568:13699;2565:1432" data-name="16:9">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--bing\/static\/corner\/rounded\/xx-small,8px)] size-full" src={imgRectangle} />
+            <div className="flex h-[61.877px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13699;2565:1433">
+              <div className="flex-none rotate-[-34.23deg] w-full">
+                <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+              </div>
+            </div>
+          </div>
+          <div className="aspect-square content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip relative rounded-[var(--smtc\/corner\/ctrl\/lg\/rest,8px)]" data-node-id="I2568:13699;2565:1434" data-name="16:9">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--smtc\/corner\/ctrl\/lg\/rest,8px)] size-full" src={imgRectangle} />
+            <div className="flex h-[61.877px] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13699;2565:1435">
+              <div className="flex-none rotate-[-34.23deg] w-full">
+                <div className="bg-white h-0 opacity-0 relative w-full" data-name="–" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[var(--mai\/smtc\/background\/ctrl\/on-image\/rest,black)] content-stretch flex gap-[var(--smtc\/gap\/between\/content\/xxx-small,2px)] h-[20px] items-center left-[13px] pb-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/bottom,2px)] pt-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/top,2px)] px-[var(--smtc\/ctrl\/badge\/sm\/padding,4px)] rounded-[var(--smtc\/ctrl\/badge\/corner,8px)] top-[12px]" data-node-id="I2568:13699;2565:1436" data-name="Badge">
+        <div className="content-stretch flex h-[13px] items-center relative shrink-0" data-node-id="I2568:13699;2565:1436;88720:35156" data-name="IconContainer">
+          <div className="relative shrink-0 size-[12px]" data-node-id="I2568:13699;2565:1436;71493:230763" data-name="Icon">
+            <CodeConnectSnippet data-node-id="I2568:13699;2565:1436;71493:230763;115630:166841" data-name="ImageMultiple">
+              <SerpIcon />
+            </CodeConnectSnippet>
+          </div>
+        </div>
+        <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] leading-[var(--text\/global\/caption2\/lineheight,13px)] relative shrink-0 text-[color:var(--mai\/smtc\/foreground\/ctrl\/on-image\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center whitespace-nowrap" data-node-id="I2568:13699;2565:1436;64508:210742" style={{ fontVariationSettings: '"wdth" 100' }}>
+          23 images
+        </p>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: --bing-smtc-text-global/body/3: Font(family: "text/style/default/regular/font-family", style: Regular, size: text/global/body3/fontSize, weight: text/style/default/regular/weight, lineHeight: text/global/body3/lineHeight, letterSpacing: 0), --bing-smtc-text-global/caption/2-strong: Font(family: "text/style/default/regular/font-family", style: Bold, size: text/global/caption2/fontSize, weight: text/style/default/header/weight, lineHeight: text/global/caption2/lineHeight, letterSpacing: 0).
+
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Slide Card
+**Node ID:** 2565:1584
+
+Slide Card：Size 3:4（312×424）/ 5:4（536×424）；Pagination：Bottom arrows、Top bars、Bottom bars。Bottom bars 的 Default 仅显示文字与底部分页，Hover 在文字下方显示四张缩略图。Default/Hover 为静态变体，未连接交互。 Size=3:2 使用现成素材尺寸312×204；底部横条Default与Hover直接取自用户提供的原始卡片。
+
+## Badge
+**Node ID:** 2560:71
+
+A compact, non-interactive label for conveying status, category, or metadata. Supports 5 semantic colors (info, discovery, success, danger, warning), 2 visual weights (soft, solid), 2 sizes, optional leading icon/favicon, bold emphasis, and overlay mode for images. 132 variants.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
+
+Nodes “Icon” (0:25), “Badge” (0:18): No Code Connect mapping labelled “react” was found. Available labels: “Javascript”.
+
+Provide a matching label to retrieve the associated Code Connect mapping for this node.

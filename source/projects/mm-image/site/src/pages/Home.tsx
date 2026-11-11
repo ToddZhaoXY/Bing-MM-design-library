@@ -1,6 +1,8 @@
 import { components } from '../data/components'
 import { mosaicCoverage } from '../mosaic/generators'
 import { mosaicCatalogSnapshot } from '../mosaic/validate'
+import { Link } from 'react-router-dom'
+import { IMAGE_CARDS_SLUG, imageCardGroups, figmaCardUrl } from '../data/image-cards'
 
 export function Home() {
   const available = mosaicCoverage.filter((item) => item.status === 'available').length
@@ -12,8 +14,8 @@ export function Home() {
       <div className="page-header">
         <h2>MMACF component library</h2>
         <div className="meta">
-          <span className="chip">v0.2 · full library</span>
-          <span className="chip chip--node">figma fRSRroY4YFgJSeqLLE0Y38</span>
+          <span className="chip">v0.3 · Image ACF Cards</span>
+          <a className="chip chip--node" href={figmaCardUrl('2216:1178')} target="_blank" rel="noreferrer">FY25 source ↗</a>
           <span className="chip">{components.length} components</span>
         </div>
       </div>
@@ -25,6 +27,17 @@ export function Home() {
           tier, carries live variant switching, and emits copyable MM JSX plus catalog-validated
           Mosaic SDL — so Vibe Coding starts from the real API instead of a screenshot.
         </p>
+      </section>
+
+      <section className="section">
+        <div className="section__title">Image ACF Cards · {imageCardGroups.length} sizes · {imageCardGroups.reduce((count, group) => count + group.variants.length, 0)} configurations</div>
+        <p className="overview" style={{ marginBottom: 16 }}>Explore the FY25 desktop cards by footprint. Switch between image collages, related searches and scrolling layouts within each size.</p>
+        <div className="table-scroll"><table className="props"><thead><tr><th>Size</th><th>Source dimensions</th><th>Configurations</th></tr></thead><tbody>
+          {imageCardGroups.map(group => <tr key={group.size}>
+            <td><Link className="text-link" to={`/c/${IMAGE_CARDS_SLUG}?size=${group.size}`}>{group.size} →</Link></td>
+            <td>{group.width} × {group.height} px</td><td>{group.variants.length}</td>
+          </tr>)}
+        </tbody></table></div>
       </section>
 
       <section className="section">

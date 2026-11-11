@@ -1,0 +1,1776 @@
+[
+  {
+    "id": "2568:13161",
+    "name": "Slide Card",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 312,
+      "height": 424
+    },
+    "effects": []
+  },
+  {
+    "id": "I2568:13161;2565:1066",
+    "name": "Component 7",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 312,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:9833",
+    "name": "Frame 2147234156",
+    "type": "FRAME",
+    "rect": {
+      "x": -112,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:9834",
+    "name": "Frame 2147234155",
+    "type": "FRAME",
+    "rect": {
+      "x": -112,
+      "y": 0,
+      "width": 2680,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:9835",
+    "name": "Image",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": -112,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13161;2565:1066;723:36357",
+    "name": "metadata",
+    "type": "INSTANCE",
+    "rect": {
+      "x": -96,
+      "y": 16,
+      "width": 79,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;723:36357;723:36080",
+    "name": "Thumbnail",
+    "type": "INSTANCE",
+    "rect": {
+      "x": -96,
+      "y": 18,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;723:36357;723:36080;131224:172906",
+    "name": "Image",
+    "type": "INSTANCE",
+    "rect": {
+      "x": -96,
+      "y": 18,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;723:36357;723:36080;131224:172906;131224:154861",
+    "name": "Image",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": -96,
+      "y": 18,
+      "width": 16,
+      "height": 16
+    },
+    "images": [
+      {
+        "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13161;2565:1066;723:36357;723:36081",
+    "name": "Label",
+    "type": "TEXT",
+    "rect": {
+      "x": -76,
+      "y": 16,
+      "width": 59,
+      "height": 20
+    },
+    "text": "imdb.com",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "wdth": 100
+      }
+    },
+    "fontSize": 13,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:9836",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 424,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:9837",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 960,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:9838",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 1496,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:9839",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 2032,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:9840",
+    "name": "overlay",
+    "type": "FRAME",
+    "rect": {
+      "x": 2032,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:9841",
+    "name": "link container",
+    "type": "FRAME",
+    "rect": {
+      "x": 2032,
+      "y": 204,
+      "width": 536,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:9842",
+    "name": "See more",
+    "type": "TEXT",
+    "rect": {
+      "x": 2266,
+      "y": 205.5,
+      "width": 48,
+      "height": 13
+    },
+    "text": "See more",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700,
+        "wdth": 100
+      }
+    },
+    "fontSize": 11,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:9843",
+    "name": "Open",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 2318,
+      "y": 204,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027",
+    "name": "pagination",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 0,
+      "y": 376,
+      "width": 312,
+      "height": 28
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;62893:104421",
+    "name": "Button",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 97.5,
+      "y": 376,
+      "width": 28,
+      "height": 28
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;62893:104421;128439:229722",
+    "name": "nestedContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 101.5,
+      "y": 382,
+      "width": 20,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;62893:104421;128439:229723",
+    "name": "iconStartContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 103.5,
+      "y": 382,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;62893:104421;128439:229724",
+    "name": "iconStart",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 103.5,
+      "y": 382,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;62893:104421;128439:229724;115630:166841",
+    "name": "ChevronLeft",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 103.5,
+      "y": 382,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;62893:104422",
+    "name": "Number container",
+    "type": "FRAME",
+    "rect": {
+      "x": 133.5,
+      "y": 376,
+      "width": 45,
+      "height": 28
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;95744:97456",
+    "name": "number container",
+    "type": "FRAME",
+    "rect": {
+      "x": 141.5,
+      "y": 378,
+      "width": 29,
+      "height": 24
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;95744:97457",
+    "name": "current page",
+    "type": "TEXT",
+    "rect": {
+      "x": 141.5,
+      "y": 383.5,
+      "width": 7,
+      "height": 13
+    },
+    "text": "1",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "wdth": 100
+      }
+    },
+    "fontSize": 11,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13
+    },
+    "textAlignHorizontal": "CENTER"
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;95744:97458",
+    "name": "of",
+    "type": "TEXT",
+    "rect": {
+      "x": 150.5,
+      "y": 383.5,
+      "width": 11,
+      "height": 13
+    },
+    "text": "of",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "wdth": 100
+      }
+    },
+    "fontSize": 11,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13
+    },
+    "textAlignHorizontal": "CENTER"
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;95744:97459",
+    "name": "total page",
+    "type": "TEXT",
+    "rect": {
+      "x": 163.5,
+      "y": 383.5,
+      "width": 7,
+      "height": 13
+    },
+    "text": "4",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "wdth": 100
+      }
+    },
+    "fontSize": 11,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13
+    },
+    "textAlignHorizontal": "CENTER"
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;62893:104424",
+    "name": "Button",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 186.5,
+      "y": 376,
+      "width": 28,
+      "height": 28
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;62893:104424;128439:229632",
+    "name": "nestedContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 190.5,
+      "y": 382,
+      "width": 20,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;62893:104424;128439:229633",
+    "name": "iconStartContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 192.5,
+      "y": 382,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;62893:104424;128439:229634",
+    "name": "iconStart",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 192.5,
+      "y": 382,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13161;2565:1066;329:10027;62893:104424;128439:229634;115630:166841",
+    "name": "ChevronRight",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 192.5,
+      "y": 382,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "2568:13209",
+    "name": "Slide Card",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 312,
+      "height": 424
+    },
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 26,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.10196078568696976
+        },
+        "offset": {
+          "x": 0,
+          "y": 12
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 47,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.09019608050584793
+        },
+        "offset": {
+          "x": 0,
+          "y": 47
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 63,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05098039284348488
+        },
+        "offset": {
+          "x": 0,
+          "y": 105
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      }
+    ]
+  },
+  {
+    "id": "I2568:13209;2565:1537",
+    "name": "Slide content",
+    "type": "FRAME",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 312,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1538",
+    "name": "Frame 2147234156",
+    "type": "FRAME",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1539",
+    "name": "Frame 2147234155",
+    "type": "FRAME",
+    "rect": {
+      "x": -112,
+      "y": 0,
+      "width": 2680,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1540",
+    "name": "Image",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": -112,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13209;2565:1541",
+    "name": "metadata",
+    "type": "INSTANCE",
+    "rect": {
+      "x": -96,
+      "y": 388,
+      "width": 79,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1541;723:36080",
+    "name": "Thumbnail",
+    "type": "INSTANCE",
+    "rect": {
+      "x": -96,
+      "y": 390,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1541;723:36080;131224:172906",
+    "name": "Image",
+    "type": "INSTANCE",
+    "rect": {
+      "x": -96,
+      "y": 390,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1541;723:36080;131224:172906;131224:154861",
+    "name": "Image",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": -96,
+      "y": 390,
+      "width": 16,
+      "height": 16
+    },
+    "images": [
+      {
+        "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13209;2565:1541;723:36081",
+    "name": "Label",
+    "type": "TEXT",
+    "rect": {
+      "x": -76,
+      "y": 388,
+      "width": 59,
+      "height": 20
+    },
+    "text": "imdb.com",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "wdth": 100
+      }
+    },
+    "fontSize": 13,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13209;2565:1542",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 424,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13209;2565:1543",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 960,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13209;2565:1544",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 1496,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13209;2565:1545",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 2032,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13209;2565:1546",
+    "name": "overlay",
+    "type": "FRAME",
+    "rect": {
+      "x": 2032,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1547",
+    "name": "link container",
+    "type": "FRAME",
+    "rect": {
+      "x": 2032,
+      "y": 204,
+      "width": 536,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1548",
+    "name": "See more",
+    "type": "TEXT",
+    "rect": {
+      "x": 2266,
+      "y": 205.5,
+      "width": 48,
+      "height": 13
+    },
+    "text": "See more",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700,
+        "wdth": 100
+      }
+    },
+    "fontSize": 11,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13209;2565:1549",
+    "name": "Open",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 2318,
+      "y": 204,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1551",
+    "name": "Footer",
+    "type": "FRAME",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 312,
+      "height": 68.00000000000004
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1552",
+    "name": "Pagination Container",
+    "type": "FRAME",
+    "rect": {
+      "x": 36,
+      "y": 16,
+      "width": 240,
+      "height": 6.000000000000028
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1553",
+    "name": "Rectangle 34645892",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 36,
+      "y": 16,
+      "width": 54,
+      "height": 6.000000000000007
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1554",
+    "name": "Rectangle 34645893",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 98,
+      "y": 16,
+      "width": 54,
+      "height": 6.000000000000007
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1555",
+    "name": "Rectangle 34645890",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 160,
+      "y": 16,
+      "width": 54,
+      "height": 6.000000000000007
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1556",
+    "name": "Rectangle 34645895",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 222,
+      "y": 16,
+      "width": 54,
+      "height": 6.000000000000007
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1559",
+    "name": "Personable Tom at age 60s",
+    "type": "TEXT",
+    "rect": {
+      "x": 36,
+      "y": 30,
+      "width": 171,
+      "height": 22
+    },
+    "text": "Personable Tom at age 60s",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700,
+        "wdth": 100
+      }
+    },
+    "fontSize": 14,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 22
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13209;2565:1560",
+    "name": "Button",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 248,
+      "y": 193,
+      "width": 48,
+      "height": 48
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1560;127901:96642",
+    "name": "nestedContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 258,
+      "y": 207,
+      "width": 28,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1560;127901:101193",
+    "name": "iconStartContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 262,
+      "y": 207,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1560;33172:60527",
+    "name": "iconStart",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 262,
+      "y": 207,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1560;33172:60527;115630:161106",
+    "name": "ChevronRight",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 262,
+      "y": 207,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1561",
+    "name": "Button",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 16,
+      "y": 193,
+      "width": 48,
+      "height": 48
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1561;127901:96657",
+    "name": "nestedContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 26,
+      "y": 207,
+      "width": 28,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1561;127901:101208",
+    "name": "iconStartContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 30,
+      "y": 207,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1561;33172:60647",
+    "name": "iconStart",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 30,
+      "y": 207,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13209;2565:1561;33172:60647;115630:161106",
+    "name": "ChevronLeft",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 30,
+      "y": 207,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": "2568:13303",
+    "name": "Slide Card",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 312,
+      "height": 424
+    },
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 26,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.10000000149011612
+        },
+        "offset": {
+          "x": 0,
+          "y": 12
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 47,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.09000000357627869
+        },
+        "offset": {
+          "x": 0,
+          "y": 47
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 63,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "offset": {
+          "x": 0,
+          "y": 105
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 75,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.009999999776482582
+        },
+        "offset": {
+          "x": 0,
+          "y": 187
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 82,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 292
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      }
+    ]
+  },
+  {
+    "id": "I2568:13303;2565:1204",
+    "name": "Rectangle",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 312,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13303;2565:1205",
+    "name": "Rectangle",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 312,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13303;2565:1206",
+    "name": "Frame",
+    "type": "FRAME",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 312,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13303;2565:1207",
+    "name": "Badge",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 16,
+      "y": 16,
+      "width": 74,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13303;2565:1207;88720:35156",
+    "name": "IconContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 20,
+      "y": 19.5,
+      "width": 12,
+      "height": 13
+    }
+  },
+  {
+    "id": "I2568:13303;2565:1207;71493:230763",
+    "name": "Icon",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 20,
+      "y": 20,
+      "width": 12,
+      "height": 12
+    }
+  },
+  {
+    "id": "I2568:13303;2565:1207;71493:230763;115630:166841",
+    "name": "ImageMultiple",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 20,
+      "y": 20,
+      "width": 12,
+      "height": 12
+    }
+  },
+  {
+    "id": "I2568:13303;2565:1207;64508:210742",
+    "name": "Lorem ipsum",
+    "type": "TEXT",
+    "rect": {
+      "x": 34,
+      "y": 19.5,
+      "width": 52,
+      "height": 13
+    },
+    "text": "24 images",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700,
+        "wdth": 100
+      }
+    },
+    "fontSize": 11,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13
+    },
+    "textAlignHorizontal": "CENTER"
+  },
+  {
+    "id": "I2568:13303;2565:1221",
+    "name": "Frame",
+    "type": "FRAME",
+    "rect": {
+      "x": 16,
+      "y": 306,
+      "width": 280,
+      "height": 102
+    }
+  },
+  {
+    "id": "I2568:13303;2565:1222",
+    "name": "Frame",
+    "type": "FRAME",
+    "rect": {
+      "x": 16,
+      "y": 306,
+      "width": 280,
+      "height": 82
+    }
+  },
+  {
+    "id": "I2568:13303;2565:1223",
+    "name": "Article Title",
+    "type": "TEXT",
+    "rect": {
+      "x": 16,
+      "y": 306,
+      "width": 280,
+      "height": 34
+    },
+    "text": "The Alaska Range",
+    "fontName": {
+      "family": "Alice",
+      "style": "Regular"
+    },
+    "fontSize": 28,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 120.00000476837158
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13303;2565:1224",
+    "name": "Article Title",
+    "type": "TEXT",
+    "rect": {
+      "x": 16,
+      "y": 344,
+      "width": 280,
+      "height": 44
+    },
+    "text": "Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "wdth": 100
+      }
+    },
+    "fontSize": 14,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 22
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13303;2565:1225",
+    "name": "Pagination indicators",
+    "type": "FRAME",
+    "rect": {
+      "x": 16,
+      "y": 404,
+      "width": 138,
+      "height": 4
+    }
+  },
+  {
+    "id": "I2568:13303;2565:1226",
+    "name": "Bars",
+    "type": "FRAME",
+    "rect": {
+      "x": 16,
+      "y": 404,
+      "width": 138,
+      "height": 4
+    }
+  },
+  {
+    "id": "I2568:13303;2565:1227",
+    "name": "Progress Indicator / Story 6",
+    "type": "FRAME",
+    "rect": {
+      "x": 16,
+      "y": 404,
+      "width": 32.25,
+      "height": 4
+    }
+  },
+  {
+    "id": "I2568:13303;2565:1228",
+    "name": "Progress Indicator / Story 11",
+    "type": "FRAME",
+    "rect": {
+      "x": 51.25,
+      "y": 404,
+      "width": 32.25,
+      "height": 4
+    }
+  },
+  {
+    "id": "I2568:13303;2565:1230",
+    "name": "Progress Indicator / Story 12",
+    "type": "FRAME",
+    "rect": {
+      "x": 86.5,
+      "y": 404,
+      "width": 32.25,
+      "height": 4
+    }
+  },
+  {
+    "id": "I2568:13303;2565:1232",
+    "name": "Progress Indicator / Story 13",
+    "type": "FRAME",
+    "rect": {
+      "x": 121.75,
+      "y": 404,
+      "width": 32.25,
+      "height": 4
+    }
+  },
+  {
+    "id": "2568:13374",
+    "name": "Slide Card",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 312,
+      "height": 424
+    },
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 26,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.10000000149011612
+        },
+        "offset": {
+          "x": 0,
+          "y": 12
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 47,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.09000000357627869
+        },
+        "offset": {
+          "x": 0,
+          "y": 47
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 63,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "offset": {
+          "x": 0,
+          "y": 105
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 75,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.009999999776482582
+        },
+        "offset": {
+          "x": 0,
+          "y": 187
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 82,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 292
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      }
+    ]
+  },
+  {
+    "id": "I2568:13374;2565:1236",
+    "name": "Rectangle",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 312,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13374;2565:1237",
+    "name": "Rectangle",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 312,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13374;2565:1238",
+    "name": "Frame",
+    "type": "FRAME",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 312,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13374;2565:1239",
+    "name": "Badge",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 16,
+      "y": 16,
+      "width": 74,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13374;2565:1239;88720:35156",
+    "name": "IconContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 20,
+      "y": 19.5,
+      "width": 12,
+      "height": 13
+    }
+  },
+  {
+    "id": "I2568:13374;2565:1239;71493:230763",
+    "name": "Icon",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 20,
+      "y": 20,
+      "width": 12,
+      "height": 12
+    }
+  },
+  {
+    "id": "I2568:13374;2565:1239;71493:230763;115630:166841",
+    "name": "ImageMultiple",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 20,
+      "y": 20,
+      "width": 12,
+      "height": 12
+    }
+  },
+  {
+    "id": "I2568:13374;2565:1239;64508:210742",
+    "name": "Lorem ipsum",
+    "type": "TEXT",
+    "rect": {
+      "x": 34,
+      "y": 19.5,
+      "width": 52,
+      "height": 13
+    },
+    "text": "24 images",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700,
+        "wdth": 100
+      }
+    },
+    "fontSize": 11,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13
+    },
+    "textAlignHorizontal": "CENTER"
+  },
+  {
+    "id": "I2568:13374;2565:1253",
+    "name": "Frame",
+    "type": "FRAME",
+    "rect": {
+      "x": 16,
+      "y": 246,
+      "width": 280,
+      "height": 162
+    }
+  },
+  {
+    "id": "I2568:13374;2565:1254",
+    "name": "Frame",
+    "type": "FRAME",
+    "rect": {
+      "x": 16,
+      "y": 246,
+      "width": 280,
+      "height": 82
+    }
+  },
+  {
+    "id": "I2568:13374;2565:1255",
+    "name": "Article Title",
+    "type": "TEXT",
+    "rect": {
+      "x": 16,
+      "y": 246,
+      "width": 280,
+      "height": 34
+    },
+    "text": "The Alaska Range",
+    "fontName": {
+      "family": "Alice",
+      "style": "Regular"
+    },
+    "fontSize": 28,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 120.00000476837158
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13374;2565:1256",
+    "name": "Article Title",
+    "type": "TEXT",
+    "rect": {
+      "x": 16,
+      "y": 284,
+      "width": 280,
+      "height": 44
+    },
+    "text": "Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "wdth": 100
+      }
+    },
+    "fontSize": 14,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 22
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13374;2565:1257",
+    "name": "Frame",
+    "type": "FRAME",
+    "rect": {
+      "x": 16,
+      "y": 344,
+      "width": 280,
+      "height": 64
+    }
+  },
+  {
+    "id": "I2568:13374;2565:1258",
+    "name": "16:9",
+    "type": "FRAME",
+    "rect": {
+      "x": 16,
+      "y": 344,
+      "width": 64,
+      "height": 64
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13374;2565:1259",
+    "name": "–",
+    "type": "FRAME",
+    "rect": {
+      "x": 21.5428466796875,
+      "y": 343.99999237060547,
+      "width": 52.914426169752005,
+      "height": 36.00120969720933
+    }
+  },
+  {
+    "id": "I2568:13374;2565:1260",
+    "name": "16:9",
+    "type": "FRAME",
+    "rect": {
+      "x": 88,
+      "y": 344,
+      "width": 64,
+      "height": 64
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13374;2565:1261",
+    "name": "–",
+    "type": "FRAME",
+    "rect": {
+      "x": 93.5428466796875,
+      "y": 343.99999237060547,
+      "width": 52.914426169752005,
+      "height": 36.00120969720933
+    }
+  },
+  {
+    "id": "I2568:13374;2565:1262",
+    "name": "16:9",
+    "type": "FRAME",
+    "rect": {
+      "x": 160,
+      "y": 344,
+      "width": 64,
+      "height": 64
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13374;2565:1263",
+    "name": "–",
+    "type": "FRAME",
+    "rect": {
+      "x": 165.5428466796875,
+      "y": 343.99999237060547,
+      "width": 52.914426169752005,
+      "height": 36.00120969720933
+    }
+  },
+  {
+    "id": "I2568:13374;2565:1264",
+    "name": "16:9",
+    "type": "FRAME",
+    "rect": {
+      "x": 232,
+      "y": 344,
+      "width": 64,
+      "height": 64
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13374;2565:1265",
+    "name": "–",
+    "type": "FRAME",
+    "rect": {
+      "x": 237.5428466796875,
+      "y": 343.99999237060547,
+      "width": 52.914426169752005,
+      "height": 36.00120969720933
+    }
+  }
+]

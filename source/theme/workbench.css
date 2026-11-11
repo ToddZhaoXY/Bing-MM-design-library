@@ -3,7 +3,7 @@
    The body marker also keeps these rules inert in standalone HTML exports. */
 
 body[data-hub-system] .workbench {
-  grid-template-columns: minmax(0, 1fr) 264px;
+  grid-template-columns: minmax(0, 1fr) 236px;
   gap: var(--hub-space-xl);
 }
 
@@ -11,7 +11,7 @@ body[data-hub-system] .preview {
   min-width: 0;
   overflow: auto;
   justify-content: safe center;
-  border-color: var(--hub-line);
+  border: 1px solid var(--hub-line);
   border-radius: var(--hub-radius-md);
   background: var(--hub-canvas);
 }
@@ -66,6 +66,31 @@ body[data-hub-system] .pg__toolbar > input:not(:where(.preview *, .pg__frame *))
   font: 400 var(--hub-text-control)/1.4 var(--hub-font);
 }
 
+/* Keep native select behavior, with a consistent inset for its visual chevron. */
+body[data-hub-system] .field select:not([multiple]):not([size]):not(:where(.preview *, .pg__frame *)) {
+  -webkit-appearance: none;
+  appearance: none;
+  padding-inline-end: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='m4 6 4 4 4-4' fill='none' stroke='%23626262' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px 16px;
+  text-overflow: ellipsis;
+}
+
+body[data-hub-system] .field select:dir(rtl):not([multiple]):not([size]):not(:where(.preview *, .pg__frame *)) {
+  background-position: left 12px center;
+}
+
+@media (forced-colors: active) {
+  body[data-hub-system] .field select:not([multiple]):not([size]):not(:where(.preview *, .pg__frame *)) {
+    -webkit-appearance: auto;
+    appearance: auto;
+    padding-inline-end: var(--hub-space-md);
+    background-image: none;
+  }
+}
+
 body[data-hub-system] .field textarea:not(:where(.preview *, .pg__frame *)) {
   resize: vertical;
   min-height: 96px;
@@ -112,7 +137,7 @@ body[data-hub-system] .preview-toolbar button:not(:where(.preview *, .pg__frame 
 body[data-hub-system] :is(.btn, .panel__reset):not(:where(.preview *, .pg__frame *)) {
   padding: var(--hub-space-sm) var(--hub-space-md);
   border: 1px solid var(--hub-line-strong);
-  border-radius: var(--hub-radius-sm);
+  border-radius: 999px;
   background: var(--hub-surface);
 }
 
@@ -134,13 +159,13 @@ body[data-hub-system] .btn--primary:not(:where(.preview *, .pg__frame *)) {
 
 body[data-hub-system] .btn--primary:hover:not(:disabled):not(:where(.preview *, .pg__frame *)) {
   color: var(--hub-surface);
-  border-color: #204b8d;
-  background: #204b8d;
+  border-color: #000000;
+  background: #000000;
 }
 
 body[data-hub-system] :is(.panel, .pg__palette, .pg__toolbar, .preview-toolbar, .code-toolbar, .code, .export-row, .pg-dialog) :is(button, input, select, textarea, pre):focus-visible:not(:where(.preview *, .pg__frame *)),
 body[data-hub-system] :is(.pg__rail, .pg__surface, .pg__add-x):focus-visible:not(:where(.preview *, .pg__frame *)) {
-  outline: 2px solid var(--hub-accent);
+  outline: 2px solid var(--hub-focus);
   outline-offset: 3px;
 }
 
@@ -167,8 +192,8 @@ body[data-hub-system] .preview-toolbar button:not(:where(.preview *, .pg__frame 
 }
 
 body[data-hub-system] .preview-toolbar button[aria-pressed="true"]:not(:where(.preview *, .pg__frame *)) {
-  background: var(--hub-accent-soft);
-  color: var(--hub-accent);
+  background: var(--hub-ink);
+  color: var(--hub-surface);
 }
 
 /* Calm, readable source output with a dedicated space for its copy action. */
@@ -220,7 +245,7 @@ body[data-hub-system] .code__copy:not(:where(.preview *, .pg__frame *)) {
   right: var(--hub-space-lg);
   padding: var(--hub-space-sm) var(--hub-space-md);
   border: 1px solid var(--hub-line-strong);
-  border-radius: var(--hub-radius-sm);
+  border-radius: 999px;
   background: var(--hub-surface);
 }
 
@@ -292,12 +317,12 @@ body[data-hub-system] .pg__palette:not(:where(.preview *, .pg__frame *)) {
   border: 0;
   border-right: 1px solid var(--hub-line);
   border-radius: 0;
-  top: var(--hub-space-xl);
+  top: 104px;
 }
 
 body[data-hub-system] .pg__inspector:not(:where(.preview *, .pg__frame *)) {
   position: sticky;
-  top: var(--hub-space-xl);
+  top: 104px;
   padding-left: var(--hub-space-lg);
 }
 
@@ -322,7 +347,7 @@ body[data-hub-system] .pg__collapse:not(:where(.preview *, .pg__frame *)) {
 }
 
 body[data-hub-system] .pg__rail:not(:where(.preview *, .pg__frame *)) {
-  top: var(--hub-space-xl);
+  top: 104px;
   width: 40px;
   height: 144px;
   border-color: var(--hub-line);
@@ -395,9 +420,9 @@ body[data-hub-system] .pg__surface:not(:where(.preview *, .pg__frame *)) {
   padding: var(--hub-space-md) var(--hub-space-lg);
   gap: var(--hub-space-xs);
   border: 0;
-  border-bottom: 2px solid var(--hub-line);
-  border-radius: 0;
-  background: transparent;
+  border: 1px solid var(--hub-line);
+  border-radius: var(--hub-radius-md);
+  background: var(--hub-surface);
   box-shadow: none;
 }
 
@@ -416,9 +441,9 @@ body[data-hub-system] .pg__surface span:not(:where(.preview *, .pg__frame *)) {
 body[data-hub-system] .pg__surface:hover:not(:where(.preview *, .pg__frame *)) { background: var(--hub-nav); }
 body[data-hub-system] .pg__surface--on:not(:where(.preview *, .pg__frame *)) {
   color: var(--hub-accent);
-  border-bottom-color: var(--hub-accent);
-  background: var(--hub-accent-soft);
-  box-shadow: none;
+  border-color: var(--hub-accent);
+  background: var(--hub-surface);
+  box-shadow: inset 0 0 0 1px var(--hub-accent);
 }
 
 body[data-hub-system] .pg__toolbar:not(:where(.preview *, .pg__frame *)) {
@@ -599,4 +624,36 @@ body[data-hub-system] .pg-dialog__actions { margin-top: var(--hub-space-xl); }
   body[data-hub-system] .code-tab { padding-inline: var(--hub-space-md); }
   body[data-hub-system] .code pre { padding-inline: var(--hub-space-lg); }
   body[data-hub-system] .pg__surface { flex-basis: 100%; }
+}
+
+/* Compact segmented controls keep the preview separate from its specimens. */
+body[data-hub-system] .preview-toolbar > div:not(:where(.preview *, .pg__frame *)) {
+  padding: 3px;
+  gap: 2px;
+  border-radius: 999px;
+  background: var(--hub-nav);
+}
+body[data-hub-system] .preview-toolbar button:not(:where(.preview *, .pg__frame *)) {
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+}
+body[data-hub-system] .preview-toolbar button[aria-pressed="true"]:not(:where(.preview *, .pg__frame *)) {
+  background: var(--hub-ink);
+  color: var(--hub-surface);
+}
+body[data-hub-system] .code-tabs:not(:where(.preview *, .pg__frame *)) { border-radius: 999px; }
+body[data-hub-system] .code-tab:not(:where(.preview *, .pg__frame *)) { border-radius: 999px; }
+body[data-hub-system] .code-tab--active:not(:where(.preview *, .pg__frame *)) {
+  color: var(--hub-surface);
+  background: var(--hub-ink);
+  box-shadow: none;
+}
+
+body[data-hub-system] .pg > .pg__palette:not(:where(.preview *, .pg__frame *)),
+body[data-hub-system] .pg > .pg__inspector:not(:where(.preview *, .pg__frame *)) {
+  padding: 20px 16px;
+  border: 0;
+  border-radius: var(--hub-radius-md);
+  background: var(--hub-surface);
 }

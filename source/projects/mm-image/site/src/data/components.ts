@@ -1,11 +1,16 @@
 // Component registry.
 //
-// Prop schemas are taken VERBATIM from the Figma variant axes on
+// Original prop schemas are taken from the Figma variant axes on
 // file `fRSRroY4YFgJSeqLLE0Y38`, page `139:7061` "Components".
 // The variant panel is generated from this — never hand-authored.
+// FY25 card configurations group source examples by actual size; they are web
+// library variants, not a claim that the source frames are Figma component sets.
 //
 // G1 (standing gate): bin is Eko's call. Only Badge carries a real bin,
 // backed by Code Connect. Everything else is 'TBD'. NEVER infer a bin.
+
+import { IMAGE_CARDS_FILE, IMAGE_CARDS_SLUG, imageCardGroups } from './image-cards'
+import { SLIDESHOW_FILE, slideshowSizes, slideshowSources } from './slideshow'
 
 export type Tier = 'Molecule' | 'Cell' | 'Organism'
 
@@ -19,7 +24,7 @@ export type Bin =
   | 'TBD'
 
 export type PropDef =
-  | { name: string; kind: 'select'; values: string[]; default: string; numeric?: boolean; under?: string }
+  | { name: string; kind: 'select'; values: string[]; default: string; numeric?: boolean; under?: string; valuesByParent?: { prop: string; options: Record<string, string[]> } }
   | { name: string; kind: 'boolean'; default: boolean; under?: string }
   | { name: string; kind: 'text'; default: string; under?: string }
 
@@ -39,6 +44,12 @@ export interface ComponentDef {
   /** when set, this is a part of another entry — it does not get its own nav row */
   partOf?: string
   nodeId: string
+  fileKey?: string
+  sourceName?: string
+  sources?: { label: string; nodeId: string; size?: string; values?: Record<string, string> }[]
+  variantCount?: number
+  previewSizes?: Record<string, { width: number; height: number }>
+  previewSize?: { width: number; height: number }
   bin: Bin
   binEvidence?: string
   /** true when the prose below is quoted from an in-file doc frame, not drafted */
@@ -49,6 +60,27 @@ export interface ComponentDef {
 }
 
 export const components: ComponentDef[] = [
+  {
+    slug: 'slideshow', name: 'SlideShow', tier: 'Cell', nodeId: '2568:13065',
+    fileKey: SLIDESHOW_FILE, sourceName: 'MM-ACF · Slide Card',
+    sources: slideshowSources, variantCount: slideshowSources.length, previewSizes: slideshowSizes,
+    bin: 'N/A', binEvidence: 'The Slide Card documentation frame labels this CELL and N/A.', verified: true,
+    overview: 'A sliding image card for presenting multiple images in one component. Available in three Size values with bottom arrows, top bars, bottom bars or bottom bars + arrows pagination. Bottom bars includes Default and Hover appearances.',
+    props: [
+      { name: 'size', kind: 'select', values: ['3:4', '5:4', '3:2'], default: '3:4' },
+      { name: 'pagination', kind: 'select', values: ['Bottom arrows', 'Top bars', 'Bottom bars', 'Bottom bars + arrows'], default: 'Bottom bars' },
+      { name: 'state', kind: 'select', values: ['Default', 'Hover'], default: 'Default', valuesByParent: { prop: 'pagination', options: { 'Bottom arrows': ['Default'], 'Top bars': ['Default'], 'Bottom bars': ['Default', 'Hover'], 'Bottom bars + arrows': ['Default'] } } },
+    ],
+    notes: [
+      'Figma name: Slide Card. Library name: SlideShow. Sizes are source labels: 3:4 = 312×424, 5:4 = 536×424, 3:2 = 312×204.',
+      'Figma shows 15 static configurations and does not specify navigation timing. This preview adds manual buttons, clickable indicators/thumbnails and Arrow Left/Right, Home and End keys; no autoplay.',
+      'Bottom bars reveals thumbnails on hover or keyboard focus; choose Hover to inspect that appearance persistently.',
+      'The source uses the same Windows placeholder image throughout. The 24/23-image badge is collection metadata. Top bars and Bottom bars expose four preview slides. Bottom arrows and Bottom bars + arrows include a fifth See more end card; the combined mode has five indicators. The source Top bars track also contains that end card, but has only four indicators.',
+      'Public JSX accepts slides: {src, alt, title?, description?, source?, seeMore?}[], imageCount, initialIndex and onSeeMore. See more remains a visual end card until the product supplies its action.',
+      'The 2026-11-11 source adds Bottom bars + arrows in all three sizes and removes outer shadows from every card. Its footer combines a one-line title, 28px arrows and five 6px indicators within 24px padding.',
+      'Copy me and saved Playground state preserve the selected slide. HTML downloads embed local images and fonts as a visual snapshot; live React interactions remain in the component.',
+    ],
+  },
   {
     slug: 'image-tile',
     name: 'Image Tile',
@@ -321,6 +353,36 @@ export const components: ComponentDef[] = [
     ],
   },
   {
+    slug: IMAGE_CARDS_SLUG,
+    name: 'Image cards',
+    tier: 'Molecule',
+    nodeId: '2216:1178',
+    fileKey: IMAGE_CARDS_FILE,
+    sourceName: 'MM ACF FY25',
+    variantCount: imageCardGroups.reduce((total, group) => total + group.variants.length, 0),
+    previewSizes: Object.fromEntries(imageCardGroups.map(group => [group.size, { width: group.width, height: group.height }])),
+    sources: imageCardGroups.flatMap(group => group.variants.map(variant => ({ size: group.size, label: variant.label, nodeId: variant.nodeId }))),
+    bin: 'TBD',
+    verified: false,
+    overview: 'Desktop image answer cards in 13 sizes. Choose a size, then explore its image collages, related searches and scrolling layouts.',
+    props: [
+      { name: 'size', kind: 'select', values: imageCardGroups.map(group => group.size), default: '2x2' },
+      {
+        name: 'variant', kind: 'select',
+        values: [...new Set(imageCardGroups.flatMap(group => group.variants.map(variant => variant.label)))],
+        default: imageCardGroups[0].variants[0].label,
+        valuesByParent: { prop: 'size', options: Object.fromEntries(imageCardGroups.map(group => [group.size, group.variants.map(variant => variant.label)])) },
+      },
+    ],
+    notes: [
+      'Size labels describe the ACF footprint, not image counts. All 49 source configurations retain their original image crops, spacing and corner radii.',
+      'Changing size keeps the current layout when it is available, otherwise selects the first layout for that size.',
+      'Public ImageCards accepts size and variant. Optional imageSrc and onAction connect product imagery and navigation.',
+      'FY25 11x2 and 11x4 cards are 1208 px wide. The existing Content component retains its 1200 px contract.',
+      'Related-search pagination preserves the supplied first-page state. Additional results are provided by the host.',
+    ],
+  },
+  {
     slug: 'content',
     name: 'Content',
     tier: 'Cell',
@@ -504,3 +566,20 @@ export const byTier = (tier: Tier) =>
   components.filter((c) => c.tier === tier && !c.partOf)
 export const partsOf = (slug: string) => components.filter((c) => c.partOf === slug)
 export const bySlug = (slug: string) => components.find((c) => c.slug === slug)
+
+/** Options and state updates share the same dependency rules in both editors. */
+export function selectOptions(prop: Extract<PropDef, { kind: 'select' }>, values: Record<string, string | boolean>) {
+  return prop.valuesByParent?.options[String(values[prop.valuesByParent.prop])] ?? prop.values
+}
+export function normalizePropValues(props: PropDef[], values: Record<string, string | boolean>) {
+  const next = { ...values }
+  for (const prop of props) {
+    if (prop.kind !== 'select' || !prop.valuesByParent) continue
+    const options = selectOptions(prop, next)
+    if (!options.includes(String(next[prop.name]))) next[prop.name] = options[0] ?? prop.default
+  }
+  return next
+}
+export function updatePropValue(props: PropDef[], values: Record<string, string | boolean>, name: string, value: string | boolean) {
+  return normalizePropValues(props, { ...values, [name]: value })
+}

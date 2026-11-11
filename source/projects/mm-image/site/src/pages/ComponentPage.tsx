@@ -1,6 +1,10 @@
-import { useParams } from 'react-router-dom'
+import { Navigate, useParams, useSearchParams } from 'react-router-dom'
 import { bySlug } from '../data/components'
 import { Workbench } from '../components/Workbench'
+import { ImageAnswerCard, ImageCards } from '../components/ImageCards'
+import { SlideShow } from '../components/SlideShow'
+import { slideshowSelection } from '../data/slideshow'
+import { IMAGE_CARDS_SLUG, imageCardGroups, imageCardSlug, imageCardTag, legacyImageCardSize, imageCardSelection } from '../data/image-cards'
 import type { LiveProps } from '../components/Workbench'
 import { ImageContainer } from '../components/ImageContainer'
 import { mosaicAdapter } from '../mosaic/generators'
@@ -23,8 +27,12 @@ import type {
 /** slug → live preview renderer. One entry per implemented component. */
 export const RENDERERS: Record<
   string,
-  (v: Record<string, string | boolean>, onLive: (p: LiveProps) => void) => React.ReactNode
+  (v: Record<string, string | boolean>, onLive: (p: LiveProps) => void, live?: LiveProps) => React.ReactNode
 > = {
+  slideshow: (v, onLive, live) => <SlideShow {...slideshowSelection(v)} initialIndex={Number(live?.initialIndex ?? 0)} onLive={onLive} />,
+  [IMAGE_CARDS_SLUG]: (v) => <ImageCards size={String(v.size ?? '2x2')} variant={String(v.variant ?? '')} />,
+  ...Object.fromEntries(imageCardGroups.map(group => [imageCardSlug(group.size), (v: Record<string, string | boolean>) =>
+    <ImageAnswerCard size={group.size} variant={String(v.variant ?? '')} />])),
   'image-tile': (v) => (
     <ImageContainer
       layout={v.layout as 'Waterfall' | 'Dense'}
@@ -133,6 +141,9 @@ export const RENDERERS: Record<
 }
 
 export const TAGS: Record<string, string> = {
+  slideshow: 'SlideShow',
+  [IMAGE_CARDS_SLUG]: 'ImageCards',
+  ...Object.fromEntries(imageCardGroups.map(group => [imageCardSlug(group.size), imageCardTag(group.size)])),
   'image-tile': 'ImageContainer',
   badge: 'Badge',
   'meta-data': 'MetaData',
@@ -154,13 +165,17 @@ export const TAGS: Record<string, string> = {
 
 export function ComponentPage() {
   const { slug = '' } = useParams()
+  const [search] = useSearchParams()
+  const oldSize = legacyImageCardSize(slug)
+  if (oldSize) return <Navigate to={`/c/${IMAGE_CARDS_SLUG}?size=${oldSize}`} replace />
+  const initialValues = slug === IMAGE_CARDS_SLUG ? imageCardSelection({ size: search.get('size'), variant: search.get('variant') }) : undefined
   const def = bySlug(slug)
 
   if (!def) return <div className="main">Not found.</div>
 
   const render = RENDERERS[slug]
   const mosaic = mosaicAdapter(slug)
-  const combos = def.props
+  const combos = def.variantCount ?? def.props
     .filter((p) => p.kind === 'select')
     .reduce((n, p) => n * (p.kind === 'select' ? p.values.length : 1), 1)
 
@@ -173,8 +188,8 @@ export function ComponentPage() {
           <span className={'chip' + (def.bin !== 'TBD' ? ' chip--bin-known' : '')}>
             bin: {def.bin}
           </span>
-          <span className="chip chip--node">{def.nodeId}</span>
-          <span className="chip">{combos} variants</span>
+          <a className="chip chip--node" href={`https://www.figma.com/design/${def.fileKey ?? 'fRSRroY4YFgJSeqLLE0Y38'}?node-id=${def.nodeId.replace(':', '-')}`} target="_blank" rel="noreferrer">{def.nodeId} ↗</a>
+          <span className="chip">{combos} {combos === 1 ? 'variant' : 'variants'}</span>
           {mosaic && (
             <span className={`chip chip--sdl chip--sdl-${mosaic.status}`}>
               SDL: {mosaic.status}
@@ -186,7 +201,7 @@ export function ComponentPage() {
       <section className="section">
         <div className="section__title">Overview</div>
         <p className="overview">{def.overview}</p>
-        {!def.verified && (
+        {!def.verified && !def.sourceName && (
           <p className="notes" style={{ paddingLeft: 0, marginTop: 10 }}>
             ⚠️ This overview is drafted, not quoted from a Figma doc frame. Eko to confirm.
           </p>
@@ -197,7 +212,8 @@ export function ComponentPage() {
         <div className="section__title">Playground</div>
         {render ? (
           <Workbench
-            key={slug}
+            key={`${slug}:${search.toString()}`}
+            initialValues={initialValues}
             def={def}
             tag={TAGS[slug] ?? def.name.replace(/\s/g, '')}
             render={render}
@@ -210,7 +226,7 @@ export function ComponentPage() {
 
       <section className="section">
         <div className="section__title">Properties</div>
-        <table className="props">
+        <div className="table-scroll"><table className="props">
           <thead>
             <tr>
               <th>Prop</th>
@@ -228,7 +244,7 @@ export function ComponentPage() {
                 <td>{p.kind}</td>
                 <td>
                   {p.kind === 'select'
-                    ? p.values.join(' · ')
+                    ? p.valuesByParent ? `Depends on ${p.valuesByParent.prop}` : p.values.join(' · ')
                     : p.kind === 'text'
                       ? 'free text'
                       : 'true · false'}
@@ -239,7 +255,7 @@ export function ComponentPage() {
               </tr>
             ))}
           </tbody>
-        </table>
+        </table></div>
       </section>
 
       {mosaic && (

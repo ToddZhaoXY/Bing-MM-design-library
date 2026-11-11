@@ -1,5 +1,31 @@
 # MM Design Libraries · Portal
 
+## 2026-11-11 · SlideShow
+
+按最新 MM-ACF 源稿将 SlideShow 更新为 15 个配置。新增三种尺寸的
+`Bottom bars + arrows`，包含五段进度条、底部左右箭头和末尾 See more；
+全部卡片移除外阴影。工作台、Playground、状态恢复及 JSX/HTML 导出已同步。
+详见 `projects/mm-image/design/slideshow/update-2026-11-11/VERIFICATION.md`。
+
+## 2026-10-29 · Unified sidebar
+
+MM Image、AIGC、Video 共用 `ui/LibraryNav.tsx`，字体和层级规则位于
+`theme/documentation.css`。分类及有子项的组件支持展开/收起，名称仍是独立页面链接。
+进入页面时自动展开所在分类和父组件；手动收起不触发跳转。
+
+修改公共菜单后运行 `npm run sync:navigation`，将生成副本同步到三个独立项目。
+完整构建会自动同步；`build:reuse` 只检查同步状态，避免错误复用旧编译结果。
+回归测试同时检查三个副本一致，以及全部组件路由和跨分类父子关系。
+
+## 2026-10-29 · Image ACF Cards
+
+当前源码新增统一的 Image cards 入口，位于 Molecules 最后；包含 13 个尺寸选项与
+49 个 FY25 Image 布局配置，接入属性工作台、页面装配、
+JSX／SDL 和离线 HTML 导出。下方“原始源码不变”描述的是最初 Portal 迁移；此次内容
+扩充后的来源变更单独记录于 `SOURCE-UPDATES.json`，`ORIGINALS.json` 和 `BASELINE.json`
+保留初次导入记录。验证命令同时核对未改动原件与已记录的 Image 更新。
+详细验收见 `projects/mm-image/design/fy25-cards/VERIFICATION.md`。
+
 综合首页 + MM Image / AIGC / Video 三个独立组件库页面。
 这是新的独立版本，之前的 Hub / Refined 项目和部署包没有被覆盖。
 

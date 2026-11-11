@@ -1,0 +1,113 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/efde725a-cb9c-4994-8f7a-8333d225b8dc";
+import SerpImage from "D:\Code\entity-segments\references\components\atoms\serp-image.tsx"
+import { Open16Regular } from "@fluentui/react-icons";
+import SerpButton from "C:\code\entity-segments\references\components\atoms\serp-button.tsx"
+
+const imgImage = `${assetPathPrefix}/acc04.png`;
+
+export default function SlideCard() {
+  return (
+    <div className="drop-shadow-[0px_105px_31.5px_rgba(0,0,0,0.05),0px_47px_23.5px_rgba(0,0,0,0.09),0px_12px_13px_rgba(0,0,0,0.1)] overflow-clip relative rounded-[var(--mai\/smtc\/corner\/card\/default,24px)] size-full" data-node-id="2568:13209" data-name="Slide Card">
+      <div className="absolute content-stretch flex flex-col h-[424px] items-start left-0 overflow-clip rounded-[var(--mai\/smtc\/corner\/card\/default,24px)] top-0 w-[312px]" data-node-id="I2568:13209;2565:1537" data-name="Slide content">
+        <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13209;2565:1538">
+          <div className="absolute content-stretch flex items-center left-[-112px] top-0 w-[2680px]" data-node-id="I2568:13209;2565:1539">
+            <div className="flex-[1_0_0] h-[424px] min-w-px relative" data-node-id="I2568:13209;2565:1540" data-name="Image">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage} />
+            </div>
+            <div className="absolute content-stretch drop-shadow-[0px_0px_2px_rgba(0,0,0,0.25)] flex gap-[var(--smtc\/gap\/inside\/ctrl\/to-secondary-icon,4px)] items-center left-[16px] top-[388px]" data-node-id="I2568:13209;2565:1541" data-name="metadata">
+              <div className="content-stretch flex items-center overflow-clip relative rounded-[var(--smtc\/corner\/ctrl\/sm\/rest,4px)] shrink-0 size-[16px]" data-node-id="I2568:13209;2565:1541;723:36080" data-name="Thumbnail">
+                <CodeConnectSnippet data-node-id="I2568:13209;2565:1541;723:36080;131224:172906" data-name="Image">
+                  <SerpImage fuzzyMark="false" />
+                </CodeConnectSnippet>
+              </div>
+              <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] leading-[var(--text\/global\/caption1\/lineheight,20px)] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/content\/white,white)] text-[length:var(--text\/global\/caption1\/fontsize,13px)] whitespace-nowrap" data-node-id="I2568:13209;2565:1541;723:36081" style={{ fontVariationSettings: '"wdth" 100' }}>
+                imdb.com
+              </p>
+            </div>
+            <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13209;2565:1542" data-name="4*4">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage} />
+            </div>
+            <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13209;2565:1543" data-name="4*4">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage} />
+            </div>
+            <div className="h-[424px] relative shrink-0 w-[536px]" data-node-id="I2568:13209;2565:1544" data-name="4*4">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage} />
+            </div>
+            <div className="content-stretch flex flex-col h-[424px] items-center justify-center overflow-clip p-[20px] relative shrink-0 w-[536px]" data-node-id="I2568:13209;2565:1545" data-name="4*4">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage} />
+              <div className="absolute bg-[var(--smtc\/background\/smoke,rgba(0,0,0,0.6))] content-stretch flex flex-col inset-0 items-center justify-center" data-node-id="I2568:13209;2565:1546" data-name="overlay">
+                <div className="content-center flex flex-wrap gap-[var(--smtc\/gap\/between\/content\/xx-small,4px)] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13209;2565:1547" data-name="link container">
+                  <div className="[word-break:break-word] flex flex-col font-[family-name:var(--text\/style\/default\/regular\/fontfamily,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-image\/switchable\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] whitespace-nowrap" data-node-id="I2568:13209;2565:1548" style={{ fontVariationSettings: '"wdth" 100' }}>
+                    <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">See more</p>
+                  </div>
+                  <CodeConnectSnippet data-node-id="I2568:13209;2565:1549" data-name="Open" data-snippet-language="React">
+                    <Open16Regular />
+                  </CodeConnectSnippet>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute bg-gradient-to-t content-stretch flex flex-col from-[var(--bing\/smtc\/background\/ctrl\/fade\/on-image\/stop-0,rgba(0,0,0,0))] gap-[var(--smtc\/ctrl\/badge\/padding,8px)] items-start justify-center left-0 px-[var(--smtc\/gap\/between\/content\/xx-large,36px)] py-[var(--smtc\/gap\/between\/content\/medium,16px)] right-0 to-[56.452%] to-[rgba(0,0,0,0.48)] top-0" data-node-id="I2568:13209;2565:1551" data-name="Footer">
+          <div className="content-stretch flex gap-[var(--smtc\/gap\/between\/content\/x-small,8px)] items-center justify-center relative shrink-0 w-full" data-node-id="I2568:13209;2565:1552" data-name="Pagination Container">
+            <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/rest,white)] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13209;2565:1553" />
+            <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13209;2565:1554" />
+            <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13209;2565:1555" />
+            <div className="bg-[var(--smtc\/foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[6px] min-w-px relative rounded-[var(--smtc\/corner\/circular,9999px)]" data-node-id="I2568:13209;2565:1556" />
+          </div>
+          <div className="[word-break:break-word] flex flex-col font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] justify-center leading-[0] relative shrink-0 text-[color:var(--bing\/smtc\/foreground\/ctrl\/on-subtle\/rest,white)] text-[length:var(--text\/global\/body3\/fontsize,14px)] whitespace-nowrap" data-node-id="I2568:13209;2565:1559" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <p className="leading-[var(--text\/global\/body3\/lineheight,22px)]">Personable Tom at age 60s</p>
+          </div>
+        </div>
+        <CodeConnectSnippet data-node-id="I2568:13209;2565:1560" data-name="Button">
+          <SerpButton label={false} label="Click me" iconEnd={false} iconStart={true} color="secondary" disabled="false" variant="solid" size="lg" state="default" pill="true" style="default" weight="default" />
+        </CodeConnectSnippet>
+        <CodeConnectSnippet data-node-id="I2568:13209;2565:1561" data-name="Button">
+          <SerpButton label={false} label="Click me" iconEnd={false} iconStart={true} color="secondary" disabled="true" variant="solid" size="lg" state="default" pill="true" style="default" weight="default" />
+        </CodeConnectSnippet>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: --bing-smtc-text-global/caption/1: Font(family: "text/style/default/regular/font-family", style: Regular, size: text/global/caption1/fontSize, weight: text/style/default/regular/weight, lineHeight: text/global/caption1/lineHeight, letterSpacing: 0), --bing-smtc-text-global/caption/2-strong: Font(family: "text/style/default/regular/fontFamily", style: Bold, size: text/global/caption2/fontSize, weight: text/style/default/header/weight, lineHeight: text/global/caption2/lineHeight, letterSpacing: 0), --bing-smtc-text-global/body/3-strong: Font(family: "text/style/default/regular/font-family", style: Bold, size: text/global/body3/fontSize, weight: text/style/default/header/weight, lineHeight: text/global/body3/lineHeight, letterSpacing: 0).
+
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Slide Card
+**Node ID:** 2565:1584
+
+Slide Card：Size 3:4（312×424）/ 5:4（536×424）；Pagination：Bottom arrows、Top bars、Bottom bars。Bottom bars 的 Default 仅显示文字与底部分页，Hover 在文字下方显示四张缩略图。Default/Hover 为静态变体，未连接交互。 Size=3:2 使用现成素材尺寸312×204；底部横条Default与Hover直接取自用户提供的原始卡片。
+
+## Thumbnail
+**Node ID:** 2541:9119
+
+Image thumbnail at predefined sizes (88px, 72px, 56px, 36px, 16px) plus a Video Thumbnail variant with play indicator. Enforces consistent image rhythm across SERP cards and lists.
+
+## Open
+**Node ID:** 2541:9125
+
+Keyword: fluent-icon; Metaphor: new, window, expand, arrow, start, external, link; Used in general opening app actions.
+
+## Button
+**Node ID:** 2541:9133
+
+A foundational interactive element that triggers actions. Supports 4 visual variants (solid, soft, outline, ghost), 3 sizes (sm/md/lg), 2 colors, pill shape, and disabled state. Used by 30+ components system-wide. Matched 1:1 to SDL Button spec.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
+
+Nodes “iconStart” (0:52), “iconStart” (0:68): No Code Connect mapping labelled “react” was found. Available labels: “Javascript”.
+
+Provide a matching label to retrieve the associated Code Connect mapping for this node.

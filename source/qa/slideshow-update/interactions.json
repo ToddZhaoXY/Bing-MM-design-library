@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2608:1516",
+    "initialDisabled": true,
+    "lastDisabled": true,
+    "callback": "See more activated",
+    "keyboard": true,
+    "thumbnailsAbsent": true
+  },
+  {
+    "id": "2608:1684",
+    "initialDisabled": true,
+    "lastDisabled": true,
+    "callback": "See more activated",
+    "keyboard": true,
+    "thumbnailsAbsent": true
+  },
+  {
+    "id": "2608:1815",
+    "initialDisabled": true,
+    "lastDisabled": true,
+    "callback": "See more activated",
+    "keyboard": true,
+    "thumbnailsAbsent": true
+  }
+]

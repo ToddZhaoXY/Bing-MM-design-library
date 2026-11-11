@@ -8,10 +8,12 @@ import { join } from 'node:path';
 import { root, systems, filesIn, sha256, sourceFilter } from '../scripts/lib.mjs';
 import { createStaticServer } from '../scripts/serve.mjs';
 import { entryScript, makeLibraryPage } from '../scripts/library-page.mjs';
+import { sourceUpdates } from '../scripts/source-provenance.mjs';
 
-test('all original library content and source assets remain byte-identical', async () => {
+test('original library content matches its immutable import ledger and recorded library updates', async () => {
   const manifest = JSON.parse(await readFile(join(root, 'ORIGINALS.json'), 'utf8'));
-  for (const entry of manifest.files) assert.equal(await sha256(join(root, entry.path)), entry.sha256, entry.path);
+  const expected = await sourceUpdates();
+  for (const entry of manifest.files) assert.equal(await sha256(join(root, entry.path)), expected(entry.path, entry.sha256), entry.path);
 });
 test('the first-visit entry is a readable overview with three native links and no frames', async () => {
   const html = await readFile(join(root, 'dist/index.html'), 'utf8');

@@ -1,0 +1,1707 @@
+[
+  {
+    "id": "2568:13447",
+    "name": "Slide Card",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "effects": []
+  },
+  {
+    "id": "I2568:13447;2565:1450",
+    "name": "Slide content",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:9833",
+    "name": "Frame 2147234156",
+    "type": "FRAME",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:9834",
+    "name": "Frame 2147234155",
+    "type": "FRAME",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 2680,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:9835",
+    "name": "Image",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13447;2565:1450;723:36357",
+    "name": "metadata",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 16,
+      "y": 16,
+      "width": 79,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;723:36357;723:36080",
+    "name": "Thumbnail",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 16,
+      "y": 18,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;723:36357;723:36080;131224:172906",
+    "name": "Image",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 16,
+      "y": 18,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;723:36357;723:36080;131224:172906;131224:154861",
+    "name": "Image",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 16,
+      "y": 18,
+      "width": 16,
+      "height": 16
+    },
+    "images": [
+      {
+        "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13447;2565:1450;723:36357;723:36081",
+    "name": "Label",
+    "type": "TEXT",
+    "rect": {
+      "x": 36,
+      "y": 16,
+      "width": 59,
+      "height": 20
+    },
+    "text": "imdb.com",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "wdth": 100
+      }
+    },
+    "fontSize": 13,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:9836",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 536,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:9837",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 1072,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:9838",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 1608,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:9839",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 2144,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:9840",
+    "name": "overlay",
+    "type": "FRAME",
+    "rect": {
+      "x": 2144,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:9841",
+    "name": "link container",
+    "type": "FRAME",
+    "rect": {
+      "x": 2144,
+      "y": 204,
+      "width": 536,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:9842",
+    "name": "See more",
+    "type": "TEXT",
+    "rect": {
+      "x": 2378,
+      "y": 205.5,
+      "width": 48,
+      "height": 13
+    },
+    "text": "See more",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700,
+        "wdth": 100
+      }
+    },
+    "fontSize": 11,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:9843",
+    "name": "Open",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 2430,
+      "y": 204,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027",
+    "name": "pagination",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 0,
+      "y": 376,
+      "width": 536,
+      "height": 28
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;62893:104421",
+    "name": "Button",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 209.5,
+      "y": 376,
+      "width": 28,
+      "height": 28
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;62893:104421;128439:229722",
+    "name": "nestedContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 213.5,
+      "y": 382,
+      "width": 20,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;62893:104421;128439:229723",
+    "name": "iconStartContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 215.5,
+      "y": 382,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;62893:104421;128439:229724",
+    "name": "iconStart",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 215.5,
+      "y": 382,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;62893:104421;128439:229724;115630:166841",
+    "name": "ChevronLeft",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 215.5,
+      "y": 382,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;62893:104422",
+    "name": "Number container",
+    "type": "FRAME",
+    "rect": {
+      "x": 245.5,
+      "y": 376,
+      "width": 45,
+      "height": 28
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;95744:97456",
+    "name": "number container",
+    "type": "FRAME",
+    "rect": {
+      "x": 253.5,
+      "y": 378,
+      "width": 29,
+      "height": 24
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;95744:97457",
+    "name": "current page",
+    "type": "TEXT",
+    "rect": {
+      "x": 253.5,
+      "y": 383.5,
+      "width": 7,
+      "height": 13
+    },
+    "text": "1",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "wdth": 100
+      }
+    },
+    "fontSize": 11,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13
+    },
+    "textAlignHorizontal": "CENTER"
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;95744:97458",
+    "name": "of",
+    "type": "TEXT",
+    "rect": {
+      "x": 262.5,
+      "y": 383.5,
+      "width": 11,
+      "height": 13
+    },
+    "text": "of",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "wdth": 100
+      }
+    },
+    "fontSize": 11,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13
+    },
+    "textAlignHorizontal": "CENTER"
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;95744:97459",
+    "name": "total page",
+    "type": "TEXT",
+    "rect": {
+      "x": 275.5,
+      "y": 383.5,
+      "width": 7,
+      "height": 13
+    },
+    "text": "4",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "wdth": 100
+      }
+    },
+    "fontSize": 11,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13
+    },
+    "textAlignHorizontal": "CENTER"
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;62893:104424",
+    "name": "Button",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 298.5,
+      "y": 376,
+      "width": 28,
+      "height": 28
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;62893:104424;128439:229632",
+    "name": "nestedContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 302.5,
+      "y": 382,
+      "width": 20,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;62893:104424;128439:229633",
+    "name": "iconStartContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 304.5,
+      "y": 382,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;62893:104424;128439:229634",
+    "name": "iconStart",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 304.5,
+      "y": 382,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13447;2565:1450;329:10027;62893:104424;128439:229634;115630:166841",
+    "name": "ChevronRight",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 304.5,
+      "y": 382,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "2568:13537",
+    "name": "Slide Card",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "effects": []
+  },
+  {
+    "id": "I2568:13537;2565:1333",
+    "name": "Component 2",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:80046",
+    "name": "Frame 2147234156",
+    "type": "FRAME",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:80047",
+    "name": "Frame 2147234155",
+    "type": "FRAME",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 2680,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:80048",
+    "name": "Image",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13537;2565:1333;723:36389",
+    "name": "metadata",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 16,
+      "y": 388,
+      "width": 79,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;723:36389;723:36080",
+    "name": "Thumbnail",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 16,
+      "y": 390,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;723:36389;723:36080;131224:172906",
+    "name": "Image",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 16,
+      "y": 390,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;723:36389;723:36080;131224:172906;131224:154861",
+    "name": "Image",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 16,
+      "y": 390,
+      "width": 16,
+      "height": 16
+    },
+    "images": [
+      {
+        "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13537;2565:1333;723:36389;723:36081",
+    "name": "Label",
+    "type": "TEXT",
+    "rect": {
+      "x": 36,
+      "y": 388,
+      "width": 59,
+      "height": 20
+    },
+    "text": "imdb.com",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "wdth": 100
+      }
+    },
+    "fontSize": 13,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 20
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:80049",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 536,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:80050",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 1072,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:80051",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 1608,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:80052",
+    "name": "4*4",
+    "type": "FRAME",
+    "rect": {
+      "x": 2144,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:80053",
+    "name": "overlay",
+    "type": "FRAME",
+    "rect": {
+      "x": 2144,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:80054",
+    "name": "link container",
+    "type": "FRAME",
+    "rect": {
+      "x": 2144,
+      "y": 204,
+      "width": 536,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:80055",
+    "name": "See more",
+    "type": "TEXT",
+    "rect": {
+      "x": 2378,
+      "y": 205.5,
+      "width": 48,
+      "height": 13
+    },
+    "text": "See more",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700,
+        "wdth": 100
+      }
+    },
+    "fontSize": 11,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:80056",
+    "name": "Open",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 2430,
+      "y": 204,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:76314",
+    "name": "Footer",
+    "type": "FRAME",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 68
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:76315",
+    "name": "Pagination Container",
+    "type": "FRAME",
+    "rect": {
+      "x": 36,
+      "y": 16,
+      "width": 464,
+      "height": 6
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:76324",
+    "name": "Rectangle 34645892",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 36,
+      "y": 16,
+      "width": 110,
+      "height": 6
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:76326",
+    "name": "Rectangle 34645893",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 154,
+      "y": 16,
+      "width": 110,
+      "height": 6
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:76316",
+    "name": "Rectangle 34645890",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 272,
+      "y": 16,
+      "width": 110,
+      "height": 6
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:76330",
+    "name": "Rectangle 34645895",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 390,
+      "y": 16,
+      "width": 110,
+      "height": 6
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:76334",
+    "name": "Personable Tom at age 60s",
+    "type": "TEXT",
+    "rect": {
+      "x": 36,
+      "y": 30,
+      "width": 171,
+      "height": 22
+    },
+    "text": "Personable Tom at age 60s",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700,
+        "wdth": 100
+      }
+    },
+    "fontSize": 14,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 22
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:76425",
+    "name": "Button",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 472,
+      "y": 193,
+      "width": 48,
+      "height": 48
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:76425;127901:96642",
+    "name": "nestedContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 482,
+      "y": 207,
+      "width": 28,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:76425;127901:101193",
+    "name": "iconStartContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 486,
+      "y": 207,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:76425;33172:60527",
+    "name": "iconStart",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 486,
+      "y": 207,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:76425;33172:60527;115630:161106",
+    "name": "ChevronRight",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 486,
+      "y": 207,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:79972",
+    "name": "Button",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 16,
+      "y": 193,
+      "width": 48,
+      "height": 48
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:79972;127901:96657",
+    "name": "nestedContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 26,
+      "y": 207,
+      "width": 28,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:79972;127901:101208",
+    "name": "iconStartContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 30,
+      "y": 207,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:79972;33172:60647",
+    "name": "iconStart",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 30,
+      "y": 207,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13537;2565:1333;328:79972;33172:60647;115630:161106",
+    "name": "ChevronLeft",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 30,
+      "y": 207,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "id": "2568:13631",
+    "name": "Slide Card",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 19,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.10000000149011612
+        },
+        "offset": {
+          "x": 0,
+          "y": 9
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 34,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.09000000357627869
+        },
+        "offset": {
+          "x": 0,
+          "y": 34
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 46,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "offset": {
+          "x": 0,
+          "y": 77
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 55,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.009999999776482582
+        },
+        "offset": {
+          "x": 0,
+          "y": 137
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 60,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 215
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      }
+    ]
+  },
+  {
+    "id": "I2568:13631;2565:1391",
+    "name": "Rectangle",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13631;2565:1392",
+    "name": "Rectangle",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13631;2565:1393",
+    "name": "Frame",
+    "type": "FRAME",
+    "rect": {
+      "x": 12,
+      "y": 12,
+      "width": 512,
+      "height": 400
+    }
+  },
+  {
+    "id": "I2568:13631;2563:15625",
+    "name": "Frame",
+    "type": "FRAME",
+    "rect": {
+      "x": 30,
+      "y": 306,
+      "width": 476,
+      "height": 82
+    }
+  },
+  {
+    "id": "I2568:13631;2563:15626",
+    "name": "Article Title",
+    "type": "TEXT",
+    "rect": {
+      "x": 30,
+      "y": 306,
+      "width": 476,
+      "height": 34
+    },
+    "text": "The Alaska Range",
+    "fontName": {
+      "family": "Alice",
+      "style": "Regular"
+    },
+    "fontSize": 28,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 120.00000476837158
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13631;2563:15627",
+    "name": "Article Title",
+    "type": "TEXT",
+    "rect": {
+      "x": 30,
+      "y": 344,
+      "width": 476,
+      "height": 44
+    },
+    "text": "Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "wdth": 100
+      }
+    },
+    "fontSize": 14,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 22
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13631;2565:1398",
+    "name": "Pagination indicators",
+    "type": "FRAME",
+    "rect": {
+      "x": 30,
+      "y": 404,
+      "width": 476,
+      "height": 4
+    }
+  },
+  {
+    "id": "I2568:13631;2565:1399",
+    "name": "Bars",
+    "type": "FRAME",
+    "rect": {
+      "x": 30,
+      "y": 404,
+      "width": 476,
+      "height": 4
+    }
+  },
+  {
+    "id": "I2568:13631;2565:1400",
+    "name": "Progress Indicator / Story 6",
+    "type": "FRAME",
+    "rect": {
+      "x": 30,
+      "y": 404,
+      "width": 116.75,
+      "height": 4
+    }
+  },
+  {
+    "id": "I2568:13631;2565:1401",
+    "name": "progress",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 30,
+      "y": 404,
+      "width": 87.5625,
+      "height": 4
+    }
+  },
+  {
+    "id": "I2568:13631;2565:1402",
+    "name": "Progress Indicator / Story 11",
+    "type": "FRAME",
+    "rect": {
+      "x": 149.75,
+      "y": 404,
+      "width": 116.75,
+      "height": 4
+    }
+  },
+  {
+    "id": "I2568:13631;2565:1403",
+    "name": "Progress Indicator / Story 12",
+    "type": "FRAME",
+    "rect": {
+      "x": 269.5,
+      "y": 404,
+      "width": 116.75,
+      "height": 4
+    }
+  },
+  {
+    "id": "I2568:13631;2565:1404",
+    "name": "Progress Indicator / Story 13",
+    "type": "FRAME",
+    "rect": {
+      "x": 389.25,
+      "y": 404,
+      "width": 116.75,
+      "height": 4
+    }
+  },
+  {
+    "id": "I2568:13631;2565:1406",
+    "name": "Badge",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 13,
+      "y": 12,
+      "width": 74,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13631;2565:1406;88720:35156",
+    "name": "IconContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 17,
+      "y": 15.5,
+      "width": 12,
+      "height": 13
+    }
+  },
+  {
+    "id": "I2568:13631;2565:1406;71493:230763",
+    "name": "Icon",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 17,
+      "y": 16,
+      "width": 12,
+      "height": 12
+    }
+  },
+  {
+    "id": "I2568:13631;2565:1406;71493:230763;115630:166841",
+    "name": "ImageMultiple",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 17,
+      "y": 16,
+      "width": 12,
+      "height": 12
+    }
+  },
+  {
+    "id": "I2568:13631;2565:1406;64508:210742",
+    "name": "Lorem ipsum",
+    "type": "TEXT",
+    "rect": {
+      "x": 31,
+      "y": 15.5,
+      "width": 52,
+      "height": 13
+    },
+    "text": "23 images",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700,
+        "wdth": 100
+      }
+    },
+    "fontSize": 11,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13
+    },
+    "textAlignHorizontal": "CENTER"
+  },
+  {
+    "id": "2568:13699",
+    "name": "Slide Card",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 19,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.10000000149011612
+        },
+        "offset": {
+          "x": 0,
+          "y": 9
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 34,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.09000000357627869
+        },
+        "offset": {
+          "x": 0,
+          "y": 34
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 46,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "offset": {
+          "x": 0,
+          "y": 77
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 55,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.009999999776482582
+        },
+        "offset": {
+          "x": 0,
+          "y": 137
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 60,
+        "boundVariables": {},
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 215
+        },
+        "spread": 0,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": true
+      }
+    ]
+  },
+  {
+    "id": "I2568:13699;2565:1420",
+    "name": "Rectangle",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13699;2565:1421",
+    "name": "Rectangle",
+    "type": "RECTANGLE",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 536,
+      "height": 424
+    }
+  },
+  {
+    "id": "I2568:13699;2565:1422",
+    "name": "Frame",
+    "type": "FRAME",
+    "rect": {
+      "x": 12,
+      "y": 12,
+      "width": 512,
+      "height": 400
+    }
+  },
+  {
+    "id": "I2568:13699;2563:15629",
+    "name": "Frame",
+    "type": "FRAME",
+    "rect": {
+      "x": 30,
+      "y": 200,
+      "width": 476,
+      "height": 82
+    }
+  },
+  {
+    "id": "I2568:13699;2563:15630",
+    "name": "Article Title",
+    "type": "TEXT",
+    "rect": {
+      "x": 30,
+      "y": 200,
+      "width": 476,
+      "height": 34
+    },
+    "text": "The Alaska Range",
+    "fontName": {
+      "family": "Alice",
+      "style": "Regular"
+    },
+    "fontSize": 28,
+    "lineHeight": {
+      "unit": "PERCENT",
+      "value": 120.00000476837158
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13699;2563:15631",
+    "name": "Article Title",
+    "type": "TEXT",
+    "rect": {
+      "x": 30,
+      "y": 238,
+      "width": 476,
+      "height": 44
+    },
+    "text": "Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Regular",
+      "variationSettings": {
+        "wght": 400,
+        "wdth": 100
+      }
+    },
+    "fontSize": 14,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 22
+    },
+    "textAlignHorizontal": "LEFT"
+  },
+  {
+    "id": "I2568:13699;2565:1427",
+    "name": "Frame",
+    "type": "FRAME",
+    "rect": {
+      "x": 30,
+      "y": 298,
+      "width": 476,
+      "height": 110
+    }
+  },
+  {
+    "id": "I2568:13699;2565:1428",
+    "name": "16:9",
+    "type": "FRAME",
+    "rect": {
+      "x": 30,
+      "y": 298,
+      "width": 110,
+      "height": 110
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13699;2565:1429",
+    "name": "–",
+    "type": "FRAME",
+    "rect": {
+      "x": 39.5267333984375,
+      "y": 297.99991250038147,
+      "width": 90.94658955132854,
+      "height": 61.876960954151855
+    }
+  },
+  {
+    "id": "I2568:13699;2565:1430",
+    "name": "16:9",
+    "type": "FRAME",
+    "rect": {
+      "x": 152,
+      "y": 298,
+      "width": 110,
+      "height": 110
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13699;2565:1431",
+    "name": "–",
+    "type": "FRAME",
+    "rect": {
+      "x": 161.5267333984375,
+      "y": 297.99991250038147,
+      "width": 90.94658955132854,
+      "height": 61.876960954151855
+    }
+  },
+  {
+    "id": "I2568:13699;2565:1432",
+    "name": "16:9",
+    "type": "FRAME",
+    "rect": {
+      "x": 274,
+      "y": 298,
+      "width": 110,
+      "height": 110
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13699;2565:1433",
+    "name": "–",
+    "type": "FRAME",
+    "rect": {
+      "x": 283.5267333984375,
+      "y": 297.99991250038147,
+      "width": 90.94658955132854,
+      "height": 61.876960954151855
+    }
+  },
+  {
+    "id": "I2568:13699;2565:1434",
+    "name": "16:9",
+    "type": "FRAME",
+    "rect": {
+      "x": 396,
+      "y": 298,
+      "width": 110,
+      "height": 110
+    },
+    "images": [
+      {
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "scaleMode": "FILL"
+      }
+    ]
+  },
+  {
+    "id": "I2568:13699;2565:1435",
+    "name": "–",
+    "type": "FRAME",
+    "rect": {
+      "x": 405.5267333984375,
+      "y": 297.99991250038147,
+      "width": 90.94658955132854,
+      "height": 61.876960954151855
+    }
+  },
+  {
+    "id": "I2568:13699;2565:1436",
+    "name": "Badge",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 13,
+      "y": 12,
+      "width": 74,
+      "height": 20
+    }
+  },
+  {
+    "id": "I2568:13699;2565:1436;88720:35156",
+    "name": "IconContainer",
+    "type": "FRAME",
+    "rect": {
+      "x": 17,
+      "y": 15.5,
+      "width": 12,
+      "height": 13
+    }
+  },
+  {
+    "id": "I2568:13699;2565:1436;71493:230763",
+    "name": "Icon",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 17,
+      "y": 16,
+      "width": 12,
+      "height": 12
+    }
+  },
+  {
+    "id": "I2568:13699;2565:1436;71493:230763;115630:166841",
+    "name": "ImageMultiple",
+    "type": "INSTANCE",
+    "rect": {
+      "x": 17,
+      "y": 16,
+      "width": 12,
+      "height": 12
+    }
+  },
+  {
+    "id": "I2568:13699;2565:1436;64508:210742",
+    "name": "Lorem ipsum",
+    "type": "TEXT",
+    "rect": {
+      "x": 31,
+      "y": 15.5,
+      "width": 52,
+      "height": 13
+    },
+    "text": "23 images",
+    "fontName": {
+      "family": "Roboto",
+      "style": "Bold",
+      "variationSettings": {
+        "wght": 700,
+        "wdth": 100
+      }
+    },
+    "fontSize": 11,
+    "lineHeight": {
+      "unit": "PIXELS",
+      "value": 13
+    },
+    "textAlignHorizontal": "CENTER"
+  }
+]

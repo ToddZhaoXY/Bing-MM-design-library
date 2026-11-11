@@ -3,9 +3,11 @@ import { join } from 'node:path'
 import { root, systems, run, fileManifest, isMain } from './lib.mjs'
 import { compileThemeCss, readThemeTokens } from './theme.mjs'
 import { makeLibraryPage, classicBundle, entryScript } from './library-page.mjs'
+import { syncNavigation } from './sync-navigation.mjs'
 
 export async function build({ reuseBuilds = false, projectRoot = root } = {}) {
   await access(join(projectRoot, 'portal', 'index.html'))
+  await syncNavigation({ projectRoot, check: reuseBuilds })
   if (!reuseBuilds) {
     for (const system of systems) {
       console.log(`Building ${system}…`)

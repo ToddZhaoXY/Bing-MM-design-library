@@ -50,6 +50,28 @@ test('landscape cards accept independent media width and height for source compo
   assert.match(hero, /height:329.28px/)
 })
 
+test('video-card containers remain in document flow and accept pointer input in every layout and state', () => {
+  const css = readFileSync(resolve(root, 'src/video-molecules.css'), 'utf8').replace(/\/\*[\s\S]*?\*\//g, '')
+  // Match plain class rules against the actual rendered outer element. This
+  // catches caption styles accidentally selecting the whole card as well.
+  const rules = [...css.matchAll(/([^{}]+)\{([^{}]*)\}/g)]
+  for (const metadataPosition of ['Below', 'Inline', 'Overlay']) {
+    for (const state of ['Default', 'Preview', 'Post-preview']) {
+      const html = render('VideoCard', { metadataPosition, state })
+      const classes = new Set(/<article[^>]*class="([^"]+)"/.exec(html)[1].trim().split(/\s+/))
+      for (const [, selectors, declarations] of rules) {
+        const matches = selectors.split(',').some(selector => {
+          const value = selector.trim()
+          return /^(?:\.[\w-]+)+$/.test(value) && value.slice(1).split('.').every(name => classes.has(name))
+        })
+        if (!matches) continue
+        assert.doesNotMatch(declarations, /(?:^|;)\s*position\s*:\s*(?:absolute|fixed)\b/, `${metadataPosition}/${state}: ${selectors}`)
+        assert.doesNotMatch(declarations, /(?:^|;)\s*pointer-events\s*:\s*none\b/, `${metadataPosition}/${state}: ${selectors}`)
+      }
+    }
+  }
+})
+
 test('source metadata uses node overrides rather than inherited recipe placeholders', () => {
   const html = render('VideoMetadata')
   assert.match(html, /10K views/)

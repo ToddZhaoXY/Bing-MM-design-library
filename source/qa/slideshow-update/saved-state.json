@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "surface": "blank",
+  "query": "Living Room",
+  "blocks": [
+    {
+      "id": 4,
+      "slug": "slideshow",
+      "values": {
+        "size": "5:4",
+        "pagination": "Bottom bars + arrows",
+        "state": "Default"
+      },
+      "live": {
+        "initialIndex": 3
+      }
+    }
+  ],
+  "items": [],
+  "suggestions": []
+}

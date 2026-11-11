@@ -25,7 +25,7 @@
 .vc-answer-header img,.vc-learn-more img,.vc-citation-count img{display:block;flex:none;max-width:none}
 .vc-overview-content{min-height:0;flex:1;display:flex;flex-direction:column;gap:8px;overflow:auto;scrollbar-width:thin}
 .vc-overview-text{display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden;flex-shrink:0;line-height:22px;font-size:14px}
-.vc-overview-content.is-expanded .vc-overview-text{display:block;overflow:visible}
+.vc-overview-content.is-expanded .vc-overview-text{display:block;overflow:visible;-webkit-line-clamp:unset}
 .vc-learn-more{display:flex;align-items:center;gap:4px;color:#0b497f;background:transparent;border:0;padding:0;align-self:flex-start;font:700 13px/20px Roboto,Arial,sans-serif;cursor:pointer;margin-top:-4px}
 .vc-fact{display:flex;gap:4px;align-items:flex-start;flex-shrink:0;font-size:14px;line-height:22px}
 .vc-fact strong{flex-shrink:0}.vc-fact span{min-width:0}
@@ -38,8 +38,8 @@
 .vc-citation-count{display:flex;align-items:center;gap:2px;padding:2px 8px 2px 4px;border-radius:999px;background:#dbedfd;margin-left:2px}
 .vc-source-details{position:absolute;bottom:50px;left:20px;right:20px;padding:12px;border:1px solid #c0d7e8;border-radius:12px;background:white;box-shadow:0 4px 16px #0002;display:flex;flex-direction:column;gap:8px;font-size:13px}
 .vc-source-details button{align-self:flex-start;border:0;border-radius:6px;background:#e8f3fc;padding:4px 10px;cursor:pointer;font:inherit}
-.vc-imdb{height:200}.vc-imdb>p{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;flex:1;line-height:22px;font-size:14px}
-.vc-imdb-source{display:flex;align-items:center;gap:4px;font-size:13px;line-height:20px;color:rgba(0,0,0,.6)}
+.vc-imdb{height:200px;flex-shrink:0}.vc-imdb>p{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;flex:0 0 auto;max-height:88px;line-height:22px;font-size:14px}
+.vc-imdb-source{margin-top:auto;flex-shrink:0;display:flex;align-items:center;gap:4px;font-size:13px;line-height:20px;color:rgba(0,0,0,.6)}
 .vc-imdb-source img{width:16px;height:16px;object-fit:cover;border-radius:4px}
 .vc-more-cell.vm-more-list{background:#f3f9fe}
 .vc-more-cell .vm-more-item{flex:0 0 104px}

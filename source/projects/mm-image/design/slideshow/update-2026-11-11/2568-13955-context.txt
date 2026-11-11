@@ -1,0 +1,81 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/84c8fa51-365b-42b3-980b-34849c1c8501";
+import SerpIcon from "D:\Code\entity-segments\references\components\atoms\serp-icon.tsx"
+
+const imgRectangle34656152 = `${assetPathPrefix}/acc04.png`;
+
+export default function SlideCard() {
+  return (
+    <div className="overflow-clip relative rounded-[var(--static\/corner\/rounded\/6-base,24px)] size-full" data-node-id="2568:13955" data-name="Slide Card">
+      <div className="absolute inset-[-95px_0_-125px_0] shadow-[0px_4px_12px_0px_rgba(0,0,0,0.12)]" data-node-id="I2568:13955;2563:14819">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle34656152} />
+      </div>
+      <div className="absolute backdrop-blur-[2px] h-[204px] left-0 top-0 w-[312px]" data-node-id="I2568:13955;2563:14820" style={{ backgroundImage: "linear-gradient(179.9999999999963deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 40.762%, rgba(0, 0, 0, 0.5) 58.355%, rgba(0, 0, 0, 0.7) 79.5%, rgba(0, 0, 0, 0.7) 100%)" }} />
+      <div className="absolute content-stretch flex flex-col gap-[16px] h-[180px] items-center justify-end left-[12px] pb-[var(--padding\/content\/xxsmall,4px)] pt-[var(--mai\/padding\/card\/body\/default\/outside,18px)] px-[var(--mai\/padding\/card\/body\/default\/outside,18px)] right-[12px] top-[12px]" data-node-id="I2568:13955;2563:14823">
+        <div className="content-stretch flex flex-col gap-[var(--bing\/smtc\/padding\/ctrl-xs\/horizontal,4px)] items-center px-[var(--padding\/ctrl\/textside,2px)] relative shrink-0 w-full" data-node-id="I2568:13955;2563:14824" data-name="Content">
+          <p className="[word-break:break-word] font-['Alice:Regular'] leading-[var(--text\/global\/subtitle1\/lineheight,26px)] min-w-full not-italic overflow-hidden relative shrink-0 text-[20px] text-[color:var(--mai\/foreground\/ctrl\/onimage,white)] text-center text-ellipsis w-[min-content]" data-node-id="I2568:13955;2563:14829">
+            Colors of the Tundra
+          </p>
+          <div className="content-stretch flex gap-[var(--ctrl\/badge\/gap,2px)] items-center justify-center min-h-[19px] min-w-[20px] relative rounded-[var(--ctrl\/badge\/corner,8px)] shrink-0 w-full" data-node-id="I2568:13955;2563:14830" data-name="Attribution">
+            <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Regular')] font-[var(--text\/style\/default\/regular\/weight,400)] h-full justify-center leading-[0] min-w-px relative text-[color:var(--mai\/foreground\/ctrl\/onimage,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center" style={{ fontVariationSettings: '"wdth" 100' }}>
+              <p className="leading-[var(--text\/global\/caption2\/lineheight,13px)]">{`Explore Denali's open tundra, from summer wildflowers to brilliant autumn colors.`}</p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex items-center relative shrink-0 w-[138px]" data-node-id="I2568:13955;2563:14832" data-name="Pagination indicators">
+          <div className="content-stretch flex flex-[1_0_0] gap-[3px] items-center min-w-px relative" data-node-id="I2568:13955;2563:14833" data-name="Bars">
+            <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13955;2563:14834" data-name="Progress Indicator / Story 6">
+              <div className="absolute bg-[var(--foreground\/ctrl\/neutral\/primary\/rest,#e5ebfa)] h-[4px] left-0 right-1/4 top-0" data-node-id="I2568:13955;2563:14835" data-name="progress" />
+            </div>
+            <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13955;2563:14836" data-name="Progress Indicator / Story 11" />
+            <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13955;2563:14838" data-name="Progress Indicator / Story 12" />
+            <div className="bg-[var(--foreground\/ctrl\/neutral\/primary\/disabled,rgba(255,255,255,0.3))] flex-[1_0_0] h-[4px] min-w-px overflow-clip relative rounded-[2px]" data-node-id="I2568:13955;2563:14840" data-name="Progress Indicator / Story 13" />
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[var(--mai\/smtc\/background\/ctrl\/on-image\/rest,black)] content-stretch flex gap-[var(--smtc\/gap\/between\/content\/xxx-small,2px)] h-[20px] items-center left-[13px] pb-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/bottom,2px)] pt-[var(--smtc\/ctrl\/badge\/sm\/text\/padding\/top,2px)] px-[var(--smtc\/ctrl\/badge\/sm\/padding,4px)] rounded-[var(--smtc\/ctrl\/badge\/corner,8px)] top-[12px]" data-node-id="I2568:13955;2563:14845" data-name="Badge">
+        <div className="content-stretch flex h-[13px] items-center relative shrink-0" data-node-id="I2568:13955;2563:14845;88720:35156" data-name="IconContainer">
+          <div className="relative shrink-0 size-[12px]" data-node-id="I2568:13955;2563:14845;71493:230763" data-name="Icon">
+            <CodeConnectSnippet data-node-id="I2568:13955;2563:14845;71493:230763;115630:166841" data-name="ImageMultiple">
+              <SerpIcon />
+            </CodeConnectSnippet>
+          </div>
+        </div>
+        <p className="[word-break:break-word] font-[family-name:var(--text\/style\/default\/regular\/font-family,'Roboto:Bold')] font-[var(--text\/style\/default\/header\/weight,700)] leading-[var(--text\/global\/caption2\/lineheight,13px)] relative shrink-0 text-[color:var(--mai\/smtc\/foreground\/ctrl\/on-image\/rest,white)] text-[length:var(--text\/global\/caption2\/fontsize,11px)] text-center whitespace-nowrap" data-node-id="I2568:13955;2563:14845;64508:210742" style={{ fontVariationSettings: '"wdth" 100' }}>
+          23 images
+        </p>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: --bing-smtc-text-global/caption/2: Font(family: "text/style/default/regular/font-family", style: Regular, size: text/global/caption2/fontSize, weight: text/style/default/regular/weight, lineHeight: text/global/caption2/lineHeight, letterSpacing: 0), --bing-smtc-text-global/caption/2-strong: Font(family: "text/style/default/regular/font-family", style: Bold, size: text/global/caption2/fontSize, weight: text/style/default/header/weight, lineHeight: text/global/caption2/lineHeight, letterSpacing: 0).
+
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Slide Card
+**Node ID:** 2565:1584
+
+Slide Card：Size 3:4（312×424）/ 5:4（536×424）；Pagination：Bottom arrows、Top bars、Bottom bars。Bottom bars 的 Default 仅显示文字与底部分页，Hover 在文字下方显示四张缩略图。Default/Hover 为静态变体，未连接交互。 Size=3:2 使用现成素材尺寸312×204；底部横条Default与Hover直接取自用户提供的原始卡片。
+
+## Badge
+**Node ID:** 2560:71
+
+A compact, non-interactive label for conveying status, category, or metadata. Supports 5 semantic colors (info, discovery, success, danger, warning), 2 visual weights (soft, solid), 2 sizes, optional leading icon/favicon, bold emphasis, and overlay mode for images. 132 variants.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
+
+Nodes “Icon” (0:33), “Badge” (0:26): No Code Connect mapping labelled “react” was found. Available labels: “Javascript”.
+
+Provide a matching label to retrieve the associated Code Connect mapping for this node.

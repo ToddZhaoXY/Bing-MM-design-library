@@ -1,4 +1,4 @@
-:root { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #202631; background: #fafbfd; font-synthesis: none; }
+:root { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #202020; background: #f5f5f5; font-synthesis: none; }
 * { box-sizing: border-box; }
 body { margin: 0; overflow-x: hidden; }
 [hidden] { display: none !important; }
@@ -7,17 +7,17 @@ button { font: inherit; }
 a:focus-visible, button:focus-visible { outline: 2px solid #2859a6; outline-offset: 5px; }
 
 .portal-header { position: absolute; z-index: 4; top: 28px; right: clamp(24px, 3.6vw, 64px); }
-.header-links { display: flex; align-items: center; gap: 8px; padding: 4px 8px; border: 1px solid #ffffffb3; border-radius: 999px; background: #fafbfde6; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
-.header-links a { display: flex; align-items: center; justify-content: center; min-height: 40px; padding: 8px 18px; border-radius: 999px; font-size: .875rem; font-weight: 500; color: #465160; }
-.header-links a:hover { color: #2859a6; background: #ffffffc9; }
+.header-links { display: flex; align-items: center; gap: 8px; padding: 4px 8px; border: 1px solid #e5e5e5; border-radius: 999px; background: #f5f5f5e6; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); }
+.header-links a { display: flex; align-items: center; justify-content: center; min-height: 40px; padding: 8px 18px; border-radius: 999px; font-size: .875rem; font-weight: 500; color: #404040; }
+.header-links a:hover { color: #fff; background: #242424; }
 
 .home-canvas { position: relative; isolation: isolate; display: grid; place-items: center; width: 100%; height: 100vh; height: 100svh; min-height: 520px; overflow: hidden; }
 .waterfall { position: absolute; z-index: 0; inset: 0 -80px; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 24px; user-select: none; }
 .flow-column { height: 100%; min-width: 0; overflow: hidden; opacity: .8; }
 .flow-track { width: 100%; transform: translate3d(0, -160px, 0); }
 .flow-group { display: flex; flex-direction: column; gap: 22px; padding-bottom: 22px; }
-.tile { position: relative; display: block; flex: 0 0 auto; min-width: 0; margin: 0; overflow: hidden; background: #fff; border: 1px solid #e3e7ed; border-radius: 16px; box-shadow: 0 4px 18px #263a5610; cursor: pointer; }
-.tile:hover { border-color: #a2b4ce; box-shadow: 0 6px 24px #263a5626; }
+.tile { position: relative; display: block; flex: 0 0 auto; min-width: 0; margin: 0; overflow: hidden; background: #fff; border: 1px solid #ffffff; border-radius: 24px; box-shadow: 0 8px 32px #0000000a; cursor: pointer; }
+.tile:hover { border-color: #a8a8a8; box-shadow: 0 12px 32px #00000014; }
 .tile:focus-visible { outline-offset: -3px; }
 .tile > img { display: block; width: 100%; height: auto; object-fit: cover; }
 .tile-wide > img { aspect-ratio: 16/10; }
@@ -46,13 +46,13 @@ a:focus-visible, button:focus-visible { outline: 2px solid #2859a6; outline-offs
 .selected-mark { position: absolute; top: 12px; right: 12px; display: grid; place-items: center; width: 24px; height: 24px; border: 2px solid #fff; border-radius: 50%; background: #5279be; color: #fff; font-size: .75rem; }
 
 /* Bound the veil to the wordmark, not the monitor. Overlays never catch clicks. */
-.home-canvas::after { content: ''; position: absolute; z-index: 1; inset: 0; pointer-events: none; background: linear-gradient(#fafbfdb3, #fafbfd00 112px, #fafbfd00 calc(100% - 96px), #fafbfda6); }
-.canvas-mist { position: absolute; z-index: 1; left: 50%; top: 51%; width: min(108vw, 1280px); height: 480px; transform: translate(-50%, -50%); pointer-events: none; background: radial-gradient(ellipse closest-side, #fafbfd 0%, #fafbfd 28%, #fafbfdf5 48%, #fafbfdb8 68%, #fafbfd40 86%, #fafbfd00 100%); }
+.home-canvas::after { content: ''; position: absolute; z-index: 1; inset: 0; pointer-events: none; background: linear-gradient(#f5f5f5b3, #f5f5f500 112px, #f5f5f500 calc(100% - 96px), #f5f5f5a6); }
+.canvas-mist { position: absolute; z-index: 1; left: 50%; top: 51%; width: min(108vw, 1280px); height: 480px; transform: translate(-50%, -50%); pointer-events: none; background: radial-gradient(ellipse closest-side, #f5f5f5 0%, #f5f5f5 28%, #f5f5f5f5 48%, #f5f5f5b8 68%, #f5f5f540 86%, #f5f5f500 100%); }
 .hero { position: relative; z-index: 2; width: calc(100% - 64px); max-width: 960px; margin-top: 8px; text-align: center; pointer-events: none; }
-.hero h1 { margin: 0; font-family: 'Avenir Next', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: clamp(3.25rem, 7.5vw, 5rem); line-height: 1.08; font-weight: 650; letter-spacing: -.065em; color: #1b222c; white-space: nowrap; }
-.hero p { max-width: 620px; margin: 28px auto 0; color: #606a78; font-size: 1rem; line-height: 1.8; text-wrap: pretty; }
-.motion-toggle { position: absolute; z-index: 4; right: 28px; bottom: 24px; display: grid; place-items: center; width: 40px; height: 40px; padding: 0; border: 1px solid #dfe5ed; border-radius: 50%; color: #667386; background: #fafbfde6; cursor: pointer; }
-.motion-toggle:hover { color: #202631; background: #fff; }
+.hero h1 { margin: 0; font-family: 'Avenir Next', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: clamp(3.25rem, 7.5vw, 5rem); line-height: 1.08; font-weight: 650; letter-spacing: -.065em; color: #202020; white-space: nowrap; }
+.hero p { max-width: 620px; margin: 28px auto 0; color: #626262; font-size: 1rem; line-height: 1.8; text-wrap: pretty; }
+.motion-toggle { position: absolute; z-index: 4; right: 28px; bottom: 24px; display: grid; place-items: center; width: 40px; height: 40px; padding: 0; border: 1px solid #d5d5d5; border-radius: 50%; color: #667386; background: #f5f5f5e6; cursor: pointer; }
+.motion-toggle:hover { color: #202020; background: #fff; }
 .motion-icon { width: 10px; height: 12px; border-inline: 2px solid currentColor; }
 .motion-toggle[aria-pressed="true"] .motion-icon { width: 0; height: 0; margin-left: 3px; border: 6px solid transparent; border-left: 9px solid currentColor; border-right: 0; }
 

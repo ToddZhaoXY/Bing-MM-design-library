@@ -1,0 +1,320 @@
+[
+  {
+    "arrows": [
+      {
+        "background": "rgb(44, 52, 89)",
+        "disabled": true,
+        "height": 28,
+        "width": 28,
+        "x": 224,
+        "y": 358
+      },
+      {
+        "background": "rgb(44, 52, 89)",
+        "disabled": false,
+        "height": 28,
+        "width": 28,
+        "x": 260,
+        "y": 358
+      }
+    ],
+    "bars": [
+      {
+        "height": 6,
+        "width": 46.3984375,
+        "x": 24,
+        "y": 394
+      },
+      {
+        "height": 6,
+        "width": 46.40625,
+        "x": 78.3984375,
+        "y": 394
+      },
+      {
+        "height": 6,
+        "width": 46.3984375,
+        "x": 132.8046875,
+        "y": 394
+      },
+      {
+        "height": 6,
+        "width": 46.3984375,
+        "x": 187.203125,
+        "y": 394
+      },
+      {
+        "height": 6,
+        "width": 46.3984375,
+        "x": 241.6015625,
+        "y": 394
+      }
+    ],
+    "caption": {
+      "height": 22,
+      "width": 192,
+      "x": 24,
+      "y": 364
+    },
+    "footer": {
+      "height": 90,
+      "width": 312,
+      "x": 0,
+      "y": 334
+    },
+    "images": [
+      {
+        "height": 424,
+        "loaded": true,
+        "src": "../../../mm-image-figma-fy25-windows-bloom.png",
+        "width": 312,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "height": 16,
+        "loaded": true,
+        "src": "../../../mm-image-figma-slideshow-imdb-favicon.png",
+        "width": 16,
+        "x": 16,
+        "y": 16
+      },
+      {
+        "height": 10,
+        "loaded": true,
+        "src": "../../../mm-image-figma-slideshow-chevron-left-soft.svg",
+        "width": 5.5,
+        "x": 235,
+        "y": 367
+      },
+      {
+        "height": 10,
+        "loaded": true,
+        "src": "../../../mm-image-figma-slideshow-chevron-right-soft.svg",
+        "width": 5.5,
+        "x": 271.5,
+        "y": 367
+      }
+    ],
+    "root": {
+      "height": 424,
+      "width": 312,
+      "x": 24,
+      "y": 85.5
+    },
+    "shadow": "none",
+    "size": "3:4"
+  },
+  {
+    "arrows": [
+      {
+        "background": "rgb(44, 52, 89)",
+        "disabled": true,
+        "height": 28,
+        "width": 28,
+        "x": 448,
+        "y": 358
+      },
+      {
+        "background": "rgb(44, 52, 89)",
+        "disabled": false,
+        "height": 28,
+        "width": 28,
+        "x": 484,
+        "y": 358
+      }
+    ],
+    "bars": [
+      {
+        "height": 6,
+        "width": 91.1953125,
+        "x": 24,
+        "y": 394
+      },
+      {
+        "height": 6,
+        "width": 91.203125,
+        "x": 123.1953125,
+        "y": 394
+      },
+      {
+        "height": 6,
+        "width": 91.1953125,
+        "x": 222.3984375,
+        "y": 394
+      },
+      {
+        "height": 6,
+        "width": 91.203125,
+        "x": 321.59375,
+        "y": 394
+      },
+      {
+        "height": 6,
+        "width": 91.203125,
+        "x": 420.796875,
+        "y": 394
+      }
+    ],
+    "caption": {
+      "height": 22,
+      "width": 416,
+      "x": 24,
+      "y": 364
+    },
+    "footer": {
+      "height": 90,
+      "width": 536,
+      "x": 0,
+      "y": 334
+    },
+    "images": [
+      {
+        "height": 424,
+        "loaded": true,
+        "src": "../../../mm-image-figma-fy25-windows-bloom.png",
+        "width": 536,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "height": 16,
+        "loaded": true,
+        "src": "../../../mm-image-figma-slideshow-imdb-favicon.png",
+        "width": 16,
+        "x": 16,
+        "y": 16
+      },
+      {
+        "height": 10,
+        "loaded": true,
+        "src": "../../../mm-image-figma-slideshow-chevron-left-soft.svg",
+        "width": 5.5,
+        "x": 459,
+        "y": 367
+      },
+      {
+        "height": 10,
+        "loaded": true,
+        "src": "../../../mm-image-figma-slideshow-chevron-right-soft.svg",
+        "width": 5.5,
+        "x": 495.5,
+        "y": 367
+      }
+    ],
+    "root": {
+      "height": 424,
+      "width": 536,
+      "x": 24,
+      "y": 85.5
+    },
+    "shadow": "none",
+    "size": "5:4"
+  },
+  {
+    "arrows": [
+      {
+        "background": "rgb(44, 52, 89)",
+        "disabled": true,
+        "height": 28,
+        "width": 28,
+        "x": 224,
+        "y": 138
+      },
+      {
+        "background": "rgb(44, 52, 89)",
+        "disabled": false,
+        "height": 28,
+        "width": 28,
+        "x": 260,
+        "y": 138
+      }
+    ],
+    "bars": [
+      {
+        "height": 6,
+        "width": 46.3984375,
+        "x": 24,
+        "y": 174
+      },
+      {
+        "height": 6,
+        "width": 46.40625,
+        "x": 78.3984375,
+        "y": 174
+      },
+      {
+        "height": 6,
+        "width": 46.3984375,
+        "x": 132.8046875,
+        "y": 174
+      },
+      {
+        "height": 6,
+        "width": 46.3984375,
+        "x": 187.203125,
+        "y": 174
+      },
+      {
+        "height": 6,
+        "width": 46.3984375,
+        "x": 241.6015625,
+        "y": 174
+      }
+    ],
+    "caption": {
+      "height": 22,
+      "width": 192,
+      "x": 24,
+      "y": 144
+    },
+    "footer": {
+      "height": 90,
+      "width": 312,
+      "x": 0,
+      "y": 114
+    },
+    "images": [
+      {
+        "height": 204,
+        "loaded": true,
+        "src": "../../../mm-image-figma-fy25-windows-bloom.png",
+        "width": 312,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "height": 16,
+        "loaded": true,
+        "src": "../../../mm-image-figma-slideshow-imdb-favicon.png",
+        "width": 16,
+        "x": 16,
+        "y": 16
+      },
+      {
+        "height": 10,
+        "loaded": true,
+        "src": "../../../mm-image-figma-slideshow-chevron-left-soft.svg",
+        "width": 5.5,
+        "x": 235,
+        "y": 147
+      },
+      {
+        "height": 10,
+        "loaded": true,
+        "src": "../../../mm-image-figma-slideshow-chevron-right-soft.svg",
+        "width": 5.5,
+        "x": 271.5,
+        "y": 147
+      }
+    ],
+    "root": {
+      "height": 204,
+      "width": 312,
+      "x": 24,
+      "y": 85.5
+    },
+    "shadow": "none",
+    "size": "3:2"
+  }
+]

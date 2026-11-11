@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "date": "2026-11-11",
+  "description": "User-requested FY25 Image cards and unified hierarchical navigation across MM Image, AIGC and Video. The sidebar uses one canonical component, collapsible tiers/parents, distinct hierarchy styles and active-path reveal. Original import ledgers remain unchanged. Added user-requested SlideShow Cell from MM-ACF: 12 source configurations, manual paging, source assets, local fonts and export integration. User-requested Video Magazine overlay positioning and complete-line text truncation fixes; source order and text-slot geometry checked against Figma. See qa/text-clipping/VERIFICATION.md. Synced the 2026-11-11 Figma update: 15 SlideShow configurations, Bottom bars + arrows in all three sizes, and removal of outer shadows.",
+  "source": "https://www.figma.com/design/9yILIRLGDWRBLMqbs5hkoZ/MM-ACF-FY25?node-id=2216-1178",
+  "files": [
+    {
+      "path": "projects/mm-image/site/package.json",
+      "before": "b0ae8ba4a93daf19d00bb1e7921a50888eac7ce8080190ce454ec89dc1debfe9",
+      "after": "50cb48bd043fc34e3315b94287467c04093d25645b09b8e8b9cd6814da437ccd"
+    },
+    {
+      "path": "projects/mm-image/site/src/components/Workbench.tsx",
+      "before": "131d2516981e22a794677f086552d821e832a5edf87ac4ddf3f6b0ca23056871",
+      "after": "7610169e7158e1e9fdf14f05bac9c16bc9e6cffc3b6266dd9719d634a50cba87"
+    },
+    {
+      "path": "projects/mm-image/site/src/data/components.ts",
+      "before": "13c785dce6a8975a29168e0a96bf5c107b2eb656c8549a275816a527dd862a57",
+      "after": "d0146565f7d9defe71d3e0ccf19fbeeadaad85f422cffe6bc685e1570a488d61"
+    },
+    {
+      "path": "projects/mm-image/site/src/data/exportHtml.ts",
+      "before": "9a4c6c5f67f8fa3676b9a9259199c029b7f33787e142887c5d777ceb7545ad23",
+      "after": "fb801133d6c90d81260835f7b0222800a5b1775ffade923bd6b699edff4010ff"
+    },
+    {
+      "path": "projects/mm-image/site/src/mosaic/generators.ts",
+      "before": "c5275e2564c6a1a63085d1ec83b6610f73bb57d342f6148f510781de19cdfd96",
+      "after": "dd49ec7de544c7c7c8e2cc29d2a5b8dbcb21f0ef10d0719856ac28e202a3f336"
+    },
+    {
+      "path": "projects/mm-image/site/src/pages/ComponentPage.tsx",
+      "before": "5e68159f4607facba526b9339abb111daa8e190ab3cccffd08402acd72519ce9",
+      "after": "fee96f5b54289dab4a2981eec963e2f7dec0a3c7bfbae0205d8b9acb8073ae03"
+    },
+    {
+      "path": "projects/mm-image/site/src/pages/Home.tsx",
+      "before": "6647cb36ae380ab6005ea833b48f82ac6f860f28ebf9782da609ef21dfdd883f",
+      "after": "e80287e71cc8d9de3869c43b8565e7b58619e7394959ea01945414ce62b43574"
+    },
+    {
+      "path": "projects/mm-image/site/src/pages/Playground.tsx",
+      "before": "a74f7484f4a4a491c5f6a639809925294edc190a3e2fc256177ab5d1fce34239",
+      "after": "603d9be34bc3f89e733c091e6b86ce9b2d6cb925774d471f6f8b7dbc5f7daa72"
+    },
+    {
+      "path": "projects/mm-image/site/src/styles.css",
+      "before": "d3dfc76223501cabe1173d7645c3f2f3bef801ddea2df6ed34a5df0f1dbec78e",
+      "after": "01f8abf9dbff99612af163c7ed36bae04bdfe683acb8ffa1df066db9fd3122b5"
+    },
+    {
+      "path": "projects/mm-image/site/src/data/aiPrompt.ts",
+      "before": "2e6806070ec2b94aeabb82eba9e74ccd85e5757013d73db4011ff09de28db14c",
+      "after": "74d19c964818ca95d021e4b16e8803baea76c2ef9da11c9a8d2823846670c019"
+    },
+    {
+      "path": "projects/mm-image/site/src/components/Nav.tsx",
+      "before": "3356fa72c5fdc06cfffa291b99010539fba6b4086ef1c04eb2c4f57bb4794fb5",
+      "after": "b5d6641a9853db7a20c28e6a30f1906399c2234880a17395e3eb24fbd00986c2"
+    },
+    {
+      "path": "projects/aigc/site/src/components/Nav.tsx",
+      "before": "197ed73b1394aa22101b68ec9342dcf7d600f0236c3afccac0a918802de5d254",
+      "after": "757f186dd47b74eb6c32d17e4c1a091d46d6f440f7e7dbca8a1b9d160c098bad"
+    },
+    {
+      "path": "projects/video/site/src/components/Nav.tsx",
+      "before": "13be84b654dd806da8e3d0817eb95f8a6faf0e2cf33e552496f0ade7a5e6ccaa",
+      "after": "931dd83f53e7aaad1b10ced7a1396c93386b26e286bfceb52c153e516f6426b4"
+    },
+    {
+      "path": "projects/mm-image/site/src/components/Molecules.tsx",
+      "before": "24ec9289febb1dd51040b81784e8cf97f2786797cde31aba03da517013c77b65",
+      "after": "fb9b069979a3396bd4803b9af0d295afa6d4fd3586dd14b6b627a48632793c85"
+    },
+    {
+      "path": "projects/video/site/src/components/VideoMolecules.tsx",
+      "before": "4724a6bc57a73daf91fb1d6132bed7adc3eb12d807cfa00a44cfd531f670aa0e",
+      "after": "3c8cc5523ccc2d225b7942d5d54446b1eacced23a160db42f4072225c2c06d9e"
+    },
+    {
+      "path": "projects/video/site/src/video-molecules.css",
+      "before": "d3c72639a15b61570aef0c0ff83d3d26cae5e478e0e9eb54eda86291388c8915",
+      "after": "c982d7d1a6a4f308d4d0298efe03488f108a23133a17dbfd2fe0e326c5e36355"
+    },
+    {
+      "path": "projects/video/site/src/video-cells.css",
+      "before": "2a369f56a12ed9716d6bb8cedc2003cd85b3f43832575386bef2c9c97e5df2b9",
+      "after": "6635b00f4c390cd0d2901ddda5b146a2892f46b8b3d5fc0836d3e3af353a31d9"
+    },
+    {
+      "path": "projects/video/site/src/video-organisms.css",
+      "before": "aaa855511249ef24708d6d8cd97aa254e61066726b1d2dffff826561fcd93fad",
+      "after": "27a422a82a31e122dce5a785fc4edb1d5b08241e260f5c7d1cd5b59d1ed9b30e"
+    },
+    {
+      "path": "projects/video/site/tests/video-molecules.test.mjs",
+      "before": "72b568ba37bbe1ff9edba95ae3af4fbbc6ce11be909b0aa2e22d886e0fc0b51e",
+      "after": "ff898a81561d93d1df97049c10147117ca6ece8fc33f8a2091d317c3494eb3a9"
+    }
+  ],
+  "additionalSources": [
+    "https://www.figma.com/design/fRSRroY4YFgJSeqLLE0Y38/MM-ACF?node-id=2568-13065"
+  ]
+}

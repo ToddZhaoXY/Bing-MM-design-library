@@ -31,6 +31,11 @@ export interface SurfaceBrief {
 function propLine(p: PropDef): string {
   const under = p.under ? `  (only meaningful when ${p.under} is true)` : ''
   if (p.kind === 'select') {
+    if (p.valuesByParent) {
+      const options = Object.entries(p.valuesByParent.options).map(([parent, values]) =>
+        `      ${p.valuesByParent!.prop}=${JSON.stringify(parent)}: ${values.map(value => JSON.stringify(value)).join(' | ')}`).join('\n')
+      return `    ${p.name}: choose only from the selected ${p.valuesByParent.prop} below\n${options}`
+    }
     const vals = p.values.map((v) => JSON.stringify(v)).join(' | ')
     const num = p.numeric ? '  — numeric, but stored as a string' : ''
     return `    ${p.name}: ${vals}   default ${JSON.stringify(p.default)}${num}${under}`

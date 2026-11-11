@@ -1,4 +1,18 @@
 /* MMACF library shell */
+@font-face { font-family: 'MM FY25 Roboto'; src: url('../public/figma/fy25/fonts/roboto-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'MM FY25 Roboto'; src: url('../public/figma/fy25/fonts/roboto-700.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'MM SlideShow Alice'; src: url('../public/figma/slideshow/fonts/alice-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+[data-image-card] { font-family: 'MM FY25 Roboto', Roboto, sans-serif !important; }
+[data-image-card] button:focus-visible { outline: 2px solid #0067c0; outline-offset: -2px; }
+/* Shared workbench structure matches the existing Video and AIGC previews. */
+.preview-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; min-height: 26px; color: #666; font-size: 11px; }
+.preview-toolbar > div { display: flex; }
+.preview-toolbar button { background: #fff; border: 1px solid #e6e6e6; padding: 4px 9px; font: inherit; cursor: pointer; color: #555; }
+.preview-toolbar button:first-child { border-radius: 4px 0 0 4px; }
+.preview-toolbar button:last-child { border-radius: 0 4px 4px 0; border-left: 0; }
+.preview-toolbar button[aria-pressed="true"] { background: #f0f4f9; color: #174b95; }
+.table-scroll { overflow-x: auto; }
+
 :root {
   --font: 'Segoe UI', Roboto, -apple-system, sans-serif;
   --bg: #ffffff;

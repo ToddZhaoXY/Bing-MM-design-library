@@ -1,0 +1,345 @@
+[
+  {
+    "id": "16:7776",
+    "name": "2x2",
+    "size": "2x2",
+    "width": 200.0,
+    "height": 200.0
+  },
+  {
+    "id": "704:18885",
+    "name": "3x2",
+    "size": "3x2",
+    "width": 312.0,
+    "height": 200.0
+  },
+  {
+    "id": "705:7425",
+    "name": "3x2",
+    "size": "3x2",
+    "width": 312.0,
+    "height": 200.0
+  },
+  {
+    "id": "750:61777",
+    "name": "Answer card",
+    "size": "3x2",
+    "width": 312.0,
+    "height": 200.0
+  },
+  {
+    "id": "750:62130",
+    "name": "Answer card",
+    "size": "3x2",
+    "width": 312.0,
+    "height": 200.0
+  },
+  {
+    "id": "1266:15872",
+    "name": "Answer card",
+    "size": "3x2",
+    "width": 312.0,
+    "height": 200.0
+  },
+  {
+    "id": "16:7859",
+    "name": "4x2 1 image",
+    "size": "4x2",
+    "width": 424.0,
+    "height": 200.0
+  },
+  {
+    "id": "16:7852",
+    "name": "4x2 2images",
+    "size": "4x2",
+    "width": 424.0,
+    "height": 200.0
+  },
+  {
+    "id": "1779:1126",
+    "name": "Answer card",
+    "size": "4x2",
+    "width": 424.0,
+    "height": 200.0
+  },
+  {
+    "id": "16:7872",
+    "name": "5x2",
+    "size": "5x2",
+    "width": 536.0,
+    "height": 200.0
+  },
+  {
+    "id": "1268:1976",
+    "name": "Answer card",
+    "size": "5x2",
+    "width": 536.0,
+    "height": 200.0
+  },
+  {
+    "id": "1283:22499",
+    "name": "Answer card",
+    "size": "2x4",
+    "width": 200.0,
+    "height": 424.0
+  },
+  {
+    "id": "1748:1270",
+    "name": "Answer card",
+    "size": "3x4",
+    "width": 312.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:13254",
+    "name": "Answer card",
+    "size": "3x4",
+    "width": 312.0,
+    "height": 424.0
+  },
+  {
+    "id": "16:7896",
+    "name": "Answer Card",
+    "size": "3x4",
+    "width": 312.0,
+    "height": 424.0
+  },
+  {
+    "id": "16:7917",
+    "name": "Answer card",
+    "size": "3x4",
+    "width": 312.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:13639",
+    "name": "3x4",
+    "size": "3x4",
+    "width": 312.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:13704",
+    "name": "3x4",
+    "size": "3x4",
+    "width": 312.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:13753",
+    "name": "3x4",
+    "size": "3x4",
+    "width": 312.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:13802",
+    "name": "Answer card",
+    "size": "3x4",
+    "width": 312.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:13885",
+    "name": "Answer card",
+    "size": "3x4",
+    "width": 312.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:14063",
+    "name": "Answer card",
+    "size": "3x4",
+    "width": 312.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:14187",
+    "name": "Answer card",
+    "size": "4x4",
+    "width": 424.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:14315",
+    "name": "Answer card",
+    "size": "4x4",
+    "width": 424.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:14440",
+    "name": "Answer card",
+    "size": "4x4",
+    "width": 424.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:14583",
+    "name": "Answer card",
+    "size": "4x4",
+    "width": 424.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:14667",
+    "name": "Answer card",
+    "size": "4x4",
+    "width": 424.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:14751",
+    "name": "Answer card",
+    "size": "4x4",
+    "width": 424.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:15035",
+    "name": "Answer card",
+    "size": "5x4",
+    "width": 536.0,
+    "height": 424.0
+  },
+  {
+    "id": "2104:1146",
+    "name": "Answer card",
+    "size": "5x4",
+    "width": 536.0,
+    "height": 424.0
+  },
+  {
+    "id": "2104:1116",
+    "name": "Answer card",
+    "size": "5x4",
+    "width": 536.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:15143",
+    "name": "Answer card",
+    "size": "5x4",
+    "width": 536.0,
+    "height": 424.0
+  },
+  {
+    "id": "16:7977",
+    "name": "Answer Card",
+    "size": "5x4",
+    "width": 536.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:16393",
+    "name": "Answer card",
+    "size": "5x4",
+    "width": 536.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:16460",
+    "name": "Answer card",
+    "size": "5x4",
+    "width": 536.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:16518",
+    "name": "Answer card",
+    "size": "5x4",
+    "width": 536.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:16623",
+    "name": "Answer card",
+    "size": "5x4",
+    "width": 536.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:16678",
+    "name": "Answer card",
+    "size": "6x4",
+    "width": 648.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:16733",
+    "name": "Answer card",
+    "size": "6x4",
+    "width": 648.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:16845",
+    "name": "Answer card",
+    "size": "6x4",
+    "width": 648.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:16936",
+    "name": "Answer card",
+    "size": "6x4",
+    "width": 648.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:17041",
+    "name": "Answer card",
+    "size": "6x4",
+    "width": 648.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:18499",
+    "name": "Answer Card",
+    "size": "8x4",
+    "width": 872.0,
+    "height": 424.0
+  },
+  {
+    "id": "16:8044",
+    "name": "Answer Card",
+    "size": "8x4",
+    "width": 872.0,
+    "height": 424.0
+  },
+  {
+    "id": "16:8068",
+    "name": "Answer Card",
+    "size": "9x4",
+    "width": 984.0,
+    "height": 424.0
+  },
+  {
+    "id": "1270:19211",
+    "name": "Answer Card",
+    "size": "11x4",
+    "width": 1208.0,
+    "height": 424.0
+  },
+  {
+    "id": "16:8153",
+    "name": "11x2",
+    "size": "11x2",
+    "width": 1208.0,
+    "height": 200.0
+  },
+  {
+    "id": "16:8283",
+    "name": "11x2",
+    "size": "11x2",
+    "width": 1208.0,
+    "height": 200.0
+  },
+  {
+    "id": "1270:28792",
+    "name": "11x2",
+    "size": "11x2",
+    "width": 1208.0,
+    "height": 200.0
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "nativeCover": 3.1724675356180185,
+  "uniformInverseTransform": 42.02545634718507,
+  "horizontalInverseTransform": 35.939451019837655,
+  "rough": {
+    "s": 1,
+    "dx": 0,
+    "dy": 0,
+    "rmse": 3.1724675356180185
+  },
+  "fine": {
+    "s": 0.998,
+    "dx": 0,
+    "dy": 0,
+    "rmse": 2.542879721245671
+  },
+  "sampleCount": 2520,
+  "region": "x 16..183,y 16..149; excludes corners and all-image button"
+}

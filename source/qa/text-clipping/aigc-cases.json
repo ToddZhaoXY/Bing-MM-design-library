@@ -1,0 +1,1051 @@
+[
+  {
+    "id": "case-0",
+    "slug": "main-image-area",
+    "name": "Main image area / default",
+    "values": {
+      "property1": "3:2",
+      "status": "Default",
+      "prompt": "A cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-1",
+    "slug": "main-image-area",
+    "name": "Main image area / default / long text",
+    "values": {
+      "property1": "3:2",
+      "status": "Default",
+      "prompt": "Long prompt Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-2",
+    "slug": "main-image-area",
+    "name": "Main image area / property1=1:1",
+    "values": {
+      "property1": "1:1",
+      "status": "Default",
+      "prompt": "A cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-3",
+    "slug": "main-image-area",
+    "name": "Main image area / property1=1:1 / long text",
+    "values": {
+      "property1": "1:1",
+      "status": "Default",
+      "prompt": "Long prompt Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-4",
+    "slug": "main-image-area",
+    "name": "Main image area / property1=2:3",
+    "values": {
+      "property1": "2:3",
+      "status": "Default",
+      "prompt": "A cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-5",
+    "slug": "main-image-area",
+    "name": "Main image area / property1=2:3 / long text",
+    "values": {
+      "property1": "2:3",
+      "status": "Default",
+      "prompt": "Long prompt Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-6",
+    "slug": "main-image-area",
+    "name": "Main image area / status=hover",
+    "values": {
+      "property1": "3:2",
+      "status": "hover",
+      "prompt": "A cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-7",
+    "slug": "main-image-area",
+    "name": "Main image area / status=hover / long text",
+    "values": {
+      "property1": "3:2",
+      "status": "hover",
+      "prompt": "Long prompt Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-8",
+    "slug": "image-display-list",
+    "name": "Image display list / default",
+    "values": {
+      "property1": "3:2",
+      "selectedIndex": "0"
+    }
+  },
+  {
+    "id": "case-9",
+    "slug": "image-display-list",
+    "name": "Image display list / property1=1:1",
+    "values": {
+      "property1": "1:1",
+      "selectedIndex": "0"
+    }
+  },
+  {
+    "id": "case-10",
+    "slug": "image-display-list",
+    "name": "Image display list / selectedIndex=1",
+    "values": {
+      "property1": "3:2",
+      "selectedIndex": "1"
+    }
+  },
+  {
+    "id": "case-11",
+    "slug": "image-display-list",
+    "name": "Image display list / selectedIndex=2",
+    "values": {
+      "property1": "3:2",
+      "selectedIndex": "2"
+    }
+  },
+  {
+    "id": "case-12",
+    "slug": "image-display-list",
+    "name": "Image display list / selectedIndex=3",
+    "values": {
+      "property1": "3:2",
+      "selectedIndex": "3"
+    }
+  },
+  {
+    "id": "case-13",
+    "slug": "history-panel-images",
+    "name": "History panel images / default",
+    "values": {
+      "property1": "Multi",
+      "property2": "Default"
+    }
+  },
+  {
+    "id": "case-14",
+    "slug": "history-panel-images",
+    "name": "History panel images / property1=Single",
+    "values": {
+      "property1": "Single",
+      "property2": "Default"
+    }
+  },
+  {
+    "id": "case-15",
+    "slug": "history-panel-images",
+    "name": "History panel images / property1=Loading",
+    "values": {
+      "property1": "Loading",
+      "property2": "Default"
+    }
+  },
+  {
+    "id": "case-16",
+    "slug": "history-panel-images",
+    "name": "History panel images / property1=Video",
+    "values": {
+      "property1": "Video",
+      "property2": "Default"
+    }
+  },
+  {
+    "id": "case-17",
+    "slug": "history-panel-images",
+    "name": "History panel images / property2=Selected",
+    "values": {
+      "property1": "Multi",
+      "property2": "Selected"
+    }
+  },
+  {
+    "id": "case-18",
+    "slug": "main-content-area",
+    "name": "Main content area / default",
+    "values": {
+      "property1": "Image3:2",
+      "selectedIndex": "0",
+      "mainStatus": "Default"
+    }
+  },
+  {
+    "id": "case-19",
+    "slug": "main-content-area",
+    "name": "Main content area / property1=Image1:1",
+    "values": {
+      "property1": "Image1:1",
+      "selectedIndex": "0",
+      "mainStatus": "Default"
+    }
+  },
+  {
+    "id": "case-20",
+    "slug": "main-content-area",
+    "name": "Main content area / property1=Image2:3",
+    "values": {
+      "property1": "Image2:3",
+      "selectedIndex": "0",
+      "mainStatus": "Default"
+    }
+  },
+  {
+    "id": "case-21",
+    "slug": "main-content-area",
+    "name": "Main content area / property1=Single Image",
+    "values": {
+      "property1": "Single Image",
+      "selectedIndex": "0",
+      "mainStatus": "Default"
+    }
+  },
+  {
+    "id": "case-22",
+    "slug": "main-content-area",
+    "name": "Main content area / property1=loading status",
+    "values": {
+      "property1": "loading status",
+      "selectedIndex": "0",
+      "mainStatus": "Default"
+    }
+  },
+  {
+    "id": "case-23",
+    "slug": "main-content-area",
+    "name": "Main content area / selectedIndex=1",
+    "values": {
+      "property1": "Image3:2",
+      "selectedIndex": "1",
+      "mainStatus": "Default"
+    }
+  },
+  {
+    "id": "case-24",
+    "slug": "main-content-area",
+    "name": "Main content area / selectedIndex=2",
+    "values": {
+      "property1": "Image3:2",
+      "selectedIndex": "2",
+      "mainStatus": "Default"
+    }
+  },
+  {
+    "id": "case-25",
+    "slug": "main-content-area",
+    "name": "Main content area / selectedIndex=3",
+    "values": {
+      "property1": "Image3:2",
+      "selectedIndex": "3",
+      "mainStatus": "Default"
+    }
+  },
+  {
+    "id": "case-26",
+    "slug": "main-content-area",
+    "name": "Main content area / mainStatus=hover",
+    "values": {
+      "property1": "Image3:2",
+      "selectedIndex": "0",
+      "mainStatus": "hover"
+    }
+  },
+  {
+    "id": "case-27",
+    "slug": "history-panel",
+    "name": "History panel / default",
+    "values": {
+      "property1": "full",
+      "selectedIndex": "0"
+    }
+  },
+  {
+    "id": "case-28",
+    "slug": "history-panel",
+    "name": "History panel / property1=half",
+    "values": {
+      "property1": "half",
+      "selectedIndex": "0"
+    }
+  },
+  {
+    "id": "case-29",
+    "slug": "history-panel",
+    "name": "History panel / property1=unsigned in",
+    "values": {
+      "property1": "unsigned in",
+      "selectedIndex": "0"
+    }
+  },
+  {
+    "id": "case-30",
+    "slug": "history-panel",
+    "name": "History panel / selectedIndex=1",
+    "values": {
+      "property1": "full",
+      "selectedIndex": "1"
+    }
+  },
+  {
+    "id": "case-31",
+    "slug": "history-panel",
+    "name": "History panel / selectedIndex=2",
+    "values": {
+      "property1": "full",
+      "selectedIndex": "2"
+    }
+  },
+  {
+    "id": "case-32",
+    "slug": "history-panel",
+    "name": "History panel / selectedIndex=3",
+    "values": {
+      "property1": "full",
+      "selectedIndex": "3"
+    }
+  },
+  {
+    "id": "case-33",
+    "slug": "history-panel",
+    "name": "History panel / selectedIndex=4",
+    "values": {
+      "property1": "full",
+      "selectedIndex": "4"
+    }
+  },
+  {
+    "id": "case-34",
+    "slug": "history-panel",
+    "name": "History panel / selectedIndex=5",
+    "values": {
+      "property1": "full",
+      "selectedIndex": "5"
+    }
+  },
+  {
+    "id": "case-35",
+    "slug": "history-panel",
+    "name": "History panel / selectedIndex=6",
+    "values": {
+      "property1": "full",
+      "selectedIndex": "6"
+    }
+  },
+  {
+    "id": "case-36",
+    "slug": "sign-in-prompts",
+    "name": "Sign-in prompts / default",
+    "values": {
+      "state": "reach limit"
+    }
+  },
+  {
+    "id": "case-37",
+    "slug": "sign-in-prompts",
+    "name": "Sign-in prompts / state=keep creating",
+    "values": {
+      "state": "keep creating"
+    }
+  },
+  {
+    "id": "case-38",
+    "slug": "sign-in-prompts",
+    "name": "Sign-in prompts / state=unlcok models",
+    "values": {
+      "state": "unlcok models"
+    }
+  },
+  {
+    "id": "case-39",
+    "slug": "sign-in-prompts",
+    "name": "Sign-in prompts / state=unlock uploads",
+    "values": {
+      "state": "unlock uploads"
+    }
+  },
+  {
+    "id": "case-40",
+    "slug": "sign-in-prompts",
+    "name": "Sign-in prompts / state=top right",
+    "values": {
+      "state": "top right"
+    }
+  },
+  {
+    "id": "case-41",
+    "slug": "error-states",
+    "name": "Error states / default",
+    "values": {
+      "state": "not_signed_in"
+    }
+  },
+  {
+    "id": "case-42",
+    "slug": "error-states",
+    "name": "Error states / state=Access suspended",
+    "values": {
+      "state": "Access suspended"
+    }
+  },
+  {
+    "id": "case-43",
+    "slug": "error-states",
+    "name": "Error states / state=need to re-imagene",
+    "values": {
+      "state": "need to re-imagene"
+    }
+  },
+  {
+    "id": "case-44",
+    "slug": "error-states",
+    "name": "Error states / state=Run into an issue",
+    "values": {
+      "state": "Run into an issue"
+    }
+  },
+  {
+    "id": "case-45",
+    "slug": "error-states",
+    "name": "Error states / state=in progress",
+    "values": {
+      "state": "in progress"
+    }
+  },
+  {
+    "id": "case-46",
+    "slug": "error-states",
+    "name": "Error states / state=Need descriptive prompt",
+    "values": {
+      "state": "Need descriptive prompt"
+    }
+  },
+  {
+    "id": "case-47",
+    "slug": "action-bar",
+    "name": "Action bar / default",
+    "values": {
+      "configuration": "Image Default"
+    }
+  },
+  {
+    "id": "case-48",
+    "slug": "action-bar",
+    "name": "Action bar / configuration=Image Loading",
+    "values": {
+      "configuration": "Image Loading"
+    }
+  },
+  {
+    "id": "case-49",
+    "slug": "action-bar",
+    "name": "Action bar / configuration=Video",
+    "values": {
+      "configuration": "Video"
+    }
+  },
+  {
+    "id": "case-50",
+    "slug": "action-bar",
+    "name": "Action bar / configuration=Video Loading",
+    "values": {
+      "configuration": "Video Loading"
+    }
+  },
+  {
+    "id": "case-51",
+    "slug": "creation-composer",
+    "name": "Creation composer / default",
+    "values": {
+      "state": "empty",
+      "prompt": "",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-52",
+    "slug": "creation-composer",
+    "name": "Creation composer / default / long text",
+    "values": {
+      "state": "empty",
+      "prompt": "Long prompt Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-53",
+    "slug": "creation-composer",
+    "name": "Creation composer / state=image uploaded",
+    "values": {
+      "state": "image uploaded",
+      "prompt": "",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-54",
+    "slug": "creation-composer",
+    "name": "Creation composer / state=image uploaded / long text",
+    "values": {
+      "state": "image uploaded",
+      "prompt": "Long prompt Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-55",
+    "slug": "creation-composer",
+    "name": "Creation composer / state=typing",
+    "values": {
+      "state": "typing",
+      "prompt": "",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-56",
+    "slug": "creation-composer",
+    "name": "Creation composer / state=typing / long text",
+    "values": {
+      "state": "typing",
+      "prompt": "Long prompt Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-57",
+    "slug": "creation-composer",
+    "name": "Creation composer / state=Model menu",
+    "values": {
+      "state": "Model menu",
+      "prompt": "",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-58",
+    "slug": "creation-composer",
+    "name": "Creation composer / state=Model menu / long text",
+    "values": {
+      "state": "Model menu",
+      "prompt": "Long prompt Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "mode": "Vivid storytelling"
+    }
+  },
+  {
+    "id": "case-59",
+    "slug": "creation-composer",
+    "name": "Creation composer / mode=Stylized illustration",
+    "values": {
+      "state": "empty",
+      "prompt": "",
+      "mode": "Stylized illustration"
+    }
+  },
+  {
+    "id": "case-60",
+    "slug": "creation-composer",
+    "name": "Creation composer / mode=Stylized illustration / long text",
+    "values": {
+      "state": "empty",
+      "prompt": "Long prompt Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. ",
+      "mode": "Stylized illustration"
+    }
+  },
+  {
+    "id": "case-61",
+    "slug": "style-menu",
+    "name": "Style menu / default",
+    "values": {
+      "selectedStyle": "Sketch",
+      "showMore": false
+    }
+  },
+  {
+    "id": "case-62",
+    "slug": "style-menu",
+    "name": "Style menu / selectedStyle=Anime",
+    "values": {
+      "selectedStyle": "Anime",
+      "showMore": false
+    }
+  },
+  {
+    "id": "case-63",
+    "slug": "style-menu",
+    "name": "Style menu / selectedStyle=3D Cartoon",
+    "values": {
+      "selectedStyle": "3D Cartoon",
+      "showMore": false
+    }
+  },
+  {
+    "id": "case-64",
+    "slug": "style-menu",
+    "name": "Style menu / selectedStyle=Plushy",
+    "values": {
+      "selectedStyle": "Plushy",
+      "showMore": false
+    }
+  },
+  {
+    "id": "case-65",
+    "slug": "style-menu",
+    "name": "Style menu / selectedStyle=Watercolor",
+    "values": {
+      "selectedStyle": "Watercolor",
+      "showMore": false
+    }
+  },
+  {
+    "id": "case-66",
+    "slug": "style-menu",
+    "name": "Style menu / selectedStyle=Sticker",
+    "values": {
+      "selectedStyle": "Sticker",
+      "showMore": false
+    }
+  },
+  {
+    "id": "case-67",
+    "slug": "style-menu",
+    "name": "Style menu / showMore=true",
+    "values": {
+      "selectedStyle": "Sketch",
+      "showMore": true
+    }
+  },
+  {
+    "id": "case-68",
+    "slug": "serp-carousel",
+    "name": "SERP Carousel / default",
+    "values": {
+      "category": "All",
+      "heading": "Get started with templates"
+    }
+  },
+  {
+    "id": "case-69",
+    "slug": "serp-carousel",
+    "name": "SERP Carousel / default / long text",
+    "values": {
+      "category": "All",
+      "heading": "Long heading Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-70",
+    "slug": "serp-carousel",
+    "name": "SERP Carousel / category=Line drawing",
+    "values": {
+      "category": "Line drawing",
+      "heading": "Get started with templates"
+    }
+  },
+  {
+    "id": "case-71",
+    "slug": "serp-carousel",
+    "name": "SERP Carousel / category=Line drawing / long text",
+    "values": {
+      "category": "Line drawing",
+      "heading": "Long heading Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-72",
+    "slug": "serp-carousel",
+    "name": "SERP Carousel / category=Styles & aesthetics",
+    "values": {
+      "category": "Styles & aesthetics",
+      "heading": "Get started with templates"
+    }
+  },
+  {
+    "id": "case-73",
+    "slug": "serp-carousel",
+    "name": "SERP Carousel / category=Styles & aesthetics / long text",
+    "values": {
+      "category": "Styles & aesthetics",
+      "heading": "Long heading Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-74",
+    "slug": "serp-carousel",
+    "name": "SERP Carousel / category=Photo transform",
+    "values": {
+      "category": "Photo transform",
+      "heading": "Get started with templates"
+    }
+  },
+  {
+    "id": "case-75",
+    "slug": "serp-carousel",
+    "name": "SERP Carousel / category=Photo transform / long text",
+    "values": {
+      "category": "Photo transform",
+      "heading": "Long heading Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-76",
+    "slug": "serp-carousel",
+    "name": "SERP Carousel / category=Stickers",
+    "values": {
+      "category": "Stickers",
+      "heading": "Get started with templates"
+    }
+  },
+  {
+    "id": "case-77",
+    "slug": "serp-carousel",
+    "name": "SERP Carousel / category=Stickers / long text",
+    "values": {
+      "category": "Stickers",
+      "heading": "Long heading Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-78",
+    "slug": "serp-carousel",
+    "name": "SERP Carousel / category=Editing tools",
+    "values": {
+      "category": "Editing tools",
+      "heading": "Get started with templates"
+    }
+  },
+  {
+    "id": "case-79",
+    "slug": "serp-carousel",
+    "name": "SERP Carousel / category=Editing tools / long text",
+    "values": {
+      "category": "Editing tools",
+      "heading": "Long heading Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-80",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / default",
+    "values": {
+      "state": "Result",
+      "pageShell": true,
+      "imageVariant": "Image3:2",
+      "selectedIndex": "0",
+      "historyIndex": "0",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-81",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / state=Error",
+    "values": {
+      "state": "Error",
+      "pageShell": true,
+      "imageVariant": "Image3:2",
+      "selectedIndex": "0",
+      "historyIndex": "0",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-82",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / pageShell=false",
+    "values": {
+      "state": "Result",
+      "pageShell": false,
+      "imageVariant": "Image3:2",
+      "selectedIndex": "0",
+      "historyIndex": "0",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-83",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / imageVariant=Image1:1",
+    "values": {
+      "state": "Result",
+      "pageShell": true,
+      "imageVariant": "Image1:1",
+      "selectedIndex": "0",
+      "historyIndex": "0",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-84",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / imageVariant=Image2:3",
+    "values": {
+      "state": "Result",
+      "pageShell": true,
+      "imageVariant": "Image2:3",
+      "selectedIndex": "0",
+      "historyIndex": "0",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-85",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / imageVariant=Single Image",
+    "values": {
+      "state": "Result",
+      "pageShell": true,
+      "imageVariant": "Single Image",
+      "selectedIndex": "0",
+      "historyIndex": "0",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-86",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / imageVariant=loading status",
+    "values": {
+      "state": "Result",
+      "pageShell": true,
+      "imageVariant": "loading status",
+      "selectedIndex": "0",
+      "historyIndex": "0",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-87",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / selectedIndex=1",
+    "values": {
+      "state": "Result",
+      "pageShell": true,
+      "imageVariant": "Image3:2",
+      "selectedIndex": "1",
+      "historyIndex": "0",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-88",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / selectedIndex=2",
+    "values": {
+      "state": "Result",
+      "pageShell": true,
+      "imageVariant": "Image3:2",
+      "selectedIndex": "2",
+      "historyIndex": "0",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-89",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / selectedIndex=3",
+    "values": {
+      "state": "Result",
+      "pageShell": true,
+      "imageVariant": "Image3:2",
+      "selectedIndex": "3",
+      "historyIndex": "0",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-90",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / historyIndex=1",
+    "values": {
+      "state": "Result",
+      "pageShell": true,
+      "imageVariant": "Image3:2",
+      "selectedIndex": "0",
+      "historyIndex": "1",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-91",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / historyIndex=2",
+    "values": {
+      "state": "Result",
+      "pageShell": true,
+      "imageVariant": "Image3:2",
+      "selectedIndex": "0",
+      "historyIndex": "2",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-92",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / historyIndex=3",
+    "values": {
+      "state": "Result",
+      "pageShell": true,
+      "imageVariant": "Image3:2",
+      "selectedIndex": "0",
+      "historyIndex": "3",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-93",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / historyIndex=4",
+    "values": {
+      "state": "Result",
+      "pageShell": true,
+      "imageVariant": "Image3:2",
+      "selectedIndex": "0",
+      "historyIndex": "4",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-94",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / historyIndex=5",
+    "values": {
+      "state": "Result",
+      "pageShell": true,
+      "imageVariant": "Image3:2",
+      "selectedIndex": "0",
+      "historyIndex": "5",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-95",
+    "slug": "serp-aigc-answer",
+    "name": "SERP · AIGC Answer / historyIndex=6",
+    "values": {
+      "state": "Result",
+      "pageShell": true,
+      "imageVariant": "Image3:2",
+      "selectedIndex": "0",
+      "historyIndex": "6",
+      "query": "Create an image of a cute bear with big sparkling eyes, sitting on a green meadow surrounded by flowers and sun rays. Bright colors, fairy-tale style, soft shadows"
+    }
+  },
+  {
+    "id": "case-96",
+    "slug": "prompt-template-card",
+    "name": "Prompt template card / default",
+    "values": {
+      "property1": "Template"
+    }
+  },
+  {
+    "id": "case-97",
+    "slug": "prompt-template-card",
+    "name": "Prompt template card / property1=Original",
+    "values": {
+      "property1": "Original"
+    }
+  },
+  {
+    "id": "case-98",
+    "slug": "checkmark-circle",
+    "name": "Checkmark circle / default",
+    "values": {
+      "property1": "Default"
+    }
+  },
+  {
+    "id": "case-99",
+    "slug": "checkmark-circle",
+    "name": "Checkmark circle / property1=Variant2",
+    "values": {
+      "property1": "Variant2"
+    }
+  },
+  {
+    "id": "case-100",
+    "slug": "main-image-footer",
+    "name": "Main image footer / default",
+    "values": {
+      "property1": "2 lines",
+      "prompt": ""
+    }
+  },
+  {
+    "id": "case-101",
+    "slug": "main-image-footer",
+    "name": "Main image footer / default / long text",
+    "values": {
+      "property1": "2 lines",
+      "prompt": "Long prompt Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-102",
+    "slug": "main-image-footer",
+    "name": "Main image footer / property1=4 lines",
+    "values": {
+      "property1": "4 lines",
+      "prompt": ""
+    }
+  },
+  {
+    "id": "case-103",
+    "slug": "main-image-footer",
+    "name": "Main image footer / property1=4 lines / long text",
+    "values": {
+      "property1": "4 lines",
+      "prompt": "Long prompt Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. Explore beautiful places and discover more stories with detailed information. "
+    }
+  },
+  {
+    "id": "case-104",
+    "slug": "display-image",
+    "name": "Display image / default",
+    "values": {
+      "property1": "selected",
+      "property2": "3:2"
+    }
+  },
+  {
+    "id": "case-105",
+    "slug": "display-image",
+    "name": "Display image / property1=unselected",
+    "values": {
+      "property1": "unselected",
+      "property2": "3:2"
+    }
+  },
+  {
+    "id": "case-106",
+    "slug": "display-image",
+    "name": "Display image / property2=1:1",
+    "values": {
+      "property1": "selected",
+      "property2": "1:1"
+    }
+  },
+  {
+    "id": "case-107",
+    "slug": "serp-template-card",
+    "name": "SERP template card / default",
+    "values": {}
+  }
+]

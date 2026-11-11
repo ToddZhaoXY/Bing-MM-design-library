@@ -1,0 +1,123 @@
+{
+  "mode": "Isolated network-disabled about:blank fixture; production components + MemoryRouter + built CSS",
+  "cases": [
+    {
+      "width": 312,
+      "height": 424,
+      "node": "2568:13161",
+      "state": "Default",
+      "size": "3:4",
+      "pagination": "Bottom arrows"
+    },
+    {
+      "width": 312,
+      "height": 424,
+      "node": "2568:13209",
+      "state": "Default",
+      "size": "3:4",
+      "pagination": "Top bars"
+    },
+    {
+      "width": 312,
+      "height": 424,
+      "node": "2568:13303",
+      "state": "Default",
+      "size": "3:4",
+      "pagination": "Bottom bars"
+    },
+    {
+      "width": 312,
+      "height": 424,
+      "node": "2568:13374",
+      "state": "Hover",
+      "size": "3:4",
+      "pagination": "Bottom bars"
+    },
+    {
+      "width": 536,
+      "height": 424,
+      "node": "2568:13447",
+      "state": "Default",
+      "size": "5:4",
+      "pagination": "Bottom arrows"
+    },
+    {
+      "width": 536,
+      "height": 424,
+      "node": "2568:13537",
+      "state": "Default",
+      "size": "5:4",
+      "pagination": "Top bars"
+    },
+    {
+      "width": 536,
+      "height": 424,
+      "node": "2568:13631",
+      "state": "Default",
+      "size": "5:4",
+      "pagination": "Bottom bars"
+    },
+    {
+      "width": 536,
+      "height": 424,
+      "node": "2568:13699",
+      "state": "Hover",
+      "size": "5:4",
+      "pagination": "Bottom bars"
+    },
+    {
+      "width": 312,
+      "height": 204,
+      "node": "2568:13771",
+      "state": "Default",
+      "size": "3:2",
+      "pagination": "Bottom arrows"
+    },
+    {
+      "width": 312,
+      "height": 204,
+      "node": "2568:13861",
+      "state": "Default",
+      "size": "3:2",
+      "pagination": "Top bars"
+    },
+    {
+      "width": 312,
+      "height": 204,
+      "node": "2568:13955",
+      "state": "Default",
+      "size": "3:2",
+      "pagination": "Bottom bars"
+    },
+    {
+      "width": 312,
+      "height": 204,
+      "node": "2568:14032",
+      "state": "Hover",
+      "size": "3:2",
+      "pagination": "Bottom bars"
+    }
+  ],
+  "interactionChecks": [
+    "hover",
+    "thumbnails",
+    "ArrowLeft",
+    "Home",
+    "End",
+    "top indicators",
+    "arrows and end card",
+    "dependent state",
+    "JSX selection",
+    "SDL selection",
+    "reset",
+    "palette",
+    "saved state",
+    "embedded standalone HTML"
+  ],
+  "mobile": {
+    "viewport": 390,
+    "document": 390
+  },
+  "errors": [],
+  "requests": []
+}

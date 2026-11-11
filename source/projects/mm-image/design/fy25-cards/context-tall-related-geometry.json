@@ -1,0 +1,805 @@
+[
+  {
+    "id": "16:7917",
+    "name": "Answer card",
+    "type": "INSTANCE",
+    "x": 1186,
+    "y": 0,
+    "w": 312,
+    "h": 424,
+    "fills": [],
+    "opacity": 1,
+    "children": [
+      {
+        "id": "I16:7917;24115:64447",
+        "name": "Card container",
+        "type": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 312,
+        "h": 424,
+        "fills": [],
+        "opacity": 1,
+        "children": [
+          {
+            "id": "I16:7917;24115:64448",
+            "name": "Card Background",
+            "type": "INSTANCE",
+            "x": 0,
+            "y": 0,
+            "w": 312,
+            "h": 424,
+            "fills": [],
+            "opacity": 1,
+            "children": [
+              {
+                "id": "I16:7917;24115:64448;19500:5942",
+                "name": "Hover control/Card Background",
+                "type": "INSTANCE",
+                "x": 0,
+                "y": 0,
+                "w": 312,
+                "h": 424,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.8941176533699036,
+                      "g": 0.9098039269447327,
+                      "b": 0.9686274528503418
+                    },
+                    "boundVariables": {
+                      "color": {
+                        "type": "VARIABLE_ALIAS",
+                        "id": "VariableID:bcbcd6b0e0f0142c6822413afa4628a06868cec0/73979:23"
+                      }
+                    }
+                  }
+                ],
+                "opacity": 1,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "I16:7917;24115:64449",
+            "name": "Card",
+            "type": "INSTANCE",
+            "x": 0,
+            "y": 0,
+            "w": 312,
+            "h": 424,
+            "fills": [],
+            "opacity": 1,
+            "children": [
+              {
+                "id": "I16:7917;24115:64449;2731:48426",
+                "name": "Top section",
+                "type": "FRAME",
+                "x": 0,
+                "y": 0,
+                "w": 312,
+                "h": 42,
+                "fills": [],
+                "opacity": 1,
+                "children": [
+                  {
+                    "id": "I16:7917;24115:64449;2731:48427",
+                    "name": "Hero image placeholder",
+                    "type": "RECTANGLE",
+                    "x": 0,
+                    "y": 0,
+                    "w": 312,
+                    "h": 112,
+                    "fills": [],
+                    "opacity": 1
+                  }
+                ]
+              },
+              {
+                "id": "I16:7917;24115:64449;2731:48430",
+                "name": "Item list",
+                "type": "FRAME",
+                "x": 0,
+                "y": 42,
+                "w": 312,
+                "h": 350,
+                "fills": [],
+                "opacity": 1,
+                "children": [
+                  {
+                    "id": "I16:7917;24115:64449;2731:48433",
+                    "name": "Frame 2147232153",
+                    "type": "FRAME",
+                    "x": 20,
+                    "y": 0,
+                    "w": 272,
+                    "h": 340,
+                    "fills": [],
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "id": "I16:7917;24115:64449;2732:26451",
+                        "name": "Frame 2117130573",
+                        "type": "FRAME",
+                        "x": 0,
+                        "y": 0,
+                        "w": 272,
+                        "h": 92,
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "visible": true,
+                            "opacity": 1,
+                            "blendMode": "NORMAL",
+                            "color": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1
+                            },
+                            "boundVariables": {
+                              "color": {
+                                "type": "VARIABLE_ALIAS",
+                                "id": "VariableID:7e51f05662c3ad0c7a404e8b678650b8cadab086/110555:0"
+                              }
+                            }
+                          }
+                        ],
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "id": "I16:7917;24115:64449;2732:26453",
+                            "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                            "type": "TEXT",
+                            "x": 20,
+                            "y": 20,
+                            "w": 232,
+                            "h": 52,
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "visible": true,
+                                "opacity": 1,
+                                "blendMode": "NORMAL",
+                                "color": {
+                                  "r": 0,
+                                  "g": 0,
+                                  "b": 0
+                                },
+                                "boundVariables": {
+                                  "color": {
+                                    "type": "VARIABLE_ALIAS",
+                                    "id": "VariableID:c2a73a352451cd6558aeb8d95e9e565b352a0572/143507:77"
+                                  }
+                                }
+                              }
+                            ],
+                            "opacity": 1,
+                            "text": "Also search for latest trend in interior design",
+                            "fontName": {
+                              "family": "Roboto",
+                              "style": "Bold",
+                              "variationSettings": {
+                                "wght": 700,
+                                "wdth": 100
+                              }
+                            },
+                            "fontSize": 16,
+                            "lineHeight": {
+                              "unit": "PIXELS",
+                              "value": 26
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "I16:7917;24115:64449;2732:26455",
+                        "name": "Frame 2147232154",
+                        "type": "FRAME",
+                        "x": 0,
+                        "y": 108,
+                        "w": 272,
+                        "h": 232,
+                        "fills": [],
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "id": "I16:7917;24115:64449;2731:48434",
+                            "name": "RS (Default)",
+                            "type": "INSTANCE",
+                            "x": 0,
+                            "y": 0,
+                            "w": 272,
+                            "h": 52,
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "visible": true,
+                                "opacity": 1,
+                                "blendMode": "NORMAL",
+                                "color": {
+                                  "r": 1,
+                                  "g": 1,
+                                  "b": 1
+                                },
+                                "boundVariables": {
+                                  "color": {
+                                    "type": "VARIABLE_ALIAS",
+                                    "id": "VariableID:7e51f05662c3ad0c7a404e8b678650b8cadab086/110555:0"
+                                  }
+                                }
+                              }
+                            ],
+                            "opacity": 1,
+                            "children": [
+                              {
+                                "id": "I16:7917;24115:64449;2731:48434;2126:173697",
+                                "name": "image",
+                                "type": "RECTANGLE",
+                                "x": 4,
+                                "y": 4,
+                                "w": 44,
+                                "h": 44,
+                                "fills": [],
+                                "opacity": 1
+                              },
+                              {
+                                "id": "I16:7917;24115:64449;2731:48434;2126:173698",
+                                "name": "Name",
+                                "type": "TEXT",
+                                "x": 56,
+                                "y": 15,
+                                "w": 208,
+                                "h": 22,
+                                "fills": [
+                                  {
+                                    "type": "SOLID",
+                                    "visible": true,
+                                    "opacity": 1,
+                                    "blendMode": "NORMAL",
+                                    "color": {
+                                      "r": 0,
+                                      "g": 0,
+                                      "b": 0
+                                    },
+                                    "boundVariables": {
+                                      "color": {
+                                        "type": "VARIABLE_ALIAS",
+                                        "id": "VariableID:c2a73a352451cd6558aeb8d95e9e565b352a0572/143507:77"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "opacity": 1,
+                                "text": "Japandi Style",
+                                "fontName": {
+                                  "family": "Roboto",
+                                  "style": "Regular",
+                                  "variationSettings": {
+                                    "wght": 400,
+                                    "wdth": 100
+                                  }
+                                },
+                                "fontSize": 14,
+                                "lineHeight": {
+                                  "unit": "PIXELS",
+                                  "value": 22
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "I16:7917;24115:64449;2731:48435",
+                            "name": "RS (Default)",
+                            "type": "INSTANCE",
+                            "x": 0,
+                            "y": 60,
+                            "w": 272,
+                            "h": 52,
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "visible": true,
+                                "opacity": 1,
+                                "blendMode": "NORMAL",
+                                "color": {
+                                  "r": 1,
+                                  "g": 1,
+                                  "b": 1
+                                },
+                                "boundVariables": {
+                                  "color": {
+                                    "type": "VARIABLE_ALIAS",
+                                    "id": "VariableID:7e51f05662c3ad0c7a404e8b678650b8cadab086/110555:0"
+                                  }
+                                }
+                              }
+                            ],
+                            "opacity": 1,
+                            "children": [
+                              {
+                                "id": "I16:7917;24115:64449;2731:48435;2126:173697",
+                                "name": "image",
+                                "type": "RECTANGLE",
+                                "x": 4,
+                                "y": 4,
+                                "w": 44,
+                                "h": 44,
+                                "fills": [],
+                                "opacity": 1
+                              },
+                              {
+                                "id": "I16:7917;24115:64449;2731:48435;2126:173698",
+                                "name": "Name",
+                                "type": "TEXT",
+                                "x": 56,
+                                "y": 15,
+                                "w": 208,
+                                "h": 22,
+                                "fills": [
+                                  {
+                                    "type": "SOLID",
+                                    "visible": true,
+                                    "opacity": 1,
+                                    "blendMode": "NORMAL",
+                                    "color": {
+                                      "r": 0,
+                                      "g": 0,
+                                      "b": 0
+                                    },
+                                    "boundVariables": {
+                                      "color": {
+                                        "type": "VARIABLE_ALIAS",
+                                        "id": "VariableID:c2a73a352451cd6558aeb8d95e9e565b352a0572/143507:77"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "opacity": 1,
+                                "text": "Statement Lighting",
+                                "fontName": {
+                                  "family": "Roboto",
+                                  "style": "Regular",
+                                  "variationSettings": {
+                                    "wght": 400,
+                                    "wdth": 100
+                                  }
+                                },
+                                "fontSize": 14,
+                                "lineHeight": {
+                                  "unit": "PIXELS",
+                                  "value": 22
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "I16:7917;24115:64449;2731:48436",
+                            "name": "RS (Default)",
+                            "type": "INSTANCE",
+                            "x": 0,
+                            "y": 120,
+                            "w": 272,
+                            "h": 52,
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "visible": true,
+                                "opacity": 1,
+                                "blendMode": "NORMAL",
+                                "color": {
+                                  "r": 1,
+                                  "g": 1,
+                                  "b": 1
+                                },
+                                "boundVariables": {
+                                  "color": {
+                                    "type": "VARIABLE_ALIAS",
+                                    "id": "VariableID:7e51f05662c3ad0c7a404e8b678650b8cadab086/110555:0"
+                                  }
+                                }
+                              }
+                            ],
+                            "opacity": 1,
+                            "children": [
+                              {
+                                "id": "I16:7917;24115:64449;2731:48436;2126:173697",
+                                "name": "image",
+                                "type": "RECTANGLE",
+                                "x": 4,
+                                "y": 4,
+                                "w": 44,
+                                "h": 44,
+                                "fills": [],
+                                "opacity": 1
+                              },
+                              {
+                                "id": "I16:7917;24115:64449;2731:48436;2126:173698",
+                                "name": "Name",
+                                "type": "TEXT",
+                                "x": 56,
+                                "y": 15,
+                                "w": 208,
+                                "h": 22,
+                                "fills": [
+                                  {
+                                    "type": "SOLID",
+                                    "visible": true,
+                                    "opacity": 1,
+                                    "blendMode": "NORMAL",
+                                    "color": {
+                                      "r": 0,
+                                      "g": 0,
+                                      "b": 0
+                                    },
+                                    "boundVariables": {
+                                      "color": {
+                                        "type": "VARIABLE_ALIAS",
+                                        "id": "VariableID:c2a73a352451cd6558aeb8d95e9e565b352a0572/143507:77"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "opacity": 1,
+                                "text": "Curved Furniture",
+                                "fontName": {
+                                  "family": "Roboto",
+                                  "style": "Regular",
+                                  "variationSettings": {
+                                    "wght": 400,
+                                    "wdth": 100
+                                  }
+                                },
+                                "fontSize": 14,
+                                "lineHeight": {
+                                  "unit": "PIXELS",
+                                  "value": 22
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "I16:7917;24115:64449;2731:48437",
+                            "name": "RS (Default)",
+                            "type": "INSTANCE",
+                            "x": 0,
+                            "y": 180,
+                            "w": 272,
+                            "h": 52,
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "visible": true,
+                                "opacity": 1,
+                                "blendMode": "NORMAL",
+                                "color": {
+                                  "r": 1,
+                                  "g": 1,
+                                  "b": 1
+                                },
+                                "boundVariables": {
+                                  "color": {
+                                    "type": "VARIABLE_ALIAS",
+                                    "id": "VariableID:7e51f05662c3ad0c7a404e8b678650b8cadab086/110555:0"
+                                  }
+                                }
+                              }
+                            ],
+                            "opacity": 1,
+                            "children": [
+                              {
+                                "id": "I16:7917;24115:64449;2731:48437;2126:173697",
+                                "name": "image",
+                                "type": "RECTANGLE",
+                                "x": 4,
+                                "y": 4,
+                                "w": 44,
+                                "h": 44,
+                                "fills": [],
+                                "opacity": 1
+                              },
+                              {
+                                "id": "I16:7917;24115:64449;2731:48437;2126:173698",
+                                "name": "Name",
+                                "type": "TEXT",
+                                "x": 56,
+                                "y": 15,
+                                "w": 208,
+                                "h": 22,
+                                "fills": [
+                                  {
+                                    "type": "SOLID",
+                                    "visible": true,
+                                    "opacity": 1,
+                                    "blendMode": "NORMAL",
+                                    "color": {
+                                      "r": 0,
+                                      "g": 0,
+                                      "b": 0
+                                    },
+                                    "boundVariables": {
+                                      "color": {
+                                        "type": "VARIABLE_ALIAS",
+                                        "id": "VariableID:c2a73a352451cd6558aeb8d95e9e565b352a0572/143507:77"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "opacity": 1,
+                                "text": "Biophilic design",
+                                "fontName": {
+                                  "family": "Roboto",
+                                  "style": "Regular",
+                                  "variationSettings": {
+                                    "wght": 400,
+                                    "wdth": 100
+                                  }
+                                },
+                                "fontSize": 14,
+                                "lineHeight": {
+                                  "unit": "PIXELS",
+                                  "value": 22
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "I16:7917;24115:64449;2755:47218",
+                "name": "Pagination",
+                "type": "INSTANCE",
+                "x": 0,
+                "y": 392,
+                "w": 312,
+                "h": 12,
+                "fills": [],
+                "opacity": 1,
+                "children": [
+                  {
+                    "id": "I16:7917;24115:64449;2755:47218;62893:104417",
+                    "name": "Button / Icon",
+                    "type": "INSTANCE",
+                    "x": 115.5,
+                    "y": 0,
+                    "w": 24,
+                    "h": 24,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "visible": true,
+                        "opacity": 1,
+                        "blendMode": "NORMAL",
+                        "color": {
+                          "r": 0.8509804010391235,
+                          "g": 0.8745098114013672,
+                          "b": 0.9843137264251709
+                        },
+                        "boundVariables": {
+                          "color": {
+                            "type": "VARIABLE_ALIAS",
+                            "id": "VariableID:9ae10786218b7016f4a5ef36c3d8e97eb18c461b/73979:18"
+                          }
+                        }
+                      }
+                    ],
+                    "opacity": 0.30000001192092896,
+                    "children": [
+                      {
+                        "id": "I16:7917;24115:64449;2755:47218;62893:104417;33172:64663",
+                        "name": "Chevron",
+                        "type": "INSTANCE",
+                        "x": 4,
+                        "y": 4,
+                        "w": 16,
+                        "h": 16,
+                        "fills": [],
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "id": "I16:7917;24115:64449;2755:47218;62893:104417;33172:64663;68174:525",
+                            "name": "Shape",
+                            "type": "VECTOR",
+                            "x": 5,
+                            "y": 4,
+                            "w": 4.500000476837158,
+                            "h": 8,
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "visible": true,
+                                "opacity": 1,
+                                "blendMode": "NORMAL",
+                                "color": {
+                                  "r": 0.1411764770746231,
+                                  "g": 0.1921568661928177,
+                                  "b": 0.4274509847164154
+                                },
+                                "boundVariables": {
+                                  "color": {
+                                    "type": "VARIABLE_ALIAS",
+                                    "id": "VariableID:df5aa5953ab12c5faa2f570c488adbeac3c76ef5/73979:11"
+                                  }
+                                }
+                              }
+                            ],
+                            "opacity": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I16:7917;24115:64449;2755:47218;62893:104418",
+                    "name": "Publisher",
+                    "type": "TEXT",
+                    "x": 147.5,
+                    "y": 0,
+                    "w": 17,
+                    "h": 24,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "visible": true,
+                        "opacity": 0.800000011920929,
+                        "blendMode": "NORMAL",
+                        "color": {
+                          "r": 0,
+                          "g": 0,
+                          "b": 0
+                        },
+                        "boundVariables": {
+                          "color": {
+                            "type": "VARIABLE_ALIAS",
+                            "id": "VariableID:9ac32cbe1f2ddc673d0d98682658e518a553d633/73979:45"
+                          }
+                        }
+                      }
+                    ],
+                    "opacity": 1,
+                    "text": "1/5",
+                    "fontName": {
+                      "family": "Roboto",
+                      "style": "Regular",
+                      "variationSettings": {
+                        "wght": 400,
+                        "wdth": 100
+                      }
+                    },
+                    "fontSize": 11,
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 13
+                    }
+                  },
+                  {
+                    "id": "I16:7917;24115:64449;2755:47218;62893:104419",
+                    "name": "Button / Icon",
+                    "type": "INSTANCE",
+                    "x": 172.5,
+                    "y": 0,
+                    "w": 24,
+                    "h": 24,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "visible": true,
+                        "opacity": 1,
+                        "blendMode": "NORMAL",
+                        "color": {
+                          "r": 0.8509804010391235,
+                          "g": 0.8745098114013672,
+                          "b": 0.9843137264251709
+                        },
+                        "boundVariables": {
+                          "color": {
+                            "type": "VARIABLE_ALIAS",
+                            "id": "VariableID:9ae10786218b7016f4a5ef36c3d8e97eb18c461b/73979:18"
+                          }
+                        }
+                      }
+                    ],
+                    "opacity": 1,
+                    "children": [
+                      {
+                        "id": "I16:7917;24115:64449;2755:47218;62893:104419;33172:64423",
+                        "name": "Chevron",
+                        "type": "INSTANCE",
+                        "x": 4,
+                        "y": 4,
+                        "w": 16,
+                        "h": 16,
+                        "fills": [],
+                        "opacity": 1,
+                        "children": [
+                          {
+                            "id": "I16:7917;24115:64449;2755:47218;62893:104419;33172:64423;68174:561",
+                            "name": "Shape",
+                            "type": "VECTOR",
+                            "x": 6.5,
+                            "y": 4,
+                            "w": 4.500000476837158,
+                            "h": 8,
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "visible": true,
+                                "opacity": 1,
+                                "blendMode": "NORMAL",
+                                "color": {
+                                  "r": 0.23529411852359772,
+                                  "g": 0.3176470696926117,
+                                  "b": 0.7058823704719543
+                                },
+                                "boundVariables": {
+                                  "color": {
+                                    "type": "VARIABLE_ALIAS",
+                                    "id": "VariableID:7a1ee5f7b9d62590e4d798d35c245fc8d95abbb1/73979:9"
+                                  }
+                                }
+                              }
+                            ],
+                            "opacity": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "I1748:1282;21859:29852",
+    "name": "Icon",
+    "type": "INSTANCE",
+    "x": 2,
+    "y": 2,
+    "w": 16,
+    "h": 16,
+    "fills": [],
+    "opacity": 1,
+    "children": [
+      {
+        "id": "I1748:1282;21859:29852;71401:239391",
+        "name": "Shape",
+        "type": "VECTOR",
+        "x": 2,
+        "y": 2,
+        "w": 11.99993896484375,
+        "h": 12,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:d2e6addf1ed32573ad770042224f1373f5d48949/107003:103"
+              }
+            }
+          }
+        ],
+        "opacity": 1
+      }
+    ]
+  }
+]

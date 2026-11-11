@@ -1,0 +1,336 @@
+{
+  "downloads": [
+    {
+      "name": "chevron-right-blue.svg",
+      "url": "https://www.figma.com/api/mcp/asset/0dd4fd8f-dda2-4333-b7d4-6c875542f740/ee0b5.svg",
+      "nodeId": "I2568:13537;2565:1333;328:76425;33172:60527;115630:161106;115444:27724"
+    },
+    {
+      "name": "chevron-left-blue.svg",
+      "url": "https://www.figma.com/api/mcp/asset/8861605c-f7b6-45c1-9ca7-ca4a9ae62eb2/34a6e.svg",
+      "nodeId": "I2568:13537;2565:1333;328:79972;33172:60647;115630:161106;115444:27734"
+    },
+    {
+      "name": "chevron-right-white.svg",
+      "url": "https://www.figma.com/api/mcp/asset/201948f6-b1b0-4448-bbd5-0c52273413b2/54231.svg",
+      "nodeId": "I2568:13161;2565:1066;329:10027;62893:104424;128439:229634;115630:166841;115444:27724"
+    },
+    {
+      "name": "chevron-left-white.svg",
+      "url": "https://www.figma.com/api/mcp/asset/ad6b241e-ed94-44cc-9c85-b37a3023a40b/46ff8.svg",
+      "nodeId": "I2568:13161;2565:1066;329:10027;62893:104421;128439:229724;115630:166841;115444:27734"
+    },
+    {
+      "name": "image-multiple-white.svg",
+      "url": "https://www.figma.com/api/mcp/asset/54efe6e0-1245-447e-82bb-168e50a5b9c5/587a6.svg",
+      "nodeId": "I2568:14032;2563:14870;71493:230763;115630:166841;115444:27904"
+    },
+    {
+      "name": "open-external-white.svg",
+      "url": "https://www.figma.com/api/mcp/asset/0bb81844-5d70-4f3a-bea2-e5a8f6f474e2/f6eaf.svg",
+      "nodeId": "I2568:13161;2565:1066;329:9843;116087:61"
+    },
+    {
+      "name": "imdb-favicon.png",
+      "url": "https://www.figma.com/api/mcp/asset/00ff8637-a571-4f03-980b-551494dcc4f1/67948.png",
+      "nodeId": "I2568:13447;2565:1450;723:36357;723:36080;131224:172906;131224:154861"
+    },
+    {
+      "name": "windows-bloom.png",
+      "url": "https://www.figma.com/api/mcp/asset/fd369979-5fbd-4fb4-9e0e-49e8e7e5ac82/acc04.png"
+    },
+    {
+      "name": "fonts/alice-400.woff2",
+      "url": "https://cdn.jsdelivr.net/npm/@fontsource/alice@5.2.6/files/alice-latin-400-normal.woff2"
+    },
+    {
+      "name": "fonts/LICENSE-Alice.txt",
+      "url": "https://cdn.jsdelivr.net/npm/@fontsource/alice@5.2.6/LICENSE"
+    }
+  ],
+  "shapeGeometry": [
+    {
+      "name": "Shape",
+      "id": "I2568:13537;2565:1333;328:76425;33172:60527;115630:161106;115444:27724",
+      "type": "VECTOR",
+      "visible": true,
+      "opacity": 1,
+      "rect": {
+        "x": 20.875,
+        "y": 17.75,
+        "width": 6.875003814697266,
+        "height": 12.500008583068848
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.003921568859368563,
+            "g": 0.3490196168422699,
+            "b": 0.729411780834198
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:690f424912310e10444ca5aadd39f6facb8d8240/138021:130"
+            }
+          }
+        }
+      ],
+      "effects": [],
+      "cornerRadius": 0,
+      "strokes": [],
+      "strokeWeight": 1.5
+    },
+    {
+      "name": "Shape",
+      "id": "I2568:13537;2565:1333;328:79972;33172:60647;115630:161106;115444:27734",
+      "type": "VECTOR",
+      "visible": true,
+      "opacity": 1,
+      "rect": {
+        "x": 20.25,
+        "y": 17.75,
+        "width": 6.875003814697266,
+        "height": 12.500008583068848
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.003921568859368563,
+            "g": 0.3490196168422699,
+            "b": 0.729411780834198
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:690f424912310e10444ca5aadd39f6facb8d8240/138021:130"
+            }
+          }
+        }
+      ],
+      "effects": [],
+      "cornerRadius": 0,
+      "strokes": [],
+      "strokeWeight": 1.5
+    },
+    {
+      "name": "Shape",
+      "id": "I2568:13161;2565:1066;329:10027;62893:104424;128439:229634;115630:166841;115444:27724",
+      "type": "VECTOR",
+      "visible": true,
+      "opacity": 1,
+      "rect": {
+        "x": 11.5,
+        "y": 9,
+        "width": 5.500002861022949,
+        "height": 10.000006675720215
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d2e6addf1ed32573ad770042224f1373f5d48949/138021:83"
+            }
+          }
+        }
+      ],
+      "effects": [],
+      "cornerRadius": 0,
+      "strokes": [],
+      "strokeWeight": 1.5
+    },
+    {
+      "name": "Shape",
+      "id": "I2568:13161;2565:1066;329:10027;62893:104421;128439:229724;115630:166841;115444:27734",
+      "type": "VECTOR",
+      "visible": true,
+      "opacity": 1,
+      "rect": {
+        "x": 11,
+        "y": 9,
+        "width": 5.500002861022949,
+        "height": 10.000006675720215
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d2e6addf1ed32573ad770042224f1373f5d48949/138021:83"
+            }
+          }
+        }
+      ],
+      "effects": [],
+      "cornerRadius": 0,
+      "strokes": [],
+      "strokeWeight": 1.5
+    },
+    {
+      "name": "Shape",
+      "id": "I2568:14032;2563:14870;71493:230763;115630:166841;115444:27904",
+      "type": "VECTOR",
+      "visible": true,
+      "opacity": 1,
+      "rect": {
+        "x": 1.5,
+        "y": 1.5,
+        "width": 8.999954223632812,
+        "height": 9
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d2e6addf1ed32573ad770042224f1373f5d48949/157624:14"
+            }
+          }
+        }
+      ],
+      "effects": [],
+      "cornerRadius": 0,
+      "strokes": [],
+      "strokeWeight": 1
+    },
+    {
+      "name": "Shape",
+      "id": "I2568:13161;2565:1066;329:9843;116087:61",
+      "type": "VECTOR",
+      "visible": true,
+      "opacity": 1,
+      "rect": {
+        "x": 2,
+        "y": 2,
+        "width": 12,
+        "height": 12
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d24bfe97a67284fa54278ba7e9b13e182b52ddf6/128713:922"
+            }
+          }
+        },
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d2e6addf1ed32573ad770042224f1373f5d48949/138021:83"
+            }
+          }
+        }
+      ],
+      "effects": [],
+      "cornerRadius": 0,
+      "strokes": [],
+      "strokeWeight": 1
+    },
+    {
+      "name": "Image",
+      "id": "I2568:13447;2565:1450;723:36357;723:36080;131224:172906;131224:154861",
+      "type": "RECTANGLE",
+      "visible": true,
+      "opacity": 1,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 16,
+        "height": 16
+      },
+      "fills": [
+        {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a"
+        }
+      ],
+      "effects": [],
+      "cornerRadius": 0,
+      "strokes": [],
+      "strokeWeight": 1
+    }
+  ]
+}

@@ -95,7 +95,7 @@ function ClockIcon() {
   )
 }
 
-export function Badge({ property1 = 'Time' }: { property1?: BadgeVariant }) {
+export function Badge({ property1 = 'Time', label, fontFamily = ROBOTO }: { property1?: BadgeVariant; label?: string; fontFamily?: string }) {
   const icon = BADGE_ICON[property1]
   return (
     <div style={{ display: 'flex', alignItems: 'flex-start' }}>
@@ -113,11 +113,11 @@ export function Badge({ property1 = 'Time' }: { property1?: BadgeVariant }) {
         )}
         <span
           style={{
-            fontFamily: ROBOTO, fontWeight: 700, fontSize: 11, lineHeight: '13px',
+            fontFamily, fontWeight: 700, fontSize: 11, lineHeight: '13px',
             color: '#ffffff', textAlign: 'center', whiteSpace: 'nowrap',
           }}
         >
-          {BADGE_TEXT[property1]}
+          {label ?? BADGE_TEXT[property1]}
         </span>
       </div>
     </div>

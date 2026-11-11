@@ -10,7 +10,9 @@ import { search } from '../data/imageSearch'
 import type { SearchImage, SearchSuggestion } from '../data/imageSearch'
 import { Content, tileCount } from '../components/Content'
 import { aiPrompt } from '../data/aiPrompt'
-import { exportHtml, downloadHtml } from '../data/exportHtml'
+import { exportPortableHtml, downloadHtml } from '../data/exportHtml'
+import { normalizePropValues, selectOptions, updatePropValue } from '../data/components'
+import { migrateImageCardBlock } from '../data/image-cards'
 import type { TileProps } from '../components/Content'
 import { generateMosaicPage } from '../mosaic/generators'
 import { mosaicCatalogSnapshot } from '../mosaic/validate'
@@ -81,13 +83,14 @@ function parseState(text: string): PageState | null {
     if (!s || typeof s !== 'object') return null
     if (!Array.isArray(s.blocks)) return null
     if (!SURFACES.some((x) => x.id === s.surface)) return null
+    const blocks = s.blocks.map(migrateImageCardBlock)
     // Unknown slugs would render nothing — reject rather than silently drop.
-    if (s.blocks.some((b) => !bySlug(b.slug))) return null
+    if (blocks.some((b) => !bySlug(b.slug))) return null
     return {
       version: s.version ?? 0,
       surface: s.surface,
       query: s.query ?? '',
-      blocks: s.blocks,
+      blocks: blocks.map(block => ({ ...block, values: normalizePropValues(bySlug(block.slug)!.props, block.values) })),
       items: Array.isArray(s.items) ? s.items : [],
       suggestions: Array.isArray(s.suggestions) ? s.suggestions : [],
     }
@@ -454,7 +457,7 @@ export function Playground() {
     })
 
   const setValue = (id: number, name: string, value: string | boolean) =>
-    setBlocks((v) => v.map((b) => (b.id === id ? { ...b, values: { ...b.values, [name]: value } } : b)))
+    setBlocks((v) => v.map((b) => (b.id === id ? { ...b, values: updatePropValue(bySlug(b.slug)!.props, b.values, name, value), ...(b.slug === 'slideshow' ? { live: {} } : {}) } : b)))
 
   /**
    * Direct manipulation: double-click any text in a rendered component and edit
@@ -562,13 +565,20 @@ export function Playground() {
    * Standalone HTML. Serialises the live canvas rather than re-rendering it —
    * see data/exportHtml.ts for why that is the honest way to do this.
    */
-  const saveHtml = () => {
+  const [exportStatus, setExportStatus] = React.useState('')
+  const saveHtml = async () => {
     if (!frameRef.current) return
-    const html = exportHtml(frameRef.current, {
+    setExportStatus('Preparing HTML…')
+    try {
+    const html = await exportPortableHtml(frameRef.current, {
       surface: surface.name,
       width: surface.width || frameRef.current.offsetWidth,
     })
     downloadHtml(html, `mmacf-${surfaceId}-${blocks.length}blocks.html`)
+    setExportStatus('HTML downloaded. Image cards and SlideShow include embedded assets; interactions are a visual snapshot.')
+    } catch (error) {
+      setExportStatus(`Export failed: ${error instanceof Error ? error.message : String(error)}`)
+    }
   }
 
   /** Full-state snapshot — the round-trip counterpart to Copy code. */
@@ -761,6 +771,7 @@ export function Playground() {
                 <div
                   key={b.id}
                   className={'pg__block' + (on ? ' pg__block--on' : '')}
+                  onClickCapture={def.previewSize || def.previewSizes ? () => pickBlock(b.id) : undefined}
                   onClick={() => pickBlock(b.id)}
                   onDoubleClick={(e) => editText(e, b.id, b.slug, null)}
                 >
@@ -836,7 +847,7 @@ export function Playground() {
                       onPick={runSearch}
                     />
                   ) : (
-                    render(b.values, onLive(b.id))
+                    render(b.values, onLive(b.id), b.live)
                   )}
                 </div>
                   )
@@ -1041,7 +1052,8 @@ export function Playground() {
         {/* Standalone HTML. The third and most portable export: no component
             library, no repo, no this-site. Opens in any browser. */}
         <div className="export-row">
-          <button className="btn" onClick={saveHtml}>
+          <span role="status" style={{ fontSize: 12 }}>{exportStatus}</span>
+          <button className="btn" onClick={saveHtml} disabled={exportStatus === 'Preparing HTML…'}>
             Export HTML
           </button>
           <span className="export-row__note">
@@ -1102,7 +1114,7 @@ function Fields({
             value={String(values[p.name])}
             onChange={(e) => onSet(p.name, e.target.value)}
           >
-            {p.values.map((v) => (
+            {selectOptions(p, values).map((v) => (
               <option key={v} value={v}>{v}</option>
             ))}
           </select>

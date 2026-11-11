@@ -1,0 +1,28 @@
+{
+  "bars": 5,
+  "font": "\"MM FY25 Roboto\", Roboto, sans-serif",
+  "height": 424,
+  "images": [
+    {
+      "inline": true,
+      "loaded": true
+    },
+    {
+      "inline": true,
+      "loaded": true
+    },
+    {
+      "inline": true,
+      "loaded": true
+    },
+    {
+      "inline": true,
+      "loaded": true
+    }
+  ],
+  "index": "0",
+  "pagination": "Bottom bars + arrows",
+  "shadow": "none",
+  "size": "5:4",
+  "width": 536
+}

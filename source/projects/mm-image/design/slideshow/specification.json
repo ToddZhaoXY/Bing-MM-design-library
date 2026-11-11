@@ -1,0 +1,5565 @@
+{
+  "source": {
+    "fileKey": "fRSRroY4YFgJSeqLLE0Y38",
+    "nodeId": "2568:13065",
+    "url": "https://www.figma.com/design/fRSRroY4YFgJSeqLLE0Y38/MM-ACF?node-id=2568-13065",
+    "designName": "Slide Card",
+    "libraryName": "SlideShow",
+    "classification": "Cells",
+    "capturedOn": "2026-11-11",
+    "evidence": "15 specimens: existing-geometry delta audit, current high-fidelity contexts and screenshots for additions and changed shadows, exact new icon leaves"
+  },
+  "boundaries": [
+    "Source explicitly describes static Default and Hover appearances and no wired hover or slide navigation.",
+    "Every slide/thumbnail fill uses the same Windows Bloom placeholder, not Alaska or portrait photography. Downloaded image SHA256 exactly matches existing fy25 asset.",
+    "Bottom arrows and Top bars strips have five frames: four normal images then a See more overlay. Bottom arrows label reads 1 of 4; Top bars has four indicators. Handling the extra panel is not defined by source.",
+    "Badge collection count 24 or 23 differs from four preview thumbnail/indicator slots.",
+    "3:4 arrows/top-bars metadata exists at negative X but is completely clipped. Preserve the visible design.",
+    "Alice Regular was downloaded from pinned Fontsource 5.2.6 under OFL; Figma does not expose its original font binary for identity comparison.",
+    "Code Connect imports point to unavailable Windows entity-segments source paths. Exact leaf assets were extracted; mappings and source artwork were not modified.",
+    "Manual runtime controls, keyboard support and hover behavior are implementation decisions, not claims about wired Figma behavior.",
+    "Historical screenshots from 2026-11-09 include former outer shadow bounds. Current updated variants reference 2026-11-11 captures. All screenshots are evidence only, never runtime artwork.",
+    "The 2026-11-11 capture removes outer shadows from every card.",
+    "Bottom bars + arrows has five indicators for four image slots and the See more end card. Only Default is supplied; it has no thumbnail-hover appearance.",
+    "New footer uses a 90px slot, 24px padding, 28px soft arrows, 6px full-width indicators and a one-line Roboto Bold 14/22 title. The returned design context approximates progressive source blur with 2.5px backdrop blur."
+  ],
+  "controls": {
+    "bottom": {
+      "size": [
+        28,
+        28
+      ],
+      "radius": 4,
+      "background": "#000",
+      "stroke": "1px solid rgba(0,0,0,.1)",
+      "disabledOpacity": 0.3,
+      "iconSlot": {
+        "x": 6,
+        "y": 6,
+        "width": 16,
+        "height": 16
+      },
+      "rightShape": {
+        "path": "./figma/slideshow/chevron-right-white.svg",
+        "x": 5.5,
+        "y": 3,
+        "width": 5.5,
+        "height": 10
+      },
+      "leftShape": {
+        "path": "./figma/slideshow/chevron-left-white.svg",
+        "x": 5,
+        "y": 3,
+        "width": 5.5,
+        "height": 10
+      },
+      "counter": {
+        "width": 45,
+        "height": 28,
+        "paddingX": 8,
+        "gap": 2,
+        "font": "Roboto 400 11px/13px",
+        "background": "#000",
+        "foreground": "#fff",
+        "radius": 4
+      },
+      "controlsGap": 8,
+      "bottom": 20
+    },
+    "top": {
+      "size": [
+        48,
+        48
+      ],
+      "radius": 9999,
+      "background": "#f8f4f1",
+      "foreground": "#0159ba",
+      "disabledOpacity": 0.3,
+      "iconSlot": {
+        "x": 14,
+        "y": 14,
+        "width": 20,
+        "height": 20
+      },
+      "rightShape": {
+        "path": "./figma/slideshow/chevron-right-blue.svg",
+        "x": 6.875,
+        "y": 3.75,
+        "width": 6.875,
+        "height": 12.5
+      },
+      "leftShape": {
+        "path": "./figma/slideshow/chevron-left-blue.svg",
+        "x": 6.25,
+        "y": 3.75,
+        "width": 6.875,
+        "height": 12.5
+      },
+      "left": 16,
+      "right": 16,
+      "yByHeight": {
+        "204": 78,
+        "424": 193
+      }
+    },
+    "seeMore": {
+      "overlay": "rgba(0,0,0,.6)",
+      "centered": true,
+      "label": "See more",
+      "font": "Roboto 700 11px/13px",
+      "foreground": "#fff",
+      "gap": 4,
+      "iconSlot": [
+        16,
+        16
+      ],
+      "iconShape": {
+        "path": "./figma/slideshow/open-external-white.svg",
+        "x": 2,
+        "y": 2,
+        "width": 12,
+        "height": 12
+      }
+    },
+    "combined": {
+      "footerHeight": 90,
+      "padding": 24,
+      "gap": 8,
+      "title": "Roboto 700 14px/22px",
+      "arrowSize": [
+        28,
+        28
+      ],
+      "arrowBackground": "#2c3459",
+      "arrowForeground": "#d9dffb",
+      "disabledOpacity": 0.3,
+      "iconSlot": {
+        "x": 6,
+        "y": 6,
+        "width": 16,
+        "height": 16
+      },
+      "arrowGlyphSize": [
+        5.5,
+        10
+      ],
+      "bars": {
+        "count": 5,
+        "height": 6,
+        "gap": 8,
+        "active": "#fff",
+        "inactive": "rgba(255,255,255,.3)"
+      },
+      "previousIcon": "./figma/slideshow/chevron-left-soft.svg",
+      "nextIcon": "./figma/slideshow/chevron-right-soft.svg"
+    }
+  },
+  "variants": [
+    {
+      "size": "3:4",
+      "pagination": "Bottom arrows",
+      "state": "Default",
+      "figmaNodeId": "2568:13161",
+      "dimensions": {
+        "width": 312,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "3x4-bottom-arrows-context.txt",
+      "screenshot": "3x4-bottom-arrows.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": -112,
+          "y": 0,
+          "width": 536,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13161;2565:1066;723:36357",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": -96,
+            "y": 16,
+            "width": 79,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13161;2565:1066;723:36357;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": -76,
+            "y": 16,
+            "width": 59,
+            "height": 20
+          },
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13161;2565:1066;329:9842",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 2266,
+            "y": 205.5,
+            "width": 48,
+            "height": 13
+          },
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13161;2565:1066;329:10027;62893:104421",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 97.5,
+            "y": 376,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "id": "I2568:13161;2565:1066;329:10027;62893:104422",
+          "name": "Number container",
+          "type": "FRAME",
+          "rect": {
+            "x": 133.5,
+            "y": 376,
+            "width": 45,
+            "height": 28
+          }
+        },
+        {
+          "id": "I2568:13161;2565:1066;329:10027;95744:97457",
+          "name": "current page",
+          "type": "TEXT",
+          "rect": {
+            "x": 141.5,
+            "y": 383.5,
+            "width": 7,
+            "height": 13
+          },
+          "text": "1",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13161;2565:1066;329:10027;95744:97458",
+          "name": "of",
+          "type": "TEXT",
+          "rect": {
+            "x": 150.5,
+            "y": 383.5,
+            "width": 11,
+            "height": 13
+          },
+          "text": "of",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13161;2565:1066;329:10027;95744:97459",
+          "name": "total page",
+          "type": "TEXT",
+          "rect": {
+            "x": 163.5,
+            "y": 383.5,
+            "width": 7,
+            "height": 13
+          },
+          "text": "4",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13161;2565:1066;329:10027;62893:104424",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 186.5,
+            "y": 376,
+            "width": 28,
+            "height": 28
+          }
+        }
+      ],
+      "sourceTrack": {
+        "imageFrameCount": 5,
+        "regularImageCount": 4,
+        "finalFrame": "See more",
+        "frameWidth": 536,
+        "frameHeight": 424,
+        "initialX": -112,
+        "initialMetadataVisible": false
+      },
+      "metadata": {
+        "label": "imdb.com",
+        "path": "./figma/slideshow/imdb-favicon.png",
+        "thumbnail": [
+          16,
+          16
+        ],
+        "radius": 4,
+        "gap": 4,
+        "fontFamily": "Roboto",
+        "fontSize": 13,
+        "lineHeight": 20,
+        "fontWeight": 400,
+        "foreground": "#fff",
+        "dropShadow": "0px 0px 2px rgba(0,0,0,.25)",
+        "visibleOnlyInFirstSourceFrame": true
+      },
+      "sourceCounter": {
+        "text": "1 of 4",
+        "displayedTotal": 4,
+        "trackFrameCount": 5,
+        "note": "The fifth See more panel exists offscreen; source has no navigation behavior."
+      }
+    },
+    {
+      "size": "3:4",
+      "pagination": "Top bars",
+      "state": "Default",
+      "figmaNodeId": "2568:13209",
+      "dimensions": {
+        "width": 312,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "update-2026-11-11/2568-13209-context.txt",
+      "screenshot": "update-2026-11-11/2568-13209.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": -112,
+          "y": 0,
+          "width": 536,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13209;2565:1541",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": -96,
+            "y": 388,
+            "width": 79,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13209;2565:1541;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": -76,
+            "y": 388,
+            "width": 59,
+            "height": 20
+          },
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13209;2565:1548",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 2266,
+            "y": 205.5,
+            "width": 48,
+            "height": 13
+          },
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13209;2565:1551",
+          "name": "Footer",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 312,
+            "height": 68.00000000000004
+          }
+        },
+        {
+          "id": "I2568:13209;2565:1552",
+          "name": "Pagination Container",
+          "type": "FRAME",
+          "rect": {
+            "x": 36,
+            "y": 16,
+            "width": 240,
+            "height": 6.000000000000028
+          }
+        },
+        {
+          "id": "I2568:13209;2565:1559",
+          "name": "Personable Tom at age 60s",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 30,
+            "width": 171,
+            "height": 22
+          },
+          "text": "Personable Tom at age 60s",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13209;2565:1560",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 248,
+            "y": 193,
+            "width": 48,
+            "height": 48
+          }
+        },
+        {
+          "id": "I2568:13209;2565:1561",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 193,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "sourceTrack": {
+        "imageFrameCount": 5,
+        "regularImageCount": 4,
+        "finalFrame": "See more",
+        "frameWidth": 536,
+        "frameHeight": 424,
+        "initialX": -112,
+        "initialMetadataVisible": false
+      },
+      "metadata": {
+        "label": "imdb.com",
+        "path": "./figma/slideshow/imdb-favicon.png",
+        "thumbnail": [
+          16,
+          16
+        ],
+        "radius": 4,
+        "gap": 4,
+        "fontFamily": "Roboto",
+        "fontSize": 13,
+        "lineHeight": 20,
+        "fontWeight": 400,
+        "foreground": "#fff",
+        "dropShadow": "0px 0px 2px rgba(0,0,0,.25)",
+        "visibleOnlyInFirstSourceFrame": true
+      },
+      "sourceTopBars": {
+        "count": 4,
+        "gap": 8,
+        "height": 6,
+        "radius": 9999,
+        "selectedColor": "#fff",
+        "unselectedColor": "rgba(255,255,255,.3)",
+        "title": "Personable Tom at age 60s",
+        "font": "Roboto 700 14px/22px",
+        "footerGradient": "linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,.48) 56.452%)",
+        "footerHeight": 68
+      }
+    },
+    {
+      "size": "3:4",
+      "pagination": "Bottom bars",
+      "state": "Default",
+      "figmaNodeId": "2568:13303",
+      "dimensions": {
+        "width": 312,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "update-2026-11-11/2568-13303-context.txt",
+      "screenshot": "update-2026-11-11/2568-13303.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 312,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13303;2565:1207",
+          "name": "Badge",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 74,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13303;2565:1207;64508:210742",
+          "name": "Lorem ipsum",
+          "type": "TEXT",
+          "rect": {
+            "x": 34,
+            "y": 19.5,
+            "width": 52,
+            "height": 13
+          },
+          "text": "24 images",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13303;2565:1223",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 16,
+            "y": 306,
+            "width": 280,
+            "height": 34
+          },
+          "text": "The Alaska Range",
+          "fontName": {
+            "family": "Alice",
+            "style": "Regular"
+          },
+          "fontSize": 28,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 120.00000476837158
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13303;2565:1224",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 16,
+            "y": 344,
+            "width": 280,
+            "height": 44
+          },
+          "text": "Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13303;2565:1225",
+          "name": "Pagination indicators",
+          "type": "FRAME",
+          "rect": {
+            "x": 16,
+            "y": 404,
+            "width": 138,
+            "height": 4
+          }
+        },
+        {
+          "id": "I2568:13303;2565:1227",
+          "name": "Progress Indicator / Story 6",
+          "type": "FRAME",
+          "rect": {
+            "x": 16,
+            "y": 404,
+            "width": 32.25,
+            "height": 4
+          }
+        }
+      ],
+      "overlay": {
+        "backdropBlur": 2,
+        "cssGradient": "linear-gradient(180deg, rgba(0, 0, 0, 0) 48.94%, rgba(0, 0, 0, 0.502) 71.294%, rgba(0, 0, 0, 0.698) 80.694%, rgba(0, 0, 0, 0.698) 100%)"
+      },
+      "sourceBadgeCount": 24,
+      "sourceBottomBars": {
+        "count": 4,
+        "height": 4,
+        "radius": 2,
+        "gap": 3,
+        "background": "rgba(255,255,255,.3)",
+        "initialFirstBarProgress": 0,
+        "progressColor": "#e5ebfa",
+        "visible": true
+      },
+      "thumbnailRow": {
+        "visible": false,
+        "count": 4,
+        "size": 64,
+        "gap": 8,
+        "radius": 8,
+        "firstBorder": "1px solid white",
+        "imagePath": "./figma/fy25/windows-bloom.png"
+      }
+    },
+    {
+      "size": "3:4",
+      "pagination": "Bottom bars",
+      "state": "Hover",
+      "figmaNodeId": "2568:13374",
+      "dimensions": {
+        "width": 312,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "update-2026-11-11/2568-13374-context.txt",
+      "screenshot": "update-2026-11-11/2568-13374.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 312,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13374;2565:1239",
+          "name": "Badge",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 74,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13374;2565:1239;64508:210742",
+          "name": "Lorem ipsum",
+          "type": "TEXT",
+          "rect": {
+            "x": 34,
+            "y": 19.5,
+            "width": 52,
+            "height": 13
+          },
+          "text": "24 images",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13374;2565:1255",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 16,
+            "y": 246,
+            "width": 280,
+            "height": 34
+          },
+          "text": "The Alaska Range",
+          "fontName": {
+            "family": "Alice",
+            "style": "Regular"
+          },
+          "fontSize": 28,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 120.00000476837158
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13374;2565:1256",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 16,
+            "y": 284,
+            "width": 280,
+            "height": 44
+          },
+          "text": "Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13374;2565:1258",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 16,
+            "y": 344,
+            "width": 64,
+            "height": 64
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:13374;2565:1260",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 88,
+            "y": 344,
+            "width": 64,
+            "height": 64
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:13374;2565:1262",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 160,
+            "y": 344,
+            "width": 64,
+            "height": 64
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:13374;2565:1264",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 232,
+            "y": 344,
+            "width": 64,
+            "height": 64
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        }
+      ],
+      "overlay": {
+        "backdropBlur": 2,
+        "cssGradient": "linear-gradient(180deg, rgba(0, 0, 0, 0) 40.21%, rgba(0, 0, 0, 0.502) 53.609%, rgba(0, 0, 0, 0.698) 66.739%, rgba(0, 0, 0, 0.698) 100%)"
+      },
+      "sourceBadgeCount": 24,
+      "sourceBottomBars": {
+        "count": 4,
+        "height": 4,
+        "radius": 2,
+        "gap": 3,
+        "background": "rgba(255,255,255,.3)",
+        "initialFirstBarProgress": 0,
+        "progressColor": "#e5ebfa",
+        "visible": false
+      },
+      "thumbnailRow": {
+        "visible": true,
+        "count": 4,
+        "size": 64,
+        "gap": 8,
+        "radius": 8,
+        "firstBorder": "1px solid white",
+        "imagePath": "./figma/fy25/windows-bloom.png"
+      }
+    },
+    {
+      "size": "5:4",
+      "pagination": "Bottom arrows",
+      "state": "Default",
+      "figmaNodeId": "2568:13447",
+      "dimensions": {
+        "width": 536,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "5x4-bottom-arrows-context.txt",
+      "screenshot": "5x4-bottom-arrows.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 536,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13447;2565:1450;723:36357",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 79,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13447;2565:1450;723:36357;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 16,
+            "width": 59,
+            "height": 20
+          },
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13447;2565:1450;329:9842",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 2378,
+            "y": 205.5,
+            "width": 48,
+            "height": 13
+          },
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13447;2565:1450;329:10027;62893:104421",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 209.5,
+            "y": 376,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "id": "I2568:13447;2565:1450;329:10027;62893:104422",
+          "name": "Number container",
+          "type": "FRAME",
+          "rect": {
+            "x": 245.5,
+            "y": 376,
+            "width": 45,
+            "height": 28
+          }
+        },
+        {
+          "id": "I2568:13447;2565:1450;329:10027;95744:97457",
+          "name": "current page",
+          "type": "TEXT",
+          "rect": {
+            "x": 253.5,
+            "y": 383.5,
+            "width": 7,
+            "height": 13
+          },
+          "text": "1",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13447;2565:1450;329:10027;95744:97458",
+          "name": "of",
+          "type": "TEXT",
+          "rect": {
+            "x": 262.5,
+            "y": 383.5,
+            "width": 11,
+            "height": 13
+          },
+          "text": "of",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13447;2565:1450;329:10027;95744:97459",
+          "name": "total page",
+          "type": "TEXT",
+          "rect": {
+            "x": 275.5,
+            "y": 383.5,
+            "width": 7,
+            "height": 13
+          },
+          "text": "4",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13447;2565:1450;329:10027;62893:104424",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 298.5,
+            "y": 376,
+            "width": 28,
+            "height": 28
+          }
+        }
+      ],
+      "sourceTrack": {
+        "imageFrameCount": 5,
+        "regularImageCount": 4,
+        "finalFrame": "See more",
+        "frameWidth": 536,
+        "frameHeight": 424,
+        "initialX": 0,
+        "initialMetadataVisible": true
+      },
+      "metadata": {
+        "label": "imdb.com",
+        "path": "./figma/slideshow/imdb-favicon.png",
+        "thumbnail": [
+          16,
+          16
+        ],
+        "radius": 4,
+        "gap": 4,
+        "fontFamily": "Roboto",
+        "fontSize": 13,
+        "lineHeight": 20,
+        "fontWeight": 400,
+        "foreground": "#fff",
+        "dropShadow": "0px 0px 2px rgba(0,0,0,.25)",
+        "visibleOnlyInFirstSourceFrame": true
+      },
+      "sourceCounter": {
+        "text": "1 of 4",
+        "displayedTotal": 4,
+        "trackFrameCount": 5,
+        "note": "The fifth See more panel exists offscreen; source has no navigation behavior."
+      }
+    },
+    {
+      "size": "5:4",
+      "pagination": "Top bars",
+      "state": "Default",
+      "figmaNodeId": "2568:13537",
+      "dimensions": {
+        "width": 536,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "5x4-top-bars-context.txt",
+      "screenshot": "5x4-top-bars.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 536,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13537;2565:1333;723:36389",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 388,
+            "width": 79,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13537;2565:1333;723:36389;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 388,
+            "width": 59,
+            "height": 20
+          },
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13537;2565:1333;328:80055",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 2378,
+            "y": 205.5,
+            "width": 48,
+            "height": 13
+          },
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13537;2565:1333;328:76314",
+          "name": "Footer",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 536,
+            "height": 68
+          }
+        },
+        {
+          "id": "I2568:13537;2565:1333;328:76315",
+          "name": "Pagination Container",
+          "type": "FRAME",
+          "rect": {
+            "x": 36,
+            "y": 16,
+            "width": 464,
+            "height": 6
+          }
+        },
+        {
+          "id": "I2568:13537;2565:1333;328:76334",
+          "name": "Personable Tom at age 60s",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 30,
+            "width": 171,
+            "height": 22
+          },
+          "text": "Personable Tom at age 60s",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13537;2565:1333;328:76425",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 472,
+            "y": 193,
+            "width": 48,
+            "height": 48
+          }
+        },
+        {
+          "id": "I2568:13537;2565:1333;328:79972",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 193,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "sourceTrack": {
+        "imageFrameCount": 5,
+        "regularImageCount": 4,
+        "finalFrame": "See more",
+        "frameWidth": 536,
+        "frameHeight": 424,
+        "initialX": 0,
+        "initialMetadataVisible": true
+      },
+      "metadata": {
+        "label": "imdb.com",
+        "path": "./figma/slideshow/imdb-favicon.png",
+        "thumbnail": [
+          16,
+          16
+        ],
+        "radius": 4,
+        "gap": 4,
+        "fontFamily": "Roboto",
+        "fontSize": 13,
+        "lineHeight": 20,
+        "fontWeight": 400,
+        "foreground": "#fff",
+        "dropShadow": "0px 0px 2px rgba(0,0,0,.25)",
+        "visibleOnlyInFirstSourceFrame": true
+      },
+      "sourceTopBars": {
+        "count": 4,
+        "gap": 8,
+        "height": 6,
+        "radius": 9999,
+        "selectedColor": "#fff",
+        "unselectedColor": "rgba(255,255,255,.3)",
+        "title": "Personable Tom at age 60s",
+        "font": "Roboto 700 14px/22px",
+        "footerGradient": "linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,.48) 56.452%)",
+        "footerHeight": 68
+      }
+    },
+    {
+      "size": "5:4",
+      "pagination": "Bottom bars",
+      "state": "Default",
+      "figmaNodeId": "2568:13631",
+      "dimensions": {
+        "width": 536,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "update-2026-11-11/2568-13631-context.txt",
+      "screenshot": "update-2026-11-11/2568-13631.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 536,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13631;2563:15626",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 30,
+            "y": 306,
+            "width": 476,
+            "height": 34
+          },
+          "text": "The Alaska Range",
+          "fontName": {
+            "family": "Alice",
+            "style": "Regular"
+          },
+          "fontSize": 28,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 120.00000476837158
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13631;2563:15627",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 30,
+            "y": 344,
+            "width": 476,
+            "height": 44
+          },
+          "text": "Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13631;2565:1398",
+          "name": "Pagination indicators",
+          "type": "FRAME",
+          "rect": {
+            "x": 30,
+            "y": 404,
+            "width": 476,
+            "height": 4
+          }
+        },
+        {
+          "id": "I2568:13631;2565:1400",
+          "name": "Progress Indicator / Story 6",
+          "type": "FRAME",
+          "rect": {
+            "x": 30,
+            "y": 404,
+            "width": 116.75,
+            "height": 4
+          }
+        },
+        {
+          "id": "I2568:13631;2565:1401",
+          "name": "progress",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 30,
+            "y": 404,
+            "width": 87.5625,
+            "height": 4
+          }
+        },
+        {
+          "id": "I2568:13631;2565:1406",
+          "name": "Badge",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 13,
+            "y": 12,
+            "width": 74,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13631;2565:1406;64508:210742",
+          "name": "Lorem ipsum",
+          "type": "TEXT",
+          "rect": {
+            "x": 31,
+            "y": 15.5,
+            "width": 52,
+            "height": 13
+          },
+          "text": "23 images",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        }
+      ],
+      "overlay": {
+        "backdropBlur": 2,
+        "cssGradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.051) 0%, rgba(0, 0, 0, 0.051) 40.76%, rgba(0, 0, 0, 0.502) 58.35%, rgba(0, 0, 0, 0.698) 79.5%, rgba(0, 0, 0, 0.698) 100%)"
+      },
+      "sourceBadgeCount": 23,
+      "sourceBottomBars": {
+        "count": 4,
+        "height": 4,
+        "radius": 2,
+        "gap": 3,
+        "background": "rgba(255,255,255,.3)",
+        "initialFirstBarProgress": 0.75,
+        "progressColor": "#e5ebfa",
+        "visible": true
+      },
+      "thumbnailRow": {
+        "visible": false,
+        "count": 4,
+        "size": 110,
+        "gap": 12,
+        "radius": 8,
+        "firstBorder": "1px solid white",
+        "imagePath": "./figma/fy25/windows-bloom.png"
+      }
+    },
+    {
+      "size": "5:4",
+      "pagination": "Bottom bars",
+      "state": "Hover",
+      "figmaNodeId": "2568:13699",
+      "dimensions": {
+        "width": 536,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "update-2026-11-11/2568-13699-context.txt",
+      "screenshot": "update-2026-11-11/2568-13699.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 536,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13699;2563:15630",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 30,
+            "y": 200,
+            "width": 476,
+            "height": 34
+          },
+          "text": "The Alaska Range",
+          "fontName": {
+            "family": "Alice",
+            "style": "Regular"
+          },
+          "fontSize": 28,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 120.00000476837158
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13699;2563:15631",
+          "name": "Article Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 30,
+            "y": 238,
+            "width": 476,
+            "height": 44
+          },
+          "text": "Discover Denali's snow-covered peaks rising above the vast Alaskan wilderness.",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13699;2565:1428",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 30,
+            "y": 298,
+            "width": 110,
+            "height": 110
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:13699;2565:1430",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 152,
+            "y": 298,
+            "width": 110,
+            "height": 110
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:13699;2565:1432",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 274,
+            "y": 298,
+            "width": 110,
+            "height": 110
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:13699;2565:1434",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 396,
+            "y": 298,
+            "width": 110,
+            "height": 110
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:13699;2565:1436",
+          "name": "Badge",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 13,
+            "y": 12,
+            "width": 74,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13699;2565:1436;64508:210742",
+          "name": "Lorem ipsum",
+          "type": "TEXT",
+          "rect": {
+            "x": 31,
+            "y": 15.5,
+            "width": 52,
+            "height": 13
+          },
+          "text": "23 images",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        }
+      ],
+      "overlay": {
+        "backdropBlur": 2,
+        "cssGradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.051) 0%, rgba(0, 0, 0, 0.102) 18.18%, rgba(0, 0, 0, 0.502) 33.99%, rgba(0, 0, 0, 0.698) 53.5%, rgba(0, 0, 0, 0.698) 100%)"
+      },
+      "sourceBadgeCount": 23,
+      "sourceBottomBars": {
+        "count": 4,
+        "height": 4,
+        "radius": 2,
+        "gap": 3,
+        "background": "rgba(255,255,255,.3)",
+        "initialFirstBarProgress": 0.75,
+        "progressColor": "#e5ebfa",
+        "visible": false
+      },
+      "thumbnailRow": {
+        "visible": true,
+        "count": 4,
+        "size": 110,
+        "gap": 12,
+        "radius": 8,
+        "firstBorder": "1px solid white",
+        "imagePath": "./figma/fy25/windows-bloom.png"
+      }
+    },
+    {
+      "size": "3:2",
+      "pagination": "Bottom arrows",
+      "state": "Default",
+      "figmaNodeId": "2568:13771",
+      "dimensions": {
+        "width": 312,
+        "height": 204,
+        "borderRadius": 24
+      },
+      "context": "3x2-bottom-arrows-context.txt",
+      "screenshot": "3x2-bottom-arrows.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 312,
+          "height": 204
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13771;2567:717",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 79,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13771;2567:717;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 16,
+            "width": 59,
+            "height": 20
+          },
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13771;2567:724",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 1370,
+            "y": 95.5,
+            "width": 48,
+            "height": 13
+          },
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13771;2567:727;62893:104421",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 97.5,
+            "y": 156,
+            "width": 28,
+            "height": 28
+          }
+        },
+        {
+          "id": "I2568:13771;2567:727;62893:104422",
+          "name": "Number container",
+          "type": "FRAME",
+          "rect": {
+            "x": 133.5,
+            "y": 156,
+            "width": 45,
+            "height": 28
+          }
+        },
+        {
+          "id": "I2568:13771;2567:727;95744:97457",
+          "name": "current page",
+          "type": "TEXT",
+          "rect": {
+            "x": 141.5,
+            "y": 163.5,
+            "width": 7,
+            "height": 13
+          },
+          "text": "1",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13771;2567:727;95744:97458",
+          "name": "of",
+          "type": "TEXT",
+          "rect": {
+            "x": 150.5,
+            "y": 163.5,
+            "width": 11,
+            "height": 13
+          },
+          "text": "of",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13771;2567:727;95744:97459",
+          "name": "total page",
+          "type": "TEXT",
+          "rect": {
+            "x": 163.5,
+            "y": 163.5,
+            "width": 7,
+            "height": 13
+          },
+          "text": "4",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13771;2567:727;62893:104424",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 186.5,
+            "y": 156,
+            "width": 28,
+            "height": 28
+          }
+        }
+      ],
+      "sourceTrack": {
+        "imageFrameCount": 5,
+        "regularImageCount": 4,
+        "finalFrame": "See more",
+        "frameWidth": 312,
+        "frameHeight": 204,
+        "initialX": 0,
+        "initialMetadataVisible": true
+      },
+      "metadata": {
+        "label": "imdb.com",
+        "path": "./figma/slideshow/imdb-favicon.png",
+        "thumbnail": [
+          16,
+          16
+        ],
+        "radius": 4,
+        "gap": 4,
+        "fontFamily": "Roboto",
+        "fontSize": 13,
+        "lineHeight": 20,
+        "fontWeight": 400,
+        "foreground": "#fff",
+        "dropShadow": "0px 0px 2px rgba(0,0,0,.25)",
+        "visibleOnlyInFirstSourceFrame": true
+      },
+      "sourceCounter": {
+        "text": "1 of 4",
+        "displayedTotal": 4,
+        "trackFrameCount": 5,
+        "note": "The fifth See more panel exists offscreen; source has no navigation behavior."
+      }
+    },
+    {
+      "size": "3:2",
+      "pagination": "Top bars",
+      "state": "Default",
+      "figmaNodeId": "2568:13861",
+      "dimensions": {
+        "width": 312,
+        "height": 204,
+        "borderRadius": 24
+      },
+      "context": "3x2-top-bars-context.txt",
+      "screenshot": "3x2-top-bars.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 312,
+          "height": 204
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13861;2567:804",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 168,
+            "width": 79,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13861;2567:804;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 168,
+            "width": 59,
+            "height": 20
+          },
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13861;2567:811",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 1370,
+            "y": 95.5,
+            "width": 48,
+            "height": 13
+          },
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13861;2567:814",
+          "name": "Footer",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 312,
+            "height": 68
+          }
+        },
+        {
+          "id": "I2568:13861;2567:815",
+          "name": "Pagination Container",
+          "type": "FRAME",
+          "rect": {
+            "x": 36,
+            "y": 16,
+            "width": 240,
+            "height": 6
+          }
+        },
+        {
+          "id": "I2568:13861;2567:822",
+          "name": "Personable Tom at age 60s",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 30,
+            "width": 171,
+            "height": 22
+          },
+          "text": "Personable Tom at age 60s",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2568:13861;2567:823",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 248,
+            "y": 78,
+            "width": 48,
+            "height": 48
+          }
+        },
+        {
+          "id": "I2568:13861;2567:824",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 78,
+            "width": 48,
+            "height": 48
+          }
+        }
+      ],
+      "sourceTrack": {
+        "imageFrameCount": 5,
+        "regularImageCount": 4,
+        "finalFrame": "See more",
+        "frameWidth": 312,
+        "frameHeight": 204,
+        "initialX": 0,
+        "initialMetadataVisible": true
+      },
+      "metadata": {
+        "label": "imdb.com",
+        "path": "./figma/slideshow/imdb-favicon.png",
+        "thumbnail": [
+          16,
+          16
+        ],
+        "radius": 4,
+        "gap": 4,
+        "fontFamily": "Roboto",
+        "fontSize": 13,
+        "lineHeight": 20,
+        "fontWeight": 400,
+        "foreground": "#fff",
+        "dropShadow": "0px 0px 2px rgba(0,0,0,.25)",
+        "visibleOnlyInFirstSourceFrame": true
+      },
+      "sourceTopBars": {
+        "count": 4,
+        "gap": 8,
+        "height": 6,
+        "radius": 9999,
+        "selectedColor": "#fff",
+        "unselectedColor": "rgba(255,255,255,.3)",
+        "title": "Personable Tom at age 60s",
+        "font": "Roboto 700 14px/22px",
+        "footerGradient": "linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,.48) 56.452%)",
+        "footerHeight": 68
+      }
+    },
+    {
+      "size": "3:2",
+      "pagination": "Bottom bars",
+      "state": "Default",
+      "figmaNodeId": "2568:13955",
+      "dimensions": {
+        "width": 312,
+        "height": 204,
+        "borderRadius": 24
+      },
+      "context": "update-2026-11-11/2568-13955-context.txt",
+      "screenshot": "update-2026-11-11/2568-13955.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": -1.1368683772161603e-13,
+          "y": -95,
+          "width": 312.0000000000001,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:13955;2563:14824",
+          "name": "Content",
+          "type": "FRAME",
+          "rect": {
+            "x": 30,
+            "y": 112,
+            "width": 252,
+            "height": 56
+          }
+        },
+        {
+          "id": "I2568:13955;2563:14829",
+          "name": "Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 32,
+            "y": 112,
+            "width": 248,
+            "height": 26
+          },
+          "text": "Colors of the Tundra",
+          "fontName": {
+            "family": "Alice",
+            "style": "Regular"
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 26
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13955;2563:14831",
+          "name": "Text",
+          "type": "TEXT",
+          "rect": {
+            "x": 32,
+            "y": 142,
+            "width": 248,
+            "height": 26
+          },
+          "text": "Explore Denali's open tundra, from summer wildflowers to brilliant autumn colors.",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:13955;2563:14832",
+          "name": "Pagination indicators",
+          "type": "FRAME",
+          "rect": {
+            "x": 87,
+            "y": 184,
+            "width": 138,
+            "height": 4
+          }
+        },
+        {
+          "id": "I2568:13955;2563:14834",
+          "name": "Progress Indicator / Story 6",
+          "type": "FRAME",
+          "rect": {
+            "x": 87,
+            "y": 184,
+            "width": 32.25,
+            "height": 4
+          }
+        },
+        {
+          "id": "I2568:13955;2563:14835",
+          "name": "progress",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 87,
+            "y": 184,
+            "width": 24.187501907348633,
+            "height": 4
+          }
+        },
+        {
+          "id": "I2568:13955;2563:14845",
+          "name": "Badge",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 13,
+            "y": 12,
+            "width": 74,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:13955;2563:14845;64508:210742",
+          "name": "Lorem ipsum",
+          "type": "TEXT",
+          "rect": {
+            "x": 31,
+            "y": 15.5,
+            "width": 52,
+            "height": 13
+          },
+          "text": "23 images",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        }
+      ],
+      "overlay": {
+        "backdropBlur": 2,
+        "cssGradient": "linear-gradient(179.9999999999963deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 40.762%, rgba(0, 0, 0, 0.5) 58.355%, rgba(0, 0, 0, 0.7) 79.5%, rgba(0, 0, 0, 0.7) 100%)"
+      },
+      "sourceBadgeCount": 23,
+      "sourceBottomBars": {
+        "count": 4,
+        "height": 4,
+        "radius": 2,
+        "gap": 3,
+        "background": "rgba(255,255,255,.3)",
+        "initialFirstBarProgress": 0.75,
+        "progressColor": "#e5ebfa",
+        "visible": true
+      },
+      "thumbnailRow": {
+        "visible": false,
+        "count": 4,
+        "size": 54,
+        "gap": 12,
+        "radius": 8,
+        "firstBorder": "1px solid white",
+        "imagePath": "./figma/fy25/windows-bloom.png"
+      }
+    },
+    {
+      "size": "3:2",
+      "pagination": "Bottom bars",
+      "state": "Hover",
+      "figmaNodeId": "2568:14032",
+      "dimensions": {
+        "width": 312,
+        "height": 204,
+        "borderRadius": 24
+      },
+      "context": "update-2026-11-11/2568-14032-context.txt",
+      "screenshot": "update-2026-11-11/2568-14032.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": -95,
+          "width": 312,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "I2568:14032;2563:14852",
+          "name": "Content",
+          "type": "FRAME",
+          "rect": {
+            "x": 30,
+            "y": 62,
+            "width": 252,
+            "height": 56
+          }
+        },
+        {
+          "id": "I2568:14032;2563:14857",
+          "name": "Title",
+          "type": "TEXT",
+          "rect": {
+            "x": 32,
+            "y": 62,
+            "width": 248,
+            "height": 26
+          },
+          "text": "Colors of the Tundra",
+          "fontName": {
+            "family": "Alice",
+            "style": "Regular"
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 26
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:14032;2563:14859",
+          "name": "Text",
+          "type": "TEXT",
+          "rect": {
+            "x": 32,
+            "y": 92,
+            "width": 248,
+            "height": 26
+          },
+          "text": "Explore Denali's open tundra, from summer wildflowers to brilliant autumn colors.",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        },
+        {
+          "id": "I2568:14032;2563:14861",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 30,
+            "y": 134,
+            "width": 54,
+            "height": 54
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:14032;2563:14863",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 96,
+            "y": 134,
+            "width": 54,
+            "height": 54
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:14032;2563:14865",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 162,
+            "y": 134,
+            "width": 54,
+            "height": 54
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:14032;2563:14867",
+          "name": "16:9",
+          "type": "FRAME",
+          "rect": {
+            "x": 228,
+            "y": 134,
+            "width": 54,
+            "height": 54
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "id": "I2568:14032;2563:14870",
+          "name": "Badge",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 13,
+            "y": 12,
+            "width": 74,
+            "height": 20
+          }
+        },
+        {
+          "id": "I2568:14032;2563:14870;64508:210742",
+          "name": "Lorem ipsum",
+          "type": "TEXT",
+          "rect": {
+            "x": 31,
+            "y": 15.5,
+            "width": 52,
+            "height": 13
+          },
+          "text": "23 images",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "CENTER"
+        }
+      ],
+      "overlay": {
+        "backdropBlur": 2,
+        "cssGradient": "linear-gradient(179.9999999999963deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.1) 18.181%, rgba(0, 0, 0, 0.5) 33.987%, rgba(0, 0, 0, 0.7) 53.503%, rgba(0, 0, 0, 0.7) 100%)"
+      },
+      "sourceBadgeCount": 23,
+      "sourceBottomBars": {
+        "count": 4,
+        "height": 4,
+        "radius": 2,
+        "gap": 3,
+        "background": "rgba(255,255,255,.3)",
+        "initialFirstBarProgress": 0.75,
+        "progressColor": "#e5ebfa",
+        "visible": false
+      },
+      "thumbnailRow": {
+        "visible": true,
+        "count": 4,
+        "size": 54,
+        "gap": 12,
+        "radius": 8,
+        "firstBorder": "1px solid white",
+        "imagePath": "./figma/fy25/windows-bloom.png"
+      }
+    },
+    {
+      "size": "3:4",
+      "pagination": "Bottom bars + arrows",
+      "state": "Default",
+      "figmaNodeId": "2608:1516",
+      "dimensions": {
+        "width": 312,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "update-2026-11-11/3x4-bottom-bars-arrows-context.txt",
+      "screenshot": "update-2026-11-11/3x4-bottom-bars-arrows.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 312,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "2608:1516",
+          "name": "Slide Card",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 312,
+            "height": 424
+          },
+          "fills": [],
+          "effects": [],
+          "opacity": 1,
+          "cornerRadius": 24
+        },
+        {
+          "id": "I2608:1516;2606:1445",
+          "name": "Frame 2147234156",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 312,
+            "height": 424
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1446",
+          "name": "Frame 2147234155",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1560,
+            "height": 424
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1447",
+          "name": "Image",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 312,
+            "height": 424
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1448",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 79,
+            "height": 20
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0,
+          "effects": [
+            {
+              "type": "DROP_SHADOW",
+              "visible": true,
+              "radius": 4,
+              "boundVariables": {},
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.25
+              },
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "spread": 0,
+              "blendMode": "NORMAL",
+              "showShadowBehindNode": false
+            }
+          ]
+        },
+        {
+          "id": "I2608:1516;2606:1448;723:36080",
+          "name": "Thumbnail",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 4
+        },
+        {
+          "id": "I2608:1516;2606:1448;723:36080;131224:172906",
+          "name": "Image",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1448;723:36080;131224:172906;131224:154861",
+          "name": "Image",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 16,
+            "height": 16
+          },
+          "images": [
+            {
+              "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1448;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 16,
+            "width": 59,
+            "height": 20
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.10000000149011612,
+                "g": 0.10000000149011612,
+                "b": 0.10000000149011612
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2608:1516;2606:1449",
+          "name": "4*4",
+          "type": "FRAME",
+          "rect": {
+            "x": 312,
+            "y": 0,
+            "width": 312,
+            "height": 424
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1450",
+          "name": "4*4",
+          "type": "FRAME",
+          "rect": {
+            "x": 624,
+            "y": 0,
+            "width": 312,
+            "height": 424
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1451",
+          "name": "4*4",
+          "type": "FRAME",
+          "rect": {
+            "x": 936,
+            "y": 0,
+            "width": 312,
+            "height": 424
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1452",
+          "name": "4*4",
+          "type": "FRAME",
+          "rect": {
+            "x": 1248,
+            "y": 0,
+            "width": 312,
+            "height": 424
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1453",
+          "name": "overlay",
+          "type": "FRAME",
+          "rect": {
+            "x": 1248,
+            "y": 0,
+            "width": 312,
+            "height": 424
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 0.6000000238418579
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1454",
+          "name": "link container",
+          "type": "FRAME",
+          "rect": {
+            "x": 1248,
+            "y": 204,
+            "width": 312,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1455",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 1370,
+            "y": 205.5,
+            "width": 48,
+            "height": 13
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2608:1516;2606:1456",
+          "name": "Open",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 1422,
+            "y": 204,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1456;116087:61",
+          "name": "Shape",
+          "type": "VECTOR",
+          "rect": {
+            "x": 1424,
+            "y": 206,
+            "width": 12,
+            "height": 12
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            },
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1458",
+          "name": "Footer",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 334,
+            "width": 312,
+            "height": 90
+          },
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "opacity": 1,
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                  },
+                  "position": 0,
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:eb132968b7750d5327176822e3ade42b3928599b/101614:442"
+                    }
+                  }
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0.10000000149011612
+                  },
+                  "position": 0.17416369915008545,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0.6000000238418579
+                  },
+                  "position": 0.5645150542259216,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -5.159029670478987e-13,
+                  1,
+                  2.782077682377676e-13
+                ],
+                [
+                  -10.562500953674316,
+                  -9.167780467070341e-14,
+                  6.362581729888916
+                ]
+              ]
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0,
+          "effects": [
+            {
+              "type": "BACKGROUND_BLUR",
+              "visible": true,
+              "radius": 5,
+              "boundVariables": {},
+              "blurType": "PROGRESSIVE",
+              "startRadius": 0,
+              "startOffset": {
+                "x": 0.5,
+                "y": 0
+              },
+              "endOffset": {
+                "x": 0.5,
+                "y": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "I2608:1516;2606:1459",
+          "name": "Frame 2147234157",
+          "type": "FRAME",
+          "rect": {
+            "x": 24,
+            "y": 358,
+            "width": 264,
+            "height": 28
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1460",
+          "name": "Personable Tom at age 60s",
+          "type": "TEXT",
+          "rect": {
+            "x": 24,
+            "y": 364,
+            "width": 192,
+            "height": 22
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "text": "Personable Tom at age 60s",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2608:1516;2606:1461",
+          "name": "pagination",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 224,
+            "y": 358,
+            "width": 64,
+            "height": 28
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1461;62893:104417",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 224,
+            "y": 358,
+            "width": 28,
+            "height": 28
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.1725490242242813,
+                "g": 0.20392157137393951,
+                "b": 0.3490196168422699
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 0.30000001192092896,
+          "cornerRadius": 4
+        },
+        {
+          "id": "I2608:1516;2606:1461;62893:104417;127901:96749",
+          "name": "nestedContainer",
+          "type": "FRAME",
+          "rect": {
+            "x": 228,
+            "y": 364,
+            "width": 20,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1461;62893:104417;127901:101300",
+          "name": "iconStartContainer",
+          "type": "FRAME",
+          "rect": {
+            "x": 230,
+            "y": 364,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1461;62893:104417;21527:15224",
+          "name": "iconStart",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 230,
+            "y": 364,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1461;62893:104417;21527:15224;115630:166841",
+          "name": "ChevronLeft",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 230,
+            "y": 364,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1461;62893:104417;21527:15224;115630:166841;115444:27734",
+          "name": "Shape",
+          "type": "VECTOR",
+          "rect": {
+            "x": 235,
+            "y": 367,
+            "width": 5.500002861022949,
+            "height": 10.000006675720215
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8509804010391235,
+                "g": 0.8745098114013672,
+                "b": 0.9843137264251709
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1461;62893:104419",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 260,
+            "y": 358,
+            "width": 28,
+            "height": 28
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.1725490242242813,
+                "g": 0.20392157137393951,
+                "b": 0.3490196168422699
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 4
+        },
+        {
+          "id": "I2608:1516;2606:1461;62893:104419;127901:96681",
+          "name": "nestedContainer",
+          "type": "FRAME",
+          "rect": {
+            "x": 264,
+            "y": 364,
+            "width": 20,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1461;62893:104419;127901:101232",
+          "name": "iconStartContainer",
+          "type": "FRAME",
+          "rect": {
+            "x": 266,
+            "y": 364,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1461;62893:104419;21527:15208",
+          "name": "iconStart",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 266,
+            "y": 364,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1461;62893:104419;21527:15208;115630:166841",
+          "name": "ChevronRight",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 266,
+            "y": 364,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1461;62893:104419;21527:15208;115630:166841;115444:27724",
+          "name": "Shape",
+          "type": "VECTOR",
+          "rect": {
+            "x": 271.5,
+            "y": 367,
+            "width": 5.500002861022949,
+            "height": 10.000006675720215
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8509804010391235,
+                "g": 0.8745098114013672,
+                "b": 0.9843137264251709
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1462",
+          "name": "Pagination Container",
+          "type": "FRAME",
+          "rect": {
+            "x": 24,
+            "y": 394,
+            "width": 264,
+            "height": 6
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1516;2606:1463",
+          "name": "Rectangle 34645892",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 24,
+            "y": 394,
+            "width": 46.400001525878906,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        },
+        {
+          "id": "I2608:1516;2606:1464",
+          "name": "Rectangle 34645893",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 78.4000244140625,
+            "y": 394,
+            "width": 46.400001525878906,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 0.30000001192092896
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        },
+        {
+          "id": "I2608:1516;2606:1465",
+          "name": "Rectangle 34645890",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 132.79998779296875,
+            "y": 394,
+            "width": 46.40000534057617,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 0.30000001192092896
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        },
+        {
+          "id": "I2608:1516;2606:1466",
+          "name": "Rectangle 34645895",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 187.20001220703125,
+            "y": 394,
+            "width": 46.400001525878906,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 0.30000001192092896
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        },
+        {
+          "id": "I2608:1516;2606:1467",
+          "name": "Rectangle 34645896",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 241.5999755859375,
+            "y": 394,
+            "width": 46.400001525878906,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 0.30000001192092896
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        }
+      ]
+    },
+    {
+      "size": "5:4",
+      "pagination": "Bottom bars + arrows",
+      "state": "Default",
+      "figmaNodeId": "2608:1684",
+      "dimensions": {
+        "width": 536,
+        "height": 424,
+        "borderRadius": 24
+      },
+      "context": "update-2026-11-11/5x4-bottom-bars-arrows-context.txt",
+      "screenshot": "update-2026-11-11/5x4-bottom-bars-arrows.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 536,
+          "height": 424
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "2608:1684",
+          "name": "Slide Card",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 536,
+            "height": 424
+          },
+          "fills": [],
+          "effects": [],
+          "opacity": 1,
+          "cornerRadius": 24
+        },
+        {
+          "id": "I2608:1684;2606:1493",
+          "name": "Frame 2147234156",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 536,
+            "height": 424
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1494",
+          "name": "Frame 2147234155",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 2680,
+            "height": 424
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1495",
+          "name": "Image",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 536,
+            "height": 424
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1496",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 79,
+            "height": 20
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0,
+          "effects": [
+            {
+              "type": "DROP_SHADOW",
+              "visible": true,
+              "radius": 4,
+              "boundVariables": {},
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.25
+              },
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "spread": 0,
+              "blendMode": "NORMAL",
+              "showShadowBehindNode": false
+            }
+          ]
+        },
+        {
+          "id": "I2608:1684;2606:1496;723:36080",
+          "name": "Thumbnail",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 4
+        },
+        {
+          "id": "I2608:1684;2606:1496;723:36080;131224:172906",
+          "name": "Image",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1496;723:36080;131224:172906;131224:154861",
+          "name": "Image",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 16,
+            "height": 16
+          },
+          "images": [
+            {
+              "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1496;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 16,
+            "width": 59,
+            "height": 20
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.10000000149011612,
+                "g": 0.10000000149011612,
+                "b": 0.10000000149011612
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2608:1684;2606:1497",
+          "name": "4*4",
+          "type": "FRAME",
+          "rect": {
+            "x": 536,
+            "y": 0,
+            "width": 536,
+            "height": 424
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1498",
+          "name": "4*4",
+          "type": "FRAME",
+          "rect": {
+            "x": 1072,
+            "y": 0,
+            "width": 536,
+            "height": 424
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1499",
+          "name": "4*4",
+          "type": "FRAME",
+          "rect": {
+            "x": 1608,
+            "y": 0,
+            "width": 536,
+            "height": 424
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1500",
+          "name": "4*4",
+          "type": "FRAME",
+          "rect": {
+            "x": 2144,
+            "y": 0,
+            "width": 536,
+            "height": 424
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1501",
+          "name": "overlay",
+          "type": "FRAME",
+          "rect": {
+            "x": 2144,
+            "y": 0,
+            "width": 536,
+            "height": 424
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 0.6000000238418579
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1502",
+          "name": "link container",
+          "type": "FRAME",
+          "rect": {
+            "x": 2144,
+            "y": 204,
+            "width": 536,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1503",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 2378,
+            "y": 205.5,
+            "width": 48,
+            "height": 13
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2608:1684;2606:1504",
+          "name": "Open",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 2430,
+            "y": 204,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1504;116087:61",
+          "name": "Shape",
+          "type": "VECTOR",
+          "rect": {
+            "x": 2432,
+            "y": 206,
+            "width": 12,
+            "height": 12
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            },
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1506",
+          "name": "Footer",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 334,
+            "width": 536,
+            "height": 90
+          },
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "opacity": 1,
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                  },
+                  "position": 0,
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:eb132968b7750d5327176822e3ade42b3928599b/101614:442"
+                    }
+                  }
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0.10000000149011612
+                  },
+                  "position": 0.17416369915008545,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0.6000000238418579
+                  },
+                  "position": 0.5645150542259216,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -5.159029670478987e-13,
+                  1,
+                  2.782077682377676e-13
+                ],
+                [
+                  -10.562500953674316,
+                  -9.167780467070341e-14,
+                  6.362581729888916
+                ]
+              ]
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0,
+          "effects": [
+            {
+              "type": "BACKGROUND_BLUR",
+              "visible": true,
+              "radius": 5,
+              "boundVariables": {},
+              "blurType": "PROGRESSIVE",
+              "startRadius": 0,
+              "startOffset": {
+                "x": 0.5,
+                "y": 0
+              },
+              "endOffset": {
+                "x": 0.5,
+                "y": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "I2608:1684;2606:1507",
+          "name": "Frame 2147234157",
+          "type": "FRAME",
+          "rect": {
+            "x": 24,
+            "y": 358,
+            "width": 488,
+            "height": 28
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1508",
+          "name": "Personable Tom at age 60s",
+          "type": "TEXT",
+          "rect": {
+            "x": 24,
+            "y": 364,
+            "width": 416,
+            "height": 22
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "text": "Personable Tom at age 60s",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2608:1684;2606:1509",
+          "name": "pagination",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 448,
+            "y": 358,
+            "width": 64,
+            "height": 28
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1509;62893:104417",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 448,
+            "y": 358,
+            "width": 28,
+            "height": 28
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.1725490242242813,
+                "g": 0.20392157137393951,
+                "b": 0.3490196168422699
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 0.30000001192092896,
+          "cornerRadius": 4
+        },
+        {
+          "id": "I2608:1684;2606:1509;62893:104417;127901:96749",
+          "name": "nestedContainer",
+          "type": "FRAME",
+          "rect": {
+            "x": 452,
+            "y": 364,
+            "width": 20,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1509;62893:104417;127901:101300",
+          "name": "iconStartContainer",
+          "type": "FRAME",
+          "rect": {
+            "x": 454,
+            "y": 364,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1509;62893:104417;21527:15224",
+          "name": "iconStart",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 454,
+            "y": 364,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1509;62893:104417;21527:15224;115630:166841",
+          "name": "ChevronLeft",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 454,
+            "y": 364,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1509;62893:104417;21527:15224;115630:166841;115444:27734",
+          "name": "Shape",
+          "type": "VECTOR",
+          "rect": {
+            "x": 459,
+            "y": 367,
+            "width": 5.500002861022949,
+            "height": 10.000006675720215
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8509804010391235,
+                "g": 0.8745098114013672,
+                "b": 0.9843137264251709
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1509;62893:104419",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 484,
+            "y": 358,
+            "width": 28,
+            "height": 28
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.1725490242242813,
+                "g": 0.20392157137393951,
+                "b": 0.3490196168422699
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 4
+        },
+        {
+          "id": "I2608:1684;2606:1509;62893:104419;127901:96681",
+          "name": "nestedContainer",
+          "type": "FRAME",
+          "rect": {
+            "x": 488,
+            "y": 364,
+            "width": 20,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1509;62893:104419;127901:101232",
+          "name": "iconStartContainer",
+          "type": "FRAME",
+          "rect": {
+            "x": 490,
+            "y": 364,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1509;62893:104419;21527:15208",
+          "name": "iconStart",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 490,
+            "y": 364,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1509;62893:104419;21527:15208;115630:166841",
+          "name": "ChevronRight",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 490,
+            "y": 364,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1509;62893:104419;21527:15208;115630:166841;115444:27724",
+          "name": "Shape",
+          "type": "VECTOR",
+          "rect": {
+            "x": 495.5,
+            "y": 367,
+            "width": 5.500002861022949,
+            "height": 10.000006675720215
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8509804010391235,
+                "g": 0.8745098114013672,
+                "b": 0.9843137264251709
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1510",
+          "name": "Pagination Container",
+          "type": "FRAME",
+          "rect": {
+            "x": 24,
+            "y": 394,
+            "width": 488,
+            "height": 6
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1684;2606:1511",
+          "name": "Rectangle 34645892",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 24,
+            "y": 394,
+            "width": 91.19999694824219,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        },
+        {
+          "id": "I2608:1684;2606:1512",
+          "name": "Rectangle 34645893",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 123.20001220703125,
+            "y": 394,
+            "width": 91.19999694824219,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 0.30000001192092896
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        },
+        {
+          "id": "I2608:1684;2606:1513",
+          "name": "Rectangle 34645890",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 222.4000244140625,
+            "y": 394,
+            "width": 91.19998931884766,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 0.30000001192092896
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        },
+        {
+          "id": "I2608:1684;2606:1514",
+          "name": "Rectangle 34645895",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 321.5999755859375,
+            "y": 394,
+            "width": 91.19999694824219,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 0.30000001192092896
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        },
+        {
+          "id": "I2608:1684;2606:1515",
+          "name": "Rectangle 34645896",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 420.79998779296875,
+            "y": 394,
+            "width": 91.19999694824219,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 0.30000001192092896
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        }
+      ]
+    },
+    {
+      "size": "3:2",
+      "pagination": "Bottom bars + arrows",
+      "state": "Default",
+      "figmaNodeId": "2608:1815",
+      "dimensions": {
+        "width": 312,
+        "height": 204,
+        "borderRadius": 24
+      },
+      "context": "update-2026-11-11/3x2-bottom-bars-arrows-context.txt",
+      "screenshot": "update-2026-11-11/3x2-bottom-bars-arrows.png",
+      "background": {
+        "path": "./figma/fy25/windows-bloom.png",
+        "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+        "slot": {
+          "x": 0,
+          "y": 0,
+          "width": 312,
+          "height": 204
+        },
+        "fit": "cover",
+        "position": "center"
+      },
+      "cssDropShadows": [],
+      "slots": [
+        {
+          "id": "2608:1815",
+          "name": "Slide Card",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 312,
+            "height": 204
+          },
+          "fills": [],
+          "effects": [],
+          "opacity": 1,
+          "cornerRadius": 24
+        },
+        {
+          "id": "I2608:1815;2606:1519",
+          "name": "Frame 2147234156",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 312,
+            "height": 204
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1520",
+          "name": "Frame 2147234155",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1560,
+            "height": 204
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1521",
+          "name": "Image",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 312,
+            "height": 204
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1522",
+          "name": "metadata",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 79,
+            "height": 20
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0,
+          "effects": [
+            {
+              "type": "DROP_SHADOW",
+              "visible": true,
+              "radius": 4,
+              "boundVariables": {},
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0.25
+              },
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "spread": 0,
+              "blendMode": "NORMAL",
+              "showShadowBehindNode": false
+            }
+          ]
+        },
+        {
+          "id": "I2608:1815;2606:1522;723:36080",
+          "name": "Thumbnail",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 4
+        },
+        {
+          "id": "I2608:1815;2606:1522;723:36080;131224:172906",
+          "name": "Image",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1522;723:36080;131224:172906;131224:154861",
+          "name": "Image",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 16,
+            "height": 16
+          },
+          "images": [
+            {
+              "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "c7ff379dc0b26ddaa9f7718c13da973b6708702a"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1522;723:36081",
+          "name": "Label",
+          "type": "TEXT",
+          "rect": {
+            "x": 36,
+            "y": 16,
+            "width": 59,
+            "height": 20
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.10000000149011612,
+                "g": 0.10000000149011612,
+                "b": 0.10000000149011612
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "text": "imdb.com",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400,
+              "wdth": 100
+            }
+          },
+          "fontSize": 13,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2608:1815;2606:1523",
+          "name": "4*4",
+          "type": "FRAME",
+          "rect": {
+            "x": 312,
+            "y": 0,
+            "width": 312,
+            "height": 204
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1524",
+          "name": "4*4",
+          "type": "FRAME",
+          "rect": {
+            "x": 624,
+            "y": 0,
+            "width": 312,
+            "height": 204
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1525",
+          "name": "4*4",
+          "type": "FRAME",
+          "rect": {
+            "x": 936,
+            "y": 0,
+            "width": 312,
+            "height": 204
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1526",
+          "name": "4*4",
+          "type": "FRAME",
+          "rect": {
+            "x": 1248,
+            "y": 0,
+            "width": 312,
+            "height": 204
+          },
+          "images": [
+            {
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+              "scaleMode": "FILL"
+            }
+          ],
+          "fills": [
+            {
+              "type": "IMAGE",
+              "opacity": 1,
+              "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe"
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1527",
+          "name": "overlay",
+          "type": "FRAME",
+          "rect": {
+            "x": 1248,
+            "y": 0,
+            "width": 312,
+            "height": 204
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 0.6000000238418579
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1528",
+          "name": "link container",
+          "type": "FRAME",
+          "rect": {
+            "x": 1248,
+            "y": 94,
+            "width": 312,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1529",
+          "name": "See more",
+          "type": "TEXT",
+          "rect": {
+            "x": 1370,
+            "y": 95.5,
+            "width": 48,
+            "height": 13
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "text": "See more",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 11,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 13
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2608:1815;2606:1530",
+          "name": "Open",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 1422,
+            "y": 94,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1530;116087:61",
+          "name": "Shape",
+          "type": "VECTOR",
+          "rect": {
+            "x": 1424,
+            "y": 96,
+            "width": 12,
+            "height": 12
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            },
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1532",
+          "name": "Footer",
+          "type": "FRAME",
+          "rect": {
+            "x": 0,
+            "y": 114,
+            "width": 312,
+            "height": 90
+          },
+          "fills": [
+            {
+              "type": "GRADIENT_LINEAR",
+              "opacity": 1,
+              "gradientStops": [
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                  },
+                  "position": 0,
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:eb132968b7750d5327176822e3ade42b3928599b/101614:442"
+                    }
+                  }
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0.10000000149011612
+                  },
+                  "position": 0.17416369915008545,
+                  "boundVariables": {}
+                },
+                {
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0.6000000238418579
+                  },
+                  "position": 0.5645150542259216,
+                  "boundVariables": {}
+                }
+              ],
+              "gradientTransform": [
+                [
+                  -5.159029670478987e-13,
+                  1,
+                  2.782077682377676e-13
+                ],
+                [
+                  -10.562500953674316,
+                  -9.167780467070341e-14,
+                  6.362581729888916
+                ]
+              ]
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0,
+          "effects": [
+            {
+              "type": "BACKGROUND_BLUR",
+              "visible": true,
+              "radius": 5,
+              "boundVariables": {},
+              "blurType": "PROGRESSIVE",
+              "startRadius": 0,
+              "startOffset": {
+                "x": 0.5,
+                "y": 0
+              },
+              "endOffset": {
+                "x": 0.5,
+                "y": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "I2608:1815;2606:1533",
+          "name": "Frame 2147234157",
+          "type": "FRAME",
+          "rect": {
+            "x": 24,
+            "y": 138,
+            "width": 264,
+            "height": 28
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1534",
+          "name": "Personable Tom at age 60s",
+          "type": "TEXT",
+          "rect": {
+            "x": 24,
+            "y": 144,
+            "width": 192,
+            "height": 22
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "text": "Personable Tom at age 60s",
+          "fontName": {
+            "family": "Roboto",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "wdth": 100
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 22
+          },
+          "textAlignHorizontal": "LEFT"
+        },
+        {
+          "id": "I2608:1815;2606:1535",
+          "name": "pagination",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 224,
+            "y": 138,
+            "width": 64,
+            "height": 28
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1535;62893:104417",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 224,
+            "y": 138,
+            "width": 28,
+            "height": 28
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.1725490242242813,
+                "g": 0.20392157137393951,
+                "b": 0.3490196168422699
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 0.30000001192092896,
+          "cornerRadius": 4
+        },
+        {
+          "id": "I2608:1815;2606:1535;62893:104417;127901:96749",
+          "name": "nestedContainer",
+          "type": "FRAME",
+          "rect": {
+            "x": 228,
+            "y": 144,
+            "width": 20,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1535;62893:104417;127901:101300",
+          "name": "iconStartContainer",
+          "type": "FRAME",
+          "rect": {
+            "x": 230,
+            "y": 144,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1535;62893:104417;21527:15224",
+          "name": "iconStart",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 230,
+            "y": 144,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1535;62893:104417;21527:15224;115630:166841",
+          "name": "ChevronLeft",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 230,
+            "y": 144,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1535;62893:104417;21527:15224;115630:166841;115444:27734",
+          "name": "Shape",
+          "type": "VECTOR",
+          "rect": {
+            "x": 235,
+            "y": 147,
+            "width": 5.500002861022949,
+            "height": 10.000006675720215
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8509804010391235,
+                "g": 0.8745098114013672,
+                "b": 0.9843137264251709
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1535;62893:104419",
+          "name": "Button",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 260,
+            "y": 138,
+            "width": 28,
+            "height": 28
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.1725490242242813,
+                "g": 0.20392157137393951,
+                "b": 0.3490196168422699
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 4
+        },
+        {
+          "id": "I2608:1815;2606:1535;62893:104419;127901:96681",
+          "name": "nestedContainer",
+          "type": "FRAME",
+          "rect": {
+            "x": 264,
+            "y": 144,
+            "width": 20,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1535;62893:104419;127901:101232",
+          "name": "iconStartContainer",
+          "type": "FRAME",
+          "rect": {
+            "x": 266,
+            "y": 144,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1535;62893:104419;21527:15208",
+          "name": "iconStart",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 266,
+            "y": 144,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1535;62893:104419;21527:15208;115630:166841",
+          "name": "ChevronRight",
+          "type": "INSTANCE",
+          "rect": {
+            "x": 266,
+            "y": 144,
+            "width": 16,
+            "height": 16
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1535;62893:104419;21527:15208;115630:166841;115444:27724",
+          "name": "Shape",
+          "type": "VECTOR",
+          "rect": {
+            "x": 271.5,
+            "y": 147,
+            "width": 5.500002861022949,
+            "height": 10.000006675720215
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8509804010391235,
+                "g": 0.8745098114013672,
+                "b": 0.9843137264251709
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1536",
+          "name": "Pagination Container",
+          "type": "FRAME",
+          "rect": {
+            "x": 24,
+            "y": 174,
+            "width": 264,
+            "height": 6
+          },
+          "fills": [],
+          "opacity": 1,
+          "cornerRadius": 0
+        },
+        {
+          "id": "I2608:1815;2606:1537",
+          "name": "Rectangle 34645892",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 24,
+            "y": 174,
+            "width": 46.400001525878906,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        },
+        {
+          "id": "I2608:1815;2606:1538",
+          "name": "Rectangle 34645893",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 78.4000244140625,
+            "y": 174,
+            "width": 46.400001525878906,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 0.30000001192092896
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        },
+        {
+          "id": "I2608:1815;2606:1539",
+          "name": "Rectangle 34645890",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 132.79998779296875,
+            "y": 174,
+            "width": 46.40000534057617,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 0.30000001192092896
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        },
+        {
+          "id": "I2608:1815;2606:1540",
+          "name": "Rectangle 34645895",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 187.20001220703125,
+            "y": 174,
+            "width": 46.400001525878906,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 0.30000001192092896
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        },
+        {
+          "id": "I2608:1815;2606:1541",
+          "name": "Rectangle 34645896",
+          "type": "RECTANGLE",
+          "rect": {
+            "x": 241.5999755859375,
+            "y": 174,
+            "width": 46.400001525878906,
+            "height": 6
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 0.30000001192092896
+            }
+          ],
+          "opacity": 1,
+          "cornerRadius": 9999
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "./figma/slideshow/chevron-left-blue.svg",
+      "bytes": 552,
+      "sha256": "33556b30dc1524218db8e1af12ae18aed5b5573b7686e19fdb97650a18719377",
+      "reuseExisting": false,
+      "rootDimensions": {
+        "width": "6.875",
+        "height": "12.5",
+        "viewBox": "0 0 6.875 12.5"
+      }
+    },
+    {
+      "path": "./figma/slideshow/chevron-left-white.svg",
+      "bytes": 540,
+      "sha256": "5699e6c54eddcc45baa04bdf3fb16fd59a97ff5202382cf806757a5f4b1aa210",
+      "reuseExisting": false,
+      "rootDimensions": {
+        "width": "5.5",
+        "height": "10",
+        "viewBox": "0 0 5.5 10"
+      }
+    },
+    {
+      "path": "./figma/slideshow/chevron-right-blue.svg",
+      "bytes": 557,
+      "sha256": "929d61b8258b57aaae3f17f95affc01a09904fe3d48d13e3b66cb0044be18231",
+      "reuseExisting": false,
+      "rootDimensions": {
+        "width": "6.875",
+        "height": "12.5",
+        "viewBox": "0 0 6.875 12.5"
+      }
+    },
+    {
+      "path": "./figma/slideshow/chevron-right-white.svg",
+      "bytes": 546,
+      "sha256": "cbd8f6587e963719653518e9d9adb51273e7e84d722c27e5d10aef962914f5cb",
+      "reuseExisting": false,
+      "rootDimensions": {
+        "width": "5.5",
+        "height": "10",
+        "viewBox": "0 0 5.5 10"
+      }
+    },
+    {
+      "path": "./figma/slideshow/fonts/LICENSE-Alice.txt",
+      "bytes": 4314,
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+      "reuseExisting": false
+    },
+    {
+      "path": "./figma/slideshow/fonts/alice-400.woff2",
+      "bytes": 25212,
+      "sha256": "73f21482958d69c7fb4481ea9f7741fe64be178081ef506805bd7bbd67cbff70",
+      "reuseExisting": false
+    },
+    {
+      "path": "./figma/slideshow/imdb-favicon.png",
+      "bytes": 646,
+      "sha256": "0d6537d0f6782be87b149b5cfb8c81aa62c616ce51d6fb1b0ed0112cf72ef483",
+      "reuseExisting": false,
+      "pixelDimensions": [
+        16,
+        16
+      ]
+    },
+    {
+      "path": "./figma/slideshow/open-external-white.svg",
+      "bytes": 1171,
+      "sha256": "7929157f55e285ce6f6ec76e471a1742acd53b6bc8ac325f6081ea008e4efbb7",
+      "reuseExisting": false,
+      "rootDimensions": {
+        "width": "12",
+        "height": "12",
+        "viewBox": "0 0 12 12"
+      }
+    },
+    {
+      "path": "./figma/fy25/windows-bloom.png",
+      "bytes": 297868,
+      "sha256": "3416a4dd979e41ce3c9e70e98bafcc71bce47e70ebddb0d34a22d0887e8249a7",
+      "reuseExisting": true,
+      "pixelDimensions": [
+        640,
+        360
+      ]
+    },
+    {
+      "path": "./figma/icon/badge-multi-image.svg",
+      "bytes": 1158,
+      "sha256": "2fabcf9c3bc84006e9c94ad0ce2cd4309f150a9aa267a6c6e7835d05160fa6c2",
+      "reuseExisting": true,
+      "rootDimensions": {
+        "width": "8.99995",
+        "height": "9",
+        "viewBox": "0 0 8.99995 9"
+      }
+    },
+    {
+      "path": "./figma/fy25/fonts/roboto-400.woff2",
+      "bytes": 21884,
+      "sha256": "425c0713a8176f92273d378599c7eac57de7fafabd4bd0ed457b70eb8f80d371",
+      "reuseExisting": true
+    },
+    {
+      "path": "./figma/fy25/fonts/roboto-700.woff2",
+      "bytes": 22240,
+      "sha256": "b9d66d1708156f765ada51939bc24ed259dafa69eb631b36e443680fe9e15879",
+      "reuseExisting": true
+    },
+    {
+      "path": "./figma/slideshow/chevron-left-soft.svg",
+      "bytes": 542,
+      "sha256": "5011cc9f3cc931d776c2e065cf3cd833f00012839ff94bb1e0d52fec1297e377",
+      "reuseExisting": false,
+      "rootDimensions": {
+        "width": "5.5",
+        "height": "10",
+        "viewBox": "0 0 5.5 10"
+      },
+      "sourceContext": "update-2026-11-11/chevron-left-soft-asset-context.txt"
+    },
+    {
+      "path": "./figma/slideshow/chevron-right-soft.svg",
+      "bytes": 548,
+      "sha256": "e7707f49bde69ee034480cc9fcbc33f6cfd483d176d32e440e18a21b8b913c5a",
+      "reuseExisting": false,
+      "rootDimensions": {
+        "width": "5.5",
+        "height": "10",
+        "viewBox": "0 0 5.5 10"
+      },
+      "sourceContext": "update-2026-11-11/chevron-right-soft-asset-context.txt"
+    }
+  ]
+}
