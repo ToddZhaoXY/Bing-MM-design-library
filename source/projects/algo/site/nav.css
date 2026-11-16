@@ -1,0 +1,35 @@
+/* Mainline Nav uses the shared result typography and documentation shell. */
+.nav-result{max-width:690px}
+.nav-result .source,.nav-result .source small{color:var(--algo-tertiary);font:400 14px/22px Arial,sans-serif}
+.nav-result .result-title{max-width:none}
+.nav-links{margin-top:16px;border-top:1px solid var(--border)}
+.nav-row{position:relative;padding:4px 0;border-bottom:1px solid var(--border)}
+.nav-deeplink{display:flex;align-items:center;height:52px;padding:0 48px 0 20px;min-width:0;border-radius:8px;color:var(--purple);font:400 18px/24px Arial,sans-serif;text-decoration:none}
+.nav-deeplink>span{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nav-deeplink:hover,.nav-row:has(.nav-deeplink:focus-visible) .nav-deeplink,.nav-result[data-state=hover] .nav-row:first-child .nav-deeplink{background:var(--nav-hover,#e8f1f8)}
+.nav-deeplink:hover>span,.nav-result[data-state=hover] .nav-row:first-child .nav-deeplink>span{text-decoration:underline}
+.nav-result[data-state=hover] .result-title{text-decoration:none}
+.nav-result[data-state=hover] .result-title:hover{text-decoration:underline}
+.nav-result .nav-deeplink.is-visited,.nav-result[data-state=visited] .nav-row:first-child .nav-deeplink,.nav-result .nav-more.is-visited{color:var(--visited)}
+.nav-result .part-navChevron{position:absolute;top:50%;right:20px;transform:translateY(-50%);width:16px;height:16px;pointer-events:none;color:var(--algo-secondary)}
+.nav-chevron{display:block;width:16px;height:16px}
+.nav-result .part-navChevron>.pin{top:-29px;left:-3px;pointer-events:auto}
+.nav-result .part-navItem>.pin{top:15px;left:-30px}
+.nav-result .part-navMore>.pin{top:14px;left:-30px}
+.nav-result .pin{z-index:2}
+.nav-more{display:block;width:fit-content;max-width:100%;padding:16px 20px 0;font:400 12px/18px Arial,sans-serif;color:var(--purple);text-decoration:none}
+.nav-more:hover{text-decoration:underline}
+body[data-component=nav] .controls label:has(#stateControl){padding-top:0}
+body[data-component=nav] .stage{align-self:start;min-height:0;justify-content:center;padding:0}
+body[data-component=nav] #resultMount{max-width:690px;margin-inline:auto;padding:0}
+body[data-component=nav] .anatomy-visual{max-width:780px;padding:0 30px}
+body[data-component=nav] #anatomyMount{padding:30px 0 0}
+.nav-results-count{display:flex;align-items:center;gap:12px;padding:24px clamp(24px,5.556cqw,80px) 0 clamp(24px,11.111cqw,160px);font:400 14px/22px Arial,sans-serif;color:var(--muted)}
+.nav-result-source-icons{display:flex;align-items:center;padding-left:4px}
+.nav-result-source-icons img{box-sizing:content-box;display:block;padding:4px;margin-left:-4px;border:1px solid #d6e8ff;border-radius:50%;background:#e2eeff;object-fit:contain}
+.search-page[data-variant=nav] .support-result{margin-top:32px}
+.search-page[data-variant=nav] #exampleMount>.algo{padding-top:0;padding-bottom:0}
+.search-page[data-variant=nav] .search-layout{padding-top:40px}
+:root[data-theme=dark]{--nav-hover:#283e4a}
+@container documentation (max-width:850px){body[data-component=nav] .anatomy-visual{padding-inline:30px}}
+@container documentation (max-width:500px){.nav-deeplink{padding-left:16px}.nav-more{padding-left:16px}.nav-results-count{padding-inline:24px}}

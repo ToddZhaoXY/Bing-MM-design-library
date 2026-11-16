@@ -1,0 +1,113 @@
+/* Fluid compositions derived from the supplied Desktop/Mobile designs.
+   Reference sizes retain their source tokens; intermediate widths reflow by
+   the space available to the component, independently of the library shell. */
+.algo{container:mainline / inline-size;min-width:0}
+.cell-source-preview.algo{container-type:normal}
+.cell-deeplink-preview.algo{container-name:mainline cell-deeplink}
+:is(.sectional-rich,.sectional-expansion,.sectional-nav){min-width:0;max-width:1200px}
+:is(.sectional-rich-grid,.sectional-images,.se-grid,.se-cards,.sn-grid)>*{min-width:0}
+.sectional-nav{display:grid;grid-template-columns:minmax(0,1fr)}
+.sectional-nav:not(.sectional-mobile)>.sn-grid{row-gap:0}
+.sectional-nav:not(.sectional-mobile)>.sn-grid>.part-snRail{grid-column:2;grid-row:1}
+.sectional-nav:not(.sectional-mobile)>.sn-grid>.part-snMore{grid-column:1/-1;grid-row:2}
+.mm-image-algo:not(.mm-mobile){display:grid;grid-template-columns:minmax(0,1fr) auto;row-gap:0}
+
+@container mainline (max-width:500px){
+ .algo:not(.algo-mobile) .facts{grid-template-columns:minmax(0,1fr);row-gap:4px}
+ .mm-image-copy:has(+.part-media .mm-images-2),
+ .mm-image-copy:has(+.part-media .mm-images-3),
+ .mm-image-copy:has(+.mm-images-2),
+ .mm-image-copy:has(+.mm-images-3){display:contents}
+ .mm-image-algo:not(.mm-mobile):has(.mm-images-2,.mm-images-3) :is(.attribution,.part-attribution,.part-title,.result-title,.part-snippet,.snippet){grid-column:1/-1}
+ .mm-image-algo:not(.mm-mobile):has(.mm-images-2,.mm-images-3) :is(.attribution,.part-attribution){grid-row:1}
+ .mm-image-algo:not(.mm-mobile):has(.mm-images-2,.mm-images-3) :is(.part-title,.result-title){grid-row:2}
+ .mm-image-algo:not(.mm-mobile):has(.mm-images-2,.mm-images-3)>.part-media,
+ .mm-image-algo:not(.mm-mobile)>.mm-images:is(.mm-images-2,.mm-images-3){grid-column:1/-1;grid-row:3}
+ .mm-image-algo:not(.mm-mobile):has(.mm-images-2,.mm-images-3) :is(.part-snippet,.snippet){grid-row:4}
+ .mm-image-algo:not(.mm-mobile) :is(.mm-images-2,.mm-images-3){width:100%;height:auto;aspect-ratio:342/200;border-radius:24px}
+ .mm-image-algo:not(.mm-mobile) .mm-images-1{width:88px;height:88px}
+ .mm-video-row{flex-direction:column;gap:12px}
+ .mm-video-row>.part-media{width:100%}
+ .mm-video-row .mm-video{width:100%;height:auto;aspect-ratio:16/9}
+ .mm-video-copy{gap:12px}
+ .mm-video-algo:not(.mm-mobile) .mm-metadata{flex-wrap:wrap;gap:4px 16px}
+ .expansion-main{gap:16px}
+ .expansion-main>.part-mainMedia .expansion-thumbnail{width:88px;height:88px}
+ .expansion-body-content{gap:16px;align-items:start}
+ .expansion-body :is(.expansion-keyword,.expansion-sentence){overflow-wrap:anywhere}
+}
+
+/* A native Mobile specimen remains 374px wide where space allows. Below that
+   reference width only geometry changes; its source type scale is retained. */
+@container mainline (max-width:689px){
+ .rich-carousel .rich-next{right:0}
+ .rich-carousel .rich-prev{left:0}
+}
+@container mainline (max-width:341px){
+ .mainline-mobile:not(.cell-deeplink-preview) .expansion-body-copy>.expansion-body-tail{width:100%;max-width:100%;height:auto;white-space:normal;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+ .mm-mobile .mm-metadata{flex-wrap:wrap;gap:4px 12px}
+ .algo .facts{grid-template-columns:minmax(0,1fr)}
+ .algo .result-list li{column-gap:4px}
+ .nav-more a{overflow-wrap:anywhere}
+}
+@container cell-deeplink (max-width:309px){
+ .mainline-mobile .expansion-body-copy>.expansion-body-tail{width:100%;max-width:100%;height:auto;white-space:normal;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+}
+
+@container sectional-rich (max-width:979px){
+ .sectional-rich:not(.sectional-mobile) .sectional-rich-grid{grid-template-columns:minmax(0,1fr)}
+ .sectional-rich:not(.sectional-mobile) .sectional-primary{height:auto;min-height:200px}
+}
+@container sectional-rich (max-width:479px){
+ body:not([data-device=mobile]) .sectional-images{gap:16px}
+ .sectional-card-title{left:16px;right:16px;white-space:normal;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+ .sectional-card-attribution{left:16px;right:16px;bottom:16px}
+}
+
+@container sectional-expansion (max-width:979px){
+ .sectional-expansion:not(.sectional-mobile) .se-grid{grid-template-columns:minmax(0,1fr)}
+ .sectional-expansion:not(.sectional-mobile) .se-card-slot{height:auto}
+ .sectional-expansion:not(.sectional-mobile) .se-card{position:relative;inset:auto;height:auto}
+}
+@container sectional-expansion (max-width:663px){
+ .sectional-expansion:not(.sectional-mobile) .se-cards{grid-template-columns:minmax(0,1fr)}
+ .sectional-expansion:not(.sectional-mobile) .se-card-image{order:-1}
+ .sectional-expansion:not(.sectional-mobile) .se-primary.algo{min-height:0;gap:16px}
+ .sectional-expansion:not(.sectional-mobile) .se-action{margin-top:0;max-width:100%;height:auto;min-height:38px}
+}
+@container sectional-expansion (max-width:341px){
+ .se-primary-content{gap:12px}
+ .se-primary-content .se-main-image{width:64px;height:64px}
+ .se-action{max-width:100%;white-space:normal}
+}
+
+@container sectional-nav (max-width:979px){
+ .sectional-nav:not(.sectional-mobile)>.sn-grid{grid-template-columns:minmax(0,1fr)}
+ .sectional-nav:not(.sectional-mobile)>.sn-grid>.part-snMore{grid-column:1;grid-row:2}
+ .sectional-nav:not(.sectional-mobile)>.sn-grid>.part-snRail{grid-column:1;grid-row:3;margin-top:24px}
+ .sectional-nav:not(.sectional-mobile) .sn-primary{max-width:none}
+ .sectional-nav:not(.sectional-mobile) .sn-rail{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .sectional-nav:not(.sectional-mobile) .sn-rail-heading{grid-column:1/-1}
+}
+@container sectional-nav (max-width:663px){
+ .sectional-nav:not(.sectional-mobile) .sn-rail{grid-template-columns:minmax(0,1fr)}
+}
+@container sectional-nav (max-width:341px){
+ .sn-card:not(.sn-download) .sn-card-image{width:88px;height:88px}
+ .sn-card-action{max-width:100%;height:auto;white-space:normal}
+}
+
+/* Standalone Cells use their own container so the same card can be embedded
+   without inheriting the documentation page's viewport breakpoints. */
+.cell-preview:is(.sectional-nav,.sectional-rich,.sectional-expansion){container:cell-preview / inline-size}
+@container cell-preview (max-width:319px){
+ .sn-card:not(.sn-download) .sn-card-image{width:88px;height:88px}
+ .sn-card-action{max-width:100%;white-space:normal}
+}
+
+@container serp-preview (max-width:500px){
+ .sn-stock-price{white-space:normal;overflow-wrap:anywhere}
+ .sn-stock-facts,.sn-stock-middle{grid-template-columns:minmax(0,1fr)}
+ .sn-stock-periods{flex-wrap:wrap;margin-block:24px}
+ .sn-stock-facts span{min-width:0;flex-wrap:wrap}
+}

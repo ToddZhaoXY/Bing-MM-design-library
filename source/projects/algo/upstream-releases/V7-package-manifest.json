@@ -1,0 +1,1084 @@
+{
+  "version": "V7",
+  "date": "2026-11-12",
+  "archive": "Algo-Design-Library-V7.zip",
+  "sha256": "2803909eb341f9a148eb5f265f1cc364d3f6f34449e34bddb131ff7d5574aca7",
+  "bytes": 31318562,
+  "file_count": 268,
+  "checks": "All top-level JS syntax and seven regression scripts passed; ZIP CRC and exact-byte comparison passed",
+  "visual_qa": "Full Figma visual acceptance incomplete; recent CSS refinements not visually verified",
+  "files": [
+    {
+      "path": "algo-block.css",
+      "sha256": "a24a4e41ecd99b4fd719a6f538af82c8b6679b31a9c668ef5a8e8d672ec32b93"
+    },
+    {
+      "path": "algo-block.html",
+      "sha256": "8e5b6f185ce0796af8aa9c663f8dc2c5817bacf423d21b1ed961f619ae2bc97d"
+    },
+    {
+      "path": "algo-cells.js",
+      "sha256": "b38bb87a727bb7fb0fde9ad87f56ad1c8961fe6c73ad53f415996f8dcda9bf3b"
+    },
+    {
+      "path": "algo-mobile.css",
+      "sha256": "d802573de596992207102dd8a3ff7c3c4b86a199805b7c7434817aa4d4d2e71d"
+    },
+    {
+      "path": "algo-mobile.js",
+      "sha256": "079f4bf649a110f44c50b32ce68e57840187bfa9dcad3eb13fff53253c9362ed"
+    },
+    {
+      "path": "app.js",
+      "sha256": "e4c8cef4868121da0652c89577879d464f4cc1b3babb78c7ce7ac21d01720dea"
+    },
+    {
+      "path": "cells-action-card.html",
+      "sha256": "8a28c70a262b3e6429f201d6fa12316e34a3deef2e602f538ccdb715530bc8c2"
+    },
+    {
+      "path": "cells-article-card.html",
+      "sha256": "325780278d4ddb3679369e524259f9e6749efef70cd4061928f2ec0024a2e8b4"
+    },
+    {
+      "path": "cells-attribution.html",
+      "sha256": "b6926ed8be2c1e381a92746085dff689bef0840b2050fb9dedcd14c00de14ecb"
+    },
+    {
+      "path": "cells-candidates.js",
+      "sha256": "fe1c4b39e0708e57fb85391c7e67103985c1511b068a7eff2604c9c8a5ee2c15"
+    },
+    {
+      "path": "cells-carousel-navigation.html",
+      "sha256": "9b0994018d5378f0d8a8f56f29c52ae1af12a987f420280d2b03c5a32d28e35a"
+    },
+    {
+      "path": "cells-deeplink.html",
+      "sha256": "122de67830826cf545f9e555d85894333dd81e875f6af075c00d8dc626cdd3e4"
+    },
+    {
+      "path": "cells-download-card.html",
+      "sha256": "54f6e671832816a200a5eb6d18ca01a3403d266f3246a95297b0d0dadf0a2cae"
+    },
+    {
+      "path": "cells-favicon.html",
+      "sha256": "a5068dda7d4851e328d17c3ee1afbe61097f7ec800b978fb0037d21c3fcfcd3e"
+    },
+    {
+      "path": "cells-nav-link-item.html",
+      "sha256": "2683a5e5cbae92e899ce96d7439f409086cb5122678979e2c1106bae5b31bde8"
+    },
+    {
+      "path": "cells-page.js",
+      "sha256": "d33e417cf6d169d09335947962caf96628b586d2fa669df968da547b75cc43ff"
+    },
+    {
+      "path": "cells-result-snippet.html",
+      "sha256": "0f6617fc1508bbd2860af83673150d26a2bcc032a31994f273016c9a5b39739a"
+    },
+    {
+      "path": "cells-result-title.html",
+      "sha256": "0f6617fc1508bbd2860af83673150d26a2bcc032a31994f273016c9a5b39739a"
+    },
+    {
+      "path": "cells-rich-content-item.html",
+      "sha256": "9819b569c5165c51036477b03582b1d86e09ba65e3680d14fcd78e3d783c3de0"
+    },
+    {
+      "path": "cells-wiki-fact-item.html",
+      "sha256": "54cad9a781bdb30dbb3eba5716492228f8d8911618d186035a033b6d5ee4c0aa"
+    },
+    {
+      "path": "cells.css",
+      "sha256": "df86121253100e9f3586ed553fddd2f2dd02f1d97b619446943f20ae46b61e21"
+    },
+    {
+      "path": "cells.html",
+      "sha256": "1fd9e653d89360943e2b36b24635acff224ce9bf6e23aebb1d0a27815c51eab3"
+    },
+    {
+      "path": "desktop-figma.css",
+      "sha256": "54493fe1fadfe9f053c45dd7064c55a32a7ca08c2fe0bf1d307aa325b668e0fe"
+    },
+    {
+      "path": "expansion-example.js",
+      "sha256": "0a655f20c42ebbbd78824f8947f891208eb26e58d1218c18f6657043d7e65433"
+    },
+    {
+      "path": "expansion.css",
+      "sha256": "614fa2e56ca87c8ed6100ff0103447daf57ffc60e9b5a9e1e79dfe1bc76d54f0"
+    },
+    {
+      "path": "expansion.html",
+      "sha256": "7b8e14a72a8d6a86ddc3ef2bea875b025f6ede107281eb40a7eb6f4a0952c1ea"
+    },
+    {
+      "path": "expansion.js",
+      "sha256": "f29af8a0de23e23e0b1e3b2c654b062a5932b473e1002a533e3439bf50b43dbb"
+    },
+    {
+      "path": "figma-fonts.css",
+      "sha256": "0b9513a11584463a30cdb7ad7f0cb962af1354bf9b67c5715ea048565db072e5"
+    },
+    {
+      "path": "index.html",
+      "sha256": "b39eaf740823fb3968715c8a22252233dece0abae077e6f4bca5eade606841ee"
+    },
+    {
+      "path": "library-navigation.js",
+      "sha256": "a8e22cb23be45893f6c80751da2bbc39bc02a1118ea578727e99a60516f85eed"
+    },
+    {
+      "path": "library-overview.css",
+      "sha256": "6e080fd2c35df59127ac340f300240b6a8517e205f2a0d8963d2fc51c0b7b273"
+    },
+    {
+      "path": "library-properties.js",
+      "sha256": "3e811cc8a11463f9c9b237b7f26f4c6475a093b176b93c03921630353760f4b7"
+    },
+    {
+      "path": "mainline-mobile.css",
+      "sha256": "d6767ec16a3f9c59746d98448cb86614c5005ffabf7f3975a52102dfc5209bf9"
+    },
+    {
+      "path": "mainline-mobile.js",
+      "sha256": "f7030bad4fefa904c78da256174a8ea5dafe744cf0bfe737bd24a466c1315b75"
+    },
+    {
+      "path": "mm-algo.css",
+      "sha256": "59c39ea359326a4767275dd9ab3a7ccd505a5449cb793d592c4c983f9bbce223"
+    },
+    {
+      "path": "mm-algo.html",
+      "sha256": "10042d5c48b10bea040fd0506b7256ce65bf1821a5faab7057a5f5e412d06689"
+    },
+    {
+      "path": "mm-algo.js",
+      "sha256": "45e925461e24904c04406a6340da207912d2abe9c6910451d0559ca56fa78b6b"
+    },
+    {
+      "path": "mm-mobile.css",
+      "sha256": "644c65e64d8eeee2cb0383fe9a116617de2160c9c76bbe9a2306fa0423b29fe5"
+    },
+    {
+      "path": "mm-mobile.js",
+      "sha256": "e90e94678079d6188acfa4b78f35c2525960d6dfbc9b69865f1634c397d3ab7a"
+    },
+    {
+      "path": "mobile-figma.css",
+      "sha256": "6768c7111629f59672b00d072be68f1dc14e4104b9b7002cdf1c576f0be85918"
+    },
+    {
+      "path": "nav.css",
+      "sha256": "110c01a394676b39a1fe45135a119fff0809e4c245f98b23645d02a12bffeb59"
+    },
+    {
+      "path": "nav.html",
+      "sha256": "12c5e6276f045997aeae4549bd5dd21d1cbdf2a11cf5a5e28a3f703be9267d04"
+    },
+    {
+      "path": "nav.js",
+      "sha256": "36cf7d180b7d76a0e03ef360b80a30752797101e26be576f05c804e5bb37c26b"
+    },
+    {
+      "path": "public/assets/expansion/height.png",
+      "sha256": "e830c9d5f1ef6a55dad6f3713eea79215e9f8bc32e43b3c0ace4069671d08d70"
+    },
+    {
+      "path": "public/assets/expansion/history.png",
+      "sha256": "11f8757e5e30bda08037c9417f0cad70e9c75ec44d41c5beba17baee0ab480d0"
+    },
+    {
+      "path": "public/assets/expansion/location.png",
+      "sha256": "e31318f6d90cd693ff5e440e47292e00227e5e02ef1fe87c1a1d1a7271048410"
+    },
+    {
+      "path": "public/assets/fonts/roboto/Roboto-Bold.ttf",
+      "sha256": "61f89f8db49261c2f6106e8dccc35df7b2f7ed909020db40a3fc905e95f99334"
+    },
+    {
+      "path": "public/assets/fonts/roboto/Roboto-Regular.ttf",
+      "sha256": "56a45233d29f11b4dfb86d248e921939d115778f87325e7ae8cc108383d6664d"
+    },
+    {
+      "path": "public/assets/fonts/roboto/Roboto-Variable.ttf",
+      "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
+    },
+    {
+      "path": "public/assets/fonts/roboto/SOURCES.md",
+      "sha256": "c4b2b0212633dea9966416d253690a541573341d06920494bb31f0c98faaa593"
+    },
+    {
+      "path": "public/assets/fonts/source-sans-pro/OFL.txt",
+      "sha256": "956019dbe7ec5378f1cee8c524cf02f539356e254d97d3c40e077daa591f97e0"
+    },
+    {
+      "path": "public/assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf",
+      "sha256": "486cf9993c993e04b4fa7bd20de6c1af0cff6367994e22081dc3ddca0eb9977e"
+    },
+    {
+      "path": "public/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf",
+      "sha256": "869f06e42d1a755a32f253a73f81235925cf27b686ba7702ce1f03fcc7738631"
+    },
+    {
+      "path": "public/assets/fonts/source-sans-pro/SourceSansPro-Semibold.ttf",
+      "sha256": "4385dc332185ab9396fc2e2f36409f207cac0fbeeeb43aae4a4fc3ad46799ef5"
+    },
+    {
+      "path": "public/assets/harvard-container.png",
+      "sha256": "165ab2f0db296e1af55b682f724b710117b95fa4ce4583032570b5e087af9c29"
+    },
+    {
+      "path": "public/assets/mm/MOBILE-SOURCES.md",
+      "sha256": "5b524d6171e50bd6b656f1cbf827b46b5edad5722ccb03009383619246f02a85"
+    },
+    {
+      "path": "public/assets/mm/aboutchina.png",
+      "sha256": "aff7e46de32350c33aa37fb93f456298b96ae5e655d7ac9f80a69c6da006fdd6"
+    },
+    {
+      "path": "public/assets/mm/avatar-characters.png",
+      "sha256": "2988e6b02afc0fdf9686d9ca505dd6e983ce894c2a4963fb00c6bea568bc1f8a"
+    },
+    {
+      "path": "public/assets/mm/avatar-landscape.png",
+      "sha256": "f330f36ca515f41f7f25775bd1fff1858e90cbf1ea235297dfd6393f10a00768"
+    },
+    {
+      "path": "public/assets/mm/avatar-pandora.png",
+      "sha256": "d111f347cc340ccd4eae5323b9e3ea5900200390485edfe7b05fd8b842542349"
+    },
+    {
+      "path": "public/assets/mm/avatar.png",
+      "sha256": "32c1cd0eb633e1783dab99b81844dea68669748621240b0bde2b802b818ae447"
+    },
+    {
+      "path": "public/assets/mm/britannica.png",
+      "sha256": "c434d60b2865f5a6aedc83619dfb4b9c8e32d1b2c487d75739aecf3c37b1e9c0"
+    },
+    {
+      "path": "public/assets/mm/china-highlights.png",
+      "sha256": "837f8820c31ec70a01e63fb9807b48d0567338e38a37ecdac4bd58230dd50d11"
+    },
+    {
+      "path": "public/assets/mm/container-1.png",
+      "sha256": "d2de2844a0f3b15262fc8c391a11da10475edcf27b372c27d57f0cdcb2f8fb07"
+    },
+    {
+      "path": "public/assets/mm/container-2.png",
+      "sha256": "d4903b4f40d142ac26282bac177608f6e90ef4b2c2bc67aaa1306006a02988d9"
+    },
+    {
+      "path": "public/assets/mm/container-3.png",
+      "sha256": "da6836a5254cd782957b01769cd68aabbfe1b6b640946d1d0febaa2e124ba4bf"
+    },
+    {
+      "path": "public/assets/mm/container-4.png",
+      "sha256": "7bf71dd537de02284fa7e06722bd37f4e347c4701c8836658c5df7baed10cad8"
+    },
+    {
+      "path": "public/assets/mm/container.png",
+      "sha256": "e2bc27638bfc32d36c5b639bf9eb713730a8eb4c34e497016e33fff7bda1432e"
+    },
+    {
+      "path": "public/assets/mm/eastchinatrip.png",
+      "sha256": "9eb9310a7aa93bb9a5e1e17561e43cd04400e39a54ac01d5286c890807f0fac4"
+    },
+    {
+      "path": "public/assets/mm/facebook.png",
+      "sha256": "4dcc6c59131774d58a0078b53e86ddc6f444f76b5693358cc494c43840b03db9"
+    },
+    {
+      "path": "public/assets/mm/frame-2147239417.png",
+      "sha256": "66b32b72a98f7b72043e84959937184f87642f2b6eaed4e440d32c7767c788fd"
+    },
+    {
+      "path": "public/assets/mm/frame-2147239418.png",
+      "sha256": "b36ad8e206f7dec32488db03ab772eebab88a9dc91c4105548e7a7ce4929d0f5"
+    },
+    {
+      "path": "public/assets/mm/frame-2147239419.png",
+      "sha256": "4b208678c99e358bd1acb825d15fe7f747ceb472c1f912811ed4c72f0606d9e3"
+    },
+    {
+      "path": "public/assets/mm/frame-631242.png",
+      "sha256": "2158a25a927ee6d7e53ed26d681ae4351b379947a2835d8539d9f905887594d1"
+    },
+    {
+      "path": "public/assets/mm/image-1.png",
+      "sha256": "20964c7f2ba300e5d16403321e520d9ea9ed85a6e9088d0654a401d215efe041"
+    },
+    {
+      "path": "public/assets/mm/image-2.png",
+      "sha256": "9a5f540a3b6f18c3271010c542500aba858e874c35d0955a6882bf93ebe47df9"
+    },
+    {
+      "path": "public/assets/mm/image-3.png",
+      "sha256": "2cf0ba1d821821f95c77733defd73f434ec990a689d55387495df209f7b85ba0"
+    },
+    {
+      "path": "public/assets/mm/image-4.png",
+      "sha256": "4627425436b6081ecca46969fc15474909e8065c4f7ba848a5bf52efb0a2801f"
+    },
+    {
+      "path": "public/assets/mm/image-5.png",
+      "sha256": "b0bae53959c63a1dc1e38e3e2b57d59d9f95b826d1db9a0c00ffd660893768fe"
+    },
+    {
+      "path": "public/assets/mm/image-6.png",
+      "sha256": "d2bee11381d68421197b570e4507fd0cfefd18e32cef25b33992d1d0014eebb4"
+    },
+    {
+      "path": "public/assets/mm/image-7.png",
+      "sha256": "fe4cd39c117a82d1b255072ec1f81af12442a1989891f882267accd1beac1c1d"
+    },
+    {
+      "path": "public/assets/mm/image-placeholder-square.png",
+      "sha256": "e29f7d908ddf449065c704222f8778ab489077a4805ad18e102256c7c1a2c5f3"
+    },
+    {
+      "path": "public/assets/mm/image.png",
+      "sha256": "8354d5d16769a1545971257d7a1a3165fac2829dff2ccbdab39ed8487fe3ec1a"
+    },
+    {
+      "path": "public/assets/mm/mobile.png",
+      "sha256": "7c19d4e0feac2d6079a79e42f260696f3ca680eed9907caffe9ff29f381d5014"
+    },
+    {
+      "path": "public/assets/mm/mountain-field-guide.png",
+      "sha256": "6060c17e77682de0dc77605ea3cd2a7e594bebe9c59b79a4f47ffff46da99e2d"
+    },
+    {
+      "path": "public/assets/mm/thumbnail-placeholder.png",
+      "sha256": "60d550c145cd92933d9b99db8a345a435fb7c7eb7fa60d6ca5f4383f1118186f"
+    },
+    {
+      "path": "public/assets/mm/tok-video-1.png",
+      "sha256": "afdd41c227d6ef817852e04573912a4077c79ed7ca0a8e09178a26b41b083ca2"
+    },
+    {
+      "path": "public/assets/mm/tok-video-2.png",
+      "sha256": "b4685ce75482c61ab454cee0ed1c768aeafb88b5ce0fb6411ea3eef80d3bba95"
+    },
+    {
+      "path": "public/assets/mm/tok-video-3.png",
+      "sha256": "7f7f45f9c87e53fb1a6267fe61c2b6e405a3167e716536f6cb178bad4653ec61"
+    },
+    {
+      "path": "public/assets/mm/tok-video-4.png",
+      "sha256": "d702b3b718953654e9b85e2594ac4d55c0c1febd82bcf0b73b84065b94fd5dae"
+    },
+    {
+      "path": "public/assets/mm/tok-video.png",
+      "sha256": "c3b8e9b32b2cc56e75541680c3525a12766fdadcb4d99d786c7f94cff3a6ce5f"
+    },
+    {
+      "path": "public/assets/mm/video-card.png",
+      "sha256": "9dde0decc23b3c3e6f2fe6a2ea7ee6736df06a0384a6f0a3d68bf7ab4c99a915"
+    },
+    {
+      "path": "public/assets/mm/video-placeholder.jpg",
+      "sha256": "176416026d9ec864f4d606ef3e4d00087c00ff6dca68d1bea779dbeef07dc6cd"
+    },
+    {
+      "path": "public/assets/mm/wikipedia.png",
+      "sha256": "e38ea0d2a30d09015b147d76e8949224aa27c50bdfc710f3fe04c6df38b2c822"
+    },
+    {
+      "path": "public/assets/mobile-algo/2001-space-odyssey.png",
+      "sha256": "b3cfee901f1460c21cd55ed7bd0a8752262a216d1ddacbbdba3f68a542921b9e"
+    },
+    {
+      "path": "public/assets/mobile-algo/28-up.png",
+      "sha256": "4e066db37e045a3880bcb27ff86a24b51fb9716233df49fe6e94230ada6fa1b0"
+    },
+    {
+      "path": "public/assets/mobile-algo/ASSET-SOURCES.md",
+      "sha256": "877550f02f1fccac6bf48295fba6f69630180dadd9cfb003afb6b471ba788738"
+    },
+    {
+      "path": "public/assets/mobile-algo/floating-weeds.png",
+      "sha256": "d4dfd6fe983bc1e244c4d97cf0a8355c88d83c7d3a436739950e1b2facd53500"
+    },
+    {
+      "path": "public/assets/mobile-algo/gates-of-heaven.png",
+      "sha256": "cf9f7c54e2493e6d5e1584e78909f678a45c26e9973e3e5dc0495c659ed0f697"
+    },
+    {
+      "path": "public/assets/mobile-algo/notorious.png",
+      "sha256": "3966b73fb58a17b1314a648449a7c61c99b91934dc56639a970a51220f4d03b3"
+    },
+    {
+      "path": "public/assets/mobile-algo/raging-bull.png",
+      "sha256": "d4170f5de928b6ef4baab2190fbdb7dd24b952dca3ee978488d1a895e74dac2e"
+    },
+    {
+      "path": "public/assets/mobile-rich/SOURCES.md",
+      "sha256": "c8cd0f65eeba35f6fbd0a5b103765866e6abe495545c7eff38ae1d842bc332fd"
+    },
+    {
+      "path": "public/assets/mobile-rich/bbc-ai.png",
+      "sha256": "b82a692480271f9007a385e4801c69747c8aba448b59a3c855caf21cfe5e4084"
+    },
+    {
+      "path": "public/assets/mobile-rich/bbc-cruise.png",
+      "sha256": "4dbe9e12448e8228f74828cc153633e643831e4847fc6b9c256d6bd01eedd763"
+    },
+    {
+      "path": "public/assets/mobile-rich/bbc-fog.png",
+      "sha256": "5cad5dd18c651f8fc3b6df0cb2c7e73e5dc83b2d2c51333a3dbfc73302ca5391"
+    },
+    {
+      "path": "public/assets/mobile-rich/bbc-moon.png",
+      "sha256": "5cd33aa11682dd2b6b992e08a31397d7d474440e88160f0028a73277f97a440e"
+    },
+    {
+      "path": "public/assets/mobile-rich/blue-lagoon.png",
+      "sha256": "5a19b4072478ac55ada2a9d20333be261b708df30d4185dca6fb65d087d13ac2"
+    },
+    {
+      "path": "public/assets/mobile-rich/dinner-recipes.png",
+      "sha256": "4b1de3390c55f15c52cec0f9d7b58e8efd078910fba65c10736562779b3fe025"
+    },
+    {
+      "path": "public/assets/mobile-rich/gaga-backstage.png",
+      "sha256": "ed1729fc331f84cb854406ec6d70543f52f825af1dfb97ff65827df24c1a5333"
+    },
+    {
+      "path": "public/assets/mobile-rich/gaga-onstage.png",
+      "sha256": "bb4f68ab5e929a1179a5301945e52c1f97b6c0401b01cc220e908b1e56323543"
+    },
+    {
+      "path": "public/assets/mobile-rich/japan-towns.png",
+      "sha256": "c8dd869e72a8661bb2c4ddac3508d968f6f742cbd98a90ee7f3ab989e6cdf261"
+    },
+    {
+      "path": "public/assets/mobile-rich/nike-air-force.png",
+      "sha256": "ae23a6deb91414df45c26f40eba07f15dae75e7acb1f47e83fb62693b16321c1"
+    },
+    {
+      "path": "public/assets/mobile-rich/nike-dunk.png",
+      "sha256": "889776858f25cfb0395b72dde5a22d86440e93f3c6c83433117def8b4f51338c"
+    },
+    {
+      "path": "public/assets/mobile-rich/nike.png",
+      "sha256": "634815b8504530eda6a25dd36807b91148f17f43af7e98def92606d39dba8b22"
+    },
+    {
+      "path": "public/assets/mobile-rich/seljalandsfoss.png",
+      "sha256": "fadd7157ee48e6924bf381b946565c872fd4cd0fe0b86f5439e419d377998a7e"
+    },
+    {
+      "path": "public/assets/movies/avengers-infinity-war.png",
+      "sha256": "4bf806839b3c56adc81ec3c9d9149d3ab0e78764ecfe51660995438aa64a4cd0"
+    },
+    {
+      "path": "public/assets/movies/fellowship-of-the-ring.png",
+      "sha256": "61c55c43060b2133a184f83f6e2dc12f09d4e66a2c0e585c3f8aa56c39a7f388"
+    },
+    {
+      "path": "public/assets/movies/jaws.png",
+      "sha256": "21c5070d0065df61d311977b73ac76c473ffe4a48c9690f51e4af1a7d849d79c"
+    },
+    {
+      "path": "public/assets/movies/pulp-fiction.png",
+      "sha256": "99a2d5513e14632119030a05e6e2c91f7596fa393a00b0c3c48a38af8ce32411"
+    },
+    {
+      "path": "public/assets/movies/the-dark-knight.png",
+      "sha256": "9507655b026809880cb67500ff431d9a5ae75a0b9e116652bcf2f9db01694e53"
+    },
+    {
+      "path": "public/assets/movies/the-godfather.png",
+      "sha256": "f75d11382093ecdf43a0c1b578012efc7c09ce40bc47ebd5bbc019c56b2c8bc3"
+    },
+    {
+      "path": "public/assets/movies/the-shawshank-redemption.png",
+      "sha256": "b80dbd7694c95ba2097097c87095bb93d72f1a9790d16552a6d43cf34f531116"
+    },
+    {
+      "path": "public/assets/nav/beijing-tours-guide.png",
+      "sha256": "5c8bc8afcc88008b568742871edbf4aa79131264603cd7fb39e6d08cf16838f9"
+    },
+    {
+      "path": "public/assets/nav/cnn.png",
+      "sha256": "75301b9565fba47bae2caf0dee4f81f9b8941b753695ecd9e132dcc85f4bedd3"
+    },
+    {
+      "path": "public/assets/nav/mystore411.png",
+      "sha256": "b5f2e8886a643d1210499ec41f4cb1661dc8e700c09c7049e45103e03ad39692"
+    },
+    {
+      "path": "public/assets/nav/walmart.png",
+      "sha256": "09cdaaf28b2ac39efcea0bb32771ebdbc9c8322a304f1af7431c7da0c770f7d1"
+    },
+    {
+      "path": "public/assets/placeholder-thumbnail.png",
+      "sha256": "38b38b739cf33272b883d2deb8cde97f522a75736010ee5894e927a6e1be2f69"
+    },
+    {
+      "path": "public/assets/rich/bbc-cruise.png",
+      "sha256": "0797316b262e78207a1409517a12608db4a19e1d9b487f2cdc8ae83aa768be23"
+    },
+    {
+      "path": "public/assets/rich/bbc-fog.png",
+      "sha256": "728e2872161acdf367a66fd6ac001167f5b0f6b205eb1284d6fdfa3e470b44f2"
+    },
+    {
+      "path": "public/assets/rich/bbc-neil-young.png",
+      "sha256": "b3b0c9bb13004a075b4e3bc63760b7ee9835e80434ff232a7194d0f48f83e1c7"
+    },
+    {
+      "path": "public/assets/rich/bbc.png",
+      "sha256": "6d0983229b58f23a60551029cdaa0d2023b8bb89acb62f3514557242cc79d869"
+    },
+    {
+      "path": "public/assets/rich/blue-lagoon.png",
+      "sha256": "185e2d8dc7a08be1818a17d3ceb0443e5644923c19b99a0452ff81a872356946"
+    },
+    {
+      "path": "public/assets/rich/dinner-recipes.png",
+      "sha256": "1ee0aa958658a046df8a8db9fa8b3893d1dc148a7564471f80e55d5c5a5a4abe"
+    },
+    {
+      "path": "public/assets/rich/gaga-backstage.png",
+      "sha256": "85169955c62a9367a9a99fd13af47863404a458605a1c5a78d0de9d78cef7306"
+    },
+    {
+      "path": "public/assets/rich/gaga-onstage.png",
+      "sha256": "8b59e41b88aad1413855b6ddc17a018c449a881ecbb656866f9f1aa222d4fba8"
+    },
+    {
+      "path": "public/assets/rich/gaga-portrait.png",
+      "sha256": "cffda278ee226dff1ae0c614c3aa65f3377342661cac87163e3196779e207f85"
+    },
+    {
+      "path": "public/assets/rich/iceland.png",
+      "sha256": "2c1e18bb6d251d9f37894fe8301ce18e4fe8c5339c556220c582eecfab694a9f"
+    },
+    {
+      "path": "public/assets/rich/instagram.png",
+      "sha256": "2b26e3e84a04412c99b276e76d3ac0e4b9d31820c78ccdd3890c568167e67a4a"
+    },
+    {
+      "path": "public/assets/rich/japan-towns.png",
+      "sha256": "6ac5f10ed19112dbebfe77acdc9c507e24a6dcfeefc33179f1df42edb1467bcc"
+    },
+    {
+      "path": "public/assets/rich/nike-air-force.png",
+      "sha256": "541fac064153d6063546e14a6217bcd9bbdeb2ff9570fa55f545c557a677dd97"
+    },
+    {
+      "path": "public/assets/rich/nike-air-max.png",
+      "sha256": "c45621a5064baeca2af80356208f56df7182c628bda4fb7698999e4e08831329"
+    },
+    {
+      "path": "public/assets/rich/nike-dunk.png",
+      "sha256": "93bbbbdcdd4e8189a34d62ade5c880a87feaa74acf227cbdedd531bf8b79a062"
+    },
+    {
+      "path": "public/assets/rich/nike.png",
+      "sha256": "6112ddc1093fddf9a656f6c0bdc95e94471cf1fcec0d74f50d62f0d41a79cac8"
+    },
+    {
+      "path": "public/assets/rich/reynisfjara.png",
+      "sha256": "4edd43418b9a4a442125ecc03d1f6cfe60425d5229f7de9e4fed6881fa800509"
+    },
+    {
+      "path": "public/assets/rich/seljalandsfoss.png",
+      "sha256": "10d97bd303a18f794960756c3f9a00a59b5d81cc053da804396376941b8e621c"
+    },
+    {
+      "path": "public/assets/rich/technology.png",
+      "sha256": "ba0d1367a1b708a721e46fa295633e83d52c431569a61c2587b3f5e7e161ac1c"
+    },
+    {
+      "path": "public/assets/rich/youtube.png",
+      "sha256": "05f648f7be5d6f5ade8810193383d33cd1d93a7f07c897af0f0858d8c5d0a4ef"
+    },
+    {
+      "path": "public/assets/sectional-expansion/ASSET-SOURCES.md",
+      "sha256": "2ba565cf069cacf5550c5a4bc11aa8032290b19db4ec92ba8875a29e3cab4b5e"
+    },
+    {
+      "path": "public/assets/sectional-expansion/britannica.png",
+      "sha256": "b9b07d5036bb1933addda9359c4d517e8e9ff840f190f6ed8cb47aeb286f9ce6"
+    },
+    {
+      "path": "public/assets/sectional-expansion/conservation.png",
+      "sha256": "1f3d297d0ed7f496eb2c0472f7c5e1dbfb9ca88ccf3db141a05786918ecc0d12"
+    },
+    {
+      "path": "public/assets/sectional-expansion/cultivation.png",
+      "sha256": "a55ced794a8f6e92e645c255a7d2de314351bdf4b8bbc812b92e29be03a79cbe"
+    },
+    {
+      "path": "public/assets/sectional-expansion/currency.png",
+      "sha256": "52020140cea3d74f25ccf7a5c7dd69bd448f47f5b51b188c12e33b08412758ba"
+    },
+    {
+      "path": "public/assets/sectional-expansion/flytrap-video.png",
+      "sha256": "462bd18ec1cd0462b1b65d6e02fb6d432da2bb9ad1955962b135f4e8fe229827"
+    },
+    {
+      "path": "public/assets/sectional-expansion/flytrap.png",
+      "sha256": "52b432f654226c56f7eee7ebf8da6cdbbd763a29ba185f74862621173b5e7ddf"
+    },
+    {
+      "path": "public/assets/sectional-expansion/golden-circle.png",
+      "sha256": "b83218063c8a52d3df55660c061acfc56a335a7b9ca810d484236804952d437b"
+    },
+    {
+      "path": "public/assets/sectional-expansion/habitat.png",
+      "sha256": "fdd80c1f5658144840ec4c6c2140050797888fc476eed768431499ee0bcbe06b"
+    },
+    {
+      "path": "public/assets/sectional-expansion/iceland-coast.png",
+      "sha256": "85ff6de1412c0f9ff278f04c5f92593cb1c7d3bf9a6d9542512988e23c8f0a45"
+    },
+    {
+      "path": "public/assets/sectional-expansion/iceland-video-1.png",
+      "sha256": "23df0eefddf9060692deb15fcebaf198e93232ab488982af2d2c70a4e3e4da3f"
+    },
+    {
+      "path": "public/assets/sectional-expansion/iceland-video-2.png",
+      "sha256": "00fe19f34661147d10d07df915324b8e62c7855d9b6a3c1afbb79e897af4dcd1"
+    },
+    {
+      "path": "public/assets/sectional-expansion/iceland-video-3.png",
+      "sha256": "8942dfead63e05ebea1b1a7eec59f3c71a50b8695da8726ecc1879b5d6195508"
+    },
+    {
+      "path": "public/assets/sectional-expansion/icelandic.png",
+      "sha256": "8295ea7d3558d1599f46047108cf34e42ccd1a26eb5e4cbe028f8ddfb4cff614"
+    },
+    {
+      "path": "public/assets/sectional-expansion/map.png",
+      "sha256": "e7f36112d6a41dc76099b7e4ac5e6d26ffa5216f3beeacf73a8d211d81932d10"
+    },
+    {
+      "path": "public/assets/sectional-expansion/northern-lights.png",
+      "sha256": "fa72295ef3159bab748e732adb13bb96f43022ad31879380b44526f2d2f4fed2"
+    },
+    {
+      "path": "public/assets/sectional-expansion/nwf.png",
+      "sha256": "73704e3d8390718befe4e4939eb317c9ab197ccfd1c3a742cc7b6cf781c657c2"
+    },
+    {
+      "path": "public/assets/sectional-expansion/potted.png",
+      "sha256": "62134ca80b5dbeabbb5aca06d09f0116eca41ee9e5ab4694c68977151e3bd710"
+    },
+    {
+      "path": "public/assets/sectional-expansion/reykjavik.png",
+      "sha256": "2be7060a157db5970587dfd2b6f9180ebaa57b1de865902e69ed2206f14b9183"
+    },
+    {
+      "path": "public/assets/sectional-expansion/spruce.png",
+      "sha256": "b2154fb324999967398e96fb36f88597d91e8216536efc6a8019ef4aa6c1df74"
+    },
+    {
+      "path": "public/assets/sectional-expansion/summer.png",
+      "sha256": "b935cbe545a9e34ed72e709eba14e1bb01656dc87c11fa4c0d09e386985be1ad"
+    },
+    {
+      "path": "public/assets/sectional-expansion/toms.png",
+      "sha256": "72bb5dd9ba0a5fcfe9ce4e930d2e3c910e294da277f063c8eedea823a5cd4a79"
+    },
+    {
+      "path": "public/assets/sectional-expansion/trap.png",
+      "sha256": "5f59bfbcd027d1566321d2bd25b2fcec52b7cbc55859cf11301011ffb88c122c"
+    },
+    {
+      "path": "public/assets/sectional-expansion/tripadvisor.png",
+      "sha256": "3bee2be55630d517d1c63c74000afb8f34e4afbe51927ea5e7f03d3d1bc27a4e"
+    },
+    {
+      "path": "public/assets/sectional-expansion/visit-iceland.png",
+      "sha256": "cd1a3120a366eae8f12d4a19250d74feacdd0ceef0e380d280f7fec5d7cecacf"
+    },
+    {
+      "path": "public/assets/sectional-expansion/volcano.png",
+      "sha256": "bd53403f793fd7093781e54005b67cb359a521d95c5939b072b3301c45f43423"
+    },
+    {
+      "path": "public/assets/sectional-expansion/worldatlas.png",
+      "sha256": "861d42f35fe64c4e8de24b2a4cd230c4799b3b93111a7eef068197fe1d46be77"
+    },
+    {
+      "path": "public/assets/sectional-nav/adobe-icon.png",
+      "sha256": "c6c403c38606cafdc7a1ede38742256b8fa82476c96ac303d92b0d968dda805f"
+    },
+    {
+      "path": "public/assets/sectional-nav/adobe.png",
+      "sha256": "4af431fa7af4388f0bd3675f37fdfaed05e21d9da5d3afaf552b2f46e18219e6"
+    },
+    {
+      "path": "public/assets/sectional-nav/azure.png",
+      "sha256": "ee85a38254c83586e5d3e6713ca9c5d4e6fc276389600cec6406ccd5e3344548"
+    },
+    {
+      "path": "public/assets/sectional-nav/gizmodo.png",
+      "sha256": "38bb26a8105564572afbf98cdad195ff9155e9c76027a115da44946d8046d933"
+    },
+    {
+      "path": "public/assets/sectional-nav/google-play.png",
+      "sha256": "ac8e2af8b5ccc1332bd9152db1557c7a8ebfb31485253b532789231a4d711c09"
+    },
+    {
+      "path": "public/assets/sectional-nav/marketbeat.png",
+      "sha256": "095494864429897790fc6c360c7242614dc4925c9a28f000eb7eeeed57810734"
+    },
+    {
+      "path": "public/assets/sectional-nav/marketwatch.png",
+      "sha256": "4012f5e43d913c92879b9355015d608bbc294832ab85524ab2d6d70491a930bb"
+    },
+    {
+      "path": "public/assets/sectional-nav/microsoft-apps.png",
+      "sha256": "31035dbfa416622ea6a63153339f59fe30beb407824ea8b4aa0ea41dca82bbde"
+    },
+    {
+      "path": "public/assets/sectional-nav/news-1.png",
+      "sha256": "15822d630aaced0995eb51fb01574e010b25624693c56b755ec5e7f75d034749"
+    },
+    {
+      "path": "public/assets/sectional-nav/news-2.png",
+      "sha256": "970204677a0192bdec8b29db2e4e0a081c82de335bb0a77792bf3f7316801142"
+    },
+    {
+      "path": "public/assets/sectional-nav/news-3.png",
+      "sha256": "f9e367ba5b7338fa0be8917840964cff00149e72f903ebcd12e291a9f6b8560d"
+    },
+    {
+      "path": "public/assets/sectional-nav/nvidia.png",
+      "sha256": "3aa087aaa866161a446a1c318ae13ee25b29c5477ea03d53b6752e147e40135f"
+    },
+    {
+      "path": "public/assets/sectional-nav/photoshop.png",
+      "sha256": "a259623dcb4e61ab84fcead918b2ab7010d27a302368192dbd2282442d08192d"
+    },
+    {
+      "path": "public/assets/sectional-nav/stockanalysis.png",
+      "sha256": "287577b50a0bd5064ae8a779333ae15bb787e3d04c029f726bc2c2ba732329df"
+    },
+    {
+      "path": "public/assets/sectional-nav/yahoo.png",
+      "sha256": "62c247089f84badc766637ac9afc9b334e30c63be589fb204c315d83fd7817f6"
+    },
+    {
+      "path": "public/assets/sectional-rich/aurora.png",
+      "sha256": "02de1b64de1447562e4f1dd7b38113d9a453f41083ea201ddd7e76b3e21d0455"
+    },
+    {
+      "path": "public/assets/sectional-rich/black-sands.png",
+      "sha256": "00649b7958763b94f6e55480da8039c9bb2b6d0701eb194d41723e68e9c9d732"
+    },
+    {
+      "path": "public/assets/sectional-rich/full-suitcase-citation.png",
+      "sha256": "8ba1c5e81c0a1f8c940c1edbf75ef8f7c2d0a8d0156597249726742fbd83a777"
+    },
+    {
+      "path": "public/assets/sectional-rich/full-suitcase.png",
+      "sha256": "996573af6161523600bcc25cd4423556e46c8d964cd5b5caa3965c8a5a3b7f47"
+    },
+    {
+      "path": "public/assets/sectional-rich/guide-to-iceland.png",
+      "sha256": "83055e343911f01c78b5dd157b5a7b97271e53f376a77c499a5f9ac828bfa6b3"
+    },
+    {
+      "path": "public/assets/sectional-rich/two-wandering-soles.png",
+      "sha256": "7f809ad6296a6f317fcfeb36d46fc4b68fd9904b1d02aaf13f35dc4affd3b580"
+    },
+    {
+      "path": "public/assets/sectional-rich/viator.png",
+      "sha256": "209378ef87badddcaa9676491dfeb96516d778253bdb701cec802c3b9830ea82"
+    },
+    {
+      "path": "public/assets/sectional-rich/wandering-queen.png",
+      "sha256": "ea0f52f6526b9249cb680d217bbb9bd959adbdfc5800a84a6ee93c2545f1b3f7"
+    },
+    {
+      "path": "public/assets/sites/careers360.png",
+      "sha256": "977f932b3e1dc380b808708733bed486072151163c5dd7af86d16452fe0e3d03"
+    },
+    {
+      "path": "public/assets/sites/college-essay-guy.png",
+      "sha256": "2856ee18203a057ee8fcdbb74d29711fc132c0c62d639c734889476527f4f3df"
+    },
+    {
+      "path": "public/assets/sites/copilot.png",
+      "sha256": "6e4b9461ab8a9bd7095a9098c32e39601d1141db172a2a69d1d6834c224270dc"
+    },
+    {
+      "path": "public/assets/sites/faurit.png",
+      "sha256": "0c48a2d066efd13cfe5d80d1ea4bfe4ab39b475a90f6a232f00df70d39818391"
+    },
+    {
+      "path": "public/assets/sites/harvard-college.png",
+      "sha256": "0c9229e03b8d609b4b59ac03f184586a4ec06f3f822ad9749cf4eea5969bc301"
+    },
+    {
+      "path": "public/assets/sites/harvard.png",
+      "sha256": "0c9229e03b8d609b4b59ac03f184586a4ec06f3f822ad9749cf4eea5969bc301"
+    },
+    {
+      "path": "public/assets/sites/imdb.png",
+      "sha256": "746c43ee081bdef2f1f09745be947ea49c6e36850019d3c2675bc8a9b40f8744"
+    },
+    {
+      "path": "public/assets/sites/movieweb.png",
+      "sha256": "c0d49bca9ebb21dd6bec4e941f1b1c361209b2f7d738dd3e777172c4bce1faad"
+    },
+    {
+      "path": "public/assets/sites/prepscholar.png",
+      "sha256": "4ae253307e0c917e8071ce84513b212a672a13f5116f9d3be943fa6735be7df5"
+    },
+    {
+      "path": "public/assets/sites/rotten-tomatoes.png",
+      "sha256": "05082d285e8a2b9a2a5f661c1a991fc90387b37cd6c0aacd6faeaa41d95f2e13"
+    },
+    {
+      "path": "public/sdl/SOURCES.md",
+      "sha256": "185a9a821dce7c015c4aeec8905ccf61ff929d8033f1cc9c15476d93473ae5e6"
+    },
+    {
+      "path": "public/sdl/algo-fact.desktop.json",
+      "sha256": "bb4fb5671569edfcab0bac582576d715591053a77b6be7c6efa281139bfc2385"
+    },
+    {
+      "path": "public/sdl/algo-list-clickable.desktop.json",
+      "sha256": "aabdb1d61b197bc73381662996a1563409aceee378c934414060cabe7b5f5b24"
+    },
+    {
+      "path": "public/sdl/algo-list-unclickable.desktop.json",
+      "sha256": "a8707720dedc6b7029f255f3964496f62be34668b616e1bb4ad718a03926cc9e"
+    },
+    {
+      "path": "public/sdl/algo-standard.desktop.json",
+      "sha256": "62603ebe91e24f3da3a672f6e1dd7ee15d8430141459cc8a2687ff7e318c32e8"
+    },
+    {
+      "path": "public/sdl/expansion-multiple-keyword.desktop.json",
+      "sha256": "ed1f1cccde28b41cf5d23bbd6a38d5906e2306be679d2a01b6d08d5927b23393"
+    },
+    {
+      "path": "public/sdl/expansion-multiple-sentence.desktop.json",
+      "sha256": "ac6c87e8c7375c8b9bab6f47d945719a434191fed4bbe934b2802dff3e589743"
+    },
+    {
+      "path": "public/sdl/expansion-single-keyword.desktop.json",
+      "sha256": "9e497777e42cd7fdd750b3217b086d52a8279f315db3b2f122d785584d3fa7cb"
+    },
+    {
+      "path": "public/sdl/expansion-single-sentence.desktop.json",
+      "sha256": "967d8471aef38ffd5e0580b3497dcd3c8cedd1dcb8abf9ba96488c498697ad88"
+    },
+    {
+      "path": "public/sdl/mm-image-1.desktop.json",
+      "sha256": "64c37d12d201aec704f764b438f8e9066bb828d60e1bbb7977a3e2aed27d8e20"
+    },
+    {
+      "path": "public/sdl/mm-image-2.desktop.json",
+      "sha256": "117f53e2c506b65ea579fd2dec53f2be9a9be7bff40243d13642ffb89f86f648"
+    },
+    {
+      "path": "public/sdl/mm-image-3.desktop.json",
+      "sha256": "013d0c9da5b20b434ad06db1441c14bf8ff8aa0eac75f40975332e46a89bdb49"
+    },
+    {
+      "path": "public/sdl/mm-video.desktop.json",
+      "sha256": "5159f7dc4b3dd48c1c6dfad681c3c54e6a25eeb814d781ded46a2c57d7ac5e51"
+    },
+    {
+      "path": "public/sdl/nav-mainline.desktop.json",
+      "sha256": "ef017fa1ca1757d2fa6e332a4dfd82b5690828c44e7dff84519a39fad9aeb265"
+    },
+    {
+      "path": "public/sdl/rich-title-default.desktop.json",
+      "sha256": "ba0addf779a5d74e02b7a038117f2fe31f7768626db0b5ac34af4d97fa2dd71a"
+    },
+    {
+      "path": "public/sdl/sectional-expansion-fact.desktop.json",
+      "sha256": "c2ffed23ff0ec990bf61e0162a6fd1f7cb7b71067a968dbd599fb642bca2bd91"
+    },
+    {
+      "path": "public/sdl/sectional-expansion-wiki.desktop.json",
+      "sha256": "f7f831ea68a60b7dbc616f4505b81de9793482704ffe5ea79c65058fdc408c93"
+    },
+    {
+      "path": "public/sdl/sectional-import-manifest.json",
+      "sha256": "b5d5b4e4ae27b4c17298bedcb1111514be2bf13e50d2a1362b36504d22ebeaf8"
+    },
+    {
+      "path": "public/sdl/sectional-nav-article-source.desktop.json",
+      "sha256": "1b114c7b3afc831a4c52c93884a8758e8b68d812b063313b4e58e1562c143e42"
+    },
+    {
+      "path": "public/sdl/sectional-nav-article.desktop.json",
+      "sha256": "d96bdedff697ef80cad0216e9eb27d6bf430ea2b975206e0dbec4512ccd31f72"
+    },
+    {
+      "path": "public/sdl/sectional-nav-download.derived.desktop.json",
+      "sha256": "419c7cbf8b95552d7fb8bfc2e8bac22690cde67c35f1288b16972c1c30afacaa"
+    },
+    {
+      "path": "public/sdl/sectional-nav-links-eight.desktop.json",
+      "sha256": "4668e403a6957caf609f37e2dfa90fed7eb0f6b7f742a16f7cb1373ac6e84efb"
+    },
+    {
+      "path": "public/sdl/sectional-nav-links-six.desktop.json",
+      "sha256": "c2cf37ad06ae29369d9dc17cf125992357afc363b6bc8c3301f9535284238914"
+    },
+    {
+      "path": "public/sdl/sectional-nav-signin-source.desktop.json",
+      "sha256": "090c79e859b202e284c48ff3336d472044f54c474a4106709e7281f83c4b1fe4"
+    },
+    {
+      "path": "public/sdl/sectional-rich.desktop.json",
+      "sha256": "f48478229a440e993ff655373b981cb7367caee5c4481faceddd3bf9f37fdc84"
+    },
+    {
+      "path": "rich-mobile.css",
+      "sha256": "ead22e6b415eb9c2d8669c457a0912060b439b8159420cc8edbc4b01d5164bbe"
+    },
+    {
+      "path": "rich-mobile.js",
+      "sha256": "be6f2debcbcee9941ee383f1da988680b0202d57b6798e1c1f646514378092f1"
+    },
+    {
+      "path": "rich-nav-carousel.css",
+      "sha256": "b4de71a626a15c887275675370f39e7a863b0f72d3f24c530fb1c55e7afa3476"
+    },
+    {
+      "path": "rich-nav-carousel.html",
+      "sha256": "a6acda447d86d74c2c0f153291f084cf6fcb03d0d987a768015beaf66a2ac7a6"
+    },
+    {
+      "path": "rich-nav-carousel.js",
+      "sha256": "e345338436f3425ca3a6dfa0c19f76fd1aedc3520d073cbcaf1c63a7431852d3"
+    },
+    {
+      "path": "sdl-expansion-samples.js",
+      "sha256": "e1fbbb52a5673ea60b2348c66618482cb24b2b08ea6755fdcfc3e9c4f76f8217"
+    },
+    {
+      "path": "sdl-mm-samples.js",
+      "sha256": "186dafa863b743bc4cb44fd32c1b2f01771219b69b9b06809c976dfc2d387d6c"
+    },
+    {
+      "path": "sdl-nav-samples.js",
+      "sha256": "0e239bd221fd57cb18321fa52c6a168b725f3c8674d7503fce99a4d65541ca76"
+    },
+    {
+      "path": "sdl-rich-samples.js",
+      "sha256": "41b8e9256af8aad3e62eee89189b0b6ede313353d136538d00247ab2ad5baf0a"
+    },
+    {
+      "path": "sdl-samples.js",
+      "sha256": "8a47a3175b65f42c26ee55d9db4945be793636f8e2cb8d656d8a29812651a6fe"
+    },
+    {
+      "path": "sdl-sectional-expansion-samples.js",
+      "sha256": "7d09b2361ac064afd180b1baf5ccd913eaefde2405eb650f508d8f7e53b7a39e"
+    },
+    {
+      "path": "sdl-sectional-nav-samples.js",
+      "sha256": "771171210eae90a9994fd25205680f553f08a8d217c767a71fff5682bacd664b"
+    },
+    {
+      "path": "sdl-sectional-rich-samples.js",
+      "sha256": "9ff474eb8c959397da54f8df883dd6ba673a3801223a87fca968a7183da04dea"
+    },
+    {
+      "path": "sectional-expansion-example.js",
+      "sha256": "42b491af632f951371666adb6d64a6de49a8394d8f50d42b972f9b33a4a4b8a6"
+    },
+    {
+      "path": "sectional-expansion.css",
+      "sha256": "74b53246089dd8334693f266d7ccb96684b378bf99fb80a99101d6626dcb7099"
+    },
+    {
+      "path": "sectional-expansion.html",
+      "sha256": "d9f697ff11c49566cb02afedd93ac5922af9cbb451382b8eae28c2713fc084d6"
+    },
+    {
+      "path": "sectional-expansion.js",
+      "sha256": "64c3b814f751c10698b14da3825d76d5bd63e451db31705c01a38178b7a61629"
+    },
+    {
+      "path": "sectional-mobile.css",
+      "sha256": "3172d0a776300a9d1da2ef91bebdb32aa4d63480a1ea0719d2ce2184b80dd109"
+    },
+    {
+      "path": "sectional-mobile.js",
+      "sha256": "61b9daaece098fe8711140a9dee31ad10d97a984f0ad4cd2e02bf1bdd219df46"
+    },
+    {
+      "path": "sectional-nav-mobile.css",
+      "sha256": "7291c9b7331ab9214324e538773f9ddb2f92373385e2e0d790121941affd0f3f"
+    },
+    {
+      "path": "sectional-nav-mobile.js",
+      "sha256": "6fd88c8740d80869910bc385bce4508410a9e49732d0df280d4fb025938c7d27"
+    },
+    {
+      "path": "sectional-nav.css",
+      "sha256": "6a425faf0b9613a1f33f4c19c15a4f23189508c543f807b209becb8813fcf117"
+    },
+    {
+      "path": "sectional-nav.html",
+      "sha256": "c285be83cc740e32c0f71ae632355ff47a7cb80b5fffc0cb072f458270834f44"
+    },
+    {
+      "path": "sectional-nav.js",
+      "sha256": "0d2296ed604c62ed5af881a73fd854a677b3bea7032b6d5bbf163f0b89093718"
+    },
+    {
+      "path": "sectional-rich-nav.css",
+      "sha256": "3559e57ea129962324fbb61a51fc97c472795fc139848a0a91da5d2990f44f35"
+    },
+    {
+      "path": "sectional-rich-nav.html",
+      "sha256": "483f7aeaff985be6602e8381f4f40d13c9e0eb05d16898e89298be9208504bbb"
+    },
+    {
+      "path": "sectional-rich-nav.js",
+      "sha256": "f377f11dcdf218db78dd47f56df1efdc12a5a45bdfd76b9c619af8a03bbfc7c1"
+    },
+    {
+      "path": "styles.css",
+      "sha256": "cc938e536b491013576b2cdb4de14908df26e870b208951cabaf2eaf5d5907f0"
+    },
+    {
+      "path": "theme.js",
+      "sha256": "664bea72049259953071e530e045ed3750be0ea92a51e1adbac10cc652ea9033"
+    },
+    {
+      "path": "releases/V7-release-notes.md",
+      "sha256": "aeaab5498daab849543d92aba37cd116a2f94ded7035abd6d5f5bda1ef32e495"
+    },
+    {
+      "path": "releases/Current-todos-2026-11-11.md",
+      "sha256": "161adb237a8b938b8449a4160daa20d47da794989af7416e707a092f0b13a30d"
+    },
+    {
+      "path": "releases/Cells-reuse-review-2026-11-11.md",
+      "sha256": "ecac82b670d5026f7184d20fa3c44b4721440728c6d5e3d2660bb0a8b1ceab8d"
+    },
+    {
+      "path": "releases/Library-overview-2026-11-11.md",
+      "sha256": "ab6d7e43e66c26b05d25770546ad1fff265936c0c3666ff2fef9fd48a90f3aab"
+    },
+    {
+      "path": "releases/Figma-alignment-audit-2026-11-11.md",
+      "sha256": "ae0a1af337d908ad3aa1ec78a10face4842e664ee2f69a043fc4c102d3eec076"
+    },
+    {
+      "path": "releases/Mobile-figma-fixes-2026-11-11.md",
+      "sha256": "b78a4f4fb22f0ace9d07ffc871bd28a048b66def012d89aa77c64ef571210039"
+    },
+    {
+      "path": "releases/Desktop-token-alignment-2026-11-10.md",
+      "sha256": "84247425e3009af8fcc4fdd066a24a5f14ab11791a8bb7d303b5627c2d2ae07e"
+    }
+  ]
+}

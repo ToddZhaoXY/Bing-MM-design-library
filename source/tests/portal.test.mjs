@@ -15,7 +15,7 @@ test('original library content matches its immutable import ledger and recorded 
   const expected = await sourceUpdates();
   for (const entry of manifest.files) assert.equal(await sha256(join(root, entry.path)), expected(entry.path, entry.sha256), entry.path);
 });
-test('the first-visit entry is a readable overview with three native links and no frames', async () => {
+test('the first-visit entry is a readable overview with four native links and no frames', async () => {
   const html = await readFile(join(root, 'dist/index.html'), 'utf8');
   assert.doesNotMatch(html, /<iframe\b|type="module"/i);
   for (const id of systems) assert.match(html, new RegExp(`href="\\./${id}\\.html`));

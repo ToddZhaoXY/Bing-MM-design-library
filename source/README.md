@@ -1,4 +1,15 @@
-# MM Design Libraries · Portal
+# AIXA Bing Design Library · Source
+
+## 2026-11-16 · Algo integration
+
+当前整合 MM Image、AIGC、Video 和 Algo 四个并列分区；名称统一为
+**AIXA Bing Design Library**。库内页面的跨库切换使用 Algo V8 的左侧图标／文字导航；首页保留原来的
+全屏瀑布流、中央大标题和右上角入口，并补上 Algo。Algo 的原始文档、预览及资源保存在 `projects/algo/site/`，
+哈希记录在 `projects/algo/UPSTREAM.json`；构建时统一路径并连接跨库导航。
+
+共享入口生成器：`scripts/library-chrome.mjs`；导航样式和交互：
+`shared/library-nav.css`、`shared/library-switcher.js`。详情见
+`qa/algo-integration/VERIFICATION.md`。下方按日期保留历史改动说明。
 
 ## 2026-11-11 · SlideShow
 
@@ -26,7 +37,7 @@ JSX／SDL 和离线 HTML 导出。下方“原始源码不变”描述的是最�
 保留初次导入记录。验证命令同时核对未改动原件与已记录的 Image 更新。
 详细验收见 `projects/mm-image/design/fy25-cards/VERIFICATION.md`。
 
-综合首页 + MM Image / AIGC / Video 三个独立组件库页面。
+综合首页 + MM Image / AIGC / Video / Algo 四个独立 Library 分区。
 这是新的独立版本，之前的 Hub / Refined 项目和部署包没有被覆盖。
 
 ## 本次修复
@@ -45,7 +56,7 @@ JSX／SDL 和离线 HTML 导出。下方“原始源码不变”描述的是最�
 - 启动检测检查真实渲染内容；缺文件、脚本拦截、超时会显示说明、重试和备用入口。
 - 三套原始 React 组件、注册表、数据、SDL 和导出源码仍保持不变；沿用精修版 UI。
 
-首页现在只保留中央大字标 `MM Design Libraries`、指定的一句描述和右上角三个入口。
+初版首页只保留中央大字标 `MM Design Libraries`、指定的一句描述和右上角三个入口。
 标题最大 5rem（默认 80px），桌面中央雾面最大 1280 × 480px，不随超宽屏继续放大。
 现有 Figma 源素材组成环绕式瀑布流；18 张缩略组件分别链接到 9 个真实组件详情页，不是生成或播放服务。
 循环副本也能点击，可通过浏览器在新标签页打开；中央文字及雾面不会阻挡点击。

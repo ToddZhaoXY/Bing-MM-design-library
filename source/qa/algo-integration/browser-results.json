@@ -1,0 +1,349 @@
+{
+  "pages": [
+    {
+      "entry": "index.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "mm-image.html#/c/image-cards",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "MM Image — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "aigc.html#/c/creation-composer",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "AIGC — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "video.html#/c/short-card",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Video — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-algo-block.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Algo Block — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-cells-action-card.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Action Card — Cells — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-cells-article-card.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Article Card — Cells — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-cells-attribution.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Attribution — Cells — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-cells-carousel-navigation.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Carousel Navigation — Cells — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-cells-deeplink.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Deeplink Item — Cells — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-cells-download-card.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Download Card — Cells — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-cells-favicon.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Favicon — Cells — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-cells-nav-link-item.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Deeplink Item — Cells — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-cells-result-snippet.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Image Card — Cells — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-cells-result-title.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Image Card — Cells — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-cells-rich-content-item.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Rich Content Item — Cells — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-cells-wiki-fact-item.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Wiki / Fact Item — Cells — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-cells.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Image Card — Cells — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-expansion.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Expansion — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Overview — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-mm-algo.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "MM Algo Block — Algo Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-nav.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Nav — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-rich-nav-carousel.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Rich Nav Carousel — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-sectional-expansion.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Expansion — Sectional — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-sectional-nav.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Nav — Sectional — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "algo-sectional-rich-nav.html",
+      "viewport": "1440x1000",
+      "width": 1440,
+      "scroll": 1440,
+      "title": "Rich Nav Carousel — Sectional — AIXA Bing Design Library",
+      "broken": []
+    },
+    {
+      "entry": "index.html",
+      "viewport": "1024x900",
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "entry": "mm-image.html#/c/image-cards",
+      "viewport": "1024x900",
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "entry": "aigc.html#/c/creation-composer",
+      "viewport": "1024x900",
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "entry": "video.html#/c/short-card",
+      "viewport": "1024x900",
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "entry": "algo-algo-block.html",
+      "viewport": "1024x900",
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "entry": "algo-sectional-nav.html",
+      "viewport": "1024x900",
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "entry": "algo-cells.html",
+      "viewport": "1024x900",
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "entry": "index.html",
+      "viewport": "390x900",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "entry": "mm-image.html#/c/image-cards",
+      "viewport": "390x900",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "entry": "aigc.html#/c/creation-composer",
+      "viewport": "390x900",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "entry": "video.html#/c/short-card",
+      "viewport": "390x900",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "entry": "algo-algo-block.html",
+      "viewport": "390x900",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "entry": "algo-sectional-nav.html",
+      "viewport": "390x900",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "entry": "algo-cells.html",
+      "viewport": "390x900",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "entry": "index.html",
+      "viewport": "320x900",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "entry": "mm-image.html#/c/image-cards",
+      "viewport": "320x900",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "entry": "aigc.html#/c/creation-composer",
+      "viewport": "320x900",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "entry": "video.html#/c/short-card",
+      "viewport": "320x900",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "entry": "algo-algo-block.html",
+      "viewport": "320x900",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "entry": "algo-sectional-nav.html",
+      "viewport": "320x900",
+      "width": 320,
+      "scroll": 320
+    },
+    {
+      "entry": "algo-cells.html",
+      "viewport": "320x900",
+      "width": 320,
+      "scroll": 320
+    }
+  ],
+  "interactions": [
+    "Switch to mm-image, restore collapsed rail",
+    "Switch to aigc, restore collapsed rail",
+    "Switch to video, restore collapsed rail",
+    "Switch to algo, restore collapsed rail",
+    "Algo type, Mobile preview, code sample, full-size example",
+    "Algo mobile drawer switches to Video"
+  ],
+  "errors": [],
+  "failedResources": [],
+  "passed": true
+}

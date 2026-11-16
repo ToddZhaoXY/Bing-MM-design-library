@@ -5,6 +5,8 @@ import { join, dirname, posix } from 'node:path';
 import { root, systems, filesIn, fileManifest, isMain } from './lib.mjs';
 import { classicBundle, entryScript, makeLibraryPage } from './library-page.mjs';
 import { compileThemeCss, readThemeTokens } from './theme.mjs';
+import { emitAlgoLibrary } from './algo-library.mjs';
+import { makeHomePage } from './library-chrome.mjs';
 
 const require = createRequire(join(root, 'projects/aigc/site/package.json'));
 const ts = require('typescript');
@@ -58,14 +60,15 @@ export function rewriteCssAssets(css, id, file, knownFiles) {
   });
 }
 
-export function compatPage(original, id, { script, css, boot, theme, nav }) {
+export function compatPage(original, id, { script, css, boot, theme, nav, switcher }) {
   let html = makeLibraryPage(original, id, { alias: true });
   html = html.replace(/\s*<base\b[^>]*>/g, '');
   html = html.replace(/<script defer src="\.\/assets\/[^\"]+-classic\.js"><\/script>/,
     `<script id="library-app" defer src="./${script}"></script>`);
   html = html.replace(/<link rel="stylesheet" href="\.\/assets\/[^\"]+\.css">/,
     `<link rel="stylesheet" href="./${css}">`);
-  html = html.replace('src="../../library-boot.js"', `src="./${boot}"`)
+  html = html.replace('src="../../library-switcher.js"', `src="./${switcher}"`)
+    .replace('src="../../library-boot.js"', `src="./${boot}"`)
     .replace('href="../../theme/index.css"', `href="./${theme}"`)
     .replace('href="../../library-nav.css"', `href="./${nav}"`)
     .replaceAll('href="../../', 'href="./');
@@ -88,13 +91,17 @@ export async function buildCompat() {
     return name;
   }
   try {
-    // The homepage stays byte-identical except for its flattened image URLs.
+    const navContent = await readFile(join(root, 'shared/library-nav.css'), 'utf8');
+    const nav = await emit(`library-nav-${digest(navContent)}.css`, navContent);
+    const switcherContent = await readFile(join(root, 'shared/library-switcher.js'), 'utf8');
+    const switcher = await emit(`library-switcher-${digest(switcherContent)}.js`, switcherContent);
+    // Generate the homepage entry links, then flatten its image URLs.
     const homeFiles = await filesIn(join(root, 'portal'));
     const homeMap = Object.fromEntries(homeFiles.map(file => [file, file.replaceAll('/', '-') ]));
     for (const file of homeFiles) {
       let content = await readFile(join(root, 'portal', file));
       if (file === 'index.html') {
-        let html = content.toString();
+        let html = makeHomePage(content.toString());
         for (const [path, target] of Object.entries(homeMap)) html = html.replaceAll(`./${path}`, `./${target}`);
         content = html;
       }
@@ -102,8 +109,6 @@ export async function buildCompat() {
     }
     const bootContent = await readFile(join(root, 'shared/compat-boot.js'), 'utf8');
     const boot = await emit(`library-boot-${digest(bootContent)}.js`, bootContent);
-    const navContent = await readFile(join(root, 'shared/library-nav.css'), 'utf8');
-    const nav = await emit(`library-nav-${digest(navContent)}.css`, navContent);
     const tokens = readThemeTokens(await readFile(join(root, 'theme/tokens.css'), 'utf8'));
     const themeContent = compileThemeCss(`${await readFile(join(root, 'theme/documentation.css'), 'utf8')}\n${await readFile(join(root, 'theme/workbench.css'), 'utf8')}`, tokens);
     const theme = await emit(`library-theme-${digest(themeContent)}.css`, themeContent);
@@ -125,9 +130,10 @@ export async function buildCompat() {
         await emit(target, await readFile(join(directory, file)));
         assets[`${id}/${file}`] = target;
       }
-      await emit(`${id}.html`, compatPage(original, id, { script, css, boot, theme, nav }));
+      await emit(`${id}.html`, compatPage(original, id, { script, css, boot, theme, nav, switcher }));
       entries[id] = { html: `${id}.html`, script, css };
     }
+    entries.algo = await emitAlgoLibrary(emit, { nav, switcher });
     const manifest = { format: 3, navigation: 'standalone-pages', packaging: 'flat-no-base', builtAt: new Date().toISOString(), entries, assets, files: await fileManifest(staging) };
     await emit('BUILD-MANIFEST.json', JSON.stringify(manifest, null, 2) + '\n');
     const delivery = join(dirname(root), 'Design-Systems-Portal-Compat-delivery');

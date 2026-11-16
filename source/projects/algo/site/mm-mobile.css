@@ -1,0 +1,38 @@
+/* Only explicitly selected Mobile MM components use these compositions. */
+.algo.mm-mobile{display:block;width:344px;max-width:100%}
+.mm-mobile .mm-overflow-space{display:none}
+.mm-mobile .attribution{height:44px}
+.mm-mobile .result-title{margin:8px 0 4px;font:400 20px/26px Arial,sans-serif;max-width:none}
+.mm-mobile .part-title{margin:8px 0 4px}
+.mm-mobile .part-title .result-title{margin:0}
+.mm-mobile .snippet,.search-page .mm-mobile .snippet{margin:0;font:400 14px/22px Arial,sans-serif;color:var(--algo-snippet);-webkit-line-clamp:3;max-height:66px}
+.mm-mobile .mm-mobile-row{display:flex;align-items:flex-start;gap:12px}
+.mm-mobile-row>.part-snippet,.mm-mobile-row>.snippet{flex:1;min-width:0}
+.mm-mobile .mm-images{width:88px;height:88px;border-radius:16px;flex:none}
+.mm-mobile-image-1 .snippet,.search-page .mm-mobile-image-1 .snippet{-webkit-line-clamp:4;max-height:88px}
+.mm-mobile .mm-images-2,.mm-mobile .mm-images-3{width:100%;height:auto;aspect-ratio:344/200;border-radius:24px}
+.mm-mobile-image-2>.part-media,.mm-mobile-image-3>.part-media{margin:4px 0 8px}
+.mm-mobile>.mm-images-2,.mm-mobile>.mm-images-3{margin:4px 0 8px}
+.mm-mobile .mm-video{width:100%;height:auto;aspect-ratio:16/9;border-radius:24px;margin:0 0 8px}
+.mm-mobile-video>.part-media{margin-top:4px}
+.mm-mobile-video .snippet,.search-page .mm-mobile-video .snippet{-webkit-line-clamp:4;max-height:88px}
+.mm-mobile .mm-metadata{display:flex;flex-direction:column;gap:0;max-width:none;margin-top:8px;color:var(--algo-tertiary);font:400 14px/22px Arial,sans-serif}
+.mm-mobile .mm-metadata>span{flex:none}
+.mm-mobile-video-caption{position:absolute;inset:auto 0 0;padding:24px 16px 16px;background:linear-gradient(transparent,#000 65%);color:white;pointer-events:none}
+.mm-mobile-video-caption>b{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:700 14px/22px Arial,sans-serif}
+.mm-mobile-video-caption>span{display:flex;align-items:center;gap:4px;font:400 12px/20px Arial,sans-serif}
+.mm-mobile-video-caption img{width:16px;height:16px;object-fit:contain}
+.mm-mobile .mm-duration{top:8px;left:8px}
+.mm-mobile .mm-play{z-index:1;width:32px;height:32px;font-size:16px}
+/* Touch previews start on activation, rather than inheriting Desktop hover. */
+.mm-mobile .mm-video:not(.is-previewing) .mm-duration{display:block}
+.mm-mobile .mm-video:not(.is-previewing) .mm-preview-label,.mm-mobile .mm-video:not(.is-previewing) .mm-mute{display:none}
+.mm-mobile .mm-video:not(.is-previewing) .mm-play{opacity:1}
+.mm-mobile .mm-video.is-previewing .mm-play{opacity:1}
+.mm-mobile .part-media>.pin{left:-28px;right:auto;top:50%;transform:translateY(-50%)}
+.mm-mobile-image-1 .part-media>.pin{left:auto;right:0;top:-28px;transform:none}
+body[data-component=mm][data-device=mobile] .anatomy-visual{max-width:404px}
+.mobile-serp .mm-mobile{width:100%}
+.mobile-serp .mm-mobile+.mm-mobile{margin-top:0}
+.mobile-serp.mm-mobile-component-example{padding-block:0;border-radius:24px}
+.mobile-serp.mm-mobile-component-example #exampleMount{padding:24px 16px}

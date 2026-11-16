@@ -6,6 +6,7 @@ import { Script, runInNewContext } from 'node:vm';
 import { once } from 'node:events';
 import { root, systems, filesIn, sha256 } from '../scripts/lib.mjs';
 import { buildCompat, assetLiteral, rewriteBundleAssets } from '../scripts/build-compat.mjs';
+import { makeHomePage } from '../scripts/library-chrome.mjs';
 import { createStaticServer } from '../scripts/serve.mjs';
 
 const directory = process.env.COMPAT_DIR || (await buildCompat()).directory;
@@ -17,7 +18,7 @@ test('compatibility package is completely flat, with no base, iframe or inline s
     const html = await readFile(join(directory, `${id}.html`), 'utf8');
     assert.doesNotMatch(html, /<base\b|<iframe\b|type="module"|\.\.\//);
     assert.match(html, /id="library-app" defer src="\.\/[^/]+\.js"/);
-    assert.equal((html.match(/<script\b/g) || []).length, 2);
+    assert.equal((html.match(/<script\b/g) || []).length, 3);
     for (const target of systems) assert.ok(html.includes(`href="./${target}.html#/"`));
     new Script(await readFile(join(directory, manifest.entries[id].script), 'utf8'));
   }
@@ -52,7 +53,7 @@ test('homepage styling, copy and motion are unchanged except image locations', a
   assert.equal(await sha256(join(root, 'portal/home.js')), await sha256(join(directory, 'home.js')));
   const original = await readFile(join(root, 'portal/index.html'), 'utf8');
   const html = await readFile(join(directory, 'index.html'), 'utf8');
-  assert.equal(html.replaceAll('./showcase-', './showcase/'), original);
+  assert.equal(html.replaceAll('./showcase-', './showcase/').replace(/library-nav-[a-f0-9]+\.css/, 'library-nav.css').replace(/library-switcher-[a-f0-9]+\.js/, 'library-switcher.js'), makeHomePage(original));
 });
 
 test('manifest verifies every emitted file and has no hidden dependency on systems folders', async () => {

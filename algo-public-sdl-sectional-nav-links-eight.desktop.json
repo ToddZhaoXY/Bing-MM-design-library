@@ -1,0 +1,1015 @@
+{
+  "component": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [],
+            "props": {
+              "color": "primary",
+              "value": "Section title lorem ipsum",
+              "variant": "title-md-strong"
+            },
+            "sdlVersion": "1.5",
+            "type": "Text"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "value": "![Site favicon placeholder](data:image/png;base64,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){style=\"display:block;pointer-events:none;width:16px;height:16px;max-width:none;object-fit:cover;object-position:center;\"}"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Markdown"
+                              }
+                            ],
+                            "props": {
+                              "height": 16,
+                              "radius": "xxxs",
+                              "width": 16
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          }
+                        ],
+                        "props": {
+                          "align": "center",
+                          "background": "surface-elevated",
+                          "border": 1,
+                          "height": 28,
+                          "justify": "center",
+                          "minWidth": 28,
+                          "radius": "circular",
+                          "width": 28
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "props": {
+                              "color": "tertiary",
+                              "maxLines": 1,
+                              "truncate": true,
+                              "value": "Site name lorem ipsum",
+                              "variant": "body-md"
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Text"
+                          },
+                          {
+                            "children": [],
+                            "props": {
+                              "color": "tertiary",
+                              "maxLines": 1,
+                              "truncate": true,
+                              "value": "www.algoloremipsum-attribution.com",
+                              "variant": "caption-xs"
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Text"
+                          }
+                        ],
+                        "props": {
+                          "direction": "col",
+                          "flex": 1,
+                          "gap": 0,
+                          "minWidth": 0
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      }
+                    ],
+                    "props": {
+                      "align": "center",
+                      "direction": "row",
+                      "gap": 2,
+                      "minWidth": 0,
+                      "width": "100%"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Box"
+                  },
+                  {
+                    "children": [],
+                    "props": {
+                      "color": "brand-alt",
+                      "maxLines": 3,
+                      "onClickAction": {
+                        "payload": {
+                          "url": "https://example.com/article"
+                        },
+                        "type": "link:navigate"
+                      },
+                      "truncate": true,
+                      "underline": "never",
+                      "value": "Title lorem ipsum dolor consectatur",
+                      "variant": "title-md"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Link"
+                  },
+                  {
+                    "children": [],
+                    "props": {
+                      "color": "foreground-750",
+                      "minLines": 2,
+                      "value": "Snippet lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      "variant": "body-md"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Text"
+                  }
+                ],
+                "props": {
+                  "direction": "col",
+                  "gap": 1,
+                  "minWidth": 0,
+                  "width": "100%"
+                },
+                "sdlVersion": "1.5",
+                "type": "Box"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "props": {
+                          "border": {
+                            "top": {
+                              "size": 1
+                            }
+                          },
+                          "height": 1,
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "color": "brand-alt",
+                                  "expandActionTarget": true,
+                                  "maxLines": 2,
+                                  "onClickAction": {
+                                    "payload": {
+                                      "url": "https://example.com/navigation/1"
+                                    },
+                                    "type": "link:navigate"
+                                  },
+                                  "truncate": true,
+                                  "underline": "never",
+                                  "value": "Navigation link lorem ipsum",
+                                  "variant": "body-xl"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Link"
+                              }
+                            ],
+                            "props": {
+                              "flex": 1,
+                              "minWidth": 0
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "value": "![](data:image/svg+xml;base64,PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiBvdmVyZmxvdz0idmlzaWJsZSIgc3R5bGU9ImRpc3BsYXk6IGJsb2NrOyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgMTYgMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJDaGV2cm9uUmlnaHQiPgo8cGF0aCBpZD0iU2hhcGUiIGQ9Ik01LjczOTY2IDMuMjAwNDFDNS40MzYxMyAzLjQ4MjI2IDUuNDE4NTYgMy45NTY4MSA1LjcwMDQxIDQuMjYwMzRMOS4yMjY1MiA4TDUuNzAwNDEgMTEuNzM5N0M1LjQxODU2IDEyLjA0MzIgNS40MzYxMyAxMi41MTc3IDUuNzM5NjcgMTIuNzk5NkM2LjA0MzIgMTMuMDgxNSA2LjUxNzc1IDEzLjA2MzkgNi43OTk2IDEyLjc2MDNMMTAuNzk5NiA4LjUxMDM0QzExLjA2NjggOC4yMjI1OCAxMS4wNjY4IDcuNzc3NDMgMTAuNzk5NiA3LjQ4OTY2TDYuNzk5NiAzLjIzOTY2QzYuNTE3NzUgMi45MzYxMyA2LjA0MzIgMi45MTg1NiA1LjczOTY2IDMuMjAwNDFaIiBmaWxsPSJibGFjayIvPgo8L2c+Cjwvc3ZnPgo=){style=\"display:block;pointer-events:none;width:16px;height:16px;max-width:none;\"}"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Markdown"
+                              }
+                            ],
+                            "props": {
+                              "align": "center",
+                              "height": 24,
+                              "justify": "center",
+                              "minWidth": 24,
+                              "padding": 1,
+                              "width": 24
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          }
+                        ],
+                        "props": {
+                          "actionTarget": true,
+                          "align": "center",
+                          "ariaLabel": "Navigation 1: Navigation link lorem ipsum",
+                          "direction": "row",
+                          "gap": 1,
+                          "minHeight": 52,
+                          "minWidth": 0,
+                          "padding": {
+                            "left": 5,
+                            "right": 3,
+                            "y": 3
+                          },
+                          "radius": "xxs",
+                          "role": "group",
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      }
+                    ],
+                    "props": {
+                      "direction": "col",
+                      "gap": 1,
+                      "minWidth": 0,
+                      "width": "100%"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Box"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "props": {
+                          "border": {
+                            "top": {
+                              "size": 1
+                            }
+                          },
+                          "height": 1,
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "color": "brand-alt",
+                                  "expandActionTarget": true,
+                                  "maxLines": 2,
+                                  "onClickAction": {
+                                    "payload": {
+                                      "url": "https://example.com/navigation/2"
+                                    },
+                                    "type": "link:navigate"
+                                  },
+                                  "truncate": true,
+                                  "underline": "never",
+                                  "value": "Navigation link lorem ipsum",
+                                  "variant": "body-xl"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Link"
+                              }
+                            ],
+                            "props": {
+                              "flex": 1,
+                              "minWidth": 0
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "value": "![](data:image/svg+xml;base64,PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiBvdmVyZmxvdz0idmlzaWJsZSIgc3R5bGU9ImRpc3BsYXk6IGJsb2NrOyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgMTYgMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJDaGV2cm9uUmlnaHQiPgo8cGF0aCBpZD0iU2hhcGUiIGQ9Ik01LjczOTY2IDMuMjAwNDFDNS40MzYxMyAzLjQ4MjI2IDUuNDE4NTYgMy45NTY4MSA1LjcwMDQxIDQuMjYwMzRMOS4yMjY1MiA4TDUuNzAwNDEgMTEuNzM5N0M1LjQxODU2IDEyLjA0MzIgNS40MzYxMyAxMi41MTc3IDUuNzM5NjcgMTIuNzk5NkM2LjA0MzIgMTMuMDgxNSA2LjUxNzc1IDEzLjA2MzkgNi43OTk2IDEyLjc2MDNMMTAuNzk5NiA4LjUxMDM0QzExLjA2NjggOC4yMjI1OCAxMS4wNjY4IDcuNzc3NDMgMTAuNzk5NiA3LjQ4OTY2TDYuNzk5NiAzLjIzOTY2QzYuNTE3NzUgMi45MzYxMyA2LjA0MzIgMi45MTg1NiA1LjczOTY2IDMuMjAwNDFaIiBmaWxsPSJibGFjayIvPgo8L2c+Cjwvc3ZnPgo=){style=\"display:block;pointer-events:none;width:16px;height:16px;max-width:none;\"}"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Markdown"
+                              }
+                            ],
+                            "props": {
+                              "align": "center",
+                              "height": 24,
+                              "justify": "center",
+                              "minWidth": 24,
+                              "padding": 1,
+                              "width": 24
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          }
+                        ],
+                        "props": {
+                          "actionTarget": true,
+                          "align": "center",
+                          "ariaLabel": "Navigation 2: Navigation link lorem ipsum",
+                          "direction": "row",
+                          "gap": 1,
+                          "minHeight": 52,
+                          "minWidth": 0,
+                          "padding": {
+                            "left": 5,
+                            "right": 3,
+                            "y": 3
+                          },
+                          "radius": "xxs",
+                          "role": "group",
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      }
+                    ],
+                    "props": {
+                      "direction": "col",
+                      "gap": 1,
+                      "minWidth": 0,
+                      "width": "100%"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Box"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "props": {
+                          "border": {
+                            "top": {
+                              "size": 1
+                            }
+                          },
+                          "height": 1,
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "color": "brand-alt",
+                                  "expandActionTarget": true,
+                                  "maxLines": 2,
+                                  "onClickAction": {
+                                    "payload": {
+                                      "url": "https://example.com/navigation/3"
+                                    },
+                                    "type": "link:navigate"
+                                  },
+                                  "truncate": true,
+                                  "underline": "never",
+                                  "value": "Navigation link lorem ipsum",
+                                  "variant": "body-xl"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Link"
+                              }
+                            ],
+                            "props": {
+                              "flex": 1,
+                              "minWidth": 0
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "value": "![](data:image/svg+xml;base64,PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiBvdmVyZmxvdz0idmlzaWJsZSIgc3R5bGU9ImRpc3BsYXk6IGJsb2NrOyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgMTYgMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJDaGV2cm9uUmlnaHQiPgo8cGF0aCBpZD0iU2hhcGUiIGQ9Ik01LjczOTY2IDMuMjAwNDFDNS40MzYxMyAzLjQ4MjI2IDUuNDE4NTYgMy45NTY4MSA1LjcwMDQxIDQuMjYwMzRMOS4yMjY1MiA4TDUuNzAwNDEgMTEuNzM5N0M1LjQxODU2IDEyLjA0MzIgNS40MzYxMyAxMi41MTc3IDUuNzM5NjcgMTIuNzk5NkM2LjA0MzIgMTMuMDgxNSA2LjUxNzc1IDEzLjA2MzkgNi43OTk2IDEyLjc2MDNMMTAuNzk5NiA4LjUxMDM0QzExLjA2NjggOC4yMjI1OCAxMS4wNjY4IDcuNzc3NDMgMTAuNzk5NiA3LjQ4OTY2TDYuNzk5NiAzLjIzOTY2QzYuNTE3NzUgMi45MzYxMyA2LjA0MzIgMi45MTg1NiA1LjczOTY2IDMuMjAwNDFaIiBmaWxsPSJibGFjayIvPgo8L2c+Cjwvc3ZnPgo=){style=\"display:block;pointer-events:none;width:16px;height:16px;max-width:none;\"}"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Markdown"
+                              }
+                            ],
+                            "props": {
+                              "align": "center",
+                              "height": 24,
+                              "justify": "center",
+                              "minWidth": 24,
+                              "padding": 1,
+                              "width": 24
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          }
+                        ],
+                        "props": {
+                          "actionTarget": true,
+                          "align": "center",
+                          "ariaLabel": "Navigation 3: Navigation link lorem ipsum",
+                          "direction": "row",
+                          "gap": 1,
+                          "minHeight": 52,
+                          "minWidth": 0,
+                          "padding": {
+                            "left": 5,
+                            "right": 3,
+                            "y": 3
+                          },
+                          "radius": "xxs",
+                          "role": "group",
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      }
+                    ],
+                    "props": {
+                      "direction": "col",
+                      "gap": 1,
+                      "minWidth": 0,
+                      "width": "100%"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Box"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "props": {
+                          "border": {
+                            "top": {
+                              "size": 1
+                            }
+                          },
+                          "height": 1,
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "color": "brand-alt",
+                                  "expandActionTarget": true,
+                                  "maxLines": 2,
+                                  "onClickAction": {
+                                    "payload": {
+                                      "url": "https://example.com/navigation/4"
+                                    },
+                                    "type": "link:navigate"
+                                  },
+                                  "truncate": true,
+                                  "underline": "never",
+                                  "value": "Navigation link lorem ipsum",
+                                  "variant": "body-xl"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Link"
+                              }
+                            ],
+                            "props": {
+                              "flex": 1,
+                              "minWidth": 0
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "value": "![](data:image/svg+xml;base64,PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiBvdmVyZmxvdz0idmlzaWJsZSIgc3R5bGU9ImRpc3BsYXk6IGJsb2NrOyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgMTYgMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJDaGV2cm9uUmlnaHQiPgo8cGF0aCBpZD0iU2hhcGUiIGQ9Ik01LjczOTY2IDMuMjAwNDFDNS40MzYxMyAzLjQ4MjI2IDUuNDE4NTYgMy45NTY4MSA1LjcwMDQxIDQuMjYwMzRMOS4yMjY1MiA4TDUuNzAwNDEgMTEuNzM5N0M1LjQxODU2IDEyLjA0MzIgNS40MzYxMyAxMi41MTc3IDUuNzM5NjcgMTIuNzk5NkM2LjA0MzIgMTMuMDgxNSA2LjUxNzc1IDEzLjA2MzkgNi43OTk2IDEyLjc2MDNMMTAuNzk5NiA4LjUxMDM0QzExLjA2NjggOC4yMjI1OCAxMS4wNjY4IDcuNzc3NDMgMTAuNzk5NiA3LjQ4OTY2TDYuNzk5NiAzLjIzOTY2QzYuNTE3NzUgMi45MzYxMyA2LjA0MzIgMi45MTg1NiA1LjczOTY2IDMuMjAwNDFaIiBmaWxsPSJibGFjayIvPgo8L2c+Cjwvc3ZnPgo=){style=\"display:block;pointer-events:none;width:16px;height:16px;max-width:none;\"}"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Markdown"
+                              }
+                            ],
+                            "props": {
+                              "align": "center",
+                              "height": 24,
+                              "justify": "center",
+                              "minWidth": 24,
+                              "padding": 1,
+                              "width": 24
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          }
+                        ],
+                        "props": {
+                          "actionTarget": true,
+                          "align": "center",
+                          "ariaLabel": "Navigation 4: Navigation link lorem ipsum",
+                          "direction": "row",
+                          "gap": 1,
+                          "minHeight": 52,
+                          "minWidth": 0,
+                          "padding": {
+                            "left": 5,
+                            "right": 3,
+                            "y": 3
+                          },
+                          "radius": "xxs",
+                          "role": "group",
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      }
+                    ],
+                    "props": {
+                      "direction": "col",
+                      "gap": 1,
+                      "minWidth": 0,
+                      "width": "100%"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Box"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "props": {
+                          "border": {
+                            "top": {
+                              "size": 1
+                            }
+                          },
+                          "height": 1,
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "color": "brand-alt",
+                                  "expandActionTarget": true,
+                                  "maxLines": 2,
+                                  "onClickAction": {
+                                    "payload": {
+                                      "url": "https://example.com/navigation/5"
+                                    },
+                                    "type": "link:navigate"
+                                  },
+                                  "truncate": true,
+                                  "underline": "never",
+                                  "value": "Navigation link lorem ipsum",
+                                  "variant": "body-xl"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Link"
+                              }
+                            ],
+                            "props": {
+                              "flex": 1,
+                              "minWidth": 0
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "value": "![](data:image/svg+xml;base64,PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiBvdmVyZmxvdz0idmlzaWJsZSIgc3R5bGU9ImRpc3BsYXk6IGJsb2NrOyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgMTYgMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJDaGV2cm9uUmlnaHQiPgo8cGF0aCBpZD0iU2hhcGUiIGQ9Ik01LjczOTY2IDMuMjAwNDFDNS40MzYxMyAzLjQ4MjI2IDUuNDE4NTYgMy45NTY4MSA1LjcwMDQxIDQuMjYwMzRMOS4yMjY1MiA4TDUuNzAwNDEgMTEuNzM5N0M1LjQxODU2IDEyLjA0MzIgNS40MzYxMyAxMi41MTc3IDUuNzM5NjcgMTIuNzk5NkM2LjA0MzIgMTMuMDgxNSA2LjUxNzc1IDEzLjA2MzkgNi43OTk2IDEyLjc2MDNMMTAuNzk5NiA4LjUxMDM0QzExLjA2NjggOC4yMjI1OCAxMS4wNjY4IDcuNzc3NDMgMTAuNzk5NiA3LjQ4OTY2TDYuNzk5NiAzLjIzOTY2QzYuNTE3NzUgMi45MzYxMyA2LjA0MzIgMi45MTg1NiA1LjczOTY2IDMuMjAwNDFaIiBmaWxsPSJibGFjayIvPgo8L2c+Cjwvc3ZnPgo=){style=\"display:block;pointer-events:none;width:16px;height:16px;max-width:none;\"}"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Markdown"
+                              }
+                            ],
+                            "props": {
+                              "align": "center",
+                              "height": 24,
+                              "justify": "center",
+                              "minWidth": 24,
+                              "padding": 1,
+                              "width": 24
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          }
+                        ],
+                        "props": {
+                          "actionTarget": true,
+                          "align": "center",
+                          "ariaLabel": "Navigation 5: Navigation link lorem ipsum",
+                          "direction": "row",
+                          "gap": 1,
+                          "minHeight": 52,
+                          "minWidth": 0,
+                          "padding": {
+                            "left": 5,
+                            "right": 3,
+                            "y": 3
+                          },
+                          "radius": "xxs",
+                          "role": "group",
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      }
+                    ],
+                    "props": {
+                      "direction": "col",
+                      "gap": 1,
+                      "minWidth": 0,
+                      "width": "100%"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Box"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "props": {
+                          "border": {
+                            "top": {
+                              "size": 1
+                            }
+                          },
+                          "height": 1,
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "color": "brand-alt",
+                                  "expandActionTarget": true,
+                                  "maxLines": 2,
+                                  "onClickAction": {
+                                    "payload": {
+                                      "url": "https://example.com/navigation/6"
+                                    },
+                                    "type": "link:navigate"
+                                  },
+                                  "truncate": true,
+                                  "underline": "never",
+                                  "value": "Navigation link lorem ipsum",
+                                  "variant": "body-xl"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Link"
+                              }
+                            ],
+                            "props": {
+                              "flex": 1,
+                              "minWidth": 0
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "value": "![](data:image/svg+xml;base64,PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiBvdmVyZmxvdz0idmlzaWJsZSIgc3R5bGU9ImRpc3BsYXk6IGJsb2NrOyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgMTYgMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJDaGV2cm9uUmlnaHQiPgo8cGF0aCBpZD0iU2hhcGUiIGQ9Ik01LjczOTY2IDMuMjAwNDFDNS40MzYxMyAzLjQ4MjI2IDUuNDE4NTYgMy45NTY4MSA1LjcwMDQxIDQuMjYwMzRMOS4yMjY1MiA4TDUuNzAwNDEgMTEuNzM5N0M1LjQxODU2IDEyLjA0MzIgNS40MzYxMyAxMi41MTc3IDUuNzM5NjcgMTIuNzk5NkM2LjA0MzIgMTMuMDgxNSA2LjUxNzc1IDEzLjA2MzkgNi43OTk2IDEyLjc2MDNMMTAuNzk5NiA4LjUxMDM0QzExLjA2NjggOC4yMjI1OCAxMS4wNjY4IDcuNzc3NDMgMTAuNzk5NiA3LjQ4OTY2TDYuNzk5NiAzLjIzOTY2QzYuNTE3NzUgMi45MzYxMyA2LjA0MzIgMi45MTg1NiA1LjczOTY2IDMuMjAwNDFaIiBmaWxsPSJibGFjayIvPgo8L2c+Cjwvc3ZnPgo=){style=\"display:block;pointer-events:none;width:16px;height:16px;max-width:none;\"}"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Markdown"
+                              }
+                            ],
+                            "props": {
+                              "align": "center",
+                              "height": 24,
+                              "justify": "center",
+                              "minWidth": 24,
+                              "padding": 1,
+                              "width": 24
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          }
+                        ],
+                        "props": {
+                          "actionTarget": true,
+                          "align": "center",
+                          "ariaLabel": "Navigation 6: Navigation link lorem ipsum",
+                          "direction": "row",
+                          "gap": 1,
+                          "minHeight": 52,
+                          "minWidth": 0,
+                          "padding": {
+                            "left": 5,
+                            "right": 3,
+                            "y": 3
+                          },
+                          "radius": "xxs",
+                          "role": "group",
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      }
+                    ],
+                    "props": {
+                      "direction": "col",
+                      "gap": 1,
+                      "minWidth": 0,
+                      "width": "100%"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Box"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "props": {
+                          "border": {
+                            "top": {
+                              "size": 1
+                            }
+                          },
+                          "height": 1,
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "color": "brand-alt",
+                                  "expandActionTarget": true,
+                                  "maxLines": 2,
+                                  "onClickAction": {
+                                    "payload": {
+                                      "url": "https://example.com/navigation/7"
+                                    },
+                                    "type": "link:navigate"
+                                  },
+                                  "truncate": true,
+                                  "underline": "never",
+                                  "value": "Navigation link lorem ipsum",
+                                  "variant": "body-xl"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Link"
+                              }
+                            ],
+                            "props": {
+                              "flex": 1,
+                              "minWidth": 0
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "value": "![](data:image/svg+xml;base64,PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiBvdmVyZmxvdz0idmlzaWJsZSIgc3R5bGU9ImRpc3BsYXk6IGJsb2NrOyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgMTYgMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJDaGV2cm9uUmlnaHQiPgo8cGF0aCBpZD0iU2hhcGUiIGQ9Ik01LjczOTY2IDMuMjAwNDFDNS40MzYxMyAzLjQ4MjI2IDUuNDE4NTYgMy45NTY4MSA1LjcwMDQxIDQuMjYwMzRMOS4yMjY1MiA4TDUuNzAwNDEgMTEuNzM5N0M1LjQxODU2IDEyLjA0MzIgNS40MzYxMyAxMi41MTc3IDUuNzM5NjcgMTIuNzk5NkM2LjA0MzIgMTMuMDgxNSA2LjUxNzc1IDEzLjA2MzkgNi43OTk2IDEyLjc2MDNMMTAuNzk5NiA4LjUxMDM0QzExLjA2NjggOC4yMjI1OCAxMS4wNjY4IDcuNzc3NDMgMTAuNzk5NiA3LjQ4OTY2TDYuNzk5NiAzLjIzOTY2QzYuNTE3NzUgMi45MzYxMyA2LjA0MzIgMi45MTg1NiA1LjczOTY2IDMuMjAwNDFaIiBmaWxsPSJibGFjayIvPgo8L2c+Cjwvc3ZnPgo=){style=\"display:block;pointer-events:none;width:16px;height:16px;max-width:none;\"}"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Markdown"
+                              }
+                            ],
+                            "props": {
+                              "align": "center",
+                              "height": 24,
+                              "justify": "center",
+                              "minWidth": 24,
+                              "padding": 1,
+                              "width": 24
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          }
+                        ],
+                        "props": {
+                          "actionTarget": true,
+                          "align": "center",
+                          "ariaLabel": "Navigation 7: Navigation link lorem ipsum",
+                          "direction": "row",
+                          "gap": 1,
+                          "minHeight": 52,
+                          "minWidth": 0,
+                          "padding": {
+                            "left": 5,
+                            "right": 3,
+                            "y": 3
+                          },
+                          "radius": "xxs",
+                          "role": "group",
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      }
+                    ],
+                    "props": {
+                      "direction": "col",
+                      "gap": 1,
+                      "minWidth": 0,
+                      "width": "100%"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Box"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "props": {
+                          "border": {
+                            "top": {
+                              "size": 1
+                            }
+                          },
+                          "height": 1,
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "color": "brand-alt",
+                                  "expandActionTarget": true,
+                                  "maxLines": 2,
+                                  "onClickAction": {
+                                    "payload": {
+                                      "url": "https://example.com/navigation/8"
+                                    },
+                                    "type": "link:navigate"
+                                  },
+                                  "truncate": true,
+                                  "underline": "never",
+                                  "value": "Navigation link lorem ipsum",
+                                  "variant": "body-xl"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Link"
+                              }
+                            ],
+                            "props": {
+                              "flex": 1,
+                              "minWidth": 0
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "value": "![](data:image/svg+xml;base64,PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiBvdmVyZmxvdz0idmlzaWJsZSIgc3R5bGU9ImRpc3BsYXk6IGJsb2NrOyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgMTYgMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGlkPSJDaGV2cm9uUmlnaHQiPgo8cGF0aCBpZD0iU2hhcGUiIGQ9Ik01LjczOTY2IDMuMjAwNDFDNS40MzYxMyAzLjQ4MjI2IDUuNDE4NTYgMy45NTY4MSA1LjcwMDQxIDQuMjYwMzRMOS4yMjY1MiA4TDUuNzAwNDEgMTEuNzM5N0M1LjQxODU2IDEyLjA0MzIgNS40MzYxMyAxMi41MTc3IDUuNzM5NjcgMTIuNzk5NkM2LjA0MzIgMTMuMDgxNSA2LjUxNzc1IDEzLjA2MzkgNi43OTk2IDEyLjc2MDNMMTAuNzk5NiA4LjUxMDM0QzExLjA2NjggOC4yMjI1OCAxMS4wNjY4IDcuNzc3NDMgMTAuNzk5NiA3LjQ4OTY2TDYuNzk5NiAzLjIzOTY2QzYuNTE3NzUgMi45MzYxMyA2LjA0MzIgMi45MTg1NiA1LjczOTY2IDMuMjAwNDFaIiBmaWxsPSJibGFjayIvPgo8L2c+Cjwvc3ZnPgo=){style=\"display:block;pointer-events:none;width:16px;height:16px;max-width:none;\"}"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Markdown"
+                              }
+                            ],
+                            "props": {
+                              "align": "center",
+                              "height": 24,
+                              "justify": "center",
+                              "minWidth": 24,
+                              "padding": 1,
+                              "width": 24
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          }
+                        ],
+                        "props": {
+                          "actionTarget": true,
+                          "align": "center",
+                          "ariaLabel": "Navigation 8: Navigation link lorem ipsum",
+                          "direction": "row",
+                          "gap": 1,
+                          "minHeight": 52,
+                          "minWidth": 0,
+                          "padding": {
+                            "left": 5,
+                            "right": 3,
+                            "y": 3
+                          },
+                          "radius": "xxs",
+                          "role": "group",
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      }
+                    ],
+                    "props": {
+                      "direction": "col",
+                      "gap": 1,
+                      "minWidth": 0,
+                      "width": "100%"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Box"
+                  },
+                  {
+                    "children": [],
+                    "props": {
+                      "border": {
+                        "top": {
+                          "size": 1
+                        }
+                      },
+                      "height": 1,
+                      "width": "100%"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Box"
+                  }
+                ],
+                "props": {
+                  "ariaLabel": "Eight placeholder navigation links",
+                  "direction": "col",
+                  "gap": 1,
+                  "minWidth": 0,
+                  "role": "group",
+                  "width": "100%"
+                },
+                "sdlVersion": "1.5",
+                "type": "Box"
+              }
+            ],
+            "props": {
+              "direction": "col",
+              "gap": 2,
+              "minWidth": 0,
+              "width": "100%"
+            },
+            "sdlVersion": "1.5",
+            "type": "Box"
+          }
+        ],
+        "props": {
+          "ariaLabel": "Section title lorem ipsum left column",
+          "direction": "col",
+          "gap": 4,
+          "minWidth": 0,
+          "role": "group",
+          "width": "57.5%"
+        },
+        "sdlVersion": "1.5",
+        "type": "Box"
+      }
+    ],
+    "props": {
+      "ariaLabel": "Placeholder left section — eight navigation links",
+      "background": "surface-elevated",
+      "direction": "col",
+      "minWidth": 0,
+      "role": "group",
+      "width": "100%"
+    },
+    "sdlVersion": "1.5",
+    "type": "Box"
+  },
+  "sdlVersion": "1.5"
+}

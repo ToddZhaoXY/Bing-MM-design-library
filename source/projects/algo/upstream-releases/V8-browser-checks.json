@@ -1,0 +1,2796 @@
+[
+  {
+    "page": "index.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 372.5,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": null,
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true
+  },
+  {
+    "page": "index.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 372.5,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": null,
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true
+  },
+  {
+    "page": "algo-block.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 345.1000000014901,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Standard",
+      "description": "A standard web result combines website attribution, a linked title, and a snippet to help users assess the destination before opening it.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "algo-block.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 345.1000000014901,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Standard",
+      "description": "A standard web result combines website attribution, a linked title, and a snippet to help users assess the destination before opening it.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "algo-block.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 345,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Standard",
+      "description": "A standard web result combines website attribution, a linked title, and a snippet to help users assess the destination before opening it.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "algo-block.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 345,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Standard",
+      "description": "A standard web result combines website attribution, a linked title, and a snippet to help users assess the destination before opening it.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "mm-algo.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 361.6000000014901,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Image Caption",
+      "description": "This feature adds visual previews of the destination content to a search result. It complements the title and snippet with relevant imagery, helping users understand the content at a glance and evaluate its relevance before clicking.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "mm-algo.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 361.6000000014901,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Image Caption",
+      "description": "This feature adds visual previews of the destination content to a search result. It complements the title and snippet with relevant imagery, helping users understand the content at a glance and evaluate its relevance before clicking.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "mm-algo.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 345.90000000596046,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Image Caption",
+      "description": "This feature adds visual previews of the destination content to a search result. It complements the title and snippet with relevant imagery, helping users understand the content at a glance and evaluate its relevance before clicking.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "mm-algo.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 345.90000000596046,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Image Caption",
+      "description": "This feature adds visual previews of the destination content to a search result. It complements the title and snippet with relevant imagery, helping users understand the content at a glance and evaluate its relevance before clicking.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "rich-nav-carousel.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 345.3999999985099,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Title",
+      "description": "Each carousel item shows an image and a title. Use the thumbnail options to compare the available treatments, then browse the row to explore more items.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "rich-nav-carousel.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 345.3999999985099,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Title",
+      "description": "Each carousel item shows an image and a title. Use the thumbnail options to compare the available treatments, then browse the row to explore more items.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "rich-nav-carousel.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 348,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Title",
+      "description": "Each carousel item shows an image and a title. Use the thumbnail options to compare the available treatments, then browse the row to explore more items.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "rich-nav-carousel.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 348,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Title",
+      "description": "Each carousel item shows an image and a title. Use the thumbnail options to compare the available treatments, then browse the row to explore more items.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "expansion.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 349.6000000014901,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Single Image",
+      "description": "One thumbnail appears beside the main result, while the section rows remain text-only.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "expansion.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 349.6000000014901,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Single Image",
+      "description": "One thumbnail appears beside the main result, while the section rows remain text-only.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "expansion.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 346.20000000298023,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Single Image",
+      "description": "One thumbnail appears beside the main result, while the section rows remain text-only.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "expansion.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 346.20000000298023,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Single Image",
+      "description": "One thumbnail appears beside the main result, while the section rows remain text-only.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "nav.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 346.29999999701977,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Full · 6 links",
+      "description": "Six website links are shown below the result. Each link has a destination label and a chevron; select a link to open its page.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "nav.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 346.29999999701977,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Full · 6 links",
+      "description": "Six website links are shown below the result. Each link has a destination label and a chevron; select a link to open its page.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "nav.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 345.3999999985099,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Full · 6 links",
+      "description": "Six website links are shown below the result. Each link has a destination label and a chevron; select a link to open its page.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "nav.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 345.3999999985099,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Full · 6 links",
+      "description": "Six website links are shown below the result. Each link has a destination label and a chevron; select a link to open its page.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "sectional-rich-nav.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 362.19999999552965,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Primary result + image cards",
+      "description": "One primary web result is grouped with two supporting image cards. Open a result or card to visit its destination; switch devices to compare the layout.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 0
+  },
+  {
+    "page": "sectional-rich-nav.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 362.19999999552965,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Primary result + image cards",
+      "description": "One primary web result is grouped with two supporting image cards. Open a result or card to visit its destination; switch devices to compare the layout.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 0
+  },
+  {
+    "page": "sectional-rich-nav.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 361.79999999701977,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Primary result + image cards",
+      "description": "One primary web result is grouped with two supporting image cards. Open a result or card to visit its destination; switch devices to compare the layout.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 0
+  },
+  {
+    "page": "sectional-rich-nav.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 361.79999999701977,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Primary result + image cards",
+      "description": "One primary web result is grouped with two supporting image cards. Open a result or card to visit its destination; switch devices to compare the layout.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 0
+  },
+  {
+    "page": "sectional-expansion.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 352.6000000014901,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Fact Layout",
+      "description": "The Fact Layout pairs a primary result with concise fact cards. Facts highlight key information and figures; hover reveals additional details and a Continue reading link. All-image, mixed-image, and text-only layouts are supported.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "sectional-expansion.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 352.6000000014901,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Fact Layout",
+      "description": "The Fact Layout pairs a primary result with concise fact cards. Facts highlight key information and figures; hover reveals additional details and a Continue reading link. All-image, mixed-image, and text-only layouts are supported.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "sectional-expansion.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 361.6000000014901,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Fact Layout",
+      "description": "Tap a fact card to preview additional details, then continue reading on the linked page.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "sectional-expansion.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 361.6000000014901,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "Fact Layout",
+      "description": "Tap a fact card to preview additional details, then continue reading on the linked page.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "sectional-nav.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 361.6000000014901,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "With Magazine",
+      "description": "Website links and visual content cards complement the Magazine. Four deeplinks are displayed by default; Show more reveals the remaining links. Hover highlights a deeplink or supportive card, and clicking opens the destination.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "sectional-nav.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 361.6000000014901,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "With Magazine",
+      "description": "Website links and visual content cards complement the Magazine. Four deeplinks are displayed by default; Show more reveals the remaining links. Hover highlights a deeplink or supportive card, and clicking opens the destination.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "sectional-nav.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 362.79999999701977,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "With Magazine",
+      "description": "Four website links are displayed by default. Tap Show more to reveal all six; tap a link or article card to open its destination.",
+      "visible": true
+    },
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "sectional-nav.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 362.79999999701977,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": {
+      "heading": "With Magazine",
+      "description": "Four website links are displayed by default. Tap Show more to reveal all six; tap a link or article card to open its destination.",
+      "visible": true
+    },
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "cells-deeplink.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 376.79999999701977,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": null,
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "cells-deeplink.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 376.79999999701977,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": null,
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "cells-deeplink.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 345.20000000298023,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": null,
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 304
+  },
+  {
+    "page": "cells-deeplink.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 345.20000000298023,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": null,
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 342
+  },
+  {
+    "page": "cells-favicon.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 345.30000000447035,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": null,
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 0
+  },
+  {
+    "page": "cells-favicon.html",
+    "device": "desktop",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 345.30000000447035,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "400"
+        },
+        {
+          "family": "Algo Roboto",
+          "weight": "700"
+        }
+      ]
+    },
+    "overviewDetails": null,
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 0
+  },
+  {
+    "page": "cells-favicon.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 1720,
+    "first": {
+      "frame": {
+        "time": 345.20000000298023,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": null,
+    "documentWidth": 1720,
+    "main": {
+      "x": 326,
+      "w": 1370
+    },
+    "sidebar": {
+      "x": 86,
+      "w": 192,
+      "scroll": 732,
+      "client": 732
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": true,
+    "controlsAbove": true,
+    "controlsWidth": 0
+  },
+  {
+    "page": "cells-favicon.html",
+    "device": "mobile",
+    "font": "source",
+    "storedFont": "source",
+    "width": 390,
+    "first": {
+      "frame": {
+        "time": 345.20000000298023,
+        "font": "source",
+        "ready": true,
+        "headingReady": true,
+        "x": 371,
+        "w": 1480
+      },
+      "visibleShift": 0,
+      "fontLoading": false,
+      "loaded": [
+        {
+          "family": "Source Sans Pro",
+          "weight": "400 500"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "600"
+        },
+        {
+          "family": "Source Sans Pro",
+          "weight": "700"
+        },
+        {
+          "family": "Algo Roboto Variable",
+          "weight": "100 900"
+        }
+      ]
+    },
+    "overviewDetails": null,
+    "documentWidth": 390,
+    "main": {
+      "x": 12,
+      "w": 366
+    },
+    "sidebar": {
+      "x": 0,
+      "w": 0,
+      "scroll": 0,
+      "client": 0
+    },
+    "cellsOpen": false,
+    "scenarios": [
+      true,
+      true
+    ],
+    "featureItems": "MMAIGCVideoAlgo",
+    "featureVisible": false,
+    "controlsAbove": true,
+    "controlsWidth": 0
+  }
+]

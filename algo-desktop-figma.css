@@ -1,0 +1,158 @@
+/* Desktop Figma tokens, verified 2026-11-10. Slash-delimited Figma names are
+   normalized to hyphens; source nodes and resolved values are recorded in
+   releases/Desktop-token-alignment-2026-11-10.md. Mobile is deliberately excluded. */
+/* Fact and List text resolve to the tertiary foreground in 273:25154/273:25262. */
+body:not([data-device=mobile]) .algo :is(.facts,.result-list){color:var(--algo-tertiary)}
+body:not([data-device=mobile]) .mm-algo .mm-play{width:32px;height:32px}
+body:not([data-device=mobile]) .mm-algo .mm-duration{padding:3.5px 4px;font-size:11px;line-height:13px;border-radius:8px}
+@font-face{font-family:"Algo Roboto";src:url("algo-public-assets-fonts-roboto-Roboto-Regular.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"Algo Roboto";src:url("algo-public-assets-fonts-roboto-Roboto-Bold.ttf") format("truetype");font-style:normal;font-weight:700;font-display:swap}
+
+body:not([data-device=mobile]){
+  --text-style-default-regular-font-family:"Algo Roboto",Arial,sans-serif;
+  --text-style-default-regular-weight:400;
+  --text-style-default-header-weight:700;
+  --text-global-body3-fontSize:14px;
+  --text-global-body3-lineHeight:22px;
+  --text-global-body1-fontSize:18px;
+  --text-global-body1-lineHeight:28px;
+  --text-global-subtitle1-fontSize:20px;
+  --text-global-subtitle1-lineHeight:26px;
+  --text-global-caption1-fontSize:13px;
+  --text-global-caption1-lineHeight:20px;
+  --text-global-caption2-fontSize:11px;
+  --text-global-caption2-lineHeight:13px;
+  --smtc-gap-between-content-xx-small:4px;
+  --smtc-gap-between-content-x-small:8px;
+  --smtc-gap-between-content-small:12px;
+  --smtc-gap-between-content-medium:16px;
+  --smtc-gap-between-content-x-large:24px;
+  --bing-smtc-padding-ctrl-xlg-horizontal-default:20px;
+  --mai-smtc-padding-card-default:20px;
+  --mai-smtc-corner-card-default:24px;
+  --smtc-corner-ctrl-rest:8px;
+  --smtc-corner-ctrl-sm-rest:4px;
+  --smtc-corner-circular:9999px;
+  --bing-smtc-foreground-content-neutral-tertiary:#00000099;
+  --bing-smtc-stroke-ctrl-default:#0000001a;
+  --smtc-stroke-divider-default:#0000001a;
+  --smtc-ctrl-link-foreground-brand-rest:#3d00a6;
+  --smtc-ctrl-list-background-selected-rest:#eaf1f7;
+  --smtc-ctrl-list-background-selected-hover:#e3ecf3;
+  --base-link-default:#4007a2;
+}
+/* Preserve the existing dark theme; the supplied Figma baseline is light. */
+:root[data-theme=dark] body:not([data-device=mobile]){
+  --bing-smtc-foreground-content-neutral-tertiary:rgba(255,255,255,.6);
+  --bing-smtc-stroke-ctrl-default:#444;
+  --smtc-stroke-divider-default:#444;
+  --smtc-ctrl-link-foreground-brand-rest:#bda4ff;
+  --base-link-default:#bda4ff;
+  --smtc-ctrl-list-background-selected-rest:#2a414f;
+  --smtc-ctrl-list-background-selected-hover:#283e4a;
+}
+
+body:not([data-device=mobile]) :is(.algo,.sectional-rich,.sectional-expansion,.sectional-nav,.rich-card,.sn-card),
+body:not([data-device=mobile]) :is(.algo,.sectional-rich,.sectional-expansion,.sectional-nav,.rich-card,.sn-card) :not(.pin,.pin *){
+  font-family:var(--text-style-default-regular-font-family);
+}
+body:not([data-device=mobile]) :is(.algo,.sectional-rich,.sectional-expansion,.sectional-nav,.sn-card){
+  --border:var(--bing-smtc-stroke-ctrl-default);
+}
+body:not([data-device=mobile]) .algo{--purple:var(--base-link-default)}
+body:not([data-device=mobile]) .algo .attribution{gap:var(--smtc-gap-between-content-x-small)}
+body:not([data-device=mobile]) .algo .source,
+body:not([data-device=mobile]) .algo .source small{
+  font-size:var(--text-global-body3-fontSize);
+  line-height:var(--text-global-body3-lineHeight);
+  color:var(--bing-smtc-foreground-content-neutral-tertiary);
+}
+body:not([data-device=mobile]) .algo .snippet{font-size:var(--text-global-body3-fontSize);line-height:var(--text-global-body3-lineHeight)}
+body:not([data-device=mobile]) .algo .result-title{font-size:var(--text-global-subtitle1-fontSize);line-height:var(--text-global-subtitle1-lineHeight)}
+body:not([data-device=mobile]) .algo .favicon{border-radius:var(--smtc-corner-circular)}
+
+/* Mainline Expansion: 277:6911 collapsed, 284:78040 expanded. */
+body:not([data-device=mobile]) .expansion-rows{margin-top:var(--smtc-gap-between-content-xx-small)}
+body:not([data-device=mobile]) .expansion-row{border:0}
+body:not([data-device=mobile]) .expansion-row+.expansion-row{box-shadow:inset 0 1px var(--smtc-stroke-divider-default)}
+body:not([data-device=mobile]) .expansion-section-title{font-size:var(--text-global-body1-fontSize);line-height:var(--text-global-body1-lineHeight)}
+body:not([data-device=mobile]) .expansion-row.is-open>.expansion-row-header{padding-block:var(--smtc-gap-between-content-small)}
+body:not([data-device=mobile]) .expansion-algo{
+  --expansion-open:var(--smtc-ctrl-list-background-selected-rest);
+  --expansion-hover:var(--smtc-ctrl-list-background-selected-hover);
+}
+
+/* Mainline Nav: 866:3083. */
+body:not([data-device=mobile]) .nav-result{--purple:var(--smtc-ctrl-link-foreground-brand-rest);--nav-hover:var(--smtc-ctrl-list-background-selected-rest)}
+body:not([data-device=mobile]) .nav-result>.part-title,
+body:not([data-device=mobile]) .nav-result>.result-title{margin:var(--smtc-gap-between-content-xx-small) 0}
+body:not([data-device=mobile]) .nav-result>.part-title .result-title{margin:0}
+body:not([data-device=mobile]) .nav-deeplink{font-size:var(--text-global-body1-fontSize);line-height:var(--text-global-body1-lineHeight)}
+body:not([data-device=mobile]) .nav-more{
+  display:flex;align-items:center;min-height:32px;
+  font-size:var(--text-global-caption2-fontSize);line-height:var(--text-global-caption2-lineHeight);
+}
+
+/* Sectional components retain their original Desktop compositions. */
+body:not([data-device=mobile]) :is(.sectional-rich,.sectional-expansion,.sectional-nav){--purple:var(--smtc-ctrl-link-foreground-brand-rest)}
+body:not([data-device=mobile]) :is(.sectional-primary,.se-primary,.sn-primary){--purple:var(--smtc-ctrl-link-foreground-brand-rest)}
+body:not([data-device=mobile]) :is(.sectional-rich-grid,.sectional-images,.se-grid,.se-cards){gap:var(--smtc-gap-between-content-x-large)}
+body:not([data-device=mobile]) :is(.sectional-primary,.se-primary,.se-card,.sn-card){border-radius:var(--mai-smtc-corner-card-default)}
+body:not([data-device=mobile]) .sectional-card-link:hover{box-shadow:none}
+body:not([data-device=mobile]) .sectional-card-link:hover .sectional-card-title{text-decoration:none}
+/* Keep focus indication available for keyboard users. */
+body:not([data-device=mobile]) .sectional-card-link:focus-visible{outline:2px solid var(--focus);outline-offset:4px}
+
+/* Sectional Nav rail begins at the attribution row, not 44px below it. */
+body:not([data-device=mobile]) .sn-rail{padding-top:0;gap:var(--smtc-gap-between-content-medium)}
+body:not([data-device=mobile]) .part-snRail>.pin{top:2px}
+body:not([data-device=mobile]) .sn-primary>.result-title{margin:var(--smtc-gap-between-content-xx-small) 0}
+body:not([data-device=mobile]) .sn-deeplink{font-size:var(--text-global-body1-fontSize);line-height:var(--text-global-body1-lineHeight)}
+/* Figma card padding includes its overlaid 1px stroke. */
+body:not([data-device=mobile]) .sn-card{min-height:158px;padding:calc(var(--mai-smtc-padding-card-default) - 1px)}
+body:not([data-device=mobile]) .sn-card-body{gap:var(--smtc-gap-between-content-small)}
+body:not([data-device=mobile]) .sn-article .sn-card-copy{min-height:118px}
+body:not([data-device=mobile]) .sn-show-more{margin-top:var(--smtc-gap-between-content-medium)}
+
+/* Follow-up geometry from Wiki 303:2279 / Fact 303:4470 (2026-11-11).
+   Insets compensate for CSS's inset stroke; Figma overlays its 1px stroke. */
+body:not([data-device=mobile]) .se-primary.algo{padding:19px;min-height:224px}
+body:not([data-device=mobile]) .se-primary-content{flex:0 0 auto}
+body:not([data-device=mobile]) .se-action{margin-top:auto;height:38px;min-height:38px;padding:0 12px 0 10px;gap:6px;border-radius:8px;background:#e1f0fd;font-size:13px;line-height:20px}
+body:not([data-device=mobile]) .se-card{padding:15px 19px}
+body:not([data-device=mobile]) .se-card-main{gap:8px}
+body:not([data-device=mobile]) .se-card h4{margin-bottom:2px;color:rgba(0,0,0,.8)}
+body:not([data-device=mobile]) .se-fact .se-card-summary{font-size:13px;line-height:20px}
+body:not([data-device=mobile]) :is(.se-main-image,.se-card-image){border-radius:12px}
+body:not([data-device=mobile]) .se-card.is-open{padding-block:15px}
+body:not([data-device=mobile]) .se-continue{font-size:13px;line-height:20px;color:#0b497f}
+body:not([data-device=mobile]) .rich-result[data-content=title] .rich-card-image{height:126px}
+:root[data-theme=dark] body:not([data-device=mobile]) .se-card h4{color:var(--movie-text)}
+:root[data-theme=dark] body:not([data-device=mobile]) .se-action{background:#293f55;color:#ebebeb}
+:root[data-theme=dark] body:not([data-device=mobile]) .se-continue{color:#8ac8ff}
+/* Fact labels span the card's 68px inner height; thumbnail stays centered. */
+body:not([data-device=mobile]) .se-fact:not(.is-open) .se-card-main{min-height:68px;align-items:center}
+body:not([data-device=mobile]) .se-fact:not(.is-open) .se-card-copy{min-height:68px}
+/* At the library's wide documentation size, retain the actual 690px design
+   specimen instead of shrinking it inside the proportional control column. */
+@container documentation (min-width:1150px){
+ body:not([data-device=mobile]):is([data-component=algo],[data-component=mm],[data-component=rich],[data-component=expansion],[data-component=nav]) .demo-shell{grid-template-columns:minmax(690px,1fr) 300px}
+ body:not([data-device=mobile]):is([data-component=algo],[data-component=mm],[data-component=rich],[data-component=expansion],[data-component=nav]) #resultMount{width:690px;max-width:690px;padding:0}
+}
+
+/* Expanded typography and insets: 284:78040 / 284:76641. */
+body:not([data-device=mobile]) .expansion-algo[data-layout=single] .expansion-row-header:not(.is-open *){height:78px}
+body:not([data-device=mobile]) .expansion-algo .expansion-row.is-open>.expansion-row-header{height:52px}
+body:not([data-device=mobile]) .expansion-algo .expansion-row.is-open{padding-bottom:16px}
+body:not([data-device=mobile]) .expansion-body{padding:12px 20px 0}
+body:not([data-device=mobile]) .expansion-body .expansion-sentence{font-size:18px;line-height:28px}
+body:not([data-device=mobile]) .expansion-body-content>p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:6;overflow:hidden;height:132px}
+body:not([data-device=mobile]) .expansion-algo[data-layout=single] .expansion-body-content>p{height:110px;-webkit-line-clamp:5}
+body:not([data-device=mobile]) .expansion-continue{font-size:13px;line-height:20px}
+
+body:not([data-device=mobile]) .expansion-body-content{align-items:flex-start}
+body:not([data-device=mobile]) .expansion-body-content .expansion-thumbnail{width:88px;height:88px;border-radius:12px}
+body:not([data-device=mobile]) .expansion-continue{display:inline-flex;vertical-align:top}
+
+body:not([data-device=mobile]) .sectional-nav[data-layout=magazine][data-state=expanded] .sn-links{margin-top:8px}
+body:not([data-device=mobile]) .sectional-nav[data-layout=magazine][data-state=expanded] .sn-row:last-child{padding-bottom:0;border-bottom:0}

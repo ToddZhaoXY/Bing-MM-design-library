@@ -4,6 +4,8 @@ import { root, systems, run, fileManifest, isMain } from './lib.mjs'
 import { compileThemeCss, readThemeTokens } from './theme.mjs'
 import { makeLibraryPage, classicBundle, entryScript } from './library-page.mjs'
 import { syncNavigation } from './sync-navigation.mjs'
+import { emitAlgoLibrary } from './algo-library.mjs'
+import { makeHomePage } from './library-chrome.mjs'
 
 export async function build({ reuseBuilds = false, projectRoot = root } = {}) {
   await access(join(projectRoot, 'portal', 'index.html'))
@@ -40,7 +42,9 @@ export async function build({ reuseBuilds = false, projectRoot = root } = {}) {
       await writeFile(entry, makeLibraryPage(original, system))
       await writeFile(join(staging, `${system}.html`), makeLibraryPage(original, system, { alias: true }))
     }
-    const manifest = { format: 2, navigation: 'standalone-pages', builtAt: new Date().toISOString(), systems, files: await fileManifest(staging) }
+    await writeFile(join(staging, 'index.html'), makeHomePage(await readFile(join(staging, 'index.html'), 'utf8')))
+    await emitAlgoLibrary((name, content) => writeFile(join(staging, name), content))
+    const manifest = { format: 2, navigation: 'standalone-pages', builtAt: new Date().toISOString(), systems: [...systems, 'algo'], files: await fileManifest(staging) }
     await writeFile(join(staging, 'BUILD-MANIFEST.json'), JSON.stringify(manifest, null, 2) + '\n')
     await chmod(staging, 0o755)
     const target = join(projectRoot, 'dist')

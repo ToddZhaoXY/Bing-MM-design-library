@@ -1,0 +1,72 @@
+/* Documentation layout for a deliberately selected Mobile component preview. */
+.overview-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.device-picker{display:flex;gap:2px;border-radius:8px;background:var(--control);padding:3px}
+.device-picker button{border:0;border-radius:6px;padding:6px 12px;background:transparent;font:400 14px/20px var(--documentation-font)}
+.device-picker button[aria-pressed=true]{background:var(--surface);box-shadow:0 1px 3px #0001;font-weight:600}
+body[data-device=mobile] #resultMount{max-width:344px;margin-inline:auto;padding:0}
+body[data-device=mobile] .anatomy-visual{max-width:404px;padding:36px 30px 8px}
+body[data-device=mobile] .controls{grid-template-rows:none;align-content:start}
+body[data-device=mobile] .controls label:has(#listLinkControl){border-bottom:0}
+body[data-device=mobile] .controls .inline-anatomy-popover[hidden]{display:none!important}
+body[data-device=mobile] .search-viewport{width:min(440px,100%);margin-inline:auto}
+body[data-device=mobile] .search-viewport>.mobile-serp{padding:16px 0 0;border-radius:28px;overflow:hidden}
+.mobile-serp{--mobile-separator:var(--control);font:400 14px/22px Arial,sans-serif}
+.mobile-serp .search-chrome{height:auto;display:grid;grid-template-columns:1fr auto;gap:16px;padding:0 16px 12px;position:relative}
+.mobile-serp .ms{grid-template-columns:repeat(2,11px);gap:2px}
+.mobile-serp .ms i{width:11px;height:11px}
+.mobile-serp .mobile-serp-menu{border:0;background:none;width:28px;height:28px;display:grid;place-items:center;padding:3px}
+.mobile-serp-menu svg{width:24px;height:24px}
+.mobile-serp .searchbox{grid-column:1/-1;width:100%;height:48px;gap:12px;padding:10px 14px;font:400 16px/22px Arial,sans-serif}
+.mobile-serp #searchQuery{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--movie-muted)}
+.mobile-serp .search-tools{gap:12px}
+.mobile-serp .searchbox>svg{width:18px;height:18px}
+.mobile-serp .search-tabs{margin:0;padding:0 16px;gap:24px;min-height:34px;height:34px;overflow-x:auto;scrollbar-width:none;align-items:start;flex-wrap:nowrap;font:400 12px/24px Arial,sans-serif}
+.mobile-serp .search-tabs>span{padding:0;white-space:nowrap;flex:none}
+.mobile-serp .search-tabs>span:first-child{padding-bottom:7px;line-height:24px;border-radius:1px}
+.mobile-serp .mobile-ai-tab{display:flex;align-items:center;gap:6px}
+.mobile-movies{position:relative;padding:16px 0 0}
+.mobile-movies h3{margin:0 16px;font:700 20px/26px Arial,sans-serif;color:var(--movie-heading)}
+.mobile-movies>p{margin:4px 16px 20px;color:var(--movie-muted);font:400 14px/22px Arial,sans-serif}
+.mobile-movie-info{position:absolute;right:16px;top:18px;font-size:13px;color:var(--movie-muted)}
+.mobile-movie-scroll{overflow-x:auto;scrollbar-width:none;padding:0;scroll-snap-type:x proximity;scroll-padding-inline:16px}
+.mobile-movie-grid{display:grid;grid-template-rows:repeat(2,auto);grid-auto-columns:178px;grid-auto-flow:column;gap:12px 14px;width:max-content;padding:0 16px 24px}
+.mobile-movie-grid article{min-width:0;scroll-snap-align:start}
+.mobile-poster{position:relative;width:178px;height:266px;border-radius:24px;overflow:hidden;background:var(--subtle)}
+.mobile-movie-grid img{display:block;position:absolute;top:0;left:50%;width:212%;height:212%;max-width:none;transform:translateX(-50%);object-fit:cover}
+.mobile-movie-grid b{display:block;margin:6px 4px 0;font:700 14px/22px Arial,sans-serif;color:var(--movie-text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mobile-movie-grid small{display:block;margin:2px 4px 0;font:400 13px/20px Arial,sans-serif;color:var(--movie-muted)}
+.mobile-movie-footer{height:44px;margin-top:12px;border-top:1px solid var(--border);display:flex;justify-content:center;align-items:flex-start}
+.mobile-movie-more{margin-top:-20px;position:relative;display:flex;align-items:center;gap:10px;padding:9px 14px;border:0;border-radius:24px;background:var(--mobile-more,#e1f0ff);font:700 13px/20px Arial,sans-serif;color:var(--text)}
+.mobile-serp .list-overview{padding:24px 16px;margin:0;border-top:8px solid var(--mobile-separator);border-bottom:8px solid var(--mobile-separator)}
+.mobile-serp .copilot-heading{padding-left:18px;font:400 18px/24px Arial,sans-serif;color:var(--secondary)}
+.mobile-serp .list-overview h3{margin:20px 0 24px;font:700 20px/26px Arial,sans-serif}
+.mobile-serp .list-overview h4{margin:0 0 12px;font:700 18px/24px Arial,sans-serif}
+.mobile-serp .list-overview ol{padding-left:16px;margin:0;font:400 16px/26px Arial,sans-serif}
+.mobile-serp .list-overview li{padding-left:0}
+.mobile-serp .show-more{margin-top:16px;border-radius:14px;padding:9px 12px;font:700 13px/20px Arial,sans-serif}
+.mobile-serp .overview-sources{grid-template-columns:minmax(0,1fr) 80px;gap:8px;margin-top:12px}
+.mobile-serp .overview-sources>a,.mobile-show-sources{min-height:88px;padding:12px;border:0;border-radius:18px;background:var(--accent-surface)}
+.mobile-serp .overview-sources b{font:700 14px/20px Arial,sans-serif;color:var(--movie-text)}
+.mobile-serp .overview-sources small{display:flex;gap:4px;align-items:center;font:400 11px/16px Arial,sans-serif;margin-bottom:4px}
+.mobile-show-sources{display:flex;flex-direction:column;justify-content:space-between;text-align:left}
+.mobile-show-sources>span{display:flex;gap:2px}
+.mobile-serp .mobile-result-stack #exampleMount{padding:20px 16px}
+.mobile-serp .mobile-result-stack #exampleMount>.algo{padding:0;max-width:none}
+.mobile-serp .support-result{border-top:8px solid var(--mobile-separator);margin:0;padding:20px 16px;max-width:none;width:100%}
+.mobile-serp .algo-mobile{width:100%;max-width:none}
+:root[data-theme=dark] .mobile-serp{--mobile-more:#293f55}
+@container documentation (max-width:850px){
+ body[data-device=mobile] .stage{grid-row:3}
+ body[data-device=mobile] .controls{grid-row:2;justify-self:stretch;max-width:none;display:flex;gap:24px;flex-wrap:wrap;padding:8px 0}
+ body[data-device=mobile] .controls label:not(.switch-row){padding:0;border:0;display:flex;gap:12px}
+ body[data-device=mobile] .controls select{min-width:128px}
+ body[data-device=mobile] .stage{min-height:0;padding:16px 0 28px}
+}
+@media(max-width:520px){
+ .device-picker button{min-height:38px}
+ body[data-device=mobile] .controls{gap:12px 20px}
+ body[data-device=mobile] #resultMount{padding-left:0}
+ body[data-device=mobile] .anatomy-visual{padding-inline:26px}
+ body[data-device=mobile] .demo-shell,body[data-device=mobile] .anatomy-section,body[data-device=mobile] .examples{padding-inline:16px}
+ .mobile-serp .search-tabs{gap:20px}
+}

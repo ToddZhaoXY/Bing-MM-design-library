@@ -15,7 +15,7 @@
     "package:compat": "node scripts/package-compat.mjs",
     "dev": "node scripts/serve.mjs",
     "preview": "node scripts/serve.mjs",
-    "test": "node --test tests/portal.test.mjs tests/boot.test.mjs tests/home.test.mjs tests/navigation.test.mjs",
+    "test": "node --test tests/portal.test.mjs tests/boot.test.mjs tests/home.test.mjs tests/navigation.test.mjs tests/algo.test.mjs",
     "test:systems": "npm --prefix projects/mm-image/site test && npm --prefix projects/aigc/site test && npm --prefix projects/video/site test",
     "package": "node scripts/package.mjs",
     "verify:sources": "node scripts/capture-originals.mjs --verify",

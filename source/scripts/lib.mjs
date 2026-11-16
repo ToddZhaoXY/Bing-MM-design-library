@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url'
 import { spawn } from 'node:child_process'
 
 export const root = dirname(dirname(fileURLToPath(import.meta.url)))
+// React systems share their component tree; Algo retains its upstream static documentation.
 export const systems = ['mm-image', 'aigc', 'video']
 export const sourceExcludedNames = new Set(['node_modules', 'dist', '.git', '.DS_Store'])
 export function sourceFilter(path) {

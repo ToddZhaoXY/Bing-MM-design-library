@@ -1,0 +1,4 @@
+/* Shared component font assets. Documentation typography remains independent. */
+@font-face{font-family:"Algo Roboto Variable";src:url("public/assets/fonts/roboto/Roboto-Variable.ttf") format("truetype");font-style:normal;font-weight:100 900;font-stretch:75% 100%;font-display:swap}
+@font-face{font-family:"Algo Roboto";src:url("public/assets/fonts/roboto/Roboto-Regular.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"Algo Roboto";src:url("public/assets/fonts/roboto/Roboto-Bold.ttf") format("truetype");font-style:normal;font-weight:700;font-display:swap}

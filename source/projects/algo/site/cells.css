@@ -1,0 +1,67 @@
+/* Documentation layout only. Card visuals come from the source Organisms. */
+.cell-documentation #resultMount{padding:0;display:flex;justify-content:center}
+.cell-demo .controls{display:block}
+.cell-preview.sectional-rich,.cell-preview.sectional-nav{width:384px;max-width:100%;min-width:0;margin:0;padding:0;container-type:normal}
+.cell-preview.sectional-rich{width:282px}
+.cell-preview.sectional-mobile{width:374px;max-width:100%;padding:0;min-width:0}
+.cell-preview.sectional-rich.sectional-mobile{width:163px}
+.cell-preview .sn-card{width:100%}
+/* Keep the Action Card's CTA in the left copy column, level with the image bottom. */
+.cell-preview .sn-action .sn-card-copy{display:flex;flex-direction:column;min-height:118px}
+.cell-preview.sn-mobile .sn-action .sn-card-copy{min-height:126px}
+.cell-preview .sn-action p{margin-bottom:16px}
+.cell-preview .sn-action .sn-card-action{margin-top:auto;align-self:flex-start}
+.cell-code-format{font-size:13px;line-height:22px;color:var(--secondary)}
+.cell-copy-status{grid-column:1/-1;margin:0;font-size:13px;line-height:22px;color:var(--secondary)}
+.cell-copy-status:empty{display:none}
+.cell-used-in-link{display:inline-block;margin-top:16px;text-decoration:underline;text-underline-offset:3px}
+
+.cell-demo .controls[hidden]{display:none}
+.cell-demo:has(.controls[hidden]) .stage{grid-column:1/-1}
+
+.cell-source-preview.algo{width:690px;max-width:100%;margin:0;padding:0;min-width:0}
+.cell-source-preview.algo-mobile{width:342px;padding:0}
+
+.cell-deeplink-preview.algo{width:690px;max-width:100%;margin:0;padding:0;min-width:0}
+.cell-deeplink-preview.algo-mobile{width:342px;padding:0}
+.cell-deeplink-preview .expansion-rows{margin-top:0}
+
+.cell-candidate-note{display:inline-block!important;width:fit-content;padding:4px 10px;border-radius:6px;background:var(--control);font-size:12px!important;line-height:20px!important;color:var(--secondary)}
+.cell-wide-preview.algo{width:690px;max-width:100%;margin:0;padding:0;min-width:0}
+.cell-wide-preview.algo-mobile{width:342px;padding:0}
+.cell-rich-item.algo{width:219.33px}
+.cell-rich-item.algo-mobile{width:200px}
+.cell-rich-item .rich-card{width:100%;max-width:100%}
+.cell-wide-preview .nav-links{margin-top:0}
+.cell-wiki-preview.sectional-expansion{width:282px;max-width:100%;min-width:0;padding:0;margin:0;container-type:normal}
+.cell-wiki-preview.sectional-mobile{width:342px}
+.cell-wiki-preview .se-cards{display:block}
+.cell-wiki-preview .se-card-slot{height:auto;min-height:0}
+.cell-wiki-preview .se-card{position:relative;inset:auto}
+.cell-carousel-context{padding:0!important}
+.cell-carousel-context .rich-track{scrollbar-width:none}
+.cell-carousel-context .rich-card{flex-shrink:0}
+.cell-documentation .cell-carousel-context{max-width:calc(100% - 48px)}
+/* Reserve equal room for either arrow and center each on the 126px thumbnail. */
+.cell-carousel-context :is(.rich-prev,.rich-next){top:39px}
+.cell-used-in-list{display:grid;gap:12px;margin-top:16px}
+.cell-used-in-list #usedInAdditionalLinks{display:grid;gap:12px}
+.cell-used-in-list .cell-used-in-link{margin-top:0;width:fit-content}
+
+/* Cells use a compact documentation flow instead of an Organism-sized stage. */
+.cell-documentation .cell-demo{display:flex;flex-direction:column;gap:20px}
+.cell-documentation .cell-demo .overview-intro{order:0}
+.cell-documentation .cell-demo .overview-heading{margin-bottom:0}
+.cell-documentation .cell-demo .controls{order:1;display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:12px 24px;max-width:none;padding:0;align-self:stretch}
+.cell-documentation .cell-demo .controls[hidden]{display:none}
+.cell-documentation .cell-demo .controls label:not(.switch-row){display:flex;gap:10px;align-items:center;padding:0;border:0}
+.cell-documentation .cell-demo .controls select{max-width:260px;width:auto}
+.cell-documentation .cell-demo .stage{order:2;min-height:0;padding:24px 0;gap:0;align-self:stretch;justify-content:center}
+.cell-documentation .cell-demo #resultMount{justify-content:center;margin:0;max-width:none;padding:0}
+.cell-documentation .cell-demo .codebar{order:3}
+.cell-documentation .cell-demo .cell-copy-status{order:4}
+/* Small specimens need breathing room to read as components, not doc copy. */
+body:is([data-cell=favicon],[data-cell=attribution],[data-cell=nav-link-item]) .cell-demo .stage{padding-block:36px}
+body[data-cell=deeplink][data-cell-variant=standard] .cell-demo .stage{padding-block:36px}
+body:is([data-cell=favicon],[data-cell=attribution]) .cell-source-preview.algo{width:max-content;max-width:100%}
+@media(max-width:520px){.cell-documentation .cell-demo{gap:16px}.cell-documentation .cell-demo .controls{gap:12px 16px}.cell-documentation .cell-demo .controls label:not(.switch-row){flex-wrap:wrap}.cell-documentation .cell-demo .controls select{max-width:100%}}

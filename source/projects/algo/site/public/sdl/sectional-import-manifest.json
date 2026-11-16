@@ -1,0 +1,70 @@
+{
+  "imports": [
+    {
+      "source": "/Users/ruby/.codex/attachments/c395cf38-a4fe-437b-970f-57f7c3ce83f7/Pasted text.txt",
+      "file": "sectional-rich.desktop.json",
+      "key": "sectional-rich:desktop:sectional:plain",
+      "bytes": 162984,
+      "sha256": "f48478229a440e993ff655373b981cb7367caee5c4481faceddd3bf9f37fdc84"
+    },
+    {
+      "source": "/Users/ruby/.codex/attachments/5e69c66b-724a-4c6e-8cd4-40fc4bd5dd09/Pasted text.txt",
+      "file": "sectional-expansion-wiki.desktop.json",
+      "key": "sectional-expansion:desktop:wiki:all",
+      "bytes": 153252,
+      "sha256": "f7f831ea68a60b7dbc616f4505b81de9793482704ffe5ea79c65058fdc408c93"
+    },
+    {
+      "source": "/Users/ruby/.codex/attachments/0cfb53d4-be04-4153-9b46-3e3d67312af4/Pasted text.txt",
+      "file": "sectional-expansion-fact.desktop.json",
+      "key": "sectional-expansion:desktop:fact:all",
+      "bytes": 145276,
+      "sha256": "c2ffed23ff0ec990bf61e0162a6fd1f7cb7b71067a968dbd599fb642bca2bd91"
+    },
+    {
+      "source": "/Users/ruby/.codex/attachments/4402b77c-e440-433a-8b72-89972b6f2672/Pasted text.txt",
+      "file": "sectional-nav-links-eight.desktop.json",
+      "key": "sectional-nav:desktop:parts:links-eight",
+      "bytes": 52374,
+      "sha256": "4668e403a6957caf609f37e2dfa90fed7eb0f6b7f742a16f7cb1373ac6e84efb"
+    },
+    {
+      "source": "/Users/ruby/.codex/attachments/7ea7d80c-ad4f-4bfe-9ed5-aee5fd33683c/Pasted text.txt",
+      "file": "sectional-nav-article-source.desktop.json",
+      "key": "sectional-nav:desktop:parts:article-source",
+      "bytes": 70444,
+      "sha256": "1b114c7b3afc831a4c52c93884a8758e8b68d812b063313b4e58e1562c143e42"
+    },
+    {
+      "source": "/Users/ruby/.codex/attachments/6c84c056-4588-42ff-8dfb-1e42b513ac38/Pasted text.txt",
+      "file": "sectional-nav-article.desktop.json",
+      "key": "sectional-nav:desktop:parts:article",
+      "bytes": 70175,
+      "sha256": "d96bdedff697ef80cad0216e9eb27d6bf430ea2b975206e0dbec4512ccd31f72"
+    },
+    {
+      "source": "/Users/ruby/.codex/attachments/f365ba7f-90f6-4c7d-b365-c5a8d17bdbc3/Pasted text.txt",
+      "file": "sectional-nav-links-six.desktop.json",
+      "key": "sectional-nav:desktop:parts:links-six",
+      "bytes": 47190,
+      "sha256": "c2cf37ad06ae29369d9dc17cf125992357afc363b6bc8c3301f9535284238914"
+    },
+    {
+      "source": "/Users/ruby/.codex/attachments/746536c9-1bd1-4389-bfd3-16910a57f10f/Pasted text.txt",
+      "file": "sectional-nav-signin-source.desktop.json",
+      "key": "sectional-nav:desktop:parts:signin-source",
+      "bytes": 29795,
+      "sha256": "090c79e859b202e284c48ff3336d472044f54c474a4106709e7281f83c4b1fe4"
+    }
+  ],
+  "duplicates": [
+    {
+      "duplicate": "7dc0043a-1d9c-4cee-909d-79ee7e55e9f2",
+      "sameAs": "f365ba7f-90f6-4c7d-b365-c5a8d17bdbc3"
+    },
+    {
+      "duplicate": "ff0f46a6-7132-48ae-b049-5b3ea8efce0e",
+      "sameAs": "746536c9-1bd1-4389-bfd3-16910a57f10f"
+    }
+  ]
+}

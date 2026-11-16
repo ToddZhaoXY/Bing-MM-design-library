@@ -1,0 +1,19 @@
+{
+  "fileKey": "FCnmkxLq92iz995JhyN5N1",
+  "retrieved": "2026-11-12",
+  "assets": [
+    {
+      "path": "figma-placeholder-original.png",
+      "imageHash": "ef79d4f453f2abe81aebe3638960ec536d09dafe",
+      "sourceNode": "691:3375",
+      "method": "Original image bytes; no Figma modifications",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "path": "mm/video-figma-placeholder.png",
+      "sourceNode": "I704:12240;1186:6647;1799:7420;131224:154861",
+      "method": "Read-only image-layer export at 2x; contains no caption, play control or badge"
+    }
+  ]
+}

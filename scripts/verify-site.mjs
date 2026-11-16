@@ -9,7 +9,7 @@ export const repository = dirname(dirname(fileURLToPath(import.meta.url)));
 export async function verifySite(directory = repository) {
   const manifest = JSON.parse(await readFile(join(directory, 'BUILD-MANIFEST.json'), 'utf8'));
   assert.equal(manifest.packaging, 'flat-no-base');
-  for (const entry of ['index.html', 'mm-image.html', 'aigc.html', 'video.html']) {
+  for (const entry of ['index.html', 'mm-image.html', 'aigc.html', 'video.html', 'algo.html']) {
     assert.ok(Object.hasOwn(manifest.files, entry), `Missing entry: ${entry}`);
   }
   let references = 0;
@@ -41,5 +41,5 @@ export async function verifySite(directory = repository) {
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const { manifest, references } = await verifySite();
   await access(join(repository, '.nojekyll'));
-  console.log(`Verified ${Object.keys(manifest.files).length} files, four HTML entries and ${references} root/subpath resource references.`);
+  console.log(`Verified ${Object.keys(manifest.files).length} files, five library/home entries and ${references} root/subpath resource references.`);
 }

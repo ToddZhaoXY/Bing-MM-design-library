@@ -1,0 +1,522 @@
+{
+  "component": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [],
+                            "props": {
+                              "value": "![Site favicon](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAyJJREFUeAElkllvW1UUhb9zB1/b8aTEOG5iN4PbKlQUEENBqAIhhPrAL+IVCX4BvwMekXhC4gEhSihJG2ewYyeuk+t4iu1r3/neniTnvBydvdfae6+1RSyP44QctSZYjkcUxQgBQt6bI4jlvXvLVBmHlUKSB/dzGIaKsN0g3j0YcBNRJFJVJVS5ZbgDRSqOo2HboCdCltIhQRDc5nz07juIemMcT2YuigaaKnFC4QZPLBhaGuemoDcI0eSfRoShRew8VEkmA5ZSOsp07qIlIKEr6KqKpii4vsZRL0GzF2L7EemliFCJGTgRE0+wd+jdFvE9SawnhGRXWCxU/m/7hKqGkRY4fsBpP8IcBXhuREY4jPoL2aHOJzs5TDl15V4suwoFR13BbtPnVWfBx+8voUv2vTMJnPtMRzbHjTFrKyqzixZGKkMms83WWk7mKWh/vYT2NJDKwhfLScobBvVeIDuJGPo+6pKgVo1JajEKRWbTiJEXk8tKsaXoWm5NI62G7DxIcLUI+bth0zRdfMtjf++C0LF4VFumXCnSl9pcX11QkWTVknInfCalygqC/7oBB6bDyfmMwXDOV7UUh8qCyppBIZvjVWPI2DzDyBT49HESP9aJQqlBvetxMPbZN226Z0M8s09B9WhlN1jfLmPYFo3GKZ7dl4uQZn2zwMZ2gV+PFuQzOtrACciEAbV4Lj2e0xVSuMsm8VYRVTpxXH8tLQsIYkOuYJH0apGff2nhGwlSeQOtP3T49+SKbvsSv9fmgydbcowxtVKWl//s4g87+K5c5nQJRbfon5tsFlVSsvrCt9BOTEtunM17tRLXuZhsYYX7T78mkn7HRh6r8wKRSKLG0vdahflkyosxPP4wR0diteqykBVdvntaYTpZZv90TDadZjB2yK+UKT/awaWEnIFA13lYzfHt51UuukOePysiOn07/vL7Pyl6Pp2zN2xubFJZL1J/c01C8THyafzRKdbcRs+W0FdX8TIpRK/L7z89R6kUk/zx4zOebCeJYo/RZEbkLrA9l1nk0Dreo908pHs54lpJks0ofFaw+e2Hb7iXT/AWUB591yC0xMMAAAAASUVORK5CYII=)"
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Markdown"
+                          }
+                        ],
+                        "props": {
+                          "align": "center",
+                          "height": 16,
+                          "justify": "start",
+                          "width": 16
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      }
+                    ],
+                    "props": {
+                      "align": "center",
+                      "background": "surface-elevated",
+                      "border": 1,
+                      "height": 28,
+                      "justify": "center",
+                      "minWidth": 28,
+                      "radius": "circular",
+                      "width": 28
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Box"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "props": {
+                          "color": "tertiary",
+                          "maxLines": 1,
+                          "truncate": true,
+                          "value": "Site name lorem ipsum",
+                          "variant": "body-md"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Text"
+                      },
+                      {
+                        "children": [],
+                        "props": {
+                          "color": "tertiary",
+                          "maxLines": 1,
+                          "truncate": true,
+                          "value": "www.algoloremipsum-attribution.com › ... › ipsum",
+                          "variant": "caption-xs"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Text"
+                      }
+                    ],
+                    "props": {
+                      "direction": "col",
+                      "flex": 1,
+                      "gap": 0,
+                      "minWidth": 0
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Box"
+                  }
+                ],
+                "props": {
+                  "align": "center",
+                  "direction": "row",
+                  "gap": 2,
+                  "width": "100%"
+                },
+                "sdlVersion": "1.5",
+                "type": "Box"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "props": {
+                          "color": "brand-alt",
+                          "onClickAction": {
+                            "payload": {
+                              "url": "https://www.example.com/articles/search-answer-design"
+                            },
+                            "type": "link:navigate"
+                          },
+                          "truncate": false,
+                          "underline": "never",
+                          "value": "Title lorem ipsum dolor consectatur ",
+                          "variant": "title-md"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Link"
+                      }
+                    ],
+                    "props": {
+                      "minWidth": 0,
+                      "width": "100%"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Box"
+                  },
+                  {
+                    "children": [],
+                    "props": {
+                      "color": "foreground-750",
+                      "maxLines": 2,
+                      "truncate": true,
+                      "value": "Oct 26, 2018 · Snippet lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ipsum nostrud exercitation ullamco laboris sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Snippet Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Snippet Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+                      "variant": "body-md"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Text"
+                  }
+                ],
+                "props": {
+                  "direction": "col",
+                  "gap": 1,
+                  "minWidth": 0,
+                  "width": "100%"
+                },
+                "sdlVersion": "1.5",
+                "type": "Box"
+              },
+              {
+                "children": [],
+                "props": {
+                  "color": "primary",
+                  "maxLines": 1,
+                  "truncate": true,
+                  "value": "Title",
+                  "variant": "body-lg-strong"
+                },
+                "sdlVersion": "1.5",
+                "type": "Text"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "color": "foreground-750",
+                                  "maxLines": 1,
+                                  "truncate": true,
+                                  "value": "1.",
+                                  "variant": "body-md"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Text"
+                              }
+                            ],
+                            "props": {
+                              "minWidth": 16,
+                              "width": 16
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "props": {
+                                      "color": "foreground-750",
+                                      "maxLines": 1,
+                                      "truncate": true,
+                                      "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                                      "variant": "body-md"
+                                    },
+                                    "sdlVersion": "1.5",
+                                    "type": "Text"
+                                  }
+                                ],
+                                "props": {
+                                  "flex": 1,
+                                  "minWidth": 0
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Box"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "props": {
+                                      "color": "foreground-750",
+                                      "maxLines": 1,
+                                      "textAlign": "end",
+                                      "truncate": true,
+                                      "value": "Mmm DD. YYYY",
+                                      "variant": "body-md"
+                                    },
+                                    "sdlVersion": "1.5",
+                                    "type": "Text"
+                                  }
+                                ],
+                                "props": {
+                                  "flex": "0 0 auto",
+                                  "maxWidth": "45%",
+                                  "minWidth": 0,
+                                  "width": "max-content"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Box"
+                              }
+                            ],
+                            "props": {
+                              "align": "start",
+                              "direction": "row",
+                              "flex": 1,
+                              "gap": 2,
+                              "minWidth": 0
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          }
+                        ],
+                        "props": {
+                          "align": "start",
+                          "direction": "row",
+                          "gap": 0,
+                          "height": 26,
+                          "minWidth": 0,
+                          "role": "listitem",
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "color": "foreground-750",
+                                  "maxLines": 1,
+                                  "truncate": true,
+                                  "value": "2.",
+                                  "variant": "body-md"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Text"
+                              }
+                            ],
+                            "props": {
+                              "minWidth": 16,
+                              "width": 16
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "props": {
+                                      "color": "foreground-750",
+                                      "maxLines": 1,
+                                      "truncate": true,
+                                      "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                                      "variant": "body-md"
+                                    },
+                                    "sdlVersion": "1.5",
+                                    "type": "Text"
+                                  }
+                                ],
+                                "props": {
+                                  "flex": 1,
+                                  "minWidth": 0
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Box"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "props": {
+                                      "color": "foreground-750",
+                                      "maxLines": 1,
+                                      "textAlign": "end",
+                                      "truncate": true,
+                                      "value": "Mmm DD. YYYY",
+                                      "variant": "body-md"
+                                    },
+                                    "sdlVersion": "1.5",
+                                    "type": "Text"
+                                  }
+                                ],
+                                "props": {
+                                  "flex": "0 0 auto",
+                                  "maxWidth": "45%",
+                                  "minWidth": 0,
+                                  "width": "max-content"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Box"
+                              }
+                            ],
+                            "props": {
+                              "align": "start",
+                              "direction": "row",
+                              "flex": 1,
+                              "gap": 2,
+                              "minWidth": 0
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          }
+                        ],
+                        "props": {
+                          "align": "start",
+                          "direction": "row",
+                          "gap": 0,
+                          "height": 26,
+                          "minWidth": 0,
+                          "role": "listitem",
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [],
+                                "props": {
+                                  "color": "foreground-750",
+                                  "maxLines": 1,
+                                  "truncate": true,
+                                  "value": "3.",
+                                  "variant": "body-md"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Text"
+                              }
+                            ],
+                            "props": {
+                              "minWidth": 16,
+                              "width": 16
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          },
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "props": {
+                                      "color": "foreground-750",
+                                      "maxLines": 1,
+                                      "truncate": true,
+                                      "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                                      "variant": "body-md"
+                                    },
+                                    "sdlVersion": "1.5",
+                                    "type": "Text"
+                                  }
+                                ],
+                                "props": {
+                                  "flex": 1,
+                                  "minWidth": 0
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Box"
+                              },
+                              {
+                                "children": [
+                                  {
+                                    "children": [],
+                                    "props": {
+                                      "color": "foreground-750",
+                                      "maxLines": 1,
+                                      "textAlign": "end",
+                                      "truncate": true,
+                                      "value": "Mmm DD. YYYY",
+                                      "variant": "body-md"
+                                    },
+                                    "sdlVersion": "1.5",
+                                    "type": "Text"
+                                  }
+                                ],
+                                "props": {
+                                  "flex": "0 0 auto",
+                                  "maxWidth": "45%",
+                                  "minWidth": 0,
+                                  "width": "max-content"
+                                },
+                                "sdlVersion": "1.5",
+                                "type": "Box"
+                              }
+                            ],
+                            "props": {
+                              "align": "start",
+                              "direction": "row",
+                              "flex": 1,
+                              "gap": 2,
+                              "minWidth": 0
+                            },
+                            "sdlVersion": "1.5",
+                            "type": "Box"
+                          }
+                        ],
+                        "props": {
+                          "align": "start",
+                          "direction": "row",
+                          "gap": 0,
+                          "height": 26,
+                          "minWidth": 0,
+                          "role": "listitem",
+                          "width": "100%"
+                        },
+                        "sdlVersion": "1.5",
+                        "type": "Box"
+                      }
+                    ],
+                    "props": {
+                      "ariaLabel": "Title",
+                      "direction": "col",
+                      "gap": 0,
+                      "minWidth": 0,
+                      "role": "list",
+                      "width": "100%"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Box"
+                  },
+                  {
+                    "children": [],
+                    "props": {
+                      "color": "brand-alt",
+                      "maxLines": 1,
+                      "onClickAction": {
+                        "payload": {
+                          "url": "https://lorem.com/"
+                        },
+                        "type": "link:navigate"
+                      },
+                      "truncate": true,
+                      "underline": "never",
+                      "value": "See full list on lorem.com",
+                      "variant": "body-md"
+                    },
+                    "sdlVersion": "1.5",
+                    "type": "Link"
+                  }
+                ],
+                "props": {
+                  "direction": "col",
+                  "gap": 1,
+                  "minWidth": 0,
+                  "width": "100%"
+                },
+                "sdlVersion": "1.5",
+                "type": "Box"
+              }
+            ],
+            "props": {
+              "direction": "col",
+              "gap": 2,
+              "minWidth": 0,
+              "width": "100%"
+            },
+            "sdlVersion": "1.5",
+            "type": "Box"
+          }
+        ],
+        "props": {
+          "background": "surface-elevated",
+          "height": "100%",
+          "width": "100%"
+        },
+        "sdlVersion": "1.5",
+        "type": "Box"
+      }
+    ],
+    "props": {
+      "background": "surface-elevated",
+      "border": 0,
+      "padding": 0,
+      "size": "full"
+    },
+    "sdlVersion": "1.5",
+    "type": "Card"
+  },
+  "sdlVersion": "1.5"
+}

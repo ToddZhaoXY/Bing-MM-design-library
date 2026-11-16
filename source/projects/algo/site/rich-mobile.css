@@ -1,0 +1,27 @@
+/* The Mobile preview is selected explicitly; Desktop geometry is preserved. */
+.rich-result.rich-mobile{width:344px;max-width:100%}
+.rich-mobile .source,.rich-mobile .source small{font:400 14px/22px Arial,sans-serif;color:var(--algo-tertiary)}
+.rich-mobile .result-title{font:400 20px/26px Arial,sans-serif}
+.rich-mobile .snippet{font:400 14px/22px Arial,sans-serif;color:var(--algo-snippet);-webkit-line-clamp:3;max-height:66px}
+.rich-mobile .rich-carousel-title{margin:16px 0 8px;font:700 16px/22px Arial,sans-serif}
+.rich-mobile .rich-track{gap:16px;padding:0 0 8px;margin:0;scroll-padding-inline:0;scroll-snap-type:x proximity;overscroll-behavior-x:contain}
+.rich-mobile .rich-card,body[data-device=mobile] .rich-variation .rich-card{width:200px;flex-basis:200px;max-width:100%}
+.rich-mobile .rich-card-image,body[data-device=mobile] .rich-variation .rich-card-image{height:128px;border-radius:24px}
+.rich-mobile .rich-card-copy{padding:8px 4px 0}
+.rich-mobile .rich-card-copy b{font:700 14px/22px Arial,sans-serif;-webkit-line-clamp:2}
+.rich-mobile[data-content=title] .rich-card-copy b,#richExampleMount .rich-mobile[data-example=news] .rich-card-copy b{-webkit-line-clamp:3}
+.rich-mobile[data-content=factUrl] .rich-card-copy b,.rich-mobile[data-content=snippetUrl] .rich-card-copy b{-webkit-line-clamp:1}
+.rich-mobile .rich-card-copy small{font:400 13px/20px Arial,sans-serif;color:var(--algo-tertiary);margin-top:4px}
+.rich-mobile .rich-card::before{display:none}
+.rich-mobile .rich-card:focus-visible{outline-offset:-2px}
+.rich-mobile .rich-rating,.rich-mobile .rich-duration{top:12px;left:12px}
+.rich-mobile .rich-card.is-visited .rich-card-copy b,.rich-mobile[data-state=visited] .rich-card-copy b{color:var(--visited,#86388d)}
+body[data-component=rich][data-device=mobile] #resultMount{width:100%;max-width:344px;margin-inline:auto}
+body[data-component=rich][data-device=mobile] .anatomy-visual{max-width:404px}
+body[data-component=rich][data-device=mobile] .stage{min-height:0;padding:24px 0}
+body[data-component=rich][data-device=mobile] #richExampleMount{max-width:344px;margin:32px auto}
+body[data-component=rich][data-device=mobile] .rich-variation .rich-card{flex:none}
+body[data-component=rich][data-device=mobile] .rich-variation .rich-card-copy b{font:700 14px/22px Arial,sans-serif;-webkit-line-clamp:2}
+body[data-component=rich][data-device=mobile] .rich-variation[data-content=title] .rich-card-copy b{-webkit-line-clamp:3}
+body[data-component=rich][data-device=mobile] .rich-variation[data-content=factUrl] .rich-card-copy b,body[data-component=rich][data-device=mobile] .rich-variation[data-content=snippetUrl] .rich-card-copy b{-webkit-line-clamp:1}
+@media(prefers-reduced-motion:reduce){.rich-mobile .rich-track{scroll-behavior:auto}}

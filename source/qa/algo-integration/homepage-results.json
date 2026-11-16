@@ -1,0 +1,185 @@
+{
+  "pages": [
+    {
+      "entry": "index.html",
+      "viewport": "1440x900",
+      "width": 1440,
+      "height": 900,
+      "scroll": 1440,
+      "canvas": {
+        "left": 0,
+        "width": 1440
+      },
+      "heading": {
+        "left": 240,
+        "right": 1200,
+        "top": 353.609375,
+        "bottom": 440
+      },
+      "links": [
+        {
+          "left": 1041,
+          "right": 1145.59375,
+          "top": 33,
+          "bottom": 73
+        },
+        {
+          "left": 1153.59375,
+          "right": 1223.34375,
+          "top": 33,
+          "bottom": 73
+        },
+        {
+          "left": 1231.34375,
+          "right": 1305.203125,
+          "top": 33,
+          "bottom": 73
+        },
+        {
+          "left": 1313.203125,
+          "right": 1379.171875,
+          "top": 33,
+          "bottom": 73
+        }
+      ]
+    },
+    {
+      "entry": "index.html",
+      "viewport": "1024x900",
+      "width": 1024,
+      "height": 900,
+      "scroll": 1024,
+      "canvas": {
+        "left": 0,
+        "width": 1024
+      },
+      "heading": {
+        "left": 32,
+        "right": 992,
+        "top": 355.328125,
+        "bottom": 438.265625
+      },
+      "links": [
+        {
+          "left": 639.96875,
+          "right": 744.5625,
+          "top": 33,
+          "bottom": 73
+        },
+        {
+          "left": 752.5625,
+          "right": 822.3125,
+          "top": 33,
+          "bottom": 73
+        },
+        {
+          "left": 830.3125,
+          "right": 904.171875,
+          "top": 33,
+          "bottom": 73
+        },
+        {
+          "left": 912.171875,
+          "right": 978.140625,
+          "top": 33,
+          "bottom": 73
+        }
+      ]
+    },
+    {
+      "entry": "index.html",
+      "viewport": "390x900",
+      "width": 390,
+      "height": 900,
+      "scroll": 390,
+      "canvas": {
+        "left": 0,
+        "width": 390
+      },
+      "heading": {
+        "left": 20,
+        "right": 370,
+        "top": 325.1875,
+        "bottom": 427.5625
+      },
+      "links": [
+        {
+          "left": 89.640625,
+          "right": 183.84375,
+          "top": 23,
+          "bottom": 67
+        },
+        {
+          "left": 183.84375,
+          "right": 245.4375,
+          "top": 23,
+          "bottom": 67
+        },
+        {
+          "left": 245.4375,
+          "right": 310.921875,
+          "top": 23,
+          "bottom": 67
+        },
+        {
+          "left": 310.921875,
+          "right": 369,
+          "top": 23,
+          "bottom": 67
+        }
+      ]
+    },
+    {
+      "entry": "index.html",
+      "viewport": "320x900",
+      "width": 320,
+      "height": 900,
+      "scroll": 320,
+      "canvas": {
+        "left": 0,
+        "width": 320
+      },
+      "heading": {
+        "left": 20,
+        "right": 300,
+        "top": 317.0625,
+        "bottom": 409.4375
+      },
+      "links": [
+        {
+          "left": 21,
+          "right": 113.84375,
+          "top": 23,
+          "bottom": 71
+        },
+        {
+          "left": 113.84375,
+          "right": 175.4375,
+          "top": 25,
+          "bottom": 69
+        },
+        {
+          "left": 175.4375,
+          "right": 240.921875,
+          "top": 25,
+          "bottom": 69
+        },
+        {
+          "left": 240.921875,
+          "right": 299,
+          "top": 25,
+          "bottom": 69
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    "Homepage MM Image link opens its library with vertical navigation",
+    "Homepage AIGC link opens its library with vertical navigation",
+    "Homepage Video link opens its library with vertical navigation",
+    "Homepage Algo link opens its library with vertical navigation"
+  ],
+  "errors": [],
+  "failedResources": [],
+  "passed": true
+}

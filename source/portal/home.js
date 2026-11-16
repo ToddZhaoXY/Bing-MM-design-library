@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  var legacy = /^#\/(mm-image|aigc|video)(\/.*)?$/.exec(window.location.hash);
+  var legacy = /^#\/(mm-image|aigc|video|algo)(\/.*)?$/.exec(window.location.hash);
   if (legacy) {
     window.location.replace('./' + legacy[1] + '.html#' + (legacy[2] || '/'));
     return;

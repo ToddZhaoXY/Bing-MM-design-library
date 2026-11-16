@@ -7,7 +7,7 @@ import { root, filesIn, run, sha256 } from './lib.mjs';
 const { directory } = await buildCompat();
 await run(process.execPath, ['--test', 'tests/compat.test.mjs'], { cwd: root, env: { ...process.env, COMPAT_DIR: directory } });
 const delivery = dirname(directory);
-const name = `MM-Design-Libraries-compat-${directory.split('site-').pop()}.zip`;
+const name = `AIXA-Bing-Design-Library-compat-${directory.split('site-').pop()}.zip`;
 const zip = join(delivery, name);
 const files = await filesIn(directory);
 await new Promise((resolve, reject) => {

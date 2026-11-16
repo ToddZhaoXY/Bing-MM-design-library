@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Explore Algo search-result components, variants, anatomy, properties, and examples for Desktop and Mobile." />
+  <title>Overview — AIXA Bing Design Library</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="documentation-fonts.css" />
+  <link rel="stylesheet" href="library-overview.css" />
+  <link rel="stylesheet" href="library-responsive.css" />
+  <link rel="stylesheet" href="component-responsive.css" />
+</head>
+<body data-page="library">
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="AIXA Bing Design Library">AIXA Bing Design Library</a>
+    <div class="top-actions"><button class="theme-icon" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 0 0 16Z" fill="currentColor"/></svg></button></div>
+  </header>
+
+  <aside class="side-nav" aria-label="Documentation">
+    <section class="doc-nav-section"><h2 class="doc-nav-title">Overview</h2><div class="nav-group"><a class="active" href="index.html" data-library-page="intro">Intro</a></div></section>
+    <details class="doc-nav-section cells-nav"><summary class="doc-nav-title">Cells</summary><div class="nav-group"><a href="cells-favicon.html" data-library-page="cells" data-cell-entry="favicon">Favicon</a><a href="cells-attribution.html" data-library-page="cells" data-cell-entry="attribution">Attribution</a><a href="cells-deeplink.html" data-library-page="cells" data-cell-entry="deeplink">Deeplink Item</a><a href="cells.html" data-library-page="cells" data-cell-entry="image-card">Image Card</a><a href="cells-article-card.html" data-library-page="cells" data-cell-entry="article-card">Article Card</a><a href="cells-action-card.html" data-library-page="cells" data-cell-entry="action-card">Action Card</a><a href="cells-download-card.html" data-library-page="cells" data-cell-entry="download-card">Download Card</a><a href="cells-rich-content-item.html" data-library-page="cells" data-cell-entry="rich-content-item">Rich Content Item</a><a href="cells-wiki-fact-item.html" data-library-page="cells" data-cell-entry="wiki-fact-item">Wiki / Fact Item</a><a href="cells-carousel-navigation.html" data-library-page="cells" data-cell-entry="carousel-navigation">Carousel Navigation</a></div></details>
+    <section class="doc-nav-section scenario-nav" aria-label="Organisms"><h2 class="doc-nav-title">Organisms</h2>
+      <details class="cell-scenario" data-cell-scenario="mainline" open><summary>Mainline</summary>
+        <div class="nav-group" data-cell-panel="mainline" aria-label="Mainline"><a href="algo-block.html" data-component="algo">Algo Block</a><a href="mm-algo.html" data-component="mm">MM Algo Block</a><a href="rich-nav-carousel.html" data-component="rich">Rich Nav Carousel</a><a href="expansion.html" data-component="expansion">Expansion</a><a href="nav.html" data-component="nav">Nav</a></div>
+      </details>
+      <details class="cell-scenario" data-cell-scenario="sectional" open><summary>Sectional</summary>
+        <div class="nav-group" data-cell-panel="sectional" aria-label="Sectional"><a href="sectional-rich-nav.html" data-component="sectional-rich">Rich Nav Carousel</a><a href="sectional-expansion.html" data-component="sectional-expansion">Expansion</a><a href="sectional-nav.html" data-component="sectional-nav">Nav</a></div>
+      </details>
+    </section>
+  </aside>
+  <details class="mobile-component-nav"><summary>Overview / Intro</summary><div id="mobileNavItems"></div></details>
+  <aside class="page-nav" aria-label="On this page"><a href="#about">Introduction</a><a href="#modules">Component Index</a><a href="#component-source">Design &amp; Code Sources</a><a href="#how-to-use">How to use</a></aside>
+  <main id="top" class="library-overview">
+    <section class="hero library-intro" id="about" aria-labelledby="libraryTitle">
+      <p class="breadcrumb">Overview / Intro</p>
+      <h1 id="libraryTitle">AIXA Bing Design Library</h1>
+      <p class="library-introduction">Explore reusable Algo search-result layouts for Desktop and Mobile. Choose a complete result layout from the Component Index, or use Cells for individual building blocks.</p>
+      <div class="library-meta" aria-label="Library information"><span>8 layouts</span><span>Desktop + Mobile</span><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library" target="_blank" rel="noopener noreferrer">Figma source <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section class="examples" id="modules" aria-labelledby="modulesHeading">
+      <div class="section-heading"><h2 id="modulesHeading">Component Index</h2></div>
+      <div class="library-categories">
+        <article class="library-category"><div class="library-category-heading"><h3>Mainline</h3><span>5 layouts</span></div><p>Layouts within the main search-results list.</p>
+          <ul class="library-module-list">
+            <li><a href="algo-block.html"><span><b>Algo Block</b><small>Standard web results, facts, and lists.</small></span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg></a></li>
+            <li><a href="mm-algo.html"><span><b>MM Algo Block</b><small>Results with image and video content.</small></span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg></a></li>
+            <li><a href="rich-nav-carousel.html"><span><b>Rich Nav Carousel</b><small>Related destinations in a horizontal carousel.</small></span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg></a></li>
+            <li><a href="expansion.html"><span><b>Expansion</b><small>Expanded results with supporting content.</small></span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg></a></li>
+            <li><a href="nav.html"><span><b>Nav</b><small>Site results with direct navigation links.</small></span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg></a></li>
+          </ul>
+        </article>
+        <article class="library-category"><div class="library-category-heading"><h3>Sectional</h3><span>3 layouts</span></div><p>Primary results grouped with supporting content.</p>
+          <ul class="library-module-list">
+            <li><a href="sectional-rich-nav.html"><span><b>Rich Nav Carousel</b><small>Rich content cards within a result section.</small></span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg></a></li>
+            <li><a href="sectional-expansion.html"><span><b>Expansion</b><small>Wiki and fact layouts with related information.</small></span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg></a></li>
+            <li><a href="sectional-nav.html"><span><b>Nav</b><small>Site navigation with supporting cards.</small></span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg></a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    <section class="examples" id="component-source" aria-labelledby="sourceHeading">
+      <div class="section-heading"><h2 id="sourceHeading">Design &amp; Code Sources</h2></div>
+      <div class="library-source-overview">
+        <div><h3>Figma designs</h3><p>Open the Desktop or Mobile design for each component in the reference table below.</p><a class="library-source-link" href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library" target="_blank" rel="noopener noreferrer">Open Algo Design Library <span aria-hidden="true">↗</span></a></div>
+        <div><h3>Code &amp; Mosaic templates</h3><p>Open a component page to copy its available code or follow its Mosaic template link.</p><p>Code samples identify their format and coverage: original SDL, derived SDL, or HTML. Availability varies by component.</p></div>
+      </div>
+      <div class="library-source-table-wrap" role="region" aria-label="Figma design references" tabindex="0">
+        <table class="library-source-table">
+          <caption>Component design references</caption>
+          <thead><tr><th scope="col">Scenario</th><th scope="col">Component</th><th scope="col">Desktop</th><th scope="col">Mobile</th></tr></thead>
+          <tbody>
+            <!-- Reference nodes are tracked in releases/Figma-alignment-audit-2026-11-11.md. -->
+            <tr><td>Mainline</td><th scope="row">Algo Block</th><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=273-20313" target="_blank" rel="noopener noreferrer" aria-label="Mainline Algo Block Desktop Figma design">Desktop <span aria-hidden="true">↗</span></a></td><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=664-43831" target="_blank" rel="noopener noreferrer" aria-label="Mainline Algo Block Mobile Figma design">Mobile <span aria-hidden="true">↗</span></a></td></tr>
+            <tr><td>Mainline</td><th scope="row">MM Algo Block</th><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=273-27911" target="_blank" rel="noopener noreferrer" aria-label="Mainline MM Algo Block Desktop Figma design">Desktop <span aria-hidden="true">↗</span></a></td><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=691-3258" target="_blank" rel="noopener noreferrer" aria-label="Mainline MM Algo Block Mobile Figma design">Mobile <span aria-hidden="true">↗</span></a></td></tr>
+            <tr><td>Mainline</td><th scope="row">Rich Nav Carousel</th><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=284-34561" target="_blank" rel="noopener noreferrer" aria-label="Mainline Rich Nav Carousel Desktop Figma design">Desktop <span aria-hidden="true">↗</span></a></td><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=748-38472" target="_blank" rel="noopener noreferrer" aria-label="Mainline Rich Nav Carousel Mobile Figma design">Mobile <span aria-hidden="true">↗</span></a></td></tr>
+            <tr><td>Mainline</td><th scope="row">Expansion</th><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=277-6911" target="_blank" rel="noopener noreferrer" aria-label="Mainline Expansion Desktop Figma design">Desktop <span aria-hidden="true">↗</span></a></td><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=867-32171" target="_blank" rel="noopener noreferrer" aria-label="Mainline Expansion Mobile Figma design">Mobile <span aria-hidden="true">↗</span></a></td></tr>
+            <tr><td>Mainline</td><th scope="row">Nav</th><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=866-3083" target="_blank" rel="noopener noreferrer" aria-label="Mainline Nav Desktop Figma design">Desktop <span aria-hidden="true">↗</span></a></td><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=900-51479" target="_blank" rel="noopener noreferrer" aria-label="Mainline Nav Mobile Figma design">Mobile <span aria-hidden="true">↗</span></a></td></tr>
+            <tr><td>Sectional</td><th scope="row">Rich Nav Carousel</th><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=308-14592" target="_blank" rel="noopener noreferrer" aria-label="Sectional Rich Nav Carousel Desktop Figma design">Desktop <span aria-hidden="true">↗</span></a></td><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=904-29358" target="_blank" rel="noopener noreferrer" aria-label="Sectional Rich Nav Carousel Mobile Figma design">Mobile <span aria-hidden="true">↗</span></a></td></tr>
+            <tr><td>Sectional</td><th scope="row">Expansion</th><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=303-2279" target="_blank" rel="noopener noreferrer" aria-label="Sectional Expansion Desktop Figma design">Desktop <span aria-hidden="true">↗</span></a></td><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=904-23450" target="_blank" rel="noopener noreferrer" aria-label="Sectional Expansion Mobile Figma design">Mobile <span aria-hidden="true">↗</span></a></td></tr>
+            <tr><td>Sectional</td><th scope="row">Nav</th><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=304-5461" target="_blank" rel="noopener noreferrer" aria-label="Sectional Nav Desktop Figma design">Desktop <span aria-hidden="true">↗</span></a></td><td><a href="https://www.figma.com/design/FCnmkxLq92iz995JhyN5N1/Algo-Design-Library?node-id=902-19006" target="_blank" rel="noopener noreferrer" aria-label="Sectional Nav Mobile Figma design">Mobile <span aria-hidden="true">↗</span></a></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="examples" id="how-to-use" aria-labelledby="usageHeading">
+      <div class="section-heading"><h2 id="usageHeading">How to use</h2></div>
+      <ol class="library-steps">
+        <li><h3>Explore variants</h3><p>Choose Desktop or Mobile, then switch the available layouts, content options, and states.</p></li>
+        <li><h3>Inspect the details</h3><p>Use Anatomy to identify each part, and Properties to review available values and default content.</p></li>
+        <li><h3>Reuse a pattern</h3><p>Review the Example, copy the available SDL or HTML, and open the linked Mosaic template for its source.</p></li>
+      </ol>
+    </section>
+  </main>
+  <script src="library-navigation.js"></script>
+</body>
+</html>

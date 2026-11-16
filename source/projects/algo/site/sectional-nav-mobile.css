@@ -1,0 +1,70 @@
+/* Nav Mobile frames: 372px content, links above a vertical card rail. */
+.sn-mobile .sn-grid{display:flex;flex-direction:column;gap:0}
+.sn-mobile .sn-grid>*{width:100%;min-width:0}
+.sn-mobile .sn-primary{padding:0;border:0}
+.sn-mobile .sn-primary .result-title{margin:8px 0 4px}
+.sn-mobile .sn-primary .snippet,.sectional-mobile-serp .sn-mobile .sn-primary .snippet{-webkit-line-clamp:2}
+.sn-mobile .sn-links{margin-top:16px}
+.sn-mobile .sn-row{padding:0}
+.sn-mobile .sn-row[hidden]{display:none}
+.sn-mobile .sn-deeplink{height:50px;padding:0 16px;font:400 16px/22px Arial,sans-serif;border-radius:8px}
+.sn-mobile .sn-deeplink:hover,.sn-mobile .sn-deeplink:focus-visible{background:transparent}
+.sn-mobile[data-layout=magazine][data-state=default] .sn-row:nth-child(4){border-bottom-color:transparent}
+.sn-mobile[data-layout=magazine][data-state=default] .sn-row:nth-child(4):after{content:"";position:absolute;inset:0;background:linear-gradient(transparent, var(--surface));pointer-events:none}
+.sn-mobile .sn-rail{padding-top:0;margin-top:16px;gap:12px}
+.sn-mobile .sn-rail-heading{font:400 20px/26px Arial,sans-serif}
+.sn-mobile .sn-show-more{margin-top:24px;gap:0;position:relative;justify-content:center}
+.sn-mobile .sn-show-more:before{position:absolute;inset:50% 0 auto;width:100%}
+.sn-mobile .sn-show-more:after{display:none}
+.sn-mobile .sn-show-more .sn-toggle{position:relative;width:auto;min-width:104px;height:32px;padding:6px 12px;border-radius:24px}
+.sn-mobile .sn-toggle-anchor{width:calc(50% - 8px);z-index:1}
+.sn-mobile .sn-show-more .sn-toggle-anchor>.sn-toggle{width:100%;min-width:0}
+.sn-mobile .sn-card,.sn-mobile-template-grid .sn-card{padding:15px;min-height:158px;border-radius:24px}
+.sn-mobile .sn-card-image,.sn-mobile-template-grid .sn-card-image{width:128px;height:128px}
+.sn-mobile .sn-article .sn-card-copy,.sn-mobile-template-grid .sn-article .sn-card-copy{min-height:128px}
+.sn-mobile .sn-card h4,.sn-mobile-template-grid .sn-card h4{-webkit-line-clamp:2;font:700 14px/22px Arial,sans-serif}
+.sn-mobile .sn-card p,.sn-mobile-template-grid .sn-card p{font:400 13px/20px Arial,sans-serif}
+.sn-mobile .sn-card-source,.sn-mobile-template-grid .sn-card-source{font:400 13px/20px Arial,sans-serif}
+.sn-mobile .sn-card:hover,.sn-mobile .sn-card:focus-within,.sn-mobile-template-grid .sn-card:hover{box-shadow:none}
+.sn-mobile .sn-card-action,.sn-mobile-template-grid .sn-card-action{padding:8px 12px;font:400 13px/20px Arial,sans-serif}
+.sn-mobile .sn-action .sn-card-action,.sn-mobile-template-grid .sn-action .sn-card-action{margin-top:36px}
+.sn-mobile .sn-download,.sn-mobile-template-grid .sn-download{display:flex;flex-direction:column;justify-content:space-between}
+.sn-mobile .sn-download .sn-card-image,.sn-mobile-template-grid .sn-download .sn-card-image{width:56px;height:56px}
+.sn-mobile .sn-download .sn-card-action,.sn-mobile-template-grid .sn-download .sn-card-action{margin-top:22px}
+.sn-mobile-template-grid{grid-template-columns:minmax(0,372px);gap:28px;margin-inline:auto}
+.sn-mobile-template-grid .sn-card{width:100%;max-width:372px;margin:auto}
+.sectional-mobile-serp .sn-example-band{padding:24px 16px 0;overflow:visible}
+.sectional-mobile-serp .sn-context{padding:20px 16px 0}
+.sectional-mobile-serp .sn-count{margin-bottom:20px;font-size:12px}
+.sectional-mobile-serp .sn-stock-heading{display:block;margin-bottom:12px}
+.sectional-mobile-serp .sn-stock-tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;white-space:nowrap;margin-top:12px}
+.sectional-mobile-serp .sn-stock-tabs a{padding:7px 10px;border-radius:8px;font:400 13px/20px Arial,sans-serif}
+.sectional-mobile-serp .sn-stock-grid{display:flex;flex-direction:column;gap:12px}
+.sectional-mobile-serp .sn-stock-panel{padding:16px}
+.sectional-mobile-serp .sn-stock-price{font:700 24px/32px Arial,sans-serif}
+.sectional-mobile-serp .sn-stock-periods{margin:44px 0 32px;gap:12px;font-size:11px;white-space:nowrap;overflow-x:auto}
+.sectional-mobile-serp .sn-line-chart{height:110px;margin-bottom:12px}
+.sectional-mobile-serp .sn-stock-facts{font:700 13px/20px Arial,sans-serif;gap:8px 20px}
+.sectional-mobile-serp .sn-stock-middle{gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.sectional-mobile-serp .sn-stock-bars{height:140px;gap:6px}
+.sectional-mobile-serp .sn-stock-bars i{width:28px}
+.sectional-mobile-serp .sn-stock-bars>div{font-size:10px}
+.sectional-mobile-serp .sn-stock-gauge{height:94px}
+.sectional-mobile-serp .sn-stock-rating small{font-size:12px}
+.sectional-mobile-serp .sn-stock-news{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px;background:transparent}
+.sectional-mobile-serp .sn-stock-news article{border:0;background:var(--accent-surface);border-radius:24px;overflow:hidden}
+.sectional-mobile-serp .sn-stock-news article:nth-child(2){display:none}
+.sectional-mobile-serp .sn-stock-news img{height:88px}
+.sectional-mobile-serp .sn-stock-news h4{padding:8px 16px 0;-webkit-line-clamp:3}
+.sectional-mobile-serp .sn-stock-news small{padding:8px 16px}
+.sectional-mobile-serp .sn-stock-peers{padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px;background:transparent}
+.sectional-mobile-serp .sn-stock-peers a{padding:16px;border:0;background:var(--accent-surface);font-size:13px}
+.sectional-mobile-serp .sn-stock-peers a:nth-child(2){order:3}
+.sectional-mobile-serp .sn-stock-peers a:nth-child(3){order:2}
+.sectional-mobile-serp .sn-stock-peers a:first-child{order:1}
+.sectional-mobile-serp .sn-stock-peers a:nth-child(4){order:4}
+.sectional-mobile-serp .sn-stock-peers b{font-size:18px}
+.sectional-mobile-serp[data-variant=sectional-nav] .search-layout{padding-top:24px}
+.sectional-mobile-serp[data-variant=sectional-nav] .search-layout aside,.sectional-mobile-serp[data-variant=sectional-nav] .sectional-mobile-footer{display:none}
+.sectional-mobile-serp .sn-more-heading{margin:0 0 24px;font:700 20px/26px Arial,sans-serif}
+@media(max-width:380px){.sn-mobile .sn-card-body,.sn-mobile-template-grid .sn-card-body{gap:12px}.sn-mobile .sn-card-image,.sn-mobile-template-grid .sn-card-image{width:108px;height:108px}.sn-mobile .sn-download .sn-card-image,.sn-mobile-template-grid .sn-download .sn-card-image{width:56px;height:56px}}
