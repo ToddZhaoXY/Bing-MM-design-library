@@ -37,6 +37,8 @@ test('navigation preserves all component routes, including cross-tier children',
     new Function('require', 'module', 'exports', result.outputFiles[0].text)(require, mod, mod.exports)
     const { components, render } = mod.exports
     const html = render('/')
+    assert.doesNotMatch(html, /nav__toggle|nav--collapsed/)
+    assert.match(html, /<div id="library-navigation">/)
     const links = [...html.matchAll(/href="\/c\/([^"]+)"/g)].map(match => match[1])
     assert.deepEqual(links.sort(), components.map(component => component.slug).sort(), system)
     assert.equal(links.length, new Set(links).size, `${system}: duplicate routes`)

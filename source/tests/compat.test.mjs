@@ -98,18 +98,20 @@ function boot({ statusCode = 404, contentType = 'text/plain', redirected = false
   const events = new Map(); const timers = new Map();
   const app = { tagName: 'SCRIPT', src: 'https://host.test/design/aigc-app.js', getAttribute: () => './aigc-app.js' };
   const title = { textContent: '' }; const detail = { textContent: '' };
-  const status = { hidden: false, classList: { add() {} }, querySelector: () => title, setAttribute() {} };
+  const actions = { hidden: true }; const classes = new Set(); let observerCallback; let observing = false;
+  const status = { hidden: false, classList: { add(name) { classes.add(name); } }, querySelector: selector => selector === '.startup-actions' ? actions : title, setAttribute() {} };
   const root = { children: [] }; let now = 0;
   const elements = { root, 'library-app': app, 'library-startup': status, 'startup-detail': detail, 'startup-retry': { addEventListener() {} } };
   const window = { addEventListener: (name, callback) => events.set(name, callback),
     fetch: async () => ({ status: statusCode, ok: statusCode === 200, type: redirected ? 'opaqueredirect' : 'basic', headers: { get: () => contentType } }) };
   runInNewContext(bootScript, {
     window, document: { getElementById: name => elements[name] },
+    MutationObserver: class { constructor(callback) { observerCallback = callback; } observe() { observing = true; } disconnect() { observing = false; } },
     location: { href: 'https://host.test/design/aigc.html', origin: 'https://host.test', reload() {} }, URL, AbortController,
     Date: { now: () => now }, setTimeout: () => 1, clearTimeout() {},
     setInterval: fn => { timers.set(1, fn); return 1; }, clearInterval: id => timers.delete(id),
   });
-  return { app, events, detail, root, status, fail: () => events.get('error')({ target: app }),
+  return { app, events, detail, root, status, actions, classes, title, mutate() { if (observing) observerCallback(); }, fail: () => events.get('error')({ target: app }),
     tick: ms => { now = ms; for (const fn of timers.values()) fn(); }, settle: () => new Promise(resolve => setImmediate(resolve)) };
 }
 
@@ -126,5 +128,16 @@ test('policy failure is not overwritten by subsequent resource errors, and a lat
   state.fail(); await state.settle();
   assert.match(state.detail.textContent, /hosting security policy: script-src-elem/);
   state.root.children.push({}); state.tick(250);
+  assert.equal(state.status.hidden, true);
+});
+
+test('slow compatible startup stays informational and resolves even after sixty seconds', () => {
+  const state = boot();
+  assert.equal(state.actions.hidden, true);
+  state.tick(9000);
+  assert.equal(state.title.textContent, 'Still loading…');
+  assert.equal(state.classes.has('library-startup--error'), false);
+  assert.equal(state.actions.hidden, false);
+  state.tick(61000); state.root.children.push({}); state.mutate();
   assert.equal(state.status.hidden, true);
 });

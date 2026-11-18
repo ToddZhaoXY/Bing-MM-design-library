@@ -16,5 +16,5 @@ export default defineConfig({
     },
   }],
   base: './',
-  build: { copyPublicDir: false },
+  build: { copyPublicDir: false, cssCodeSplit: false, modulePreload: false },
 })

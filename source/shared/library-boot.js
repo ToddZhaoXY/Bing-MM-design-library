@@ -4,6 +4,7 @@
   var timer;
   var failure = '';
   var stopped = false;
+  var observer;
 
   function describeFailure(event) {
     var target = event.target;
@@ -27,17 +28,31 @@
       status.hidden = true;
       stopped = true;
       clearInterval(timer);
+      if (observer) observer.disconnect();
       return;
     }
-    if (failure || Date.now() - startedAt > 8000) {
+    var elapsed = Date.now() - startedAt;
+    var actions = status.querySelector('.startup-actions');
+    if (failure) {
       status.classList.add('library-startup--error');
       status.querySelector('.startup-title').textContent = 'This library did not start';
-      detail.textContent = failure || 'Loading took longer than expected. Check that all files were uploaded, or try the alternate entry below.';
+      detail.textContent = failure;
       status.setAttribute('role', 'alert');
-      // A slow successful render can still dismiss the notice. Poll at a low
-      // rate for at most one minute; never hide usable content behind a layer.
-      if (Date.now() - startedAt > 60000) { clearInterval(timer); stopped = true; }
+      if (actions) actions.hidden = false;
+    } else if (elapsed > 8000) {
+      status.classList.add('library-startup--slow');
+      status.querySelector('.startup-title').textContent = 'Still loading…';
+      detail.textContent = 'Loading is taking longer than usual. You can keep waiting or try again.';
+      if (actions) actions.hidden = false;
     }
+    if (elapsed > 60000) clearInterval(timer);
+  }
+
+  function watchRoot() {
+    var root = document.getElementById('root');
+    if (!root || typeof MutationObserver !== 'function') return;
+    if (!observer) observer = new MutationObserver(check);
+    observer.observe(root, { childList: true });
   }
 
   window.addEventListener('error', function (event) {
@@ -47,14 +62,16 @@
     if (!stopped && /script-src|base-uri/.test(event.effectiveDirective || '')) { failure = describeFailure(event); check(); }
   });
   document.getElementById('startup-retry').addEventListener('click', function () { location.reload(); });
-  window.addEventListener('pagehide', function () { clearInterval(timer); });
+  window.addEventListener('pagehide', function () { clearInterval(timer); if (observer) observer.disconnect(); });
   window.addEventListener('load', check);
   window.addEventListener('pageshow', function () {
     if (stopped) return;
+    watchRoot();
     clearInterval(timer);
     timer = setInterval(check, 250);
     check();
   });
+  watchRoot();
   timer = setInterval(check, 250);
   check();
 }());

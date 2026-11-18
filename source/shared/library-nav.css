@@ -72,3 +72,60 @@ body[data-library="home"] .home-canvas { margin-left: calc(24px + var(--feature-
 }
 @media (pointer: coarse) { .feature-nav-item { min-height: 44px; } .feature-nav-toggle { min-height: 44px; } }
 @media (forced-colors: active) { .feature-nav-item.active { outline: 2px solid CanvasText; } }
+
+/* This visibility timer contains no motion. Keep it even when a library disables
+   animations for reduced motion, so a slow load cannot remain invisible. */
+.library-startup { visibility: hidden; animation: library-startup-reveal 0s 400ms forwards !important; }
+@keyframes library-startup-reveal { to { visibility: visible; } }
+.library-startup--slow, .library-startup--error { visibility: visible; animation: none !important; }
+.startup-actions[hidden] { display: none; }
+/* Hide in the same style update as the app mount, even if the watchdog is delayed. */
+body[data-hub-system]:has(#root > *) > .library-startup { display: none; }
+
+/* Match the secondary navigation and documentation columns while booting. */
+body[data-hub-system] .library-startup { margin: 24px 24px 0 86px; padding: 0; border: 0; border-radius: 0; background: transparent; }
+.aixa-startup-skeleton { display: grid; grid-template-columns: 244px minmax(0, 1fr); gap: 32px; }
+.aixa-skeleton__nav { min-height: calc(100dvh - 120px); padding: 36px 24px; }
+.aixa-skeleton__nav .aixa-skeleton__line { margin-block: 28px; }
+.library-startup:not(.library-startup--slow):not(.library-startup--error) .startup-status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.library-startup--slow .startup-status { margin-top: 20px; padding: 24px; background: #fff; border-radius: 24px; }
+.library-startup--error .aixa-startup-skeleton { display: none; }
+.library-startup--error .startup-status { padding: 28px; border: 1px solid #d7a295; border-radius: 24px; background: #fff7f4; }
+@media (min-width: 900px) { body[data-hub-system].feature-nav-expanded .library-startup { margin-left: 174px; } }
+@media (min-width: 900px) and (max-width: 1199px) { .aixa-startup-skeleton { grid-template-columns: 192px minmax(0, 1fr); gap: 24px; } }
+@media (max-width: 899px) { body[data-hub-system] .library-startup { margin: 16px 12px 0 72px; } .aixa-startup-skeleton { display: block; } .aixa-skeleton__nav { min-height: 0; height: 200px; margin-bottom: 16px; overflow: hidden; border-radius: 24px; } }
+
+/* The rail and adjacent documentation move together, only after a user toggle. */
+@media (min-width: 900px) {
+  body > .feature-nav .feature-nav-label { opacity: 0; }
+  body.feature-nav-expanded > .feature-nav .feature-nav-label { opacity: 1; }
+  body.feature-nav-animated > .feature-nav {
+    transition: width 280ms cubic-bezier(.22, 1, .36, 1);
+  }
+  body[data-hub-system].feature-nav-animated #root > .app {
+    transition: padding-left 280ms cubic-bezier(.22, 1, .36, 1);
+  }
+  body[data-hub-system].feature-nav-animated .library-startup {
+    transition: margin-left 280ms cubic-bezier(.22, 1, .36, 1);
+  }
+  body[data-library="algo"].feature-nav-animated {
+    transition: grid-template-columns 280ms cubic-bezier(.22, 1, .36, 1);
+  }
+  body[data-library="algo"].feature-nav-animated > .side-nav {
+    transition: left 280ms cubic-bezier(.22, 1, .36, 1);
+  }
+  body.feature-nav-animated > .feature-nav .feature-nav-label {
+    transition: opacity 140ms ease-out, visibility 0s linear 140ms;
+  }
+  body.feature-nav-animated.feature-nav-expanded > .feature-nav .feature-nav-label {
+    transition: opacity 180ms ease-out 60ms, visibility 0s;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  body.feature-nav-animated,
+  body.feature-nav-animated > .feature-nav,
+  body.feature-nav-animated > .feature-nav .feature-nav-label,
+  body.feature-nav-animated #root > .app,
+  body.feature-nav-animated .library-startup,
+  body.feature-nav-animated > .side-nav { transition: none !important; }
+}

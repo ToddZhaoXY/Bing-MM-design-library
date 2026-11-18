@@ -87,7 +87,7 @@ test('controller mounts lazily, preserves frames and synchronizes tab/child/hist
     assert.equal(frames('mm-image')[0], imageFrame);
     assert.equal(frames('mm-image').length, 1);
     assert.equal(locationMock.hash, '#/mm-image/playground');
-    assert.equal(documentMock.title, 'MM Image · Design Systems');
+    assert.equal(documentMock.title, 'Image · Design Systems');
 
     const keyboard = new Event('keydown', { cancelable: true });
     Object.defineProperty(keyboard, 'key', { value: 'End' });

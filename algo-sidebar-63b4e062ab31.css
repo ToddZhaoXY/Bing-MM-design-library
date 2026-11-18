@@ -1,0 +1,221 @@
+/* Generated from the canonical documentation sidebar and theme tokens. */
+.side-nav.nav {
+  flex: 0 0 244px;
+  width: 244px;
+  padding: 24px 12px;
+  border: 0;
+  border-radius: 28px;
+  background: #ffffff;
+  box-shadow: 0 8px 32px #00000005;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #202020;
+  scrollbar-width: none;
+}
+
+.side-nav.nav.nav--collapsed {
+  flex-basis: 44px;
+  width: 44px;
+  padding-inline: 4px;
+}
+
+.nav .nav__toggle {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 16px;
+  border-color: #e5e5e5;
+  border-radius: 8px;
+  background: transparent;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 1.25rem;
+  color: #626262;
+}
+
+.nav:not(.nav--collapsed) .nav__toggle {
+  position: sticky;
+  top: 0;
+  float: right;
+  z-index: 2;
+  margin: 0;
+  background: #ffffff;
+}
+
+.nav .nav__toggle:hover {
+  border-color: #c6c6c6;
+  background: #ffffff;
+  color: #202020;
+}
+
+.nav .nav__brand {
+  padding: 4px 12px 16px;
+}
+
+.nav .nav__brand > h1 {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 650;
+  letter-spacing: -.02em;
+}
+
+.nav .nav__brand > p {
+  margin-top: 4px;
+  font-size: .75rem;
+  line-height: 1.6;
+  color: #626262;
+}
+
+/* Shared sidebar: quiet text and a short marker, matching the supplied reference. */
+.nav--tree { scrollbar-width: none; }
+.nav--tree::-webkit-scrollbar { display: none; width: 0; height: 0; }
+.nav--tree [hidden] { display: none !important; }
+.nav--tree .nav__group { margin-top: 16px; }
+.nav--tree .nav__group + .nav__group { margin-top: 24px; }
+.nav--tree .nav__list,
+.nav--tree .nav__children { list-style: none; padding: 0; margin: 0; }
+
+.nav--tree .nav__section-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  min-height: 36px;
+  margin: 0;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: #757575;
+  font: 400 14px/20px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: left;
+  cursor: pointer;
+}
+.nav--tree .nav__section-toggle:hover { background: transparent; color: #202020; }
+.nav--tree .nav__row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  margin: 0;
+  border-radius: 0;
+  background: transparent;
+}
+.nav--tree .nav__item {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  min-height: 40px;
+  margin: 0;
+  padding: 10px 24px;
+  border: 0;
+  border-radius: 4px;
+  color: #555555;
+  background: transparent;
+  font: 400 14px/20px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.nav--tree .nav__node--parent > .nav__row > .nav__item { font-weight: 400; padding-right: 4px; }
+.nav--tree .nav__children {
+  margin: 0 0 8px 12px;
+  padding: 0;
+  border: 0;
+}
+.nav--tree .nav__node--child > .nav__row > .nav__item {
+  min-height: 40px;
+  padding: 10px 24px;
+  color: #555555;
+  font-size: 14px;
+  font-weight: 400;
+}
+.nav--tree .nav__node--ancestor > .nav__row > .nav__item { color: #555555; font-weight: 400; }
+.nav--tree .nav__row:hover,
+.nav--tree .nav__row--active,
+.nav--tree .nav__row--active:hover { background: transparent; box-shadow: none; }
+.nav--tree .nav__row:hover > .nav__item { background: transparent; color: #202020; }
+.nav--tree .nav__node > .nav__row--active > .nav__item,
+.nav--tree .nav__node > .nav__row--active:hover > .nav__item { color: #202020; font-weight: 400; }
+.nav--tree .nav__row--active::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  width: 3px;
+  height: 20px;
+  border-radius: 2px;
+  background: #202020;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.nav--tree .nav__branch-toggle {
+  display: grid;
+  place-items: center;
+  flex: 0 0 32px;
+  width: 32px;
+  min-height: 40px;
+  margin: 0 2px 0 0;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: #757575;
+  cursor: pointer;
+}
+.nav--tree .nav__branch-toggle:hover { background: transparent; color: #202020; }
+.nav--tree .nav__row--active > .nav__branch-toggle { color: #202020; }
+.nav--tree .nav__chevron {
+  display: block;
+  width: 7px;
+  height: 7px;
+  margin: 0 3px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform 120ms ease-out;
+}
+.nav--tree [aria-expanded="true"] > .nav__chevron { transform: rotate(45deg) translate(-1px, -1px); }
+.nav--tree .nav__item--empty { color: #626262; font-size: .75rem; font-weight: 400; }
+.nav--tree :is(a, button):focus-visible { outline: 2px solid #315ed0; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { .nav--tree .nav__chevron { transition: none; } }
+@media (pointer: coarse) {
+  .nav--tree .nav__item,
+  .nav--tree .nav__node--child > .nav__row > .nav__item,
+  .nav--tree .nav__branch-toggle,
+  .nav--tree .nav__section-toggle { min-height: 44px; }
+  .nav--tree .nav__branch-toggle { width: 44px; flex-basis: 44px; }
+}
+@media (forced-colors: active) {
+  .nav--tree .nav__row--active::before { background: CanvasText; forced-color-adjust: none; }
+}
+
+.nav .nav__source {
+  padding: 32px 12px 8px;
+  font-size: .75rem;
+  line-height: 1.6;
+  color: #626262;
+}
+
+.nav :is(a, button):focus-visible {
+  outline: 2px solid #315ed0;
+  outline-offset: 2px;
+}
+
+
+body[data-library="algo"] { --component-nav-width: 244px; --documentation-gap: 32px; --library-gutter: 24px; }
+.side-nav.nav { width: var(--component-nav-width); height: calc(100dvh - 120px); overflow-y: auto; }
+.nav .nav__brand > p { margin: 4px 0 0; }
+.nav--tree .nav__folder { text-align: left; cursor: pointer; }
+.aixa-algo-drawer-nav { padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #202020; }
+.aixa-algo-drawer-nav .nav__brand { padding-inline: 12px; }
+@media (min-width: 900px) and (max-width: 1199px) { body[data-library="algo"] { --component-nav-width: 192px; --documentation-gap: 24px; } }
+@media (max-width: 899px) { .side-nav.nav { display: none; } }
+@media (forced-colors: active) { .side-nav.nav { border: 1px solid CanvasText; } }
+/* Keep Algo's existing dark mode readable without altering any specimen styles. */
+:root[data-theme="dark"] :is(.side-nav.nav,.aixa-algo-drawer-nav) { background: var(--surface); color: var(--text); }
+:root[data-theme="dark"] .nav :is(.nav__brand > h1,.nav__row--active > .nav__item) { color: var(--text); }
+:root[data-theme="dark"] .nav :is(.nav__brand > p,.nav__section-toggle,.nav__branch-toggle,.nav__source) { color: var(--muted); }
+:root[data-theme="dark"] .nav .nav__item { color: var(--secondary); }
+:root[data-theme="dark"] .nav .nav__row--active::before { background: var(--text); }

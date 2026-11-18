@@ -1,8 +1,27 @@
 # AIXA Bing Design Library · Source
 
+## 2026-11-18 · Tokens
+
+Tokens 作为第一个分区接入首页和所有库内导航，沿用现有文档视觉。
+`projects/tokens/content.json` 保存来源网站的 426 条 Token 和其余可见内容；
+`projects/tokens/assets/` 保存作者及案例图片；`scripts/tokens-library.mjs`
+为标准构建和扁平部署共用的页面生成器。排除 Legacy v1.2 Card Showcase。
+分类、搜索、复制、Light / Dark 对照、可视化样例和案例切换均在本地运行。
+详情见 `projects/tokens/README.md`。下方为历史版本记录。
+
+## 2026-11-16 · Loading optimization
+
+首屏只加载轻量导航与介绍；组件工作台、Playground、来源目录和规则页按需加载。
+`generate-overview.mjs` 从真实组件注册表和 SDL adapters 生成首屏统计，
+`classic-chunks.mjs` 与 `classic-runtime.js` 将拆分结果编译为普通脚本，保留平面部署兼容性。
+`ui/RouteLoading.tsx` / `.css` 提供共享 skeleton；`npm run sync:navigation` 同步副本。
+
+部署必须保留清单中的全部分块文件。重试、受限 CSP、HTML/SDL 导出和移动端骨架
+已验证；具体测量与测试范围见 `qa/startup-performance/OPTIMIZATION.md`。
+
 ## 2026-11-16 · Algo integration
 
-当前整合 MM Image、AIGC、Video 和 Algo 四个并列分区；名称统一为
+当前整合 Image、AIGC、Video 和 Algo 四个并列分区；名称统一为
 **AIXA Bing Design Library**。库内页面的跨库切换使用 Algo V8 的左侧图标／文字导航；首页保留原来的
 全屏瀑布流、中央大标题和右上角入口，并补上 Algo。Algo 的原始文档、预览及资源保存在 `projects/algo/site/`，
 哈希记录在 `projects/algo/UPSTREAM.json`；构建时统一路径并连接跨库导航。
@@ -20,7 +39,7 @@
 
 ## 2026-10-29 · Unified sidebar
 
-MM Image、AIGC、Video 共用 `ui/LibraryNav.tsx`，字体和层级规则位于
+Image、AIGC、Video 共用 `ui/LibraryNav.tsx`，字体和层级规则位于
 `theme/documentation.css`。分类及有子项的组件支持展开/收起，名称仍是独立页面链接。
 进入页面时自动展开所在分类和父组件；手动收起不触发跳转。
 
@@ -37,7 +56,7 @@ JSX／SDL 和离线 HTML 导出。下方“原始源码不变”描述的是最�
 保留初次导入记录。验证命令同时核对未改动原件与已记录的 Image 更新。
 详细验收见 `projects/mm-image/design/fy25-cards/VERIFICATION.md`。
 
-综合首页 + MM Image / AIGC / Video / Algo 四个独立 Library 分区。
+综合首页 + Image / AIGC / Video / Algo 四个独立 Library 分区。
 这是新的独立版本，之前的 Hub / Refined 项目和部署包没有被覆盖。
 
 ## 本次修复
@@ -134,5 +153,5 @@ dist/                       最终网站；index.html 与三个 library HTML 位
 ## 验证与原有边界
 
 验证记录见 [VERIFICATION.md](VERIFICATION.md)，实现阶段记录见 [WORK_LOG-PORTAL.md](WORK_LOG-PORTAL.md)。
-原 MM Image 外部搜图依赖网络与服务 CORS；Video 两处源页面缺口照旧保留。
+原 Image 外部搜图依赖网络与服务 CORS；Video 两处源页面缺口照旧保留。
 静态部署不增加生成、登录、搜索代理或真实视频播放后端。

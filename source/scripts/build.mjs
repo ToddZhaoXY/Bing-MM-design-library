@@ -1,14 +1,18 @@
-import { access, chmod, cp, mkdir, mkdtemp, readFile, rename, rm, unlink, writeFile } from 'node:fs/promises'
+import { access, chmod, cp, mkdir, mkdtemp, readFile, rename, rm, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { root, systems, run, fileManifest, isMain } from './lib.mjs'
 import { compileThemeCss, readThemeTokens } from './theme.mjs'
-import { makeLibraryPage, classicBundle, entryScript } from './library-page.mjs'
+import { makeLibraryPage, entryScript } from './library-page.mjs'
 import { syncNavigation } from './sync-navigation.mjs'
 import { emitAlgoLibrary } from './algo-library.mjs'
+import { emitTokensLibrary } from './tokens-library.mjs'
 import { makeHomePage } from './library-chrome.mjs'
+import { generateOverview } from './generate-overview.mjs'
+import { buildClassicChunks } from './classic-chunks.mjs'
 
 export async function build({ reuseBuilds = false, projectRoot = root } = {}) {
   await access(join(projectRoot, 'portal', 'index.html'))
+  await generateOverview({ check: reuseBuilds, projectRoot })
   await syncNavigation({ projectRoot, check: reuseBuilds })
   if (!reuseBuilds) {
     for (const system of systems) {
@@ -31,20 +35,24 @@ export async function build({ reuseBuilds = false, projectRoot = root } = {}) {
     // would otherwise be serialized by the original HTML snapshot exporters.
     await writeFile(join(staging, 'theme', 'index.css'), compileThemeCss(`${documentation}\n${workbench}`, tokens))
     await mkdir(join(staging, 'systems'), { recursive: true })
+    const bundles = {}
     for (const system of systems) {
-      await cp(join(projectRoot, 'projects', system, 'site', 'dist'), join(staging, 'systems', system), { recursive: true })
+      await cp(join(projectRoot, 'projects', system, 'site', 'dist'), join(staging, 'systems', system), { recursive: true, filter: path => !path.endsWith('.js') })
       const entry = join(staging, 'systems', system, 'index.html')
       const original = await readFile(entry, 'utf8')
       const script = entryScript(original)
       const bundleFile = join(staging, 'systems', system, script)
-      await writeFile(bundleFile.replace(/\.js$/, '-classic.js'), await classicBundle(await readFile(bundleFile, 'utf8')))
-      await unlink(bundleFile)
+      const chunks = await buildClassicChunks(system, { projectRoot })
+      await writeFile(bundleFile.replace(/\.js$/, '-classic.js'), chunks.bootstrap)
+      for (const [file, content] of Object.entries(chunks.files)) await writeFile(join(staging, 'systems', system, 'assets', file), content)
+      bundles[system] = chunks.metadata
       await writeFile(entry, makeLibraryPage(original, system))
       await writeFile(join(staging, `${system}.html`), makeLibraryPage(original, system, { alias: true }))
     }
     await writeFile(join(staging, 'index.html'), makeHomePage(await readFile(join(staging, 'index.html'), 'utf8')))
     await emitAlgoLibrary((name, content) => writeFile(join(staging, name), content))
-    const manifest = { format: 2, navigation: 'standalone-pages', builtAt: new Date().toISOString(), systems: [...systems, 'algo'], files: await fileManifest(staging) }
+    await emitTokensLibrary((name, content) => writeFile(join(staging, name), content), { theme: 'theme/index.css' })
+    const manifest = { format: 2, navigation: 'standalone-pages', builtAt: new Date().toISOString(), systems: ['tokens', ...systems, 'algo'], bundles, files: await fileManifest(staging) }
     await writeFile(join(staging, 'BUILD-MANIFEST.json'), JSON.stringify(manifest, null, 2) + '\n')
     await chmod(staging, 0o755)
     const target = join(projectRoot, 'dist')

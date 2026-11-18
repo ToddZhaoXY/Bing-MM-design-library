@@ -1,6 +1,6 @@
 # AIXA Bing Design Library
 
-The integrated **MM Image, AIGC, Video and Algo** design libraries, with the original full-screen waterfall homepage and left-side navigation inside each library.
+The integrated **Tokens, Image, AIGC, Video and Algo** design libraries, with the original full-screen waterfall homepage and left-side navigation inside each library.
 
 The 2026-11-16 integration adds [Algo Library V8](https://github.com/gim-home/algo-design-library) at commit `5c18515471dc3b0fc941ed8d7cf6e86d785378a8`: 19 documentation pages and three legacy redirects, including Cells, Mainline and Sectional examples. The icon rail, active marker and expand/collapse design come from Algo. All four destinations are real links; the selected rail width is retained when switching libraries. See [integration notes](source/qa/algo-integration/VERIFICATION.md).
 
@@ -25,7 +25,30 @@ highlighting, automatic active-path expansion, and keyboard/touch support.
 
 **Website: https://toddzhaoxy.github.io/Bing-MM-design-library/**
 
-## Current local deployment package
+## Tokens · 2026-11-18
+
+Tokens is now the first destination on the homepage and in every library rail.
+It imports all 426 tokens, the reference system, scenarios, case studies, workflow,
+tips and future directions from the supplied [Bing Design Skill website](https://toddzhaoxy.github.io/bing-design-skill-homepage/),
+using the existing documentation layout. The Legacy v1.2 Card Showcase is excluded.
+Browse locally at `tokens.html#/`; color pairs, token search, copy controls and
+visual previews are available. See [source and verification](source/projects/tokens/README.md).
+This addition is built into the local website; it has not been published to GitHub Pages.
+
+## Loading optimization · 2026-11-16
+
+Library introductions and navigation now use generated lightweight metadata. Component
+workbenches, Playground and other detail routes load on demand, with matching skeleton
+states, reduced-motion support and recoverable loading errors. Navigation intent can
+prefetch the next library without executing it. Algo renders its static content while
+fonts load.
+
+The optimized flat package is
+`../Bing-MM-design-library-delivery/AIXA-Bing-Design-Library-optimized-2026-11-16.zip`.
+Include every file when uploading: deferred scripts are required for detail pages.
+See [performance and verification](source/qa/startup-performance/OPTIMIZATION.md).
+
+## Previous four-library local deployment package
 
 `../Bing-MM-design-library-delivery/AIXA-Bing-Design-Library-2026-11-16.zip`
 contains the complete four-library release. Its adjacent `.sha256` records the
@@ -46,14 +69,15 @@ See the [release notes](https://github.com/ToddZhaoXY/Bing-MM-design-library/rel
 | Library | Entry |
 | --- | --- |
 | All libraries | [index.html](https://toddzhaoxy.github.io/Bing-MM-design-library/) |
-| MM Image | [mm-image.html](https://toddzhaoxy.github.io/Bing-MM-design-library/mm-image.html) |
+| Tokens (local) | [tokens.html](tokens.html) |
+| Image | [mm-image.html](https://toddzhaoxy.github.io/Bing-MM-design-library/mm-image.html) |
 | AIGC | [aigc.html](https://toddzhaoxy.github.io/Bing-MM-design-library/aigc.html) |
 | Video | [video.html](https://toddzhaoxy.github.io/Bing-MM-design-library/video.html) |
 | Algo | [algo.html](https://toddzhaoxy.github.io/Bing-MM-design-library/algo.html) |
 
 ## GitHub Pages
 
-The repository root is the complete, prebuilt static website. `index.html`, the four library entry pages and Algo detail pages, JavaScript, CSS, fonts and images are committed together. No build service or backend is required to browse the libraries.
+The repository root is the complete, prebuilt static website. `index.html`, the five library entry pages and Algo detail pages, JavaScript, CSS, fonts and images are committed together. No build service or backend is required to browse the libraries.
 
 In **Settings → Pages**, use **Deploy from a branch**, **main**, **/ (root)**. Pushing updated static files to `main` automatically redeploys the site. `.nojekyll` disables Jekyll processing. All local asset references are relative, so the `/Bing-MM-design-library/` project prefix works without changing the website. Component links use hash routes, such as `video.html#/c/short-card`, and can be refreshed directly.
 
@@ -66,7 +90,7 @@ npm run verify
 npm run preview
 ```
 
-Open http://127.0.0.1:5198/Bing-MM-design-library/ to preview the same project prefix as GitHub Pages. Verification checks SHA-256 hashes, JavaScript syntax, all five main entry pages and the Algo detail pages, and HTML/CSS resource resolution at both root and project paths.
+Open http://127.0.0.1:5198/Bing-MM-design-library/ to preview the same project prefix as GitHub Pages. Verification checks SHA-256 hashes, JavaScript syntax, all six main entry pages and the Algo detail pages, and HTML/CSS resource resolution at both root and project paths.
 
 ## Rebuild from source
 

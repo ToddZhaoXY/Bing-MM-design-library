@@ -17,6 +17,7 @@ const BING_APPID =
 export default defineConfig({
   plugins: [react()],
   base: './',
+  build: { cssCodeSplit: false, modulePreload: false },
   server: {
     proxy: {
       '/api/bing': {

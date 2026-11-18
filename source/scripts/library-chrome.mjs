@@ -1,7 +1,8 @@
 // Icons, proportions and active marker come from Algo V8's feature navigation.
 export const libraryName = 'AIXA Bing Design Library';
 export const libraries = [
-  ['mm-image', 'MM', 'MM Image', '<rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="8" cy="9" r="1.5"/><path d="m4 17 5-5 4 4 3-3 4 4"/>'],
+  ['tokens', 'Tokens', 'Tokens', '<path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 12 9 5 9-5M3 16l9 5 9-5"/>'],
+  ['mm-image', 'Image', 'Image', '<rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="8" cy="9" r="1.5"/><path d="m4 17 5-5 4 4 3-3 4 4"/>'],
   ['aigc', 'AIGC', 'AIGC', '<path d="m4 18 10-10 3 3L7 21l-3-3Z"/><path d="m11 11 3 3M5 4v4M3 6h4M17 2v4M15 4h4M20 8v4M18 10h4"/>'],
   ['video', 'Video', 'Video', '<rect x="3" y="4" width="18" height="16" rx="3"/><path d="m10 8 6 4-6 4Z"/>'],
   ['algo', 'Algo', 'Algo', '<path d="M5 7V4h14v3M12 4v16M8 20h8"/>'],

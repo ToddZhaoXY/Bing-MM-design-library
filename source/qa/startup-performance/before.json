@@ -1,0 +1,1032 @@
+{
+  "phase": "before",
+  "origin": "localhost only",
+  "profiles": [
+    {
+      "name": "local-cold",
+      "latency": 0,
+      "bandwidth": -1,
+      "cpu": 1,
+      "results": [
+        {
+          "id": "mm-image",
+          "probe": {
+            "rootReady": 101.69999999925494,
+            "statusVisible": 42.79999999888241,
+            "statusHidden": 317,
+            "statusFrames": 16,
+            "actionsBeforeReady": true,
+            "longTasks": [],
+            "events": []
+          },
+          "navigation": {
+            "name": "http://127.0.0.1:5198/Bing-MM-design-library/mm-image.html#/",
+            "entryType": "navigation",
+            "startTime": 0,
+            "duration": 58.29999999888241,
+            "navigationId": 7410,
+            "initiatorType": "navigation",
+            "deliveryType": "",
+            "nextHopProtocol": "http/1.1",
+            "renderBlockingStatus": "non-blocking",
+            "contentType": "text/html",
+            "contentEncoding": "",
+            "workerStart": 0,
+            "workerRouterEvaluationStart": 0,
+            "workerCacheLookupStart": 0,
+            "workerMatchedSourceType": "",
+            "workerFinalSourceType": "",
+            "redirectStart": 0,
+            "redirectEnd": 0,
+            "fetchStart": 0.5,
+            "domainLookupStart": 0.5,
+            "domainLookupEnd": 0.5,
+            "connectStart": 0.5,
+            "secureConnectionStart": 0,
+            "connectEnd": 0.5,
+            "requestStart": 2,
+            "responseStart": 4.299999998882413,
+            "firstInterimResponseStart": 0,
+            "finalResponseHeadersStart": 4.299999998882413,
+            "responseEnd": 5.199999999254942,
+            "transferSize": 3869,
+            "encodedBodySize": 3569,
+            "decodedBodySize": 3569,
+            "responseStatus": 200,
+            "serverTiming": [],
+            "unloadEventStart": 0,
+            "unloadEventEnd": 0,
+            "domInteractive": 17.699999999254942,
+            "domContentLoadedEventStart": 57.5,
+            "domContentLoadedEventEnd": 57.59999999962747,
+            "domComplete": 58.19999999925494,
+            "loadEventStart": 58.19999999925494,
+            "loadEventEnd": 58.29999999888241,
+            "type": "navigate",
+            "redirectCount": 0,
+            "activationStart": 0,
+            "criticalCHRestart": 0,
+            "notRestoredReasons": null,
+            "confidence": {
+              "randomizedTriggerRate": 0.4994798,
+              "value": "low"
+            }
+          },
+          "resources": [
+            {
+              "name": "library-boot-5b4d311e83f6.js",
+              "type": "script",
+              "start": 11.5,
+              "end": 16,
+              "duration": 4.5,
+              "transfer": 4218,
+              "encoded": 3918,
+              "decoded": 3918
+            },
+            {
+              "name": "mm-image-style-d794376fa5d5.css",
+              "type": "link",
+              "start": 11.699999999254942,
+              "end": 15.699999999254942,
+              "duration": 4,
+              "transfer": 15905,
+              "encoded": 15605,
+              "decoded": 15605
+            },
+            {
+              "name": "library-switcher-22a9202d52fa.js",
+              "type": "script",
+              "start": 11.699999999254942,
+              "end": 16.799999998882413,
+              "duration": 5.099999999627471,
+              "transfer": 1252,
+              "encoded": 952,
+              "decoded": 952
+            },
+            {
+              "name": "mm-image-app-b42327438c6b.js",
+              "type": "script",
+              "start": 11.699999999254942,
+              "end": 26.299999998882413,
+              "duration": 14.599999999627471,
+              "transfer": 558433,
+              "encoded": 558133,
+              "decoded": 558133
+            },
+            {
+              "name": "library-theme-3b9ecb91c1d9.css",
+              "type": "link",
+              "start": 11.799999998882413,
+              "end": 16.699999999254942,
+              "duration": 4.900000000372529,
+              "transfer": 36974,
+              "encoded": 36674,
+              "decoded": 36674
+            },
+            {
+              "name": "library-nav-0e4bf4fff0d0.css",
+              "type": "link",
+              "start": 11.900000000372529,
+              "end": 16.699999999254942,
+              "duration": 4.799999998882413,
+              "transfer": 7402,
+              "encoded": 7102,
+              "decoded": 7102
+            },
+            {
+              "name": "algo-public-assets-fonts-source-sans-pro-SourceSansPro-Regular.ttf",
+              "type": "css",
+              "start": 35.40000000037253,
+              "end": 37.40000000037253,
+              "duration": 2,
+              "transfer": 119380,
+              "encoded": 119080,
+              "decoded": 119080
+            },
+            {
+              "name": "algo-public-assets-fonts-source-sans-pro-SourceSansPro-Bold.ttf",
+              "type": "css",
+              "start": 35.59999999962747,
+              "end": 37.59999999962747,
+              "duration": 2,
+              "transfer": 118904,
+              "encoded": 118604,
+              "decoded": 118604
+            },
+            {
+              "name": "mm-image-figma-img-favicon-16.png",
+              "type": "other",
+              "start": 114.69999999925494,
+              "end": 117.79999999888241,
+              "duration": 3.099999999627471,
+              "transfer": 2974,
+              "encoded": 2674,
+              "decoded": 2674
+            }
+          ],
+          "paint": [
+            {
+              "name": "first-paint",
+              "time": 80
+            },
+            {
+              "name": "first-contentful-paint",
+              "time": 80
+            }
+          ]
+        },
+        {
+          "id": "aigc",
+          "probe": {
+            "rootReady": 57.59999999962747,
+            "statusVisible": 23.09999999962747,
+            "statusHidden": 304.09999999962747,
+            "statusFrames": 17,
+            "actionsBeforeReady": true,
+            "longTasks": [],
+            "events": []
+          },
+          "navigation": {
+            "name": "http://127.0.0.1:5198/Bing-MM-design-library/aigc.html#/",
+            "entryType": "navigation",
+            "startTime": 0,
+            "duration": 37,
+            "navigationId": 2585,
+            "initiatorType": "navigation",
+            "deliveryType": "",
+            "nextHopProtocol": "http/1.1",
+            "renderBlockingStatus": "non-blocking",
+            "contentType": "text/html",
+            "contentEncoding": "",
+            "workerStart": 0,
+            "workerRouterEvaluationStart": 0,
+            "workerCacheLookupStart": 0,
+            "workerMatchedSourceType": "",
+            "workerFinalSourceType": "",
+            "redirectStart": 0,
+            "redirectEnd": 0,
+            "fetchStart": 0.5,
+            "domainLookupStart": 0.5,
+            "domainLookupEnd": 0.5,
+            "connectStart": 0.5,
+            "secureConnectionStart": 0,
+            "connectEnd": 0.5,
+            "requestStart": 1.199999999254942,
+            "responseStart": 2.299999998882413,
+            "firstInterimResponseStart": 0,
+            "finalResponseHeadersStart": 2.299999998882413,
+            "responseEnd": 2.799999998882413,
+            "transferSize": 3862,
+            "encodedBodySize": 3562,
+            "decodedBodySize": 3562,
+            "responseStatus": 200,
+            "serverTiming": [],
+            "unloadEventStart": 8.699999999254942,
+            "unloadEventEnd": 8.699999999254942,
+            "domInteractive": 15.599999999627471,
+            "domContentLoadedEventStart": 36.90000000037253,
+            "domContentLoadedEventEnd": 36.90000000037253,
+            "domComplete": 37,
+            "loadEventStart": 37,
+            "loadEventEnd": 37,
+            "type": "navigate",
+            "redirectCount": 0,
+            "activationStart": 0,
+            "criticalCHRestart": 0,
+            "notRestoredReasons": null,
+            "confidence": {
+              "randomizedTriggerRate": 0.4994798,
+              "value": "high"
+            }
+          },
+          "resources": [
+            {
+              "name": "library-boot-5b4d311e83f6.js",
+              "type": "script",
+              "start": 10.699999999254942,
+              "end": 13.299999998882413,
+              "duration": 2.599999999627471,
+              "transfer": 4218,
+              "encoded": 3918,
+              "decoded": 3918
+            },
+            {
+              "name": "library-switcher-22a9202d52fa.js",
+              "type": "script",
+              "start": 10.799999998882413,
+              "end": 13.199999999254942,
+              "duration": 2.400000000372529,
+              "transfer": 1252,
+              "encoded": 952,
+              "decoded": 952
+            },
+            {
+              "name": "library-theme-3b9ecb91c1d9.css",
+              "type": "link",
+              "start": 10.900000000372529,
+              "end": 13.5,
+              "duration": 2.599999999627471,
+              "transfer": 36974,
+              "encoded": 36674,
+              "decoded": 36674
+            },
+            {
+              "name": "aigc-style-6b7cccf65401.css",
+              "type": "link",
+              "start": 10.900000000372529,
+              "end": 13.799999998882413,
+              "duration": 2.899999998509884,
+              "transfer": 19736,
+              "encoded": 19436,
+              "decoded": 19436
+            },
+            {
+              "name": "aigc-app-d208c65cd0eb.js",
+              "type": "script",
+              "start": 10.900000000372529,
+              "end": 17.5,
+              "duration": 6.599999999627471,
+              "transfer": 549708,
+              "encoded": 549408,
+              "decoded": 549408
+            },
+            {
+              "name": "library-nav-0e4bf4fff0d0.css",
+              "type": "link",
+              "start": 11,
+              "end": 14.299999998882413,
+              "duration": 3.299999998882413,
+              "transfer": 7402,
+              "encoded": 7102,
+              "decoded": 7102
+            },
+            {
+              "name": "algo-public-assets-fonts-source-sans-pro-SourceSansPro-Regular.ttf",
+              "type": "css",
+              "start": 22.40000000037253,
+              "end": 24.299999998882413,
+              "duration": 1.8999999985098839,
+              "transfer": 119380,
+              "encoded": 119080,
+              "decoded": 119080
+            },
+            {
+              "name": "algo-public-assets-fonts-source-sans-pro-SourceSansPro-Bold.ttf",
+              "type": "css",
+              "start": 22.5,
+              "end": 24.299999998882413,
+              "duration": 1.799999998882413,
+              "transfer": 118904,
+              "encoded": 118604,
+              "decoded": 118604
+            },
+            {
+              "name": "favicon.ico",
+              "type": "other",
+              "start": 50.5,
+              "end": 52.09999999962747,
+              "duration": 1.599999999627471,
+              "transfer": 309,
+              "encoded": 9,
+              "decoded": 9
+            },
+            {
+              "name": "aigc-assets-roboto-latin-400-normal-BqEyEoaF.woff2",
+              "type": "css",
+              "start": 57,
+              "end": 58.69999999925494,
+              "duration": 1.699999999254942,
+              "transfer": 22184,
+              "encoded": 21884,
+              "decoded": 21884
+            }
+          ],
+          "paint": [
+            {
+              "name": "first-paint",
+              "time": 40
+            },
+            {
+              "name": "first-contentful-paint",
+              "time": 40
+            }
+          ]
+        },
+        {
+          "id": "video",
+          "probe": {
+            "rootReady": 46.69999999925494,
+            "statusVisible": 21.40000000037253,
+            "statusHidden": 288.40000000037253,
+            "statusFrames": 17,
+            "actionsBeforeReady": true,
+            "longTasks": [],
+            "events": []
+          },
+          "navigation": {
+            "name": "http://127.0.0.1:5198/Bing-MM-design-library/video.html#/",
+            "entryType": "navigation",
+            "startTime": 0,
+            "duration": 29.59999999962747,
+            "navigationId": 3233,
+            "initiatorType": "navigation",
+            "deliveryType": "",
+            "nextHopProtocol": "http/1.1",
+            "renderBlockingStatus": "non-blocking",
+            "contentType": "text/html",
+            "contentEncoding": "",
+            "workerStart": 0,
+            "workerRouterEvaluationStart": 0,
+            "workerCacheLookupStart": 0,
+            "workerMatchedSourceType": "",
+            "workerFinalSourceType": "",
+            "redirectStart": 0,
+            "redirectEnd": 0,
+            "fetchStart": 0.5,
+            "domainLookupStart": 0.5,
+            "domainLookupEnd": 0.5,
+            "connectStart": 0.5,
+            "secureConnectionStart": 0,
+            "connectEnd": 0.5,
+            "requestStart": 1.400000000372529,
+            "responseStart": 3.699999999254942,
+            "firstInterimResponseStart": 0,
+            "finalResponseHeadersStart": 3.699999999254942,
+            "responseEnd": 4.099999999627471,
+            "transferSize": 3885,
+            "encodedBodySize": 3585,
+            "decodedBodySize": 3585,
+            "responseStatus": 200,
+            "serverTiming": [],
+            "unloadEventStart": 9.900000000372529,
+            "unloadEventEnd": 9.900000000372529,
+            "domInteractive": 17,
+            "domContentLoadedEventStart": 29.300000000745058,
+            "domContentLoadedEventEnd": 29.40000000037253,
+            "domComplete": 29.40000000037253,
+            "loadEventStart": 29.40000000037253,
+            "loadEventEnd": 29.59999999962747,
+            "type": "navigate",
+            "redirectCount": 0,
+            "activationStart": 0,
+            "criticalCHRestart": 0,
+            "notRestoredReasons": null,
+            "confidence": {
+              "randomizedTriggerRate": 0.4994798,
+              "value": "high"
+            }
+          },
+          "resources": [
+            {
+              "name": "library-boot-5b4d311e83f6.js",
+              "type": "script",
+              "start": 12.599999999627471,
+              "end": 15.099999999627471,
+              "duration": 2.5,
+              "transfer": 4218,
+              "encoded": 3918,
+              "decoded": 3918
+            },
+            {
+              "name": "library-switcher-22a9202d52fa.js",
+              "type": "script",
+              "start": 12.699999999254942,
+              "end": 15.099999999627471,
+              "duration": 2.400000000372529,
+              "transfer": 1252,
+              "encoded": 952,
+              "decoded": 952
+            },
+            {
+              "name": "video-style-0cf18e05b049.css",
+              "type": "link",
+              "start": 12.800000000745058,
+              "end": 15.400000000372529,
+              "duration": 2.599999999627471,
+              "transfer": 52455,
+              "encoded": 52155,
+              "decoded": 52155
+            },
+            {
+              "name": "video-app-61d93db5d9e6.js",
+              "type": "script",
+              "start": 12.800000000745058,
+              "end": 17.59999999962747,
+              "duration": 4.799999998882413,
+              "transfer": 457593,
+              "encoded": 457293,
+              "decoded": 457293
+            },
+            {
+              "name": "library-theme-3b9ecb91c1d9.css",
+              "type": "link",
+              "start": 12.900000000372529,
+              "end": 15,
+              "duration": 2.099999999627471,
+              "transfer": 36974,
+              "encoded": 36674,
+              "decoded": 36674
+            },
+            {
+              "name": "library-nav-0e4bf4fff0d0.css",
+              "type": "link",
+              "start": 12.900000000372529,
+              "end": 15.400000000372529,
+              "duration": 2.5,
+              "transfer": 7402,
+              "encoded": 7102,
+              "decoded": 7102
+            },
+            {
+              "name": "algo-public-assets-fonts-source-sans-pro-SourceSansPro-Regular.ttf",
+              "type": "css",
+              "start": 20.5,
+              "end": 22.5,
+              "duration": 2,
+              "transfer": 119380,
+              "encoded": 119080,
+              "decoded": 119080
+            },
+            {
+              "name": "algo-public-assets-fonts-source-sans-pro-SourceSansPro-Bold.ttf",
+              "type": "css",
+              "start": 20.59999999962747,
+              "end": 22.59999999962747,
+              "duration": 2,
+              "transfer": 118904,
+              "encoded": 118604,
+              "decoded": 118604
+            },
+            {
+              "name": "video-assets-roboto-latin-400-normal-BqEyEoaF.woff2",
+              "type": "css",
+              "start": 46.59999999962747,
+              "end": 48.59999999962747,
+              "duration": 2,
+              "transfer": 22184,
+              "encoded": 21884,
+              "decoded": 21884
+            }
+          ],
+          "paint": [
+            {
+              "name": "first-paint",
+              "time": 40
+            },
+            {
+              "name": "first-contentful-paint",
+              "time": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "simulated-slow-cold",
+      "latency": 150,
+      "bandwidth": 200000,
+      "cpu": 4,
+      "results": [
+        {
+          "id": "mm-image",
+          "probe": {
+            "rootReady": 4767,
+            "statusVisible": 741.0999999996275,
+            "statusHidden": 4935.299999998882,
+            "statusFrames": 249,
+            "actionsBeforeReady": true,
+            "longTasks": [
+              {
+                "start": 4709.5999999996275,
+                "duration": 65
+              }
+            ],
+            "events": []
+          },
+          "navigation": {
+            "name": "http://127.0.0.1:5198/Bing-MM-design-library/mm-image.html#/",
+            "entryType": "navigation",
+            "startTime": 0,
+            "duration": 4680.5999999996275,
+            "navigationId": 8656,
+            "initiatorType": "navigation",
+            "deliveryType": "",
+            "nextHopProtocol": "http/1.1",
+            "renderBlockingStatus": "non-blocking",
+            "contentType": "text/html",
+            "contentEncoding": "",
+            "workerStart": 0,
+            "workerRouterEvaluationStart": 0,
+            "workerCacheLookupStart": 0,
+            "workerMatchedSourceType": "",
+            "workerFinalSourceType": "",
+            "redirectStart": 0,
+            "redirectEnd": 0,
+            "fetchStart": 0.19999999925494194,
+            "domainLookupStart": 0.19999999925494194,
+            "domainLookupEnd": 0.19999999925494194,
+            "connectStart": 0.19999999925494194,
+            "secureConnectionStart": 0,
+            "connectEnd": 0.19999999925494194,
+            "requestStart": 0.8999999985098839,
+            "responseStart": 2.099999999627471,
+            "firstInterimResponseStart": 0,
+            "finalResponseHeadersStart": 2.099999999627471,
+            "responseEnd": 175,
+            "transferSize": 3869,
+            "encodedBodySize": 3569,
+            "decodedBodySize": 3569,
+            "responseStatus": 200,
+            "serverTiming": [],
+            "unloadEventStart": 0,
+            "unloadEventEnd": 0,
+            "domInteractive": 179,
+            "domContentLoadedEventStart": 4680.5,
+            "domContentLoadedEventEnd": 4680.5,
+            "domComplete": 4680.5999999996275,
+            "loadEventStart": 4680.5999999996275,
+            "loadEventEnd": 4680.5999999996275,
+            "type": "navigate",
+            "redirectCount": 0,
+            "activationStart": 0,
+            "criticalCHRestart": 0,
+            "notRestoredReasons": null,
+            "confidence": {
+              "randomizedTriggerRate": 0.4994798,
+              "value": "low"
+            }
+          },
+          "resources": [
+            {
+              "name": "library-switcher-22a9202d52fa.js",
+              "type": "script",
+              "start": 174.2999999988824,
+              "end": 364,
+              "duration": 189.7000000011176,
+              "transfer": 1252,
+              "encoded": 952,
+              "decoded": 952
+            },
+            {
+              "name": "library-boot-5b4d311e83f6.js",
+              "type": "script",
+              "start": 174.2999999988824,
+              "end": 423.3999999985099,
+              "duration": 249.09999999962747,
+              "transfer": 4218,
+              "encoded": 3918,
+              "decoded": 3918
+            },
+            {
+              "name": "mm-image-app-b42327438c6b.js",
+              "type": "script",
+              "start": 174.2999999988824,
+              "end": 4660.89999999851,
+              "duration": 4486.5999999996275,
+              "transfer": 558433,
+              "encoded": 558133,
+              "decoded": 558133
+            },
+            {
+              "name": "mm-image-style-d794376fa5d5.css",
+              "type": "link",
+              "start": 174.39999999850988,
+              "end": 559.1999999992549,
+              "duration": 384.80000000074506,
+              "transfer": 15905,
+              "encoded": 15605,
+              "decoded": 15605
+            },
+            {
+              "name": "library-theme-3b9ecb91c1d9.css",
+              "type": "link",
+              "start": 174.39999999850988,
+              "end": 701.3999999985099,
+              "duration": 527,
+              "transfer": 36974,
+              "encoded": 36674,
+              "decoded": 36674
+            },
+            {
+              "name": "library-nav-0e4bf4fff0d0.css",
+              "type": "link",
+              "start": 175.19999999925494,
+              "end": 469.09999999962747,
+              "duration": 293.90000000037253,
+              "transfer": 7402,
+              "encoded": 7102,
+              "decoded": 7102
+            },
+            {
+              "name": "algo-public-assets-fonts-source-sans-pro-SourceSansPro-Regular.ttf",
+              "type": "css",
+              "start": 728.8999999985099,
+              "end": 2665.2999999988824,
+              "duration": 1936.4000000003725,
+              "transfer": 119380,
+              "encoded": 119080,
+              "decoded": 119080
+            },
+            {
+              "name": "algo-public-assets-fonts-source-sans-pro-SourceSansPro-Bold.ttf",
+              "type": "css",
+              "start": 728.8999999985099,
+              "end": 2673.39999999851,
+              "duration": 1944.5,
+              "transfer": 118904,
+              "encoded": 118604,
+              "decoded": 118604
+            }
+          ],
+          "paint": [
+            {
+              "name": "first-paint",
+              "time": 752
+            },
+            {
+              "name": "first-contentful-paint",
+              "time": 752
+            }
+          ]
+        },
+        {
+          "id": "aigc",
+          "probe": {
+            "rootReady": 4696.0999999996275,
+            "statusVisible": 744.5,
+            "statusHidden": 4908.4000000003725,
+            "statusFrames": 250,
+            "actionsBeforeReady": true,
+            "longTasks": [],
+            "events": []
+          },
+          "navigation": {
+            "name": "http://127.0.0.1:5198/Bing-MM-design-library/aigc.html#/",
+            "entryType": "navigation",
+            "startTime": 0,
+            "duration": 4647.199999999255,
+            "navigationId": 1503,
+            "initiatorType": "navigation",
+            "deliveryType": "",
+            "nextHopProtocol": "http/1.1",
+            "renderBlockingStatus": "non-blocking",
+            "contentType": "text/html",
+            "contentEncoding": "",
+            "workerStart": 0,
+            "workerRouterEvaluationStart": 0,
+            "workerCacheLookupStart": 0,
+            "workerMatchedSourceType": "",
+            "workerFinalSourceType": "",
+            "redirectStart": 0,
+            "redirectEnd": 0,
+            "fetchStart": 0.19999999925494194,
+            "domainLookupStart": 0.19999999925494194,
+            "domainLookupEnd": 0.19999999925494194,
+            "connectStart": 0.19999999925494194,
+            "secureConnectionStart": 0,
+            "connectEnd": 0.19999999925494194,
+            "requestStart": 0.599999999627471,
+            "responseStart": 1.5,
+            "firstInterimResponseStart": 0,
+            "finalResponseHeadersStart": 1.5,
+            "responseEnd": 173.40000000037253,
+            "transferSize": 3862,
+            "encodedBodySize": 3562,
+            "decodedBodySize": 3562,
+            "responseStatus": 200,
+            "serverTiming": [],
+            "unloadEventStart": 162.40000000037253,
+            "unloadEventEnd": 162.40000000037253,
+            "domInteractive": 174.30000000074506,
+            "domContentLoadedEventStart": 4647.0999999996275,
+            "domContentLoadedEventEnd": 4647.0999999996275,
+            "domComplete": 4647.199999999255,
+            "loadEventStart": 4647.199999999255,
+            "loadEventEnd": 4647.199999999255,
+            "type": "navigate",
+            "redirectCount": 0,
+            "activationStart": 0,
+            "criticalCHRestart": 0,
+            "notRestoredReasons": null,
+            "confidence": {
+              "randomizedTriggerRate": 0.4994798,
+              "value": "low"
+            }
+          },
+          "resources": [
+            {
+              "name": "library-boot-5b4d311e83f6.js",
+              "type": "script",
+              "start": 167,
+              "end": 391.80000000074506,
+              "duration": 224.80000000074506,
+              "transfer": 4218,
+              "encoded": 3918,
+              "decoded": 3918
+            },
+            {
+              "name": "library-switcher-22a9202d52fa.js",
+              "type": "script",
+              "start": 167.19999999925494,
+              "end": 339.90000000037253,
+              "duration": 172.7000000011176,
+              "transfer": 1252,
+              "encoded": 952,
+              "decoded": 952
+            },
+            {
+              "name": "aigc-style-6b7cccf65401.css",
+              "type": "link",
+              "start": 167.19999999925494,
+              "end": 586.1999999992549,
+              "duration": 419,
+              "transfer": 19736,
+              "encoded": 19436,
+              "decoded": 19436
+            },
+            {
+              "name": "aigc-app-d208c65cd0eb.js",
+              "type": "script",
+              "start": 167.19999999925494,
+              "end": 4629.199999999255,
+              "duration": 4462,
+              "transfer": 549708,
+              "encoded": 549408,
+              "decoded": 549408
+            },
+            {
+              "name": "library-nav-0e4bf4fff0d0.css",
+              "type": "link",
+              "start": 167.69999999925494,
+              "end": 458.40000000037253,
+              "duration": 290.7000000011176,
+              "transfer": 7402,
+              "encoded": 7102,
+              "decoded": 7102
+            },
+            {
+              "name": "library-theme-3b9ecb91c1d9.css",
+              "type": "link",
+              "start": 167.69999999925494,
+              "end": 736.4000000003725,
+              "duration": 568.7000000011176,
+              "transfer": 36974,
+              "encoded": 36674,
+              "decoded": 36674
+            },
+            {
+              "name": "algo-public-assets-fonts-source-sans-pro-SourceSansPro-Regular.ttf",
+              "type": "css",
+              "start": 741.9000000003725,
+              "end": 2686.0999999996275,
+              "duration": 1944.199999999255,
+              "transfer": 119380,
+              "encoded": 119080,
+              "decoded": 119080
+            },
+            {
+              "name": "algo-public-assets-fonts-source-sans-pro-SourceSansPro-Bold.ttf",
+              "type": "css",
+              "start": 742.3000000007451,
+              "end": 2679.699999999255,
+              "duration": 1937.3999999985099,
+              "transfer": 118904,
+              "encoded": 118604,
+              "decoded": 118604
+            }
+          ],
+          "paint": [
+            {
+              "name": "first-paint",
+              "time": 760
+            },
+            {
+              "name": "first-contentful-paint",
+              "time": 760
+            }
+          ]
+        },
+        {
+          "id": "video",
+          "probe": {
+            "rootReady": 4404.799999998882,
+            "statusVisible": 995.5,
+            "statusHidden": 4608.699999999255,
+            "statusFrames": 216,
+            "actionsBeforeReady": true,
+            "longTasks": [],
+            "events": []
+          },
+          "navigation": {
+            "name": "http://127.0.0.1:5198/Bing-MM-design-library/video.html#/",
+            "entryType": "navigation",
+            "startTime": 0,
+            "duration": 4351.4000000003725,
+            "navigationId": 9950,
+            "initiatorType": "navigation",
+            "deliveryType": "",
+            "nextHopProtocol": "http/1.1",
+            "renderBlockingStatus": "non-blocking",
+            "contentType": "text/html",
+            "contentEncoding": "",
+            "workerStart": 0,
+            "workerRouterEvaluationStart": 0,
+            "workerCacheLookupStart": 0,
+            "workerMatchedSourceType": "",
+            "workerFinalSourceType": "",
+            "redirectStart": 0,
+            "redirectEnd": 0,
+            "fetchStart": 0.09999999962747097,
+            "domainLookupStart": 0.09999999962747097,
+            "domainLookupEnd": 0.09999999962747097,
+            "connectStart": 0.09999999962747097,
+            "secureConnectionStart": 0,
+            "connectEnd": 0.09999999962747097,
+            "requestStart": 0.40000000037252903,
+            "responseStart": 1.900000000372529,
+            "firstInterimResponseStart": 0,
+            "finalResponseHeadersStart": 1.900000000372529,
+            "responseEnd": 177.5,
+            "transferSize": 3885,
+            "encodedBodySize": 3585,
+            "decodedBodySize": 3585,
+            "responseStatus": 200,
+            "serverTiming": [],
+            "unloadEventStart": 168,
+            "unloadEventEnd": 168,
+            "domInteractive": 179.69999999925494,
+            "domContentLoadedEventStart": 4350.799999998882,
+            "domContentLoadedEventEnd": 4350.9000000003725,
+            "domComplete": 4351.299999998882,
+            "loadEventStart": 4351.299999998882,
+            "loadEventEnd": 4351.4000000003725,
+            "type": "navigate",
+            "redirectCount": 0,
+            "activationStart": 0,
+            "criticalCHRestart": 0,
+            "notRestoredReasons": null,
+            "confidence": {
+              "randomizedTriggerRate": 0.4994798,
+              "value": "low"
+            }
+          },
+          "resources": [
+            {
+              "name": "library-boot-5b4d311e83f6.js",
+              "type": "script",
+              "start": 172.19999999925494,
+              "end": 394.5,
+              "duration": 222.30000000074506,
+              "transfer": 4218,
+              "encoded": 3918,
+              "decoded": 3918
+            },
+            {
+              "name": "library-switcher-22a9202d52fa.js",
+              "type": "script",
+              "start": 172.7999999988824,
+              "end": 327,
+              "duration": 154.2000000011176,
+              "transfer": 1252,
+              "encoded": 952,
+              "decoded": 952
+            },
+            {
+              "name": "video-style-0cf18e05b049.css",
+              "type": "link",
+              "start": 172.7999999988824,
+              "end": 987.7999999988824,
+              "duration": 815,
+              "transfer": 52455,
+              "encoded": 52155,
+              "decoded": 52155
+            },
+            {
+              "name": "video-app-61d93db5d9e6.js",
+              "type": "script",
+              "start": 172.7999999988824,
+              "end": 4333.4000000003725,
+              "duration": 4160.60000000149,
+              "transfer": 457593,
+              "encoded": 457293,
+              "decoded": 457293
+            },
+            {
+              "name": "library-nav-0e4bf4fff0d0.css",
+              "type": "link",
+              "start": 172.90000000037253,
+              "end": 454.40000000037253,
+              "duration": 281.5,
+              "transfer": 7402,
+              "encoded": 7102,
+              "decoded": 7102
+            },
+            {
+              "name": "library-theme-3b9ecb91c1d9.css",
+              "type": "link",
+              "start": 172.90000000037253,
+              "end": 823.2999999988824,
+              "duration": 650.3999999985099,
+              "transfer": 36974,
+              "encoded": 36674,
+              "decoded": 36674
+            },
+            {
+              "name": "algo-public-assets-fonts-source-sans-pro-SourceSansPro-Regular.ttf",
+              "type": "css",
+              "start": 993.6999999992549,
+              "end": 2930,
+              "duration": 1936.300000000745,
+              "transfer": 119380,
+              "encoded": 119080,
+              "decoded": 119080
+            },
+            {
+              "name": "algo-public-assets-fonts-source-sans-pro-SourceSansPro-Bold.ttf",
+              "type": "css",
+              "start": 993.6999999992549,
+              "end": 2938.4000000003725,
+              "duration": 1944.7000000011176,
+              "transfer": 118904,
+              "encoded": 118604,
+              "decoded": 118604
+            }
+          ],
+          "paint": [
+            {
+              "name": "first-paint",
+              "time": 1000
+            },
+            {
+              "name": "first-contentful-paint",
+              "time": 1000
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "payloads": [
+    {
+      "id": "mm-image",
+      "file": "mm-image-app-b42327438c6b.js",
+      "bytes": 558133,
+      "gzip": 129145,
+      "brotli": 106488
+    },
+    {
+      "id": "aigc",
+      "file": "aigc-app-d208c65cd0eb.js",
+      "bytes": 549408,
+      "gzip": 153222,
+      "brotli": 119357
+    },
+    {
+      "id": "video",
+      "file": "video-app-61d93db5d9e6.js",
+      "bytes": 457293,
+      "gzip": 119013,
+      "brotli": 98156
+    }
+  ]
+}

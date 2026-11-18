@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "slug": "short-card",
+      "name": "Short Card",
+      "tier": "Molecule",
+      "partOf": null
+    },
+    {
+      "slug": "video-metadata",
+      "name": "Video Metadata",
+      "tier": "Molecule",
+      "partOf": null
+    },
+    {
+      "slug": "video-magazine-card",
+      "name": "Video Magazine Card",
+      "tier": "Molecule",
+      "partOf": null
+    },
+    {
+      "slug": "video-card",
+      "name": "Video Card",
+      "tier": "Molecule",
+      "partOf": "video-metadata"
+    },
+    {
+      "slug": "video-source-icon",
+      "name": "Video Source Icon",
+      "tier": "Molecule",
+      "partOf": "video-metadata"
+    },
+    {
+      "slug": "video-hero-card",
+      "name": "Video Hero Card",
+      "tier": "Molecule",
+      "partOf": "video-magazine-card"
+    },
+    {
+      "slug": "video-more-card",
+      "name": "Video More Card",
+      "tier": "Molecule",
+      "partOf": "video-magazine-card"
+    },
+    {
+      "slug": "shorts-list-card",
+      "name": "Shorts List Card",
+      "tier": "Molecule",
+      "partOf": "video-magazine-card"
+    },
+    {
+      "slug": "playlist-card",
+      "name": "Playlist Card",
+      "tier": "Molecule",
+      "partOf": "video-magazine-card"
+    },
+    {
+      "slug": "video-supplemental-card",
+      "name": "Supplemental Video Card",
+      "tier": "Molecule",
+      "partOf": "video-magazine-card"
+    },
+    {
+      "slug": "video-group",
+      "name": "Content · Video Group",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "shorts-group",
+      "name": "Content · Shorts Group",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "video-magazine-zone",
+      "name": "Content · Video Magazine Zone",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "serp-video-answer-mainline",
+      "name": "SERP · Video Answer Mainline",
+      "tier": "Organism",
+      "partOf": null
+    },
+    {
+      "slug": "serp-video-answer-go-wide",
+      "name": "SERP · Video Answer Go-wide",
+      "tier": "Organism",
+      "partOf": null
+    },
+    {
+      "slug": "serp-short-video-answer-mainline",
+      "name": "SERP · Short Video Answer Mainline",
+      "tier": "Organism",
+      "partOf": null
+    },
+    {
+      "slug": "serp-short-video-answer-go-wide",
+      "name": "SERP · Short Video Answer Go-wide",
+      "tier": "Organism",
+      "partOf": null
+    },
+    {
+      "slug": "serp-video-magazine-page",
+      "name": "SERP · Video Magazine Page",
+      "tier": "Organism",
+      "partOf": null
+    },
+    {
+      "slug": "vrp-whole-page",
+      "name": "VRP · Whole Page",
+      "tier": "Organism",
+      "partOf": null
+    }
+  ],
+  "mosaicCoverage": [
+    {
+      "slug": "short-card",
+      "status": "partial"
+    },
+    {
+      "slug": "video-metadata",
+      "status": "partial"
+    },
+    {
+      "slug": "video-card",
+      "status": "partial"
+    },
+    {
+      "slug": "video-magazine-card",
+      "status": "partial"
+    },
+    {
+      "slug": "video-hero-card",
+      "status": "partial"
+    },
+    {
+      "slug": "video-more-card",
+      "status": "partial"
+    },
+    {
+      "slug": "shorts-list-card",
+      "status": "partial"
+    },
+    {
+      "slug": "playlist-card",
+      "status": "partial"
+    },
+    {
+      "slug": "video-supplemental-card",
+      "status": "partial"
+    },
+    {
+      "slug": "video-source-icon",
+      "status": "partial"
+    },
+    {
+      "slug": "video-group",
+      "status": "partial"
+    },
+    {
+      "slug": "shorts-group",
+      "status": "partial"
+    },
+    {
+      "slug": "video-magazine-zone",
+      "status": "partial"
+    },
+    {
+      "slug": "serp-video-answer-mainline",
+      "status": "partial"
+    },
+    {
+      "slug": "serp-short-video-answer-mainline",
+      "status": "partial"
+    },
+    {
+      "slug": "serp-short-video-answer-go-wide",
+      "status": "partial"
+    },
+    {
+      "slug": "serp-video-magazine-page",
+      "status": "partial"
+    },
+    {
+      "slug": "serp-video-answer-go-wide",
+      "status": "gap"
+    },
+    {
+      "slug": "vrp-whole-page",
+      "status": "gap"
+    }
+  ],
+  "mosaicCatalogSnapshot": {
+    "generatedAt": "2026-08-14T07:07:05Z",
+    "mosaicCliVersion": "1.0.969",
+    "schemaSet": "full",
+    "componentCount": 32
+  },
+  "sourcePageCount": 15
+}

@@ -1,64 +1,17 @@
-import { createRequire } from 'node:module';
 import { createHash } from 'node:crypto';
 import { readFile, writeFile, mkdir, mkdtemp, rename, rm } from 'node:fs/promises';
-import { join, dirname, posix } from 'node:path';
+import { join, dirname } from 'node:path';
 import { root, systems, filesIn, fileManifest, isMain } from './lib.mjs';
-import { classicBundle, entryScript, makeLibraryPage } from './library-page.mjs';
+import { entryScript, makeLibraryPage } from './library-page.mjs';
 import { compileThemeCss, readThemeTokens } from './theme.mjs';
 import { emitAlgoLibrary } from './algo-library.mjs';
+import { emitTokensLibrary } from './tokens-library.mjs';
 import { makeHomePage } from './library-chrome.mjs';
+import { buildClassicChunks } from './classic-chunks.mjs';
 
-const require = createRequire(join(root, 'projects/aigc/site/package.json'));
-const ts = require('typescript');
 const digest = text => createHash('sha256').update(text).digest('hex').slice(0, 12);
-export const flatName = (id, path) => `${id}-${path.replaceAll('/', '-')}`;
-
-// Rewrite only asset-valued literals/template fragments. Explanatory prose,
-// remote URLs, React logic and SDL contracts are not rewritten.
-export function assetLiteral(value, id) {
-  const flatten = path => flatName(id, path.replace(/^\.\//, ''));
-  if (/^(?:\.\/)?figma\/[\w./-]*$/.test(value)) return flatten(value);
-  return value.replace(/url\((['"]?)((?:\.\/)?figma\/[\w./-]+)\1\)/g,
-    (_match, quote, path) => `url(${quote}${flatten(path)}${quote})`);
-}
-
-export function rewriteBundleAssets(source, id) {
-  const file = ts.createSourceFile('bundle.js', source, ts.ScriptTarget.Latest, true, ts.ScriptKind.JS);
-  if (file.parseDiagnostics.length) throw new Error(`Cannot parse ${id} bundle`);
-  const result = ts.transform(file, [context => {
-    const f = context.factory;
-    const visit = node => {
-      if (ts.isStringLiteral(node)) {
-        const value = assetLiteral(node.text, id);
-        if (value !== node.text) return f.createStringLiteral(value);
-      }
-      const factories = new Map([
-        [ts.SyntaxKind.NoSubstitutionTemplateLiteral, text => f.createNoSubstitutionTemplateLiteral(text)],
-        [ts.SyntaxKind.TemplateHead, text => f.createTemplateHead(text)],
-        [ts.SyntaxKind.TemplateMiddle, text => f.createTemplateMiddle(text)],
-        [ts.SyntaxKind.TemplateTail, text => f.createTemplateTail(text)],
-      ]);
-      if (factories.has(node.kind)) {
-        const value = assetLiteral(node.text, id);
-        if (value !== node.text) return factories.get(node.kind)(value);
-      }
-      return ts.visitEachChild(node, visit, context);
-    };
-    return node => ts.visitNode(node, visit);
-  }]);
-  try { return ts.createPrinter().printFile(result.transformed[0]); }
-  finally { result.dispose(); }
-}
-
-export function rewriteCssAssets(css, id, file, knownFiles) {
-  return css.replace(/url\(\s*(['"]?)([^)'"\s]+)\1\s*\)/g, (match, _quote, ref) => {
-    if (/^(?:data:|https?:|\/\/|#)/.test(ref)) return match;
-    const [, path, suffix = ''] = /^([^?#]+)([?#].*)?$/.exec(ref);
-    const resolved = posix.normalize(posix.join(posix.dirname(file), path));
-    if (!knownFiles.has(resolved)) throw new Error(`Missing CSS asset: ${id}/${resolved}`);
-    return `url("./${flatName(id, resolved)}${suffix}")`;
-  });
-}
+export { assetLiteral, rewriteBundleAssets } from './asset-paths.mjs';
+import { flatName, assetLiteral, rewriteCssAssets } from './asset-paths.mjs';
 
 export function compatPage(original, id, { script, css, boot, theme, nav, switcher }) {
   let html = makeLibraryPage(original, id, { alias: true });
@@ -101,7 +54,7 @@ export async function buildCompat() {
     for (const file of homeFiles) {
       let content = await readFile(join(root, 'portal', file));
       if (file === 'index.html') {
-        let html = makeHomePage(content.toString());
+        let html = makeHomePage(content.toString()).replace('./library-switcher.js', `./${switcher}`);
         for (const [path, target] of Object.entries(homeMap)) html = html.replaceAll(`./${path}`, `./${target}`);
         content = html;
       }
@@ -112,7 +65,7 @@ export async function buildCompat() {
     const tokens = readThemeTokens(await readFile(join(root, 'theme/tokens.css'), 'utf8'));
     const themeContent = compileThemeCss(`${await readFile(join(root, 'theme/documentation.css'), 'utf8')}\n${await readFile(join(root, 'theme/workbench.css'), 'utf8')}`, tokens);
     const theme = await emit(`library-theme-${digest(themeContent)}.css`, themeContent);
-    const entries = {};
+    const entries = { tokens: await emitTokensLibrary(emit, { nav, switcher, theme }) };
     for (const id of systems) {
       const directory = join(root, 'projects', id, 'site/dist');
       const files = new Set(await filesIn(directory));
@@ -120,18 +73,20 @@ export async function buildCompat() {
       const sourceScript = entryScript(original).replace(/^\.\//, '');
       const styles = [...original.matchAll(/<link\b[^>]*href="\.\/([^\"]+\.css)"[^>]*>/g)].map(match => match[1]);
       if (styles.length !== 1) throw new Error(`Unexpected stylesheets: ${id}`);
-      const bundle = await classicBundle(rewriteBundleAssets(await readFile(join(directory, sourceScript), 'utf8'), id));
+      const chunks = await buildClassicChunks(id, { flat: true });
+      const bundle = chunks.bootstrap;
+      for (const [file, content] of Object.entries(chunks.files)) await emit(file, content);
       const script = await emit(`${id}-app-${digest(bundle)}.js`, bundle);
       const style = rewriteCssAssets(await readFile(join(directory, styles[0]), 'utf8'), id, styles[0], files);
       const css = await emit(`${id}-style-${digest(style)}.css`, style);
       for (const file of files) {
-        if (['index.html', sourceScript, ...styles].includes(file)) continue;
+        if (file.endsWith('.js') || ['index.html', sourceScript, ...styles].includes(file)) continue;
         const target = flatName(id, file);
         await emit(target, await readFile(join(directory, file)));
         assets[`${id}/${file}`] = target;
       }
       await emit(`${id}.html`, compatPage(original, id, { script, css, boot, theme, nav, switcher }));
-      entries[id] = { html: `${id}.html`, script, css };
+      entries[id] = { html: `${id}.html`, script, css, ...chunks.metadata };
     }
     entries.algo = await emitAlgoLibrary(emit, { nav, switcher });
     const manifest = { format: 3, navigation: 'standalone-pages', packaging: 'flat-no-base', builtAt: new Date().toISOString(), entries, assets, files: await fileManifest(staging) };

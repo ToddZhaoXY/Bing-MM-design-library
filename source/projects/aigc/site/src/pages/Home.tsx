@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import { byTier, components } from '../data/components'
-import { mosaicCoverage } from '../mosaic/generators'
-import { mosaicCatalogSnapshot } from '../mosaic/validate'
+import { byTier, components } from '../data/overview-data'
+import overviewSummary from '../data/overview-summary.json'
+const { mosaicCoverage, mosaicCatalogSnapshot } = overviewSummary
 
 export function Home() {
   const statuses = ['available', 'partial', 'candidate', 'gap', 'product-only'] as const

@@ -18,7 +18,7 @@
   // Reveal once selected local faces are ready; a failed load cannot trap the page.
   root.dataset.fontLoading='';
   const guard=document.createElement('style');
-  guard.textContent='html[data-font-loading] body{visibility:hidden}';
+  guard.textContent='';
   document.head.append(guard);
   const reveal=()=>{delete root.dataset.fontLoading;guard.remove();};
   const fontTimeout=setTimeout(reveal,1600);

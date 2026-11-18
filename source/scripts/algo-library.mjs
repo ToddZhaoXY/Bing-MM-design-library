@@ -1,7 +1,9 @@
+import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { root, filesIn } from './lib.mjs';
 import { libraryRail } from './library-chrome.mjs';
+import { normalizeAlgoNavigation, algoSidebarCss } from './algo-navigation.mjs';
 
 export const algoRoot = join(root, 'projects/algo/site');
 export const algoName = file => file === 'index.html' ? 'algo.html' : `algo-${file.replaceAll('/', '-')}`;
@@ -23,6 +25,10 @@ export function rewriteAlgoText(source, files) {
 export async function emitAlgoLibrary(emit, { nav = 'library-nav.css', switcher = 'library-switcher.js' } = {}) {
   const files = await filesIn(algoRoot);
   const pages = [];
+  const sidebarCss = await algoSidebarCss();
+  const sidebarStyle = `algo-sidebar-${createHash('sha256').update(sidebarCss).digest('hex').slice(0,12)}.css`;
+  await emit(sidebarStyle, sidebarCss);
+  const sidebarRuntime = await readFile(join(root, 'ui/algo-sidebar-runtime.js'), 'utf8');
   for (const file of files) {
     let content = await readFile(join(algoRoot, file));
     if (/\.(html|css|js)$/.test(file)) {
@@ -36,13 +42,23 @@ export async function emitAlgoLibrary(emit, { nav = 'library-nav.css', switcher 
   window.addEventListener('scroll',updateHeader,{passive:true});updateHeader();
   document.querySelector('.page-nav')?.setAttribute('hidden','');
 ` + text.slice(end);
+        text = text.replace("  const heading=document.createElement('p');heading.className='library-nav-heading';heading.textContent='Algo';\n  sideNav.prepend(heading);", '');
+        text = text.replace(' if(mobileNav)mobileNav.innerHTML=sideNav.innerHTML;', '');
+        text = text.replace('<nav aria-label="Library navigation">', '<nav class="nav nav--tree aixa-algo-drawer-nav" data-algo-nav aria-label="Library navigation">');
+        text += '\n' + sidebarRuntime;
       }
+      if (file === 'theme.js') {
+        // Static documentation is already usable. Let the shared swap faces load
+        // without hiding the entire page for up to 1.6 seconds.
+        text = text.replace("guard.textContent='html[data-font-loading] body{visibility:hidden}';", "guard.textContent='';");
+      }
+      if (file.endsWith('.html') && text.includes('class="topbar"')) text = normalizeAlgoNavigation(text, file);
       text = rewriteAlgoText(text, files);
       if (file.endsWith('.html')) {
         pages.push(algoName(file));
         if (text.includes('class="topbar"')) {
           text = text.replace(/<body([^>]*)>/, '<body$1 class="feature-nav-expanded" data-library="algo">\n' + libraryRail('algo'));
-          text = text.replace('</head>', `  <link rel="stylesheet" href="./${nav}">\n  <script defer src="./${switcher}"></script>\n</head>`);
+          text = text.replace('</head>', `  <link rel="stylesheet" href="./${nav}">\n  <link rel="stylesheet" href="./${sidebarStyle}">\n  <script defer src="./${switcher}"></script>\n</head>`);
           text = text.replace(/(<a class="brand" href=")[^"]+/, '$1./index.html');
         }
       }

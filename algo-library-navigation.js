@@ -16,8 +16,7 @@
   const updateHeader=()=>header.classList.toggle('is-scrolled',window.scrollY>24);
   window.addEventListener('scroll',updateHeader,{passive:true});updateHeader();
   document.querySelector('.page-nav')?.setAttribute('hidden','');
-  const heading=document.createElement('p');heading.className='library-nav-heading';heading.textContent='Algo';
-  sideNav.prepend(heading);
+
   const breadcrumb=document.querySelector('main>.hero>.breadcrumb');
   if(breadcrumb){
    const labels=breadcrumb.textContent.split('/').map(label=>label.trim()).filter(Boolean);
@@ -36,13 +35,13 @@
  }
  sideNav.querySelector('a.active')?.setAttribute('aria-current','page');
  const mobileNav=document.getElementById('mobileNavItems');
- if(mobileNav)mobileNav.innerHTML=sideNav.innerHTML;
+
  // The narrow-screen menu overlays the document instead of pushing it down.
  if(mobileNav?.closest){
   const drawer=document.createElement('dialog');
   drawer.className='nav-drawer';drawer.id='libraryNavigationDrawer';
   drawer.setAttribute('aria-labelledby','navigationDrawerHeading');
-  drawer.innerHTML='<div class="nav-drawer-heading"><h2 id="navigationDrawerHeading">Browse library</h2><button class="nav-drawer-close" type="button" aria-label="Close navigation">×</button></div>'+(document.querySelector('.feature-nav')?.outerHTML||'')+'<nav aria-label="Library navigation">'+sideNav.innerHTML+'</nav>';
+  drawer.innerHTML='<div class="nav-drawer-heading"><h2 id="navigationDrawerHeading">Browse library</h2><button class="nav-drawer-close" type="button" aria-label="Close navigation">×</button></div>'+(document.querySelector('.feature-nav')?.outerHTML||'')+'<nav class="nav nav--tree aixa-algo-drawer-nav" data-algo-nav aria-label="Library navigation">'+sideNav.innerHTML+'</nav>';
   document.body.append(drawer);
   const trigger=document.createElement('button');
   trigger.className='mobile-nav-trigger';trigger.type='button';
@@ -121,3 +120,36 @@
  }
  for(const button of document.querySelectorAll('[data-close-dialog]'))button.addEventListener('click',()=>button.closest('dialog').close());
 })();
+
+(function () {
+  'use strict';
+  document.querySelectorAll('[data-algo-nav]').forEach(function (nav, index) {
+    // The drawer is a second view of the same menu: keep its IDs independent.
+    if (index) {
+      nav.querySelectorAll('[id]').forEach(function (element) { element.id += '-drawer'; });
+      nav.querySelectorAll('[aria-controls]').forEach(function (element) { element.setAttribute('aria-controls', element.getAttribute('aria-controls') + '-drawer'); });
+    }
+    nav.addEventListener('click', function (event) {
+      var button = event.target.closest('button[data-algo-disclosure]');
+      if (!button || !nav.contains(button)) return;
+      var id = button.getAttribute('aria-controls');
+      var target = nav.querySelector('[id="' + id + '"]');
+      if (!target) return;
+      var expanded = button.getAttribute('aria-expanded') !== 'true';
+      target.hidden = !expanded;
+      nav.querySelectorAll('[aria-controls="' + id + '"]').forEach(function (control) {
+        control.setAttribute('aria-expanded', String(expanded));
+        var label = control.getAttribute('data-label');
+        if (label) control.setAttribute('aria-label', (expanded ? 'Collapse ' : 'Expand ') + label);
+      });
+
+    });
+  });
+  requestAnimationFrame(function () {
+    var nav = document.querySelector('.side-nav.nav');
+    var current = nav && nav.querySelector('[aria-current="page"]');
+    if (!current || !current.getClientRects().length) return;
+    var outer = nav.getBoundingClientRect(), inner = current.getBoundingClientRect();
+    if (inner.bottom > outer.bottom - 12) nav.scrollTop += inner.bottom - outer.bottom + 12;
+  });
+}());

@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "After eight seconds, slow loading stays informational rather than becoming an error",
+    "reduce: loading appears after the reveal delay; normal load has no recovery controls; app mount clears it",
+    "no-preference: loading appears after the reveal delay; normal load has no recovery controls; app mount clears it",
+    "A real missing script retains its HTTP 404 diagnostic and retry recovers"
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "mm-image: introduction requests no workbench/export chunks",
+    "mm-image: lazy detail renders, skeleton settles, SDL is valid JSON",
+    "mm-image: lazy Playground exports an HTML file (38083 chars)",
+    "mm-image: route reuse avoids duplicate downloads; intent prefetch does not execute another app",
+    "aigc: introduction requests no workbench/export chunks",
+    "aigc: lazy detail renders, skeleton settles, SDL is valid JSON",
+    "aigc: lazy Playground exports an HTML file (7937577 chars)",
+    "aigc: route reuse avoids duplicate downloads; intent prefetch does not execute another app",
+    "video: introduction requests no workbench/export chunks",
+    "video: lazy detail renders, skeleton settles, SDL is valid JSON",
+    "video: lazy Playground exports an HTML file (9291911 chars)",
+    "video: route reuse avoids duplicate downloads; intent prefetch does not execute another app",
+    "Missing deferred script shows a recoverable error; reload retries successfully",
+    "Entry loading uses a page-shaped skeleton without failure buttons",
+    "Algo static documentation stays visible while fonts are loading"
+  ],
+  "errors": [],
+  "failedResources": [],
+  "passed": true
+}

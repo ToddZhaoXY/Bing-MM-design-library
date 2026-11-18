@@ -1,7 +1,7 @@
 import { LibraryNav } from './LibraryNav'
 import type { LibraryNavGroup, LibraryNavNode } from './LibraryNav'
-import { byTier, partsOf } from '../data/components'
-import type { ComponentDef } from '../data/components'
+import { byTier, partsOf, components } from '../data/overview-data'
+type ComponentDef = (typeof components)[number]
 
 const tiers = ['Molecule', 'Cell', 'Organism'] as const
 const componentNode = (component: ComponentDef): LibraryNavNode => ({

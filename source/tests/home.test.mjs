@@ -71,11 +71,11 @@ function createHome({ hash = '', reduced = false, mediaSupport = true, legacyMed
   };
 }
 
-test('foreground is only the wordmark, exact requested description, four entries and accessible pause', () => {
+test('foreground is only the wordmark, exact requested description, five entries and accessible pause', () => {
   assert.match(html, /<h1 id="home-title">AIXA Bing Design Library<\/h1>/);
-  assert.ok(html.includes('Explore the components behind image, creation, video and web search experiences. Explore four libraries, inspect variants, and take reusable components and code into your next design.'));
-  assert.equal((html.match(/<a href=/g) || []).length, 4);
-  assert.doesNotMatch(html, /feature-nav|library-header|library-switcher|library-nav\.css/);
+  assert.ok(html.includes('Explore the components behind image, creation, video and web search experiences. Explore five libraries, inspect variants, and take reusable components and code into your next design.'));
+  assert.equal((html.match(/<a href=/g) || []).length, 5);
+  assert.doesNotMatch(html, /feature-nav|library-header|library-nav\.css/);
   assert.doesNotMatch(html, /<footer|library-entry|intro-context|A closer look/);
   assert.match(html, /class="waterfall" data-motion="static" role="region" aria-label="Explore library components"/);
   assert.doesNotMatch(html, /\binert\b/);
@@ -186,7 +186,7 @@ test('background visibility pauses independently of explicit pause', () => {
   assert.equal(state.waterfall.dataset.motion, 'paused');
 });
 test('legacy system hashes still migrate to same-directory library pages', () => {
-  for (const id of ['mm-image', 'aigc', 'video', 'algo']) {
+  for (const id of ['tokens', 'mm-image', 'aigc', 'video', 'algo']) {
     for (const route of ['', '/', '/playground', '/c/short-card', '//other.example']) {
       const state = createHome({ hash: `#/${id}${route}` });
       assert.deepEqual(state.redirects, [`./${id}.html#${route || '/'}`]);

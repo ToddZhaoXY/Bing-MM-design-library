@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom'
-import { byTier, components } from '../data/components'
-import source from '../data/source-catalog.json'
-import { mosaicCoverage } from '../mosaic/generators'
-import { mosaicCatalogSnapshot } from '../mosaic/validate'
+import { byTier, components } from '../data/overview-data'
+import overviewSummary from '../data/overview-summary.json'
+const { mosaicCoverage, mosaicCatalogSnapshot } = overviewSummary
 
 export function Home() {
   const statuses = ['available', 'partial', 'candidate', 'gap', 'product-only'] as const
@@ -12,7 +11,7 @@ export function Home() {
       <div className="meta">
         <span className="chip">MM Video design system</span>
         <span className="chip">{components.length} registry entries</span>
-        <span className="chip">{source.pages.length} scoped Figma pages</span>
+        <span className="chip">{overviewSummary.sourcePageCount} scoped Figma pages</span>
         <a className="chip chip--node" href="https://www.figma.com/design/fRSRroY4YFgJSeqLLE0Y38/MM-ACF" target="_blank" rel="noreferrer">Source Figma ↗</a>
       </div>
     </div>

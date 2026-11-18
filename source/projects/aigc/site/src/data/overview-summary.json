@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "slug": "main-image-area",
+      "name": "Main image area",
+      "tier": "Molecule",
+      "partOf": null
+    },
+    {
+      "slug": "image-display-list",
+      "name": "Image display list",
+      "tier": "Molecule",
+      "partOf": null
+    },
+    {
+      "slug": "history-panel-images",
+      "name": "History panel images",
+      "tier": "Molecule",
+      "partOf": null
+    },
+    {
+      "slug": "main-content-area",
+      "name": "Main content area",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "history-panel",
+      "name": "History panel",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "sign-in-prompts",
+      "name": "Sign-in prompts",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "error-states",
+      "name": "Error states",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "action-bar",
+      "name": "Action bar",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "creation-composer",
+      "name": "Creation composer",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "style-menu",
+      "name": "Style menu",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "serp-carousel",
+      "name": "SERP Carousel",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "serp-aigc-answer",
+      "name": "SERP · AIGC Answer",
+      "tier": "Organism",
+      "partOf": null
+    },
+    {
+      "slug": "prompt-template-card",
+      "name": "Prompt template card",
+      "tier": "Molecule",
+      "partOf": "creation-composer"
+    },
+    {
+      "slug": "checkmark-circle",
+      "name": "Checkmark circle",
+      "tier": "Molecule",
+      "partOf": "image-display-list"
+    },
+    {
+      "slug": "main-image-footer",
+      "name": "Main image footer",
+      "tier": "Molecule",
+      "partOf": "main-image-area"
+    },
+    {
+      "slug": "display-image",
+      "name": "Display image",
+      "tier": "Molecule",
+      "partOf": "image-display-list"
+    },
+    {
+      "slug": "serp-template-card",
+      "name": "SERP template card",
+      "tier": "Molecule",
+      "partOf": "serp-carousel"
+    }
+  ],
+  "mosaicCoverage": [
+    {
+      "slug": "main-image-area",
+      "status": "partial"
+    },
+    {
+      "slug": "image-display-list",
+      "status": "partial"
+    },
+    {
+      "slug": "history-panel-images",
+      "status": "partial"
+    },
+    {
+      "slug": "main-content-area",
+      "status": "partial"
+    },
+    {
+      "slug": "history-panel",
+      "status": "partial"
+    },
+    {
+      "slug": "serp-carousel",
+      "status": "partial"
+    },
+    {
+      "slug": "error-states",
+      "status": "partial"
+    },
+    {
+      "slug": "sign-in-prompts",
+      "status": "candidate"
+    },
+    {
+      "slug": "style-menu",
+      "status": "partial"
+    },
+    {
+      "slug": "action-bar",
+      "status": "partial"
+    },
+    {
+      "slug": "creation-composer",
+      "status": "candidate"
+    },
+    {
+      "slug": "serp-aigc-answer",
+      "status": "candidate"
+    },
+    {
+      "slug": "prompt-template-card",
+      "status": "partial"
+    },
+    {
+      "slug": "checkmark-circle",
+      "status": "partial"
+    },
+    {
+      "slug": "main-image-footer",
+      "status": "partial"
+    },
+    {
+      "slug": "display-image",
+      "status": "partial"
+    },
+    {
+      "slug": "serp-template-card",
+      "status": "partial"
+    }
+  ],
+  "mosaicCatalogSnapshot": {
+    "generatedAt": "2026-08-14T07:07:05Z",
+    "mosaicCliVersion": "1.0.969",
+    "schemaSet": "full",
+    "componentCount": 32
+  }
+}

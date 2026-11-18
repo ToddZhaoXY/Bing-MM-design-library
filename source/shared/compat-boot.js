@@ -2,6 +2,7 @@
   'use strict';
   var startedAt = Date.now();
   var stopped = false;
+  var observer;
   var failure = '';
   var policy = '';
   var diagnostic = '';
@@ -15,15 +16,24 @@
     var root = document.getElementById('root');
     var status = document.getElementById('library-startup');
     if (!root || !status) return;
-    if (root.children.length) { status.hidden = true; stopped = true; clearInterval(timer); return; }
-    if (failure || policy || Date.now() - startedAt > 8000) {
+    if (root.children.length) { status.hidden = true; stopped = true; clearInterval(timer); if (observer) observer.disconnect(); return; }
+    var elapsed = Date.now() - startedAt;
+    var actions = status.querySelector('.startup-actions');
+    if (failure || policy) {
       status.classList.add('library-startup--error');
       status.querySelector('.startup-title').textContent = 'This library did not start';
       document.getElementById('startup-detail').textContent =
-        (failure || 'Loading took longer than expected.') + ' App script: ' + expected + '. ' + policy + ' ' + diagnostic;
+        (failure || 'A required resource was blocked.') + ' App script: ' + expected + '. ' + policy + ' ' + diagnostic;
       status.setAttribute('role', 'alert');
-      if (Date.now() - startedAt > 60000) { clearInterval(timer); stopped = true; }
+      if (actions) actions.hidden = false;
+    } else if (elapsed > 8000) {
+      status.classList.add('library-startup--slow');
+      status.querySelector('.startup-title').textContent = 'Still loading…';
+      document.getElementById('startup-detail').textContent = 'Loading is taking longer than usual. You can keep waiting or try again.';
+      if (actions) actions.hidden = false;
     }
+    // Stop polling after a minute, but retain the observer for a late success.
+    if (elapsed > 60000) clearInterval(timer);
   }
 
   function probe() {
@@ -51,6 +61,13 @@
       .finally(function () { clearTimeout(timeout); check(); });
   }
 
+  function watchRoot() {
+    var root = document.getElementById('root');
+    if (!root || typeof MutationObserver !== 'function') return;
+    if (!observer) observer = new MutationObserver(check);
+    observer.observe(root, { childList: true });
+  }
+
   window.addEventListener('error', function (event) {
     if (stopped) return;
     if (event.target && event.target.tagName === 'SCRIPT') {
@@ -68,11 +85,12 @@
     check();
   });
   document.getElementById('startup-retry').addEventListener('click', function () { location.reload(); });
-  window.addEventListener('pagehide', function () { clearInterval(timer); });
+  window.addEventListener('pagehide', function () { clearInterval(timer); if (observer) observer.disconnect(); });
   window.addEventListener('pageshow', function () {
-    if (!stopped) { clearInterval(timer); timer = setInterval(check, 250); check(); }
+    if (!stopped) { watchRoot(); clearInterval(timer); timer = setInterval(check, 250); check(); }
   });
   window.addEventListener('load', check);
+  watchRoot();
   timer = setInterval(check, 250);
   check();
 }());

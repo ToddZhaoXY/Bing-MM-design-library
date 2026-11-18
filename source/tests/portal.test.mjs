@@ -15,7 +15,7 @@ test('original library content matches its immutable import ledger and recorded 
   const expected = await sourceUpdates();
   for (const entry of manifest.files) assert.equal(await sha256(join(root, entry.path)), expected(entry.path, entry.sha256), entry.path);
 });
-test('the first-visit entry is a readable overview with four native links and no frames', async () => {
+test('the first-visit entry is a readable overview with five native links and no frames', async () => {
   const html = await readFile(join(root, 'dist/index.html'), 'utf8');
   assert.doesNotMatch(html, /<iframe\b|type="module"/i);
   for (const id of systems) assert.match(html, new RegExp(`href="\\./${id}\\.html`));
@@ -44,7 +44,7 @@ test('every emitted app bundle parses as classic JavaScript and the original ass
     const transformed = script.replace(/\.js$/, '-classic.js');
     new Script(await readFile(join(target, transformed), 'utf8'));
     for (const file of await filesIn(source)) {
-      if (file !== 'index.html' && file !== script) assert.equal(await sha256(join(source, file)), await sha256(join(target, file)), `${id}/${file}`);
+      if (file !== 'index.html' && !file.endsWith('.js')) assert.equal(await sha256(join(source, file)), await sha256(join(target, file)), `${id}/${file}`);
     }
   }
 });

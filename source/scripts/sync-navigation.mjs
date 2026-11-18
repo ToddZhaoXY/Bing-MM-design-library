@@ -3,7 +3,7 @@ import { join } from 'node:path'
 import { root, systems, isMain } from './lib.mjs'
 
 export async function syncNavigation({ projectRoot = root, check = false } = {}) {
-  for (const file of ['LibraryNav.tsx', 'LibraryNav.css']) {
+  for (const file of ['LibraryNav.tsx', 'LibraryNav.css', 'RouteLoading.tsx', 'RouteLoading.css']) {
    const canonical = await readFile(join(projectRoot, 'ui', file), 'utf8')
    for (const system of systems) {
     const destination = join(projectRoot, 'projects', system, 'site/src/components', file)

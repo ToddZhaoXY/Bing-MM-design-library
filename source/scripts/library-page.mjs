@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import { Script } from 'node:vm';
 import { libraryRail, libraryHeader, libraryName } from './library-chrome.mjs';
 
-const labels = { 'mm-image': 'MM Image', aigc: 'AIGC', video: 'Video' };
+const labels = { 'mm-image': 'Image', aigc: 'AIGC', video: 'Video' };
 const require = createRequire(join(root, 'projects/aigc/site/package.json'));
 
 export async function classicBundle(source) {
@@ -33,7 +33,9 @@ export function makeLibraryPage(original, id, { alias = false } = {}) {
   html = html.replace('</head>', '    <link rel="stylesheet" href="../../theme/index.css">\n    <link rel="stylesheet" href="../../library-nav.css">\n  </head>');
   html = html.replace(/<title>[^<]*<\/title>/, `<title>${labels[id]} — ${libraryName}</title>`);
   const chrome = libraryHeader('../../') + libraryRail(id, '../../');
-  const status = `<aside id="library-startup" class="library-startup" role="status" aria-live="polite"><p class="startup-title">Opening ${labels[id]}</p><p id="startup-detail">The library is starting. If this message remains, check that the complete deployment package was uploaded.</p><div class="startup-actions"><button id="startup-retry" type="button">Try again</button><a href="../../index.html">Back to all libraries</a><a href="./index.html#/">Open alternate entry</a></div><noscript>This React library requires JavaScript. The overview and navigation links remain available.</noscript></aside>`;
+  const bars = Array.from({ length: 10 }, (_, index) => `<i class="aixa-skeleton__line${index % 3 === 0 ? ' aixa-skeleton__line--short' : ''}"></i>`).join('');
+  const skeleton = `<div class="aixa-startup-skeleton" aria-hidden="true"><div class="aixa-skeleton__nav"><i class="aixa-skeleton__heading"></i>${bars}</div><div class="aixa-skeleton__content"><div class="aixa-skeleton__header"><i class="aixa-skeleton__title"></i><div class="aixa-skeleton__chips"><i></i><i></i><i></i></div><i class="aixa-skeleton__line"></i><i class="aixa-skeleton__line aixa-skeleton__line--short"></i></div><div class="aixa-skeleton__panel"><i class="aixa-skeleton__heading"></i><div class="aixa-skeleton__rows">${bars.slice(0, bars.indexOf('</i>') + 4).repeat(5)}</div></div></div></div>`;
+  const status = `<aside id="library-startup" class="library-startup" role="status" aria-live="polite" aria-busy="true">${skeleton}<div class="startup-status"><p class="startup-title">Loading ${labels[id]}…</p><p id="startup-detail">Preparing components and previews.</p><div class="startup-actions" hidden><button id="startup-retry" type="button">Try again</button><a href="../../index.html">Back to all libraries</a><a href="./index.html#/">Open alternate entry</a></div></div><noscript>This React library requires JavaScript. The overview and navigation links remain available.</noscript></aside>`;
   return html.replace('<body>', `<body data-hub-system="${id}" class="feature-nav-expanded">\n${chrome}\n${status}`);
 }
 

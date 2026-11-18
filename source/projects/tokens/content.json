@@ -1,0 +1,2190 @@
+{
+  "source": {
+    "url": "https://toddzhaoxy.github.io/bing-design-skill-homepage/",
+    "retrieved": "2026-11-18",
+    "sha256": "052c92683731856b31b237a2fd9ff73592db288685df0452e4d7e386d20ce9d5"
+  },
+  "intro": {
+    "title": "The authoritative reference for the Bing/ACF design system.",
+    "description": "A standardized, read-only source of truth for tokens, foundations, layout rules, components, and patterns. It makes Bing design guidance available to people and AI; consuming agents decide what to build or review.",
+    "authors": [
+      {
+        "src": "siliang-pi-silpi.png",
+        "alt": "silpi",
+        "name": "@silpi"
+      },
+      {
+        "src": "xingyu-zhao-v-zhaoxingyu.png",
+        "alt": "v-zhaoxingyu",
+        "name": "@v-zhaoxingyu"
+      }
+    ],
+    "links": [
+      {
+        "label": "Get latest skill",
+        "href": "https://github.com/gim-home/Bing-design-skills-ACF"
+      },
+      {
+        "label": "View old version",
+        "href": "https://github.com/gim-home/Bing-Design-Skill-1.0"
+      }
+    ]
+  },
+  "panels": [
+    {
+      "id": "overview",
+      "label": "Token Catalog",
+      "title": "426 production tokens",
+      "description": "Every entry is shipped and carries a semantic CSS variable, category, usage guidance, Figma name, and a light/dark value schema.",
+      "headers": [
+        "Category",
+        "Count"
+      ],
+      "rows": [
+        [
+          "Background",
+          "145"
+        ],
+        [
+          "Foreground",
+          "88"
+        ],
+        [
+          "Stroke",
+          "52"
+        ],
+        [
+          "Padding",
+          "36"
+        ],
+        [
+          "Corner radius",
+          "31"
+        ],
+        [
+          "Typography",
+          "22"
+        ],
+        [
+          "Shadow",
+          "20"
+        ],
+        [
+          "Gap",
+          "12"
+        ],
+        [
+          "Animation",
+          "10"
+        ],
+        [
+          "Other / motion curves",
+          "6"
+        ],
+        [
+          "Effects",
+          "3"
+        ],
+        [
+          "Font family",
+          "1"
+        ]
+      ]
+    },
+    {
+      "id": "color",
+      "label": "Color",
+      "title": "285 semantic color tokens",
+      "description": "Background, foreground, and stroke tokens cover surfaces, content, controls, states, and dividers.",
+      "headers": [
+        "Token",
+        "Value / Usage"
+      ],
+      "rows": [
+        [
+          "--bing-smtc-background-card-on-primary-alt-gradient-stop-1",
+          "#ebf6ff / #1d2b36"
+        ],
+        [
+          "--bing-smtc-background-card-on-primary-alt-rest",
+          "#ebf6ff / #1d2b36"
+        ],
+        [
+          "--bing-smtc-background-card-on-primary-alt-hover",
+          "#dfecf5 / #202f3b"
+        ],
+        [
+          "--bing-smtc-background-card-on-primary-alt-pressed",
+          "#d5e5f0 / #233440"
+        ],
+        [
+          "--bing-smtc-background-ctrl-active-brand-rest",
+          "#ebf6ff / #1d2b36"
+        ],
+        [
+          "--bing-smtc-background-ctrl-active-brand-hover",
+          "#dfecf5 / #202f3b"
+        ],
+        [
+          "--bing-smtc-ctrl-background-fade-stop-0",
+          "rgba(235, 246, 255, 0) / rgba(29, 43, 54, 0)"
+        ],
+        [
+          "--bing-smtc-ctrl-citation-background-rest",
+          "#ebf6ff / #1d2b36"
+        ],
+        [
+          "--bing-smtc-ctrl-citation-background-hover",
+          "#dfecf5 / #202f3b"
+        ],
+        [
+          "--bing-smtc-ctrl-citation-background-pressed",
+          "#d5e5f0 / #233440"
+        ],
+        [
+          "--bing-smtc-ctrl-spinner-backdrop-background",
+          "rgba(235, 246, 255, 0.85) / rgba(29, 43, 54, 0.85)"
+        ],
+        [
+          "--bing-smtc-background-card-on-image-default",
+          "Background color for card components"
+        ],
+        [
+          "--bing-smtc-background-ctrl-fade-on-image-stop-0",
+          "Background color for controls/interactive elements"
+        ],
+        [
+          "--bing-smtc-background-ctrl-fade-on-primary-stop-0",
+          "Background color for controls/interactive elements"
+        ],
+        [
+          "--bing-smtc-background-ctrl-image-placeholder-default",
+          "Background color for controls/interactive elements"
+        ],
+        [
+          "--bing-smtc-background-ctrl-on-image-switchable-rest",
+          "Background color for controls/interactive elements — rest state"
+        ],
+        [
+          "--bing-smtc-background-ctrl-on-image-switchable-hover",
+          "Background color for controls/interactive elements — hover state"
+        ],
+        [
+          "--bing-smtc-background-ctrl-on-image-switchable-pressed",
+          "Background color for controls/interactive elements — pressed state"
+        ],
+        [
+          "--bing-smtc-background-with-material-citation",
+          "Background color"
+        ],
+        [
+          "--bing-smtc-background-with-material-overlay",
+          "Background color"
+        ],
+        [
+          "--bing-smtc-ctrl-favicon-background",
+          "Background color for controls/interactive elements"
+        ],
+        [
+          "--bing-smtc-status-informative-neutral-background",
+          "Background color (neutral)"
+        ],
+        [
+          "--bing-smtc-background-ctrl-brand-rest",
+          "#0078d4 / #c6e2f7"
+        ],
+        [
+          "--bing-smtc-background-ctrl-ghost-hover",
+          "#b7d5eb / #2a4051"
+        ],
+        [
+          "--bing-smtc-background-ctrl-ghost-pressed",
+          "#a5c6df / #2e4659"
+        ],
+        [
+          "--bing-smtc-background-ctrl-neutral-rest",
+          "#c6e2f7 / #243949"
+        ],
+        [
+          "--bing-smtc-background-ctrl-outline-hover",
+          "#b7d5eb / #2a4051"
+        ],
+        [
+          "--bing-smtc-background-ctrl-outline-pressed",
+          "#a5c6df / #2e4659"
+        ],
+        [
+          "--bing-smtc-ctrl-citation-foreground-rest",
+          "#0078d4 / #c6e2f7"
+        ],
+        [
+          "--bing-smtc-ctrl-citation-foreground-hover",
+          "#005a9f / #aacce6"
+        ],
+        [
+          "--bing-smtc-ctrl-citation-foreground-pressed",
+          "#00487f / #9cbbd2"
+        ],
+        [
+          "--bing-smtc-ctrl-citation-on-card-background-rest",
+          "#c6e2f7 / #243949"
+        ],
+        [
+          "--bing-smtc-ctrl-citation-on-card-background-hover",
+          "#b7d5eb / #2a4051"
+        ],
+        [
+          "--bing-smtc-ctrl-skeleton-background-default-layer-1-stop-1",
+          "#0078d4 / #c6e2f7"
+        ],
+        [
+          "--bing-smtc-ctrl-tab-ghost-background-hover",
+          "#b7d5eb / #2a4051"
+        ],
+        [
+          "--bing-smtc-ctrl-tab-ghost-background-pressed",
+          "#a5c6df / #2e4659"
+        ],
+        [
+          "--bing-smtc-ctrl-tab-ghost-background-selected",
+          "#c6e2f7 / #243949"
+        ],
+        [
+          "--bing-smtc-foreground-ctrl-on-transparent-rest",
+          "#0078d4 / #c6e2f7"
+        ],
+        [
+          "--bing-smtc-status-brand-background",
+          "#0078d4 / #c6e2f7"
+        ],
+        [
+          "--bing-smtc-ctrl-link-foreground-brand-alt-visited",
+          "Foreground/text color for controls/interactive elements (brand/accent themed)"
+        ],
+        [
+          "--bing-smtc-foreground-content-neutral-secondary-alt",
+          "Foreground/text color for content areas (neutral)"
+        ],
+        [
+          "--bing-smtc-foreground-content-neutral-tertiary",
+          "Foreground/text color for content areas (neutral)"
+        ],
+        [
+          "--bing-smtc-foreground-ctrl-neutral-primary-rest",
+          "Foreground/text color for controls/interactive elements (neutral) — rest state"
+        ],
+        [
+          "--bing-smtc-foreground-ctrl-on-image-alt-rest",
+          "Foreground/text color for controls/interactive elements — rest state"
+        ],
+        [
+          "--bing-smtc-foreground-ctrl-on-image-switchable-rest",
+          "Foreground/text color for controls/interactive elements — rest state"
+        ],
+        [
+          "--bing-smtc-foreground-ctrl-on-image-switchable-hover",
+          "Foreground/text color for controls/interactive elements — hover state"
+        ],
+        [
+          "--bing-smtc-foreground-ctrl-on-image-switchable-pressed",
+          "Foreground/text color for controls/interactive elements — pressed state"
+        ],
+        [
+          "--bing-smtc-ctrl-link-foreground-brand-rest",
+          "#005ba1 / #c6e2f7"
+        ],
+        [
+          "--bing-smtc-foreground-content-brand-rest",
+          "#005ba1 / #c6e2f7"
+        ],
+        [
+          "--bing-smtc-foreground-content-brand-hover",
+          "#004478 / #aacce6"
+        ],
+        [
+          "--bing-smtc-foreground-content-brand-pressed",
+          "#003660 / #9cbbd2"
+        ],
+        [
+          "--bing-smtc-foreground-ctrl-neutral-primary-alt-rest",
+          "#005ba1 / #c6e2f7"
+        ],
+        [
+          "--bing-smtc-background-container",
+          "Background color"
+        ],
+        [
+          "--bing-smtc-background-container-alt",
+          "Background color"
+        ],
+        [
+          "--bing-smtc-background-container-highlight",
+          "Background color"
+        ],
+        [
+          "--bing-smtc-background-on-container-card",
+          "Background color for card components"
+        ],
+        [
+          "--bing-smtc-background-overlay",
+          "Background color"
+        ],
+        [
+          "--bing-smtc-ctrl-search-box-background-rest",
+          "Background color for controls/interactive elements — rest state"
+        ],
+        [
+          "--bing-smtc-ctrl-spinner-background-default",
+          "Background color for controls/interactive elements"
+        ],
+        [
+          "--bing-smtc-ctrl-highlight-ring-stroke-stop-1",
+          "#0078d4 / #c6e2f7"
+        ],
+        [
+          "--bing-smtc-ctrl-highlight-ring-stroke-stop-2",
+          "#00487f / #9cbbd2"
+        ],
+        [
+          "--bing-smtc-ctrl-choice-switch-stroke-neutral-rest",
+          "Border/stroke color for controls/interactive elements (neutral) — rest state"
+        ],
+        [
+          "--bing-smtc-stroke-ctrl-default",
+          "Border/stroke color for controls/interactive elements"
+        ],
+        [
+          "--bing-smtc-stroke-ctrl-disable",
+          "Border/stroke color for controls/interactive elements"
+        ],
+        [
+          "--bing-smtc-stroke-ctrl-on-image-default",
+          "Border/stroke color for controls/interactive elements"
+        ],
+        [
+          "--bing-smtc-stroke-ctrl-strong",
+          "Border/stroke color for controls/interactive elements (strong variant)"
+        ],
+        [
+          "--bing-smtc-stroke-ctrl-subtle",
+          "Border/stroke color for controls/interactive elements (subtle variant)"
+        ],
+        [
+          "--bing-smtc-stroke-divider-stop-0",
+          "Border/stroke color for dividers"
+        ],
+        [
+          "--bing-smtc-foreground-ctrl-on-subtle-rest",
+          "Foreground/text color for controls/interactive elements (subtle variant) — rest state"
+        ],
+        [
+          "--bing-smtc-foreground-ctrl-on-subtle-hover",
+          "Foreground/text color for controls/interactive elements (subtle variant) — hover state"
+        ],
+        [
+          "--bing-smtc-background-ctrl-subtle-hover",
+          "Background color for controls/interactive elements (subtle variant) — hover state"
+        ],
+        [
+          "--bing-smtc-foreground-ctrl-on-subtle-pressed",
+          "Foreground/text color for controls/interactive elements (subtle variant) — pressed state"
+        ],
+        [
+          "--bing-smtc-background-ctrl-subtle-pressed",
+          "Background color for controls/interactive elements (subtle variant) — pressed state"
+        ],
+        [
+          "--bing-smtc-ctrl-choice-switch-background-hover",
+          "Background color for controls/interactive elements — hover state"
+        ],
+        [
+          "--bing-smtc-ctrl-choice-switch-background-pressed",
+          "Background color for controls/interactive elements — pressed state"
+        ],
+        [
+          "--bing-smtc-foreground-image-placeholder-default",
+          "#c6e2f7 / #243949"
+        ],
+        [
+          "--bing-smtc-status-danger-tint-foreground-alt",
+          "Foreground/text color (danger/error state)"
+        ],
+        [
+          "--bing-smtc-status-success-tint-foreground-alt",
+          "Foreground/text color (success state)"
+        ],
+        [
+          "--bing-smtc-data-foreground-red-strong",
+          "Foreground/text color (strong variant)"
+        ],
+        [
+          "--bing-smtc-deco-stroke-red-strong",
+          "Border/stroke color (strong variant)"
+        ],
+        [
+          "--bing-smtc-data-foreground-red-default",
+          "Foreground/text color"
+        ],
+        [
+          "--bing-smtc-deco-stroke-red-default",
+          "Border/stroke color"
+        ],
+        [
+          "--bing-smtc-data-foreground-red-subtle",
+          "Foreground/text color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-deco-stroke-red-subtle",
+          "Border/stroke color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-data-foreground-amber-strong",
+          "Foreground/text color (strong variant)"
+        ],
+        [
+          "--bing-smtc-deco-stroke-amber-strong",
+          "Border/stroke color (strong variant)"
+        ],
+        [
+          "--bing-smtc-data-foreground-amber-default",
+          "Foreground/text color"
+        ],
+        [
+          "--bing-smtc-deco-stroke-amber-default",
+          "Border/stroke color"
+        ],
+        [
+          "--bing-smtc-data-foreground-amber-subtle",
+          "Foreground/text color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-deco-stroke-amber-subtle",
+          "Border/stroke color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-data-foreground-green-strong",
+          "Foreground/text color (strong variant)"
+        ],
+        [
+          "--bing-smtc-deco-stroke-green-strong",
+          "Border/stroke color (strong variant)"
+        ],
+        [
+          "--bing-smtc-data-foreground-green-default",
+          "Foreground/text color"
+        ],
+        [
+          "--bing-smtc-deco-stroke-green-default",
+          "Border/stroke color"
+        ],
+        [
+          "--bing-smtc-data-foreground-green-subtle",
+          "Foreground/text color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-deco-stroke-green-subtle",
+          "Border/stroke color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-data-foreground-blue-strong",
+          "Foreground/text color (strong variant)"
+        ],
+        [
+          "--bing-smtc-deco-stroke-blue-strong",
+          "Border/stroke color (strong variant)"
+        ],
+        [
+          "--bing-smtc-data-foreground-blue-default",
+          "Foreground/text color"
+        ],
+        [
+          "--bing-smtc-deco-stroke-blue-default",
+          "Border/stroke color"
+        ],
+        [
+          "--bing-smtc-data-foreground-blue-subtle",
+          "Foreground/text color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-deco-stroke-blue-subtle",
+          "Border/stroke color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-data-foreground-gray-strong",
+          "Foreground/text color (strong variant)"
+        ],
+        [
+          "--bing-smtc-deco-stroke-gray-strong",
+          "Border/stroke color (strong variant)"
+        ],
+        [
+          "--bing-smtc-data-foreground-gray-default",
+          "Foreground/text color"
+        ],
+        [
+          "--bing-smtc-deco-stroke-gray-default",
+          "Border/stroke color"
+        ],
+        [
+          "--bing-smtc-data-foreground-gray-subtle",
+          "Foreground/text color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-deco-stroke-gray-subtle",
+          "Border/stroke color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-data-foreground-yellow-strong",
+          "Foreground/text color (strong variant)"
+        ],
+        [
+          "--bing-smtc-deco-stroke-yellow-strong",
+          "Border/stroke color (strong variant)"
+        ],
+        [
+          "--bing-smtc-data-foreground-yellow-default",
+          "Foreground/text color"
+        ],
+        [
+          "--bing-smtc-deco-stroke-yellow-default",
+          "Border/stroke color"
+        ],
+        [
+          "--bing-smtc-data-foreground-yellow-subtle",
+          "Foreground/text color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-deco-stroke-yellow-subtle",
+          "Border/stroke color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-data-background-red-strong",
+          "Background color (strong variant)"
+        ],
+        [
+          "--bing-smtc-data-background-red-default",
+          "Background color"
+        ],
+        [
+          "--bing-smtc-data-background-red-subtle",
+          "Background color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-data-background-amber-strong",
+          "Background color (strong variant)"
+        ],
+        [
+          "--bing-smtc-data-background-amber-default",
+          "Background color"
+        ],
+        [
+          "--bing-smtc-data-background-amber-subtle",
+          "Background color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-data-background-green-strong",
+          "Background color (strong variant)"
+        ],
+        [
+          "--bing-smtc-data-background-green-default",
+          "Background color"
+        ],
+        [
+          "--bing-smtc-data-background-green-subtle",
+          "Background color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-data-background-blue-strong",
+          "Background color (strong variant)"
+        ],
+        [
+          "--bing-smtc-data-background-blue-default",
+          "Background color"
+        ],
+        [
+          "--bing-smtc-data-background-blue-subtle",
+          "Background color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-data-background-gray-strong",
+          "Background color (strong variant)"
+        ],
+        [
+          "--bing-smtc-data-background-gray-default",
+          "Background color"
+        ],
+        [
+          "--bing-smtc-data-background-gray-subtle",
+          "Background color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-data-background-yellow-strong",
+          "Background color (strong variant)"
+        ],
+        [
+          "--bing-smtc-data-background-yellow-default",
+          "Background color"
+        ],
+        [
+          "--bing-smtc-data-background-yellow-subtle",
+          "Background color (subtle variant)"
+        ],
+        [
+          "--bing-smtc-background-ctrl-fade-on-primary-stop-1",
+          "#f3f9fd / #1a1f23"
+        ],
+        [
+          "--mai-smtc-background-ctrl-on-image-rest",
+          "Background color for controls/interactive elements — rest state"
+        ],
+        [
+          "--mai-smtc-background-ctrl-on-image-hover",
+          "Background color for controls/interactive elements — hover state"
+        ],
+        [
+          "--mai-smtc-ctrl-citation-background-hover",
+          "Defined by foundation mapping"
+        ],
+        [
+          "--mai-smtc-ctrl-citation-background-pressed",
+          "Defined by foundation mapping"
+        ],
+        [
+          "--mai-smtc-background-card-on-primary-alt-selected",
+          "#c6e2f7 / #243949"
+        ],
+        [
+          "--mai-smtc-choice-switch-background-selected-rest",
+          "#0078d4 / #c6e2f7"
+        ],
+        [
+          "--mai-smtc-choice-switch-background-selected-hover",
+          "#005a9f / #aacce6"
+        ],
+        [
+          "--mai-smtc-choice-switch-background-selected-pressed",
+          "#00487f / #9cbbd2"
+        ],
+        [
+          "--mai-smtc-foreground-ctrl-on-image-rest",
+          "Defined by foundation mapping"
+        ],
+        [
+          "--mai-smtc-ctrl-choice-switch-thumb-background-rest",
+          "Background color for controls/interactive elements — rest state"
+        ],
+        [
+          "--mai-smtc-ctrl-choice-switch-thumb-background-selected-rest",
+          "#fff / #005ba1"
+        ],
+        [
+          "--mai-smtc-ctrl-choice-switch-thumb-background-hover",
+          "Background color for controls/interactive elements — hover state"
+        ],
+        [
+          "--mai-smtc-ctrl-choice-switch-thumb-background-pressed",
+          "Background color for controls/interactive elements — pressed state"
+        ],
+        [
+          "--mai-smtc-ctrl-citation-background-rest",
+          "Defined by foundation mapping"
+        ],
+        [
+          "--mai-smtc-ctrl-choice-switch-stroke-rest",
+          "#0078d4 / #c6e2f7"
+        ],
+        [
+          "--mai-smtc-ctrl-choice-switch-stroke-hover",
+          "#005a9f / #aacce6"
+        ],
+        [
+          "--mai-smtc-ctrl-choice-switch-stroke-pressed",
+          "#00487f / #9cbbd2"
+        ],
+        [
+          "--mai-smtc-ctrl-choice-switch-background-default",
+          "Background color for controls/interactive elements"
+        ],
+        [
+          "--smtc-background-card-on-primary-alt-disabled",
+          "#f3f9fd / #1a1f23"
+        ],
+        [
+          "--smtc-background-ctrl-active-brand-disabled",
+          "#ebf6ff / #1d2b36"
+        ],
+        [
+          "--smtc-background-ctrl-outline-disabled",
+          "#ebf6ff / #1d2b36"
+        ],
+        [
+          "--smtc-background-ctrl-subtle-disabled",
+          "rgba(235, 246, 255, 0) / rgba(29, 43, 54, 0)"
+        ],
+        [
+          "--smtc-background-ctrl-subtle-hover",
+          "#dfecf5 / #202f3b"
+        ],
+        [
+          "--smtc-background-ctrl-subtle-pressed",
+          "#d5e5f0 / #233440"
+        ],
+        [
+          "--smtc-ctrl-input-background-disabled",
+          "#d5e5f0 / #233440"
+        ],
+        [
+          "--smtc-background-card-on-flyout-default-hover",
+          "Background color for card components — hover state"
+        ],
+        [
+          "--smtc-background-card-on-flyout-default-pressed",
+          "Background color for card components — pressed state"
+        ],
+        [
+          "--smtc-background-card-on-primary-default-rest",
+          "Background color for card components — rest state"
+        ],
+        [
+          "--smtc-background-card-on-primary-default-hover",
+          "Background color for card components — hover state"
+        ],
+        [
+          "--smtc-background-card-on-primary-default-pressed",
+          "Background color for card components — pressed state"
+        ],
+        [
+          "--smtc-background-card-on-secondary-default-rest",
+          "Background color for card components — rest state"
+        ],
+        [
+          "--smtc-background-card-on-secondary-default-hover",
+          "Background color for card components — hover state"
+        ],
+        [
+          "--smtc-background-ctrl-brand-rest",
+          "Background color for controls/interactive elements (brand/accent themed) — rest state"
+        ],
+        [
+          "--smtc-background-ctrl-outline-hover",
+          "Background color for controls/interactive elements — hover state"
+        ],
+        [
+          "--smtc-background-ctrl-outline-pressed",
+          "Background color for controls/interactive elements — pressed state"
+        ],
+        [
+          "--smtc-background-ctrl-subtle-rest",
+          "Background color for controls/interactive elements (subtle variant) — rest state"
+        ],
+        [
+          "--smtc-ctrl-fab-background-rest",
+          "Background color for controls/interactive elements — rest state"
+        ],
+        [
+          "--smtc-ctrl-fab-background-hover",
+          "Background color for controls/interactive elements — hover state"
+        ],
+        [
+          "--smtc-ctrl-fab-background-pressed",
+          "Background color for controls/interactive elements — pressed state"
+        ],
+        [
+          "--smtc-status-brand-background",
+          "Background color (brand/accent themed)"
+        ],
+        [
+          "--smtc-status-informative-tint-background",
+          "Background color"
+        ],
+        [
+          "--smtc-background-card-on-primary-alt-rest",
+          "#c6e2f7 / #243949"
+        ],
+        [
+          "--smtc-background-card-on-primary-alt-hover",
+          "#b7d5eb / #2a4051"
+        ],
+        [
+          "--smtc-background-card-on-primary-alt-pressed",
+          "#a5c6df / #2e4659"
+        ],
+        [
+          "--smtc-background-card-on-secondary-alt-rest",
+          "#c6e2f7 / #243949"
+        ],
+        [
+          "--smtc-background-ctrl-active-brand-rest",
+          "#0078d4 / #c6e2f7"
+        ],
+        [
+          "--smtc-background-ctrl-active-brand-hover",
+          "#005a9f / #aacce6"
+        ],
+        [
+          "--smtc-background-ctrl-active-brand-pressed",
+          "#00487f / #9cbbd2"
+        ],
+        [
+          "--smtc-background-ctrl-brand-hover",
+          "#005a9f / #aacce6"
+        ],
+        [
+          "--smtc-background-ctrl-brand-pressed",
+          "#00487f / #9cbbd2"
+        ],
+        [
+          "--smtc-background-ctrl-neutral-disabled",
+          "#c6e2f7 / #243949"
+        ],
+        [
+          "--smtc-background-ctrl-neutral-hover",
+          "#b7d5eb / #2a4051"
+        ],
+        [
+          "--smtc-background-ctrl-neutral-pressed",
+          "#a5c6df / #2e4659"
+        ],
+        [
+          "--smtc-ctrl-lite-filter-background-selected",
+          "#c6e2f7 / #243949"
+        ],
+        [
+          "--smtc-foreground-content-neutral-primary",
+          "Foreground/text color for content areas (neutral)"
+        ],
+        [
+          "--smtc-foreground-ctrl-neutral-primary-rest",
+          "Foreground/text color for controls/interactive elements (neutral) — rest state"
+        ],
+        [
+          "--smtc-foreground-content-neutral-secondary",
+          "Foreground/text color for content areas (neutral)"
+        ],
+        [
+          "--smtc-foreground-ctrl-neutral-primary-disabled",
+          "Foreground/text color for controls/interactive elements (neutral) — disabled state"
+        ],
+        [
+          "--smtc-ctrl-link-foreground-brand-hover",
+          "#004478 / #aacce6"
+        ],
+        [
+          "--smtc-ctrl-link-foreground-brand-pressed",
+          "#003660 / #9cbbd2"
+        ],
+        [
+          "--smtc-ctrl-progress-background-filled",
+          "#005ba1 / #c6e2f7"
+        ],
+        [
+          "--smtc-foreground-content-brand-primary",
+          "#005ba1 / #c6e2f7"
+        ],
+        [
+          "--smtc-foreground-ctrl-active-brand-rest",
+          "#005ba1 / #c6e2f7"
+        ],
+        [
+          "--smtc-foreground-ctrl-active-brand-hover",
+          "#004478 / #aacce6"
+        ],
+        [
+          "--smtc-foreground-ctrl-active-brand-pressed",
+          "#003660 / #9cbbd2"
+        ],
+        [
+          "--smtc-foreground-ctrl-icon-on-neutral-rest",
+          "#005ba1 / #c6e2f7"
+        ],
+        [
+          "--smtc-foreground-ctrl-icon-on-neutral-hover",
+          "#004478 / #aacce6"
+        ],
+        [
+          "--smtc-foreground-ctrl-icon-on-neutral-pressed",
+          "#003660 / #9cbbd2"
+        ],
+        [
+          "--smtc-foreground-ctrl-icon-on-outline-rest",
+          "#005ba1 / #c6e2f7"
+        ],
+        [
+          "--smtc-foreground-ctrl-icon-on-outline-hover",
+          "#004478 / #aacce6"
+        ],
+        [
+          "--smtc-foreground-ctrl-icon-on-outline-pressed",
+          "#003660 / #9cbbd2"
+        ],
+        [
+          "--smtc-foreground-ctrl-icon-on-subtle-rest",
+          "#005ba1 / #c6e2f7"
+        ],
+        [
+          "--smtc-foreground-ctrl-icon-on-subtle-hover",
+          "#004478 / #aacce6"
+        ],
+        [
+          "--smtc-foreground-ctrl-icon-on-subtle-pressed",
+          "#003660 / #9cbbd2"
+        ],
+        [
+          "--smtc-foreground-ctrl-neutral-primary-hover",
+          "#004478 / #aacce6"
+        ],
+        [
+          "--smtc-foreground-ctrl-neutral-primary-pressed",
+          "#003660 / #9cbbd2"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-active-brand-rest",
+          "#fff / #005ba1"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-active-brand-hover",
+          "#fff / #005495"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-active-brand-pressed",
+          "#fff / #004070"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-brand-rest",
+          "#fff / #005ba1"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-brand-hover",
+          "#fff / #005495"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-brand-pressed",
+          "#fff / #004070"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-outline-rest",
+          "#005ba1 / #c6e2f7"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-outline-hover",
+          "#004478 / #aacce6"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-outline-pressed",
+          "#003660 / #9cbbd2"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-subtle-rest",
+          "#005ba1 / #c6e2f7"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-subtle-hover",
+          "#004478 / #aacce6"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-subtle-pressed",
+          "#003660 / #9cbbd2"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-transparent-rest",
+          "#005ba1 / #c6e2f7"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-transparent-hover",
+          "#004478 / #aacce6"
+        ],
+        [
+          "--smtc-foreground-ctrl-on-transparent-pressed",
+          "#003660 / #9cbbd2"
+        ],
+        [
+          "--smtc-status-brand-foreground",
+          "#fff / #005ba1"
+        ],
+        [
+          "--smtc-status-brand-tint-foreground",
+          "#005ba1 / #c6e2f7"
+        ],
+        [
+          "--smtc-background-ctrl-neutral-rest",
+          "Background color for controls/interactive elements (neutral) — rest state"
+        ],
+        [
+          "--smtc-ctrl-tooltip-background",
+          "Background color for controls/interactive elements"
+        ],
+        [
+          "--smtc-ctrl-input-background-rest",
+          "#f3f9fd / #1a1f23"
+        ],
+        [
+          "--smtc-ctrl-input-background-pressed",
+          "rgba(255, 255, 255, 0) / rgba(255, 255, 255, 0.1)"
+        ],
+        [
+          "--smtc-ctrl-input-background-error",
+          "rgba(255, 255, 255, 0) / rgba(255, 255, 255, 0.1)"
+        ],
+        [
+          "--smtc-ctrl-choice-base-stroke-hover",
+          "#005a9f / #aacce6"
+        ],
+        [
+          "--smtc-ctrl-input-stroke-hover",
+          "#005a9f / #aacce6"
+        ],
+        [
+          "--smtc-ctrl-input-stroke-pressed",
+          "#00487f / #9cbbd2"
+        ],
+        [
+          "--smtc-ctrl-input-stroke-selected",
+          "#00487f / #9cbbd2"
+        ],
+        [
+          "--smtc-stroke-ctrl-on-outline-rest",
+          "#0078d4 / #c6e2f7"
+        ],
+        [
+          "--smtc-stroke-ctrl-on-outline-hover",
+          "#005a9f / #aacce6"
+        ],
+        [
+          "--smtc-stroke-ctrl-on-outline-pressed",
+          "#00487f / #9cbbd2"
+        ],
+        [
+          "--smtc-stroke-width-ctrl-outline-rest",
+          "#0078d4 / #c6e2f7"
+        ],
+        [
+          "--smtc-stroke-width-ctrl-outline-hover",
+          "#005a9f / #aacce6"
+        ],
+        [
+          "--smtc-ctrl-focus-inner-stroke",
+          "Border/stroke color for controls/interactive elements — focus state"
+        ],
+        [
+          "--smtc-ctrl-focus-outer-stroke",
+          "Border/stroke color for controls/interactive elements — focus state"
+        ],
+        [
+          "--smtc-ctrl-progress-background-empty",
+          "Background color for controls/interactive elements"
+        ],
+        [
+          "--smtc-stroke-card-on-primary-rest",
+          "Border/stroke color for card components — rest state"
+        ],
+        [
+          "--smtc-stroke-ctrl-on-neutral-rest",
+          "Border/stroke color for controls/interactive elements (neutral) — rest state"
+        ],
+        [
+          "--smtc-stroke-divider-default",
+          "Border/stroke color for dividers"
+        ],
+        [
+          "--smtc-background-web-page-primary",
+          "Background color for page background"
+        ],
+        [
+          "--smtc-ctrl-link-foreground-brand-rest",
+          "Foreground/text color for controls/interactive elements (brand/accent themed) — rest state"
+        ],
+        [
+          "--smtc-ctrl-rating-icon-foreground-filled",
+          "Foreground/text color for controls/interactive elements"
+        ],
+        [
+          "--smtc-status-danger-background",
+          "Background color (danger/error state)"
+        ],
+        [
+          "--smtc-status-danger-stroke",
+          "Border/stroke color (danger/error state)"
+        ],
+        [
+          "--smtc-status-danger-tint-foreground",
+          "Foreground/text color (danger/error state)"
+        ],
+        [
+          "--smtc-status-success-background",
+          "Background color (success state)"
+        ],
+        [
+          "--smtc-status-success-stroke",
+          "Border/stroke color (success state)"
+        ],
+        [
+          "--smtc-status-success-tint-foreground",
+          "Foreground/text color (success state)"
+        ],
+        [
+          "--smtc-status-warning-background",
+          "Background color (warning state)"
+        ],
+        [
+          "--smtc-status-warning-stroke",
+          "Border/stroke color (warning state)"
+        ],
+        [
+          "--smtc-status-warning-tint-foreground",
+          "Foreground/text color (warning state)"
+        ],
+        [
+          "--smtc-ctrl-list-background-selected-rest",
+          "#ebf6ff / #1d2b36"
+        ],
+        [
+          "--smtc-ctrl-list-background-selected-hover",
+          "#dfecf5 / #202f3b"
+        ],
+        [
+          "--smtc-ctrl-list-background-selected-pressed",
+          "#d5e5f0 / #233440"
+        ],
+        [
+          "--smtc-ctrl-input-stroke-rest",
+          "Border/stroke color for controls/interactive elements — rest state"
+        ],
+        [
+          "--smtc-ctrl-choice-base-background-rest",
+          "#f3f9fd / #1a1f23"
+        ],
+        [
+          "--smtc-ctrl-choice-base-stroke-rest",
+          "Border/stroke color for controls/interactive elements — rest state"
+        ],
+        [
+          "--smtc-ctrl-choice-base-background-hover",
+          "#f3f9fd / #1a1f23"
+        ],
+        [
+          "--smtc-background-smoke",
+          "Background color"
+        ],
+        [
+          "--smtc-ctrl-tooltip-foreground",
+          "Foreground/text color for controls/interactive elements"
+        ],
+        [
+          "--bing-smtc-background-ctrl-subtle-rest",
+          "#ebf6ff / #1d2b36"
+        ],
+        [
+          "--bing-smtc-foreground-content-white",
+          "Foreground/text color for content areas"
+        ],
+        [
+          "--smtc-background-ctrl-subtle-selected-rest",
+          "#c6e2f7 / #243949"
+        ],
+        [
+          "--bing-smtc-ctrl-citation-on-card-background-pressed",
+          "#a5c6df / #2e4659"
+        ],
+        [
+          "--smtc-background-ctrl-outline-rest",
+          "Background color for controls/interactive elements — rest state"
+        ],
+        [
+          "--smtc-stroke-divider-subtle",
+          "Defined by foundation mapping"
+        ],
+        [
+          "--smtc-stroke-divider-strong",
+          "Defined by foundation mapping"
+        ],
+        [
+          "--bing-smtc-background-scroll-rest",
+          "Defined by foundation mapping"
+        ],
+        [
+          "--bing-smtc-ctrl-tab-in-card-background-hover",
+          "Defined by foundation mapping"
+        ],
+        [
+          "--bing-smtc-ctrl-tab-in-card-background-pressed",
+          "Defined by foundation mapping"
+        ],
+        [
+          "--bing-smtc-ctrl-tab-in-card-background-selected",
+          "Defined by foundation mapping"
+        ],
+        [
+          "--smtc-background-card-on-flyout-default-rest",
+          "Background color for card components — rest state"
+        ],
+        [
+          "--smtc-ctrl-lite-filter-foreground-selected",
+          "Foreground/text color for controls/interactive elements — selected state"
+        ],
+        [
+          "--bing-smtc-background-card-on-primary-alt-gradient",
+          "Defined by foundation mapping"
+        ],
+        [
+          "--bing-smtc-background-ctrl-fade-on-primary-gradient",
+          "Defined by foundation mapping"
+        ],
+        [
+          "--bing-smtc-background-ctrl-single-entity-image-overlay-background",
+          "Defined by foundation mapping"
+        ],
+        [
+          "--bing-smtc-background-ctrl-fade-on-image-gradient",
+          "Defined by foundation mapping"
+        ],
+        [
+          "--bing-smtc-stroke-gradient-divider",
+          "Defined by foundation mapping"
+        ]
+      ]
+    },
+    {
+      "id": "modes",
+      "label": "Modes",
+      "title": "Light and Dark",
+      "description": "Semantic variables switch modes automatically. The current catalog includes 120 explicit Light/Dark color pairs and 165 reference-mapped color tokens.",
+      "headers": [
+        "Mode coverage",
+        "Count"
+      ],
+      "rows": [
+        [
+          "Light mode values",
+          "120"
+        ],
+        [
+          "Dark mode values",
+          "120"
+        ],
+        [
+          "Reference-mapped color tokens",
+          "165"
+        ],
+        [
+          "Consumer rule",
+          "Use var(--token, fallback)"
+        ]
+      ]
+    },
+    {
+      "id": "type",
+      "label": "Type",
+      "title": "23 typography tokens",
+      "description": "Twenty-two semantic text styles and one default font-family token define the Bing type system. Responsive pairs are Desktop / Mobile.",
+      "headers": [
+        "Token",
+        "Resolved value"
+      ],
+      "rows": [
+        [
+          "--bing-smtc-text-global-body1",
+          "normal · 400 · 18px/28px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-body1-strong",
+          "normal · 700 · 18px/28px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-body2",
+          "normal · 400 · 16px/26px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-body2-strong",
+          "normal · 700 · 16px/26px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-body3",
+          "normal · 400 · 14px/22px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-body3-strong",
+          "normal · 700 · 14px/22px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-caption1",
+          "normal · 400 · 13px/20px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-caption1-strong",
+          "normal · 700 · 13px/20px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-caption2",
+          "normal · 400 · 11px/13px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-caption2-strong",
+          "normal · 700 · 11px/13px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-display1",
+          "normal · 400 · 54px/64px / 42px/50px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-display2",
+          "normal · 400 · 40px/48px / 36px/42px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-subtitle1",
+          "normal · 400 · 20px/26px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-subtitle1-strong",
+          "normal · 700 · 20px/26px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-subtitle2",
+          "normal · 400 · 18px/22px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-subtitle2-strong",
+          "normal · 700 · 18px/22px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-title1",
+          "normal · 400 · 36px/48px / 32px/42px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-title2",
+          "normal · 400 · 24px/32px / 24px/28px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-title2-strong",
+          "normal · 700 · 24px/32px / 24px/28px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-title-2-alt",
+          "normal · 400 · 24px/32px · default family"
+        ],
+        [
+          "--bing-smtc-text-global-body-2-alt-strong",
+          "normal · 700 · 16px/22px · default family"
+        ],
+        [
+          "--bing-smtc-text-style-default-regular-font-family",
+          "Arial, Helvetica, Sans-Serif"
+        ],
+        [
+          "--bing-smtc-text-global-body3-mono",
+          "normal · 400 · 14px/22px · \"Cascadia Code\", ui-monospace, SFMono-Regular, Consolas, monospace"
+        ]
+      ]
+    },
+    {
+      "id": "shape",
+      "label": "Shape",
+      "title": "31 corner-radius tokens",
+      "description": "Semantic radius aliases cover controls, cards, flyouts, favicons, and circular elements. Responsive pairs are Desktop / Mobile.",
+      "headers": [
+        "Token",
+        "Resolved value"
+      ],
+      "rows": [
+        [
+          "--bing-smtc-corner-flyout-popover-rest",
+          "16px / 12px"
+        ],
+        [
+          "--mai-smtc-corner-ctrl-xlg-rest",
+          "16px / 12px"
+        ],
+        [
+          "--mai-smtc-corner-favicon",
+          "4px / 3px"
+        ],
+        [
+          "--mai-smtc-corner-list-card-default",
+          "8px / 6px"
+        ],
+        [
+          "--mai-smtc-corner-card-default",
+          "24px"
+        ],
+        [
+          "--smtc-corner-ctrl-sm-rest",
+          "4px / 3px"
+        ],
+        [
+          "--smtc-corner-ctrl-sm-hover",
+          "4px / 3px"
+        ],
+        [
+          "--smtc-corner-ctrl-sm-pressed",
+          "4px / 3px"
+        ],
+        [
+          "--smtc-corner-ctrl-rest",
+          "8px / 6px"
+        ],
+        [
+          "--smtc-corner-ctrl-hover",
+          "8px / 6px"
+        ],
+        [
+          "--smtc-corner-ctrl-pressed",
+          "8px / 6px"
+        ],
+        [
+          "--smtc-corner-ctrl-lg-rest",
+          "8px / 6px"
+        ],
+        [
+          "--smtc-corner-ctrl-lg-hover",
+          "8px / 6px"
+        ],
+        [
+          "--smtc-corner-ctrl-lg-pressed",
+          "8px / 6px"
+        ],
+        [
+          "--smtc-corner-flyout-rest",
+          "8px / 6px"
+        ],
+        [
+          "--smtc-ctrl-badge-corner",
+          "8px / 6px"
+        ],
+        [
+          "--smtc-ctrl-badge-sm-corner",
+          "4px / 3px"
+        ],
+        [
+          "--smtc-ctrl-choice-checkbox-corner",
+          "4px / 3px"
+        ],
+        [
+          "--smtc-ctrl-list-corner-rest",
+          "4px / 3px"
+        ],
+        [
+          "--smtc-ctrl-list-corner-hover",
+          "4px / 3px"
+        ],
+        [
+          "--smtc-ctrl-list-corner-pressed",
+          "4px / 3px"
+        ],
+        [
+          "--smtc-corner-circular",
+          "9999px"
+        ],
+        [
+          "--bing-static-corner-rounded-none",
+          "0px"
+        ],
+        [
+          "--bing-static-corner-rounded-xxx-small",
+          "4px"
+        ],
+        [
+          "--bing-static-corner-rounded-xx-small",
+          "8px"
+        ],
+        [
+          "--bing-static-corner-rounded-x-small",
+          "12px"
+        ],
+        [
+          "--bing-static-corner-rounded-small",
+          "16px"
+        ],
+        [
+          "--bing-static-corner-rounded-medium",
+          "20px"
+        ],
+        [
+          "--bing-static-corner-rounded-large",
+          "24px"
+        ],
+        [
+          "--bing-static-corner-rounded-x-large",
+          "28px"
+        ],
+        [
+          "--bing-static-corner-rounded-xx-large",
+          "32px"
+        ]
+      ]
+    },
+    {
+      "id": "spacing",
+      "label": "Spacing",
+      "title": "48 spacing tokens",
+      "description": "Thirty-six padding tokens and twelve gap tokens control component density and content rhythm. Responsive pairs are Desktop / Mobile.",
+      "headers": [
+        "Token",
+        "Resolved value"
+      ],
+      "rows": [
+        [
+          "--bing-smtc-padding-ctrl-text-side-large",
+          "4px / 3px"
+        ],
+        [
+          "--bing-smtc-padding-ctrl-icon-only-text-top",
+          "4px / 3px"
+        ],
+        [
+          "--bing-smtc-padding-ctrl-icon-only-text-bottom",
+          "4px / 3px"
+        ],
+        [
+          "--bing-smtc-padding-ctrl-xs-horizontal",
+          "4px / 3px"
+        ],
+        [
+          "--bing-smtc-padding-ctrl-xlg-text-top",
+          "16px / 12px"
+        ],
+        [
+          "--bing-smtc-padding-ctrl-xlg-text-bottom",
+          "16px / 12px"
+        ],
+        [
+          "--bing-smtc-padding-ctrl-xlg-horizontal-default",
+          "20px / 16px"
+        ],
+        [
+          "--mai-smtc-padding-card-default",
+          "20px / 16px"
+        ],
+        [
+          "--mai-smtc-padding-list-card-default",
+          "8px / 6px"
+        ],
+        [
+          "--mai-smtc-padding-card-nested-default",
+          "12px"
+        ],
+        [
+          "--mai-smtc-padding-card-nested-xs-default",
+          "8px"
+        ],
+        [
+          "--smtc-ctrl-badge-gap",
+          "4px / 3px"
+        ],
+        [
+          "--smtc-ctrl-badge-padding",
+          "8px / 6px"
+        ],
+        [
+          "--smtc-ctrl-badge-sm-text-padding-top",
+          "2px"
+        ],
+        [
+          "--smtc-ctrl-badge-sm-text-padding-bottom",
+          "2px"
+        ],
+        [
+          "--smtc-gap-between-content-xxx-small",
+          "2px"
+        ],
+        [
+          "--smtc-gap-between-content-xx-small",
+          "4px / 3px"
+        ],
+        [
+          "--smtc-gap-between-content-x-small",
+          "8px / 6px"
+        ],
+        [
+          "--smtc-gap-between-content-small",
+          "12px / 9px"
+        ],
+        [
+          "--smtc-gap-between-content-medium",
+          "16px / 12px"
+        ],
+        [
+          "--smtc-gap-between-content-x-large",
+          "24px / 16px"
+        ],
+        [
+          "--smtc-gap-between-content-xx-large",
+          "36px / 26px"
+        ],
+        [
+          "--smtc-gap-inside-ctrl-to-secondary-icon",
+          "4px / 3px"
+        ],
+        [
+          "--smtc-padding-content-xx-large",
+          "48px / 34px"
+        ],
+        [
+          "--smtc-padding-content-xxx-large",
+          "80px / 56px"
+        ],
+        [
+          "--smtc-padding-ctrl-horizontal-default",
+          "12px / 9px"
+        ],
+        [
+          "--smtc-padding-ctrl-lg-horizontal-default",
+          "16px / 12px"
+        ],
+        [
+          "--smtc-padding-ctrl-lg-text-bottom",
+          "12px / 9px"
+        ],
+        [
+          "--smtc-padding-ctrl-lg-text-top",
+          "12px / 9px"
+        ],
+        [
+          "--smtc-padding-ctrl-sm-horizontal-default",
+          "8px / 6px"
+        ],
+        [
+          "--smtc-padding-ctrl-sm-text-bottom",
+          "3px"
+        ],
+        [
+          "--smtc-padding-ctrl-sm-text-top",
+          "3px"
+        ],
+        [
+          "--smtc-padding-ctrl-text-bottom",
+          "8px / 6px"
+        ],
+        [
+          "--smtc-padding-ctrl-text-side",
+          "2px"
+        ],
+        [
+          "--smtc-padding-ctrl-text-top",
+          "8px / 6px"
+        ],
+        [
+          "--smtc-padding-ctrl-sm-horizontal-icon-only",
+          "4px / 3px"
+        ],
+        [
+          "--smtc-gap-inside-ctrl-lg-to-secondary-icon",
+          "8px / 6px"
+        ],
+        [
+          "--smtc-ctrl-badge-sm-padding",
+          "4px / 3px"
+        ],
+        [
+          "--smtc-gap-between-content-none",
+          "0px"
+        ],
+        [
+          "--smtc-gap-between-content-large",
+          "20px"
+        ],
+        [
+          "--smtc-padding-content-none",
+          "0px"
+        ],
+        [
+          "--smtc-padding-content-xx-small",
+          "4px"
+        ],
+        [
+          "--smtc-padding-content-x-small",
+          "8px"
+        ],
+        [
+          "--smtc-padding-content-small",
+          "12px"
+        ],
+        [
+          "--smtc-padding-content-medium",
+          "16px"
+        ],
+        [
+          "--smtc-padding-content-large",
+          "20px"
+        ],
+        [
+          "--smtc-padding-content-x-large",
+          "24px"
+        ],
+        [
+          "--smtc-padding-content-xxx-small",
+          "2px"
+        ]
+      ]
+    },
+    {
+      "id": "depth",
+      "label": "Depth",
+      "title": "20 elevation tokens",
+      "description": "Shadow tokens define elevation for cards, buttons, flyouts, dialogs, overlays, and search controls.",
+      "headers": [
+        "Token",
+        "Resolved value"
+      ],
+      "rows": [
+        [
+          "--smtc-shadows-avatar",
+          "0 1px 3px 0 rgba(0, 0, 0, 0.15)"
+        ],
+        [
+          "--smtc-shadows-switch-thumb",
+          "0 0 0 1px rgba(0, 0, 0, 0.04), 0 3px 1px 0 rgba(0, 0, 0, 0.06), 0 3px 8px 0 rgba(0, 0, 0, 0.15)"
+        ],
+        [
+          "--smtc-shadows-button-neutral",
+          "0 0.5px 0.5px 0.5px #fff inset, 0 1px 3px 0 rgba(0, 0, 0, 0.15)"
+        ],
+        [
+          "--smtc-shadows-button-brand",
+          "0 1px 3px 0 rgba(0, 0, 0, 0.15)"
+        ],
+        [
+          "--bing-smtc-shadows-card",
+          "0 0 0 1px rgba(0, 0, 0, 0.05)"
+        ],
+        [
+          "--smtc-shadows-card",
+          "0 0 0 1px rgba(0, 0, 0, 0.1)"
+        ],
+        [
+          "--bing-smtc-shadows-card-hover-1",
+          "0 0 0 1px rgba(0, 0, 0, 0.05), 0 2px 4px 1px rgba(0, 0, 0, 0.14)"
+        ],
+        [
+          "--bing-smtc-shadows-card-hover-strong-1",
+          "0 0 0 1px rgba(0, 0, 0, 0.08), 0 2px 4px 1px rgba(0, 0, 0, 0.16)"
+        ],
+        [
+          "--bing-smtc-shadows-flyout",
+          "0 0 0 1px rgba(0, 0, 0, 0.05), 0 2px 4px 1px rgba(0, 0, 0, 0.18)"
+        ],
+        [
+          "--bing-smtc-shadows-card-hover-3",
+          "0 0 0 1px rgba(0, 0, 0, 0.05), 0 4px 12px 1px rgba(0, 0, 0, 0.14)"
+        ],
+        [
+          "--smtc-shadows-tooltip",
+          "-5px 4px 12px 0 rgba(0, 0, 0, 0.1)"
+        ],
+        [
+          "--smtc-shadows-dialog",
+          "-5px 4px 12px 0 rgba(0, 0, 0, 0.1)"
+        ],
+        [
+          "--smtc-shadows-flyout",
+          "-5px 4px 12px 0 rgba(0, 0, 0, 0.1)"
+        ],
+        [
+          "--smtc-shadows-floating-action-button-rest",
+          "0 0 0 1px rgba(0, 0, 0, 0.05), 0 4px 12px 1px rgba(0, 0, 0, 0.14)"
+        ],
+        [
+          "--smtc-shadows-floating-action-button-hover",
+          "0 0 0 1px rgba(0, 0, 0, 0.05), 0 4px 12px 1px rgba(0, 0, 0, 0.14)"
+        ],
+        [
+          "--smtc-shadows-floating-action-button-pressed",
+          "0 0 0 1px rgba(0, 0, 0, 0.05), 0 4px 12px 1px rgba(0, 0, 0, 0.14)"
+        ],
+        [
+          "--bing-smtc-shadows-overlay",
+          "0 0 0 1px rgba(0, 0, 0, 0.05), 0 4px 12px 1px rgba(0, 0, 0, 0.14)"
+        ],
+        [
+          "--bing-smtc-shadows-search-box-rest",
+          "0 1px 3px 0 rgba(0, 0, 0, 0.15), 0 0 0 0 rgba(0, 0, 0, 0.00), 0 0 1px 0 rgba(0, 0, 0, 0.15), 0 2px 6px 0 rgba(244, 190, 146, 0.18)"
+        ],
+        [
+          "--bing-smtc-shadows-search-box-hover",
+          "0 4px 6px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.03), 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 4px 12px 0 rgba(244, 190, 146, 0.18)"
+        ],
+        [
+          "--bing-smtc-shadows-search-box-active",
+          "0 8px 12px 0 rgba(0, 0, 0, 0.08), 0 4px 8px 0 rgba(0, 0, 0, 0.03), 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 8px 24px 0 rgba(244, 190, 146, 0.18)"
+        ]
+      ]
+    },
+    {
+      "id": "motion",
+      "label": "Motion",
+      "title": "16 motion tokens",
+      "description": "Duration tokens pair with entrance, exit, elastic, linear, and persistent motion curves.",
+      "headers": [
+        "Token",
+        "Resolved value"
+      ],
+      "rows": [
+        [
+          "--smtc-duration-micro-01",
+          "50ms"
+        ],
+        [
+          "--smtc-duration-short-01",
+          "100ms"
+        ],
+        [
+          "--smtc-duration-medium-02",
+          "400ms"
+        ],
+        [
+          "--smtc-entrance-01",
+          "cubic-bezier(0, 0, 0, 1)"
+        ],
+        [
+          "--smtc-duration-mega-01",
+          "1000ms"
+        ],
+        [
+          "--smtc-entrance-02",
+          "cubic-bezier(0.14, 1, 0.34, 1)"
+        ],
+        [
+          "--smtc-exit-01",
+          "cubic-bezier(0.6, 0, 0.75, 0.4)"
+        ],
+        [
+          "--smtc-persistent-01",
+          "cubic-bezier(0.33, 0, 0, 1)"
+        ],
+        [
+          "--smtc-elastic-01",
+          "cubic-bezier(0.2, 1.5, 0.4, 1)"
+        ],
+        [
+          "--smtc-linear",
+          "cubic-bezier(0, 0, 1, 1)"
+        ],
+        [
+          "--smtc-duration-short-02",
+          "200ms"
+        ],
+        [
+          "--smtc-duration-medium-01",
+          "300ms"
+        ],
+        [
+          "--bing-smtc-duration-long",
+          "800ms"
+        ],
+        [
+          "--bing-smtc-duration-longer",
+          "1200ms"
+        ],
+        [
+          "--bing-smtc-animation-ease-default",
+          "cubic-bezier(0.3, 0, 0.3, 1)"
+        ],
+        [
+          "--bing-smtc-animation-ease-loading",
+          "cubic-bezier(0, 0.2, 0.6, 0.6)"
+        ]
+      ]
+    },
+    {
+      "id": "effects",
+      "label": "Effects",
+      "title": "3 visual effects tokens",
+      "description": "Carousel fades and highlight-ring effects complete the 12-category production catalog.",
+      "headers": [
+        "Token",
+        "Resolved value"
+      ],
+      "rows": [
+        [
+          "--bing-smtc-ctrl-carousel-alt-stop-0",
+          "rgba(255, 255, 255, 0)"
+        ],
+        [
+          "--bing-smtc-ctrl-carousel-stop-0",
+          "rgba(255, 255, 255, 0)"
+        ],
+        [
+          "--bing-smtc-ctrl-highlight-ring-gradient-outline",
+          "linear-gradient(180deg, var(--bing-smtc-ctrl-highlight-ring-stroke-stop-1) 60%, var(--bing-smtc-ctrl-highlight-ring-stroke-stop-2) 100%)"
+        ]
+      ]
+    },
+    {
+      "id": "namespaces",
+      "label": "Architecture",
+      "title": "Three core namespaces",
+      "description": "Shared semantics, Bing-specific decisions, and MAI-aligned mappings stay distinct while remaining interoperable.",
+      "headers": [
+        "Namespace",
+        "Tokens"
+      ],
+      "rows": [
+        [
+          "--smtc-*",
+          "199 shared semantic tokens"
+        ],
+        [
+          "--bing-smtc-*",
+          "192 Bing-specific tokens"
+        ],
+        [
+          "--mai-smtc-*",
+          "26 MAI-aligned tokens"
+        ],
+        [
+          "Compatibility variables",
+          "9 additional shipped tokens"
+        ]
+      ]
+    },
+    {
+      "id": "catalogs",
+      "label": "Agent Lookups",
+      "title": "Three machine-readable catalogs",
+      "description": "Agents can query exact values, reverse-map colors, or identify the tokens consumed by a component without scanning prose.",
+      "headers": [
+        "File",
+        "Purpose"
+      ],
+      "rows": [
+        [
+          "assets/token-catalog.json",
+          "Token name, category, values, usage, and Figma mapping"
+        ],
+        [
+          "assets/color-lookup.json",
+          "Reverse lookup from raw color to semantic token"
+        ],
+        [
+          "assets/component-catalog.json",
+          "Component-to-token usage map"
+        ]
+      ]
+    }
+  ],
+  "reference": {
+    "title": "Four layers. One map for the full Bing SERP system.",
+    "headers": [
+      "Layer",
+      "Coverage",
+      "Current Scope"
+    ],
+    "rows": [
+      [
+        "Foundations",
+        "Tokens, color, typography, spacing, radius, elevation, motion, iconography, accessibility",
+        "9 reference docs"
+      ],
+      [
+        "Layout",
+        "Container-query grid, zones, section types, and card architecture",
+        "4 reference docs"
+      ],
+      [
+        "Components",
+        "Storybook-aligned controls, cards, content modules, and page structures",
+        "78 reference docs"
+      ],
+      [
+        "Patterns",
+        "Cross-cutting visual quality checks and implementation traps",
+        "2 reference docs"
+      ]
+    ],
+    "uses": [
+      {
+        "title": "Look Up Exact Values",
+        "description": "Query token, color, and component catalogs without scanning prose."
+      },
+      {
+        "title": "Understand the System",
+        "description": "Read foundations and layout rules before making implementation decisions."
+      },
+      {
+        "title": "Implement Components",
+        "description": "Follow anatomy, variants, states, dependencies, and usage guidance."
+      },
+      {
+        "title": "Check Visual Quality",
+        "description": "Apply the visual-quality checklist and known implementation traps."
+      }
+    ],
+    "principles": [
+      "Use semantic SMTC tokens with explicit fallbacks — never hardcode design values",
+      "Use @container serp and the 12 → 8 → 4 → 2 column system",
+      "Cards stay flat at rest; elevation is reserved for interaction and system UI",
+      "Dark mode resolves automatically through semantic tokens",
+      "Load only the references required for the task through progressive disclosure"
+    ]
+  },
+  "scenarios": [
+    {
+      "title": "SERP Prototyping",
+      "description": "Full search results page in minutes"
+    },
+    {
+      "title": "Answer Experience Exploration",
+      "description": "Describe an idea, see pixel-accurate UI immediately"
+    },
+    {
+      "title": "Design Spec Validation",
+      "description": "Verify tokens behave correctly in real UI"
+    },
+    {
+      "title": "Design-to-Dev Handoff",
+      "description": "Output is developer-ready HTML/CSS"
+    },
+    {
+      "title": "Multi-Theme Comparison",
+      "description": "Same layout, three themes, instant switch"
+    },
+    {
+      "title": "Responsive Testing",
+      "description": "Built-in 7-breakpoint adaptation, test by resizing browser"
+    }
+  ],
+  "cases": {
+    "title": "Two tasks, one skill.",
+    "generation": {
+      "title": "Structured Generation — Fast, accurate, coherent",
+      "description": "Generate cards, magazines, and layouts from a single prompt. Every output strictly follows the card and magazine specifications defined in the Bing Design Skill — tokens, spacing, typography, and layout rules are all enforced automatically, delivering high accuracy and strong visual coherence at speed.",
+      "examples": [
+        {
+          "label": "Movie Magazine",
+          "image": {
+            "src": "magazine-of-movies-templates.png",
+            "alt": "Movie magazine layout generated by the skill"
+          },
+          "description": "Generate a movie-themed magazine layout"
+        },
+        {
+          "label": "Person Magazine",
+          "image": {
+            "src": "magazine-of-peter-steinberger.png",
+            "alt": "Magazine layout for Peter Steinberger"
+          },
+          "description": "Generate a person-themed magazine with real web data"
+        },
+        {
+          "label": "Movie Card",
+          "image": {
+            "src": "card-of-movies-templates.png",
+            "alt": "Movie card generated by the skill"
+          },
+          "description": "Generate a movie-themed answer card with real data"
+        }
+      ]
+    },
+    "exploration": {
+      "title": "Design Exploration — News Go Wide",
+      "description": "An open-ended design exploration using the skill as a creative tool — from spec to multiple outputs in three steps.",
+      "steps": [
+        {
+          "title": "Prepare the Figma Reference",
+          "description": "Organize the current design file — summarize the PM spec, identify the existing vertical module (News Events + Related News), and define the design goal: redesign it into a single wide-format module.",
+          "images": [
+            {
+              "src": "figma-reference.png",
+              "alt": "Figma reference showing current module, current page, and target structure"
+            }
+          ],
+          "captions": []
+        },
+        {
+          "title": "Prompt Claude Code with Context",
+          "description": "Distill the design goal into a natural language prompt, provide the Figma link, and let Claude fetch the full context via MCP. The skill handles the rest — planning the approach, then generating multiple design directions.",
+          "images": [
+            {
+              "src": "input.png",
+              "alt": "Design brief prompt given to Claude"
+            }
+          ],
+          "captions": []
+        },
+        {
+          "title": "Review Multiple Outputs",
+          "description": "The skill generates a range of design directions — from conservative layouts that respect existing structure to divergent explorations that reimagine the module entirely. Below are two representative examples out of many.",
+          "images": [
+            {
+              "src": "output-1.png",
+              "alt": "Conservative design output — news module expanded to full width"
+            },
+            {
+              "src": "output-2.png",
+              "alt": "Divergent design output — reimagined news module with list-based layout"
+            }
+          ],
+          "captions": [
+            "▲ Conservative — faithful to existing page structure",
+            "▲ Divergent — reimagined layout with richer visual hierarchy"
+          ]
+        }
+      ]
+    }
+  },
+  "value": [
+    {
+      "label": "Workflow",
+      "before": "Pixel-by-pixel in Figma",
+      "after": "Describe intent, AI executes per spec"
+    },
+    {
+      "label": "Design System",
+      "before": "Static documentation to memorize",
+      "after": "Executable rules AI follows automatically"
+    },
+    {
+      "label": "Exploration",
+      "before": "Hours per direction",
+      "after": "Minutes per direction"
+    },
+    {
+      "label": "Consistency",
+      "before": "Manual token adherence",
+      "after": "Guaranteed by the skill"
+    },
+    {
+      "label": "Responsive",
+      "before": "Separate mobile artboards",
+      "after": "Default in every output"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Plan Mode First",
+      "description": "Use Plan Mode to describe your requirements clearly before execution. This significantly reduces errors and back-and-forth iterations."
+    },
+    {
+      "title": "Work in Steps",
+      "description": "Break tasks into stages — get the structure right first, then fill in real data later. Incremental progress beats one-shot perfection."
+    },
+    {
+      "title": "Write a Good CLAUDE.md",
+      "description": "When working on a dedicated project, a well-written CLAUDE.md gives the AI persistent context and dramatically improves output consistency."
+    },
+    {
+      "title": "Accept Minor Variance",
+      "description": "Small detail differences are normal — not every deviation is a skill bug. Prompts in English tend to yield more predictable results."
+    }
+  ],
+  "future": [
+    {
+      "title": "Vertical Expansion",
+      "description": "Extend to Image, Video, News verticals"
+    },
+    {
+      "title": "Figma Bidirectional Sync",
+      "description": "Extract specs from Figma, push generated UI back"
+    },
+    {
+      "title": "Automated Design QA",
+      "description": "Use skill specs as baseline to audit live pages"
+    },
+    {
+      "title": "Team Standardization",
+      "description": "Same skill ensures consistent output across all contributors"
+    },
+    {
+      "title": "Living Design System",
+      "description": "Update token files, all future generation inherits changes"
+    }
+  ]
+}

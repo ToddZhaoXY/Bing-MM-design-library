@@ -1,5 +1,5 @@
 export const systems = Object.freeze([
-  Object.freeze({ id: 'mm-image', label: 'MM Image' }),
+  Object.freeze({ id: 'mm-image', label: 'Image' }),
   Object.freeze({ id: 'aigc', label: 'AIGC' }),
   Object.freeze({ id: 'video', label: 'Video' }),
 ]);

@@ -1,0 +1,46 @@
+{
+  "source": {
+    "url": "https://toddzhaoxy.github.io/bing-design-skill-homepage/",
+    "retrieved": "2026-11-18",
+    "sha256": "052c92683731856b31b237a2fd9ff73592db288685df0452e4d7e386d20ce9d5"
+  },
+  "contentSha256": "1c74f8efda96d8f7d22b64ed2c081fdbd17ba6ddb3e716740d66b7326fc739ca",
+  "assets": {
+    "siliang-pi-silpi.png": {
+      "sourceFile": "Siliang Pi_@silpi.png",
+      "sha256": "66d0c7caae6a5d762622b0e8a96d2c3ddcae1c699a0f08ccf5b2520c1d8e8f4d"
+    },
+    "xingyu-zhao-v-zhaoxingyu.png": {
+      "sourceFile": "Xingyu Zhao @v-zhaoxingyu.png",
+      "sha256": "9212bbb87bea1a47acc9b595b1d8dc403b39291cb71770e5757dd0e22a4e3c5f"
+    },
+    "magazine-of-movies-templates.png": {
+      "sourceFile": "Magazine_of_movies_templates.png",
+      "sha256": "b08b43ca9e6e3b2b3076b75d3576aa2cf10e28f081d5deaa52f613f40928097a"
+    },
+    "magazine-of-peter-steinberger.png": {
+      "sourceFile": "Magazine_of_Peter_Steinberger.png",
+      "sha256": "779d01e531d0a23f2d339adea9c4a6fe6673e9b2544e1dcb33092078d1ffdba0"
+    },
+    "card-of-movies-templates.png": {
+      "sourceFile": "Card_of_movies_templates.png",
+      "sha256": "b9d3c82b2a9dfea93c8c593e53f572abdde35d80f3c95d7cf0ceef60bafd4897"
+    },
+    "figma-reference.png": {
+      "sourceFile": "Figma Reference.png",
+      "sha256": "9063bdf249653debf5f9299751a2c1943fe561d42537a0c20b75e5617180d082"
+    },
+    "input.png": {
+      "sourceFile": "INPUT.png",
+      "sha256": "9a463ef40370bd4e2c51d86aacad61d326864e60a7484a7baf98fba3797695a6"
+    },
+    "output-1.png": {
+      "sourceFile": "Output_1.png",
+      "sha256": "ffd1b73235422f97f9c44b8855adea5759258d293c6670acab27cc9ddab2e4c4"
+    },
+    "output-2.png": {
+      "sourceFile": "Output_2.png",
+      "sha256": "b5bdc25343432652f2efcaeb2f407942d2a9bfb05d0b7384ca59ebb35f2642c7"
+    }
+  }
+}

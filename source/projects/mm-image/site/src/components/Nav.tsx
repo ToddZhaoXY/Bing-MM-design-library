@@ -1,7 +1,7 @@
 import { LibraryNav } from './LibraryNav'
 import type { LibraryNavGroup, LibraryNavNode } from './LibraryNav'
-import { byTier, partsOf } from '../data/components'
-import type { ComponentDef } from '../data/components'
+import { byTier, partsOf, components } from '../data/overview-data'
+type ComponentDef = (typeof components)[number]
 
 const tiers = ['Molecule', 'Cell', 'Organism'] as const
 const componentNode = (component: ComponentDef): LibraryNavNode => ({
@@ -16,5 +16,5 @@ const groups: LibraryNavGroup[] = [
 ]
 
 export function Nav() {
-  return <LibraryNav brand="MMACF" description="Multimedia ACF · component library" groups={groups} />
+  return <LibraryNav brand="Image" description="Image · component library" groups={groups} />
 }

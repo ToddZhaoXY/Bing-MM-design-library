@@ -18,6 +18,7 @@ export async function sourceUpdates() {
   for (const entry of ledger.files) {
     const allowed = entry.path.startsWith('projects/mm-image/site/') ||
       /^projects\/(aigc|video)\/site\/src\/components\/Nav\.tsx$/.test(entry.path) ||
+      /^projects\/(mm-image|aigc|video)\/site\/(src\/(main\.tsx|pages\/Home\.tsx)|vite\.config\.ts)$/.test(entry.path) ||
       videoCorrections.has(entry.path)
     if (!allowed || updates.has(entry.path) ||
         !/^[a-f0-9]{64}$/.test(entry.before) || !/^[a-f0-9]{64}$/.test(entry.after)) {

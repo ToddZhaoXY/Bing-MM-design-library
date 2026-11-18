@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { systems, parseRoute, formatRoute, normalizeChildRoute, nextTabIndex } from '../shell/routing.mjs';
 
-test('the only three systems are MM Image, AIGC and Video, in that order', () => {
-  assert.deepEqual(systems.map(system => system.label), ['MM Image', 'AIGC', 'Video']);
+test('the only three systems are Image, AIGC and Video, in that order', () => {
+  assert.deepEqual(systems.map(system => system.label), ['Image', 'AIGC', 'Video']);
 });
 
 test('all systems support home and deep links with query strings', () => {
@@ -16,7 +16,7 @@ test('all systems support home and deep links with query strings', () => {
   }
 });
 
-test('unknown hashes fall back to MM Image without navigating off site', () => {
+test('unknown hashes fall back to Image without navigating off site', () => {
   for (const hash of ['', '#/', '#/other/playground', '#video', '#/video-evil/', '#https://example.org']) {
     assert.deepEqual(parseRoute(hash), { id: 'mm-image', route: '/' });
   }

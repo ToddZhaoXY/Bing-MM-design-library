@@ -85,7 +85,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid #2859a6; outline-offs
 @media (max-width: 600px) {
   .portal-header { top: 20px; right: 16px; left: 16px; display: flex; justify-content: flex-end; }
   .header-links { gap: 0; padding: 2px 4px; }
-  .header-links a { min-height: 44px; padding-inline: 15px; font-size: .8125rem; }
+  .header-links a { min-height: 44px; padding-inline: clamp(8px, 2.5vw, 15px); font-size: .8125rem; }
   .waterfall { inset-inline: -88px; gap: 16px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .flow-column:nth-child(5) { display: none; }
   .flow-column { opacity: .65; }

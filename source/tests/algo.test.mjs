@@ -29,7 +29,7 @@ test('flat Algo asset paths retain templates, query strings, and external destin
   assert.deepEqual(Array.from(context.result), ['algo-public-assets-mobile-rich-yahoo.png', 'algo-public-assets-mm-yahoo.png', 'algo-sectional-nav.html?device=mobile#playground', 'https://example.com/sectional-nav.html', 'algo.html']);
 });
 
-test('every Algo documentation page has real four-way links and a separate global home destination', async () => {
+test('every Algo documentation page has real five-way links and a separate global home destination', async () => {
   const docPages = files.filter(file => file.endsWith('.html'));
   for (const file of docPages) {
     const html = await readFile(join(root, 'dist', algoName(file)), 'utf8');
@@ -37,6 +37,7 @@ test('every Algo documentation page has real four-way links and a separate globa
     assert.match(html, /<a class="brand" href="\.\/index.html"/);
     for (const [id] of libraries) assert.ok(html.includes(`href="./${id}.html#/"`), `${file}: ${id}`);
     assert.match(html, /feature-nav-item active[^>]+aria-current="page"/);
+    assert.doesNotMatch(html, /data-algo-collapse|class="nav__toggle"/);
     assert.ok(html.includes('href="algo.html"'), `${file}: Algo intro link`);
   }
 });
@@ -55,7 +56,9 @@ test('navigation expansion survives switching libraries and unavailable browser 
     };
     runInNewContext(script, context);
     assert.equal(attrs['aria-expanded'], String(saved !== 'false'));
+    assert.equal(bodyClasses.has('feature-nav-animated'), false);
     listeners.click();
+    assert.equal(bodyClasses.has('feature-nav-animated'), true);
     assert.equal(attrs['aria-expanded'], String(saved === 'false'));
     assert.equal(tooltip.textContent, saved === 'false' ? 'Collapse navigation' : 'Expand navigation');
     if (saved !== 'throw') assert.equal(storage.get('aixa-library-navigation-expanded'), String(saved === 'false'));

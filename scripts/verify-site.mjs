@@ -9,8 +9,18 @@ export const repository = dirname(dirname(fileURLToPath(import.meta.url)));
 export async function verifySite(directory = repository) {
   const manifest = JSON.parse(await readFile(join(directory, 'BUILD-MANIFEST.json'), 'utf8'));
   assert.equal(manifest.packaging, 'flat-no-base');
-  for (const entry of ['index.html', 'mm-image.html', 'aigc.html', 'video.html', 'algo.html']) {
+  for (const entry of ['index.html', 'tokens.html', 'mm-image.html', 'aigc.html', 'video.html', 'algo.html']) {
     assert.ok(Object.hasOwn(manifest.files, entry), `Missing entry: ${entry}`);
+  }
+  for (const [id, entry] of Object.entries(manifest.entries)) {
+    if (!entry.graph) continue;
+    const deferred = Object.values(entry.graph).map(module => module.file).filter(Boolean).sort();
+    assert.deepEqual(deferred, [...entry.deferredFiles].sort(), `${id}: inconsistent deferred manifest`);
+    for (const file of deferred) assert.ok(Object.hasOwn(manifest.files, file), `${id}: missing deferred script ${file}`);
+    for (const [name, module] of Object.entries(entry.graph)) {
+      for (const dependency of module.dependencies) assert.ok(Object.hasOwn(entry.graph, dependency), `${id}/${name}: unknown dependency ${dependency}`);
+      if (!module.file) assert.ok(entry.initialModules.includes(name), `${id}: unbundled initial module ${name}`);
+    }
   }
   let references = 0;
   for (const [file, expected] of Object.entries(manifest.files)) {
@@ -41,5 +51,5 @@ export async function verifySite(directory = repository) {
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const { manifest, references } = await verifySite();
   await access(join(repository, '.nojekyll'));
-  console.log(`Verified ${Object.keys(manifest.files).length} files, five library/home entries and ${references} root/subpath resource references.`);
+  console.log(`Verified ${Object.keys(manifest.files).length} files, six library/home entries and ${references} root/subpath resource references.`);
 }

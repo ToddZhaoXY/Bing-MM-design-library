@@ -1,0 +1,283 @@
+{
+  "components": [
+    {
+      "slug": "slideshow",
+      "name": "SlideShow",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "image-tile",
+      "name": "Image Tile",
+      "tier": "Molecule",
+      "partOf": null
+    },
+    {
+      "slug": "badge",
+      "name": "Badge",
+      "tier": "Molecule",
+      "partOf": null
+    },
+    {
+      "slug": "meta-data",
+      "name": "Meta data",
+      "tier": "Molecule",
+      "partOf": "image-tile"
+    },
+    {
+      "slug": "source",
+      "name": "source",
+      "tier": "Molecule",
+      "partOf": "image-tile"
+    },
+    {
+      "slug": "image-action-cluster",
+      "name": "Image action cluster",
+      "tier": "Molecule",
+      "partOf": "image-tile"
+    },
+    {
+      "slug": "image-overflow-flyout",
+      "name": "Image overflow flyout",
+      "tier": "Molecule",
+      "partOf": "image-tile"
+    },
+    {
+      "slug": "rs-inline",
+      "name": "RS Inline",
+      "tier": "Cell",
+      "partOf": "rs-card"
+    },
+    {
+      "slug": "image-cluster",
+      "name": "Image Cluster",
+      "tier": "Cell",
+      "partOf": "rs-card"
+    },
+    {
+      "slug": "rs-on-top",
+      "name": "RS on Top",
+      "tier": "Cell",
+      "partOf": "rs-card"
+    },
+    {
+      "slug": "rs-card",
+      "name": "RS Card",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "rs-pill",
+      "name": "RS Pill",
+      "tier": "Molecule",
+      "partOf": null
+    },
+    {
+      "slug": "image-cards",
+      "name": "Image cards",
+      "tier": "Molecule",
+      "partOf": null
+    },
+    {
+      "slug": "content",
+      "name": "Content",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "filter",
+      "name": "Filter",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "header",
+      "name": "Header",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "footer",
+      "name": "Footer",
+      "tier": "Cell",
+      "partOf": null
+    },
+    {
+      "slug": "serp-image-answer",
+      "name": "SERP · Image Answer",
+      "tier": "Organism",
+      "partOf": null
+    },
+    {
+      "slug": "irp-whole-page",
+      "name": "IRP · Whole Page",
+      "tier": "Organism",
+      "partOf": null
+    }
+  ],
+  "mosaicCoverage": [
+    {
+      "slug": "slideshow",
+      "status": "partial"
+    },
+    {
+      "slug": "image-cards",
+      "status": "partial"
+    },
+    {
+      "slug": "image-tile",
+      "status": "partial"
+    },
+    {
+      "slug": "badge",
+      "status": "available"
+    },
+    {
+      "slug": "meta-data",
+      "status": "available"
+    },
+    {
+      "slug": "source",
+      "status": "partial"
+    },
+    {
+      "slug": "image-action-cluster",
+      "status": "candidate"
+    },
+    {
+      "slug": "image-overflow-flyout",
+      "status": "candidate"
+    },
+    {
+      "slug": "rs-inline",
+      "status": "partial"
+    },
+    {
+      "slug": "image-cluster",
+      "status": "partial"
+    },
+    {
+      "slug": "rs-on-top",
+      "status": "partial"
+    },
+    {
+      "slug": "rs-card",
+      "status": "partial"
+    },
+    {
+      "slug": "rs-pill",
+      "status": "partial"
+    },
+    {
+      "slug": "content",
+      "status": "partial"
+    },
+    {
+      "slug": "filter",
+      "status": "candidate"
+    },
+    {
+      "slug": "header",
+      "status": "partial"
+    },
+    {
+      "slug": "footer",
+      "status": "partial"
+    },
+    {
+      "slug": "serp-image-answer",
+      "status": "partial"
+    },
+    {
+      "slug": "irp-whole-page",
+      "status": "partial"
+    }
+  ],
+  "mosaicCatalogSnapshot": {
+    "generatedAt": "2026-08-14T07:07:05Z",
+    "mosaicCliVersion": "1.0.969",
+    "schemaSet": "full",
+    "componentCount": 32
+  },
+  "imageCardSummaries": [
+    {
+      "size": "2x2",
+      "width": 200,
+      "height": 200,
+      "variantCount": 1
+    },
+    {
+      "size": "3x2",
+      "width": 312,
+      "height": 200,
+      "variantCount": 5
+    },
+    {
+      "size": "4x2",
+      "width": 424,
+      "height": 200,
+      "variantCount": 3
+    },
+    {
+      "size": "5x2",
+      "width": 536,
+      "height": 200,
+      "variantCount": 2
+    },
+    {
+      "size": "2x4",
+      "width": 200,
+      "height": 424,
+      "variantCount": 1
+    },
+    {
+      "size": "3x4",
+      "width": 312,
+      "height": 424,
+      "variantCount": 10
+    },
+    {
+      "size": "4x4",
+      "width": 424,
+      "height": 424,
+      "variantCount": 6
+    },
+    {
+      "size": "5x4",
+      "width": 536,
+      "height": 424,
+      "variantCount": 9
+    },
+    {
+      "size": "6x4",
+      "width": 648,
+      "height": 424,
+      "variantCount": 5
+    },
+    {
+      "size": "8x4",
+      "width": 872,
+      "height": 424,
+      "variantCount": 2
+    },
+    {
+      "size": "9x4",
+      "width": 984,
+      "height": 424,
+      "variantCount": 1
+    },
+    {
+      "size": "11x4",
+      "width": 1208,
+      "height": 424,
+      "variantCount": 1
+    },
+    {
+      "size": "11x2",
+      "width": 1208,
+      "height": 200,
+      "variantCount": 3
+    }
+  ],
+  "imageCardsFigmaUrl": "https://www.figma.com/design/9yILIRLGDWRBLMqbs5hkoZ/MM-ACF-FY25?node-id=2216-1178"
+}

@@ -1,0 +1,131 @@
+@font-face{font-family:"Source Sans Pro";src:url("./algo-public-assets-fonts-source-sans-pro-SourceSansPro-Regular.ttf") format("truetype");font-style:normal;font-weight:400 500;font-display:swap}
+@font-face{font-family:"Source Sans Pro";src:url("./algo-public-assets-fonts-source-sans-pro-SourceSansPro-Semibold.ttf") format("truetype");font-style:normal;font-weight:600;font-display:swap}
+@font-face{font-family:"Source Sans Pro";src:url("./algo-public-assets-fonts-source-sans-pro-SourceSansPro-Bold.ttf") format("truetype");font-style:normal;font-weight:700;font-display:swap}
+
+/* Shared AIXA frame. The feature rail is adapted from Algo Library V8. */
+body[data-hub-system] { background: #f5f5f5; }
+body[data-library="home"] { --feature-nav-width: 56px; --library-gutter: 24px; background: #f5f5f5; }
+body[data-library].feature-nav-expanded { --feature-nav-width: 144px; }
+.library-header { position: sticky; top: 0; z-index: 20; height: 72px; display: flex; align-items: center; padding: 0 28px; background: #f5f5f5; color: #242424; font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.library-home { display: inline-flex; align-items: center; min-height: 44px; color: inherit; text-decoration: none; }
+.library-home__name { font-size: 19px; line-height: 1.4; font-weight: 500; }
+.library-home:hover { color: #626262; }
+.library-header a:focus-visible { outline: 2px solid #5254d4; outline-offset: 4px; }
+.feature-nav{position:fixed;left:var(--library-gutter,24px);top:96px;width:var(--feature-nav-width,56px);display:grid;gap:8px;padding:16px 12px;border-radius:32px;background:var(--surface,#fff);box-shadow:var(--shadow,0 6px 24px rgb(0 0 0 / 4%));z-index:10}
+.feature-nav-item{position:relative;display:flex;align-items:center;gap:6px;height:32px;overflow:hidden;white-space:nowrap;color:color-mix(in srgb,var(--text,#242424) 70%,transparent);font-size:14px;font-weight:400;line-height:21px}
+.feature-nav-item svg{width:18px;height:18px;margin:7px;flex:none;display:block;color:color-mix(in srgb,var(--text,#242424) 80%,transparent)}
+.feature-nav-label{visibility:hidden}
+.feature-nav-expanded .feature-nav-label{visibility:visible}
+.feature-nav-item.active{color:var(--text,#242424);font-weight:700}
+.feature-nav-item.active svg{color:var(--text,#242424)}
+.feature-nav-item:before{content:"";position:absolute;left:0;top:7px;width:2px;height:18px;border-radius:2px;background:transparent}
+.feature-nav-item:hover{color:var(--text,#242424)}
+.feature-nav-item:hover svg{color:var(--text,#242424)}
+.feature-nav-item:is(.active,:hover):before{background:currentColor}
+.feature-nav-toggle{position:relative;display:grid;place-items:center;width:32px;height:32px;margin-top:84px;padding:0;border:0;border-radius:6px;background:transparent;color:var(--secondary,#555);cursor:pointer}
+.feature-nav-toggle:hover{color:var(--text,#242424)}
+.feature-nav-toggle svg{width:20px;height:20px}
+.feature-nav-tooltip{position:absolute;left:calc(100% + 8px);top:50%;transform:translateY(-50%);padding:5px 9px;border-radius:8px;background:var(--strong,#222);color:var(--on-strong,#fff);font-size:12px;font-weight:400;line-height:18px;white-space:nowrap;visibility:hidden;opacity:0;pointer-events:none;z-index:1}
+.feature-nav-tooltip:before{content:"";position:absolute;right:100%;top:50%;transform:translateY(-50%);border:5px solid transparent;border-right-color:var(--strong,#222)}
+.feature-nav-toggle:is(:hover,:focus-visible) .feature-nav-tooltip{visibility:visible;opacity:1}
+.feature-nav-toggle:focus-visible{outline:2px solid var(--strong,#222);outline-offset:3px}
+
+.feature-nav { font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+a.feature-nav-item { text-decoration: none; }
+a.feature-nav-item:focus-visible { outline: 2px solid #5254d4; outline-offset: 2px; border-radius: 4px; }
+body[data-hub-system] #root > .app { min-height: calc(100vh - 72px); align-items: flex-start; gap: 32px; padding: 24px 24px 0 86px; }
+body[data-hub-system] #root > .app > .nav { top: 96px; height: calc(100dvh - 120px); }
+body[data-library="home"] .home-canvas { margin-left: calc(24px + var(--feature-nav-width) + 24px); width: calc(100% - 48px - var(--feature-nav-width)); height: calc(100svh - 72px); }
+.library-startup { margin: 24px 24px 24px 80px; padding: 28px; border: 1px solid #e5e5e5; border-radius: 24px; background: #fff; color: #202020; font: 14px/1.6 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+.library-startup[hidden] { display: none; }
+.library-startup p { margin: 0 0 12px; max-width: 75ch; }
+.library-startup .startup-title { font-size: 18px; font-weight: 600; }
+.library-startup--error { border-color: #d7a295; background: #fff7f4; }
+.startup-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+.startup-actions a { color: #242424; text-decoration: underline; text-underline-offset: 3px; }
+.startup-actions button { font: inherit; padding: 8px 16px; background: #242424; color: #fff; border: 0; border-radius: 999px; cursor: pointer; }
+/* Keep layout-only variables out of React specimen snapshots and HTML exports. */
+@media (min-width: 900px) {
+  body[data-hub-system].feature-nav-expanded > .feature-nav { width: 144px; }
+  body[data-hub-system].feature-nav-expanded #root > .app { padding-left: 174px; }
+  body[data-hub-system].feature-nav-expanded .library-startup { margin-left: 168px; }
+}
+@media (max-width: 1199px) and (min-width: 900px) {
+  body[data-hub-system] #root > .app { gap: 24px; }
+  body[data-hub-system] #root > .app > .nav:not(.nav--collapsed) { width: 192px; flex-basis: 192px; }
+}
+@media (max-width: 899px) {
+  .library-header { height: 64px; padding: 0 16px; }
+  .library-home__name { font-size: 17px; }
+  body[data-library="home"] { --feature-nav-width: 56px; --library-gutter: 12px; }
+  body:not([data-library="algo"]) > .feature-nav { top: 80px; left: 12px; padding-inline: 8px; width: 48px; border-radius: 24px; }
+  body:not([data-library="algo"]) > .feature-nav .feature-nav-label { visibility: hidden; }
+  body:not([data-library="algo"]) > .feature-nav .feature-nav-toggle { display: none; }
+  body[data-hub-system] #root > .app { display: flex; flex-direction: column; gap: 16px; padding: 16px 12px 0 72px; }
+  body[data-hub-system] #root > .app > .nav { position: relative; top: auto; height: auto; max-height: 240px; width: 100%; flex-basis: auto; border-radius: 24px; }
+  body[data-hub-system] #root > .app > .nav.nav--collapsed { width: 52px; }
+  body[data-library="home"] .home-canvas { margin-left: 72px; width: calc(100% - 72px); height: calc(100svh - 64px); }
+  body[data-library="home"] .hero { width: calc(100% - 24px); }
+  body[data-library="home"] .hero h1 { font-size: clamp(2rem, 6vw, 3.75rem); }
+  body[data-library="home"] .hero p { font-size: .875rem; }
+  .library-startup { margin: 16px 12px 16px 72px; padding: 20px; }
+}
+@media (pointer: coarse) { .feature-nav-item { min-height: 44px; } .feature-nav-toggle { min-height: 44px; } }
+@media (forced-colors: active) { .feature-nav-item.active { outline: 2px solid CanvasText; } }
+
+/* This visibility timer contains no motion. Keep it even when a library disables
+   animations for reduced motion, so a slow load cannot remain invisible. */
+.library-startup { visibility: hidden; animation: library-startup-reveal 0s 400ms forwards !important; }
+@keyframes library-startup-reveal { to { visibility: visible; } }
+.library-startup--slow, .library-startup--error { visibility: visible; animation: none !important; }
+.startup-actions[hidden] { display: none; }
+/* Hide in the same style update as the app mount, even if the watchdog is delayed. */
+body[data-hub-system]:has(#root > *) > .library-startup { display: none; }
+
+/* Match the secondary navigation and documentation columns while booting. */
+body[data-hub-system] .library-startup { margin: 24px 24px 0 86px; padding: 0; border: 0; border-radius: 0; background: transparent; }
+.aixa-startup-skeleton { display: grid; grid-template-columns: 244px minmax(0, 1fr); gap: 32px; }
+.aixa-skeleton__nav { min-height: calc(100dvh - 120px); padding: 36px 24px; }
+.aixa-skeleton__nav .aixa-skeleton__line { margin-block: 28px; }
+.library-startup:not(.library-startup--slow):not(.library-startup--error) .startup-status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.library-startup--slow .startup-status { margin-top: 20px; padding: 24px; background: #fff; border-radius: 24px; }
+.library-startup--error .aixa-startup-skeleton { display: none; }
+.library-startup--error .startup-status { padding: 28px; border: 1px solid #d7a295; border-radius: 24px; background: #fff7f4; }
+@media (min-width: 900px) { body[data-hub-system].feature-nav-expanded .library-startup { margin-left: 174px; } }
+@media (min-width: 900px) and (max-width: 1199px) { .aixa-startup-skeleton { grid-template-columns: 192px minmax(0, 1fr); gap: 24px; } }
+@media (max-width: 899px) { body[data-hub-system] .library-startup { margin: 16px 12px 0 72px; } .aixa-startup-skeleton { display: block; } .aixa-skeleton__nav { min-height: 0; height: 200px; margin-bottom: 16px; overflow: hidden; border-radius: 24px; } }
+
+/* The rail and adjacent documentation move together, only after a user toggle. */
+@media (min-width: 900px) {
+  body > .feature-nav .feature-nav-label { opacity: 0; }
+  body.feature-nav-expanded > .feature-nav .feature-nav-label { opacity: 1; }
+  body.feature-nav-animated > .feature-nav {
+    transition: width 280ms cubic-bezier(.22, 1, .36, 1);
+  }
+  body[data-hub-system].feature-nav-animated #root > .app {
+    transition: padding-left 280ms cubic-bezier(.22, 1, .36, 1);
+  }
+  body[data-hub-system].feature-nav-animated .library-startup {
+    transition: margin-left 280ms cubic-bezier(.22, 1, .36, 1);
+  }
+  body[data-library="algo"].feature-nav-animated {
+    transition: grid-template-columns 280ms cubic-bezier(.22, 1, .36, 1);
+  }
+  body[data-library="algo"].feature-nav-animated > .side-nav {
+    transition: left 280ms cubic-bezier(.22, 1, .36, 1);
+  }
+  body.feature-nav-animated > .feature-nav .feature-nav-label {
+    transition: opacity 140ms ease-out, visibility 0s linear 140ms;
+  }
+  body.feature-nav-animated.feature-nav-expanded > .feature-nav .feature-nav-label {
+    transition: opacity 180ms ease-out 60ms, visibility 0s;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  body.feature-nav-animated,
+  body.feature-nav-animated > .feature-nav,
+  body.feature-nav-animated > .feature-nav .feature-nav-label,
+  body.feature-nav-animated #root > .app,
+  body.feature-nav-animated .library-startup,
+  body.feature-nav-animated > .side-nav { transition: none !important; }
+}

@@ -30,7 +30,6 @@ export function LibraryNav({ brand, description, groups, sourceUrl }: LibraryNav
   const { pathname } = useLocation()
   const prefix = useId()
   const navigation = useRef<HTMLElement>(null)
-  const [open, setOpen] = useState(true)
   const [expanded, setExpanded] = useState<Record<string, boolean>>({})
 
   // Navigation reveals the current branch. Manual disclosure choices remain in
@@ -53,7 +52,6 @@ export function LibraryNav({ brand, description, groups, sourceUrl }: LibraryNav
   }, [pathname, groups])
 
   useEffect(() => {
-    if (!open) return
     const frame = requestAnimationFrame(() => {
       const nav = navigation.current
       const current = nav?.querySelector<HTMLElement>('a[aria-current="page"]')
@@ -64,7 +62,7 @@ export function LibraryNav({ brand, description, groups, sourceUrl }: LibraryNav
       else if (inner.top < outer.top + 12) nav.scrollTop += inner.top - outer.top - 12
     })
     return () => cancelAnimationFrame(frame)
-  }, [pathname, open])
+  }, [pathname])
 
   const toggle = (key: string, current: boolean) => setExpanded(previous => ({ ...previous, [key]: !current }))
 
@@ -92,11 +90,8 @@ export function LibraryNav({ brand, description, groups, sourceUrl }: LibraryNav
     </li>
   }
 
-  return <nav ref={navigation} className={`nav nav--tree${open ? '' : ' nav--collapsed'}`} aria-label={`${brand} component library`}>
-    <button type="button" className="nav__toggle" onClick={() => setOpen(value => !value)}
-      aria-label={open ? 'Collapse navigation' : 'Expand navigation'} aria-expanded={open}
-      aria-controls="library-navigation" title={open ? 'Collapse navigation' : 'Expand navigation'}>{open ? '‹' : '›'}</button>
-    <div id="library-navigation" hidden={!open}>
+  return <nav ref={navigation} className="nav nav--tree" aria-label={`${brand} component library`}>
+    <div id="library-navigation">
       <div className="nav__brand"><h1>{brand}</h1><p>{description}</p></div>
       {groups.map(group => {
         const shown = expanded[`group:${group.id}`] ?? true

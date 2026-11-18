@@ -46,7 +46,7 @@ try {
    await page.screenshot({ path: join(out, `home-restored-${width}.png`) });
   }
   await page.setViewportSize({ width: 1440, height: 1000 });
-  for (const name of ['MM Image','AIGC','Video','Algo']) {
+  for (const name of ['Image','AIGC','Video','Algo']) {
    await page.goto(base + 'index.html', { waitUntil: 'networkidle' });
    await page.locator('.header-links').getByRole('link', { name, exact: true }).click();
    await page.waitForLoadState('networkidle');
@@ -73,7 +73,7 @@ try {
  // Switch via actual anchors, retain collapse preference and verify selected state.
  await page.goto(base + 'algo-algo-block.html');
  await page.getByRole('button', { name: 'Collapse library navigation', exact: true }).click();
- for (const [name, id] of [['MM Image library','mm-image'],['AIGC library','aigc'],['Video library','video'],['Algo library','algo']]) {
+ for (const [name, id] of [['Image library','mm-image'],['AIGC library','aigc'],['Video library','video'],['Algo library','algo']]) {
   await page.locator('body > .feature-nav').getByRole('link', { name, exact: true }).click();
   await page.waitForLoadState('networkidle');
   assert.equal(await page.locator('body > .feature-nav [aria-current="page"]').getAttribute('aria-label'), name);

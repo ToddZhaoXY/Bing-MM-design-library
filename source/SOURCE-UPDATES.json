@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "date": "2026-11-11",
-  "description": "User-requested FY25 Image cards and unified hierarchical navigation across MM Image, AIGC and Video. The sidebar uses one canonical component, collapsible tiers/parents, distinct hierarchy styles and active-path reveal. Original import ledgers remain unchanged. Added user-requested SlideShow Cell from MM-ACF: 12 source configurations, manual paging, source assets, local fonts and export integration. User-requested Video Magazine overlay positioning and complete-line text truncation fixes; source order and text-slot geometry checked against Figma. See qa/text-clipping/VERIFICATION.md. Synced the 2026-11-11 Figma update: 15 SlideShow configurations, Bottom bars + arrows in all three sizes, and removal of outer shadows.",
+  "date": "2026-11-18",
+  "description": "User-requested FY25 Image cards and unified hierarchical navigation across MM Image, AIGC and Video. The sidebar uses one canonical component, collapsible tiers/parents, distinct hierarchy styles and active-path reveal. Original import ledgers remain unchanged. Added user-requested SlideShow Cell from MM-ACF: 12 source configurations, manual paging, source assets, local fonts and export integration. User-requested Video Magazine overlay positioning and complete-line text truncation fixes; source order and text-slot geometry checked against Figma. See qa/text-clipping/VERIFICATION.md. Synced the 2026-11-11 Figma update: 15 SlideShow configurations, Bottom bars + arrows in all three sizes, and removal of outer shadows. User-requested startup optimization: lightweight generated overview statistics and lazy route boundaries; specimen renderers, registries and export behavior remain unchanged. User-requested Image naming: rename visible library branding without changing route IDs or exported component names.",
   "source": "https://www.figma.com/design/9yILIRLGDWRBLMqbs5hkoZ/MM-ACF-FY25?node-id=2216-1178",
   "files": [
     {
@@ -37,7 +37,7 @@
     {
       "path": "projects/mm-image/site/src/pages/Home.tsx",
       "before": "6647cb36ae380ab6005ea833b48f82ac6f860f28ebf9782da609ef21dfdd883f",
-      "after": "e80287e71cc8d9de3869c43b8565e7b58619e7394959ea01945414ce62b43574"
+      "after": "d1ef1d36c8eeee2815e34ac8bc56b93ccb66844554d03afb587b5e58f1793efd"
     },
     {
       "path": "projects/mm-image/site/src/pages/Playground.tsx",
@@ -57,17 +57,17 @@
     {
       "path": "projects/mm-image/site/src/components/Nav.tsx",
       "before": "3356fa72c5fdc06cfffa291b99010539fba6b4086ef1c04eb2c4f57bb4794fb5",
-      "after": "b5d6641a9853db7a20c28e6a30f1906399c2234880a17395e3eb24fbd00986c2"
+      "after": "e1ce1f35b38a354ea470c2270c004295e802ab7f674ceeb550926857246b1dbb"
     },
     {
       "path": "projects/aigc/site/src/components/Nav.tsx",
       "before": "197ed73b1394aa22101b68ec9342dcf7d600f0236c3afccac0a918802de5d254",
-      "after": "757f186dd47b74eb6c32d17e4c1a091d46d6f440f7e7dbca8a1b9d160c098bad"
+      "after": "d6f74309c8a37fd27420aa7f6bec4b46bdcc9b554f4b4cde535988842f94945a"
     },
     {
       "path": "projects/video/site/src/components/Nav.tsx",
       "before": "13be84b654dd806da8e3d0817eb95f8a6faf0e2cf33e552496f0ade7a5e6ccaa",
-      "after": "931dd83f53e7aaad1b10ced7a1396c93386b26e286bfceb52c153e516f6426b4"
+      "after": "f2b02bcc5037686ff5dc3fcdd355727545882363beedca03d2234ba428c54a39"
     },
     {
       "path": "projects/mm-image/site/src/components/Molecules.tsx",
@@ -98,6 +98,51 @@
       "path": "projects/video/site/tests/video-molecules.test.mjs",
       "before": "72b568ba37bbe1ff9edba95ae3af4fbbc6ce11be909b0aa2e22d886e0fc0b51e",
       "after": "ff898a81561d93d1df97049c10147117ca6ece8fc33f8a2091d317c3494eb3a9"
+    },
+    {
+      "path": "projects/mm-image/site/src/main.tsx",
+      "before": "95299089e007289e5387aa346e72ca2dfd1bfcf5c73b8e52b2b84ebf188a2053",
+      "after": "ab97c9536bca95696a98107f4ad61eca159dd6b37c606fda9851cc562c0b84da"
+    },
+    {
+      "path": "projects/mm-image/site/vite.config.ts",
+      "before": "673a74c6c76c76f3be534a2f43db608a84a9b65b7240510124a8a05d8a2c06f4",
+      "after": "c703e002824c5c5d87e03047931d81d9133bf5dc96afcd2025ec8183b69420d2"
+    },
+    {
+      "path": "projects/aigc/site/src/main.tsx",
+      "before": "c9f3e6a2d0b4e99d9245e9d04845b399a77049d6edbf64a563e66ac97ec26ce5",
+      "after": "5cb0bd87ae9fec4ad2765d55e02a02ca643f7068bceed84849a2f5cacfa6271f"
+    },
+    {
+      "path": "projects/aigc/site/src/pages/Home.tsx",
+      "before": "f8530f90168919f1671e91c47cab3239783d976b28e9f077e6148e0e534a5823",
+      "after": "6d0a3e9cffbb663f036988eee67a5f2bea61674f256f77c411db71ece276db3f"
+    },
+    {
+      "path": "projects/aigc/site/vite.config.ts",
+      "before": "db59755ac369d93e14d42b8360bcb089b21f1d78d6892d1e741bf2c940da569e",
+      "after": "c7d446ca59102be42402a64448d43e25c8bdfcd102682337b2b1e81f6c90f6b4"
+    },
+    {
+      "path": "projects/video/site/src/main.tsx",
+      "before": "ae80f3c9ea3892bc057239d652bf0883daf583f64b4e047780d4e20d3a902bc6",
+      "after": "874b8fe66470d6e784c061fb0b2205f2aa28dd1ef69261b25e31970df3a2ceda"
+    },
+    {
+      "path": "projects/video/site/src/pages/Home.tsx",
+      "before": "60100a46e7a8eaae162c7f7160fddbb6c859b6d34475b5e8d8fbf2513ba24335",
+      "after": "24365f8b65e7a7c3e06dc21945dfd66789cc07f994387eb8571b8ea83db8aefd"
+    },
+    {
+      "path": "projects/video/site/vite.config.ts",
+      "before": "8b093a57599f234f81d4363817fdc0a6aa117d9c2be3a3f52f5c5aa5c38fd2ba",
+      "after": "f9f6d69b4627e0f2b20dec5fbc76e77b10163a5b64d419b78035691dd28d9f73"
+    },
+    {
+      "path": "projects/mm-image/site/index.html",
+      "before": "789208633532f1769cd11825b7ef527ea27b31bd83bf5907eef23151b800669b",
+      "after": "acdb420d97760411ff144b50fedc63d111b9eb13dcfa7a54b01e4241d36f2b90"
     }
   ],
   "additionalSources": [
